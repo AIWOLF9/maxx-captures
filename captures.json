@@ -60,10 +60,16 @@
     "priority": "p-p1",
     "segment": "Launch",
     "type": "now",
-    "tags": "CRM - lead research, identification of correct leads, automated outreach, automated responses, nurturing, converting, and tracking all campaigns",
+    "tags": "CRM - lead research, identification of correct leads, automated outreach, automated responses, nurturing, converting, tracking all campaigns",
     "notes": "We want to use this for signal, but I believe we’re gonna need to use it also for other projects, including MAXX AI-DVISOR. \n\nI believe we started to look at some options in the last day or two in some of the go to market planning for platforms such as go high-level and HubSpot and others, but I don’t think we created a specific task for it. It’s just buried in one of the documents that highlight a number of moving parts, including a CRM for one of the create a specific task associated with it, and I guess we can link to the document accordingly which already has some research associated to CRM. \n\nWhere do you wanna connect to a solution that already allows us to connect to it through our connectors or plug-ins automatically so we can programmatically manage control track everything that has to happen. happen\n\nThey’re also other platforms that have their own databases of influencers that need to be used potentially separately. We need to review and research the best solutions.\n\nOne is - CLAYGENT - mass contact at scale automated influencers",
     "id": "cap-mpqyqtfxpm6",
-    "created": "2026-05-29T13:34:07.245Z"
+    "created": "2026-05-29T13:34:07.245Z",
+    "ventures": [
+      "v-signal"
+    ],
+    "segments": [
+      "Launch"
+    ]
   },
   {
     "title": "UNDERSTAND NEW OPUS 4.8 Features- DYNAMIC WORKFLOWS, ultra code- etc",
