@@ -93,10 +93,16 @@
     "priority": "p-p2",
     "segment": "Product",
     "type": "later",
-    "tags": "Transcript/video summary- eventually news summary, etc.",
+    "tags": "Transcript/video summary- eventually news summary",
     "notes": "Further ideation on how to create additional value for our premium SIGNAL - So I’ve been using some chrome extensions as I was looking for solutions to help grab YouTube transcripts and there were some websites but eventually I found these chrome extensions, but there are services that also have API in automations together transcripts and summaries at scale. \n\nWell, we wanna do ideally is two create this feature after we launch maybe the first few months as another premium feature that will allow someone to click on a button to get a summary of the video and the AI behind that will grab a summary and potentially another button to get the transcript. We can discuss how we wanna handle this.- maybe we want to create a Chrome extension that comes with the premium feature? There’s a bunch of them in the chrome extension store I’m using a few to test them out. \n\n\n\nMAXX SIGNAL- auto summarize with timestamp links- to save time. Save summary. Premium feature\n\nWe can look at what the additional options are for someone to be able to save a summary or the transcript? We can look at the other services and apps and see what they’re doing some provide basic services for free but then premium services. So we can look for the best ones. This is one of the ones I’m using now it seems to be one of the top players.  \n\nhttps://glasp.co/youtube-summary\n\n\nhttps://glasp.co/pricing",
     "id": "cap-mpqxmbmveqm",
-    "created": "2026-05-29T13:02:37.927Z"
+    "created": "2026-05-29T13:02:37.927Z",
+    "ventures": [
+      "v-signal"
+    ],
+    "segments": [
+      "Product"
+    ]
   },
   {
     "title": "EFFICIENCY AND OPTIMIZATION AGENT? Do we have one planned?",
