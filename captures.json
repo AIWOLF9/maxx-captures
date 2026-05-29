@@ -187,10 +187,16 @@
     "priority": "p-p2",
     "segment": "Agents",
     "type": "now",
-    "tags": "Social, viral strategies , social tools, social strategies",
+    "tags": "Social, viral strategies, social tools, social strategies",
     "notes": "Research and use all strategies tools in anything worth using insights in order to create virality skill, ability, and growth as quickly as possible. \n\nhttps://www.starterstory.com/\n\nhttps://build.starterstory.com/\n\nhttps://build.starterstory.com/programs/285/lessons/127287",
     "id": "cap-mpqvul5cr2r",
-    "created": "2026-05-29T12:13:04.272Z"
+    "created": "2026-05-29T12:13:04.272Z",
+    "ventures": [
+      "v-signal"
+    ],
+    "segments": [
+      "Agents"
+    ]
   },
   {
     "title": "Positive motivation, widget idea for signal",
