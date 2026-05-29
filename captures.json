@@ -1,5 +1,16 @@
 [
   {
+    "title": "Another research candidate for a skill for YouTube to be used with signal  https://github.com/yt-dlp/yt-dlp",
+    "venture": "v-signal",
+    "priority": "p-p1",
+    "segment": "Ops",
+    "type": "now",
+    "tags": "YouTube skill",
+    "notes": "https://github.com/yt-dlp/yt-dlp\n\n166k stars \n\nLet’s research this as a candidate for a tool that we can use as it relates to signal and being able to get what we need from you",
+    "id": "cap-mpraak22hgk",
+    "created": "2026-05-29T18:57:23.978Z"
+  },
+  {
     "title": "CHANGE UPDATE MECHANISM ON DASHBOARDS",
     "venture": "v-mos",
     "priority": "p-p0",
