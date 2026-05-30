@@ -1089,21 +1089,21 @@
     },
     {
       "id": "CF-OWNED-IMAGE-API-WIRING-1",
-      "title": "Wire Wolf's owned image-model APIs (Gemini / Nano Banana Pro · OpenAI GPT Image · xAI Grok) so ATHENA's §4.4…",
-      "description": "Wire Wolf's owned image-model APIs (Gemini / Nano Banana Pro · OpenAI GPT Image · xAI Grok) so ATHENA's §4.4 imagery path + the social pipeline's visual step actually run. Empirical finding (AGENT-ATHENA-BUILD-2): no keys in the Cowork shell env AND outbound to the model endpoints was blocked in-sandbox — so confirm BOTH (a) keys/secrets available to the shell, and (b) whether raw-shell HTTP to the model endpoints is permitted at all (network allowlist) or an MCP/connector path is required instead. Unblocks ATHENA Family G photoreal imagery (CAP-0028 gated sub-family) + the social create→post…",
-      "status": "s-todo",
+      "title": "Wire Wolf's owned image-model APIs (Gemini / Nano Banana · OpenAI GPT Image · xAI Grok) so ATHENA's §4.4 imag…",
+      "description": "Wire Wolf's owned image-model APIs (Gemini / Nano Banana · OpenAI GPT Image · xAI Grok) so ATHENA's §4.4 imagery path + the social pipeline's visual step run. Empirically resolved this chat: (a) keys provided + secured at ~/MAXX/_secrets/model-api-keys.env (gitignored, chmod 600; ~/MAXX is not a git repo); (b) raw-shell HTTPS IS permitted — the AGENT-ATHENA-BUILD-2 \"outbound blocked\" finding did NOT reproduce; all three endpoints reachable from the Cowork shell. Smoke test (real image gen, verified rendered): ✅ OpenAI gpt-image-1 (1.17 MB) + ✅ Gemini gemini-2.5-flash-image (924 KB; full Nano…",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Agents",
       "venture": "v-mos",
       "deadline": null,
-      "deadline_label": "Next — gates ATHENA photoreal i…",
+      "deadline_label": "xAI credits = Wolf billing clic…",
       "deadline_class": "d-future",
       "effort_mc": null,
       "effort_wolf": null,
       "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
       "created": null,
       "zone": "open",
-      "owner": "Wolf + Claude",
+      "owner": "Wolf (xAI credits) + Claude (spec flip)",
       "kind": "cfi"
     },
     {
@@ -7698,6 +7698,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "May 31, 2026 · 1:24 AM CEST",
-  "published_at_iso": "2026-05-31T01:24:06+0200"
+  "published_at": "May 31, 2026 · 1:54 AM CEST",
+  "published_at_iso": "2026-05-31T01:54:06+0200"
 }
