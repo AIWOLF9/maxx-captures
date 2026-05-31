@@ -1,5 +1,24 @@
 [
   {
+    "title": "CREATE SPEND DASHBOARD WIDGET- Add spending / Budget/ Financial dashboard - All API’s",
+    "ventures": [
+      "v-mos",
+      "v-solitaire",
+      "v-aidvisor"
+    ],
+    "venture": "v-mos",
+    "segments": [
+      "Governance"
+    ],
+    "segment": "Governance",
+    "priority": "p-p2",
+    "type": "later",
+    "tags": "BUDGET, API’S, FINANCIALS",
+    "notes": "Create a dashboard widget that will track all spend across all services and API so we’re using across all ventures and have a track by venture",
+    "id": "cap-mpt2gv038ir",
+    "created": "2026-05-31T00:53:53.523Z"
+  },
+  {
     "title": "Another research candidate for a skill for YouTube to be used with signal  https://github.com/yt-dlp/yt-dlp",
     "venture": "v-signal",
     "priority": "p-p1",
