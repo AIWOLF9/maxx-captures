@@ -1,5 +1,26 @@
 [
   {
+    "title": "Watch video- instagram social connector. Automated",
+    "ventures": [
+      "v-signal",
+      "v-mos"
+    ],
+    "venture": "v-signal",
+    "segments": [
+      "Product",
+      "Social",
+      "Marketing",
+      "Agents"
+    ],
+    "segment": "Product",
+    "priority": "p-p0",
+    "type": "now",
+    "tags": "Social, AI SCRAPER, SOCIALS SCRAPER",
+    "notes": "Go research, amplify to look at all their scrapers and have Apollo do a deep dive on all the scrapers that I has to find the ones that are useful for what we need for social and then for everything else we need to do are the scrapers for YouTube transcripts, all the other socials.  I think they have scrapers for what’s trending or to look at certain creators or if you give it a list it’ll go grab the social then it can also create a list of all the users and if there’s emails in their profile to capture is that they can automate emailing sending replying.",
+    "id": "cap-mpu6yewzanq",
+    "created": "2026-05-31T19:47:17.123Z"
+  },
+  {
     "title": "BOARD OF DIRECTORS - RESEARCH, PLAN, CREATE",
     "ventures": [
       "v-mos",
