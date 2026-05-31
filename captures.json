@@ -1,5 +1,25 @@
 [
   {
+    "title": "BOARD OF DIRECTORS - RESEARCH, PLAN, CREATE",
+    "ventures": [
+      "v-mos",
+      "v-solitaire",
+      "v-signal",
+      "v-aidvisor"
+    ],
+    "venture": "v-mos",
+    "segments": [
+      "Governance"
+    ],
+    "segment": "Governance",
+    "priority": "p-p2",
+    "type": "now",
+    "tags": "BOD, AI BOD, BOARD OF DIRECTORS",
+    "notes": "I’ve seen a few YouTube where people have created a board of directors so it’s like a management team or even better board directors that can help a founder in planning reviewing business decisions and not feeling alone and having perspective across the whole business by having a board an AI board of directors that has extreme expertise and wisdom in all areas of the business. So would like to do the research review the research as to what tools or skills are being used. TRI LLM Deep Research web- Look at Git hub, at YouTube. present findings and create optimal plan to review.",
+    "id": "cap-mptp30qxwqj",
+    "created": "2026-05-31T11:26:58.954Z"
+  },
+  {
     "title": "CREATE SPEND DASHBOARD WIDGET- Add spending / Budget/ Financial dashboard - All API’s",
     "ventures": [
       "v-mos",
