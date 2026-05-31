@@ -1088,25 +1088,6 @@
       "kind": "cfi"
     },
     {
-      "id": "CF-OWNED-IMAGE-API-WIRING-1",
-      "title": "Wire Wolf's owned image-model APIs (Gemini / Nano Banana · OpenAI GPT Image · xAI Grok) so ATHENA's §4.4 imag…",
-      "description": "Wire Wolf's owned image-model APIs (Gemini / Nano Banana · OpenAI GPT Image · xAI Grok) so ATHENA's §4.4 imagery path + the social pipeline's visual step run. Empirically resolved this chat: (a) keys provided + secured at ~/MAXX/_secrets/model-api-keys.env (gitignored, chmod 600; ~/MAXX is not a git repo); (b) raw-shell HTTPS IS permitted — the AGENT-ATHENA-BUILD-2 \"outbound blocked\" finding did NOT reproduce; all three endpoints reachable from the Cowork shell. Smoke test (real image gen, verified rendered): ✅ OpenAI gpt-image-1 (1.17 MB) + ✅ Gemini gemini-2.5-flash-image (924 KB; full Nano…",
-      "status": "s-doing",
-      "priority": "p-p1",
-      "segment": "Agents",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "xAI credits = Wolf billing clic…",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf (xAI credits) + Claude (spec flip)",
-      "kind": "cfi"
-    },
-    {
       "id": "MOS-T-004",
       "title": "Viral app marketing research",
       "description": "from cap-mpqu87fr66a — viral go-to-market research via 3 LLMs + NotebookLM; reusable across ventures; parallelizable",
@@ -6757,6 +6738,25 @@
       "kind": "cfi"
     },
     {
+      "id": "CF-OWNED-IMAGE-API-WIRING-1",
+      "title": "Wire Wolf's owned image-model APIs (Gemini / Nano Banana · OpenAI GPT Image · xAI Grok) so ATHENA's §4.4 imag…",
+      "description": "Wire Wolf's owned image-model APIs (Gemini / Nano Banana · OpenAI GPT Image · xAI Grok) so ATHENA's §4.4 imagery path + the social pipeline's visual step run. Empirically resolved this chat: (a) keys provided + secured at ~/MAXX/_secrets/model-api-keys.env (gitignored, chmod 600; ~/MAXX is not a git repo); (b) raw-shell HTTPS IS permitted — the AGENT-ATHENA-BUILD-2 \"outbound blocked\" finding did NOT reproduce; all three endpoints reachable from the Cowork shell. Smoke test (real image gen, verified rendered): ✅ OpenAI gpt-image-1 (1.17 MB) + ✅ Gemini gemini-2.5-flash-image (924 KB; full Nano…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Done — Family G photoreal image…",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf + Claude",
+      "kind": "cfi"
+    },
+    {
       "id": "CF-VCE-2",
       "title": "Verify the unconfirmed Gemini-cited GitHub repos BEFORE building on any of them",
       "description": "Verify the unconfirmed Gemini-cited GitHub repos BEFORE building on any of them. Verified — findings at ~/MAXX/_MAXX_OS/Research/2026-05-31--vce-repo-verification/CF-VCE-2-repo-verification.md: 4 of 5 real, 1 phantom. recast/thegauravmahto = phantom (not found as cited) — concept already captured, no repo dependency. ViralContent-Factory → real as Paillat-dev/viralfactory (54★, AGPL-3.0, GPU-heavy) — reject for our architecture. opensource-clipping (NaufalRizqullah, 3★, MIT) = real, clean — lead pattern-reference for VULCAN's VCE video forge. ViralMint (openclaw-easy, 0★, AGPL-3.0, ToS-risk T…",
@@ -7698,6 +7698,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "May 31, 2026 · 1:54 AM CEST",
-  "published_at_iso": "2026-05-31T01:54:06+0200"
+  "published_at": "May 31, 2026 · 2:24 AM CEST",
+  "published_at_iso": "2026-05-31T02:24:09+0200"
 }
