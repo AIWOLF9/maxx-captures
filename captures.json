@@ -1,5 +1,24 @@
 [
   {
+    "title": "Marketing OS Blueprint - & YouTube",
+    "ventures": [
+      "v-signal",
+      "v-mos"
+    ],
+    "venture": "v-signal",
+    "segments": [
+      "Marketing",
+      "Agents"
+    ],
+    "segment": "Marketing",
+    "priority": "p-p2",
+    "type": "later",
+    "tags": "Social, Skills, marketing",
+    "notes": "https://drive.google.com/file/d/1b9tsd4ckGiGgut98ZjrQiD7d0S6s1-IL/view?usp=drivesdk\n\nhttps://youtu.be/cHM9QrHURpE?is=OWHMkyPi8RVswzt0\n\nMarketing OS Architecture Blueprint\nThe 4-Layer System That Tracks All Your Marketing Data Automatically\nHow to use: This is the exact architecture behind the Marketing OS shown in the video. Use it as a blueprint to build your own version,\nstarting with just one platform and one data source.\n1 Data Sources\nYour platforms (YouTube, TikTok, Instagram, email) connected to a data connector that pulls metrics automatically. Zero logins, zero\nCSV exports, zero manual work. Set it up once, it runs every morning.\nTools: Windsor.ai, Supermetrics, Make.com, Zapier, or any API connector\n▼\n2 Storage\nStructured files that everything else reads from. Nothing fancy. JSON, YAML, or even a Google Sheet. The point is that your data\nlives in one organized place, not scattered across five dashboards.\nTools: JSON/YAML files, Google Sheets, Notion database, Airtable\n▼\n3 Intelligence (The Dashboard)\nWhere raw data becomes insight. Growth curves, week-over-week trends, competitor feeds, content velocity, demographics, per-\nvideo performance. This is the hero layer. Open it every morning and know exactly where you stand.\nTools: Custom dashboard (built with Claude Code), Looker Studio, Metabase, even a well-structured Google Sheet\n▼\n4 Action\nYour content pipeline and automation layer. Track every video from Idea to Published. AI skills handle research, scripts, titles,\nthumbnails, and repurposing. Insights from Layer 3 drive what you create in Layer 4.\nTools: Airtable, Notion, Claude Code skills, n8n, Make.com\nThe 6 Metrics That Actually Matter\nViews per video\nIs this topic/title getting clicks?\nAverage View Duration %\nIs this content holding attention?\nSubscribers gained per video\nIs this video growing the channel?\nWeek-over-week view trend\nIs the channel growing or declining?\nCTR (click-through rate)\nIs the thumbnail/title combo working?\nContent velocity\nAre you publishing enough, consistently?\nThe test: if a number moved significantly this week, would you change a decision? If not, stop tracking it.\nWhere to Start\n1 Pick one platform.\nDon't connect everything on day one. Start with YouTube or wherever your main audience lives.\n2 Find your data connector.\nMost platforms have an API or a connector tool. If you can get data into a spreadsheet automatically, Layer 1 is done.\n3 Build Layer 3 before Layer 2.\nA simple dashboard (even a Google Sheet with charts) is more valuable than a perfect storage system nobody looks at.\n4 \"Good enough to use daily\" is the target.\nNot perfect. Not comprehensive. Just useful enough that you open it every morning. Then stop building and start creating.\nStarter Prompt\nPaste this into Claude Code to build your first dashboard:\nBuild me a simple marketing analytics dashboard.\nI post on [YouTube / TikTok / Instagram].\nPull my data from [data source, e.g. a CSV export or Google Sheet].\nShow me: views per video, week-over-week trends, and a chart of subscriber growth.\nKeep it simple. One HTML file. I want to open it every morning and know where I stand.",
+    "id": "cap-mpueuimawaw",
+    "created": "2026-05-31T23:28:12.226Z"
+  },
+  {
     "title": "EVERYTHING CLAUDE CODE - https://github.com/affaan-m/ECC",
     "ventures": [
       "v-mos",
