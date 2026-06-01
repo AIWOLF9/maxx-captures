@@ -17,7 +17,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4d-3",
@@ -36,7 +37,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5g-1",
@@ -55,7 +57,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude (next Mission Control session)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5g-2",
@@ -74,7 +77,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-C",
@@ -93,7 +97,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control (CF-PM5h-3-Phase1a + 1b chats)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-D",
@@ -112,7 +117,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control (CF-PM5h-3-Phase1c chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-H",
@@ -131,7 +137,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control (per-tool install + per-service request-access procedure) + Wolf (triggers on venture activation + Anthropic console access flow)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-COWORK-TASK-DISABLE",
@@ -150,7 +157,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "MOS-T-017",
@@ -173,7 +181,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-023",
@@ -192,7 +201,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-024",
@@ -211,7 +221,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-026",
@@ -230,12 +241,13 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-027",
       "title": "Category Taxonomy spec (MSIG-UX-CATEGORY-TAXONOMY-0001 v1.0)",
-      "description": "SIG23: define top-level categories + drill-down tree the cascading preference builder traverses. Unblocks Onboarding §4.5 stub.",
+      "description": "SIG23: define top-level categories + drill-down tree the cascading preference builder traverses. Research-backed (Wolf 2026-06-01): desk/LLM research on the top categories people actually use on YouTube — top-level first, then drill-down — not invented. Also the match target for the Intentions layer (SIG-159). Unblocks Onboarding §4.5 stub + the SIG-159 match engine.",
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Product",
@@ -243,13 +255,34 @@
       "deadline": "1-1",
       "deadline_label": "Phase P1",
       "deadline_class": "d-future",
-      "effort_mc": "2.5h",
+      "effort_mc": "3h",
       "effort_wolf": "1h",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "SIG-159",
+      "title": "Intentions/WHY Layer spec (MSIG-UX-INTENTIONS-0001)",
+      "description": "SIG20-surfaced (Wolf capture \"Signal intentions\", 2026-06-01). WHY-first layer: capture intent granularly (purpose / feeling / format-length / recency + free input) BEFORE taxonomy, then the WHY POWERS the taxonomy — pre-ranked so matches surface first. Light explanatory \"why we ask\" frame up front (absorbs old Educational carousel). Positioning line: \"never before has anything personalized WHY you come and matched it.\" Needs its OWN chat. Seed outline + process visual authored at SIG20 → _Working/MSIG-UX-INTENTIONS-0001_OUTLINE_SEED_2026-06-01.md. Onboarding §4b carries a placeholder until t…",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-038",
@@ -268,7 +301,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-039",
@@ -287,7 +321,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-042",
@@ -306,7 +341,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-043",
@@ -325,7 +361,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-044",
@@ -344,7 +381,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-046",
@@ -363,7 +401,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-047",
@@ -382,7 +421,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-048",
@@ -401,7 +441,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-049",
@@ -420,7 +461,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-050",
@@ -439,7 +481,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-051",
@@ -458,7 +501,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-052",
@@ -477,7 +521,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-053",
@@ -496,7 +541,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-054",
@@ -515,7 +561,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-055",
@@ -534,7 +581,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-056",
@@ -553,7 +601,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-057",
@@ -572,7 +621,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-058",
@@ -591,7 +641,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-059",
@@ -610,7 +661,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-061",
@@ -629,7 +681,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-067",
@@ -648,7 +701,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-076",
@@ -667,7 +721,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-078",
@@ -686,7 +741,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-079",
@@ -705,7 +761,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-080",
@@ -724,7 +781,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "CF-PM4a-3",
@@ -743,7 +801,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4a-5",
@@ -762,7 +821,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4b-6",
@@ -781,7 +841,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4c-7",
@@ -800,7 +861,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4d-2",
@@ -819,7 +881,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4d-4",
@@ -838,7 +901,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4d-8",
@@ -857,7 +921,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4d-9",
@@ -876,7 +941,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5a-2",
@@ -895,7 +961,8 @@
       "created": null,
       "zone": "open",
       "owner": "check_target_exists style validation. Add as v1.1 capability.",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5d-5",
@@ -914,7 +981,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical hygiene chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5g-3",
@@ -933,7 +1001,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (dedicated session post-Sprint #5)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5g-4",
@@ -952,7 +1021,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (Sprint #5.2 OR dedicated session)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5g-5",
@@ -971,7 +1041,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (Sprint #5.2 OR dedicated session)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-B",
@@ -990,7 +1061,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (next dedicated governance chat OR opportunistic bundle with hygiene-cluster pass per §2 hygiene-rename consolidation)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-SPRINT-CLOSE-1",
@@ -1009,7 +1081,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf+Claude (dedicated chats)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-SPRINT-CLOSE-2",
@@ -1028,7 +1101,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf+Claude (dedicated chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-SPRINT-CLOSE-3",
@@ -1047,7 +1121,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-INSTALLER-NODE-RERUN",
@@ -1066,7 +1141,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-CAP-PHASE-TAGGING",
@@ -1085,7 +1161,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-AGPL-TRIPWIRE-1",
@@ -1104,7 +1181,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-MARKETING-STACK-REVIEW-1",
@@ -1123,7 +1201,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-SIGNAL-HIVEMIND-WIRING-1",
@@ -1142,7 +1221,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-AUTOMATION-GATING-1",
@@ -1161,7 +1241,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "MOS-T-004",
@@ -1186,7 +1267,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-010",
@@ -1209,7 +1291,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-013",
@@ -1232,7 +1315,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-018",
@@ -1256,7 +1340,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-019",
@@ -1279,7 +1364,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-020",
@@ -1302,7 +1388,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-021",
@@ -1325,7 +1412,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-023",
@@ -1348,7 +1436,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-025",
@@ -1367,7 +1456,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-028",
@@ -1386,7 +1476,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-029",
@@ -1405,7 +1496,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-030",
@@ -1424,7 +1516,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-031",
@@ -1443,7 +1536,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-032",
@@ -1462,7 +1556,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-035",
@@ -1481,7 +1576,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-036",
@@ -1500,7 +1596,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-037",
@@ -1519,7 +1616,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-040",
@@ -1538,7 +1636,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-060",
@@ -1557,7 +1656,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-062",
@@ -1576,7 +1676,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-063",
@@ -1595,7 +1696,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-064",
@@ -1614,7 +1716,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-065",
@@ -1633,7 +1736,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-068",
@@ -1652,7 +1756,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-069",
@@ -1671,7 +1776,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-071",
@@ -1690,7 +1796,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-072",
@@ -1709,7 +1816,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-077",
@@ -1728,7 +1836,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "CAP-0027",
@@ -1746,7 +1855,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "open",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0019",
@@ -1764,7 +1874,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-24",
       "zone": "open",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0014",
@@ -1782,7 +1893,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-22 (queued near-term 2026-05-27)",
       "zone": "open",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CF-PM2-7",
@@ -1801,7 +1913,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM2-9",
@@ -1820,7 +1933,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-BRAIN2-1",
@@ -1839,7 +1953,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-BRAIN2-2",
@@ -1858,7 +1973,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-BRAIN2-4",
@@ -1877,7 +1993,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-BRAIN2-5",
@@ -1896,7 +2013,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-2",
@@ -1915,7 +2033,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-3",
@@ -1934,7 +2053,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-8",
@@ -1953,7 +2073,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-9",
@@ -1972,7 +2093,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-10",
@@ -1991,7 +2113,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-11",
@@ -2010,7 +2133,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-12",
@@ -2029,7 +2153,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-15",
@@ -2048,7 +2173,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4-1",
@@ -2067,7 +2193,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4-4",
@@ -2086,7 +2213,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4a-4",
@@ -2105,7 +2233,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4b-1",
@@ -2124,7 +2253,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4b-2",
@@ -2143,7 +2273,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4b-3",
@@ -2162,7 +2293,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4b-8",
@@ -2181,7 +2313,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4d-1",
@@ -2200,7 +2333,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4d-5",
@@ -2219,7 +2353,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4d-7",
@@ -2238,7 +2373,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5a-1",
@@ -2257,7 +2393,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5a-3",
@@ -2276,7 +2413,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5a-4",
@@ -2295,7 +2433,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5d-2",
@@ -2314,7 +2453,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5d-4",
@@ -2333,7 +2473,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-F",
@@ -2352,7 +2493,8 @@
       "created": null,
       "zone": "open",
       "owner": "Future-chat Mission Control",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-I",
@@ -2371,7 +2513,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Mission Control",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-O",
@@ -2390,7 +2533,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control (next CAP-touch chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-P",
@@ -2409,7 +2553,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control (opportunistic)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-S",
@@ -2428,7 +2573,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf (vision lock) + Mission Control (execution across multiple chats)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-SIG1-prep-1",
@@ -2447,7 +2593,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (when authoring future setup openers)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-NEW-Productization-Log-Review-Sweep",
@@ -2466,7 +2613,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control (sweep chat) + Wolf (graduation approvals + family taxonomy lock)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-APOLLO-PILOT-3-1",
@@ -2485,7 +2633,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-APOLLO-PILOT-3-2",
@@ -2504,7 +2653,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-APOLLO-PILOT-3-3",
@@ -2523,7 +2673,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-APOLLO-PILOT-3-4",
@@ -2542,7 +2693,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-NEW-Tool-Registry-Planning",
@@ -2561,7 +2713,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-SNAPSHOT-CLEANUP",
@@ -2580,7 +2733,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-FDA-REVOKE",
@@ -2599,7 +2753,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-ARTIFACT-ARCHIVE-PASS",
@@ -2618,7 +2773,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf (Cowork sidebar unpin)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-APOLLO-EXPANSION-BRAINSTORM-1",
@@ -2637,7 +2793,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-OUTREACH-HERMES-WORKFLOW-1",
@@ -2656,7 +2813,8 @@
       "created": null,
       "zone": "open",
       "owner": "HERMES (when built)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-ARGUS-EARLIER-DEMAND-1",
@@ -2675,7 +2833,8 @@
       "created": null,
       "zone": "open",
       "owner": "MAXX",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-VCE-RENDER-STACK-1",
@@ -2694,7 +2853,8 @@
       "created": null,
       "zone": "open",
       "owner": "VULCAN + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-ORCH-LOCK-1",
@@ -2713,7 +2873,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "MOS-T-003",
@@ -2736,7 +2897,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-007",
@@ -2759,7 +2921,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-009",
@@ -2782,7 +2945,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-014",
@@ -2805,7 +2969,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-033",
@@ -2824,7 +2989,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-034",
@@ -2843,7 +3009,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-041",
@@ -2862,7 +3029,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-066",
@@ -2881,7 +3049,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-070",
@@ -2900,7 +3069,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-073",
@@ -2919,7 +3089,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-074",
@@ -2938,7 +3109,28 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "SIG-160",
+      "title": "Direct search function (intent-driven)",
+      "description": "SIG20-surfaced (Wolf \"Signal intentions\" capture, 2026-06-01). The \"I want to find something specific\" intent needs a search path Signal does not yet have. STRATEGIC TENSION (no-yes-man flag): search is unbounded by nature and could reintroduce the infinite-rabbit-hole Signal exists to prevent — must be designed to stay inside \"finite by design / curation, not algorithm.\" Composes with SIG-098 free-text keyword. Decision needed: in-MVP-B1 vs post-launch B2. Discuss before spec.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "2-1",
+      "deadline_label": "Phase B2",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "CF-PM2-3",
@@ -2957,7 +3149,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM2-4",
@@ -2976,7 +3169,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM2-6",
@@ -2995,7 +3189,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-BRAIN2-3",
@@ -3014,7 +3209,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-BRAIN2-6",
@@ -3033,7 +3229,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-1",
@@ -3052,7 +3249,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-4",
@@ -3071,7 +3269,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-6",
@@ -3090,7 +3289,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-7",
@@ -3109,7 +3309,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-16",
@@ -3128,7 +3329,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4-3",
@@ -3147,7 +3349,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4-5",
@@ -3166,7 +3369,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4-6",
@@ -3185,7 +3389,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4c-6",
@@ -3204,7 +3409,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (opportunistic)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5d-1",
@@ -3223,7 +3429,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5d-3",
@@ -3242,7 +3449,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5f-1",
@@ -3261,7 +3469,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5f-3",
@@ -3280,7 +3489,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5f-4",
@@ -3299,7 +3509,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5f-5",
@@ -3318,7 +3529,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-L",
@@ -3337,7 +3549,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control (next hygiene chat OR CF-PM5h-3-B)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-NEW-Tool-Registry-Build",
@@ -3356,7 +3569,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical build chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-NEW-SUBSTRATE-HYGIENE-AGENT-INBOX-CHECK",
@@ -3375,7 +3589,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (CAP-0005 v0.4 amendment chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-NEW-SUBSTRATE-HYGIENE-REVIEWERS-CHECK",
@@ -3394,7 +3609,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (CAP-0005 v0.4 amendment chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-NEW-MEMORY-PROPAGATION-AI-DVISOR",
@@ -3413,7 +3629,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control (at AI-DVISOR bootstrap chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-NEW-MEMORY-PROPAGATION-MAXX_LIFE",
@@ -3432,7 +3649,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control (at MAXX_LIFE bootstrap chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-NEW-MEMORY-PROPAGATION-MAXX_CLOUD",
@@ -3451,7 +3669,8 @@
       "created": null,
       "zone": "open",
       "owner": "Mission Control (at MAXX_CLOUD bootstrap chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-SHIM-CLEANUP",
@@ -3470,7 +3689,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-DATA-JSON-PRIVATE",
@@ -3489,7 +3709,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Mission Control",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-LAUNCHD-CADENCE",
@@ -3508,7 +3729,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-VCE-3",
@@ -3527,7 +3749,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf + Claude (APOLLO)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "SIG-075",
@@ -3546,7 +3769,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-081",
@@ -3565,7 +3789,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-082",
@@ -3584,7 +3809,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-083",
@@ -3603,7 +3829,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-084",
@@ -3622,7 +3849,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-085",
@@ -3641,7 +3869,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-086",
@@ -3660,7 +3889,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-087",
@@ -3679,7 +3909,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-088",
@@ -3698,7 +3929,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-089",
@@ -3717,7 +3949,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-090",
@@ -3736,7 +3969,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-091",
@@ -3755,7 +3989,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-092",
@@ -3774,7 +4009,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-093",
@@ -3793,7 +4029,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-094",
@@ -3812,7 +4049,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-095",
@@ -3831,7 +4069,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-096",
@@ -3850,7 +4089,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-097",
@@ -3869,7 +4109,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-098",
@@ -3888,7 +4129,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-099",
@@ -3907,7 +4149,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-100",
@@ -3926,7 +4169,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-101",
@@ -3945,7 +4189,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-102",
@@ -3964,7 +4209,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-103",
@@ -3983,7 +4229,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-104",
@@ -4002,7 +4249,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-105",
@@ -4021,7 +4269,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-106",
@@ -4040,7 +4289,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-107",
@@ -4059,7 +4309,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-108",
@@ -4078,7 +4329,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-109",
@@ -4097,7 +4349,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-110",
@@ -4116,7 +4369,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-111",
@@ -4135,7 +4389,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-112",
@@ -4154,7 +4409,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-113",
@@ -4173,7 +4429,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-114",
@@ -4192,7 +4449,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-115",
@@ -4211,7 +4469,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-116",
@@ -4230,7 +4489,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-117",
@@ -4249,7 +4509,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-118",
@@ -4268,7 +4529,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-119",
@@ -4287,7 +4549,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-120",
@@ -4306,7 +4569,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-121",
@@ -4325,7 +4589,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-122",
@@ -4344,7 +4609,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-123",
@@ -4363,7 +4629,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-124",
@@ -4382,7 +4649,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-125",
@@ -4401,7 +4669,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-126",
@@ -4420,7 +4689,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-127",
@@ -4439,7 +4709,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-128",
@@ -4458,7 +4729,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-129",
@@ -4477,7 +4749,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-130",
@@ -4496,7 +4769,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-131",
@@ -4515,7 +4789,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-132",
@@ -4534,7 +4809,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-133",
@@ -4553,7 +4829,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-134",
@@ -4572,7 +4849,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-135",
@@ -4591,7 +4869,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-136",
@@ -4610,7 +4889,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-137",
@@ -4629,7 +4909,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-138",
@@ -4648,7 +4929,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-139",
@@ -4667,7 +4949,8 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-140",
@@ -4686,7 +4969,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-141",
@@ -4705,7 +4989,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-142",
@@ -4724,7 +5009,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-143",
@@ -4743,7 +5029,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-144",
@@ -4762,7 +5049,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-145",
@@ -4781,7 +5069,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-146",
@@ -4800,7 +5089,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-147",
@@ -4819,7 +5109,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-148",
@@ -4838,7 +5129,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-149",
@@ -4857,7 +5149,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-150",
@@ -4876,7 +5169,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-151",
@@ -4895,7 +5189,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-152",
@@ -4914,7 +5209,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-153",
@@ -4933,7 +5229,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-154",
@@ -4952,7 +5249,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-155",
@@ -4971,7 +5269,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-156",
@@ -4990,7 +5289,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-157",
@@ -5009,7 +5309,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-158",
@@ -5028,7 +5329,8 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-045",
@@ -5047,7 +5349,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "CF-CROSS-PLATFORM-FRAMEWORK-1",
@@ -5066,7 +5369,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Wolf + Claude (build/engineering chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "MOS-T-001",
@@ -5089,7 +5393,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-002",
@@ -5112,7 +5417,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-005",
@@ -5135,7 +5441,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "CAP-0046",
@@ -5153,7 +5460,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-06-01",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0045",
@@ -5171,7 +5479,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-30",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0041",
@@ -5189,7 +5498,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-29",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0026",
@@ -5207,7 +5517,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0029",
@@ -5225,7 +5536,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0030",
@@ -5243,7 +5555,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0031",
@@ -5261,7 +5574,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0032",
@@ -5279,7 +5593,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0033",
@@ -5297,7 +5612,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0034",
@@ -5315,7 +5631,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0035",
@@ -5333,7 +5650,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0036",
@@ -5351,7 +5669,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0037",
@@ -5369,7 +5688,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0038",
@@ -5387,7 +5707,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0039",
@@ -5405,7 +5726,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0040",
@@ -5423,7 +5745,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0021",
@@ -5441,7 +5764,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-27",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0022",
@@ -5459,7 +5783,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-27",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0018",
@@ -5477,7 +5802,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-24",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0020",
@@ -5495,7 +5821,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-24",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0011",
@@ -5513,7 +5840,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-22",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0012",
@@ -5531,7 +5859,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-22",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0013",
@@ -5549,7 +5878,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-22",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0016",
@@ -5567,7 +5897,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-22",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0017",
@@ -5585,7 +5916,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-22",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0010",
@@ -5603,7 +5935,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-21 (revised 2026-05-27)",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0008",
@@ -5621,7 +5954,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-20",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0009",
@@ -5639,7 +5973,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-20",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0003",
@@ -5657,7 +5992,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-19",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0004",
@@ -5675,7 +6011,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-19",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0006",
@@ -5693,7 +6030,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-19",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0001",
@@ -5711,7 +6049,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-10",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0002",
@@ -5729,7 +6068,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-10",
       "zone": "waiting",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CF-PM1-8",
@@ -5748,7 +6088,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM2-2",
@@ -5767,7 +6108,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM2-5",
@@ -5786,7 +6128,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM2-8",
@@ -5805,7 +6148,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-BRAIN1-1",
@@ -5824,7 +6168,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-BRAIN2-7",
@@ -5843,7 +6188,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-BACKEND-STACK-1",
@@ -5862,7 +6208,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Wolf + Claude (build/engineering chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-WORKFLOW-MAP-AUTORENDER-1",
@@ -5881,7 +6228,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "VULCAN + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "MOS-T-006",
@@ -5904,7 +6252,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-015",
@@ -5927,7 +6276,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-016",
@@ -5951,7 +6301,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "CF-PM1-10",
@@ -5970,7 +6321,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-5",
@@ -5989,7 +6341,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-FACTORY-INFRA-TIER-1",
@@ -6008,7 +6361,8 @@
       "created": null,
       "zone": "waiting",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "MOS-T-008",
@@ -6032,7 +6386,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-011",
@@ -6055,7 +6410,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "MOS-T-012",
@@ -6079,7 +6435,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "PS-WEEKLY-STATUS-CADENCE-1",
@@ -6097,7 +6454,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-HUMANIZER-1",
@@ -6115,7 +6473,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-STATUS-INTERACTIVITY-1",
@@ -6133,7 +6492,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-REPORTS-HUB-1",
@@ -6151,7 +6511,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-HIVEMIND-PAIRED-INTERACTIVE-1",
@@ -6169,7 +6530,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-DATE-CONVENTION-SPLIT-1",
@@ -6187,7 +6549,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-MAXX-COUNCIL-1",
@@ -6205,7 +6568,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-AGENTSKILLS-PORTABILITY",
@@ -6223,7 +6587,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-FOUNDER-AI-COFOUNDER-PAIRING-1",
@@ -6241,7 +6606,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-OUTCOME-FIRST-PROTOCOL-1",
@@ -6259,7 +6625,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-SOCIAL-CONTENT-INTEL-1",
@@ -6277,7 +6644,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-PASSLIST-CAPTURE-1",
@@ -6295,7 +6663,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-MULTIVIEW-SWITCHER-1",
@@ -6313,7 +6682,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-NETLIFY-PUBLISH-PIPELINE-1",
@@ -6331,7 +6701,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-COWORK-WEB-BRIDGE-1",
@@ -6349,7 +6720,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "PS-AWAY-MODE-SMS-1",
@@ -6367,7 +6739,8 @@
       "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
       "created": null,
       "zone": "info",
-      "kind": "ps"
+      "kind": "ps",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-A",
@@ -6386,7 +6759,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control (CF-PM5h-3-Phase1-ReadPass Action 2)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-E",
@@ -6405,7 +6779,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control (sweep doc) + Wolf (3 governance decisions via AskUserQuestion)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-K",
@@ -6424,7 +6799,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control + Wolf (Sunday cycle execution; Wolf Stage 3 review Monday)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-R",
@@ -6443,7 +6819,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control + Wolf (joint owner)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-VENTURE-INFERENCE-FIX",
@@ -6462,7 +6839,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control (code) + Wolf (verify next publish)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-SIGNAL-WIRING-1",
@@ -6481,7 +6859,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control (code) + Wolf (verify live)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-CAPTURE-INBOX-1",
@@ -6500,7 +6879,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control (code) + Wolf (repo/token/env + verify)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-CREDIT-DECOUPLE-1",
@@ -6519,7 +6899,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control (code) + Wolf (verify live)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "MOS-T-022",
@@ -6542,7 +6923,8 @@
       "zone": "done",
       "owner": "Wolf",
       "prov": "capture",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-001",
@@ -6561,7 +6943,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-002",
@@ -6580,7 +6963,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-003",
@@ -6599,7 +6983,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-004",
@@ -6618,7 +7003,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-005",
@@ -6637,7 +7023,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-006",
@@ -6656,7 +7043,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-007",
@@ -6675,7 +7063,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-008",
@@ -6694,7 +7083,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-009",
@@ -6713,7 +7103,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-011",
@@ -6732,7 +7123,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-013",
@@ -6751,7 +7143,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-014",
@@ -6770,7 +7163,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-022",
@@ -6789,7 +7183,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-G",
@@ -6808,7 +7203,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf (parallel-LLM outputs delivered 2026-05-18) + Mission Control (CF-PM5h-3-G chat merge + lock 2026-05-21)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-N",
@@ -6827,7 +7223,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control (cadence design absorbed into CAP-0006 Stage 1 reflection scope; CF-N closure 2026-05-21) + Wolf (Q4 lock at plan-review-approve-commit)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-Q",
@@ -6846,7 +7243,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control (subsumed by CAP-0015 ship) + Wolf (Phase 1 architectural fork decision)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-T",
@@ -6865,7 +7263,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control (architectural execution) + Wolf (scope confirmation + plan-review-approve-commit)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-PAT-ROTATE-1",
@@ -6884,7 +7283,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-DASHBOARD-CAPTURE-UX-PROMOTION-1",
@@ -6903,7 +7303,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control + Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-OWNED-IMAGE-API-WIRING-1",
@@ -6922,7 +7323,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-VCE-2",
@@ -6941,7 +7343,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf + Claude (APOLLO/VULCAN)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "SIG-010",
@@ -6960,7 +7363,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-012",
@@ -6979,7 +7383,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-015",
@@ -6998,7 +7403,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-016",
@@ -7017,7 +7423,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-017",
@@ -7036,7 +7443,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-018",
@@ -7055,7 +7463,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-019",
@@ -7074,7 +7483,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "SIG-020",
@@ -7093,7 +7503,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     },
     {
       "id": "CAP-0047",
@@ -7111,7 +7522,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-06-01",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0048",
@@ -7129,7 +7541,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-06-01",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0042",
@@ -7147,7 +7560,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-29",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0043",
@@ -7165,7 +7579,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-29",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0044",
@@ -7183,7 +7598,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-29",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0023",
@@ -7201,7 +7617,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0024",
@@ -7219,7 +7636,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0025",
@@ -7237,7 +7655,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0028",
@@ -7255,7 +7674,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-28",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0015",
@@ -7273,7 +7693,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-22 (shipped 2026-05-27)",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0005",
@@ -7291,7 +7712,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-19 (approved) / 2026-05-20 (v0.2 shipped) / 2026-05-20 (v0.3 shipped + status transition)",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CAP-0007",
@@ -7309,7 +7731,8 @@
       "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
       "created": "2026-05-19 (approved) / 2026-05-19 (shipped) / 2026-05-20 (status transition)",
       "zone": "done",
-      "kind": "cap"
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CF-PM1-1",
@@ -7328,7 +7751,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM1-2",
@@ -7347,7 +7771,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM1-3",
@@ -7366,7 +7791,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (PM session)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM1-4",
@@ -7385,7 +7811,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM1-5",
@@ -7404,7 +7831,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (PM session)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM1-6",
@@ -7423,7 +7851,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (PM session)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM1-7",
@@ -7442,7 +7871,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (PM session)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM1-9",
@@ -7461,7 +7891,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM2-1",
@@ -7480,7 +7911,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-13",
@@ -7499,7 +7931,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM3-14",
@@ -7518,7 +7951,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4-2",
@@ -7537,7 +7971,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4a-1",
@@ -7556,7 +7991,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4a-2",
@@ -7575,7 +8011,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4b-4",
@@ -7594,7 +8031,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4b-5",
@@ -7613,7 +8051,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4b-7",
@@ -7632,7 +8071,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4c-2",
@@ -7651,7 +8091,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4c-3",
@@ -7670,7 +8111,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4c-4",
@@ -7689,7 +8131,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4c-5",
@@ -7708,7 +8151,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM4d-6",
@@ -7727,7 +8171,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5a-5",
@@ -7746,7 +8191,8 @@
       "created": null,
       "zone": "done",
       "owner": "---\n\n### From PM5d (Sprint #3 Signal Migration, 2026-05-12) — 4 items\n\nPM5d executed Sprint #3 — full Signal venture migration via folder-import skill v1.1. KB manifest (57 rows) + DRIVE-SUPP manifest (86 rows) both ran clean: 141 successful copies + 2 intentional dedup-skips (.gsheet stubs) + 0 failures + 0 conflicts + 0 broken references. Source-staging sha256 byte-identical pre/post on both executes (spec §3.1 verified). Bridge-transformation pattern used per playbook. Four new CF items captured here.",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5e-1",
@@ -7765,7 +8211,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5e-2",
@@ -7784,7 +8231,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5e-3",
@@ -7803,7 +8251,8 @@
       "created": null,
       "zone": "done",
       "owner": "Claude (Mission Control PM5e)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5f-2",
@@ -7822,7 +8271,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf + Claude",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-J",
@@ -7841,7 +8291,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf (macOS terminal execution)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-PM5h-3-M",
@@ -7860,7 +8311,8 @@
       "created": null,
       "zone": "done",
       "owner": "Wolf (macOS terminal execution)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "CF-NEW-CAP-0003-sub-scope-refinement",
@@ -7879,7 +8331,8 @@
       "created": null,
       "zone": "done",
       "owner": "Mission Control (substrate-hygiene chat 2026-05-27)",
-      "kind": "cfi"
+      "kind": "cfi",
+      "first_seen": null
     },
     {
       "id": "SIG-021",
@@ -7898,10 +8351,11 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "kind": "tasks"
+      "kind": "tasks",
+      "first_seen": null
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 1, 2026 · 6:00 PM CEST",
-  "published_at_iso": "2026-06-01T18:00:35+0200"
+  "published_at": "June 1, 2026 · 7:30 PM CEST",
+  "published_at_iso": "2026-06-01T19:30:00+0200"
 }
