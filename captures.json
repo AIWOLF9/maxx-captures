@@ -1,5 +1,25 @@
 [
   {
+    "title": "LLM COUNCIL? Is this it or better? - Adversarial review using ChatGPT and perhaps Gemini - For complex planning , coding, complex architecture, and or decisions",
+    "ventures": [
+      "v-mos"
+    ],
+    "venture": "v-mos",
+    "segments": [
+      "Agents",
+      "Governance",
+      "Research",
+      "Ops"
+    ],
+    "segment": "Agents",
+    "priority": "p-p0",
+    "type": "now",
+    "tags": "OPTIMIZING TOOLS, OPTIMIZING TECH STACK, OPTIMIZING WORKFLOWS, OPTIMIZATION THROUGH ADVERSARIAL REVIEW, OPTIMIZING RESEARCH",
+    "notes": "Came across his video Short, and it just began is bringing up to the surface how we’re making decisions as to how we’re researching how we’re planning if it’s the most optimized processes workflows decisions on infrastructure processes, dry tools, etc. The good news is I’ve manually and also directed Claude to do try LLM debrief to the number of subjects. but I feel like in some areas were skipping steps and or not reviewing steps together properly.  \n\nhttps://youtube.com/shorts/mDgrydhPo8E?is=rEcqOnQfZqYcY-2z\n\nIn some cases that happened in other cases, for example here we are orchestrating the Athena agent, realizing that it’s going to work with multiple other agents in order to create social content for first have to research what content is working and then you have to create the images to copy the visuals video you just put it all together. So we’re gonna have Athena talking to Paulo I believe in interacting with Hermes and other agents and then we’ll have another Wen review it to make sure it’s meet a criteria and quality and etc.. so as I’ve come across these libraries of marketing skills or plug-ins that are comprehensive and are supposed to be for managing exactly what I’m talking about right to be able to do all the social research and planning and creating and posting. So it seems like we’re creating everything ourselves, but I would just questioning. Are there some off shelf pieces from GitHub repo that we could be using as opposed to reinventing the wheel completely and we may need to for certain things that we are doing that are specific to us, but it seems like the concept of researching content for social media across all the social platforms seeing with working reviewing and then planning and then creating and then posting and then managing all the analytics and have this be a continuous loop to learn from and adjust continuously update with the latest learning of what’s working and they continuously create and post and track and just have a self evolving self learning continuously, creation engine that drives engagement and conversions. So what I’m saying is, I’ve watched a bunch of videos where people you know over the past few months here and there that talk about how they’ve got you know the systems in place that are doing everything I’m just describing and it appears that there’s some Gibb repost that perhaps can do 75% or maybe 100% because what I just described everyone’s trying to do so it’s not so special to us so that’s what I’m kind of asking or concerned about is are we reinventing the wheel even though we have our own agent the question I’m asking is it appears that based on we’ve created or the planning the documentation that you have created? It feels like we have to invent because we have to research what tools what skills what they provide providers all that which is great that part of what we have to do, but I’m not sure if we looked at Gio’s closely enough and or we did enough review of YouTube transcript, which in many cases are these people who are putting these systems in architecting these get hot people whatever or testing out all these hub posts and saying why it works so great or maybe you know this is the issue but that’s what I’m saying. It feels like we’re skipping steps or sometimes skimmed some of the research or skim something information didn’t really go deep to fully understand if there’s some prebuilt off-the-shelf solutions that are either plug-in play or that we need to tweak a bit, but it would save us a minimum amount of time.",
+    "id": "cap-mpv8sc4qpam",
+    "created": "2026-06-01T13:26:18.987Z"
+  },
+  {
     "title": "What is the methodology by where we are creating agents? Are we looking at GitHub reposts and doing proper research across YouTube and the Internet specially in the last few months we can only use current information.",
     "ventures": [
       "v-mos"
