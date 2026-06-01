@@ -1,5 +1,25 @@
 [
   {
+    "title": "Signal intentions",
+    "ventures": [
+      "v-signal"
+    ],
+    "venture": "v-signal",
+    "segments": [
+      "Agents",
+      "Content",
+      "Strategy",
+      "Marketing"
+    ],
+    "segment": "Agents",
+    "priority": "p-p0",
+    "type": "now",
+    "tags": "Differentiator",
+    "notes": "",
+    "id": "cap-mpvb00zhn5e",
+    "created": "2026-06-01T14:28:17.023Z"
+  },
+  {
     "title": "Get Transcript - algorithm positioning Yuval Noah",
     "ventures": [
       "v-signal"
