@@ -1,5 +1,24 @@
 [
   {
+    "title": "What is the methodology by where we are creating agents? Are we looking at GitHub reposts and doing proper research across YouTube and the Internet specially in the last few months we can only use current information.",
+    "ventures": [
+      "v-mos"
+    ],
+    "venture": "v-mos",
+    "segments": [
+      "Agents",
+      "Ops",
+      "Hive Mind"
+    ],
+    "segment": "Agents",
+    "priority": "p-p0",
+    "type": "now",
+    "tags": "AI operating system, Github, Skills, OPTIMIZING TECH STACK, OPTIMIZING WORKFLOWS, OPTIMIZING TOOLS",
+    "notes": "https://youtube.com/shorts/DuDrHzaBQ3k?is=KputL-MpMB4iG-WD\n\nJust saw this video on the GitHub repo RUFLO \n\nhttps://github.com/ruvnet/ruflo\n\nSo because in this video he describes, he’s ready to go agent frameworks they can do all these things already done. I guess the question I’m asking is are we taking some of these tools and installing them but in some cases like a roof flow which could be too much but you can use our research comp abilities in your Bill capabilities to extract everything that’s great about that skillet or instead of skillet that creates these agents and workflows that we are recreating it in our OS and hive mind architecture to best optimize our platform. I just wanna have some clarity as to what choices we’re making so we don’t reinvent the wheel. So are we taking existing skills that we find and then optimizing them tweaking them upgrading them to fit what we need, if we have to. And when we find certain skills or plug-in, which are sets of skills working together that are perfect. We just use them out of the box. for example, a lot of anthropic skills are native and we’re using them out of the box. but for our special needs for certain work clothes for certain deliverables, we may need to create our own or tweak but I wanna make sure that we do proper research and deep research so that we find things that people have done all this work and research has been a lot of experimentation and those things work well and we’re learning from that but we have to not only find the gift we didn’t have to see how many stars and then go find YouTube videos. Read the transcripts, especially with high credible sources that have lots of use lots of comments look at what the channel is and then be able to take that feedback and use it to make decisions. is that what we’re doing and what is the ideal optimal process that we should be doing to pick the best tools possible the best skills the best plug-in best github repos. So I wanna know what are we doing or have we been doing lately? What is our current workflow and how can we improve it? One thing that comes to mind is we need to optimize how we go get YouTube transcripts be able to read them thoroughly. Using the chrome extension to go launch YouTube on the browser and then do a Gemini prompt to get the transcripts is not capable. We need to find the news I get help skill, a repo that allows us to get the transcripts that are needed without failure. That’s one thing that comes to mind that we need to do to optimize what we’re doing. I need you to tell me based up on everything that we’re doing my thoughts here what are we doing now and how can we optimize it and make it as optimized as possible at this moment, knowing that on an ongoing basis being weekly or so we’re gonna be reviewing processes reviewing tools because there might be something better that comes out as the market is moving so quickly. We should not dismiss something because it’s new and sometimes it appears that we’re using that as a criteria as opposed to looking up how many stars what the response is getting reviews of people using them and their feedback relative to the credibility of Hu saying it, etc..",
+    "id": "cap-mpv6e1b40kg",
+    "created": "2026-06-01T12:19:12.545Z"
+  },
+  {
     "title": "SIGNAL POSITIONING - INDIVIDUALITY and autonomy",
     "ventures": [
       "v-signal"
