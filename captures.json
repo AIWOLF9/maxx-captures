@@ -1,5 +1,23 @@
 [
   {
+    "title": "SIGNAL POSITIONING - INDIVIDUALITY and autonomy",
+    "ventures": [
+      "v-signal"
+    ],
+    "venture": "v-signal",
+    "segments": [
+      "Marketing",
+      "Social"
+    ],
+    "segment": "Marketing",
+    "priority": "p-p2",
+    "type": "later",
+    "tags": "Brand positioning, Social, marketing",
+    "notes": "From a YouTube, where someone commented on the problems with algorithm that are stripping our individuality and autonomy. Signal gives you back your individuality and autonomy.",
+    "id": "cap-mpv4x0smzwf",
+    "created": "2026-06-01T11:37:59.112Z"
+  },
+  {
     "title": "SOLITAIRE MAXX- name for AppStore’s?",
     "ventures": [
       "v-solitaire"
