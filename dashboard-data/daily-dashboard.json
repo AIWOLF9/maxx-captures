@@ -1655,6 +1655,24 @@
       "kind": "tasks"
     },
     {
+      "id": "CAP-0027",
+      "title": "VULCAN",
+      "description": "VULCAN — Build/Engineering agent (Wave 2, 2nd). Substrate-build agent: compiles skills, refactors primitives, ships canonical-doc updates, spawns build sub-agents. Spec authored MOS-AGENT-VULCAN-0001.md v0.1 (AGENT-VULCAN-BUILD-1). Full spec: MOS-AGENT-ORG-CHART-0001 §2.4. Phase 2 · MC L (6-8h) · Wolf ~45m · depends on CAP-0014 v0.2. See §3.",
+      "status": "s-doing",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-05-28",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-05-28",
+      "zone": "open",
+      "kind": "cap"
+    },
+    {
       "id": "CAP-0019",
       "title": "Content Publishing via Blotato (multi-venture, MCP-driven)",
       "description": "Content Publishing via Blotato (multi-venture, MCP-driven). Pilot on Signal first via Blotato Starter $29/mo → Creator $97/mo if pilot holds. Activation: Cowork Settings → Connectors → Add Custom Connector → https://mcp.blotato.com/mcp OAuth. Fills SATELLITE-CONTENT-PIPELINE.md Stage-3 \"publishing skill\" gap. 9+ platforms native (X / LinkedIn / IG / TikTok / FB / Threads / Bluesky / Pinterest / YouTube). XS effort (~15 min setup + 1 pilot chat). Deferred ~14d behind Signal substrate completion per project_maxx_priority_2026-05-19. Spawned from yt-review-Blotato chat 2026-05-24; see matrix at…",
@@ -2581,6 +2599,25 @@
       "created": null,
       "zone": "open",
       "owner": "MAXX",
+      "kind": "cfi"
+    },
+    {
+      "id": "CF-VCE-RENDER-STACK-1",
+      "title": "Outcome-first selection pass for VULCAN's VCE video-render stack (VULCAN spec §4.4, Render mode)",
+      "description": "Outcome-first selection pass for VULCAN's VCE video-render stack (VULCAN spec §4.4, Render mode). CF-VCE-2 verdict = reference-don't-adopt: opensource-clipping (MIT) is the strongest *pattern* reference (params to reimplement: −0.3s subtitle lead offset, 3-word kinetic chunks, face-tracked crops); AGPL repos (viralfactory, ViralMint) study-only + need a THEMIS-class license/productization call before any code use; recast is a phantom. Live owned-API candidate: xAI grok-imagine-video / grok-imagine-video-1.5-preview (on Wolf's account per project_athena_owned_image_api_wiring). Decide the rend…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Research",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "When VCE Render mode is first e…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "VULCAN + Wolf",
       "kind": "cfi"
     },
     {
@@ -5048,24 +5085,6 @@
       "status": "s-waiting",
       "priority": "p-p2",
       "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "2026-05-28",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
-      "created": "2026-05-28",
-      "zone": "waiting",
-      "kind": "cap"
-    },
-    {
-      "id": "CAP-0027",
-      "title": "VULCAN",
-      "description": "VULCAN — Build/Engineering agent (Wave 2). Substrate-build agent: compiles skills, refactors primitives, ships canonical-doc updates, spawns build sub-agents. Full spec: MOS-AGENT-ORG-CHART-0001 §2.4. Phase 2 · MC L (6-8h) · Wolf ~45m · depends on CAP-0014 v0.2. See §3.",
-      "status": "s-waiting",
-      "priority": "p-p2",
-      "segment": "Agents",
       "venture": "v-mos",
       "deadline": null,
       "deadline_label": "2026-05-28",
@@ -7698,6 +7717,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "May 31, 2026 · 2:24 AM CEST",
-  "published_at_iso": "2026-05-31T02:24:09+0200"
+  "published_at": "June 1, 2026 · 5:30 PM CEST",
+  "published_at_iso": "2026-06-01T17:30:31+0200"
 }
