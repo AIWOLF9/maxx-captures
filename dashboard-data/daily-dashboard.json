@@ -225,26 +225,6 @@
       "first_seen": null
     },
     {
-      "id": "SIG-026",
-      "title": "Onboarding Detailed Spec (MSIG-UX-ONBOARDING-0001 v1.0)",
-      "description": "SIG20: author the full onboarding spec — flow map, §4 step-by-step (splash, pain-naming, relief, data-transparency, auth, cascading prefs, creators, Aha, first-feed, paywall), branching, microcopy, edge cases, analytics events. Gates onboarding/feed build.",
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "4h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "SIG-027",
       "title": "Category Taxonomy spec (MSIG-UX-CATEGORY-TAXONOMY-0001 v1.0)",
       "description": "SIG23: define top-level categories + drill-down tree the cascading preference builder traverses. Research-backed (Wolf 2026-06-01): desk/LLM research on the top categories people actually use on YouTube — top-level first, then drill-down — not invented. Also the match target for the Intentions layer (SIG-159). Unblocks Onboarding §4.5 stub + the SIG-159 match engine.",
@@ -7187,6 +7167,26 @@
       "first_seen": null
     },
     {
+      "id": "SIG-026",
+      "title": "Onboarding Detailed Spec (MSIG-UX-ONBOARDING-0001 v1.0)",
+      "description": "SIG20: authored the full onboarding spec — flow map, §4 step-by-step (splash, pain-naming, relief, data-transparency, auth, cascading prefs, creators, Aha, first-feed, paywall), branching, microcopy, edge cases, analytics. §4.5b Intentions held as placeholder → SIG-159; taxonomy stub → SIG-027/SIG-028. Paywall H1 locked \"Curate freely.\" (done 2026-06-01)",
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "CF-PM5h-3-G",
       "title": "Credible Reviewer roster",
       "description": "Credible Reviewer roster — CLOSED. Status changed Open → Done 2026-05-21 (CF-PM5h-3-G chat): CREDIBLE_REVIEWERS.md v0.1 shipped at ~/MAXX/_MAXX_OS/Substrate/CREDIBLE_REVIEWERS.md (folder created at save-time per §0 filesystem-as-truth). 40-channel tier-classified initial roster (Tier 1 = 10 channels [5/5 + 4/5 LLM convergence + Wolf-curated Nate Herk crossover from $25M-Guru-Ranks]; Tier 2 = 10 channels [2/5 + 3/5 convergence + cadence/specialist outliers]; Tier 3 = 20 channels [1/5 + specialist-niche + Wolf-known-credibility entries]). Living-log class per §5.6 protocol. Path locked at Subst…",
@@ -8357,5 +8357,5 @@
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
   "published_at": "June 1, 2026 · 7:30 PM CEST",
-  "published_at_iso": "2026-06-01T19:30:00+0200"
+  "published_at_iso": "2026-06-01T19:30:40+0200"
 }
