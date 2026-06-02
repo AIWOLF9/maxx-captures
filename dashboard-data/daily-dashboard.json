@@ -2838,26 +2838,6 @@
       "first_seen": null
     },
     {
-      "id": "CF-CANONICAL-VIEWS-GOLIVE-1",
-      "title": "Flip the two CAP-0046 rendered views live on Netlify (Mac-side Tier-3)",
-      "description": "Flip the two CAP-0046 rendered views live on Netlify (Mac-side Tier-3). Build + self-verify are done and the HTML is emitted; the Cowork sandbox can't reach Netlify (proxy allowlist), so go-live runs on Wolf's Mac: one-time netlify link from ~/.maxx/.../build/canonical-views/ (~5 min) then bash ~/MAXX/_MAXX_OS/Capabilities/dashboard-publisher/publish-canonical-views.sh --deploy. Until then the views render on demand from the renderer.",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "When Wolf wants the views brows…",
-      "deadline_class": "d-future",
-      "effort_mc": "<30m",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf (+ Claude)",
-      "kind": "cfi",
-      "first_seen": "2026-06-02"
-    },
-    {
       "id": "CF-CFI-SECTION1-HYGIENE-1",
       "title": "CFI §1 hygiene pass",
       "description": "CFI §1 hygiene pass — stale Open rows. The CAP-0046 render EXPOSED that §1 carries rows marked Open whose work has shipped (e.g. CF-PM4c-1 Open/P0 though folder-import v1.1 shipped weeks ago; several PM4/PM5-series rows). This is the Risk-R1 drift disease one level down, inside CFI itself. Move shipped rows to §3 Closed (or mark Done) so the rendered \"open count\" + sprint queue stop carrying stale items. Deterministic render can't fix mis-stated source status — only a hygiene pass can.",
@@ -3752,6 +3732,26 @@
       "owner": "Wolf + Claude (APOLLO)",
       "kind": "cfi",
       "first_seen": null
+    },
+    {
+      "id": "CF-CANONICAL-VIEWS-GOLIVE-1",
+      "title": "Decision (Wolf, 2026-06-02): the two CAP-0046 views do NOT go to Netlify now",
+      "description": "Decision (Wolf, 2026-06-02): the two CAP-0046 views do NOT go to Netlify now. Per the 4-tier surface-routing rule ([[feedback_html_file_vs_pinned_artifact]]): these are static/planning views regenerable from source, so they sit in tier 1 — downloadable HTML kept on Google Drive, opened in a browser tab, not an external host. External hosting (Netlify/GitHub) is reserved for a *functional dashboard that genuinely needs to be reachable outside Cowork* (e.g. on a phone) — not just \"a view.\" Netlify IS reachable (connector authenticated, no token needed) if that changes. Re-open trigger: these vi…",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Closed by Wolf decision 2026-06…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "kind": "cfi",
+      "first_seen": "2026-06-02"
     },
     {
       "id": "CF-FOLD-CANONICAL-VIEWS-INTO-PUBLISHER-1",
@@ -8416,6 +8416,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 2, 2026 · 2:01 AM CEST",
-  "published_at_iso": "2026-06-02T02:01:00+0200"
+  "published_at": "June 2, 2026 · 2:31 AM CEST",
+  "published_at_iso": "2026-06-02T02:31:04+0200"
 }
