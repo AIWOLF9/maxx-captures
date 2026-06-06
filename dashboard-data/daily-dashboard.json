@@ -1580,26 +1580,6 @@
       "first_seen": null
     },
     {
-      "id": "SIG-162",
-      "title": "Launch Mechanics session (waitlist + founding-member pre-order + early-tester beta + PR/posting list)",
-      "description": "NEXT chat (SIG28). Design the waitlist + referral + pre-order + concept-test + early-beta + launch PR list. Open waitlist ~T-60/90 (Jun–Jul), pre-orders T-30 (Aug). Per SIG27 research (GetWaitlist/Viral Loops + Lemon Squeezy MoR).",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Launch",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "kind": "tasks",
-      "first_seen": "2026-06-06"
-    },
-    {
       "id": "SIG-163",
       "title": "Website + Landing page (waitlist/pre-order page + articles/news directory + blog)",
       "description": "Its OWN long chat. Claude Design + Athena + Apollo research + Mission Control agent check. Bring Dribbble/Mobbin style refs. Gated on logo + Brand v1.4.",
@@ -7849,6 +7829,26 @@
       "first_seen": "2026-06-02"
     },
     {
+      "id": "SIG-162",
+      "title": "Launch Mechanics session (waitlist + founding-member pre-order + early-tester beta + PR/posting list)",
+      "description": "SIG28 (2026-06-07): Shipped the full launch spine — 7-phase funnel (Survey→Beta→Waitlist→Pre-order→Kickstarter→Launch→Steady). Waitlister engine; 2-for-1 giftable pre-order + viral-army gift flow (email+SMS capture); 3-tier Ambassador (25/40) + stackable badges; concept test (CareAngel template + Van Westendorp/Gabor-Granger); ~30d beta + PMF≥40% gate; KS pre-launch ~T-60 funds the build (stretch=iOS/Europe/modules); PR/pitch list; trackable-links + demo gate; runway. Canonical draft _Working/SIG28_Launch_Mechanics_Plan_v0_1_DRAFT; formal promotion → SIG-177.",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Launch",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "~6h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "kind": "tasks",
+      "first_seen": "2026-06-06"
+    },
+    {
       "id": "CAP-0046",
       "title": "Canonical-state auto-render (PORTFOLIO_STATUS + agent/workflow map)",
       "description": "Canonical-state auto-render (PORTFOLIO_STATUS + agent/workflow map). Structural fix for Risk R1 (PORTFOLIO_STATUS recurring ~8-chat drift). SHIPPED v0.1: render_canonical_state.py + publish-canonical-views.sh + README_CANONICAL_RENDER.md at ~/MAXX/_MAXX_OS/Capabilities/dashboard-publisher/, composing with the CAP-0024 publisher (reuses canonical_md.py; did NOT modify the Built/Live publish-dashboards.sh/dashboards.yaml — smallest delta). Renders two derived always-fresh views — Portfolio-at-a-Glance (CAP totals + status, open/blocked CF counts, PS count, doc-freshness ledger, recently-Built/L…",
@@ -8756,6 +8756,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 6, 2026 · 1:38 AM CEST",
-  "published_at_iso": "2026-06-06T01:38:03+0200"
+  "published_at": "June 7, 2026 · 1:28 AM CEST",
+  "published_at_iso": "2026-06-07T01:28:56+0200"
 }
