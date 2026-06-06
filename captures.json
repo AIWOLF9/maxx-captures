@@ -1,5 +1,26 @@
 [
   {
+    "title": "USER TAGGING - input - pulls up existing, they select.  add description- as well- don’t show - use for further ML? Wisdom of crowds.",
+    "ventures": [
+      "v-signal",
+      "v-mos"
+    ],
+    "venture": "v-signal",
+    "segments": [
+      "Product",
+      "Strategy",
+      "Social",
+      "Content"
+    ],
+    "segment": "Product",
+    "priority": "p-p1",
+    "type": "now",
+    "tags": "NEW FEATURE CANDIDATE, PRODUCT ENHANCEMENT, MAJOR DIFFERENTIATOR",
+    "notes": "USER TAGGING - input - pulls up existing, they select.  add description- as well- don’t show - use for further ML? Wisdom of crowds. \n\nMuch like the concept of CAPTCHA - and the way Wick‘s work or how other services use wisdom of the Kraut to further add intelligence indoor categorization to existing content. We can use this feature to help everyone further categorize the contents to. It’s better for the algorithm for the creation engine that we have so if we have something, for example as a video that’s funny feel good entertainment, but happens to be a cat video so someone tag it it a cat has Q as you need additional tags then when people are selecting what they want, we can even get more granular and especially if they you know, putting in their own keywords eventually, but nonetheless, we can expand or taxonomy in. Also have cross-referencing kind of database of you know every entertaining you a video that’s like also cute for example that someone wants Wright so we can additionally cross reference and make our creation and algorithm much smarter so I want you to help me think through this idea cause I think it’s another major differentiator and I don’t know if this is like a patentable idea but I want you to think of other services maybe do research you know what other platforms are out there that use kind of wisdom of the crowd is it wiki? Is it like GitHub you know open source type of initiatives. Let’s definitely have a little chat about this. so this is a feature capability differentiator a major one I think and I guess we chat about it here at signal and ultimately the underlying agents as far as design build be the front and user experience for this with the mark it up and then match you know how the backend would work to make this happen. So whether it’s Apollo for doing some research Athena for designing Lamaca or something of the user experience and Hermes gets involved and then I think it’s it Vulcan to build it whichever agents need to be involved.",
+    "id": "cap-mq29n7rh7op",
+    "created": "2026-06-06T11:24:42.894Z"
+  },
+  {
     "title": "STOP CONSUMING NOISE & RANDOM INFORMATION-",
     "ventures": [
       "v-signal"
