@@ -2856,6 +2856,46 @@
       "first_seen": "2026-06-07"
     },
     {
+      "id": "CF-COWORK-INPUTBOX-1",
+      "title": "Cowork chat input-box non-responsiveness recurred a 3rd time",
+      "description": "Cowork chat input-box non-responsiveness recurred a 3rd time — treat as a reproducible Cowork-app issue, not incidental focus contention (Risk R4). SIG26 ran fully non-responsive (Wolf answered via uploaded docs), SIG27 intermittent, SIG29 input glitchy (Wolf dictated long answers). Crosses the \"file if it recurs a 3rd time\" threshold set at SYNTHESIS_2026-06-07 R4. Distinct from feedback_browser_driving_exclusive_input (that is focus contention while the agent drives the browser; this is plain typing in the Cowork box with no browser-driving in play).",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next occurrence: capture exact…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf + Claude",
+      "kind": "cfi",
+      "first_seen": "2026-06-08"
+    },
+    {
+      "id": "CF-CATCHUP-DECONFLICT-1",
+      "title": "Sequence the two ventures' canonical catch-up sweeps on DIFFERENT days (Risk R2 bandwidth deconfliction)",
+      "description": "Sequence the two ventures' canonical catch-up sweeps on DIFFERENT days (Risk R2 bandwidth deconfliction). Signal's catch-up batch (SIG-177 consolidation + Market-Analysis promotion SIG-176 + Decisions-Log append) and the MAXX OS staged-commit reconciliation both need Wolf-heavy time; landing them in the same window collides against the ~3-chats/day tempo. Mission Control owns the calendar deconfliction. NOTE: Signal's load is now lighter than the synthesis assumed — Brand v1.4 (SIG-174) already cleared at SIG29 (2026-06-08).",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "When scheduling the next Signal…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Mission Control + Wolf",
+      "kind": "cfi",
+      "first_seen": "2026-06-08"
+    },
+    {
       "id": "MOS-T-003",
       "title": "Apps that limit social-media use",
       "description": "from cap-mpqs5e38ude — scan social-media-limiting / digital-wellbeing apps for positioning + partnership angles",
@@ -9006,6 +9046,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 7, 2026 · 8:30 PM CEST",
-  "published_at_iso": "2026-06-07T20:30:04+0200"
+  "published_at": "June 8, 2026 · 1:30 AM CEST",
+  "published_at_iso": "2026-06-08T01:30:13+0200"
 }
