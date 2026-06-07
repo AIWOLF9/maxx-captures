@@ -2856,6 +2856,26 @@
       "first_seen": "2026-06-07"
     },
     {
+      "id": "CF-VULCAN-AT-001-RUN-1",
+      "title": "Run VULCAN acceptance test AT-VULCAN-001 in the Signal Cowork project",
+      "description": "Run VULCAN acceptance test AT-VULCAN-001 in the Signal Cowork project. One real small Signal component taken APOLLO→ATHENA→VULCAN end-to-end, scored against the §2 pass bar (A1–A6) in MOS-VULCAN-ACCEPTANCE-TEST-001_2026-06-07.md; paste-ready opener at _MAXX_OS/Capabilities/vulcan/AGENT-VULCAN-ACCEPTANCE-TEST-1_SIGNAL_OPENER.md. A pass closes VULCAN's Implement-mode + ATHENA→VULCAN-handoff v1.0 criteria and banks the first reliability tick toward the ≥5-build window; report the verdict back so CAP-0027's graduation tracker advances.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Open the Signal Cowork project…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf (Signal project) + VULCAN",
+      "kind": "cfi",
+      "first_seen": "2026-06-07"
+    },
+    {
       "id": "MOS-T-003",
       "title": "Apps that limit social-media use",
       "description": "from cap-mpqs5e38ude — scan social-media-limiting / digital-wellbeing apps for positioning + partnership angles",
@@ -5582,6 +5602,25 @@
       "prov": "capture",
       "kind": "tasks",
       "first_seen": null
+    },
+    {
+      "id": "CAP-0053",
+      "title": "Venture-agent GitHub-write standardization + credential automation",
+      "description": "Venture-agent GitHub-write standardization + credential automation. Make venture build agents (VULCAN et al.) provision + push to GitHub with zero per-session manual steps. Born from AT-VULCAN-001: the GitHub MCP connector can't do dynamic client registration (dead end), and MAXX's proven path (fine-grained PAT + REST/git via gh_put.py, CAP-0024/CAP-0042) isn't reachable by venture agents because the secret store ~/MAXX/_secrets/ is outside venture mounts (OBS-0049) and tokens get pasted per-session. Scope: (1) a portable secret store venture mounts can read (per-venture gitignored secret fil…",
+      "status": "s-waiting",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-06-07",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-06-07",
+      "zone": "waiting",
+      "kind": "cap",
+      "first_seen": "2026-06-07"
     },
     {
       "id": "CAP-0045",
@@ -8967,6 +9006,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 7, 2026 · 6:59 PM CEST",
-  "published_at_iso": "2026-06-07T18:59:23+0200"
+  "published_at": "June 7, 2026 · 8:00 PM CEST",
+  "published_at_iso": "2026-06-07T20:00:01+0200"
 }
