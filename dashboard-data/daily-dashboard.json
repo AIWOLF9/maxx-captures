@@ -1780,11 +1780,11 @@
     },
     {
       "id": "CAP-0049",
-      "title": "Shared Foundation Layer + Venture Agent-Awareness (_index/_shared/ canonical + read-only auto-mirror sync per venture",
-      "description": "Shared Foundation Layer + Venture Agent-Awareness (_index/_shared/ canonical + read-only auto-mirror sync per venture; agent roster as first resident). ID earmarked here to prevent collision; full entry authored at AFVA closeout, awaiting its own commit. See memory project_shared_foundation_layer.",
-      "status": "s-todo",
+      "title": "Shared Foundation Layer + Venture Agent-Awareness",
+      "description": "Shared Foundation Layer + Venture Agent-Awareness. _index/_shared/ single-authored canonical + read-only auto-mirror per venture (ventures mounted at ~/MAXX/[VENTURE]/ can't read _index/_MAXX_OS by design — deliberate write-guardrail); the agent roster is the first resident. First brick of the agent-comms fabric (≠ the Hive Mind learning loop). Staged at AFVA 2026-06-01, committed 2026-06-07 (PROCESS-DIGEST reconciliation pass). See memory project_shared_foundation_layer; sibling CF-FRAMEWORK-VIZ-1 (the framework-visualization + comms-fabric design chat).",
+      "status": "s-doing",
       "priority": "p-p2",
-      "segment": "Agents",
+      "segment": "Hive Mind",
       "venture": "v-mos",
       "deadline": null,
       "deadline_label": "2026-06-01",
@@ -2852,6 +2852,26 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf / Mission Control",
+      "kind": "cfi",
+      "first_seen": "2026-06-07"
+    },
+    {
+      "id": "CF-FRAMEWORK-VIZ-1",
+      "title": "Visualize the whole MAXX OS framework / brain + design the comms fabric + the _shared/ auto-sync mechanism",
+      "description": "Visualize the whole MAXX OS framework / brain + design the comms fabric + the _shared/ auto-sync mechanism. One rendered map of all layers bottom-up (toolsets → documentation → agent framework → communication fabric → Hive Mind); also the home to design the agent-comms fabric and the _index/_shared/ read-only auto-mirror sync mechanism (the remaining half of CAP-0049 Shared Foundation Layer).",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Hive Mind",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Dedicated framework-visualizati…",
+      "deadline_class": "d-future",
+      "effort_mc": "4–8h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf + Mission Control",
       "kind": "cfi",
       "first_seen": "2026-06-07"
     },
@@ -8909,6 +8929,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 7, 2026 · 5:59 PM CEST",
-  "published_at_iso": "2026-06-07T17:59:17+0200"
+  "published_at": "June 7, 2026 · 6:29 PM CEST",
+  "published_at_iso": "2026-06-07T18:29:20+0200"
 }
