@@ -2856,26 +2856,6 @@
       "first_seen": "2026-06-07"
     },
     {
-      "id": "CF-VULCAN-AT-001-RUN-1",
-      "title": "Run VULCAN acceptance test AT-VULCAN-001 in the Signal Cowork project",
-      "description": "Run VULCAN acceptance test AT-VULCAN-001 in the Signal Cowork project. One real small Signal component taken APOLLO→ATHENA→VULCAN end-to-end, scored against the §2 pass bar (A1–A6) in MOS-VULCAN-ACCEPTANCE-TEST-001_2026-06-07.md; paste-ready opener at _MAXX_OS/Capabilities/vulcan/AGENT-VULCAN-ACCEPTANCE-TEST-1_SIGNAL_OPENER.md. A pass closes VULCAN's Implement-mode + ATHENA→VULCAN-handoff v1.0 criteria and banks the first reliability tick toward the ≥5-build window; report the verdict back so CAP-0027's graduation tracker advances.",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Agents",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Open the Signal Cowork project…",
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf (Signal project) + VULCAN",
-      "kind": "cfi",
-      "first_seen": "2026-06-07"
-    },
-    {
       "id": "MOS-T-003",
       "title": "Apps that limit social-media use",
       "description": "from cap-mpqs5e38ude — scan social-media-limiting / digital-wellbeing apps for positioning + partnership angles",
@@ -8985,6 +8965,26 @@
       "first_seen": null
     },
     {
+      "id": "CF-VULCAN-AT-001-RUN-1",
+      "title": "[✅ Done 2026-06-07",
+      "description": "[✅ Done 2026-06-07 — AT-VULCAN-001 PASS: provisioned AIWOLF9/maxx-signal + built the waitlist field from ATHENA's handoff + pushed under Tier-3 (@ f5f9aa7); A1–A5 met, A6 Wolf-accepted. Closes Implement mode + the ATHENA→VULCAN handoff → CAP-0027 5/6 v1.0 criteria, build 1/5. Continuation (4 more slices toward the count) tracked in CAP-0027, not a CF.] Run VULCAN acceptance test AT-VULCAN-001 in the Signal Cowork project. One real small Signal component taken APOLLO→ATHENA→VULCAN end-to-end, scored against the §2 pass bar (A1–A6) in MOS-VULCAN-ACCEPTANCE-TEST-001_2026-06-07.md; paste-ready op…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Open the Signal Cowork project…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf (Signal project) + VULCAN",
+      "kind": "cfi",
+      "first_seen": "2026-06-07"
+    },
+    {
       "id": "SIG-021",
       "title": "Product Backlog hygiene to v1.3.4",
       "description": "Cluster-E placeholder-ID renumber; OQ-BACKLOG-06 closed (SIG4) before onboarding research.",
@@ -9006,6 +9006,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 7, 2026 · 8:00 PM CEST",
-  "published_at_iso": "2026-06-07T20:00:01+0200"
+  "published_at": "June 7, 2026 · 8:30 PM CEST",
+  "published_at_iso": "2026-06-07T20:30:04+0200"
 }
