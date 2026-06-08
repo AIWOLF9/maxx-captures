@@ -3933,6 +3933,26 @@
       "first_seen": "2026-06-02"
     },
     {
+      "id": "CF-CANONICAL-VIEWS-SITE-LINK-1",
+      "title": "Link / consolidate the canonical-views Netlify deploy",
+      "description": "Link / consolidate the canonical-views Netlify deploy. The 2026-06-08 publish-canonical-views.sh --deploy auto-created a NEW unlinked Netlify site (jolly-cascaron-f089d9.netlify.app) serving framework-map / portfolio-at-a-glance / agent-workflow-map, instead of deploying into the existing dashboards project — two stray sites now. Either netlify link the build/canonical-views/ dir to the existing project, OR fold the 3 views into the CAP-0024 30-min publisher batch (the renderer README's stated follow-up). Functional today (views are live); tidy-up only.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next dashboard/publisher touch,…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf (Mac-side netlify link) + Mission Control",
+      "kind": "cfi",
+      "first_seen": "2026-06-08"
+    },
+    {
       "id": "CF-SIGNAL-FIRESTORE-REGION-CONFIRM-1",
       "title": "Confirm us-central1 is the intended (PERMANENT) Firestore region (AT-002 O6)",
       "description": "Confirm us-central1 is the intended (PERMANENT) Firestore region (AT-002 O6). AT-VULCAN-002 chose us-central1 per the Data Model §1.2 P0 lock (cheapest, single-region), overriding the session header's informal \"nam5.\" Firestore region is immutable post-creation — confirm Wolf is content with the locked-spec choice (it is permanent either way).",
@@ -9261,6 +9281,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 8, 2026 · 7:30 PM CEST",
-  "published_at_iso": "2026-06-08T19:30:56+0200"
+  "published_at": "June 8, 2026 · 8:00 PM CEST",
+  "published_at_iso": "2026-06-08T20:00:59+0200"
 }
