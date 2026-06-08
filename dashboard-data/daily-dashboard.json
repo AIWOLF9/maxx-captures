@@ -2837,26 +2837,6 @@
       "first_seen": "2026-06-07"
     },
     {
-      "id": "CF-FRAMEWORK-VIZ-1",
-      "title": "Visualize the whole MAXX OS framework / brain + design the comms fabric",
-      "description": "Visualize the whole MAXX OS framework / brain + design the comms fabric. One rendered map of all layers bottom-up (toolsets → documentation → agent framework → communication fabric → Hive Mind); the home to design the agent-comms fabric. NARROWED 2026-06-08: the _index/_shared/ read-only auto-mirror sync mechanism (formerly the remaining half of CAP-0049) SHIPPED → Built/Live in CAP-0049-SHARED-FOUNDATION-BUILD; this CF now covers only the framework-viz + comms-fabric design.",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Hive Mind",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Dedicated framework-visualizati…",
-      "deadline_class": "d-future",
-      "effort_mc": "4–8h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf + Mission Control",
-      "kind": "cfi",
-      "first_seen": "2026-06-07"
-    },
-    {
       "id": "CF-COWORK-INPUTBOX-1",
       "title": "Cowork chat input-box non-responsiveness recurred a 3rd time",
       "description": "Cowork chat input-box non-responsiveness recurred a 3rd time — treat as a reproducible Cowork-app issue, not incidental focus contention (Risk R4). SIG26 ran fully non-responsive (Wolf answered via uploaded docs), SIG27 intermittent, SIG29 input glitchy (Wolf dictated long answers). Crosses the \"file if it recurs a 3rd time\" threshold set at SYNTHESIS_2026-06-07 R4. Distinct from feedback_browser_driving_exclusive_input (that is focus contention while the agent drives the browser; this is plain typing in the Cowork box with no browser-driving in play).",
@@ -9220,6 +9200,26 @@
       "first_seen": null
     },
     {
+      "id": "CF-FRAMEWORK-VIZ-1",
+      "title": "Visualize the whole MAXX OS framework / brain + design the comms fabric",
+      "description": "Visualize the whole MAXX OS framework / brain + design the comms fabric. One rendered map of all layers bottom-up (toolsets → documentation → agent framework → communication fabric → Hive Mind); the home to design the agent-comms fabric. NARROWED 2026-06-08: the _index/_shared/ read-only auto-mirror sync mechanism (formerly the remaining half of CAP-0049) SHIPPED → Built/Live in CAP-0049-SHARED-FOUNDATION-BUILD; this CF now covers only the framework-viz + comms-fabric design. ✅ DONE 2026-06-08 (CF-FRAMEWORK-VIZ-1 chat): (a) Framework Map shipped as a 3rd live view in the CAP-0046 renderer (re…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Hive Mind",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Done ✅ — builds now tracked as…",
+      "deadline_class": "d-future",
+      "effort_mc": "4–8h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf + Mission Control",
+      "kind": "cfi",
+      "first_seen": "2026-06-07"
+    },
+    {
       "id": "CF-VULCAN-AT-001-RUN-1",
       "title": "[✅ Done 2026-06-07",
       "description": "[✅ Done 2026-06-07 — AT-VULCAN-001 PASS: provisioned AIWOLF9/maxx-signal + built the waitlist field from ATHENA's handoff + pushed under Tier-3 (@ f5f9aa7); A1–A5 met, A6 Wolf-accepted. Closes Implement mode + the ATHENA→VULCAN handoff → CAP-0027 5/6 v1.0 criteria, build 1/5. Continuation (4 more slices toward the count) tracked in CAP-0027, not a CF.] Run VULCAN acceptance test AT-VULCAN-001 in the Signal Cowork project. One real small Signal component taken APOLLO→ATHENA→VULCAN end-to-end, scored against the §2 pass bar (A1–A6) in MOS-VULCAN-ACCEPTANCE-TEST-001_2026-06-07.md; paste-ready op…",
@@ -9261,6 +9261,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 8, 2026 · 7:00 PM CEST",
-  "published_at_iso": "2026-06-08T19:00:53+0200"
+  "published_at": "June 8, 2026 · 7:30 PM CEST",
+  "published_at_iso": "2026-06-08T19:30:56+0200"
 }
