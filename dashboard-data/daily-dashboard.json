@@ -985,6 +985,26 @@
       "first_seen": null
     },
     {
+      "id": "CF-SIGNAL-WAITLIST-SCHEMA-RATIFY-1",
+      "title": "Ratify the DERIVED waitlist collection schema into Signal Data Model v1.4 (AT-002 O1)",
+      "description": "Ratify the DERIVED waitlist collection schema into Signal Data Model v1.4 (AT-002 O1). Data Model v1.3 defines no waitlist collection; AT-VULCAN-002 built against a minimal derived shape (camelCase, schemaVersion, UTC Timestamp, doc id = sha256(email), status pending→confirmed, single-use magic-link token per Auth-Security §4.7, light first-touch attribution signupSource) and explicitly flagged it for canon. Do NOT leave it unratified — it is live in production.",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Next Signal canonical chat (bun…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf + Mission Control (Signal-canon chat)",
+      "kind": "cfi",
+      "first_seen": "2026-06-08"
+    },
+    {
       "id": "MOS-T-004",
       "title": "Viral app marketing research",
       "description": "from cap-mpqu87fr66a — viral go-to-market research via 3 LLMs + NotebookLM; reusable across ventures; parallelizable",
@@ -3910,6 +3930,26 @@
       "owner": "VULCAN + Wolf",
       "kind": "cfi",
       "first_seen": "2026-06-02"
+    },
+    {
+      "id": "CF-SIGNAL-FIRESTORE-REGION-CONFIRM-1",
+      "title": "Confirm us-central1 is the intended (PERMANENT) Firestore region (AT-002 O6)",
+      "description": "Confirm us-central1 is the intended (PERMANENT) Firestore region (AT-002 O6). AT-VULCAN-002 chose us-central1 per the Data Model §1.2 P0 lock (cheapest, single-region), overriding the session header's informal \"nam5.\" Firestore region is immutable post-creation — confirm Wolf is content with the locked-spec choice (it is permanent either way).",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Quick confirm at next Signal to…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "kind": "cfi",
+      "first_seen": "2026-06-08"
     },
     {
       "id": "SIG-075",
@@ -7035,6 +7075,25 @@
       "first_seen": "2026-06-08"
     },
     {
+      "id": "PS-PROVOCATION-FLOOR-1",
+      "title": "",
+      "description": "",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Strategy",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "PS signal",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/PRODUCTIZATION_LOG.md",
+      "created": null,
+      "zone": "info",
+      "kind": "ps",
+      "first_seen": "2026-06-08"
+    },
+    {
       "id": "CF-PM4c-1",
       "title": "[✅ Done 2026-06-02 CFI-§1-HYGIENE",
       "description": "[✅ Done 2026-06-02 CFI-§1-HYGIENE — folder-import SKILL.md hardened to v1.1 (2026-05-11); all 4 bullets present + v1.1.0 plugin on disk; validated at Signal+Solitaire migrations.] Skill-hardening of MOS-SYS-SKILL-FOLDER-IMPORT-0001.md to v1.1. Four-bullet scope: (1) sandbox-aware path resolution OR refuse-to-run if source/target not under ~/MAXX/; (2) parser anchored on 5-column routing-table structure OR explicit <!-- ROUTING TABLE --> anchor; (3) parser strips markdown emphasis from action column; (4) spec §1.4 + §3.6 amendments. Plus CF-PM4d-4: SKILL.md should reference bridge-manifest pla…",
@@ -9084,6 +9143,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 8, 2026 · 2:00 AM CEST",
-  "published_at_iso": "2026-06-08T02:00:17+0200"
+  "published_at": "June 8, 2026 · 4:30 PM CEST",
+  "published_at_iso": "2026-06-08T16:30:36+0200"
 }
