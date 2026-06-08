@@ -5991,25 +5991,6 @@
       "first_seen": null
     },
     {
-      "id": "CAP-0038",
-      "title": "AGENT_INBOX surface",
-      "description": "AGENT_INBOX surface — interactive Cowork surface reading ~/MAXX/_index/AGENT_INBOX.md (agent outputs / review-approve-feedback affordances). Original CAP-0015 inbox scope, now its own. Design locked in MOS-COMMS-FABRIC-DESIGN-0001 §2 (Primary: extend the CAP-0046 renderer with an inbox view + dual-layer localStorage / propose-confirm-execute mark-as-handled; reference-first, inherits the renderer drift-proof). Pairs with CAP-0054 (trigger/callback). Phase 2 · MC L · Wolf ~20m · depends on 1+ agent producing output (APOLLO) + CAP-0015. See §3.",
-      "status": "s-waiting",
-      "priority": "p-p2",
-      "segment": "Agents",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "2026-05-28",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
-      "created": "2026-05-28",
-      "zone": "waiting",
-      "kind": "cap",
-      "first_seen": null
-    },
-    {
       "id": "CAP-0039",
       "title": "Reports Hub navigation surface",
       "description": "Reports Hub navigation surface — single navigation surface pinning all dashboards/reports/cadences (PS-REPORTS-HUB-1). Phase 2 · MC M-L · Wolf ~20m · depends on 2+ dashboards existing. See §3.",
@@ -8543,6 +8524,25 @@
       "first_seen": null
     },
     {
+      "id": "CAP-0038",
+      "title": "AGENT_INBOX surface",
+      "description": "AGENT_INBOX surface — SHIPPED 2026-06-08 (CAP-0038-INBOX-SURFACE-1). Built as the 4th view in the CAP-0046 renderer (render_canonical_state.py → v0.3; v0.2 archived; --verify clean 54/12/6; emits agent-inbox.html). Parses AGENT_INBOX.md §3 → review cards (agent · mode · task · status · self-review · canonical path · Wolf-action) with filters (agent/status/venture/Wolf-action) + sort-by-Wolf-action + the 4-affordance pattern (note=localStorage · flag=color-cycle · ask=sendPrompt-or-clipboard). Dual-layer mark-as-handled per MOS-COMMS-FABRIC-DESIGN-0001 §2.1: localStorage (instant per-browser)…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Hive Mind",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-05-28",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-05-28",
+      "zone": "done",
+      "kind": "cap",
+      "first_seen": null
+    },
+    {
       "id": "CAP-0015",
       "title": "MAXX OS Daily Dashboard v0.1 shipped 2026-05-27",
       "description": "MAXX OS Daily Dashboard v0.1 shipped 2026-05-27 — canonical spec ~/MAXX/_MAXX_OS/Canonical/Final/MOS-DAILY-DASHBOARD-0001.md v0.1 + paired live Cowork artifact maxx-os-daily-dashboard-v0-1 (4-view-switcher: Daily-priorities / Kanban / List / By-venture; pass-list quick-capture with canonical-promotion path; click-popover state+priority edit across all views; drag-drop Kanban; detail drawer on card click; segment+priority first-class filters; sort+search popovers; MC+Wolf effort chips per item; humanized titles with opaque IDs as secondary tags; localStorage persistence). See §4 Built/Live for…",
@@ -9281,6 +9281,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 8, 2026 · 8:00 PM CEST",
-  "published_at_iso": "2026-06-08T20:00:59+0200"
+  "published_at": "June 8, 2026 · 9:01 PM CEST",
+  "published_at_iso": "2026-06-08T21:01:35+0200"
 }
