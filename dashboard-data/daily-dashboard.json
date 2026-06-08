@@ -947,7 +947,7 @@
     {
       "id": "CF-SIGNAL-WAITLIST-SCHEMA-RATIFY-1",
       "title": "Ratify the DERIVED waitlist collection schema into Signal Data Model v1.4 (AT-002 O1)",
-      "description": "Ratify the DERIVED waitlist collection schema into Signal Data Model v1.4 (AT-002 O1). Data Model v1.3 defines no waitlist collection; AT-VULCAN-002 built against a minimal derived shape (camelCase, schemaVersion, UTC Timestamp, doc id = sha256(email), status pending→confirmed, single-use magic-link token per Auth-Security §4.7, light first-touch attribution signupSource) and explicitly flagged it for canon. Do NOT leave it unratified — it is live in production.",
+      "description": "Ratify the DERIVED waitlist collection schema into Signal Data Model v1.4 (AT-002 O1). [front-door] Data Model v1.3 defines no waitlist collection; AT-VULCAN-002 built against a minimal derived shape (camelCase, schemaVersion, UTC Timestamp, doc id = sha256(email), status pending→confirmed, single-use magic-link token per Auth-Security §4.7, light first-touch attribution signupSource) and explicitly flagged it for canon. Do NOT leave it unratified — it is live in production.",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -3895,7 +3895,7 @@
     {
       "id": "CF-SIGNAL-FIRESTORE-REGION-CONFIRM-1",
       "title": "Confirm us-central1 is the intended (PERMANENT) Firestore region (AT-002 O6)",
-      "description": "Confirm us-central1 is the intended (PERMANENT) Firestore region (AT-002 O6). AT-VULCAN-002 chose us-central1 per the Data Model §1.2 P0 lock (cheapest, single-region), overriding the session header's informal \"nam5.\" Firestore region is immutable post-creation — confirm Wolf is content with the locked-spec choice (it is permanent either way).",
+      "description": "Confirm us-central1 is the intended (PERMANENT) Firestore region (AT-002 O6). [front-door] AT-VULCAN-002 chose us-central1 per the Data Model §1.2 P0 lock (cheapest, single-region), overriding the session header's informal \"nam5.\" Firestore region is immutable post-creation — confirm Wolf is content with the locked-spec choice (it is permanent either way).",
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Marketing",
@@ -5899,25 +5899,6 @@
       "status": "s-waiting",
       "priority": "p-p2",
       "segment": "Hive Mind",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "2026-05-28",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
-      "created": "2026-05-28",
-      "zone": "waiting",
-      "kind": "cap",
-      "first_seen": null
-    },
-    {
-      "id": "CAP-0039",
-      "title": "Reports Hub navigation surface",
-      "description": "Reports Hub navigation surface — single navigation surface pinning all dashboards/reports/cadences (PS-REPORTS-HUB-1). Phase 2 · MC M-L · Wolf ~20m · depends on 2+ dashboards existing. See §3.",
-      "status": "s-waiting",
-      "priority": "p-p2",
-      "segment": "Governance",
       "venture": "v-mos",
       "deadline": null,
       "deadline_label": "2026-05-28",
@@ -8543,6 +8524,25 @@
       "first_seen": null
     },
     {
+      "id": "CAP-0039",
+      "title": "Reports Hub navigation surface",
+      "description": "Reports Hub navigation surface — SHIPPED 2026-06-08 (MC-CANONICAL-VIEWS-GOLIVE-1). The single human front door (PS-REPORTS-HUB-1) — built as the 5th view in the CAP-0046 renderer (render_canonical_state.py → v0.5; v0.4 archived before edit; --verify clean CAPs=54/agents=12/docs=6), emitted as index.html (the site front page over the four sibling views) on maxx-canonical-views.netlify.app. Static-derived from LIVE_SURFACES.md §1 + the canonical logs (~0 credit, drift-proof). Five blocks, most-important first: needs you now (built ONLY from trustworthy signals — agent outputs flagged review-req…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-05-28",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-05-28",
+      "zone": "done",
+      "kind": "cap",
+      "first_seen": null
+    },
+    {
       "id": "CAP-0015",
       "title": "MAXX OS Daily Dashboard v0.1 shipped 2026-05-27",
       "description": "MAXX OS Daily Dashboard v0.1 shipped 2026-05-27 — canonical spec ~/MAXX/_MAXX_OS/Canonical/Final/MOS-DAILY-DASHBOARD-0001.md v0.1 + paired live Cowork artifact maxx-os-daily-dashboard-v0-1 (4-view-switcher: Daily-priorities / Kanban / List / By-venture; pass-list quick-capture with canonical-promotion path; click-popover state+priority edit across all views; drag-drop Kanban; detail drawer on card click; segment+priority first-class filters; sort+search popovers; MC+Wolf effort chips per item; humanized titles with opaque IDs as secondary tags; localStorage persistence). See §4 Built/Live for…",
@@ -9301,6 +9301,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 8, 2026 · 10:32 PM CEST",
-  "published_at_iso": "2026-06-08T22:32:28+0200"
+  "published_at": "June 8, 2026 · 11:32 PM CEST",
+  "published_at_iso": "2026-06-08T23:32:33+0200"
 }
