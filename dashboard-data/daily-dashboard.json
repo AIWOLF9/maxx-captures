@@ -5725,6 +5725,25 @@
       "first_seen": null
     },
     {
+      "id": "CAP-0054",
+      "title": "Agent trigger / callback model (the return-path automation)",
+      "description": "Agent trigger / callback model (the return-path automation). Cowork-native dispatch making the comms fabric's *invoke* + *receive* steps flow without hand-carrying each one. Model: a venture appends a request row to _index/AGENT_DISPATCH_QUEUE.md; a Mission Control scheduled task picks up new rows and surfaces them for plan-gated invocation; the agent's AGENT_INBOX.md append is the callback (rendered by CAP-0038; optional CAP-0047 Away-Mode SMS on blocker). Filesystem-as-bus — no new transport, no external orchestrator (project_cowork_is_orchestrator_no_external). Cross-project *live* auto-tr…",
+      "status": "s-waiting",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-06-08",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-06-08",
+      "zone": "waiting",
+      "kind": "cap",
+      "first_seen": "2026-06-08"
+    },
+    {
       "id": "CAP-0053",
       "title": "Venture-agent GitHub-write standardization + credential automation",
       "description": "Venture-agent GitHub-write standardization + credential automation. Make venture build agents (VULCAN et al.) provision + push to GitHub with zero per-session manual steps. Born from AT-VULCAN-001: the GitHub MCP connector can't do dynamic client registration (dead end), and MAXX's proven path (fine-grained PAT + REST/git via gh_put.py, CAP-0024/CAP-0042) isn't reachable by venture agents because the secret store ~/MAXX/_secrets/ is outside venture mounts (OBS-0049) and tokens get pasted per-session. Scope: (1) a portable secret store venture mounts can read (per-venture gitignored secret fil…",
@@ -5974,7 +5993,7 @@
     {
       "id": "CAP-0038",
       "title": "AGENT_INBOX surface",
-      "description": "AGENT_INBOX surface — interactive Cowork surface reading ~/MAXX/_index/AGENT_INBOX.md (agent outputs / review-approve-feedback affordances). Original CAP-0015 inbox scope, now its own. Phase 2 · MC L · Wolf ~20m · depends on 1+ agent producing output (APOLLO) + CAP-0015. See §3.",
+      "description": "AGENT_INBOX surface — interactive Cowork surface reading ~/MAXX/_index/AGENT_INBOX.md (agent outputs / review-approve-feedback affordances). Original CAP-0015 inbox scope, now its own. Design locked in MOS-COMMS-FABRIC-DESIGN-0001 §2 (Primary: extend the CAP-0046 renderer with an inbox view + dual-layer localStorage / propose-confirm-execute mark-as-handled; reference-first, inherits the renderer drift-proof). Pairs with CAP-0054 (trigger/callback). Phase 2 · MC L · Wolf ~20m · depends on 1+ agent producing output (APOLLO) + CAP-0015. See §3.",
       "status": "s-waiting",
       "priority": "p-p2",
       "segment": "Agents",
@@ -9242,6 +9261,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 8, 2026 · 6:00 PM CEST",
-  "published_at_iso": "2026-06-08T18:00:41+0200"
+  "published_at": "June 8, 2026 · 7:00 PM CEST",
+  "published_at_iso": "2026-06-08T19:00:53+0200"
 }
