@@ -901,17 +901,39 @@
       "first_seen": "2026-06-08"
     },
     {
-      "id": "MOS-T-004",
-      "title": "Viral app marketing research",
-      "description": "from cap-mpqu87fr66a — viral go-to-market research via 3 LLMs + NotebookLM; reusable across ventures; parallelizable",
+      "id": "MOS-T-002",
+      "title": "GBrain repo",
+      "description": "🔍 TRIAGED → MAXX memory-architecture research cluster (w/ T-013); MAXX-autonomous. from cap-mpqaopf8x5k — GBrain repo for cross-project memory",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Research",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "prov": "capture",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "MOS-T-005",
+      "title": "SEO strategies research",
+      "description": "🔍 TRIAGED — MAXX-autonomous research batch (tools/platforms → plan). from cap-mpquu0ux82m",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
       "venture": "v-signal",
       "ventures": [
-        "v-signal",
-        "v-solitaire",
-        "v-aidvisor"
+        "v-signal"
       ],
       "deadline": null,
       "deadline_label": null,
@@ -929,7 +951,7 @@
     {
       "id": "MOS-T-010",
       "title": "Automate NotebookLM",
-      "description": "from cap-mpqwngk03n6 — programmatically drive NotebookLM via Claude for research → reports/decks/infographics; CAP candidate; upstream of research tasks",
+      "description": "🔍 TRIAGED — MAXX-autonomous: research feasibility (real API/MCP path?) before any build; CAP candidate. from cap-mpqwngk03n6 — drive NotebookLM for research → reports/decks/infographics",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Build",
@@ -953,7 +975,7 @@
     {
       "id": "MOS-T-013",
       "title": "Single-brain memory framework",
-      "description": "from cap-mpqx1kuin5p — review \"single brain / managed fleet\" memory video for MAXX OS memory ideas",
+      "description": "🔍 TRIAGED → MAXX memory-architecture research cluster (w/ T-002); MAXX-autonomous. from cap-mpqx1kuin5p — \"single brain / managed fleet\" memory",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -999,58 +1021,9 @@
       "first_seen": null
     },
     {
-      "id": "MOS-T-018",
-      "title": "CRM for lead management",
-      "description": "from cap-mpqyqtfxpm6 — CRM for lead research/outreach/nurture/conversion/tracking; reusable for AI-DVISOR",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Launch",
-      "venture": "v-signal",
-      "ventures": [
-        "v-signal",
-        "v-aidvisor"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "prov": "capture",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "MOS-T-019",
-      "title": "\"Fear & anger\" brand line",
-      "description": "from cap-mpqz0tosgzq — capture the \"algorithms optimize for fear and anger\" line in the messaging library",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "ventures": [
-        "v-signal"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "prov": "capture",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "MOS-T-020",
       "title": "Engagement / survey touch-points",
-      "description": "from cap-mpqzc9s8i6e — engagement framework: in-app survey/feedback + gift/share feature",
+      "description": "🔍 TRIAGED → Signal product (survey + share + gift + ambassador framework). from cap-mpqzc9s8i6e",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -1072,57 +1045,9 @@
       "first_seen": null
     },
     {
-      "id": "MOS-T-021",
-      "title": "Review \"AI OS\" video",
-      "description": "from cap-mpr41don2xa — review the \"AI OS\" video for ideas applicable to MAXX OS",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Research",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "prov": "capture",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "MOS-T-023",
-      "title": "yt-dlp YouTube skill research",
-      "description": "from cap-mpraak22hgk — evaluate yt-dlp (166k stars) as a YouTube-extraction tool/skill for Signal",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Ops",
-      "venture": "v-signal",
-      "ventures": [
-        "v-signal"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "prov": "capture",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "MOS-T-024",
       "title": "User-tagging / wisdom-of-crowds feature",
-      "description": "from cap-mq29n7rh7op — user-applied tags (pick existing + add) feeding ML / \"wisdom of crowds\" to enrich curation taxonomy + cross-reference; potential differentiator; Signal UX + agent build",
+      "description": "🔍 TRIAGED → Signal product (differentiator design spike: tagging → curation taxonomy + cross-reference). from cap-mq29n7rh7op — user-applied tags feeding ML / \"wisdom of crowds\"",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -3250,9 +3175,33 @@
       "first_seen": "2026-06-08"
     },
     {
+      "id": "MOS-T-001",
+      "title": "Information diet positioning",
+      "description": "🔍 TRIAGED → Signal messaging-library cluster (w/ T-019 / T-025 / T-026 / T-032). from cap-mpq7ywp1qg0 — \"what's your information diet\" line",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "prov": "capture",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "MOS-T-003",
       "title": "Apps that limit social-media use",
-      "description": "from cap-mpqs5e38ude — scan social-media-limiting / digital-wellbeing apps for positioning + partnership angles",
+      "description": "🔍 TRIAGED — MAXX-autonomous research batch (positioning + partnership scan). from cap-mpqs5e38ude",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Research",
@@ -3276,7 +3225,7 @@
     {
       "id": "MOS-T-007",
       "title": "Starter Story research",
-      "description": "from cap-mpqvul5cr2r — mine starterstory.com strategies/tools for virality + growth; parallelizable",
+      "description": "🔍 TRIAGED — MAXX-autonomous research batch (mine starterstory.com for growth tactics). from cap-mpqvul5cr2r",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Research",
@@ -3300,7 +3249,7 @@
     {
       "id": "MOS-T-009",
       "title": "SOP skill",
-      "description": "from cap-mpqwemouc6i — evaluate/build a standard-operating-procedure skill; CAP candidate",
+      "description": "🔍 TRIAGED — MAXX-autonomous research (best-in-class SOP skill? Anthropic-native first) → CAP candidate. from cap-mpqwemouc6i",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Build",
@@ -3324,7 +3273,7 @@
     {
       "id": "MOS-T-014",
       "title": "Efficiency / optimization agent",
-      "description": "from cap-mpqx50o3iwg — efficiency-review agent over processes/workflow/token waste; CAP under agent org chart",
+      "description": "🔍 TRIAGED — agent-roster planning (efficiency/token-waste review agent; CAP candidate). from cap-mpqx50o3iwg",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Governance",
@@ -3336,6 +3285,104 @@
       "deadline_label": null,
       "deadline_class": "d-future",
       "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "prov": "capture",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "MOS-T-016",
+      "title": "Open Design skill eval",
+      "description": "🔍 TRIAGED — MAXX-autonomous research (Open Design vs Stitch / UX Pilot). from cap-mpqxzu3erl9",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-solitaire",
+      "ventures": [
+        "v-solitaire",
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "prov": "capture",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "MOS-T-018",
+      "title": "CRM for lead management",
+      "description": "🔍 TRIAGED — LARGELY DECIDED Signal-side: outreach CRM = Apollo LOCKED (SIG27, +Favikon/Clay); customer-funnel CRM (HubSpot direction) pending Signal OQ-SIG15-1 / CF-SIG32-1. Reconcile Signal-side — do NOT re-research. from cap-mpqyqtfxpm6",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Launch",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal",
+        "v-aidvisor"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "prov": "capture",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "MOS-T-019",
+      "title": "\"Fear & anger\" brand line",
+      "description": "🔍 TRIAGED → Signal messaging-library cluster (w/ T-001 / T-025 / T-026 / T-032). from cap-mpqz0tosgzq — \"algorithms optimize for fear and anger\" line",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "prov": "capture",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "MOS-T-023",
+      "title": "yt-dlp YouTube skill research",
+      "description": "🔬 RESEARCHED — scrapers brief covered the transcript-tool landscape; yt-dlp = OSS alt to the GREEN-lit Supadata. Folds into the T-040 transcript-method decision (portfolio-wide). from cap-mpraak22hgk",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
       "effort_wolf": null,
       "source": "~/MAXX/_index/MOS_TASKS.md",
       "created": null,
@@ -3372,7 +3419,7 @@
     {
       "id": "MOS-T-038",
       "title": "AI Board of Directors",
-      "description": "from cap-mptp30qxwqj — research the AI \"board of directors\" advisory pattern (tools/skills, tri-LLM + GitHub + YouTube); present findings + plan",
+      "description": "🔍 TRIAGED — MAXX-autonomous research (AI advisory-board pattern); cross-venture. from cap-mptp30qxwqj",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Governance",
@@ -3381,6 +3428,32 @@
         "v-mos",
         "v-solitaire",
         "v-signal",
+        "v-aidvisor"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "prov": "capture",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
+      "id": "MOS-T-039",
+      "title": "Spend / budget dashboard widget",
+      "description": "🔍 TRIAGED — MAXX build / CAP candidate (spend across services/APIs, by venture). from cap-mpt2gv038ir",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos",
+        "v-solitaire",
         "v-aidvisor"
       ],
       "deadline": null,
@@ -6121,78 +6194,6 @@
       "first_seen": null
     },
     {
-      "id": "MOS-T-001",
-      "title": "Information diet positioning",
-      "description": "from cap-mpq7ywp1qg0 — \"what's your information diet\" positioning line for social/website/onboarding/blogs; add to brand-voice library",
-      "status": "s-waiting",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "ventures": [
-        "v-signal"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Wolf",
-      "prov": "capture",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "MOS-T-002",
-      "title": "GBrain repo",
-      "description": "from cap-mpqaopf8x5k — research GBrain GitHub repo for cross-project memory ideas; parallelizable",
-      "status": "s-waiting",
-      "priority": "p-p1",
-      "segment": "Research",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Wolf",
-      "prov": "capture",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "MOS-T-005",
-      "title": "SEO strategies research",
-      "description": "from cap-mpquu0ux82m — comprehensive SEO platform/strategy research (3 LLMs + NotebookLM), synthesize a plan; parallelizable",
-      "status": "s-waiting",
-      "priority": "p-p1",
-      "segment": "Research",
-      "venture": "v-signal",
-      "ventures": [
-        "v-signal"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Wolf",
-      "prov": "capture",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "CAP-0053",
       "title": "Venture-agent GitHub-write standardization + credential automation",
       "description": "Venture-agent GitHub-write standardization + credential automation. Make venture build agents (VULCAN et al.) provision + push to GitHub with zero per-session manual steps. Born from AT-VULCAN-001: the GitHub MCP connector can't do dynamic client registration (dead end), and MAXX's proven path (fine-grained PAT + REST/git via gh_put.py, CAP-0024/CAP-0042) isn't reachable by venture agents because the secret store ~/MAXX/_secrets/ is outside venture mounts (OBS-0049) and tokens get pasted per-session. Scope: (1) a portable secret store venture mounts can read (per-venture gitignored secret fil…",
@@ -6924,7 +6925,7 @@
     {
       "id": "MOS-T-006",
       "title": "Positive-motivation widget",
-      "description": "from cap-mpqv0a7yrr8 — daily positive-motivation widget feature idea for Signal",
+      "description": "🔍 TRIAGED → Signal product backlog (later feature). from cap-mpqv0a7yrr8 — daily positive-motivation widget",
       "status": "s-waiting",
       "priority": "p-p2",
       "segment": "Product",
@@ -6948,7 +6949,7 @@
     {
       "id": "MOS-T-015",
       "title": "Signal transcript / video summary (premium)",
-      "description": "from cap-mpqxmbmveqm — premium post-MVP feature: video/transcript (eventually news) summary",
+      "description": "🔍 TRIAGED → Signal product backlog (post-MVP premium; pairs with the transcript tooling, T-040). from cap-mpqxmbmveqm",
       "status": "s-waiting",
       "priority": "p-p2",
       "segment": "Product",
@@ -6970,34 +6971,9 @@
       "first_seen": null
     },
     {
-      "id": "MOS-T-016",
-      "title": "Open Design skill eval",
-      "description": "from cap-mpqxzu3erl9 — evaluate open-design vs Stitch / UX Pilot for wireframes + mockups",
-      "status": "s-waiting",
-      "priority": "p-p2",
-      "segment": "Design",
-      "venture": "v-solitaire",
-      "ventures": [
-        "v-solitaire",
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Wolf",
-      "prov": "capture",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "MOS-T-032",
       "title": "Signal individuality/autonomy positioning",
-      "description": "from cap-mpv4x0smzwf — positioning: \"Signal gives back your individuality & autonomy\"; Yuval Noah + Bob Marley \"emancipate from mental slavery\" angles for the library",
+      "description": "🔍 TRIAGED → Signal messaging-library cluster (w/ T-001 / T-019 / T-025 / T-026). from cap-mpv4x0smzwf — individuality & autonomy; Yuval Noah + Bob Marley angles",
       "status": "s-waiting",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -7021,7 +6997,7 @@
     {
       "id": "MOS-T-033",
       "title": "\"Solitaire MAXX\" App Store naming",
-      "description": "from cap-mpv4mzni7h7 — consider \"Solitaire MAXX\" (lead with the discoverable keyword) vs \"MAXX Solitaire\" for App Store search",
+      "description": "🔍 TRIAGED → Solitaire decision (later; App Store discoverability). from cap-mpv4mzni7h7 — \"Solitaire MAXX\" vs \"MAXX Solitaire\"",
       "status": "s-waiting",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -7045,7 +7021,7 @@
     {
       "id": "MOS-T-035",
       "title": "Marketing-OS 4-layer blueprint",
-      "description": "from cap-mpueuimawaw — the 4-layer Marketing-OS blueprint (data→storage→dashboard→action) + 6 metrics; reference for our marketing-data stack",
+      "description": "🔍 TRIAGED — file as reference; informs the marketing-data stack + T-039. from cap-mpueuimawaw — 4-layer blueprint (data→storage→dashboard→action) + 6 metrics",
       "status": "s-waiting",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -7053,32 +7029,6 @@
       "ventures": [
         "v-signal",
         "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Wolf",
-      "prov": "capture",
-      "kind": "tasks",
-      "first_seen": "2026-06-09"
-    },
-    {
-      "id": "MOS-T-039",
-      "title": "Spend / budget dashboard widget",
-      "description": "from cap-mpt2gv038ir — dashboard widget tracking spend across all services/APIs, broken out by venture",
-      "status": "s-waiting",
-      "priority": "p-p2",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos",
-        "v-solitaire",
-        "v-aidvisor"
       ],
       "deadline": null,
       "deadline_label": null,
@@ -7156,7 +7106,7 @@
     {
       "id": "MOS-T-008",
       "title": "Astro ASO tool eval",
-      "description": "from cap-mpqw4ed8iac — evaluate Astro ASO keyword tool for App Store organic traffic/conversions",
+      "description": "🔍 TRIAGED → deferred until native apps ship (ASO keyword tool). from cap-mpqw4ed8iac",
       "status": "s-waiting",
       "priority": "p-p3",
       "segment": "Research",
@@ -7181,7 +7131,7 @@
     {
       "id": "MOS-T-011",
       "title": "Signal books idea",
-      "description": "from cap-mpqwra2tv0j — future idea: curated book recommendations as Signal content; brainstorm candidate",
+      "description": "🔍 TRIAGED → Signal product parking-lot (curated book recs as content). from cap-mpqwra2tv0j",
       "status": "s-waiting",
       "priority": "p-p3",
       "segment": "Product",
@@ -7205,7 +7155,7 @@
     {
       "id": "MOS-T-012",
       "title": "App Store screens optimization",
-      "description": "from cap-mpqww582t3q — research/eval App Store screenshot-optimization skill for conversions",
+      "description": "🔍 TRIAGED → deferred until native apps ship (screenshot-optimization skill). from cap-mpqww582t3q",
       "status": "s-waiting",
       "priority": "p-p3",
       "segment": "Research",
@@ -8696,6 +8646,56 @@
       "first_seen": null
     },
     {
+      "id": "MOS-T-004",
+      "title": "Viral app marketing research",
+      "description": "🔬 RESEARCHED 2026-06-09 (findings: _MAXX_OS/Research/viral-gtm-2026/) — community-led + referral-loop model; execute (referral layer + Reddit/IndieHackers) routes to Signal GTM, gated on your weekly-hours call. from cap-mpqu87fr66a",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Research",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal",
+        "v-solitaire",
+        "v-aidvisor"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "prov": "capture",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "MOS-T-021",
+      "title": "Review \"AI OS\" video",
+      "description": "✅ DONE — already reviewed: Nate Herk AIS-OS / 4Cs convergent-validation recorded in OBS-0041. from cap-mpr41don2xa",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Research",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "prov": "capture",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "SIG-010",
       "title": "Analytics spec locked (v1.0)",
       "description": "Event taxonomy + measurement plan. v1.1 re-eval pending (SIG-033).",
@@ -10037,6 +10037,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 9, 2026 · 3:03 PM CEST",
-  "published_at_iso": "2026-06-09T15:03:05+0200"
+  "published_at": "June 9, 2026 · 3:33 PM CEST",
+  "published_at_iso": "2026-06-09T15:33:08+0200"
 }
