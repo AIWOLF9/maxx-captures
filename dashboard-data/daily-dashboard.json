@@ -1700,26 +1700,6 @@
       "first_seen": "2026-06-06"
     },
     {
-      "id": "SIG-178",
-      "title": "Wire + deploy functional waitlist → Vercel",
-      "description": "Wire the AT-VULCAN waitlist route to Firestore (store email+timestamp+source) + Resend confirmation email; ratify confirmation copy (closes OQ-BRAND-13 / O2). Deploy to Vercel (connect repo for auto-deploy; secrets set in-session, env-only). Cloudflare CNAME join.maxxsignal.com → Vercel (apex reserved for full site SIG-163). Firebase + Resend already provisioned; Wolf grants Vercel + Cloudflare Chrome-extension sessions. Light single-variant (A/B deferred to SIG-163). Advances VULCAN build-count (2/≥5).",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Build",
-      "venture": "v-signal",
-      "deadline": "1-5",
-      "deadline_label": "Phase P5",
-      "deadline_class": "d-future",
-      "effort_mc": "3.5h",
-      "effort_wolf": "1.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude Code+Wolf",
-      "kind": "tasks",
-      "first_seen": "2026-06-08"
-    },
-    {
       "id": "CAP-0051",
       "title": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol)",
       "description": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol). Reusable multi-session GTM protocol (research-first → present → debate → decide → lock; visual boards + phone PDFs), reverse-engineered from Signal SIG25–28, for Solitaire / AI-DVISOR / future ventures. Playbook shipped: ~/MAXX/_MAXX_OS/Observations/MOS-PLAYBOOK-GTM-WALKTHROUGH-0001.md v0.1. Roadmap v0.2 (wire to ATHENA design skill) / v0.3 (installable plugin). Provenance: Wolf-approved 2026-06-06 (\"charter now\"). → PRODUCTIZATION_LOG PS-GTM-WALKTHROUGH-1.",
@@ -8220,6 +8200,26 @@
       "first_seen": "2026-06-06"
     },
     {
+      "id": "SIG-178",
+      "title": "Wire + deploy functional waitlist → Vercel",
+      "description": "Wire the AT-VULCAN waitlist route to Firestore (store email+timestamp+source) + Resend confirmation email; ratify confirmation copy (closes OQ-BRAND-13 / O2). Deploy to Vercel (connect repo for auto-deploy; secrets set in-session, env-only). Cloudflare CNAME join.maxxsignal.com → Vercel (apex reserved for full site SIG-163). Firebase + Resend already provisioned; Wolf grants Vercel + Cloudflare Chrome-extension sessions. Light single-variant (A/B deferred to SIG-163). Advances VULCAN build-count (2/≥5). SIG32 (2026-06-09): SHIPPED & LIVE. Scope-corrected — Firestore+Resend wiring already ship…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "3.5h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude Code+Wolf",
+      "kind": "tasks",
+      "first_seen": "2026-06-08"
+    },
+    {
       "id": "CAP-0054",
       "title": "Agent trigger / callback model (the return-path automation)",
       "description": "Agent trigger / callback model (the return-path automation) — SHIPPED 2026-06-08 (CAP-0054-TRIGGER-CALLBACK-1). Cowork-native dispatch making the comms fabric's *invoke* + *receive* steps flow without hand-carrying each one. Shipped: (1) NEW canonical ~/MAXX/_index/AGENT_DISPATCH_QUEUE.md (MOS-AGENT-DISPATCH-QUEUE-0001 v0.1) with the documented request-row convention (- [ts] · AGENT · priority · venture · task · status: queued + · by:/· req:/· ref:/· acknowledged:/· invoked:/· callback: lifecycle fields; mirrors AGENT_INBOX §6.7 anchor-parse); (2) a Cowork scheduled task maxx-agent-dispatch-p…",
@@ -9301,6 +9301,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 8, 2026 · 11:32 PM CEST",
-  "published_at_iso": "2026-06-08T23:32:33+0200"
+  "published_at": "June 9, 2026 · 2:02 AM CEST",
+  "published_at_iso": "2026-06-09T02:02:38+0200"
 }
