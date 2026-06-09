@@ -921,6 +921,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -945,6 +947,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -969,6 +973,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -993,6 +999,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -1017,6 +1025,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -1041,6 +1051,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -1066,6 +1078,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1090,6 +1104,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1114,6 +1130,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1141,6 +1159,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1165,6 +1185,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1189,6 +1211,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1213,6 +1237,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1238,6 +1264,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-researched",
+      "review_label": "Researched",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1263,6 +1291,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": null,
+      "review": null,
+      "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1287,6 +1317,8 @@
       "zone": "open",
       "owner": "MC",
       "prov": null,
+      "review": null,
+      "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1314,6 +1346,8 @@
       "zone": "open",
       "owner": "MC",
       "prov": null,
+      "review": null,
+      "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -3195,6 +3229,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -3219,6 +3255,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -3243,6 +3281,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -3267,6 +3307,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -3291,6 +3333,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -3316,6 +3360,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -3341,6 +3387,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -3365,6 +3413,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -3389,6 +3439,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-researched",
+      "review_label": "Researched",
       "kind": "tasks",
       "first_seen": null
     },
@@ -3413,6 +3465,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-researched",
+      "review_label": "Researched",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -3440,6 +3494,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -3466,6 +3522,8 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -3490,6 +3548,8 @@
       "zone": "open",
       "owner": "MC",
       "prov": null,
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -3790,6 +3850,46 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
+      "id": "SIG-191",
+      "title": "Brand Messaging Line Library (charged-line bank + citations)",
+      "description": "MC hand-off batch (2026-06-09): MOS-T-025/026/019/001/032/029. Harvest + organize the charged-line bank for social/blog/LinkedIn/paywall/partner copy, each line source-attributed: \"Stop consuming noise / you are poisoning your mind\" (T-025) · \"Algorithms poison your mind\" + Caraway-style before-after frame \"your existing X is poisoning you\" (T-026) · \"Algorithms optimize for fear and anger\" (T-019) · \"What's your information diet?\" (T-001) · individuality/autonomy — Yuval Noah + Bob Marley \"emancipate from mental slavery\" (T-032). Includes pulling the Yuval Noah transcript (youtu.be/9NCxSrtAo…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Content",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
+      "id": "SIG-193",
+      "title": "Viral-GTM execution residual",
+      "description": "MC hand-off (2026-06-09): MOS-T-004 execution residual (viral GTM brief itself = Done at MC, _MAXX_OS/Research/viral-gtm-2026/). Referral layer already specced (SIG-180); this row covers the *other* half: founder-led Reddit / IndieHackers / build-in-public presence on the live waitlist. Gated on Wolf's weekly-distribution-hours decision (how many hrs/wk he'll commit to organic distribution) — that call sizes/sequences this. Claude drafts presence plan + post cadence; Wolf owns the hours decision + voice.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -5516,7 +5616,7 @@
     {
       "id": "SIG-130",
       "title": "C-4 'Wisdom of curated crowd' aggregate thumbs metric",
-      "description": "Spec an aggregate thumbs/quality metric (brand-discipline: not a leaderboard).",
+      "description": "Spec an aggregate thumbs/quality metric (brand-discipline: not a leaderboard). MC hand-off 2026-06-09 (MOS-T-024): MC flags user-applied tagging → ML → richer curation taxonomy + cross-reference as a *potential major differentiator → design spike*. Pairs with crowd-tagging CAP-1 (CF-SIG28-2). Judgment call surfaced to Wolf: keep B3 (network-effect feature needs user scale) vs pull a small pre-launch design spike forward. Recommendation: keep B3, spike only after activation data exists.",
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Product",
@@ -6145,6 +6245,46 @@
       "deadline_label": "Phase Future",
       "deadline_class": "d-future",
       "effort_mc": "1h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
+      "id": "SIG-194",
+      "title": "Daily positive-motivation widget",
+      "description": "MC hand-off (2026-06-09): MOS-T-006. Spec a default-on daily positive-motivation widget (copy the \"Motivation\"/\"I am\" app pattern — one affirming/grounding card per day). Brand-clean fit with the calm/anti-noise posture. Couples to E-2 Uplifting category, SIG-124 \"Lighten my feed\", SIG-155 \"Daily Lift\" track. Post-launch B2 product row.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "2-1",
+      "deadline_label": "Phase B2",
+      "deadline_class": "d-future",
+      "effort_mc": "0.75h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
+      "id": "SIG-195",
+      "title": "ASO + App Store listing optimization tooling (native-app-gated)",
+      "description": "MC hand-off (2026-06-09): MOS-T-008 + MOS-T-012. Deferred until Signal ships a native app (currently web MVP per CF-SIG27-1): evaluate Astro for ASO keyword research (T-008) + an App-Store screenshot-optimization workflow/skill (T-012). Watch-list — surface when native-app build is greenlit.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
       "effort_wolf": "0.25h",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -6943,6 +7083,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -6967,6 +7109,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -6991,6 +7135,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -7015,6 +7161,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -7040,6 +7188,28 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
+      "id": "SIG-192",
+      "title": "GTM research intake from MC-RESEARCH-BATCH-1",
+      "description": "MC hand-off (2026-06-09): MOS-T-005/003/007/035. Consume the MC-run research briefs once delivered into Signal-reachable filesystem (folders live under _MAXX_OS/ — unreachable here §13.5, await MC drop): SEO tools/platforms → plan (T-005) · apps-that-limit-social-media → positioning + partnership angles (T-003) · Starter Story growth tactics (T-007) · Marketing-OS 4-layer blueprint reference (T-035). Route findings into SIG-075 (SEO/content engine), SIG-125 (wellness BD), SIG-156 (GTM automation), GTM stack. Waiting on MC delivery.",
+      "status": "s-waiting",
+      "priority": "p-p2",
+      "segment": "Research",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "waiting",
+      "owner": "Claude+Wolf",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -7125,6 +7295,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -7149,6 +7321,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -7174,6 +7348,8 @@
       "zone": "waiting",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-triaged",
+      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -7973,6 +8149,8 @@
       "zone": "done",
       "owner": "Wolf",
       "prov": "capture",
+      "review": null,
+      "review_label": null,
       "kind": "tasks",
       "first_seen": null
     },
@@ -7997,6 +8175,8 @@
       "zone": "done",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-researched",
+      "review_label": "Researched",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -8022,6 +8202,8 @@
       "zone": "done",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-researched",
+      "review_label": "Researched",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -8668,6 +8850,8 @@
       "zone": "done",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-researched",
+      "review_label": "Researched",
       "kind": "tasks",
       "first_seen": null
     },
@@ -8692,6 +8876,8 @@
       "zone": "done",
       "owner": "Wolf",
       "prov": "capture",
+      "review": "r-done",
+      "review_label": "Done",
       "kind": "tasks",
       "first_seen": null
     },
@@ -10037,6 +10223,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 9, 2026 · 3:33 PM CEST",
-  "published_at_iso": "2026-06-09T15:33:08+0200"
+  "published_at": "June 9, 2026 · 4:03 PM CEST",
+  "published_at_iso": "2026-06-09T16:03:12+0200"
 }
