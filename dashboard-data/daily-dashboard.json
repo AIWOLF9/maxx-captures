@@ -1291,7 +1291,7 @@
       "zone": "open",
       "owner": "Wolf",
       "prov": null,
-      "review": null,
+      "review": "r-none",
       "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -1317,7 +1317,7 @@
       "zone": "open",
       "owner": "MC",
       "prov": null,
-      "review": null,
+      "review": "r-none",
       "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -1346,7 +1346,7 @@
       "zone": "open",
       "owner": "MC",
       "prov": null,
-      "review": null,
+      "review": "r-none",
       "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -3894,6 +3894,26 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "SIG-196",
+      "title": "Crowd-tagging / wisdom-of-crowds differentiator",
+      "description": "PULLED FORWARD per Wolf (SIG35, 2026-06-09) from B3/SIG-130. Wolf believes user-applied tagging is a major differentiator and wants a dedicated session to discuss mechanics + a light mockup, then decide launch vs launch-window/right-after-launch sequencing against other priorities (logo/website/onboarding come first). Scope umbrella (consolidates MOS-T-024 + crowd-tagging CAP-1 [CF-SIG28-2] + aggregate-quality SIG-130/C-4): user-applied tags → ML → richer curation taxonomy + cross-reference; how tags compose with the locked taxonomy (SIG-027) + intentions/WHY layer (SIG-159); aggregate \"wisdo…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
       "id": "CF-PM2-3",
       "title": "Template §16 amendment",
       "description": "Template §16 amendment — Path Conventions (case convention + symlink pattern)",
@@ -5616,7 +5636,7 @@
     {
       "id": "SIG-130",
       "title": "C-4 'Wisdom of curated crowd' aggregate thumbs metric",
-      "description": "Spec an aggregate thumbs/quality metric (brand-discipline: not a leaderboard). MC hand-off 2026-06-09 (MOS-T-024): MC flags user-applied tagging → ML → richer curation taxonomy + cross-reference as a *potential major differentiator → design spike*. Pairs with crowd-tagging CAP-1 (CF-SIG28-2). Judgment call surfaced to Wolf: keep B3 (network-effect feature needs user scale) vs pull a small pre-launch design spike forward. Recommendation: keep B3, spike only after activation data exists.",
+      "description": "Spec an aggregate thumbs/quality metric (brand-discipline: not a leaderboard). MC hand-off 2026-06-09 (MOS-T-024) → PULLED FORWARD (SIG35): Wolf judged user-applied tagging a major differentiator and pulled it forward into dedicated chat SIG-196 (mechanics + mockup; launch vs launch-window decision). This C-4 aggregate-quality metric is now scoped as part of SIG-196's umbrella; keep this row as the post-launch quality-signal sub-component unless SIG-196 decides to ship it earlier.",
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Product",
@@ -7214,6 +7234,26 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "SIG-197",
+      "title": "Hormozi frameworks intake → apply to Signal offer/hook/email/messaging",
+      "description": "MC hand-off (2026-06-09): MOS-T-027 — REFRAMED per Wolf (SIG35). Not a pure route-back: Hormozi content starts with Signal because it applies to active work (offers, hooks, pricing, email). Wolf will drop the content into ~/MAXX/SIGNAL/_Inbox/ → Claude triages per the intake SOP (distill → file at Reference/library/hormozi/ → log → empty inbox). Apply to SIG-191 (messaging line library — hooks), SIG-181 (email/journey — value-stacking + welcome), and offer/pricing framing (Pricing v1.2 locked — informs copy, not price). MC mirror: surface at SIG35 closeout as a Mission Control pickup so MC mi…",
+      "status": "s-waiting",
+      "priority": "p-p2",
+      "segment": "Content",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "waiting",
+      "owner": "Claude+Wolf",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
       "id": "CF-PM1-10",
       "title": "Mobile companion (Dispatch) assessment",
       "description": "Mobile companion (Dispatch) assessment",
@@ -8149,7 +8189,7 @@
       "zone": "done",
       "owner": "Wolf",
       "prov": "capture",
-      "review": null,
+      "review": "r-none",
       "review_label": null,
       "kind": "tasks",
       "first_seen": null
@@ -10223,6 +10263,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 9, 2026 · 4:03 PM CEST",
-  "published_at_iso": "2026-06-09T16:03:12+0200"
+  "published_at": "June 9, 2026 · 4:29 PM CEST",
+  "published_at_iso": "2026-06-09T16:29:14+0200"
 }
