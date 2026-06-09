@@ -3916,7 +3916,7 @@
     {
       "id": "SIG-199",
       "title": "Signal Scanner + Signal Hijack",
-      "description": "Wolf-surfaced SIG35 (2026-06-09); its own chat. Design the autonomous distribution engine. Components: (1) Community & channel map — comprehensive research (use Apollo + desk) of where AI/algorithm-harm conversations live: Facebook groups, subreddits, Discords, forums, X/YouTube creators, journalists/article-writers, newsletters → master list. (2) Signal Scanner — agentic monitoring that watches those channels + joins conversations naturally, surfacing Signal appropriately (not spam). (3) Signal Hijack (newsjacking) — detect breaking AI-harm news/documentaries/viral moments → rapid-response p…",
+      "description": "SIG38 (2026-06-09): DESIGN DELIVERED. Shipped 05_Marketing/Working/MSIG-MKT-SCANNER-HIJACK-PROGRAM-0001_v0_1.md (full program: community & channel map across Reddit/FB-parent-movements/Discord-HN/X-Bluesky/YouTube/journalists+newsletters with fit/tone/participation; Scanner WATCH→TRIAGE→DRAFT→HUMAN-GATE→LOG + reply-worthiness rubric + mention-ladder; Hijack T1/T2/T3 tiering + Care-Angel rapid-response drill + angle bank/templates + speed targets; 8-week content storyboard with intentions; automation tooling research — official-API-only, aggressive ban-reject, X-API-now-pay-per-use finding, re…",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -10332,6 +10332,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 9, 2026 · 5:33 PM CEST",
-  "published_at_iso": "2026-06-09T17:33:37+0200"
+  "published_at": "June 9, 2026 · 6:33 PM CEST",
+  "published_at_iso": "2026-06-09T18:33:42+0200"
 }
