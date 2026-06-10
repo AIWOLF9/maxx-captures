@@ -1,5 +1,24 @@
 [
   {
+    "title": "SIGNAL LANDING PAGE EXAMPLE- Tony Robbins RPM",
+    "ventures": [
+      "v-signal"
+    ],
+    "venture": "v-signal",
+    "segments": [
+      "Marketing",
+      "Website",
+      "Launch"
+    ],
+    "segment": "Marketing",
+    "priority": "p-p1",
+    "type": "now",
+    "tags": "Website, marketing, Landing pages",
+    "notes": "This is an example landing page I linked to from an ad on Instagram. Tony Robbins has been doing this type of marketing for decades, and we should look at this type of example when we go create our landing pages that come from an affiliate link and or an ad.\n\nhttps://go.tonyrobbins.com/rpm-course?utm_source=facebook&utm_medium=Instagram_Feed&utm_campaign=TED:+RPM+-+Video+-+Max+-+Retargeting&utm_content=TED+-+26Q1+-+Mike_Dec25_VSL_1+-+A+text&utm_term=FB:+TED:+TTR+26+All+Combined+Upsell+%26+Bump&fbc_id=120241243266870751&h_ad_id=120241243266880751&utm_id=120236363371470751&fbclid=PAdGRleASWNZJleHRuA2FlbQEwAGFkaWQBqy7r2It2D3NydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp0VKXVDA1AFyKHKa-45KmVHiwR3Stoa4boM432xAJK55kR10qCcVJX8S7HeM_aem_eGv5HmkMINhsPIUCFmm3_A&campaign_id=120236363371470751&ad_id=120241243266880751",
+    "id": "cap-mq81jwluznf",
+    "created": "2026-06-10T12:24:48.594Z"
+  },
+  {
     "title": "SIGNAL CAMPAIGN CANDIDATE- Don’t be a sheep, be the wolf - take back control from the algorithm -marketing candidates.",
     "ventures": [
       "v-signal"
