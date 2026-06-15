@@ -1063,38 +1063,6 @@
       "first_seen": "2026-06-08"
     },
     {
-      "id": "MOS-T-002",
-      "title": "GBrain repo",
-      "description": "🔬 RESEARCHED 2026-06-09 (memory-architecture findings) — go TIERED-HYBRID (1 OS-shared + 5 per-venture). GBrain = borrow the markdown-truth+index pattern, don't adopt. CAP-0009 native memory MCP authorized (MEM-1 ratified). Cluster w/ T-013. from cap-mpqaopf8x5k",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Research",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "APOLLO",
-      "executor_list": [
-        "APOLLO"
-      ],
-      "autonomy": "Batch",
-      "department": "Research",
-      "prov": "capture",
-      "review": "r-researched",
-      "review_label": "Researched",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "MOS-T-005",
       "title": "SEO strategies research",
       "description": "🔬 RESEARCHED 2026-06-09 (seo-tools-plan findings) — free stack (GSC+Bing+ATP) does Phase 1 at $0; Reddit-led GEO = top lever (~40% of LLM citations). Paid tools (NeuronWriter/LowFruits ~$44/mo) = FALLBACK ONLY, not pre-approved — Wolf: likely replaceable by a Claude-native MAXX SEO agent (see T-044). Route: SIGNAL. from cap-mpquu0ux82m",
@@ -1152,38 +1120,6 @@
       ],
       "autonomy": "Auto",
       "department": "Engineering",
-      "prov": "capture",
-      "review": "r-researched",
-      "review_label": "Researched",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "MOS-T-013",
-      "title": "Single-brain memory framework",
-      "description": "🔬 RESEARCHED 2026-06-09 — tiered-hybrid locked; Anthropic native memory MCP (CAP-0009) = smallest delta, $0. Mem0/Letta deferred (triggers in digest §4). Cluster w/ T-002. from cap-mpqx1kuin5p",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Research",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "APOLLO",
-      "executor_list": [
-        "APOLLO"
-      ],
-      "autonomy": "Auto",
-      "department": "Research",
       "prov": "capture",
       "review": "r-researched",
       "review_label": "Researched",
@@ -3807,38 +3743,6 @@
       ],
       "autonomy": "Auto",
       "department": "Research",
-      "prov": "capture",
-      "review": "r-researched",
-      "review_label": "Researched",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "MOS-T-009",
-      "title": "SOP skill",
-      "description": "🔬 RESEARCHED 2026-06-09 (sop-skill findings) — already in-house: Anthropic operations plugin (/process-doc + /runbook). CAP-0009 install authorized (SOP-1 ratified) + thin MAXX wrapper build item. Reject 3rd-party SOP packs. from cap-mpqwemouc6i",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Build",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Auto",
-      "department": "Engineering",
       "prov": "capture",
       "review": "r-researched",
       "review_label": "Researched",
@@ -8346,6 +8250,38 @@
       "first_seen": null
     },
     {
+      "id": "MOS-T-009",
+      "title": "SOP skill",
+      "description": "✅ DONE (research+spec) 2026-06-15 (MC-CAP0009-INSTALLS-1) — SOP-1 (operations plugin /process-doc + /runbook) CAP-0009-audited + RATIFIED present. Thin wrapper spec'd: _MAXX_OS/Capabilities/sop-wrapper/MOS-SOP-WRAPPER-SPEC-0001.md v0.1. Build (XS ~2h) WAITING on first real SOP/runbook demand. Reject 3rd-party SOP packs. ◀ 🔬 RESEARCHED 2026-06-09 (sop-skill findings). from cap-mpqwemouc6i",
+      "status": "s-waiting",
+      "priority": "p-p2",
+      "segment": "Build",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "waiting",
+      "owner": "Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "prov": "capture",
+      "review": "r-done",
+      "review_label": "Done",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "MOS-T-015",
       "title": "Signal transcript / video summary (premium)",
       "description": "🔍 TRIAGED → Signal product backlog (post-MVP premium; pairs with the transcript tooling, T-040). from cap-mpqxmbmveqm",
@@ -10342,6 +10278,38 @@
       "first_seen": null
     },
     {
+      "id": "MOS-T-002",
+      "title": "GBrain repo",
+      "description": "✅ DONE 2026-06-15 (MC-CAP0009-INSTALLS-1) — architecture stood up: _MAXX_OS/Architecture/MOS-MEMORY-ARCHITECTURE-0001.md v0.1 (6-scope tiered hybrid: storage-tier markdown truth + MEM-1 graph index; OS-shared + 5 per-venture; rule + skeleton; no migration). MEM-1 CAP-0009-audited APPROVED, install Wolf-gated. Closed w/ T-013. ◀ 🔬 RESEARCHED 2026-06-09 (memory-architecture findings) — TIERED-HYBRID; GBrain = borrow markdown-truth+index pattern, don't adopt. from cap-mpqaopf8x5k",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Research",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "APOLLO",
+      "executor_list": [
+        "APOLLO"
+      ],
+      "autonomy": "Batch",
+      "department": "Research",
+      "prov": "capture",
+      "review": "r-done",
+      "review_label": "Done",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "MOS-T-004",
       "title": "Viral app marketing research",
       "description": "🔬 RESEARCHED 2026-06-09 (findings: _MAXX_OS/Research/viral-gtm-2026/) — community-led + referral-loop model; execute (referral layer + Reddit/IndieHackers) routes to Signal GTM, gated on your weekly-hours call. from cap-mpqu87fr66a",
@@ -10372,6 +10340,38 @@
       "prov": "capture",
       "review": "r-researched",
       "review_label": "Researched",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "MOS-T-013",
+      "title": "Single-brain memory framework",
+      "description": "✅ DONE 2026-06-15 (MC-CAP0009-INSTALLS-1) — closed by MOS-MEMORY-ARCHITECTURE-0001 v0.1 (tiered hybrid, 6 scopes, MEM-1 = @modelcontextprotocol/server-memory index over markdown truth). Mem0/Letta still deferred (triggers in digest §4). Closed w/ T-002. ◀ 🔬 RESEARCHED 2026-06-09 — tiered-hybrid locked; native memory MCP = smallest delta, $0. from cap-mpqx1kuin5p",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Research",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "APOLLO",
+      "executor_list": [
+        "APOLLO"
+      ],
+      "autonomy": "Auto",
+      "department": "Research",
+      "prov": "capture",
+      "review": "r-done",
+      "review_label": "Done",
       "kind": "tasks",
       "first_seen": null
     },
@@ -11885,6 +11885,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 15, 2026 · 4:30 PM CEST",
-  "published_at_iso": "2026-06-15T16:30:43+0200"
+  "published_at": "June 15, 2026 · 5:00 PM CEST",
+  "published_at_iso": "2026-06-15T17:00:58+0200"
 }
