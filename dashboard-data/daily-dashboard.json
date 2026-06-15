@@ -1023,26 +1023,6 @@
       "first_seen": null
     },
     {
-      "id": "CF-AUTOMATION-GATING-1",
-      "title": "Fix scheduled-task approval-gating that stalled the chain (Risk/cadence)",
-      "description": "Fix scheduled-task approval-gating that stalled the chain (Risk/cadence). Root cause: the Stage 2 synthesis paused on an interactive approval (artifact creation) while Wolf was away, so the dependent Stage 4 had nothing complete to act on. Done this Stage 4: rewrote Stage 2 + Stage 4 prompts so unattended runs never block (artifact deferred when unattended; Stage 4 silent no-op instead of blocking AskUserQuestion); nightly hygiene task is alert-only. Remaining (Wolf, 1 click): click \"Run now\" once on hive-mind-stage2-mission-control-synthesis to pre-approve the artifact tool — approvals are s…",
-      "status": "s-doing",
-      "priority": "p-p1",
-      "segment": "Hive Mind",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Wolf one-time \"Run now\"; verify…",
-      "deadline_class": "d-future",
-      "effort_mc": "30m–2h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf + Claude",
-      "kind": "cfi",
-      "first_seen": null
-    },
-    {
       "id": "CF-SIGNAL-WAITLIST-SCHEMA-RATIFY-1",
       "title": "Ratify the DERIVED waitlist collection schema into Signal Data Model v1.4 (AT-002 O1)",
       "description": "Ratify the DERIVED waitlist collection schema into Signal Data Model v1.4 (AT-002 O1). [front-door] Data Model v1.3 defines no waitlist collection; AT-VULCAN-002 built against a minimal derived shape (camelCase, schemaVersion, UTC Timestamp, doc id = sha256(email), status pending→confirmed, single-use magic-link token per Auth-Security §4.7, light first-touch attribution signupSource) and explicitly flagged it for canon. Do NOT leave it unratified — it is live in production.",
@@ -1065,7 +1045,7 @@
     {
       "id": "MOS-T-005",
       "title": "SEO strategies research",
-      "description": "🔬 RESEARCHED 2026-06-09 (seo-tools-plan findings) — free stack (GSC+Bing+ATP) does Phase 1 at $0; Reddit-led GEO = top lever (~40% of LLM citations). Paid tools (NeuronWriter/LowFruits ~$44/mo) = FALLBACK ONLY, not pre-approved — Wolf: likely replaceable by a Claude-native MAXX SEO agent (see T-044). Route: SIGNAL. from cap-mpquu0ux82m",
+      "description": "🔬 RESEARCHED 2026-06-09 (seo-tools-plan findings) — free stack (GSC+Bing+ATP) does Phase 1 at $0; Reddit-led GEO = top lever (~40% of LLM citations). Paid tools (NeuronWriter/LowFruits ~$44/mo) = FALLBACK ONLY, not pre-approved — Wolf: likely replaceable by a Claude-native MAXX SEO agent (see T-044). [2026-06-15 update — MC-SEO-AGENT-1] SEO-A1 (build-not-buy) + SEO-A2 (paid=fallback-only) RATIFIED; the ~$44/mo paid default is retired — see CAP-0055 + DECISION_seo-agent_2026-06-15. Route: SIGNAL. from cap-mpquu0ux82m",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -1554,7 +1534,7 @@
     {
       "id": "MOS-T-044",
       "title": "MAXX SEO agent (keyword research + on-page optimization)",
-      "description": "🔍 from MC-DECISION-WALK-1 — Wolf: build a portfolio SEO sub-agent that does keyword research + ensures content (site/blog/LinkedIn/X/Reddit) is properly keyworded to rank, replacing paid tools (NeuronWriter/LowFruits) for Claude-native users. RESEARCH-FIRST: Anthropic-native → GitHub SEO skills/plugins → OSS; paid = fallback only. Cross-venture; pairs T-005 + T-042.",
+      "description": "🔬 RESEARCHED 2026-06-15 (MC-SEO-AGENT-1) — decision surface DECISION_seo-agent_2026-06-15.md(+.html) + spec stub MOS-AGENT-SEO-0001 v0.1-DRAFT + CAP-0055 spawned; SEO-A1 (build-not-buy) + SEO-A2 (paid=fallback) ratified; Ahrefs MCP backup-only (cost-prohibitive), Supermetrics rejected; build trigger-deferred to a SIGNAL content sprint. Origin: MC-DECISION-WALK-1 — Wolf: build a portfolio SEO sub-agent that does keyword research + ensures content (site/blog/LinkedIn/X/Reddit) is properly keyworded to rank, replacing paid tools (NeuronWriter/LowFruits) for Claude-native users. RESEARCH-FIRST: A…",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -1581,8 +1561,8 @@
       "autonomy": "Auto",
       "department": "Research",
       "prov": null,
-      "review": "r-triaged",
-      "review_label": "Triaged",
+      "review": "r-researched",
+      "review_label": "Researched",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -5224,26 +5204,6 @@
       "first_seen": "2026-06-08"
     },
     {
-      "id": "CF-SNAPSHOT-PUBLISHER-ARCHIVE-FIX-1",
-      "title": "Stop the dashboard publisher accreting STATUS_SNAPSHOTS/ (root cause of Risk R4)",
-      "description": "Stop the dashboard publisher accreting STATUS_SNAPSHOTS/ (root cause of Risk R4). It writes a timestamped *_data.json + HTML copy every ~30 min × ~11 prefixes (3,665 files). Fix = overwrite-in-place, or write to a rotating _archive/dashboard-snapshots/, or stop intra-day archiving. Publisher-code change (CAP-0024 family). Interim mitigation already shipped: retention policy MOS-SYS-STATUS-SNAPSHOTS-RETENTION-0001 + verify_substrate_sync.py v0.4 WARN. CODE FIX APPLIED 2026-06-15 (MC-CFI-ARCHIVE-1 cont.): overwrite-in-place — snapshot filenames now ${ID}.html / ${ID}_data.json (no timestamp); b…",
-      "status": "s-doing",
-      "priority": "p-p3",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Wolf verifies next launchd run…",
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Mission Control + Wolf (Mac-verify)",
-      "kind": "cfi",
-      "first_seen": "2026-06-15"
-    },
-    {
       "id": "MOS-T-038",
       "title": "AI Board of Directors",
       "description": "🔬 RESEARCHED 2026-06-09 (ai-board-of-directors findings) — Cowork-native MVP = archetype personas · sequential gates · manual-first. Wolf: NOT a priority (P3); RESEARCH-FIRST before build — survey GitHub repos/skills/plugins (Karpathy LLM-Council et al.) to borrow, research via NotebookLM (T-010). Board (\"is it wise?\") ≠ T-030 council (\"is it true?\"). Pairs T-010 + T-030. from cap-mptp30qxwqj",
@@ -7509,6 +7469,25 @@
       "first_seen": null
     },
     {
+      "id": "CAP-0055",
+      "title": "MAXX SEO Agent (build-not-buy)",
+      "description": "MAXX SEO Agent (build-not-buy). Thin Claude-native SEO agent, Executor: APOLLO, three modes — keyword map (GSC API + autocomplete/PAA/related scrape + Answer The Public; relative-difficulty proxy, labelled estimate), on-page audit (deterministic, zero-key, replaces NeuronWriter), GEO pass (Reddit-led citation checklist — expert quotes/stats/FAQ schema/summary blocks; posting stays human per TOS guardrail). Replaces default paid SEO tools at $0 for Claude-native users. Reference-first off aaron-he-zhu/seo-geo-claude-skills (Apache-2.0, Tier-1 zero-key; origin: provenance per T-041; CAP-0009 ga…",
+      "status": "s-waiting",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-06-15",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-06-15",
+      "zone": "waiting",
+      "kind": "cap",
+      "first_seen": "2026-06-15"
+    },
+    {
       "id": "CAP-0053",
       "title": "Venture-agent GitHub-write standardization + credential automation",
       "description": "Venture-agent GitHub-write standardization + credential automation. Make venture build agents (VULCAN et al.) provision + push to GitHub with zero per-session manual steps. Born from AT-VULCAN-001: the GitHub MCP connector can't do dynamic client registration (dead end), and MAXX's proven path (fine-grained PAT + REST/git via gh_put.py, CAP-0024/CAP-0042) isn't reachable by venture agents because the secret store ~/MAXX/_secrets/ is outside venture mounts (OBS-0049) and tokens get pasted per-session. Scope: (1) a portable secret store venture mounts can read (per-venture gitignored secret fil…",
@@ -9678,6 +9657,26 @@
       "first_seen": null
     },
     {
+      "id": "CF-AUTOMATION-GATING-1",
+      "title": "Fix scheduled-task approval-gating that stalled the chain (Risk/cadence)",
+      "description": "Fix scheduled-task approval-gating that stalled the chain (Risk/cadence). Root cause: the Stage 2 synthesis paused on an interactive approval (artifact creation) while Wolf was away, so the dependent Stage 4 had nothing complete to act on. Done this Stage 4: rewrote Stage 2 + Stage 4 prompts so unattended runs never block (artifact deferred when unattended; Stage 4 silent no-op instead of blocking AskUserQuestion); nightly hygiene task is alert-only. Remaining (Wolf, 1 click): click \"Run now\" once on hive-mind-stage2-mission-control-synthesis to pre-approve the artifact tool — approvals are s…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Hive Mind",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "DONE — Stage-2 SKILL.md edited…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf + Claude",
+      "kind": "cfi",
+      "first_seen": null
+    },
+    {
       "id": "MOS-T-002",
       "title": "GBrain repo",
       "description": "✅ DONE 2026-06-15 (MC-CAP0009-INSTALLS-1) — architecture stood up: _MAXX_OS/Architecture/MOS-MEMORY-ARCHITECTURE-0001.md v0.1 (6-scope tiered hybrid: storage-tier markdown truth + MEM-1 graph index; OS-shared + 5 per-venture; rule + skeleton; no migration). MEM-1 CAP-0009-audited APPROVED, install Wolf-gated. Closed w/ T-013. ◀ 🔬 RESEARCHED 2026-06-09 (memory-architecture findings) — TIERED-HYBRID; GBrain = borrow markdown-truth+index pattern, don't adopt. from cap-mpqaopf8x5k",
@@ -10602,9 +10601,29 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
+    },
+    {
+      "id": "CF-SNAPSHOT-PUBLISHER-ARCHIVE-FIX-1",
+      "title": "Stop the dashboard publisher accreting STATUS_SNAPSHOTS/ (root cause of Risk R4)",
+      "description": "Stop the dashboard publisher accreting STATUS_SNAPSHOTS/ (root cause of Risk R4). It writes a timestamped *_data.json + HTML copy every ~30 min × ~11 prefixes (3,665 files). Fix = overwrite-in-place, or write to a rotating _archive/dashboard-snapshots/, or stop intra-day archiving. Publisher-code change (CAP-0024 family). Interim mitigation already shipped: retention policy MOS-SYS-STATUS-SNAPSHOTS-RETENTION-0001 + verify_substrate_sync.py v0.4 WARN. CODE FIX APPLIED 2026-06-15 (MC-CFI-ARCHIVE-1 cont.): overwrite-in-place — snapshot filenames now ${ID}.html / ${ID}_data.json (no timestamp); b…",
+      "status": "s-done",
+      "priority": "p-p3",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "DONE — verified on disk 2026-06…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Mission Control + Wolf (Mac-verify)",
+      "kind": "cfi",
+      "first_seen": "2026-06-15"
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 15, 2026 · 6:01 PM CEST",
-  "published_at_iso": "2026-06-15T18:01:21+0200"
+  "published_at": "June 15, 2026 · 8:31 PM CEST",
+  "published_at_iso": "2026-06-15T20:31:07+0200"
 }
