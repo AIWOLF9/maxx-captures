@@ -2496,6 +2496,25 @@
       "first_seen": "2026-06-07"
     },
     {
+      "id": "CAP-0030",
+      "title": "HERMES",
+      "description": "HERMES — Marketing agent (Wave 3, 1st). Brand voice + outbound messaging: marketing copy, social posts, sales/lifecycle emails, launch comms. Spec authored 2026-06-17 (MOS-AGENT-HERMES-0001.md v0.1); modes Draft/Campaign/Publish(gated); outbound-only; operationalizes Signal's locked voice. NOT Built/Live — native-drafting Built/Live deferred to follow-on shipped-deliverable chat; publish (Zernio+Buffer) GATED (CAP-0009/CAP-0019). Full spec: §2.2 + hermes spec. Phase 3 · MC L (6-8h) · Wolf ~45m. See §3.",
+      "status": "s-doing",
+      "priority": "p-p2",
+      "segment": "Hive Mind",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-05-28",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-05-28",
+      "zone": "open",
+      "kind": "cap",
+      "first_seen": null
+    },
+    {
       "id": "CAP-0019",
       "title": "Content Publishing via Blotato (multi-venture, MCP-driven)",
       "description": "Content Publishing via Blotato (multi-venture, MCP-driven). Pilot on Signal first via Blotato Starter $29/mo → Creator $97/mo if pilot holds. Activation: Cowork Settings → Connectors → Add Custom Connector → https://mcp.blotato.com/mcp OAuth. Fills SATELLITE-CONTENT-PIPELINE.md Stage-3 \"publishing skill\" gap. 9+ platforms native (X / LinkedIn / IG / TikTok / FB / Threads / Bluesky / Pinterest / YouTube). XS effort (~15 min setup + 1 pilot chat). Deferred ~14d behind Signal substrate completion per project_maxx_priority_2026-05-19. Spawned from yt-review-Blotato chat 2026-05-24; see matrix at…",
@@ -7583,25 +7602,6 @@
       "first_seen": null
     },
     {
-      "id": "CAP-0030",
-      "title": "HERMES",
-      "description": "HERMES — Marketing agent (Wave 3). Brand voice + outbound messaging: marketing copy, social posts, sales emails. Full spec: §2.2. Phase 3 · MC L (6-8h) · Wolf ~45m · depends on CAP-0014 v0.2 + Signal launch comms. See §3.",
-      "status": "s-waiting",
-      "priority": "p-p2",
-      "segment": "Agents",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "2026-05-28",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
-      "created": "2026-05-28",
-      "zone": "waiting",
-      "kind": "cap",
-      "first_seen": null
-    },
-    {
       "id": "CAP-0031",
       "title": "GAIA",
       "description": "GAIA — MAXX_LIFE agent + bootstrap (Wave 3). Cross-cutting personal-context layer (read by work agents) + MAXX_LIFE venture-branch. Highest privacy sensitivity. Full spec: §2.12 + §4. Phase 3 · MC XL (8-10h) · Wolf ~1h · depends on CAP-0014 v0.2 + enough work agents. See §3.",
@@ -10624,6 +10624,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 17, 2026 · 3:46 PM CEST",
-  "published_at_iso": "2026-06-17T15:46:48+0200"
+  "published_at": "June 17, 2026 · 4:13 PM CEST",
+  "published_at_iso": "2026-06-17T16:13:53+0200"
 }
