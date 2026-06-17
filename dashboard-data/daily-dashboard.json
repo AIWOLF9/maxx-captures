@@ -9679,7 +9679,7 @@
     {
       "id": "MOS-T-002",
       "title": "GBrain repo",
-      "description": "✅ DONE 2026-06-15 (MC-CAP0009-INSTALLS-1) — architecture stood up: _MAXX_OS/Architecture/MOS-MEMORY-ARCHITECTURE-0001.md v0.1 (6-scope tiered hybrid: storage-tier markdown truth + MEM-1 graph index; OS-shared + 5 per-venture; rule + skeleton; no migration). MEM-1 CAP-0009-audited APPROVED, install Wolf-gated. Closed w/ T-013. ◀ 🔬 RESEARCHED 2026-06-09 (memory-architecture findings) — TIERED-HYBRID; GBrain = borrow markdown-truth+index pattern, don't adopt. from cap-mpqaopf8x5k",
+      "description": "✅ DONE 2026-06-15 (MC-CAP0009-INSTALLS-1) — architecture stood up: _MAXX_OS/Architecture/MOS-MEMORY-ARCHITECTURE-0001.md v0.1 (6-scope tiered hybrid: storage-tier markdown truth + MEM-1 graph index; OS-shared + 5 per-venture; rule + skeleton; no migration). MEM-1 CAP-0009-audited APPROVED → INSTALLED + LIVE 2026-06-17 (one-command installer _MAXX_OS/Capabilities/mem-mcp/install-mem1.sh; read_graph responds, empty graph ready to seed). Closed w/ T-013. ◀ 🔬 RESEARCHED 2026-06-09 (memory-architecture findings) — TIERED-HYBRID; GBrain = borrow markdown-truth+index pattern, don't adopt. from cap-m…",
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Research",
@@ -10624,6 +10624,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 15, 2026 · 8:31 PM CEST",
-  "published_at_iso": "2026-06-15T20:31:07+0200"
+  "published_at": "June 17, 2026 · 2:41 PM CEST",
+  "published_at_iso": "2026-06-17T14:41:50+0200"
 }
