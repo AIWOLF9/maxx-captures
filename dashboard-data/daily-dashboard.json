@@ -2113,32 +2113,6 @@
       "first_seen": "2026-06-06"
     },
     {
-      "id": "SIG-164",
-      "title": "Design MAXX Signal logo",
-      "description": "Critical-path: gates website (SIG-163) + swag (SIG-171). Pair with Brand v1.4.",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Build",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Auto",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-06-06"
-    },
-    {
       "id": "SIG-166",
       "title": "Partner-Enablement Library build",
       "description": "Build on LS (portal+creatives, $0) + Notion/Super (~$16, navigable library) + Kit (drip day-0/3/10/21 + monthly). Asset kit + 2 copy variants (harm vs leverage) + leaderboard (Notion-faked).",
@@ -10067,6 +10041,32 @@
       "first_seen": "2026-06-06"
     },
     {
+      "id": "SIG-164",
+      "title": "Design MAXX Signal logo",
+      "description": "Critical-path: gates website (SIG-163) + swag (SIG-171). Pair with Brand v1.4. (done 2026-06-18 — SIG39: MSIG-UX-LOGO-0001 v1.0 shipped at 03_Design/Final/brand/ — big-smile S-as-receiving-head mark vectorized from Wolf's own art [not redrawn]; master + symbol-only + horizontal/stacked lockups + app-icon + 7 colour treatments + animated MP4/GIF/HTML; Space Grotesk wordmark, cyan/navy. Brand v1.4 → v1.5 §1.3.2 humanized-mark carve-out; Decisions Log Decision 23. CF-SIG39-2 production motion + CF-SIG39-3 trademark composite filing open.)",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Build",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-06-06"
+    },
+    {
       "id": "SIG-174",
       "title": "Brand v1.4 (GTM Session 5)",
       "description": "Lock language: movement/hero's-journey framing, founding-partner \"apply & qualify\" (Cialdini), \"Get your own Signal\" CTA, \"MAXX Signal+\", honest-retention line, 3 pillars, brought-to-you-by, founding-perk reframe. Carries CF-SIG25-7 + SIG26 items. Unblocks all copy. (done 2026-06-08 — SIG29: Brand v1.3→v1.4 shipped via 3-step; new §1.7/§2.5/§3.6/§9.7.1/§10.5/§10.6/§11.3 + harm-headline floor refinement [opinion≠counterfeit-fact] + 9 stale \"1,000 spots\" counter fixes; Decisions Log 15–17; voice board _Working/SIG29_Voice_Messaging_Board_v1_0_2026-06-08.html. Ambassador commission rates routed…",
@@ -10624,6 +10624,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 17, 2026 · 4:13 PM CEST",
-  "published_at_iso": "2026-06-17T16:13:53+0200"
+  "published_at": "June 18, 2026 · 11:39 PM CEST",
+  "published_at_iso": "2026-06-18T23:39:57+0200"
 }
