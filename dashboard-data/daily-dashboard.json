@@ -2437,25 +2437,6 @@
       "first_seen": null
     },
     {
-      "id": "CAP-0030",
-      "title": "HERMES",
-      "description": "HERMES — Marketing agent (Wave 3, 1st). Brand voice + outbound messaging: marketing copy, social posts, sales/lifecycle emails, launch comms. Spec authored 2026-06-17 (MOS-AGENT-HERMES-0001.md v0.1); modes Draft/Campaign/Publish(gated); outbound-only; operationalizes Signal's locked voice. NOT Built/Live — native-drafting Built/Live deferred to follow-on shipped-deliverable chat; publish (Zernio+Buffer) GATED (CAP-0009/CAP-0019). Full spec: §2.2 + hermes spec. Phase 3 · MC L (6-8h) · Wolf ~45m. See §3.",
-      "status": "s-doing",
-      "priority": "p-p2",
-      "segment": "Hive Mind",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "2026-05-28",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
-      "created": "2026-05-28",
-      "zone": "open",
-      "kind": "cap",
-      "first_seen": null
-    },
-    {
       "id": "CAP-0032",
       "title": "DIONYSUS",
       "description": "DIONYSUS — Social/Community agent (Wave 4, v0.1 spec authored 2026-06-19 — NOT Built/Live). Inbound social + community engagement. Full spec: §2.3. Phase 4 · MC L (5-7h) · Wolf ~45m · depends on CAP-0014 v0.2 + community priority. See §3.",
@@ -9581,7 +9562,7 @@
     {
       "id": "SIG-027",
       "title": "Category Taxonomy spec (MSIG-UX-CATEGORY-TAXONOMY-0001 v1.0)",
-      "description": "SIG23: define top-level categories + drill-down tree the cascading preference builder traverses. Research-backed. Match target for Intentions (SIG-159). DONE SIG41 (2026-06-19): promoted MSIG-UX-CATEGORY-TAXONOMY-0001 v1.0 to 02_Product/Final — 7 categories → ~45 L2 → ~150 L3 + entity L4 (Entertainment + History); two leaf archetypes + one recipe schema (Curation Engine §3.3); terminal-node cap model (D-SIG41-1, 10/20/30); creator ceiling 100/200/300; cascade UX (D-SIG41-5). Comprehensiveness check passed by Wolf. Closed OQ-PRD-05; patched Onboarding→v1.1 + PRD→v1.5.2; seeded SIG-159.",
+      "description": "SIG23: define top-level categories + drill-down tree the cascading preference builder traverses. Research-backed. Match target for Intentions (SIG-159). DONE SIG41 (2026-06-19): promoted MSIG-UX-CATEGORY-TAXONOMY-0001 (v1.0→v1.1 same chat) to 02_Product/Final — 12 top-level (expanded from SIG40's 7 per Decision 24: +Technology, +Sports, +Gaming un-nested, +Food, +Travel) → ~70 L2 → ~190 L3 + entity L4 (launch: Entertainment + History; phased: Sports/Gaming/Tech/Travel/Local); two leaf archetypes + one recipe schema (Curation Engine §3.3); terminal-node cap model (D-SIG41-1, 10/20/30); creator…",
       "status": "s-done",
       "priority": "p-p0",
       "segment": "Product",
@@ -10430,6 +10411,25 @@
       "first_seen": null
     },
     {
+      "id": "CAP-0030",
+      "title": "HERMES",
+      "description": "HERMES — Marketing agent (Wave 3, 1st). Brand voice + outbound messaging: marketing copy, social posts, sales/lifecycle emails, launch comms. Spec MOS-AGENT-HERMES-0001.md v0.1.1; modes Draft/Campaign/Publish(gated); outbound-only; operationalizes Signal's locked voice. Built/Live for native drafting — HERMES-DELIVERABLE-1 shipped end-to-end 2026-06-19 (Signal waitlist welcome email, Brand v1.5 voice, full native spine + HERMES→ATHENA brief). Publish families (Zernio+Buffer+Klaviyo+Blotato) GATED (CAP-0009/CAP-0019/Zernio pilot); full v1.0 pending (~5 deliverables/~2wk + APOLLO→HERMES handoff…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Hive Mind",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-05-28",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-05-28",
+      "zone": "done",
+      "kind": "cap",
+      "first_seen": null
+    },
+    {
       "id": "CAP-0038",
       "title": "AGENT_INBOX surface",
       "description": "AGENT_INBOX surface — SHIPPED 2026-06-08 (CAP-0038-INBOX-SURFACE-1). Built as the 4th view in the CAP-0046 renderer (render_canonical_state.py → v0.3; v0.2 archived; --verify clean 54/12/6; emits agent-inbox.html). Parses AGENT_INBOX.md §3 → review cards (agent · mode · task · status · self-review · canonical path · Wolf-action) with filters (agent/status/venture/Wolf-action) + sort-by-Wolf-action + the 4-affordance pattern (note=localStorage · flag=color-cycle · ask=sendPrompt-or-clipboard). Dual-layer mark-as-handled per MOS-COMMS-FABRIC-DESIGN-0001 §2.1: localStorage (instant per-browser)…",
@@ -10644,6 +10644,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 19, 2026 · 9:40 PM CEST",
-  "published_at_iso": "2026-06-19T21:40:54+0200"
+  "published_at": "June 19, 2026 · 11:41 PM CEST",
+  "published_at_iso": "2026-06-19T23:41:10+0200"
 }
