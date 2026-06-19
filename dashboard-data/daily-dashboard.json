@@ -2399,6 +2399,25 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "CAP-0056",
+      "title": "Cross-venture morning roll-up (the daily lane view)",
+      "description": "Cross-venture morning roll-up (the daily lane view). One morning surface that aggregates every venture's 🟢🟡🔴 lanes (= ratified Auto/Batch/Wolf) from MOS_TASKS.md + per-venture task files into a single cross-portfolio stand-up, so Wolf sees what's running autonomously, what needs his 5 minutes, and what's together — across Signal/Solitaire/AIDVISOR/MOS at once. Folds in the missing Signal EOD stand-up (A1). Decided at MC-CADENCE-AUTOMATION-AUDIT-1 (2026-06-20): absorb the 🟢🟡🔴 taxonomy as a relabel of the already-ratified Auto/Batch/Wolf model (no new philosophy; mc-nightly-autonomous-batch alr…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-06-20",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-06-20",
+      "zone": "open",
+      "kind": "cap",
+      "first_seen": "2026-06-20"
+    },
+    {
       "id": "CAP-0051",
       "title": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol)",
       "description": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol). Reusable multi-session GTM protocol (research-first → present → debate → decide → lock; visual boards + phone PDFs), reverse-engineered from Signal SIG25–28, for Solitaire / AI-DVISOR / future ventures. Playbook shipped: ~/MAXX/_MAXX_OS/Observations/MOS-PLAYBOOK-GTM-WALKTHROUGH-0001.md v0.1. Roadmap v0.2 (wire to ATHENA design skill) / v0.3 (installable plugin). Provenance: Wolf-approved 2026-06-06 (\"charter now\"). → PRODUCTIZATION_LOG PS-GTM-WALKTHROUGH-1.",
@@ -10644,6 +10663,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 19, 2026 · 11:41 PM CEST",
-  "published_at_iso": "2026-06-19T23:41:10+0200"
+  "published_at": "June 20, 2026 · 1:54 AM CEST",
+  "published_at_iso": "2026-06-20T01:54:28+0200"
 }
