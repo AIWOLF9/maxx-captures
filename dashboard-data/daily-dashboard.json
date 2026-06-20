@@ -1382,7 +1382,7 @@
     {
       "id": "MOS-T-040",
       "title": "Decide: adopt Supadata YouTube-transcript API",
-      "description": "🔍 Triaged — 🔴 DECISION (queued, not urgent) — adopt Supadata for YouTube transcripts (fixes the Chrome+Gemini unreliability; AI fallback for no-caption videos; ~$17/mo) via CAP-0009; confirm volume need. Spawned from the MOS-T-037 scrapers brief.",
+      "description": "✅ DECIDED 2026-06-20 (MAXX-COUNCIL-BUILD-1) — adopt Supadata $17/mo (3,000 credits/mo) for reliable YouTube transcripts (fixes Chrome+Gemini unreliability; AI fallback for no-caption videos). Wolf-approved spend. Install gated on CAP-0009 third-party security audit (Supadata is 3rd-party) + volume confirm at signup. Note: free youtube-transcript MCP + Chrome-scrape fallback remain for low-volume; Supadata buys production reliability for Signal messaging tasks (unblocks the T-023/T-029 cluster). Spawned from the MOS-T-037 scrapers brief.",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Build",
@@ -1407,8 +1407,8 @@
       "autonomy": "Wolf",
       "department": "Engineering",
       "prov": null,
-      "review": "r-triaged",
-      "review_label": "Triaged",
+      "review": "r-done",
+      "review_label": "Done",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1543,34 +1543,8 @@
     {
       "id": "SIG-029",
       "title": "Email Spec (MSIG-UX-EMAIL-0001 v1.0)",
-      "description": "Spec the daily reminder email (both tiers, default-on, easy unsubscribe) + transactional + lifecycle emails + copy. Mandate §11 pending.",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "1.5h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Auto",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "SIG-030",
-      "title": "User Journey Spec (MSIG-UX-JOURNEY-0001 v1.0)",
-      "description": "End-to-end user journey doc (acquisition→onboarding→activation→retention→upgrade) per Mandate §11 pending list.",
-      "status": "s-todo",
+      "description": "Spec the daily reminder email (both tiers, default-on, easy unsubscribe) + transactional + lifecycle emails + copy. SIG43: v0.1 DRAFT reviewed — transactional set + taxonomy + deliverability + send-time (7am local, research-grounded) drafted; T5 rollover corrected to 24h-before-day-7 (7-day trial). Blocked on a dedicated daily-reminder CONTENT research+design pass (component menu + digest teardowns, Wolf direction) before promotion. Conversion emails → conversion-email design pass. Stays DRAFT.",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Product",
       "venture": "v-signal",
@@ -9996,6 +9970,32 @@
       "first_seen": null
     },
     {
+      "id": "SIG-030",
+      "title": "User Journey Spec (MSIG-UX-JOURNEY-0001 v1.0)",
+      "description": "End-to-end user journey doc (acquisition→onboarding→activation→retention→upgrade) per Mandate §11. DONE SIG43 (2026-06-20): promoted v1.0 to 02_Product/Final, reconciled to Onboarding v1.3; activation metric LOCKED = First Feed Land (no action required, Wolf-corrected); value-wall upgrade triggers locked, conversion-email design deferred; dormancy → Financial Model pass. Decision 27.",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "SIG-162",
       "title": "Launch Mechanics session (waitlist + founding-member pre-order + early-tester beta + PR/posting list)",
       "description": "SIG28 (2026-06-07): Shipped the full launch spine — 7-phase funnel (Survey→Beta→Waitlist→Pre-order→Kickstarter→Launch→Steady). Waitlister engine; 2-for-1 giftable pre-order + viral-army gift flow (email+SMS capture); 3-tier Ambassador (25/40) + stackable badges; concept test (CareAngel template + Van Westendorp/Gabor-Granger); ~30d beta + PMF≥40% gate; KS pre-launch ~T-60 funds the build (stretch=iOS/Europe/modules); PR/pitch list; trackable-links + demo gate; runway. Canonical draft _Working/SIG28_Launch_Mechanics_Plan_v0_1_DRAFT; formal promotion → SIG-177.",
@@ -10663,6 +10663,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 20, 2026 · 1:42 PM CEST",
-  "published_at_iso": "2026-06-20T13:42:50+0200"
+  "published_at": "June 20, 2026 · 3:43 PM CEST",
+  "published_at_iso": "2026-06-20T15:43:07+0200"
 }
