@@ -21,32 +21,6 @@
       "first_seen": null
     },
     {
-      "id": "SIG-159",
-      "title": "Intentions/WHY Layer spec (MSIG-UX-INTENTIONS-0001)",
-      "description": "SIG20-surfaced (Wolf capture \"Signal intentions\", 2026-06-01). WHY-first layer: capture intent granularly (purpose / feeling / format-length / recency + free input) BEFORE taxonomy, then the WHY POWERS the taxonomy — pre-ranked so matches surface first. Light explanatory \"why we ask\" frame up front (absorbs old Educational carousel). Positioning line: \"never before has anything personalized WHY you come and matched it.\" Needs its OWN chat. Seed outline + process visual authored at SIG20 → _Working/MSIG-UX-INTENTIONS-0001_OUTLINE_SEED_2026-06-01.md. Onboarding §4b carries a placeholder until t…",
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Auto",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "SIG-038",
       "title": "Claude Design production mockups",
       "description": "SIG22+: produce pixel-level mockups of every onboarding step in Claude Design; iterate with Wolf (context-heavy, multiple chats).",
@@ -2397,25 +2371,6 @@
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-06-09"
-    },
-    {
-      "id": "CAP-0056",
-      "title": "Cross-venture morning roll-up (the daily lane view)",
-      "description": "Cross-venture morning roll-up (the daily lane view). One morning surface that aggregates every venture's 🟢🟡🔴 lanes (= ratified Auto/Batch/Wolf) from MOS_TASKS.md + per-venture task files into a single cross-portfolio stand-up, so Wolf sees what's running autonomously, what needs his 5 minutes, and what's together — across Signal/Solitaire/AIDVISOR/MOS at once. Folds in the missing Signal EOD stand-up (A1). Decided at MC-CADENCE-AUTOMATION-AUDIT-1 (2026-06-20): absorb the 🟢🟡🔴 taxonomy as a relabel of the already-ratified Auto/Batch/Wolf model (no new philosophy; mc-nightly-autonomous-batch alr…",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Product",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "2026-06-20",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
-      "created": "2026-06-20",
-      "zone": "open",
-      "kind": "cap",
-      "first_seen": "2026-06-20"
     },
     {
       "id": "CAP-0051",
@@ -9605,6 +9560,32 @@
       "first_seen": null
     },
     {
+      "id": "SIG-159",
+      "title": "Intentions/WHY Layer spec (MSIG-UX-INTENTIONS-0001)",
+      "description": "DONE SIG42 (2026-06-19): authored MSIG-UX-INTENTIONS-0001 v1.0 → 02_Product/Final. 4 forks locked w/ Wolf (single interactive screen · re-rank+pre-select w/ sovereignty · persistent Stage-4 feed tilt · free-text nearest-node+search-log). Capture = locked v0.3 reasons → tunable category-weight map; 4-movement model reconciled to v0.3 order. De-stubbed Onboarding §4.5b (→v1.2). Built clickable prototype v2.1 (03_Design/Reference/onboarding-flows/ + Cowork artifact) through 4 rounds of Wolf review → locked single-signal launch, plan→build→feed re-sequence, Go-Deeper+Creators merge, per-category…",
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "~4h (4 review rounds)",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "CF-AUTOMATION-GATING-1",
       "title": "Fix scheduled-task approval-gating that stalled the chain (Risk/cadence)",
       "description": "Fix scheduled-task approval-gating that stalled the chain (Risk/cadence). Root cause: the Stage 2 synthesis paused on an interactive approval (artifact creation) while Wolf was away, so the dependent Stage 4 had nothing complete to act on. Done this Stage 4: rewrote Stage 2 + Stage 4 prompts so unattended runs never block (artifact deferred when unattended; Stage 4 silent no-op instead of blocking AskUserQuestion); nightly hygiene task is alert-only. Remaining (Wolf, 1 click): click \"Run now\" once on hive-mind-stage2-mission-control-synthesis to pre-approve the artifact tool — approvals are s…",
@@ -10145,6 +10126,25 @@
       "first_seen": "2026-06-08"
     },
     {
+      "id": "CAP-0056",
+      "title": "Cross-venture morning roll-up (the daily lane view)",
+      "description": "Cross-venture morning roll-up (the daily lane view). One morning surface that aggregates every venture's 🟢🟡🔴 lanes (= ratified Auto/Batch/Wolf) from MOS_TASKS.md + per-venture task files into a single cross-portfolio stand-up, so Wolf sees what's running autonomously, what needs his 5 minutes, and what's together — across Signal/Solitaire/AIDVISOR/MOS at once. Folds in the missing Signal EOD stand-up (A1). Decided at MC-CADENCE-AUTOMATION-AUDIT-1 (2026-06-20): absorb the 🟢🟡🔴 taxonomy as a relabel of the already-ratified Auto/Batch/Wolf model (no new philosophy; mc-nightly-autonomous-batch alr…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-06-20",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-06-20",
+      "zone": "done",
+      "kind": "cap",
+      "first_seen": "2026-06-20"
+    },
+    {
       "id": "CAP-0054",
       "title": "Agent trigger / callback model (the return-path automation)",
       "description": "Agent trigger / callback model (the return-path automation) — SHIPPED 2026-06-08 (CAP-0054-TRIGGER-CALLBACK-1). Cowork-native dispatch making the comms fabric's *invoke* + *receive* steps flow without hand-carrying each one. Shipped: (1) NEW canonical ~/MAXX/_index/AGENT_DISPATCH_QUEUE.md (MOS-AGENT-DISPATCH-QUEUE-0001 v0.1) with the documented request-row convention (- [ts] · AGENT · priority · venture · task · status: queued + · by:/· req:/· ref:/· acknowledged:/· invoked:/· callback: lifecycle fields; mirrors AGENT_INBOX §6.7 anchor-parse); (2) a Cowork scheduled task maxx-agent-dispatch-p…",
@@ -10663,6 +10663,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 20, 2026 · 1:54 AM CEST",
-  "published_at_iso": "2026-06-20T01:54:28+0200"
+  "published_at": "June 20, 2026 · 3:42 AM CEST",
+  "published_at_iso": "2026-06-20T03:42:22+0200"
 }
