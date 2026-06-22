@@ -971,38 +971,6 @@
       "first_seen": null
     },
     {
-      "id": "MOS-T-005",
-      "title": "SEO strategies research",
-      "description": "🔬 RESEARCHED 2026-06-09 (seo-tools-plan findings) — free stack (GSC+Bing+ATP) does Phase 1 at $0; Reddit-led GEO = top lever (~40% of LLM citations). Paid tools (NeuronWriter/LowFruits ~$44/mo) = FALLBACK ONLY, not pre-approved — Wolf: likely replaceable by a Claude-native MAXX SEO agent (see T-044). [2026-06-15 update — MC-SEO-AGENT-1] SEO-A1 (build-not-buy) + SEO-A2 (paid=fallback-only) RATIFIED; the ~$44/mo paid default is retired — see CAP-0055 + DECISION_seo-agent_2026-06-15. Route: SIGNAL. from cap-mpquu0ux82m",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Research",
-      "venture": "v-signal",
-      "ventures": [
-        "v-signal"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "APOLLO",
-      "executor_list": [
-        "APOLLO"
-      ],
-      "autonomy": "Batch",
-      "department": "Research",
-      "prov": "capture",
-      "review": "r-researched",
-      "review_label": "Researched",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "MOS-T-010",
       "title": "Automate NotebookLM",
       "description": "🔬 RESEARCHED 2026-06-09 (YELLOW; notebooklm-automation findings) — connectable MCP exists + Wolf has used it (Antigravity; jacob-bd/notebooklm-mcp-cli, 35 tools). PASS on Enterprise (~$135/mo). NEXT (Wolf): research the right NotebookLM MCP/tools+options (isolated Google acct; verify Antigravity path) → discuss; also the surface for the T-038 board research. from cap-mpqwngk03n6",
@@ -1323,39 +1291,6 @@
       "prov": "capture",
       "review": "r-triaged",
       "review_label": "Triaged",
-      "kind": "tasks",
-      "first_seen": "2026-06-09"
-    },
-    {
-      "id": "MOS-T-037",
-      "title": "Social scrapers (Apify etc.) eval",
-      "description": "🔬 RESEARCHED 2026-06-09 (findings: _MAXX_OS/Research/social-scrapers-eval/) — GREEN: Supadata for YT transcripts; RED: email-harvest + logged-in IG/TikTok/X. Decision queued → MOS-T-040. from cap-mpu6yewzanq",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Social",
-      "venture": "v-signal",
-      "ventures": [
-        "v-signal",
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "DIONYSUS",
-      "executor_list": [
-        "DIONYSUS"
-      ],
-      "autonomy": "Batch",
-      "department": "Social",
-      "prov": "capture",
-      "review": "r-researched",
-      "review_label": "Researched",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -9652,6 +9587,38 @@
       "first_seen": null
     },
     {
+      "id": "MOS-T-005",
+      "title": "SEO strategies research",
+      "description": "✅ DONE 2026-06-22 (MC-STANDUP-QUICKWINS-1) — research closed: decision ratified via CAP-0055 + DECISION_seo-agent_2026-06-15 (SEO-A1 build-not-buy + SEO-A2 paid=fallback-only). Execution lives on as the MAXX SEO agent (T-044 / MOS-AGENT-SEO-0001) + the APOLLO dispatch row queued for the Signal content sprint; nothing left to research here. ◀ 🔬 RESEARCHED 2026-06-09 (seo-tools-plan findings) — free stack (GSC+Bing+ATP) does Phase 1 at $0; Reddit-led GEO = top lever (~40% of LLM citations). Paid tools (NeuronWriter/LowFruits ~$44/mo) retired to FALLBACK ONLY. Route: SIGNAL. from cap-mpquu0ux82m",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Research",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "APOLLO",
+      "executor_list": [
+        "APOLLO"
+      ],
+      "autonomy": "Batch",
+      "department": "Research",
+      "prov": "capture",
+      "review": "r-done",
+      "review_label": "Done",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "MOS-T-013",
       "title": "Single-brain memory framework",
       "description": "✅ DONE 2026-06-15 (MC-CAP0009-INSTALLS-1) — closed by MOS-MEMORY-ARCHITECTURE-0001 v0.1 (tiered hybrid, 6 scopes, MEM-1 = @modelcontextprotocol/server-memory index over markdown truth). Mem0/Letta still deferred (triggers in digest §4). Closed w/ T-002. ◀ 🔬 RESEARCHED 2026-06-09 — tiered-hybrid locked; native memory MCP = smallest delta, $0. from cap-mpqx1kuin5p",
@@ -9714,6 +9681,39 @@
       "review_label": "Done",
       "kind": "tasks",
       "first_seen": null
+    },
+    {
+      "id": "MOS-T-037",
+      "title": "Social scrapers (Apify etc.) eval",
+      "description": "✅ DONE 2026-06-22 (MC-STANDUP-QUICKWINS-1) — eval closed: its decision was made in T-040 (adopt Supadata $17/mo, 2026-06-20, CAP-0009-gated). GREEN (Supadata YT transcripts) adopted; RED set (email-harvest + logged-in IG/TikTok/X scraping) permanently excluded on TOS/account-risk. Nothing left to eval. ◀ 🔬 RESEARCHED 2026-06-09 (findings: _MAXX_OS/Research/social-scrapers-eval/). from cap-mpu6yewzanq",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Social",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal",
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "DIONYSUS",
+      "executor_list": [
+        "DIONYSUS"
+      ],
+      "autonomy": "Batch",
+      "department": "Social",
+      "prov": "capture",
+      "review": "r-done",
+      "review_label": "Done",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
     },
     {
       "id": "SIG-010",
@@ -10689,6 +10689,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 20, 2026 · 5:43 PM CEST",
-  "published_at_iso": "2026-06-20T17:43:24+0200"
+  "published_at": "June 22, 2026 · 2:06 PM CEST",
+  "published_at_iso": "2026-06-22T14:06:16+0200"
 }
