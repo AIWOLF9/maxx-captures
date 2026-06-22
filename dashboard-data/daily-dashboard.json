@@ -1482,36 +1482,10 @@
       "first_seen": null
     },
     {
-      "id": "SIG-031",
-      "title": "Curation Engine v1.1 → v1.2 (FeedCache TTL patch)",
-      "description": "Resolve the FeedCache TTL ambiguity (OQ-v1.3-3) so the batch-refresh cadence is unambiguous for the build.",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "0.75h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Auto",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "SIG-032",
       "title": "Financial Model v1.0 → v2.0 (dormant free-user auto-pause)",
-      "description": "Model dormant-free-user auto-pause + B1/B2 promotion decision (OQ-v1.3-4); update .xlsx assumptions with Wolf's inputs.",
-      "status": "s-todo",
+      "description": "Model dormant-free-user auto-pause + B1/B2 promotion decision (OQ-v1.3-4); update .xlsx assumptions with Wolf's inputs. 2026-06-22 (Wolf): dormancy window LOCKED = 30 days no-open (aligns with 30-day MAU convention). \"B1/B2\" clarified = build-phase timing of the auto-pause mechanism (NOT account tiers); default = model the 30-day rule now, build auto-pause in B2 (not launch-critical) unless Wolf elevates. Model regen still to run (pairs CF-SIG37-4 $199 regen).",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Finance",
       "venture": "v-signal",
@@ -1530,32 +1504,6 @@
       ],
       "autonomy": "Auto",
       "department": "Finance",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "SIG-035",
-      "title": "QA Plan (MSIG-OPS-QA-PLAN-0001 v1.0)",
-      "description": "Author the test strategy: coverage matrix, acceptance criteria, webhook-simulation scope (backlog P-5), beta plan.",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "QA",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "1.5h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "ARGUS",
-      "executor_list": [
-        "ARGUS"
-      ],
-      "autonomy": "Auto",
-      "department": "QA",
       "kind": "tasks",
       "first_seen": null
     },
@@ -3869,38 +3817,6 @@
       "first_seen": null
     },
     {
-      "id": "MOS-T-031",
-      "title": "Agent-creation methodology (RUFLO)",
-      "description": "🔬 RESEARCHED 2026-06-09 (build-vs-borrow methodology in the agent-framework brief; ruflo = reference-only). Leftover (P2): ratify the methodology. from cap-mpv6e1b40kg",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Agents",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Auto",
-      "department": "Operations",
-      "prov": "capture",
-      "review": "r-researched",
-      "review_label": "Researched",
-      "kind": "tasks",
-      "first_seen": "2026-06-09"
-    },
-    {
       "id": "MOS-T-039",
       "title": "Spend / budget dashboard widget",
       "description": "🔍 TRIAGED — MAXX build / CAP candidate (spend across services/APIs, by venture). from cap-mpt2gv038ir",
@@ -3937,7 +3853,7 @@
     {
       "id": "MOS-T-041",
       "title": "Adopt skill origin: field + reference watch-list",
-      "description": "🔍 from the agent-framework brief — add an origin: provenance field to MAXX skill front-matter + stand up a \"reference watch-list\" doc (ECC / superpowers / anthropics-skills / wshobson) with last-checked dates.",
+      "description": "🔬 RESEARCHED 2026-06-22 (MC-STANDUP-QUICKWINS-1) — policy ratified: the origin: provenance field is now a hard requirement (Gate 2 of MOS-AGENT-CREATION-METHODOLOGY-0001). Rollout remaining (now Auto-eligible, no decision needed): (a) backfill origin: into existing MAXX skill front-matter, (b) stand up the \"reference watch-list\" doc (ECC / superpowers / anthropics-skills / wshobson) with last-checked dates. Queue for a nightly batch run.",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Governance",
@@ -3958,13 +3874,45 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
       "department": "Operations",
+      "prov": null,
+      "review": "r-researched",
+      "review_label": "Researched",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
+      "id": "MOS-T-045",
+      "title": "Morning roll-up v0.3",
+      "description": "🔍 TRIAGED 2026-06-22 (MC-STANDUP-QUICKWINS-1) — the deferred 3rd Signal-parity strip for /rollup. Needs publisher-side wiring (NOT a template-only edit): port parse_nightly_digest + the overnight builder from _MAXX_OS/Capabilities/standup-parity/render_standup_board.py into dashboard_renderers.py, emit the digest rows in the morning-rollup JSON, add a {{STANDUP_OVERNIGHT}} token to the bake step + the template section. Queued for a nightly batch (Auto-eligible bounded build; verify in-sandbox, stage-don't-flip — Wolf force-deploys). Extends CAP-0056 v0.2.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Build",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
       "prov": null,
       "review": "r-triaged",
       "review_label": "Triaged",
       "kind": "tasks",
-      "first_seen": "2026-06-09"
+      "first_seen": "2026-06-22"
     },
     {
       "id": "SIG-033",
@@ -10002,6 +9950,58 @@
       "first_seen": null
     },
     {
+      "id": "SIG-031",
+      "title": "Curation Engine v1.1 → v1.2 (FeedCache TTL patch)",
+      "description": "Resolve the FeedCache TTL ambiguity (OQ-v1.3-3) so the batch-refresh cadence is unambiguous for the build. DONE 2026-06-22 (Wolf go): split logical expiry from physical purge — expiresAt = staleness marker (Free 7d / Premium 24h, never deletes); new purgeAt = createdAt+7d, Firestore native TTL fires here. Three-Step on Curation Engine → v1.2 §7.7 (+ build contract) and Data Model micro-align → v1.4.1 (§10.2/10.3/10.4/10.6 + §17 deploy script). Closes OQ-v1.3-3; unblocks SIG-053 build contract. Prior versions archived.",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "0.75h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "SIG-035",
+      "title": "QA Plan (MSIG-OPS-QA-PLAN-0001 v1.0)",
+      "description": "Author the test strategy: coverage matrix, acceptance criteria, webhook-simulation scope (backlog P-5), beta plan. DONE 2026-06-22 (Wolf go): promoted MSIG-OPS-QA-PLAN-0001 v1.0 → 09_Operations/Final. Risk tiers R1–R4; per-surface coverage matrix; R1 money/trust acceptance criteria (auth, billing/entitlement, idempotency, founding-cap); §5 LS webhook fixture matrix; §6 envs; §7 manual checklist; §8 beta; §9 launch-week gate. §10 LOCKED: test stack = Vitest+Playwright+Firebase Emulator; beta = prod-with-test-billing closed beta (15–30). Resolves OQ-API-07. Unblocks SIG-036.",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "QA",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "ARGUS",
+      "executor_list": [
+        "ARGUS"
+      ],
+      "autonomy": "Auto",
+      "department": "QA",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "SIG-162",
       "title": "Launch Mechanics session (waitlist + founding-member pre-order + early-tester beta + PR/posting list)",
       "description": "SIG28 (2026-06-07): Shipped the full launch spine — 7-phase funnel (Survey→Beta→Waitlist→Pre-order→Kickstarter→Launch→Steady). Waitlister engine; 2-for-1 giftable pre-order + viral-army gift flow (email+SMS capture); 3-tier Ambassador (25/40) + stackable badges; concept test (CareAngel template + Van Westendorp/Gabor-Granger); ~30d beta + PMF≥40% gate; KS pre-launch ~T-60 funds the build (stretch=iOS/Europe/modules); PR/pitch list; trackable-links + demo gate; runway. Canonical draft _Working/SIG28_Launch_Mechanics_Plan_v0_1_DRAFT; formal promotion → SIG-177.",
@@ -10137,7 +10137,7 @@
       "description": "Cross-venture morning roll-up (the daily lane view). One morning surface that aggregates every venture's 🟢🟡🔴 lanes (= ratified Auto/Batch/Wolf) from MOS_TASKS.md + per-venture task files into a single cross-portfolio stand-up, so Wolf sees what's running autonomously, what needs his 5 minutes, and what's together — across Signal/Solitaire/AIDVISOR/MOS at once. Folds in the missing Signal EOD stand-up (A1). Decided at MC-CADENCE-AUTOMATION-AUDIT-1 (2026-06-20): absorb the 🟢🟡🔴 taxonomy as a relabel of the already-ratified Auto/Batch/Wolf model (no new philosophy; mc-nightly-autonomous-batch alr…",
       "status": "s-done",
       "priority": "p-p2",
-      "segment": "Product",
+      "segment": "Marketing",
       "venture": "v-mos",
       "deadline": null,
       "deadline_label": "2026-06-20",
@@ -10550,6 +10550,38 @@
       "first_seen": null
     },
     {
+      "id": "MOS-T-031",
+      "title": "Agent-creation methodology (RUFLO)",
+      "description": "✅ DONE 2026-06-22 (MC-STANDUP-QUICKWINS-1) — methodology RATIFIED + codified at _MAXX_OS/Canonical/Final/MOS-AGENT-CREATION-METHODOLOGY-0001.md v1.0 (5 gates: Spec → Architecture+provenance → Build → Tests-with-skill → Register; borrows SPARC phasing). RUFLO stays REFERENCE-ONLY (permanent NO on install). Paired with T-041 (the origin: field is Gate 2). ◀ 🔬 RESEARCHED 2026-06-09 (agent-framework brief). from cap-mpv6e1b40kg",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-done",
+      "review_label": "Done",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
       "id": "SIG-021",
       "title": "Product Backlog hygiene to v1.3.4",
       "description": "Cluster-E placeholder-ID renumber; OQ-BACKLOG-06 closed (SIG4) before onboarding research.",
@@ -10689,6 +10721,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 22, 2026 · 2:06 PM CEST",
-  "published_at_iso": "2026-06-22T14:06:16+0200"
+  "published_at": "June 22, 2026 · 3:02 PM CEST",
+  "published_at_iso": "2026-06-22T15:02:46+0200"
 }
