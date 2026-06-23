@@ -1,5 +1,24 @@
 [
   {
+    "title": "Research YouTube algorithm",
+    "ventures": [
+      "v-signal"
+    ],
+    "venture": "v-signal",
+    "segments": [
+      "Product",
+      "Research",
+      "Strategy"
+    ],
+    "segment": "Product",
+    "priority": "p-p0",
+    "type": "now",
+    "tags": "ALGORITHM, Research, OPTIMIZING TECH STACK, Curation Engine",
+    "notes": "I think we need to do some research and find out what is the latest YouTube algorithm and how it works as we look to create our own creation engine in algorithm to help manage how people see things. Let’s do a deep research and set our agent out to research the YouTube algorithm and then provide a report and then look at how we may learn from it to optimize how signal works and how the creation engine works. For example, as I look at certain content, he knows I’ve watched it so he tries to feed me more of it sometimes from the same creator sometimes from another creator, etc.. so again, just trying to learn an optimize as we are in the process of creating our Signal curation engine and the algorithms that power it.",
+    "id": "cap-mqqj2ni1auk",
+    "created": "2026-06-23T10:55:07.897Z"
+  },
+  {
     "title": "Signal- I refuse to be controlled by the algorithm AI or I use Signal- using avatars?",
     "ventures": [
       "v-signal"
