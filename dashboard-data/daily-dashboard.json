@@ -75,8 +75,8 @@
     {
       "id": "SIG-042",
       "title": "Entity Structure Decision (DBA vs LLC vs subsidiary) + CPA consult",
-      "description": "Choose the legal entity (Checklist §2); requires a CPA consultation. BLOCKS Apple enrollment. Claude provides the comparison analysis; Wolf decides + executes.",
-      "status": "s-todo",
+      "description": "Choose the legal entity (Checklist §2); requires a CPA consultation. BLOCKS Apple enrollment. Claude provides the comparison analysis; Wolf decides + executes. In Progress 2026-06-24 (Wolf): kicking off the entity → D-U-N-S → Apple chain — the multi-week external long pole.",
+      "status": "s-doing",
       "priority": "p-p0",
       "segment": "Ops",
       "venture": "v-signal",
@@ -999,38 +999,6 @@
       "prov": "capture",
       "review": "r-researched",
       "review_label": "Researched",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "MOS-T-017",
-      "title": "Understand Opus 4.8 features",
-      "description": "🔍 TRIAGED — already on Opus 4.8; MAXX-autonomous next: short brief on 4.8 capabilities worth exploiting (dynamic workflows, parallel agents). from cap-mpqyecvmupz — review Opus 4.8 capabilities for OS optimization",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Auto",
-      "department": "Operations",
-      "prov": "capture",
-      "review": "r-triaged",
-      "review_label": "Triaged",
       "kind": "tasks",
       "first_seen": null
     },
@@ -2495,26 +2463,6 @@
       "created": null,
       "zone": "open",
       "owner": "Claude (canonical chat)",
-      "kind": "cfi",
-      "first_seen": null
-    },
-    {
-      "id": "CF-BRAIN2-4",
-      "title": "Decide ClaudeMem vs",
-      "description": "Decide ClaudeMem vs. Anthropic native memory tool for cross-session knowledge persistence",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "During or after Skills-Discover…",
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude + Wolf",
       "kind": "cfi",
       "first_seen": null
     },
@@ -9599,6 +9547,38 @@
       "first_seen": null
     },
     {
+      "id": "MOS-T-017",
+      "title": "Understand Opus 4.8 features",
+      "description": "✅ DONE 2026-06-24 (MC-MORNING-STANDUP-1) — Opus 4.8 in use; 06-19 brief + nightly-batch 06-24 finding MOS-T-017-finding.md confirm 4.8 is still latest (no point release); future model-release deltas fold into the T-042 weekly scan, not a re-open. Fable 5/Mythos 5 access-suspended 06-12 (export control) moots the \"Fable 5 ceiling\" note. [was: 🔍 TRIAGED — already on Opus 4.8]",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-done",
+      "review_label": "Done",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "MOS-T-021",
       "title": "Review \"AI OS\" video",
       "description": "✅ DONE — already reviewed: Nate Herk AIS-OS / 4Cs convergent-validation recorded in OBS-0041. from cap-mpr41don2xa",
@@ -10550,6 +10530,26 @@
       "first_seen": null
     },
     {
+      "id": "CF-BRAIN2-4",
+      "title": "Decide ClaudeMem vs",
+      "description": "Decide ClaudeMem vs. Anthropic native memory tool for cross-session knowledge persistence",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Research",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "CLOSED 2026-06-24 (MC-MORNING-S…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude + Wolf",
+      "kind": "cfi",
+      "first_seen": null
+    },
+    {
       "id": "MOS-T-031",
       "title": "Agent-creation methodology (RUFLO)",
       "description": "✅ DONE 2026-06-22 (MC-STANDUP-QUICKWINS-1) — methodology RATIFIED + codified at _MAXX_OS/Canonical/Final/MOS-AGENT-CREATION-METHODOLOGY-0001.md v1.0 (5 gates: Spec → Architecture+provenance → Build → Tests-with-skill → Register; borrows SPARC phasing). RUFLO stays REFERENCE-ONLY (permanent NO on install). Paired with T-041 (the origin: field is Gate 2). ◀ 🔬 RESEARCHED 2026-06-09 (agent-framework brief). from cap-mpv6e1b40kg",
@@ -10721,6 +10721,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 22, 2026 · 3:02 PM CEST",
-  "published_at_iso": "2026-06-22T15:02:46+0200"
+  "published_at": "June 24, 2026 · 5:18 PM CEST",
+  "published_at_iso": "2026-06-24T17:18:03+0200"
 }
