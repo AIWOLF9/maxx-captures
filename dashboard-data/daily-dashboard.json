@@ -1263,39 +1263,6 @@
       "first_seen": "2026-06-09"
     },
     {
-      "id": "MOS-T-040",
-      "title": "Decide: adopt Supadata YouTube-transcript API",
-      "description": "✅ DECIDED 2026-06-20 (MAXX-COUNCIL-BUILD-1) — adopt Supadata $17/mo (3,000 credits/mo) for reliable YouTube transcripts (fixes Chrome+Gemini unreliability; AI fallback for no-caption videos). Wolf-approved spend. Install gated on CAP-0009 third-party security audit (Supadata is 3rd-party) + volume confirm at signup. Note: free youtube-transcript MCP + Chrome-scrape fallback remain for low-volume; Supadata buys production reliability for Signal messaging tasks (unblocks the T-023/T-029 cluster). Spawned from the MOS-T-037 scrapers brief.",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Build",
-      "venture": "v-signal",
-      "ventures": [
-        "v-signal",
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "<30m",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Engineering",
-      "prov": null,
-      "review": "r-done",
-      "review_label": "Done",
-      "kind": "tasks",
-      "first_seen": "2026-06-09"
-    },
-    {
       "id": "MOS-T-042",
       "title": "Broaden the weekly tool/offering scan",
       "description": "🔍 Triaged — Broaden the existing apollo-hivemind-stage1-tool-scan (currently ATHENA-stack-scoped, runs Sundays) to cover Anthropic/Claude releases + Gemini/ChatGPT offerings + skills/connectors/MCP/plugins portfolio-wide; surface findings via the standup digest, prioritized. (Wolf 2026-06-09.)",
@@ -9644,6 +9611,39 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "MOS-T-040",
+      "title": "Decide: adopt Supadata YouTube-transcript API",
+      "description": "✅ DECIDED 2026-06-20 (MAXX-COUNCIL-BUILD-1) — adopt Supadata $17/mo (3,000 credits/mo) for reliable YouTube transcripts (fixes Chrome+Gemini unreliability; AI fallback for no-caption videos). Wolf-approved spend. Install gated on CAP-0009 third-party security audit (Supadata is 3rd-party) + volume confirm at signup. Note: free youtube-transcript MCP + Chrome-scrape fallback remain for low-volume; Supadata buys production reliability for Signal messaging tasks (unblocks the T-023/T-029 cluster). Spawned from the MOS-T-037 scrapers brief.",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Build",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal",
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Engineering",
+      "prov": null,
+      "review": "r-done",
+      "review_label": "Done",
+      "kind": "tasks",
+      "first_seen": "2026-06-09"
+    },
+    {
       "id": "SIG-010",
       "title": "Analytics spec locked (v1.0)",
       "description": "Event taxonomy + measurement plan. v1.1 re-eval pending (SIG-033).",
@@ -10721,6 +10721,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 24, 2026 · 5:18 PM CEST",
-  "published_at_iso": "2026-06-24T17:18:03+0200"
+  "published_at": "June 24, 2026 · 7:18 PM CEST",
+  "published_at_iso": "2026-06-24T19:18:38+0200"
 }
