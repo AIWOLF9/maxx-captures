@@ -53,6 +53,38 @@
       "first_seen": "2026-06-25"
     },
     {
+      "id": "MOS-T-056",
+      "title": "UNDERSTAND NEW OPUS 4.8 Features- DYNAMIC WORKFLOWS, ultra code- etc",
+      "description": "🆕 Raw — from cap-mpqyecvmupz — I saw a video on some of opus 4.8 new capabilities specially, the dynamic workflows and ultracode. I want you to throw the review all the latest capability specially these dynamic workflows and whatever else we can use… [tags: Operating system optimization]",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
       "id": "SIG-038",
       "title": "Claude Design production mockups",
       "description": "SIG22+: produce pixel-level mockups of every onboarding step in Claude Design; iterate with Wolf (context-heavy, multiple chats).",
@@ -11119,6 +11151,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 25, 2026 · 3:20 AM CEST",
-  "published_at_iso": "2026-06-25T03:20:25+0200"
+  "published_at": "June 25, 2026 · 5:37 AM CEST",
+  "published_at_iso": "2026-06-25T05:37:01+0200"
 }
