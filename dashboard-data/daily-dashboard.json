@@ -21,6 +21,38 @@
       "first_seen": null
     },
     {
+      "id": "MOS-T-047",
+      "title": "Research YouTube algorithm",
+      "description": "🆕 Raw — from cap-mqqj2ni1auk — I think we need to do some research and find out what is the latest YouTube algorithm and how it works as we look to create our own creation engine in algorithm to help manage how people see things. Let’s do a deep rese… [tags: ALGORITHM, Research, OPTIMIZING TECH STACK, Curation Engine]",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
       "id": "SIG-038",
       "title": "Claude Design production mockups",
       "description": "SIG22+: produce pixel-level mockups of every onboarding step in Claude Design; iterate with Wolf (context-heavy, multiple chats).",
@@ -1365,6 +1397,262 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "MOS-T-046",
+      "title": "What my mind consumes has an impact on my mental health, my productivity, my family my ki…",
+      "description": "🆕 Raw — from cap-mqs3it7jfcs — Part of our marketing strategy and content is to get people to take a moment to think about the ramifications of mindless gesture of being mindlessly manipulated by the algorithm. To simply ask questions like- Did you k… [tags: For social, Social, Brand positioning, Marketing Campaign I…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
+      "id": "MOS-T-049",
+      "title": "SIGNAL MARKETING CAMPAIGN IDEA- THIS IS YOUR BRAIN EGG 🍳 ON THE ALGORITHM - This is your…",
+      "description": "🆕 Raw — from cap-mqqhludm7z3 — I remember many years ago there was a marketing campaign that I would always see on television then eventually online it was a campaign about say no to drugs - that I think was playing for many years and I think many pe… [tags: Brand positioning, Marketing Campaign Idea, marketing, Laun…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
+      "id": "MOS-T-050",
+      "title": "Compare - YouTube alone vs Signal- adds superpowers to Youtube - SIGNAL - what If YouTube…",
+      "description": "🆕 Raw — from cap-mqqh61n2tip — So one of the thoughts I had for the way we position campaign with our marketing is to have a positioning statement around the concept that we had superpowers to YouTube so they’re not gonna miss out on the best parts o… [tags: Brand positioning, Benefits, launch, Launch Campaigns, MAJO…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Strategy",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
+      "id": "MOS-T-051",
+      "title": "Signal- No duplicates",
+      "description": "🆕 Raw — from cap-mqqgzx0zj3r — So I’ve been using YouTube I’ve noticed more and more that I will get the same video short or long form that I’ve already watched so it’s giving me duplicates. Which is annoying because sometimes I’ll start watching and… [tags: marketing, Brand positioning, Marketing Campaign Idea, laun…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
+      "id": "MOS-T-052",
+      "title": "SIGNAL CAMPAIN IDEA -USERS",
+      "description": "🆕 Raw — from cap-mqcpie1f1dl — Just saw a YouTube video where they were discussing social media, the algorithm, and how these social platforms call the people who use their platform \"users.\" They were saying how the only other area where the term \"us… [tags: Brand positioning, Marketing Campaign Idea, marketing, Laun…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
+      "id": "MOS-T-053",
+      "title": "SIGNAL EARLY TEST / REVIEW AND LAUNCH LISTS",
+      "description": "🆕 Raw — from cap-mq8a00beof0 — I need to research and assemble list of communities and chat groups that I participate with and then for the Earley, testers, friends and family and for launch and for Kickstarter. This is two parks one is my own list t… [tags: Marketing Campaign Idea, marketing, Launch Campaigns, launc…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
+      "id": "MOS-T-054",
+      "title": "SIGNAL LANDING PAGE EXAMPLE- Tony Robbins RPM",
+      "description": "🆕 Raw — from cap-mq81jwluznf — This is an example landing page I linked to from an ad on Instagram. Tony Robbins has been doing this type of marketing for decades, and we should look at this type of example when we go create our landing pages that co… [tags: Website, marketing, Landing pages]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
+      "id": "MOS-T-055",
+      "title": "SIGNAL CAMPAIGN CANDIDATE- Don’t be a sheep, be the wolf - take back control from the alg…",
+      "description": "🆕 Raw — from cap-mq7zx3ltmnd — I prompted, Gemini- From this quote- It is better to be a warrior in a garden, than a gardener in a war.\" But I wanna create a version that uses the sheep and the wolf as the main focus. how we can create 1 or more vers… [tags: Brand positioning, marketing, Marketing Campaign Idea]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
       "id": "SIG-016",
       "title": "Financial Model v1.0 built (.xlsx)",
       "description": "Revenue/cost/margin model w/ tax-inclusive net-per-sale. v1.0 xlsx deemed unusable + replaced at SIG31 by Financial Model v2.0 (3-step: v1.0 archived → v2.0 in Final → v1.0 purged). Canonical now = interactive HTML tool (live what-if) + Excel v2.0 (statements). Dormant-user auto-pause modeling still pending (SIG-032).",
@@ -1753,6 +2041,32 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
+    },
+    {
+      "id": "SIG-202",
+      "title": "HERMES Deliverable 4",
+      "description": "HERMES native full-draft of launch-day announcement to waitlist (E12), launch-day welcome for new signups (E13), founding-member confirmation (E14), Signal+ welcome (E15). Reuse E1/E2/E3 spines + founder/members-first voices. Banks #4 of ~5 toward HERMES v1.0. Draft-only; publish gated.",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
     },
     {
       "id": "SIG-077",
@@ -3770,6 +4084,38 @@
       "first_seen": "2026-06-22"
     },
     {
+      "id": "MOS-T-048",
+      "title": "Signal- I refuse to be controlled by the algorithm AI or I use Signal- using avatars?",
+      "description": "🆕 Raw — from cap-mqqht9d57l6 — So I thought about another campaign idea, we could do which empower people with a powerful statement. Signal- I refuse to be controlled by the AI algorithm or I use Signal- using avatars AND ARCHETYPES - part of the her… [tags: Brand positioning, Marketing Campaign Idea, marketing, Soci…]",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
       "id": "SIG-033",
       "title": "Analytics v1.0 → v1.1 re-eval",
       "description": "Decide whether the Wave-4-planned v1.1 analytics patch is still needed or v1.0 stands (OQ-v1.3-6).",
@@ -3950,6 +4296,32 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
+    },
+    {
+      "id": "SIG-203",
+      "title": "HERMES Deliverable 5",
+      "description": "HERMES native full-draft of dormant re-engagement (E18), win-back post-cancel (E19), Insiders \"see it first\" preview (E20), Free→Signal+ upgrade value email (E21). E16 daily reminder is GATED on the SIG-029 daily-reminder content research pass. Transactional (E17) = locked microcopy, no drafting. Banks #5 of ~5 → HERMES v1.0 COMPLETE. Draft-only; publish gated.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
     },
     {
       "id": "SIG-160",
@@ -10588,6 +10960,32 @@
       "first_seen": null
     },
     {
+      "id": "SIG-201",
+      "title": "HERMES Deliverable 3",
+      "description": "HERMES native full-draft of E5–E6 (pre-order) + E7–E11 (Kickstarter). Reuse the E1 pain→reframe→solution spine; honor E10 real-deadline exception (only honest time-scarcity point); numbers principle-level; banks #3 of ~5 toward HERMES v1.0. Slipped 2026-06-20→caught 2026-06-25 by accident — root cause: opener-relay, never task-ified (now fixed by the new-task-capture rule). DONE 2026-06-25: all 7 emails drafted via background Opus agent → 05_Marketing/hermes/2026-06-20--kickstarter-preorder-set/MSIG-MKT-KICKSTARTER-PREORDER-SET_DRAFT_v0_1.md; comms-map status E5–E11 flipped ✍️→✅; §7 self-revi…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
       "id": "SIG-197",
       "title": "Hormozi $100M library",
       "description": "DONE SIG36 (2026-06-09): synthesis shipped — 05_Marketing/Working/MSIG-MKT-HORMOZI-CIALDINI-SYNTHESIS-0001_v0_1.md + interactive pick-menu MSIG-MKT-HORMOZI-CIALDINI-MENU-0001_v0_1.html (67 insights across 7 funnel stages, yes/maybe/no + export). Awaiting Wolf menu picks → then route to SIG-191/SIG-181/Brand §3.6/pricing copy/algorithm-101. Universal layer U1–U11 → Mission Control (MOS-T-027 mirror to shared _library/). MC hand-off (2026-06-09): MOS-T-027 — REFRAMED + content landed (SIG35). Hormozi content starts with Signal (applies to active offer/lead/launch/social/email work). FILED 2026-…",
@@ -10721,6 +11119,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 24, 2026 · 9:19 PM CEST",
-  "published_at_iso": "2026-06-24T21:19:37+0200"
+  "published_at": "June 25, 2026 · 3:20 AM CEST",
+  "published_at_iso": "2026-06-25T03:20:25+0200"
 }
