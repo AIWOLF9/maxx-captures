@@ -2049,6 +2049,110 @@
       "first_seen": null
     },
     {
+      "id": "SIG-204",
+      "title": "Storyboard",
+      "description": "Added 2026-06-26 (anti-slip capture). Web storyboard for the pre-launch site: waitlist capture (live today at maxxsignal.com) + pre-order surface. Runs the reusable storyboard process (see _Working/STORYBOARD_PROGRAM_MASTER_BRIEF_2026-06-26.md); browser-frame (web, not mobile-only). Reuses Brand v1.5.2, Receipts Set, /receipts + /algorithm-101 + messaging-line drafts, HERMES E1–E11 voice, GTM Journey Arc. Feeds website build SIG-067. Chat 2 of the storyboard program.",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-06-26"
+    },
+    {
+      "id": "SIG-205",
+      "title": "Storyboard",
+      "description": "Added 2026-06-26 (anti-slip capture). Storyboard for the Kickstarter campaign page (hero, story, reward tiers, FAQ, social proof). Runs the reusable storyboard process; honors the E10 real-deadline exception (the one honest time-scarcity surface) + anti-copycat guardrail CF-SIG35-4. Reuses HERMES KS email set (E7–E11), Receipts Set, Hormozi/Cialdini offer structure. Chat 3 of the storyboard program.",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "2.5h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-06-26"
+    },
+    {
+      "id": "SIG-206",
+      "title": "Storyboard",
+      "description": "Added 2026-06-26 (anti-slip capture). Storyboard for the launch marketing site (/home, /pricing, /about) + campaign/affiliate landing pages. Runs the reusable storyboard process; browser-frame. Reuses Brand v1.5.2, all website content drafts, paywall substrate, ambassador architecture (SIG-071). Feeds website build SIG-067. Chat 4 of the storyboard program.",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "2.5h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-06-26"
+    },
+    {
+      "id": "SIG-207",
+      "title": "Paywall design pass (MSIG-UX-PAYWALL-0001)",
+      "description": "Added 2026-06-26 (anti-slip capture — was only an opener, untracked). The dedicated paywall / \"Choose Plan\" §4.7 design-science pass: one component, 8 contexts (substrate §K.3); research synth → reference teardown → resolve the honest-conversion-vs-Free-is-equal tension → sketch → interactive mockup → review rounds → lock → Claude Design hi-fi → author MSIG-UX-PAYWALL-0001 v1.0 + de-placeholder Onboarding v1.3 §4.7 + Decisions Log. Prices/trial LOCKED (Pricing v1.3 — do NOT change); Mandate §3 no-dark-patterns floor. Closes CF-SIG42-5; folds in SIG-183 (paywall-upgrades bundle). Brief/prompt…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-06-26"
+    },
+    {
       "id": "SIG-077",
       "title": "/receipts legal-review pass",
       "description": "Claims/attribution legal review of the /receipts page (CF-SIG15-2) at the 08_Legal sister-chat.",
@@ -11151,6 +11255,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 26, 2026 · 7:38 PM CEST",
-  "published_at_iso": "2026-06-26T19:38:20+0200"
+  "published_at": "June 26, 2026 · 9:38 PM CEST",
+  "published_at_iso": "2026-06-26T21:38:41+0200"
 }
