@@ -1,5 +1,24 @@
 [
   {
+    "title": "Review video on using LOOPS - for Claude",
+    "ventures": [
+      "v-mos"
+    ],
+    "venture": "v-mos",
+    "segments": [
+      "Build",
+      "Agents",
+      "Hive Mind"
+    ],
+    "segment": "Build",
+    "priority": "p-p1",
+    "type": "now",
+    "tags": "OPTIMIZING WORKFLOWS, OPTIMIZING TOOLS, OPTIMIZING TECH STACK",
+    "notes": "https://youtube.com/shorts/wZTKnWChquI?is=la2uzMX01iWueR6k\n\nI came across this YouTube video that speaks about using loops which are or appear to be a goal oriented task that allows Claud to continue working on something until it meets its goal? I know at the moment we have automations and schedule task and then things are autonomous that you work on. But perhaps it’s worth a look to see if it’s available in coworker and if it makes sense to use a tool or a concept of workflow like that if we aren’t already doing it.? I just want you to research it and then report back with your findings. Recommendations. Etc.",
+    "id": "cap-mqvgazl3mbh",
+    "created": "2026-06-26T21:36:28.839Z"
+  },
+  {
     "title": "What my mind consumes has an impact on my mental health, my productivity, my family my kids, my work, my life",
     "ventures": [
       "v-signal"
