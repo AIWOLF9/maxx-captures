@@ -1685,6 +1685,38 @@
       "first_seen": "2026-06-25"
     },
     {
+      "id": "MOS-T-057",
+      "title": "Review video on using LOOPS - for Claude",
+      "description": "🆕 Raw — from cap-mqvgazl3mbh — https://youtube.com/shorts/wZTKnWChquI?is=la2uzMX01iWueR6k I came across this YouTube video that speaks about using loops which are or appear to be a goal oriented task that allows Claud to continue working on something… [tags: OPTIMIZING WORKFLOWS, OPTIMIZING TOOLS, OPTIMIZING TECH STA…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Build",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-27"
+    },
+    {
       "id": "SIG-016",
       "title": "Financial Model v1.0 built (.xlsx)",
       "description": "Revenue/cost/margin model w/ tax-inclusive net-per-sale. v1.0 xlsx deemed unusable + replaced at SIG31 by Financial Model v2.0 (3-step: v1.0 archived → v2.0 in Final → v1.0 purged). Canonical now = interactive HTML tool (live what-if) + Excel v2.0 (statements). Dormant-user auto-pause modeling still pending (SIG-032).",
@@ -11255,6 +11287,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 26, 2026 · 9:38 PM CEST",
-  "published_at_iso": "2026-06-26T21:38:41+0200"
+  "published_at": "June 27, 2026 · 7:39 AM CEST",
+  "published_at_iso": "2026-06-27T07:39:29+0200"
 }
