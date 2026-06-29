@@ -1797,8 +1797,8 @@
     {
       "id": "SIG-037",
       "title": "v6 storyboard authored (reflects locked Onboarding spec)",
-      "description": "SIG21: evolve _Working/maxx_signal_v5_phase_c1.html → v6 reflecting the locked spec; absorb Wolf's v5 annotation pass (CF-SIG10b-4). Read file directly (no Chrome MCP on file://).",
-      "status": "s-todo",
+      "description": "SIG21: evolve _Working/maxx_signal_v5_phase_c1.html → v6 reflecting the locked spec; absorb Wolf's v5 annotation pass (CF-SIG10b-4). SIG-037b (2026-06-28): storyboard expanded 15→19 screens (added Pain II · Self-ID · Compare · Archetype; arc = Splash·Pain I·Pain II·Self-ID·Relief·Solution·Compare·Auth·Intro·WHY·Pick·Deeper·Mix·Watch·Keep-out·Plan·Building·Feed·Archetype). New tool fields (lead/lines statement-lines ≠ receipts, bullets), ↑/↓ Edit reorder, light-mode fix, editable compare rows. Locked copy Pain I/II/Relief/Intro (reaffirmation + movement + virus/cure). +/− mutual-exclusivity +…",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Design",
       "venture": "v-signal",
@@ -1806,7 +1806,7 @@
       "deadline_label": "Phase P2",
       "deadline_class": "d-future",
       "effort_mc": "2h",
-      "effort_wolf": "1h",
+      "effort_wolf": "6h+",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
@@ -11287,6 +11287,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 27, 2026 · 7:39 AM CEST",
-  "published_at_iso": "2026-06-27T07:39:29+0200"
+  "published_at": "June 29, 2026 · 4:31 AM CEST",
+  "published_at_iso": "2026-06-29T04:31:24+0200"
 }
