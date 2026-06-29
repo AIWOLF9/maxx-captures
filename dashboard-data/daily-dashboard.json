@@ -1067,26 +1067,6 @@
       "first_seen": null
     },
     {
-      "id": "CF-ANTHROPIC-CLOUD-RUNTIME-EVAL-1",
-      "title": "Scoped eval of Anthropic-native cloud runtime (Claude Code Routines + Managed-Agents scheduled deployments) a…",
-      "description": "Scoped eval of Anthropic-native cloud runtime (Claude Code Routines + Managed-Agents scheduled deployments) as the cloud home for the nightly autonomous lane + DELPHI's council runtime. Greenlit 2026-06-29. Time-sensitive — Cowork's doubled 5-hr rate-limit cushion expires 2026-07-05, after which the nightly lane's Mac-awake / Cowork-open / Full-Disk dependency becomes the real fragility. Eval (NOT a migration) answers: (1) can Routines/Managed-Agents run the nightly lane laptop-closed; (2) can a Managed-Agents deployment run DELPHI's 3-voice council cloud-side (the 45s/call cap is a Cowork-*s…",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Agents",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Before 2026-07-05 rate-limit wi…",
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf + Mission Control",
-      "kind": "cfi",
-      "first_seen": "2026-06-29"
-    },
-    {
       "id": "MOS-T-010",
       "title": "Automate NotebookLM",
       "description": "🔬 RESEARCHED 2026-06-09 (YELLOW; notebooklm-automation findings) — connectable MCP exists + Wolf has used it (Antigravity; jacob-bd/notebooklm-mcp-cli, 35 tools). PASS on Enterprise (~$135/mo). NEXT (Wolf): research the right NotebookLM MCP/tools+options (isolated Google acct; verify Antigravity path) → discuss; also the surface for the T-038 board research. from cap-mpqwngk03n6",
@@ -3499,26 +3479,6 @@
       "first_seen": null
     },
     {
-      "id": "CF-PM5h-3-I",
-      "title": "✅ GREENLIT 2026-06-29 (MC-DECISION-QUEUE-CONNECTOR-CLEANUP-1): Wolf approved building the GitHub-substrate mi…",
-      "description": "✅ GREENLIT 2026-06-29 (MC-DECISION-QUEUE-CONNECTOR-CLEANUP-1): Wolf approved building the GitHub-substrate mirror of ~/MAXX canonical state. Build is BUNDLED with CAP-0053 (venture-agent GitHub-write + credential automation); Wolf provisions/mints credentials at build time. Unlocks (a) Hive Mind \"Option C\" (commit-triggered Stage 4), (b) canonical-doc version control, and (c) the ~/MAXX bridge a cloud agent (Routines / Managed-Agents) needs — the same GitHub thread as the Anthropic cloud-runtime eval (CF-ANTHROPIC-CLOUD-RUNTIME-EVAL-1). Evaluate MAXX OS canonical state github-substrate mirror…",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Hive Mind",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Post-Phase 3 batch 1c S0 sweep…",
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf + Mission Control",
-      "kind": "cfi",
-      "first_seen": null
-    },
-    {
       "id": "CF-PM5h-3-P",
       "title": "Per-stratum sweep doc reference hardening to canonical Layer Model",
       "description": "Per-stratum sweep doc reference hardening to canonical Layer Model. Opened 2026-05-19 per CF-PM5h-3-LayerModel-Graduation closeout. With MAXX OS Layer Model v0.1 graduated to canonical (CAP-0007), all prior per-stratum sweep docs (MOS-RESEARCH-S-MINUS-1-SECURITY-SWEEP-v1.0, MOS-RESEARCH-S5-MULTIAGENT-SWEEP-v1.0, MOS-RESEARCH-S0-SUBSTRATE-SWEEP-v1.1) should cross-reference the canonical Layer Model. Surgical Edit per file: add header reference line Layer Model reference: ~/MAXX/_MAXX_OS/Canonical/Final/MOS-LAYER-MODEL-0001.md v0.1 near the top of each sweep doc. Three small edits across three…",
@@ -5453,6 +5413,26 @@
       "owner": "Mission Control",
       "kind": "cfi",
       "first_seen": "2026-06-08"
+    },
+    {
+      "id": "CF-DELPHI-CLOUD-SPIKE-1",
+      "title": "Validate DELPHI's 3-voice council runs cloud-side (45s cap-lift + external-model domain allowlist + vault key…",
+      "description": "Validate DELPHI's 3-voice council runs cloud-side (45s cap-lift + external-model domain allowlist + vault keys). Routines-first ($0 marginal) to validate the cap-lift, then promote to Managed-Agents (vault + webhooks) for production. API-billed → needs explicit Wolf go; NOT necessary — DELPHI already runs on the Mac via the double-click launcher. From CF-ANTHROPIC-CLOUD-RUNTIME-EVAL-1.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Optional; after CF-PM5h-3-I + o…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf-gated → MC",
+      "kind": "cfi",
+      "first_seen": "2026-06-29"
     },
     {
       "id": "MOS-T-038",
@@ -9855,6 +9835,26 @@
       "first_seen": "2026-06-08"
     },
     {
+      "id": "CF-ANTHROPIC-CLOUD-RUNTIME-EVAL-1",
+      "title": "Scoped eval of Anthropic-native cloud runtime (Claude Code Routines + Managed-Agents scheduled deployments) a…",
+      "description": "Scoped eval of Anthropic-native cloud runtime (Claude Code Routines + Managed-Agents scheduled deployments) as the cloud home for the nightly autonomous lane + DELPHI's council runtime. Greenlit 2026-06-29. RESOLVED 2026-06-29 (CF-ANTHROPIC-CLOUD-RUNTIME-EVAL-1 chat, Opus 4.8). Deliverables: _MAXX_OS/Research/cloud-runtime-eval-2026-06-29/ (eval doc + decision-surface HTML + bridge opener). Verdict: (1) Both runtimes run the nightly lane laptop-closed → Routines = recommended home (subscription-included, $0 marginal; native stage-don't-flip via claude/-branch-only push default). (2) The 45s/c…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "DONE — follow-ups: CF-PM5h-3-I…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf + Mission Control",
+      "kind": "cfi",
+      "first_seen": "2026-06-29"
+    },
+    {
       "id": "MOS-T-002",
       "title": "GBrain repo",
       "description": "✅ DONE 2026-06-15 (MC-CAP0009-INSTALLS-1) — architecture stood up: _MAXX_OS/Architecture/MOS-MEMORY-ARCHITECTURE-0001.md v0.1 (6-scope tiered hybrid: storage-tier markdown truth + MEM-1 graph index; OS-shared + 5 per-venture; rule + skeleton; no migration). MEM-1 CAP-0009-audited APPROVED → INSTALLED + LIVE 2026-06-17 (one-command installer _MAXX_OS/Capabilities/mem-mcp/install-mem1.sh; read_graph responds, empty graph ready to seed). Closed w/ T-013. ◀ 🔬 RESEARCHED 2026-06-09 (memory-architecture findings) — TIERED-HYBRID; GBrain = borrow markdown-truth+index pattern, don't adopt. from cap-m…",
@@ -11073,6 +11073,26 @@
       "first_seen": null
     },
     {
+      "id": "CF-PM5h-3-I",
+      "title": "✅ BUILT + LIVE 2026-06-29 (CF-PM5h-3-I-GOLIVE chat, Opus 4.8): GitHub-substrate mirror operational",
+      "description": "✅ BUILT + LIVE 2026-06-29 (CF-PM5h-3-I-GOLIVE chat, Opus 4.8): GitHub-substrate mirror operational. Private repo AIWOLF9/maxx-substrate-mirror; decoupled clone ~/maxx-mirror (OUTSIDE Drive); launchd com.maxx.mirror-sync at 01:30/07:30/12:30/18:30/22:30 — first runs verified, 0 secrets/binaries/Reference on GitHub (gate passed). Filtered governance slice = _index/ + _MAXX_OS/ md/scripts/config only (845 files / 24 MB). Stage-don't-flip STRUCTURAL (cloud writes claude/* branches; attended merge-back via maxx-mirror-merge.sh). Credential path = gh OAuth gho_ (AIWOLF9) — retires the per-session P…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Hive Mind",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Post-Phase 3 batch 1c S0 sweep…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf + Mission Control",
+      "kind": "cfi",
+      "first_seen": null
+    },
+    {
       "id": "CF-PM5h-3-O",
       "title": "CAP-0007 status transition §3 Approved/Queued → §4 Built/Live",
       "description": "CAP-0007 status transition §3 Approved/Queued → §4 Built/Live. Opened 2026-05-19 per CF-PM5h-3-LayerModel-Graduation closeout. CAP-0007 (MAXX OS Layer Model v0.1 canonical-doc graduation) was BUILT — MOS-LAYER-MODEL-0001.md v0.1 shipped at ~/MAXX/_MAXX_OS/Canonical/Final/. CAPABILITIES_BACKLOG row should transition from §3 to §4 in next CAPABILITIES_BACKLOG drop-in chat. Surgical edit only.",
@@ -11151,6 +11171,26 @@
       "owner": "Wolf + Claude",
       "kind": "cfi",
       "first_seen": "2026-06-02"
+    },
+    {
+      "id": "CF-CLOUD-NIGHTLY-LANE-ROUTINES-1",
+      "title": "✅ DONE 2026-06-29 (CF-CLOUD-NIGHTLY-LANE-ROUTINES-1 chat, Opus 4.8): Nightly lane stood up as a Claude Code R…",
+      "description": "✅ DONE 2026-06-29 (CF-CLOUD-NIGHTLY-LANE-ROUTINES-1 chat, Opus 4.8): Nightly lane stood up as a Claude Code Routine on AIWOLF9/maxx-substrate-mirror (trig_018qaJBUBjTAyWKaYVVix8st) — daily 02:03 GMT+2 (account-TZ; Wolf to confirm/adjust to true local), model Opus 4.8, 0 connectors (all 18 removed — zero external-write surface), \"Allow unrestricted branch pushes\" OFF (cloud writes claude/* only; attended merge-back via maxx-mirror-merge.sh). Routine prompt = repo-relative port of the launchd SKILL → _MAXX_OS/Capabilities/github-mirror/ROUTINE-mc-nightly-autonomous-batch.md. Prereq gap found +…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Research",
+      "venture": "v-cloud",
+      "deadline": null,
+      "deadline_label": "DONE — bake-then-cutover; follo…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf + MC",
+      "kind": "cfi",
+      "first_seen": "2026-06-29"
     },
     {
       "id": "MOS-T-031",
@@ -11422,6 +11462,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 29, 2026 · 6:32 PM CEST",
-  "published_at_iso": "2026-06-29T18:32:17+0200"
+  "published_at": "June 29, 2026 · 8:32 PM CEST",
+  "published_at_iso": "2026-06-29T20:32:39+0200"
 }
