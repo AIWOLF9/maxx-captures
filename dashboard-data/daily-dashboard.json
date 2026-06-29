@@ -85,6 +85,38 @@
       "first_seen": "2026-06-25"
     },
     {
+      "id": "MOS-T-060",
+      "title": "Search intent feature",
+      "description": "🆕 Raw — from cap-mqxswj3m6yg — So one of the big frustrations I have and I think a lot of people have is when you go to, for example YouTube and you search for something and you get the answer you watch a video or two, but then you keep getting video… [tags: PRODUCT ENHANCEMENT, PRODUCT FEATURE, Differentiator]",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Strategy",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-29"
+    },
+    {
       "id": "SIG-038",
       "title": "Claude Design production mockups",
       "description": "SIG22+: produce pixel-level mockups of every onboarding step in Claude Design; iterate with Wolf (context-heavy, multiple chats).",
@@ -1715,6 +1747,70 @@
       "review_label": "Raw",
       "kind": "tasks",
       "first_seen": "2026-06-27"
+    },
+    {
+      "id": "MOS-T-058",
+      "title": "Messaging for Signal- the super rich and top tech execs dont let their kids play with soc…",
+      "description": "🆕 Raw — from cap-mqxtm9rfvap — https://youtube.com/shorts/RuCTRKlIqS8?is=O6jyKvQjxOgvvk5b In this video, it discusses how the richest people in the top people in technology and especially I’ve watched another videos. They talk about how Steve Jobs an… [tags: Brand positioning, Content ideas for blogs and posting, Pro…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Strategy",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-29"
+    },
+    {
+      "id": "MOS-T-059",
+      "title": "Positioning- we’re giving you the best parts of the YouTube you love and enjoy and improv…",
+      "description": "🆕 Raw — from cap-mqxt3ltft56 — So one of the things we wanna relay or message to people is that we’re not a competitor to YouTube. We’re not replacing YouTube, we are giving them the YouTube that they love all the best parts of it and repackaging it… [tags: Brand positioning, Marketing Campaign Idea, marketing, Prod…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-29"
     },
     {
       "id": "SIG-016",
@@ -11287,6 +11383,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 29, 2026 · 4:31 AM CEST",
-  "published_at_iso": "2026-06-29T04:31:24+0200"
+  "published_at": "June 29, 2026 · 8:31 AM CEST",
+  "published_at_iso": "2026-06-29T08:31:43+0200"
 }
