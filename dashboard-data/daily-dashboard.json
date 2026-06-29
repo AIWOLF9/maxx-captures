@@ -1028,8 +1028,8 @@
     },
     {
       "id": "CF-AGPL-TRIPWIRE-1",
-      "title": "License/IP tripwire (Risk R4): the AGPL-3.0 + ToS-risk VCE repos (CF-VCE-2 verdict: reference-don't-adopt) mu…",
-      "description": "License/IP tripwire (Risk R4): the AGPL-3.0 + ToS-risk VCE repos (CF-VCE-2 verdict: reference-don't-adopt) must get an explicit license/productization decision (THEMIS-class) BEFORE Signal/Solitaire monetization activates — not after. Plain-English: AGPL \"copyleft\" can force us to open-source our own paid product; one repo routes through a TikTok-cookie path TikTok's ToS forbids. CAP-0009 gates any code use. Do NOT let the deferral be silently forgotten.",
+      "title": "⚡ RATIFIED / ARMED 2026-06-29 (MC-DECISION-QUEUE-CONNECTOR-CLEANUP-1): Wolf armed this as a standing license/…",
+      "description": "⚡ RATIFIED / ARMED 2026-06-29 (MC-DECISION-QUEUE-CONNECTOR-CLEANUP-1): Wolf armed this as a standing license/IP gate — any future \"adopt this repo / tool / borrowed code\" decision MUST clear an AGPL/ToS license check before code lands. Stays Status:Watch because it is a trigger-gated monitor that fires on the monetization event, but it is now a FORMALLY ACTIVE gate, not a passive note. License/IP tripwire (Risk R4): the AGPL-3.0 + ToS-risk VCE repos (CF-VCE-2 verdict: reference-don't-adopt) must get an explicit license/productization decision (THEMIS-class) BEFORE Signal/Solitaire monetizatio…",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -1065,6 +1065,26 @@
       "owner": "Wolf + Claude",
       "kind": "cfi",
       "first_seen": null
+    },
+    {
+      "id": "CF-ANTHROPIC-CLOUD-RUNTIME-EVAL-1",
+      "title": "Scoped eval of Anthropic-native cloud runtime (Claude Code Routines + Managed-Agents scheduled deployments) a…",
+      "description": "Scoped eval of Anthropic-native cloud runtime (Claude Code Routines + Managed-Agents scheduled deployments) as the cloud home for the nightly autonomous lane + DELPHI's council runtime. Greenlit 2026-06-29. Time-sensitive — Cowork's doubled 5-hr rate-limit cushion expires 2026-07-05, after which the nightly lane's Mac-awake / Cowork-open / Full-Disk dependency becomes the real fragility. Eval (NOT a migration) answers: (1) can Routines/Managed-Agents run the nightly lane laptop-closed; (2) can a Managed-Agents deployment run DELPHI's 3-voice council cloud-side (the 45s/call cap is a Cowork-*s…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Before 2026-07-05 rate-limit wi…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf + Mission Control",
+      "kind": "cfi",
+      "first_seen": "2026-06-29"
     },
     {
       "id": "MOS-T-010",
@@ -2671,6 +2691,25 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "CAP-0053",
+      "title": "Venture-agent GitHub-write standardization + credential automation",
+      "description": "Venture-agent GitHub-write standardization + credential automation. Make venture build agents (VULCAN et al.) provision + push to GitHub with zero per-session manual steps. Born from AT-VULCAN-001: the GitHub MCP connector can't do dynamic client registration (dead end), and MAXX's proven path (fine-grained PAT + REST/git via gh_put.py, CAP-0024/CAP-0042) isn't reachable by venture agents because the secret store ~/MAXX/_secrets/ is outside venture mounts (OBS-0049) and tokens get pasted per-session. Scope: (1) a portable secret store venture mounts can read (per-venture gitignored secret fil…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-06-07",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-06-07",
+      "zone": "open",
+      "kind": "cap",
+      "first_seen": "2026-06-07"
+    },
+    {
       "id": "CAP-0051",
       "title": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol)",
       "description": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol). Reusable multi-session GTM protocol (research-first → present → debate → decide → lock; visual boards + phone PDFs), reverse-engineered from Signal SIG25–28, for Solitaire / AI-DVISOR / future ventures. Playbook shipped: ~/MAXX/_MAXX_OS/Observations/MOS-PLAYBOOK-GTM-WALKTHROUGH-0001.md v0.1. Roadmap v0.2 (wire to ATHENA design skill) / v0.3 (installable plugin). Provenance: Wolf-approved 2026-06-06 (\"charter now\"). → PRODUCTIZATION_LOG PS-GTM-WALKTHROUGH-1.",
@@ -3461,8 +3500,8 @@
     },
     {
       "id": "CF-PM5h-3-I",
-      "title": "Evaluate MAXX OS canonical state github-substrate mirroring for Hive Mind cadence Option C upgrade path",
-      "description": "Evaluate MAXX OS canonical state github-substrate mirroring for Hive Mind cadence Option C upgrade path. Opened 2026-05-19 per CF-PM5h-3-Phase3-StratumSweep1b-S5-MultiAgent §9.2 Path 2 Wolf-locked decision. Background: Phase 2-2 SCORED §4.6 proposed Option C hybrid Hive Mind cadence (Scheduled tasks for Stages 1+2 + Routines for Stage 4). Mission Control surfaced strategic pushback (SP-Phase3-1b-1): Option C presupposes a github-event surface that MAXX OS canonical state does not have today (filesystem + Drive Mirror, no GitHub repo). Wolf locked Path 2 — Option A (Scheduled tasks for all 4 s…",
+      "title": "✅ GREENLIT 2026-06-29 (MC-DECISION-QUEUE-CONNECTOR-CLEANUP-1): Wolf approved building the GitHub-substrate mi…",
+      "description": "✅ GREENLIT 2026-06-29 (MC-DECISION-QUEUE-CONNECTOR-CLEANUP-1): Wolf approved building the GitHub-substrate mirror of ~/MAXX canonical state. Build is BUNDLED with CAP-0053 (venture-agent GitHub-write + credential automation); Wolf provisions/mints credentials at build time. Unlocks (a) Hive Mind \"Option C\" (commit-triggered Stage 4), (b) canonical-doc version control, and (c) the ~/MAXX bridge a cloud agent (Routines / Managed-Agents) needs — the same GitHub thread as the Anthropic cloud-runtime eval (CF-ANTHROPIC-CLOUD-RUNTIME-EVAL-1). Evaluate MAXX OS canonical state github-substrate mirror…",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Hive Mind",
@@ -3760,26 +3799,6 @@
       "first_seen": null
     },
     {
-      "id": "CF-VCE-RENDER-STACK-1",
-      "title": "Outcome-first selection pass for VULCAN's VCE video-render stack (VULCAN spec §4.4, Render mode)",
-      "description": "Outcome-first selection pass for VULCAN's VCE video-render stack (VULCAN spec §4.4, Render mode). CF-VCE-2 verdict = reference-don't-adopt: opensource-clipping (MIT) is the strongest *pattern* reference (params to reimplement: −0.3s subtitle lead offset, 3-word kinetic chunks, face-tracked crops); AGPL repos (viralfactory, ViralMint) study-only + need a THEMIS-class license/productization call before any code use; recast is a phantom. Live owned-API candidate: xAI grok-imagine-video / grok-imagine-video-1.5-preview (on Wolf's account per project_athena_owned_image_api_wiring). Decide the rend…",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Research",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "When VCE Render mode is first e…",
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "VULCAN + Wolf",
-      "kind": "cfi",
-      "first_seen": null
-    },
-    {
       "id": "CF-ORCH-LOCK-1",
       "title": "Document the Cowork-is-orchestrator lock in COWORK_INSTRUCTIONS at the next governance touch",
       "description": "Document the Cowork-is-orchestrator lock in COWORK_INSTRUCTIONS at the next governance touch. External orchestrators (n8n / Activepieces / Windmill / Zapier / Make) are marked superseded-by-Cowork-native (two independent confirmations: Wolf lock project_cowork_is_orchestrator_no_external + APOLLO 2026-05-31 scan). Wolf's blueprint-borrow nuance (Stage 3): external orchestrator workflows + popular GitHub workflow repos are usable as REFERENCE BLUEPRINTS — when a complex multi-step / multi-tool / multi-MCP workflow already exists and is battle-tested (high stars, published by reviewers), borrow…",
@@ -4038,7 +4057,7 @@
     {
       "id": "MOS-T-014",
       "title": "Efficiency / optimization agent",
-      "description": "🔍 TRIAGED — agent-roster planning (efficiency/token-waste review agent; CAP candidate). from cap-mpqx50o3iwg",
+      "description": "🔍 TRIAGED — agent-roster planning (efficiency/token-waste review agent; CAP candidate). SCOPING DEFERRED post-Signal-launch (2026-06-29, MC-DECISION-QUEUE-CONNECTOR-CLEANUP-1) per the Signal-FIRST 90/10 lock — net-new agent work, deferred-not-cancelled; earns scoping once compute spend is worth optimizing. from cap-mpqx50o3iwg",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Governance",
@@ -7701,6 +7720,25 @@
       "first_seen": null
     },
     {
+      "id": "CAP-0057",
+      "title": "O3 Dynamic-Workflow capability",
+      "description": "O3 Dynamic-Workflow capability. A dynamic workflow = a short program Claude writes on the fly to orchestrate subagents at scale, run in the background, and merge results — productizing the APOLLO multi-stream batching pattern MAXX already runs by hand. Greenlit now that the pattern is publicly shipped + validated: Claude Code's ultracode / dynamic workflows (v2.1.154+, all paid plans, shipped late May 2026) ship exactly this, so greenlighting O3 is no longer betting on an unproven idea. v1 scope (honest, Cowork-native): formalize the APOLLO-style in-Cowork multi-stream orchestration we alread…",
+      "status": "s-waiting",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-06-29",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-06-29",
+      "zone": "waiting",
+      "kind": "cap",
+      "first_seen": "2026-06-29"
+    },
+    {
       "id": "CAP-0055",
       "title": "MAXX SEO Agent (build-not-buy)",
       "description": "MAXX SEO Agent (build-not-buy). Thin Claude-native SEO agent, Executor: APOLLO, three modes — keyword map (GSC API + autocomplete/PAA/related scrape + Answer The Public; relative-difficulty proxy, labelled estimate), on-page audit (deterministic, zero-key, replaces NeuronWriter), GEO pass (Reddit-led citation checklist — expert quotes/stats/FAQ schema/summary blocks; posting stays human per TOS guardrail). Replaces default paid SEO tools at $0 for Claude-native users. Reference-first off aaron-he-zhu/seo-geo-claude-skills (Apache-2.0, Tier-1 zero-key; origin: provenance per T-041; CAP-0009 ga…",
@@ -7718,25 +7756,6 @@
       "zone": "waiting",
       "kind": "cap",
       "first_seen": "2026-06-15"
-    },
-    {
-      "id": "CAP-0053",
-      "title": "Venture-agent GitHub-write standardization + credential automation",
-      "description": "Venture-agent GitHub-write standardization + credential automation. Make venture build agents (VULCAN et al.) provision + push to GitHub with zero per-session manual steps. Born from AT-VULCAN-001: the GitHub MCP connector can't do dynamic client registration (dead end), and MAXX's proven path (fine-grained PAT + REST/git via gh_put.py, CAP-0024/CAP-0042) isn't reachable by venture agents because the secret store ~/MAXX/_secrets/ is outside venture mounts (OBS-0049) and tokens get pasted per-session. Scope: (1) a portable secret store venture mounts can read (per-venture gitignored secret fil…",
-      "status": "s-waiting",
-      "priority": "p-p2",
-      "segment": "Agents",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "2026-06-07",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
-      "created": "2026-06-07",
-      "zone": "waiting",
-      "kind": "cap",
-      "first_seen": "2026-06-07"
     },
     {
       "id": "CAP-0045",
@@ -11094,6 +11113,26 @@
       "first_seen": null
     },
     {
+      "id": "CF-VCE-RENDER-STACK-1",
+      "title": "CLOSED-AS-SUBSUMED 2026-06-29 (MC-DECISION-QUEUE-CONNECTOR-CLEANUP-1): the visual/video-stack bake-off (CF-VI…",
+      "description": "CLOSED-AS-SUBSUMED 2026-06-29 (MC-DECISION-QUEUE-CONNECTOR-CLEANUP-1): the visual/video-stack bake-off (CF-VISUAL-STACK-BAKEOFF-1, 2026-06-27) FINALIZED the exact render path this CF was opened to select — two-lane stack with Veo 3.1 via fal = hero 9:16 video, Replicate = partner lane, lean asset+license registry = backbone; the xAI grok-imagine-video candidate below is superseded by Veo. DECISION doc FINAL at _MAXX_OS/Research/visual-video-stack/DECISION_visual-video-stack_2026-06-26.md. → relocate to §3 at next CFI-archive sweep. ORIGINAL SCOPE: Outcome-first selection pass for VULCAN's VCE…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Research",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "When VCE Render mode is first e…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "VULCAN + Wolf",
+      "kind": "cfi",
+      "first_seen": null
+    },
+    {
       "id": "CF-CFI-SECTION1-HYGIENE-1",
       "title": "CFI §1 hygiene pass",
       "description": "CFI §1 hygiene pass — stale Open rows. The CAP-0046 render EXPOSED that §1 carries rows marked Open whose work has shipped (e.g. CF-PM4c-1 Open/P0 though folder-import v1.1 shipped weeks ago; several PM4/PM5-series rows). This is the Risk-R1 drift disease one level down, inside CFI itself. Move shipped rows to §3 Closed (or mark Done) so the rendered \"open count\" + sprint queue stop carrying stale items. Deterministic render can't fix mis-stated source status — only a hygiene pass can.",
@@ -11383,6 +11422,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 29, 2026 · 8:31 AM CEST",
-  "published_at_iso": "2026-06-29T08:31:43+0200"
+  "published_at": "June 29, 2026 · 6:32 PM CEST",
+  "published_at_iso": "2026-06-29T18:32:17+0200"
 }
