@@ -11181,7 +11181,7 @@
       "segment": "Research",
       "venture": "v-cloud",
       "deadline": null,
-      "deadline_label": "DONE — bake-then-cutover; follo…",
+      "deadline_label": "DONE + follow-ups CLOSED — full…",
       "deadline_class": "d-future",
       "effort_mc": "30m–2h",
       "effort_wolf": null,
@@ -11462,6 +11462,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 29, 2026 · 8:32 PM CEST",
-  "published_at_iso": "2026-06-29T20:32:39+0200"
+  "published_at": "June 29, 2026 · 10:32 PM CEST",
+  "published_at_iso": "2026-06-29T22:32:57+0200"
 }
