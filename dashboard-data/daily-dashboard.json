@@ -1813,6 +1813,38 @@
       "first_seen": "2026-06-29"
     },
     {
+      "id": "MOS-T-061",
+      "title": "Good news - impact on mental health research",
+      "description": "🆕 Raw — from cap-mqzf47s8yve — I came across his video and this channel that focuses on good news and discusses the research associated with consuming good news and the impact that possibly impacting mental health. https://youtube.com/shorts/xw-6tFfz… [tags: Brand positioning, marketing, Landing pages, Differentiator…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-06-30"
+    },
+    {
       "id": "SIG-016",
       "title": "Financial Model v1.0 built (.xlsx)",
       "description": "Revenue/cost/margin model w/ tax-inclusive net-per-sale. v1.0 xlsx deemed unusable + replaced at SIG31 by Financial Model v2.0 (3-step: v1.0 archived → v2.0 in Final → v1.0 purged). Canonical now = interactive HTML tool (live what-if) + Excel v2.0 (statements). Dormant-user auto-pause modeling still pending (SIG-032).",
@@ -11488,6 +11520,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 30, 2026 · 6:35 AM CEST",
-  "published_at_iso": "2026-06-30T06:35:20+0200"
+  "published_at": "June 30, 2026 · 8:35 AM CEST",
+  "published_at_iso": "2026-06-30T08:35:26+0200"
 }
