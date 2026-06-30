@@ -1902,7 +1902,7 @@
       "deadline_label": "Phase P2",
       "deadline_class": "d-future",
       "effort_mc": "2h",
-      "effort_wolf": "6h+",
+      "effort_wolf": "8h+",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
@@ -1911,7 +1911,7 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
       "department": "Design",
       "kind": "tasks",
       "first_seen": null
@@ -5494,6 +5494,32 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
+    },
+    {
+      "id": "SIG-208",
+      "title": "Signal Ratings",
+      "description": "Added 2026-06-30 (anti-slip capture — Wolf brainstorm). Per-video/per-channel rating + tagging layer, movie-rating analogy but unbundled into 4 axes: (1) Signal Score substance-vs-noise [flagship, most on-brand]; (2) tone/valence negativity↔positivity [on-brand, attention-hygiene]; (3) maturity/safety flag [table-stakes parental control, secondary]; (4) bias/perspective [News-only, later — Ground News analogy, LEGAL-gated]. Key insight: ratings = the human-readable surface of the same metadata layer that powers filtering/exclusion presets (ties to Kagi contentFilters ref + keyword/category ex…",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "spec ~3h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-06-30"
     },
     {
       "id": "SIG-081",
@@ -11462,6 +11488,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 29, 2026 · 10:32 PM CEST",
-  "published_at_iso": "2026-06-29T22:32:57+0200"
+  "published_at": "June 30, 2026 · 2:33 AM CEST",
+  "published_at_iso": "2026-06-30T02:33:33+0200"
 }
