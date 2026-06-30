@@ -2258,7 +2258,7 @@
       "id": "SIG-207",
       "title": "Paywall design pass (MSIG-UX-PAYWALL-0001)",
       "description": "Added 2026-06-26 (anti-slip capture — was only an opener, untracked). The dedicated paywall / \"Choose Plan\" §4.7 design-science pass: one component, 8 contexts (substrate §K.3); research synth → reference teardown → resolve the honest-conversion-vs-Free-is-equal tension → sketch → interactive mockup → review rounds → lock → Claude Design hi-fi → author MSIG-UX-PAYWALL-0001 v1.0 + de-placeholder Onboarding v1.3 §4.7 + Decisions Log. Prices/trial LOCKED (Pricing v1.3 — do NOT change); Mandate §3 no-dark-patterns floor. Closes CF-SIG42-5; folds in SIG-183 (paywall-upgrades bundle). Brief/prompt…",
-      "status": "s-todo",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Design",
       "venture": "v-signal",
@@ -11488,6 +11488,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 30, 2026 · 2:33 AM CEST",
-  "published_at_iso": "2026-06-30T02:33:33+0200"
+  "published_at": "June 30, 2026 · 6:35 AM CEST",
+  "published_at_iso": "2026-06-30T06:35:20+0200"
 }
