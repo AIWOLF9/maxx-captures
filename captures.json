@@ -1,5 +1,24 @@
 [
   {
+    "title": "Review these reposts and skills to see if useful or we can get ideas from them for existing agents and infrastructure to improve",
+    "ventures": [
+      "v-signal",
+      "v-mos"
+    ],
+    "venture": "v-signal",
+    "segments": [
+      "Agents",
+      "Hive Mind"
+    ],
+    "segment": "Agents",
+    "priority": "p-p2",
+    "type": "later",
+    "tags": "Skills",
+    "notes": "Please review the videos and go search for these new Geeta posts and review them review the ideas and or if we can use the skills or grab ideas from them to include into our agents or our existing skills based on our needs for signal specially",
+    "id": "cap-mr1bmoqj4em",
+    "created": "2026-07-01T00:12:13.628Z"
+  },
+  {
     "title": "Good news - impact on mental health research",
     "ventures": [
       "v-signal"
