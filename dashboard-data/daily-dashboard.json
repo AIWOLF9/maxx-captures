@@ -2419,7 +2419,7 @@
     {
       "id": "SIG-168",
       "title": "Concept + price test (PickFu + Prolific)",
-      "description": "PRE-build demand + WTP validation of $29/$49/$99 with ~100 persona-matched respondents (~$450–700). The CareAngel-style concept test.",
+      "description": "PRE-build demand + WTP validation of $29/$49/$99 with ~100 persona-matched respondents (~$450–700). The CareAngel-style concept test. Method (MC handoff 2026-07-01, SIG-168-finding): Van Westendorp cheap-first on PickFu → optional Prolific point-estimate later. Runnable in parallel NOW — spin up a separate Signal chat to build the PickFu questionnaire while onboarding/website work proceeds; MC supplied only the methodology, not the questionnaire. Full brief: nightly-batch/2026-07-01/SIG-168-finding.md.",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -4526,6 +4526,32 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
+    },
+    {
+      "id": "SIG-211",
+      "title": "Data Model absorb intent layer (intentWeightVector + search_intent log)",
+      "description": "Added 2026-07-01 (anti-slip capture — MC reconciliation handoff, verified). The locked WHY/intentions layer (MSIG-UX-INTENTIONS-0001 v1.0, SIG42) flags 2 Data Model field-adds in its §11.4 downstream-patches list (#3) that were never task-ified. Verified against 04_Build/Final/MAXX_Signal_Data_Model_v1_4_1.md: it added contentMixPreset + followedCreators[] to UserPreferences but NOT intentWeightVector (the category-weight vector the WHY reasons decompose into; feeds Curation Engine Stage 4 as a *tilt*, never a filter) and NOT the search_intent log (pairs w/ SIG-160 direct-search). So-what: ne…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase B1",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-01"
     },
     {
       "id": "SIG-160",
@@ -11605,6 +11631,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 1, 2026 · 6:38 PM CEST",
-  "published_at_iso": "2026-07-01T18:38:32+0200"
+  "published_at": "July 1, 2026 · 10:41 PM CEST",
+  "published_at_iso": "2026-07-01T22:41:12+0200"
 }
