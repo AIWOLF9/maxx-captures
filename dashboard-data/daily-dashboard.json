@@ -2287,30 +2287,30 @@
       "first_seen": "2026-06-26"
     },
     {
-      "id": "SIG-207",
-      "title": "Paywall design pass (MSIG-UX-PAYWALL-0001)",
-      "description": "Added 2026-06-26 (anti-slip capture — was only an opener, untracked). The dedicated paywall / \"Choose Plan\" §4.7 design-science pass: one component, 8 contexts (substrate §K.3); research synth → reference teardown → resolve the honest-conversion-vs-Free-is-equal tension → sketch → interactive mockup → review rounds → lock → Claude Design hi-fi → author MSIG-UX-PAYWALL-0001 v1.0 + de-placeholder Onboarding v1.3 §4.7 + Decisions Log. Prices/trial LOCKED (Pricing v1.3 — do NOT change); Mandate §3 no-dark-patterns floor. Closes CF-SIG42-5; folds in SIG-183 (paywall-upgrades bundle). Brief/prompt…",
-      "status": "s-doing",
+      "id": "SIG-210",
+      "title": "Onboarding v1.3 → v1.4 consolidated spec update",
+      "description": "Added 2026-07-01 (anti-slip capture — SIG-207 follow-on). Write this session's structural onboarding changes into the canonical spec via Three-Step Replacement: (1) §4.7 de-placeholder → point to MSIG-UX-PAYWALL-0001 v1.0; (2) auth moved to build-then-auth (now after Keep-out; \"Save your progress and create your free account\") — update §3.1 spine + Brand §1.6.5 SEAM ② pre/post-auth boundary; (3) Watch-screen Shorts + Live content-type sliders + \"Short\" → \"Quick\"; (4) reconciled-copy references. Input = change log 02_Product/Working/SIG207_ONBOARDING_STORYBOARD_CHANGELOG_2026-07-01.md. Rolled…",
+      "status": "s-todo",
       "priority": "p-p1",
-      "segment": "Design",
+      "segment": "Product",
       "venture": "v-signal",
       "deadline": "1-2",
       "deadline_label": "Phase P2",
       "deadline_class": "d-future",
-      "effort_mc": "3h",
-      "effort_wolf": "1.5h",
+      "effort_mc": "spec ~1.5h",
+      "effort_wolf": "0.5h",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "ATHENA",
+      "executor": "VULCAN",
       "executor_list": [
-        "ATHENA"
+        "VULCAN"
       ],
-      "autonomy": "Batch",
-      "department": "Design",
+      "autonomy": "Auto",
+      "department": "Products",
       "kind": "tasks",
-      "first_seen": "2026-06-26"
+      "first_seen": "2026-07-01"
     },
     {
       "id": "SIG-077",
@@ -5585,6 +5585,32 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-06-30"
+    },
+    {
+      "id": "SIG-209",
+      "title": "\"Choose your next Short\"",
+      "description": "Added 2026-07-01 (anti-slip capture — Wolf idea, SIG-207 session). In the Shorts player, replace algorithm-fed auto-next (the TikTok/X/YouTube doom-scroll) with user-selects-the-next-Short — a chooser (a few curated next options / grid / topic pick) so Shorts becomes mindful selection, not a slot machine. Most on-brand differentiator (flips the internet's single most addictive mechanic); defensible because rivals' business models depend on the doom-scroll. Post-MVP service-screen feature; pairs with the Watch-screen Shorts slider + Shorts-detection engine note. Source: 02_Product/Working/SIG2…",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "spec ~2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-01"
     },
     {
       "id": "SIG-081",
@@ -10596,6 +10622,32 @@
       "first_seen": "2026-06-25"
     },
     {
+      "id": "SIG-207",
+      "title": "Paywall design pass (MSIG-UX-PAYWALL-0001)",
+      "description": "Added 2026-06-26 (anti-slip capture — was only an opener, untracked). The dedicated paywall / \"Choose Plan\" §4.7 design-science pass: one component, 8 contexts (substrate §K.3); research synth → reference teardown → resolve the honest-conversion-vs-Free-is-equal tension → sketch → interactive mockup → review rounds → lock → Claude Design hi-fi → author MSIG-UX-PAYWALL-0001 v1.0 + de-placeholder Onboarding v1.3 §4.7 + Decisions Log. Prices/trial LOCKED (Pricing v1.3 — do NOT change); Mandate §3 no-dark-patterns floor. Closes CF-SIG42-5; folds in SIG-183 (paywall-upgrades bundle). Brief/prompt…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-06-26"
+    },
+    {
       "id": "SIG-162",
       "title": "Launch Mechanics session (waitlist + founding-member pre-order + early-tester beta + PR/posting list)",
       "description": "SIG28 (2026-06-07): Shipped the full launch spine — 7-phase funnel (Survey→Beta→Waitlist→Pre-order→Kickstarter→Launch→Steady). Waitlister engine; 2-for-1 giftable pre-order + viral-army gift flow (email+SMS capture); 3-tier Ambassador (25/40) + stackable badges; concept test (CareAngel template + Van Westendorp/Gabor-Granger); ~30d beta + PMF≥40% gate; KS pre-launch ~T-60 funds the build (stretch=iOS/Europe/modules); PR/pitch list; trackable-links + demo gate; runway. Canonical draft _Working/SIG28_Launch_Mechanics_Plan_v0_1_DRAFT; formal promotion → SIG-177.",
@@ -11553,6 +11605,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 1, 2026 · 4:37 PM CEST",
-  "published_at_iso": "2026-07-01T16:37:27+0200"
+  "published_at": "July 1, 2026 · 6:38 PM CEST",
+  "published_at_iso": "2026-07-01T18:38:32+0200"
 }
