@@ -1101,7 +1101,7 @@
     {
       "id": "MOS-T-020",
       "title": "Engagement / survey touch-points",
-      "description": "🔍 TRIAGED → Signal product (survey + share + gift + ambassador framework). from cap-mpqzc9s8i6e",
+      "description": "🔬 RESEARCHED 2026-06-30 (nightly-batch/2026-06-30/MOS-T-020-finding.md) — engagement ladder: micro-survey (post-summary 1-tap) → shareable card → referral link → gift sub → ambassador tier; prioritize in that order; recommend VULCAN spec micro-survey + shareable card as pre-launch primitives. LATER-STAGE per Wolf 2026-07-01 — sits behind onboarding → waitlist/pre-order site → Kickstarter → backend UI build; park until that sequence advances. Signal product (survey + share + gift + ambassador framework). from cap-mpqzc9s8i6e",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -1125,8 +1125,8 @@
       "autonomy": "Auto",
       "department": "Products",
       "prov": "capture",
-      "review": "r-triaged",
-      "review_label": "Triaged",
+      "review": "r-researched",
+      "review_label": "Researched",
       "kind": "tasks",
       "first_seen": null
     },
@@ -1265,7 +1265,7 @@
     {
       "id": "MOS-T-028",
       "title": "Intentions / \"why\" onboarding questionnaire",
-      "description": "🔍 TRIAGED → Signal product (onboarding + curation design). from cap-mpvb00zhn5e — values/intention mini-questionnaire ahead of taxonomy; also implies a search function",
+      "description": "✅ SUPERSEDED 2026-07-01 (Wolf) — Signal already LOCKED this as MSIG-UX-INTENTIONS-0001 v1.0 (SIG42, 2026-06-19): \"why you come\" reasons → category-weight vectors + Feeling facets, persisted as userPreferences.intentWeightVector. The generic nightly finding's invented field names (purpose_tag/domain_tags/pace_preference) do NOT match — use the locked spec. REAL open item = spec §11.4 downstream patch #3: add userPreferences.intentWeightVector + search_intent log to the Data Model (Data Model v1.4_1 added contentMixPreset + followedCreators[] but NOT intentWeightVector yet) → belongs in a Signa…",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -1289,8 +1289,8 @@
       "autonomy": "Auto",
       "department": "Products",
       "prov": "capture",
-      "review": "r-triaged",
-      "review_label": "Triaged",
+      "review": "r-done",
+      "review_label": "Done",
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1361,7 +1361,7 @@
     {
       "id": "MOS-T-042",
       "title": "Broaden the weekly tool/offering scan",
-      "description": "🔍 Triaged — Broaden the existing apollo-hivemind-stage1-tool-scan (currently ATHENA-stack-scoped, runs Sundays) to cover Anthropic/Claude releases + Gemini/ChatGPT offerings + skills/connectors/MCP/plugins portfolio-wide; surface findings via the standup digest, prioritized. (Wolf 2026-06-09.)",
+      "description": "🔍 Triaged — Broaden the existing apollo-hivemind-stage1-tool-scan (currently ATHENA-stack-scoped, runs Sundays) to cover Anthropic/Claude releases + Gemini/ChatGPT offerings + skills/connectors/MCP/plugins portfolio-wide; surface findings via the standup digest, prioritized. (Wolf 2026-06-09.) [2026-06-30 nightly: Anthropic-stack catch-up cluster COMPLETE (Dreaming + Outcomes + Multiagent + Self-Hosted Sandboxes) — key insight: Outcomes grading-loop = DELPHI substrate candidate → file to BS-0003 at next attended session; add a \"Managed Agents changelog\" column to the weekly-scan spec. See nig…",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -11553,6 +11553,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 1, 2026 · 8:36 AM CEST",
-  "published_at_iso": "2026-07-01T08:36:43+0200"
+  "published_at": "July 1, 2026 · 4:37 PM CEST",
+  "published_at_iso": "2026-07-01T16:37:27+0200"
 }
