@@ -4339,6 +4339,39 @@
       "first_seen": "2026-06-25"
     },
     {
+      "id": "MOS-T-062",
+      "title": "Review these reposts and skills to see if useful or we can get ideas from them for existi…",
+      "description": "🆕 Raw — from cap-mr1bmoqj4em — Please review the videos and go search for these new Geeta posts and review them review the ideas and or if we can use the skills or grab ideas from them to include into our agents or our existing skills based on our ne… [tags: Skills]",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal",
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-07-01"
+    },
+    {
       "id": "SIG-033",
       "title": "Analytics v1.0 → v1.1 re-eval",
       "description": "Decide whether the Wave-4-planned v1.1 analytics patch is still needed or v1.0 stands (OQ-v1.3-6). RE-EVAL MEMO done 2026-06-26 (autonomous) → recommends v1.1 PATCH NEEDED (reverses 06-22 stands-as-is): hard spec conflict — Journey v1.0 locked activation = \"First Feed Land, no action\" w/ event signal_activation_event, but Analytics v1.0 has no such event, feed_loaded is PostHog-only, and Funnel 2 ends in first vote_cast (contradicts \"no action\"). v1.1 = add the event, fix Funnel 2, map video_play_started as analytics-only \"engaged\" sub-metric, fold Optimizely→PostHog/Vercel-Flags correction.…",
@@ -11520,6 +11553,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "June 30, 2026 · 10:35 AM CEST",
-  "published_at_iso": "2026-06-30T10:35:51+0200"
+  "published_at": "July 1, 2026 · 8:36 AM CEST",
+  "published_at_iso": "2026-07-01T08:36:43+0200"
 }
