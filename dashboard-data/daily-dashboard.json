@@ -4545,7 +4545,7 @@
       "deadline_label": "Phase B1",
       "deadline_class": "d-future",
       "effort_mc": "1h",
-      "effort_wolf": null,
+      "effort_wolf": "0.25h",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
@@ -11663,6 +11663,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 2, 2026 · 8:58 AM CEST",
-  "published_at_iso": "2026-07-02T08:58:28+0200"
+  "published_at": "July 2, 2026 · 10:59 AM CEST",
+  "published_at_iso": "2026-07-02T10:59:02+0200"
 }
