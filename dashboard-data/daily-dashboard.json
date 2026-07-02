@@ -1845,6 +1845,38 @@
       "first_seen": "2026-06-30"
     },
     {
+      "id": "MOS-T-063",
+      "title": "$100M online Launches - waitlist/pre-order, Kickstarter, live launch, live webinars resea…",
+      "description": "🆕 Raw — from cap-mr1t0f3gazn — https://youtu.be/rfykHUf8xQY?is=9DM8cPsSvP3_nLeZ I saw this video about the guy who is the most successful consultant behind some of the top online launches special these live webinar platforms, but he has a lot of insi… [tags: marketing, launch, Research automation, Landing pages, Laun…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-07-02"
+    },
+    {
       "id": "SIG-016",
       "title": "Financial Model v1.0 built (.xlsx)",
       "description": "Revenue/cost/margin model w/ tax-inclusive net-per-sale. v1.0 xlsx deemed unusable + replaced at SIG31 by Financial Model v2.0 (3-step: v1.0 archived → v2.0 in Final → v1.0 purged). Canonical now = interactive HTML tool (live what-if) + Excel v2.0 (statements). Dormant-user auto-pause modeling still pending (SIG-032).",
@@ -11631,6 +11663,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 2, 2026 · 2:41 AM CEST",
-  "published_at_iso": "2026-07-02T02:41:36+0200"
+  "published_at": "July 2, 2026 · 8:58 AM CEST",
+  "published_at_iso": "2026-07-02T08:58:28+0200"
 }
