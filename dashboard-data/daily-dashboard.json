@@ -2211,8 +2211,8 @@
     {
       "id": "SIG-204",
       "title": "Storyboard",
-      "description": "Added 2026-06-26 (anti-slip capture). Web storyboard for the pre-launch site: waitlist capture (live today at maxxsignal.com) + pre-order surface. Runs the reusable storyboard process (see _Working/STORYBOARD_PROGRAM_MASTER_BRIEF_2026-06-26.md); browser-frame (web, not mobile-only). Reuses Brand v1.5.2, Receipts Set, /receipts + /algorithm-101 + messaging-line drafts, HERMES E1–E11 voice, GTM Journey Arc. Feeds website build SIG-067. Chat 2 of the storyboard program.",
-      "status": "s-todo",
+      "description": "Added 2026-06-26 (anti-slip capture). Web storyboard for the pre-launch site: waitlist capture (live today at maxxsignal.com) + pre-order surface. Runs the reusable storyboard process (see _Working/STORYBOARD_PROGRAM_MASTER_BRIEF_2026-06-26.md); browser-frame (web, not mobile-only). Reuses Brand v1.5.2, Receipts Set, /receipts + /algorithm-101 + messaging-line drafts, HERMES E1–E11 voice, GTM Journey Arc. Feeds website build SIG-067. Chat 2 of the storyboard program. IN PROGRESS 2026-07-02 (hi-fi sprint mid-iteration): waitlist storyboard adapted (pre-order paywall + launching-soon); design-s…",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Design",
       "venture": "v-signal",
@@ -2285,32 +2285,6 @@
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-06-26"
-    },
-    {
-      "id": "SIG-210",
-      "title": "Onboarding v1.3 → v1.4 consolidated spec update",
-      "description": "Added 2026-07-01 (anti-slip capture — SIG-207 follow-on). Write this session's structural onboarding changes into the canonical spec via Three-Step Replacement: (1) §4.7 de-placeholder → point to MSIG-UX-PAYWALL-0001 v1.0; (2) auth moved to build-then-auth (now after Keep-out; \"Save your progress and create your free account\") — update §3.1 spine + Brand §1.6.5 SEAM ② pre/post-auth boundary; (3) Watch-screen Shorts + Live content-type sliders + \"Short\" → \"Quick\"; (4) reconciled-copy references. Input = change log 02_Product/Working/SIG207_ONBOARDING_STORYBOARD_CHANGELOG_2026-07-01.md. Rolled…",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "spec ~1.5h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Auto",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-07-01"
     },
     {
       "id": "SIG-077",
@@ -10674,6 +10648,32 @@
       "first_seen": "2026-06-26"
     },
     {
+      "id": "SIG-210",
+      "title": "Onboarding v1.3 → v1.4 consolidated spec update",
+      "description": "Added 2026-07-01 (anti-slip capture — SIG-207 follow-on). Write this session's structural onboarding changes into the canonical spec via Three-Step Replacement: (1) §4.7 de-placeholder → point to MSIG-UX-PAYWALL-0001 v1.0; (2) auth moved to build-then-auth (now after Keep-out; \"Save your progress and create your free account\") — update §3.1 spine + Brand §1.6.5 SEAM ② pre/post-auth boundary; (3) Watch-screen Shorts + Live content-type sliders + \"Short\" → \"Quick\"; (4) reconciled-copy references. Input = change log 02_Product/Working/SIG207_ONBOARDING_STORYBOARD_CHANGELOG_2026-07-01.md. Rolled…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "spec ~1.5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-01"
+    },
+    {
       "id": "SIG-162",
       "title": "Launch Mechanics session (waitlist + founding-member pre-order + early-tester beta + PR/posting list)",
       "description": "SIG28 (2026-06-07): Shipped the full launch spine — 7-phase funnel (Survey→Beta→Waitlist→Pre-order→Kickstarter→Launch→Steady). Waitlister engine; 2-for-1 giftable pre-order + viral-army gift flow (email+SMS capture); 3-tier Ambassador (25/40) + stackable badges; concept test (CareAngel template + Van Westendorp/Gabor-Granger); ~30d beta + PMF≥40% gate; KS pre-launch ~T-60 funds the build (stretch=iOS/Europe/modules); PR/pitch list; trackable-links + demo gate; runway. Canonical draft _Working/SIG28_Launch_Mechanics_Plan_v0_1_DRAFT; formal promotion → SIG-177.",
@@ -11631,6 +11631,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 1, 2026 · 10:41 PM CEST",
-  "published_at_iso": "2026-07-01T22:41:12+0200"
+  "published_at": "July 2, 2026 · 2:41 AM CEST",
+  "published_at_iso": "2026-07-02T02:41:36+0200"
 }
