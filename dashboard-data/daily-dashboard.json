@@ -2319,6 +2319,58 @@
       "first_seen": "2026-06-26"
     },
     {
+      "id": "SIG-212",
+      "title": "PWA \"Add to Home Screen\" install prompt (mobile web)",
+      "description": "Added 2026-07-03 (Wolf idea, gating-decisions chat). Native apps are ~90d post-launch (rollout within 90d of the ~Oct launch, so ~Q1 2027), meaning the Oct launch is mobile web — so add a smart PWA install prompt: detect a mobile browser → show a branded pop-up guiding \"Add to Home Screen.\" NB build nuance: Android/Chrome can fire the native beforeinstallprompt; iOS Safari has NO native prompt → needs a custom instructional overlay (Share → Add to Home Screen). Track that they installed so we stop re-prompting (iOS: detect navigator.standalone on next open; Android: appinstalled event). Owned…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-4",
+      "deadline_label": "Phase P4",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "id": "SIG-213",
+      "title": "Email deliverability + Gmail Primary-tab placement research",
+      "description": "Added 2026-07-03 (Wolf ask, gating-decisions chat). Research + playbook: how to (a) stay out of spam/junk and (b) land in Gmail Primary (not Promotions/Updates) for the daily reminder + lifecycle mail. Covers: SPF/DKIM/DMARC (Resend partly done) + sender-reputation warmup; the content signals that push mail into Promotions (bulk/newsletter markup, image-heavy, many links, promo language) vs. Primary (1:1 plain feel, personalized, account-related framing); the onboarding \"click to confirm\" engagement tactic Wolf flagged; list hygiene; unsubscribe-protects-reputation. Whether recurring product…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-07-03"
+    },
+    {
       "id": "SIG-077",
       "title": "/receipts legal-review pass",
       "description": "Claims/attribution legal review of the /receipts page (CF-SIG15-2) at the 08_Legal sister-chat.",
@@ -11663,6 +11715,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 2, 2026 · 10:59 AM CEST",
-  "published_at_iso": "2026-07-02T10:59:02+0200"
+  "published_at": "July 3, 2026 · 6:08 PM CEST",
+  "published_at_iso": "2026-07-03T18:08:35+0200"
 }
