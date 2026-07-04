@@ -2371,6 +2371,32 @@
       "first_seen": "2026-07-03"
     },
     {
+      "id": "SIG-214",
+      "title": "Signature animation system",
+      "description": "Added 2026-07-04. Geometric brain→lotus signature animation + service-screen visuals for Claude Design. Screen 18 (build screen) DONE 2026-07-04 (Wolf-confirmed \"it runs / looks amazing\"): reveal-glow mark finalized — eye regression fixed (soft #9CF6FF iris + crescent; removed hard r22 disc; hg2→donut so pulse doesn't wash eye), reveal set to ~9s, glow-forever-never-black; social MP4s re-rendered (fixed eye, no black tail, 3 ratios); now LIVE in Claude Design via inline-JS-inject (CD strips SVG <style> on upload AND serve → fix = SVG bytes in a .js, inject inline at runtime; documented in PLA…",
+      "status": "s-doing",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-04"
+    },
+    {
       "id": "SIG-077",
       "title": "/receipts legal-review pass",
       "description": "Claims/attribution legal review of the /receipts page (CF-SIG15-2) at the 08_Legal sister-chat.",
@@ -2477,7 +2503,7 @@
     {
       "id": "SIG-168",
       "title": "Concept + price test (PickFu + Prolific)",
-      "description": "PRE-build demand + WTP validation of $29/$49/$99 with ~100 persona-matched respondents (~$450–700). The CareAngel-style concept test. Method (MC handoff 2026-07-01, SIG-168-finding): Van Westendorp cheap-first on PickFu → optional Prolific point-estimate later. Runnable in parallel NOW — spin up a separate Signal chat to build the PickFu questionnaire while onboarding/website work proceeds; MC supplied only the methodology, not the questionnaire. Full brief: nightly-batch/2026-07-01/SIG-168-finding.md.",
+      "description": "PRE-build demand + WTP validation of $29/$49/$99 with ~100 persona-matched respondents (~$450–700). The CareAngel-style concept test. Method (MC handoff 2026-07-01, SIG-168-finding): Van Westendorp cheap-first on PickFu → optional Prolific point-estimate later. Runnable in parallel NOW — spin up a separate Signal chat to build the PickFu questionnaire while onboarding/website work proceeds; MC supplied only the methodology, not the questionnaire. Full brief: nightly-batch/2026-07-01/SIG-168-finding.md. 2026-07-04 (Wolf input — feeds this test): wants an in-chat pricing GRID reconciling his la…",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -11715,6 +11741,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 3, 2026 · 6:08 PM CEST",
-  "published_at_iso": "2026-07-03T18:08:35+0200"
+  "published_at": "July 4, 2026 · 4:09 AM CEST",
+  "published_at_iso": "2026-07-04T04:09:29+0200"
 }
