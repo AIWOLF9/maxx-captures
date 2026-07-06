@@ -1909,6 +1909,70 @@
       "first_seen": "2026-07-05"
     },
     {
+      "id": "MOS-T-065",
+      "title": "YouTube Algorithm - deep research",
+      "description": "🆕 Raw — from cap-mr7zoe252mx — I watch the number of videos regarding YouTube algorithm. Here’s one that I just watched on the YouTube algorithm guide for 2026. https://youtu.be/SIp7MeYbz8U?is=m0T-dfSBqxec3VSl We need to do a comprehensive research b… [tags: Research, ALGORITHM, Differentiator]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Research",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "APOLLO",
+      "executor_list": [
+        "APOLLO"
+      ],
+      "autonomy": "Auto",
+      "department": "Research",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-07-06"
+    },
+    {
+      "id": "MOS-T-066",
+      "title": "Dual positioning- Make your YouTube Experience 10X better- we already have - the virus of…",
+      "description": "🆕 Raw — from cap-mr7yeg5phn8 — I know we have been focusing on the Herot journey, which is the correct thing to do the bigger the amount of the bigger the Herot, but we also wanna not piss off Partner like YouTube and instead know that we’re working… [tags: Brand positioning, Marketing Campaign Idea, Launch Campaign…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-07-06"
+    },
+    {
       "id": "SIG-016",
       "title": "Financial Model v1.0 built (.xlsx)",
       "description": "Revenue/cost/margin model w/ tax-inclusive net-per-sale. v1.0 xlsx deemed unusable + replaced at SIG31 by Financial Model v2.0 (3-step: v1.0 archived → v2.0 in Final → v1.0 purged). Canonical now = interactive HTML tool (live what-if) + Excel v2.0 (statements). Dormant-user auto-pause modeling still pending (SIG-032).",
@@ -11773,6 +11837,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 5, 2026 · 8:10 AM CEST",
-  "published_at_iso": "2026-07-05T08:10:30+0200"
+  "published_at": "July 6, 2026 · 8:11 AM CEST",
+  "published_at_iso": "2026-07-06T08:11:46+0200"
 }
