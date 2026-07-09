@@ -4778,6 +4778,32 @@
       "first_seen": null
     },
     {
+      "id": "SIG-222",
+      "title": "Time-Cost Calculator v0.2",
+      "description": "Added 2026-07-09 (SIG-CALC chat). v0.2 backlog for the SIG-221 calculator: (1) auto-generate a PNG shareable image the user can download/post (canvas-based render of the receipt card, 1200×630 OG-sized); (2) wire the waitlist CTA to Resend/Cloudflare form (currently href-to-maxxsignal.com); (3) analytics event pixels (slider adjustments, frame switches, CTA clicks); (4) 2-3 H1 copy candidates per multi-candidate protocol; (5) currency dropdown (EUR/GBP/CAD); (6) onboarding-mode variant (personalized post-signup reveal, hides sliders, shows only user's number); (7) dashboard-mode variant (logg…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-07-09"
+    },
+    {
       "id": "SIG-160",
       "title": "Direct search function (intent-driven)",
       "description": "SIG20-surfaced (Wolf \"Signal intentions\" capture, 2026-06-01). The \"I want to find something specific\" intent needs a search path Signal does not yet have. STRATEGIC TENSION (no-yes-man flag): search is unbounded by nature and could reintroduce the infinite-rabbit-hole Signal exists to prevent — must be designed to stay inside \"finite by design / curation, not algorithm.\" Composes with SIG-098 free-text keyword. Decision needed: in-MVP-B1 vs post-launch B2. Discuss before spec.",
@@ -10990,6 +11016,32 @@
       "first_seen": "2026-07-01"
     },
     {
+      "id": "SIG-221",
+      "title": "Time-Cost Calculator v0.1",
+      "description": "Done 2026-07-09. Built single-file mobile-first HTML calculator: five reactive inputs (age, hrs/day social, $/hr, hrs/day Signal reclaims, life expectancy) → dual-frame monthly/yearly/lifetime waste vs reclaim outputs → screenshot-ready receipt card → waitlist CTA. Reference: ehm-tech.com time-wasted-calculator (age + life expectancy + lifetime projection pattern). Deliverables: HTML _Working/artifacts/signal-time-cost-calculator-v0-1.html · populated-preview PDF ..._populated-preview.pdf · structural PDF signal-time-cost-calculator-v0-1.pdf · desktop+mobile screenshots (via WeasyPrint; Playw…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-07-09"
+    },
+    {
       "id": "SIG-162",
       "title": "Launch Mechanics session (waitlist + founding-member pre-order + early-tester beta + PR/posting list)",
       "description": "SIG28 (2026-06-07): Shipped the full launch spine — 7-phase funnel (Survey→Beta→Waitlist→Pre-order→Kickstarter→Launch→Steady). Waitlister engine; 2-for-1 giftable pre-order + viral-army gift flow (email+SMS capture); 3-tier Ambassador (25/40) + stackable badges; concept test (CareAngel template + Van Westendorp/Gabor-Granger); ~30d beta + PMF≥40% gate; KS pre-launch ~T-60 funds the build (stretch=iOS/Europe/modules); PR/pitch list; trackable-links + demo gate; runway. Canonical draft _Working/SIG28_Launch_Mechanics_Plan_v0_1_DRAFT; formal promotion → SIG-177.",
@@ -12104,6 +12156,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 9, 2026 · 4:22 AM CEST",
-  "published_at_iso": "2026-07-09T04:22:08+0200"
+  "published_at": "July 9, 2026 · 6:22 PM CEST",
+  "published_at_iso": "2026-07-09T18:22:30+0200"
 }
