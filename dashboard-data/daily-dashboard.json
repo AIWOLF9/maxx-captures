@@ -2609,6 +2609,32 @@
       "first_seen": "2026-07-09"
     },
     {
+      "id": "SIG-223",
+      "title": "Time-Cost Calculator → onboarding screen (§4.3b) + cross-surface routing",
+      "description": "Added 2026-07-09. Adapted the SIG-221 calculator into the onboarding-embedded \"Attention Receipt\" screen (full 5-slider, as designed, defaults pre-filled, single-column mobile, step chrome, \"See how Signal works →\" CTA, reclaim capped at hours/day). Placement LOCKED = §4.3b, pre-auth diagnosis, between Relief/Hook and Data Transparency, before SEAM ① (receipt-bearing → zone lock; Claude pushed back on \"screen 4\"). Onboarding spec v1.4 → v1.5 (Three-Step; §4.3b + spine). Decisions Log Decision 31. Deliverables: _Working/artifacts/signal-time-cost-calculator-onboarding-v0-1.html + _Working/arti…",
+      "status": "s-doing",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-09"
+    },
+    {
       "id": "SIG-077",
       "title": "/receipts legal-review pass",
       "description": "Claims/attribution legal review of the /receipts page (CF-SIG15-2) at the 08_Legal sister-chat.",
@@ -12156,6 +12182,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 9, 2026 · 6:22 PM CEST",
-  "published_at_iso": "2026-07-09T18:22:30+0200"
+  "published_at": "July 9, 2026 · 8:22 PM CEST",
+  "published_at_iso": "2026-07-09T20:22:47+0200"
 }
