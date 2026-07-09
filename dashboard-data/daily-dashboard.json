@@ -11945,6 +11945,32 @@
       "first_seen": "2026-07-01"
     },
     {
+      "id": "SIG-220",
+      "title": "HERMES marketing-skills review + CAP-0058 Gate-4 validation",
+      "description": "Done 2026-07-09. Ran cro/offers/ai-seo (read from the CAP-0049 _shared mirror) against Signal live landing + SIG-204 flow + Pricing v1.3.1 + Brand v1.5.2; churn-prevention/marketing-psychology read for context. Deliverables: review doc 05_Marketing/Working/hermes-skills-gate4/MSIG-MKT-HERMES-SKILLS-GATE4-REVIEW_v0_1 + proposed Pricing §0.10 surface-anchors note (07_Finance/Working/…PROPOSED, awaiting Wolf approve/hold). Verdicts: landing fails 5-sec test (candidate fixes captured → SIG-067/204); offer strong (binding constraint = proof, not price); ai-seo unusually well-positioned (robots.txt…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-07-09"
+    },
+    {
       "id": "SIG-197",
       "title": "Hormozi $100M library",
       "description": "DONE SIG36 (2026-06-09): synthesis shipped — 05_Marketing/Working/MSIG-MKT-HORMOZI-CIALDINI-SYNTHESIS-0001_v0_1.md + interactive pick-menu MSIG-MKT-HORMOZI-CIALDINI-MENU-0001_v0_1.html (67 insights across 7 funnel stages, yes/maybe/no + export). Awaiting Wolf menu picks → then route to SIG-191/SIG-181/Brand §3.6/pricing copy/algorithm-101. Universal layer U1–U11 → Mission Control (MOS-T-027 mirror to shared _library/). MC hand-off (2026-06-09): MOS-T-027 — REFRAMED + content landed (SIG35). Hormozi content starts with Signal (applies to active offer/lead/launch/social/email work). FILED 2026-…",
@@ -12078,6 +12104,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 9, 2026 · 2:21 AM CEST",
-  "published_at_iso": "2026-07-09T02:21:48+0200"
+  "published_at": "July 9, 2026 · 4:22 AM CEST",
+  "published_at_iso": "2026-07-09T04:22:08+0200"
 }
