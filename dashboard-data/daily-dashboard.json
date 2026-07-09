@@ -2063,32 +2063,6 @@
       "first_seen": null
     },
     {
-      "id": "SIG-037",
-      "title": "v6 storyboard authored (reflects locked Onboarding spec)",
-      "description": "SIG21: evolve _Working/maxx_signal_v5_phase_c1.html → v6 reflecting the locked spec; absorb Wolf's v5 annotation pass (CF-SIG10b-4). SIG-037b (2026-06-28): storyboard expanded 15→19 screens (added Pain II · Self-ID · Compare · Archetype; arc = Splash·Pain I·Pain II·Self-ID·Relief·Solution·Compare·Auth·Intro·WHY·Pick·Deeper·Mix·Watch·Keep-out·Plan·Building·Feed·Archetype). New tool fields (lead/lines statement-lines ≠ receipts, bullets), ↑/↓ Edit reorder, light-mode fix, editable compare rows. Locked copy Pain I/II/Relief/Intro (reaffirmation + movement + virus/cure). +/− mutual-exclusivity +…",
-      "status": "s-doing",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "8h+",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "SIG-040",
       "title": "Design handoff specs (tokens, states, breakpoints)",
       "description": "Translate locked mockups into Claude-Code-ready handoff: tokens, component props, interaction states, responsive breakpoints, edge cases.",
@@ -2607,6 +2581,32 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-08"
+    },
+    {
+      "id": "SIG-219",
+      "title": "Mobbin YouTube screens",
+      "description": "Added 2026-07-08 (Wolf). Wolf downloaded ALL YouTube iOS + web screens from Mobbin (few hundred: front-end, backend, settings). Its own chat: review every screen thoroughly (via agents / systematic view), borrow useful patterns, and surface service screens we haven't thought of yet (Wolf already flags: YouTube search flow + save-to-playlist/channel — Signal has neither designed). Output = gap list of missing/《borrow》screens feeding SIG-215 service-screen storyboard. NB: YouTube's model = ad-extraction (opposite of Signal) — borrow interaction patterns, not the attention-capture mechanics (per…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-09"
     },
     {
       "id": "SIG-077",
@@ -4648,32 +4648,6 @@
       "first_seen": "2026-07-01"
     },
     {
-      "id": "SIG-033",
-      "title": "Analytics v1.0 → v1.1 re-eval",
-      "description": "Decide whether the Wave-4-planned v1.1 analytics patch is still needed or v1.0 stands (OQ-v1.3-6). RE-EVAL MEMO done 2026-06-26 (autonomous) → recommends v1.1 PATCH NEEDED (reverses 06-22 stands-as-is): hard spec conflict — Journey v1.0 locked activation = \"First Feed Land, no action\" w/ event signal_activation_event, but Analytics v1.0 has no such event, feed_loaded is PostHog-only, and Funnel 2 ends in first vote_cast (contradicts \"no action\"). v1.1 = add the event, fix Funnel 2, map video_play_started as analytics-only \"engaged\" sub-metric, fold Optimizely→PostHog/Vercel-Flags correction.…",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Build",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "0.25h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Batch",
-      "department": "Engineering",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "SIG-034",
       "title": "Pre-Build Checklist v1.0 → v1.1 re-eval",
       "description": "Paired with SIG-033: re-evaluate whether the planned operational-checklist v1.1 patch is required. RE-EVAL MEMO done 2026-06-26 (autonomous) → recommends v1.1 PATCH NEEDED (the gating decisions have since landed): OQ-OPS-01 (entity = Wolf Ventures LLC) + OQ-OPS-03 (Apple kept on critical path; web launch = no App Store review) both resolved 06-24; §9 timeline ~6 wks stale. One genuine content correction: §4 email topology — v1.0 specs Cloudflare Email Routing but Google Workspace email is now live; Wolf to confirm canonical for @maxxsignal.com before the patch. Memo: _Working/SIG-034_PreBuild…",
@@ -4802,32 +4776,6 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
-    },
-    {
-      "id": "SIG-211",
-      "title": "Data Model absorb intent layer (intentWeightVector + search_intent log)",
-      "description": "Added 2026-07-01 (anti-slip capture — MC reconciliation handoff, verified). The locked WHY/intentions layer (MSIG-UX-INTENTIONS-0001 v1.0, SIG42) flags 2 Data Model field-adds in its §11.4 downstream-patches list (#3) that were never task-ified. Verified against 04_Build/Final/MAXX_Signal_Data_Model_v1_4_1.md: it added contentMixPreset + followedCreators[] to UserPreferences but NOT intentWeightVector (the category-weight vector the WHY reasons decompose into; feeds Curation Engine Stage 4 as a *tilt*, never a filter) and NOT the search_intent log (pairs w/ SIG-160 direct-search). So-what: ne…",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Build",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase B1",
-      "deadline_class": "d-future",
-      "effort_mc": "1h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Auto",
-      "department": "Engineering",
-      "kind": "tasks",
-      "first_seen": "2026-07-01"
     },
     {
       "id": "SIG-160",
@@ -5820,6 +5768,26 @@
       "owner": "Wolf-gated → MC",
       "kind": "cfi",
       "first_seen": "2026-06-29"
+    },
+    {
+      "id": "CF-REVIEW-SEVERITY-VOCAB-CODIFY-1",
+      "title": "Propagate the review severity vocabulary (Critical / Nit / Optional / FYI + \"approve if it improves overall h…",
+      "description": "Propagate the review severity vocabulary (Critical / Nit / Optional / FYI + \"approve if it improves overall health, don't block on taste\") into COWORK_INSTRUCTIONS §5 review discipline. Imported 2026-07-08 from addyosmani/agent-skills; currently homed in the ATP v0.2 doc (_MAXX_OS/Research/adversarial-review-protocol/).",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next COWORK_INSTRUCTIONS govern…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-07-09"
     },
     {
       "id": "MOS-T-038",
@@ -10918,6 +10886,32 @@
       "first_seen": null
     },
     {
+      "id": "SIG-037",
+      "title": "v6 storyboard authored (reflects locked Onboarding spec)",
+      "description": "SIG21: evolve _Working/maxx_signal_v5_phase_c1.html → v6 reflecting the locked spec; absorb Wolf's v5 annotation pass (CF-SIG10b-4). SIG-037b (2026-06-28): storyboard expanded 15→19 screens (added Pain II · Self-ID · Compare · Archetype; arc = Splash·Pain I·Pain II·Self-ID·Relief·Solution·Compare·Auth·Intro·WHY·Pick·Deeper·Mix·Watch·Keep-out·Plan·Building·Feed·Archetype). New tool fields (lead/lines statement-lines ≠ receipts, bullets), ↑/↓ Edit reorder, light-mode fix, editable compare rows. Locked copy Pain I/II/Relief/Intro (reaffirmation + movement + virus/cure). +/− mutual-exclusivity +…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "8h+",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "SIG-202",
       "title": "HERMES Deliverable 4",
       "description": "HERMES native full-draft of launch-day announcement to waitlist (E12), launch-day welcome for new signups (E13), founding-member confirmation (E14), Signal+ welcome (E15). Reuse E1/E2/E3 spines + founder/members-first voices. Banks #4 of ~5 toward HERMES v1.0. Draft-only; publish gated. DONE 2026-06-25 (drafted overnight, autonomous): all 4 emails full-drafted → 05_Marketing/hermes/2026-06-25--launch-day-set/MSIG-MKT-LAUNCH-DAY-SET_DRAFT_v0_1.md (354 lines, §7 self-review PASS). Awaiting Wolf review. (done 2026-06-25)",
@@ -11124,6 +11118,25 @@
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-06-08"
+    },
+    {
+      "id": "CAP-0058",
+      "title": "HERMES/SEO marketing-skill library (copy-and-adapt adoption)",
+      "description": "HERMES/SEO marketing-skill library (copy-and-adapt adoption). 5 MAXX-authored skills copy-adapted from coreyhaines31/marketingskills (MIT; skills/ markdown only, tools/clis/ excluded per OBS-0012): marketing-psychology · offers · cro · churn-prevention (owner HERMES, at _MAXX_OS/Capabilities/hermes/skills/) + ai-seo (owner SEO capability, at _MAXX_OS/Capabilities/seo/skills/). Each carries an origin: credit + MAXX brand-voice/substrate framing; churn honors the honest-retention rule; offers/psychology cross-ref the _library Hormozi/Cialdini synthesis. Registered as shared-foundation residents…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-07-08",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-07-08",
+      "zone": "done",
+      "kind": "cap",
+      "first_seen": "2026-07-09"
     },
     {
       "id": "CAP-0056",
@@ -11802,6 +11815,32 @@
       "first_seen": null
     },
     {
+      "id": "SIG-033",
+      "title": "Analytics v1.0 → v1.1 re-eval",
+      "description": "Decide whether the Wave-4-planned v1.1 analytics patch is still needed or v1.0 stands (OQ-v1.3-6). RE-EVAL MEMO done 2026-06-26 (autonomous) → recommends v1.1 PATCH NEEDED (reverses 06-22 stands-as-is): hard spec conflict — Journey v1.0 locked activation = \"First Feed Land, no action\" w/ event signal_activation_event, but Analytics v1.0 has no such event, feed_loaded is PostHog-only, and Funnel 2 ends in first vote_cast (contradicts \"no action\"). v1.1 = add the event, fix Funnel 2, map video_play_started as analytics-only \"engaged\" sub-metric, fold Optimizely→PostHog/Vercel-Flags correction.…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "SIG-070",
       "title": "Pre-Site receipt library full population",
       "description": "Populate the HAPPYY-style stat-stack receipt clusters (Brand §7.17.3 placeholders) — OQ-SIG18-18. DONE 2026-06-26 (autonomous): three-movement stat-stack menu (monster → pivot/counter-case → solution receipts), every entry source-tagged + audience-tagged (A/P/Y/X) + receipt ID → 05_Marketing/Working/receipt-library/MSIG-RECEIPT-LIBRARY_DRAFT_v0_1.md. LEGAL-FLAG items marked for the 08_Legal pass; not-primary-verified + Meta-contested items excluded per Receipts-Set policy. (done 2026-06-26)",
@@ -11878,6 +11917,32 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-25"
+    },
+    {
+      "id": "SIG-211",
+      "title": "Data Model absorb intent layer (intentWeightVector + search_intent log)",
+      "description": "DONE 2026-07-08 (SIG-033/211 patch chat): Three-Step Replacement → Data Model v1.4.2 (intentWeightVector + intentWeightVectorMeta added to UserPreferences, schemaVersion 2→3; search_intent homed via Option A = existing events collection as intentions_search_intent, Wolf's call; tilt-not-filter documented inline; v1.4.1 archived). Paired with Analytics v1.1 (SIG-033).",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase B1",
+      "deadline_class": "d-future",
+      "effort_mc": "Added 2026-07-01 (anti-slip capture — MC reconciliation handoff, verified). The locked WHY/intentions layer (MSIG-UX-INTENTIONS-0001 v1.0, SIG42) flags 2 Data Model field-adds in its §11.4 downstream-patches list (#3) that were never task-ified. Verified against 04_Build/Final/MAXX_Signal_Data_Model_v1_4_1.md: it added contentMixPreset + followedCreators[] to UserPreferences but NOT intentWeightVector (the category-weight vector the WHY reasons decompose into; feeds Curation Engine Stage 4 as a *tilt*, never a filter) and NOT the search_intent log (pairs w/ SIG-160 direct-search). So-what: next Signal Data Model pass folds both in so the locked intent layer has a home to persist into before first users. NB: nightly-finding field names (purpose_tag/domain_tags/pace_preference) are INVALID — do not use; the canonical field is userPreferences.intentWeightVector. Three-Step Replacement on Data Model when done. Pairs with the Curation Engine Stage-4 intent-weight patch (§11.4 #2, separate). 2026-07-02 (autonomous): apply-on-confirm PATCH REDLINE pre-drafted — verbatim BEFORE/AFTER blocks for all field-adds (A intentWeightVector+meta, B field notes, C schemaVersion 2→3, D size, E indexes, F §2.5 Stage-4 tilt cross-ref, H change-log/metadata → v1.4.2) → _Working/SIG-211_DataModel_intentLayer_PATCH_REDLINE_DRAFT_2026-07-02.md. Row stays To-do; ONE Wolf call (search_intent home: Option A events collection [recommended] / Option B new searchIntentLog collection) → patch applies mechanically, Three-Step to v1.4.2, flip Done.",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-01"
     },
     {
       "id": "SIG-197",
@@ -12013,6 +12078,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 8, 2026 · 6:21 PM CEST",
-  "published_at_iso": "2026-07-08T18:21:07+0200"
+  "published_at": "July 9, 2026 · 2:21 AM CEST",
+  "published_at_iso": "2026-07-09T02:21:48+0200"
 }
