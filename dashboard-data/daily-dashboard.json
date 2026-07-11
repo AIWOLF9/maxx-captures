@@ -5487,8 +5487,8 @@
     },
     {
       "id": "SIG-258",
-      "title": "Left-nav (rail) update",
-      "description": "Added 2026-07-11 (SIG-230, Wolf). Global desktop rail + mobile accordion changes (reference build = mockups-sig230/saved-playlists_LOCKED.html): (1) Connect YouTube moved HIGH (right under Saved) so it isn't buried below a long channel list; label flips Connect YouTube → My YouTube once connected. (2) My Channels is long (users have 10-20 renamed channels from onboarding category/subcategory picks — each pick becomes a renamable channel) → scroll + \"+N more\"; generic hash icon, no per-channel icon library. (3) Permanent recruiting pills at the bottom under a \"Join the movement\" header: Become…",
+      "title": "Propagate canonical nav order (MSIG-UX-NAV-ORDER v1.0) across all screens",
+      "description": "Added 2026-07-11 (SIG-230, Wolf). Global desktop rail + mobile accordion changes NAV ORDER now LOCKED as 02_Product/Working/MSIG-UX-NAV-ORDER_v1_0 (Wolf, SIG-230); reference build = mockups-sig230/saved-playlists_LOCKED.html. Approach: the spec is the source of truth and the rail is built once at the Claude Design handoff (SIG-243); refreshing each existing schematic rail is optional polish. Details: (1) Connect YouTube moved HIGH (right under Saved) so it isn't buried below a long channel list; label flips Connect YouTube → My YouTube once connected. (2) My Channels is long (users have 10-20…",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Design",
@@ -13072,6 +13072,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 11, 2026 · 11:48 PM CEST",
-  "published_at_iso": "2026-07-11T23:48:29+0200"
+  "published_at": "July 12, 2026 · 1:48 AM CEST",
+  "published_at_iso": "2026-07-12T01:48:58+0200"
 }
