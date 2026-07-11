@@ -2797,32 +2797,6 @@
       "first_seen": "2026-07-11"
     },
     {
-      "id": "SIG-237",
-      "title": "Desktop paywall build + mobile/desktop compare + self-contained HTML lock",
-      "description": "Added 2026-07-11 (SIG-228). Mobile paywall finalized in SIG-228 (in-chat widget). Build the matching desktop paywall, compare desktop-to-desktop, then save BOTH as self-contained _LOCKED.html in 03_Design/Working/mockups-sig228/ (base64 signal-icons.css per feedback_self-contained-icons; offline-safe). Design source = MSIG-UX-PAYWALL-CAPS-DELTA_sig228. Optional: pixel-compare to the live Claude Design paywall (needs the CD floating window).",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Auto",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-07-11"
-    },
-    {
       "id": "SIG-238",
       "title": "Formalize upgrade-trigger / gating map",
       "description": "Added 2026-07-11 (SIG-228). Turn the 17-gate draft (in CAPS-DELTA §8) into a canonical doc mapping every upgrade trigger → free limit / Signal+ / paywall H1 context / event, so build wires every prompt. Resolve 2 gaps: (a) videos-per-channel = new gate, assign a context/H1 (fold under #2 or new); (b) keep-out/noise = NO gate (universal, Wolf SIG-228).",
@@ -11568,6 +11542,32 @@
       "first_seen": "2026-07-09"
     },
     {
+      "id": "SIG-237",
+      "title": "Desktop paywall build + mobile/desktop compare + self-contained HTML lock",
+      "description": "Added 2026-07-11 (SIG-228). Mobile paywall finalized in SIG-228 (in-chat widget). Build the matching desktop paywall, compare desktop-to-desktop, then save BOTH as self-contained _LOCKED.html in 03_Design/Working/mockups-sig228/ (base64 signal-icons.css per feedback_self-contained-icons; offline-safe). Design source = MSIG-UX-PAYWALL-CAPS-DELTA_sig228. Optional: pixel-compare to the live Claude Design paywall (needs the CD floating window).",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-11"
+    },
+    {
       "id": "SIG-162",
       "title": "Launch Mechanics session (waitlist + founding-member pre-order + early-tester beta + PR/posting list)",
       "description": "SIG28 (2026-06-07): Shipped the full launch spine — 7-phase funnel (Survey→Beta→Waitlist→Pre-order→Kickstarter→Launch→Steady). Waitlister engine; 2-for-1 giftable pre-order + viral-army gift flow (email+SMS capture); 3-tier Ambassador (25/40) + stackable badges; concept test (CareAngel template + Van Westendorp/Gabor-Granger); ~30d beta + PMF≥40% gate; KS pre-launch ~T-60 funds the build (stretch=iOS/Europe/modules); PR/pitch list; trackable-links + demo gate; runway. Canonical draft _Working/SIG28_Launch_Mechanics_Plan_v0_1_DRAFT; formal promotion → SIG-177.",
@@ -12682,6 +12682,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 11, 2026 · 8:25 AM CEST",
-  "published_at_iso": "2026-07-11T08:25:04+0200"
+  "published_at": "July 11, 2026 · 7:47 PM CEST",
+  "published_at_iso": "2026-07-11T19:47:26+0200"
 }
