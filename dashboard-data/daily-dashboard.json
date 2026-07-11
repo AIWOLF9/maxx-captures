@@ -1985,6 +1985,38 @@
       "first_seen": "2026-07-07"
     },
     {
+      "id": "MOS-T-068",
+      "title": "SOCIAL MEDIA IS AN ESCAPE FOR MANY- the choice because of the algorithm can make the esca…",
+      "description": "🆕 Raw — from cap-mrf1eahjs2w — https://youtu.be/u1U_JBut2-c?is=C7_SqXFtN0nVhAs1 I was watching YouTube, and it reminded me of something we ask people during the onboarding process: why they come to YouTube, and really why they're using social media.… [tags: Social, social strategies, Marketing Campaign Idea, marketi…]",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Strategy",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-07-11"
+    },
+    {
       "id": "SIG-016",
       "title": "Financial Model v1.0 built (.xlsx)",
       "description": "Revenue/cost/margin model w/ tax-inclusive net-per-sale. v1.0 xlsx deemed unusable + replaced at SIG31 by Financial Model v2.0 (3-step: v1.0 archived → v2.0 in Final → v1.0 purged). Canonical now = interactive HTML tool (live what-if) + Excel v2.0 (statements). Dormant-user auto-pause modeling still pending (SIG-032).",
@@ -12650,6 +12682,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 11, 2026 · 6:24 AM CEST",
-  "published_at_iso": "2026-07-11T06:24:47+0200"
+  "published_at": "July 11, 2026 · 8:25 AM CEST",
+  "published_at_iso": "2026-07-11T08:25:04+0200"
 }
