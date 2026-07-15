@@ -717,7 +717,7 @@
     {
       "id": "SIG-261",
       "title": "🔴 Free-tier ad revenue fails the independent-value test → Financial Model",
-      "description": "Added 2026-07-15 (SIG-259). Verbatim: *\"sell advertising... on any page or screen that contains YouTube API Data unless other data... not obtained from YouTube appears on the same page and offers enough independent value to justify such sales if the YouTube API Data were removed.\"* A Signal feed with the videos removed is an empty page → free-tier AdSense appears to fail outright. If the model is \"free = ad-supported / paid = ad-free\", both halves break. Re-plan free-tier revenue. Pairs with SIG-032 (Financial Model v1.0→v2.0, already Doing). Source: BLOCKER-SWEEP §2b.",
+      "description": "Added 2026-07-15 (SIG-259). Verbatim: *\"sell advertising... on any page or screen that contains YouTube API Data unless other data... not obtained from YouTube appears on the same page and offers enough independent value to justify such sales if the YouTube API Data were removed.\"* A Signal feed with the videos removed is an empty page → free-tier AdSense appears to fail outright. If the model is \"free = ad-supported / paid = ad-free\", both halves break. Re-plan free-tier revenue. Pairs with SIG-032 (Financial Model v1.0→v2.0, already Doing). Source: BLOCKER-SWEEP §2b. [SIG-260 2026-07-15]: R…",
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -761,7 +761,7 @@
       "executor_list": [
         "THEMIS"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -3181,7 +3181,7 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -13632,6 +13632,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 15, 2026 · 6:59 PM CEST",
-  "published_at_iso": "2026-07-15T18:59:57+0200"
+  "published_at": "July 16, 2026 · 1:00 AM CEST",
+  "published_at_iso": "2026-07-16T01:00:20+0200"
 }
