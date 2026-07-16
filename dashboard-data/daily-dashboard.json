@@ -5298,6 +5298,38 @@
       "first_seen": "2026-07-01"
     },
     {
+      "id": "MOS-T-069",
+      "title": "Filter what you feed your mind",
+      "description": "🆕 Raw — from cap-mrlpndl604e — Start this video with this monk uses an analogy of asking questions related to if someone has a kitchen if they have a sink do they have a filter on that sink and most people do to keep out the crap from clogging up the… [tags: Brand positioning, Content ideas for blogs and posting, For…]",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "prov": "capture",
+      "review": "r-raw",
+      "review_label": "Raw",
+      "kind": "tasks",
+      "first_seen": "2026-07-16"
+    },
+    {
       "id": "SIG-034",
       "title": "Pre-Build Checklist v1.0 → v1.1 re-eval",
       "description": "Paired with SIG-033: re-evaluate whether the planned operational-checklist v1.1 patch is required. RE-EVAL MEMO done 2026-06-26 (autonomous) → recommends v1.1 PATCH NEEDED (the gating decisions have since landed): OQ-OPS-01 (entity = Wolf Ventures LLC) + OQ-OPS-03 (Apple kept on critical path; web launch = no App Store review) both resolved 06-24; §9 timeline ~6 wks stale. One genuine content correction: §4 email topology — v1.0 specs Cloudflare Email Routing but Google Workspace email is now live; Wolf to confirm canonical for @maxxsignal.com before the patch. Memo: _Working/SIG-034_PreBuild…",
@@ -13632,6 +13664,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 16, 2026 · 1:00 AM CEST",
-  "published_at_iso": "2026-07-16T01:00:20+0200"
+  "published_at": "July 16, 2026 · 10:06 AM CEST",
+  "published_at_iso": "2026-07-16T10:06:34+0200"
 }
