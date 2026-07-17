@@ -767,6 +767,32 @@
       "first_seen": "2026-07-15"
     },
     {
+      "id": "SIG-270",
+      "title": "YouTube API Compliance Spec (MSIG-BUILD-API-COMPLIANCE-0001)",
+      "description": "Added 2026-07-17 (autonomous stand-up). Item #10 of the API architecture plan §9 — the audit prerequisite that had no row until today (anti-slip catch). The build spec for every non-negotiable YouTube obligation, each traced to a verbatim clause fetched live 2026-07-17: C-1 privacy policy as a gate before the first API call (9 sub-clauses) · C-2 7-day deletion ×3 triggers + the \"this doesn't touch YouTube\" disclaimer · C-3 the 30-day delete-or-refresh as a data-layer invariant · C-4 per-element YouTube attribution · C-5 Made-For-Kids lookup on every embed (distinct from SIG-263's §J question…",
+      "status": "s-doing",
+      "priority": "p-p0",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-17"
+    },
+    {
       "id": "SIG-076",
       "title": "Privacy Policy + Terms of Service",
       "description": "Author privacy policy (aggressively pro-privacy, public data policy) + ToS; required for App Store + launch. Claude drafts; Wolf reviews / counsel as needed.",
@@ -3237,6 +3263,32 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-15"
+    },
+    {
+      "id": "SIG-271",
+      "title": "Per-element YouTube attribution",
+      "description": "Added 2026-07-17 (SIG-270 finding). Verbatim §III.F.2.a: an API Client showing YouTube content and other sources on the same page *\"cannot provide one general set of attribution\"* — and §III.F.2.b: non-YouTube content *\"must not be shown in a way that suggests that the content is originating from YouTube.\"* That describes the SIG-240 feed (Signal-authored value cards interleaved between YouTube videos) — which is also the SIG-261 ad-eligibility mitigation and the audit's independent-value evidence, so it can't be dropped. The fix is design, not architecture: make the seams visible — YouTube B…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-17"
     },
     {
       "id": "SIG-077",
@@ -13664,6 +13716,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 16, 2026 · 10:06 AM CEST",
-  "published_at_iso": "2026-07-16T10:06:34+0200"
+  "published_at": "July 17, 2026 · 10:07 AM CEST",
+  "published_at_iso": "2026-07-17T10:07:28+0200"
 }
