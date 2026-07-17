@@ -6234,6 +6234,46 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "CF-HYGIENE-CLUSTER-PASS-1",
+      "title": "Run ONE focused off-peak pass over the ~16 Bucket-A doc-hygiene amendment rows (CF-PM2-3/-4, CF-PM4a-4, CF-PM…",
+      "description": "Run ONE focused off-peak pass over the ~16 Bucket-A doc-hygiene amendment rows (CF-PM2-3/-4, CF-PM4a-4, CF-PM4b-8, CF-PM4d-1/-5, CF-PM5a-1/-3/-4, CF-PM5d-5, CF-PM5h-3-B/-L/-P, CF-ORCH-LOCK-1) + verify-and-close the remaining Bucket-D items (CF-PM2-8, CF-PM4a-3, CF-CAPTURE-PROMOTION-FIRSTRUN-VERIFY-1, CF-SPRINT-CLOSE-2, CF-BRAIN2-5). Anti-slip §5.4.1 tracked home for the deferred sweep work. Guided by _MAXX_OS/Research/nightly-batch/2026-07-17/CF-BACKLOG-SWEEP-classification.md.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Hygiene",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Off-peak / next autonomous wind…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-07-17"
+    },
+    {
+      "id": "CF-SONNET5-LADDER-REWEIGH-1",
+      "title": "Re-weigh the Haiku/Sonnet/Opus model ladder net of Sonnet 5 (now Claude Code default",
+      "description": "Re-weigh the Haiku/Sonnet/Opus model ladder net of Sonnet 5 (now Claude Code default; near-Opus-4.8 quality, cheaper, 1M ctx — BUT new tokenizer bills up to +35% tokens). Update model-selection memory. From APOLLO 2026-07-13 weekly scan (Stage-3-reviewed at this standup).",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Hygiene",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next model-ladder / hygiene tou…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-07-17"
+    },
+    {
       "id": "CF-PM2-3",
       "title": "Template §16 amendment",
       "description": "Template §16 amendment — Path Conventions (case convention + symlink pattern)",
@@ -11696,6 +11736,26 @@
       "first_seen": "2026-07-15"
     },
     {
+      "id": "CF-COWORK-CLOUD-REEVAL-1",
+      "title": "[✅ Done 2026-07-17",
+      "description": "[✅ Done 2026-07-17 — verdict KEEP THE RIG: native Cowork Cloud scheduled tasks can't reach local folders when the Mac is closed (Anthropic docs), so the GitHub-substrate mirror stays load-bearing for the unattended nightly lane; Cowork Cloud complements (attended-from-anywhere) but does not replace. Refinement adopted → official GitHub MCP as the mirror's auth path (see CAP-0053 Built/Live). Report: _MAXX_OS/Research/cowork-cloud-runtime-reeval-2026-07-17/FINDINGS.md.]",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Research",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "—",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-07-17"
+    },
+    {
       "id": "CF-AUTOMATION-GATING-1",
       "title": "Fix scheduled-task approval-gating that stalled the chain (Risk/cadence)",
       "description": "Fix scheduled-task approval-gating that stalled the chain (Risk/cadence). Root cause: the Stage 2 synthesis paused on an interactive approval (artifact creation) while Wolf was away, so the dependent Stage 4 had nothing complete to act on. Done this Stage 4: rewrote Stage 2 + Stage 4 prompts so unattended runs never block (artifact deferred when unattended; Stage 4 silent no-op instead of blocking AskUserQuestion); nightly hygiene task is alert-only. Remaining (Wolf, 1 click): click \"Run now\" once on hive-mind-stage2-mission-control-synthesis to pre-approve the artifact tool — approvals are s…",
@@ -13776,6 +13836,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 17, 2026 · 12:07 PM CEST",
-  "published_at_iso": "2026-07-17T12:07:42+0200"
+  "published_at": "July 17, 2026 · 2:56 PM CEST",
+  "published_at_iso": "2026-07-17T14:56:59+0200"
 }
