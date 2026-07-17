@@ -3181,32 +3181,6 @@
       "first_seen": "2026-07-15"
     },
     {
-      "id": "SIG-264",
-      "title": "Curation Engine re-architecture",
-      "description": "Added 2026-07-15 (SIG-259). The 11 decision-free spec changes from _Working/SIGNAL_API-ARCHITECTURE_PLAN_v0_1_2026-07-15.md §9: delete §4.6 Layer 2 (5-project pool = ToS violation, \"sharding\") · §4.5/§4.7 search-harvest → graph traversal + PubSubHubbub push · §8 Give Me More → local corpus · new §8B Filtered Search → local corpus · §9 corpus + 30-day rolling refresh as a hard data-layer constraint · §11 cost model rebuilt (flat in user count) · §3.2/§6.7/§7.4 the nine caps redlines + signalChannelId/ytChannelId split · Taxonomy §8 weekly cron → monthly-full + weekly-rotating (74%→17% of searc…",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "8h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Auto",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-07-15"
-    },
-    {
       "id": "SIG-265",
       "title": "Verify the ~100/day search.list cap directly with Google",
       "description": "Added 2026-07-15 (SIG-259). The ~100 search.list calls/day cap (separate bucket since 1 Jun 2026, no longer purchasable with units) is stated on two Google pages dated 2026-06-01 and 2026-06-24 — and contradicted by Google's own Quota Calculator (stale, 2026-04-28). Every seeding-cadence number in the new architecture rests on it. The architecture holds either way (only the re-seed cadence retunes) but the number must be confirmed before locking. Ask Google directly at audit contact; also ask whether the search bucket can be raised at all, since units no longer govern it and the docs don't sa…",
@@ -3307,6 +3281,58 @@
       ],
       "autonomy": "Auto",
       "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-17"
+    },
+    {
+      "id": "SIG-272",
+      "title": "Data Model v1.4.2 -> v1.5 (corpus + Signal-channel entity + seen-ledger + channelId split)",
+      "description": "Added 2026-07-17 (SIG-264 closeout). Update Data Model to match Curation Engine v1.3: NEW corpus/{videoId} (§9.8, refreshDueAt invariant) · NEW signalChannels entity (user-built channel — no schema, carried 4 stand-ups) · ytChannelId/signalChannelId split · seen-ledger · single-project quotaTracking (two budgets) · caps M1-M9 tier fields · demote candidateCache. Owns 04_Build/Final/MAXX_Signal_Data_Model_v1_4_2.md; Three-Step. Opener: _Working/SIGNAL-DATA-MODEL-v1_5_OPENER_2026-07-17.md. RECOMMENDED FIRST.",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-17"
+    },
+    {
+      "id": "SIG-273",
+      "title": "Taxonomy comprehensiveness review + v1.1 -> v1.2 (deepen tree + §8 cadence)",
+      "description": "Added 2026-07-17 (SIG-264 closeout). Deep-research the tree vs IAB v3 / YouTube / Apple News / Kagi; map gaps; go deeper + more comprehensive (Wolf: current 12/70/190 too lean). Progressive depth — onboarding easy (top cats/subcats); L3/L4 entity depth (e.g. Pokémon) lives backend/channel-building. Apply v1.3 §8 cadence amendment (monthly-full + weekly-rotating; Stage-3-per-mode; §16->§4.5A). Deliver reviewable tree for Wolf. Owns 02_Product/Final/MSIG-UX-CATEGORY-TAXONOMY-0001. Opener: _Working/SIGNAL-TAXONOMY-COMPREHENSIVENESS_OPENER_2026-07-17.md.",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-17"
     },
@@ -5920,6 +5946,58 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-15"
+    },
+    {
+      "id": "SIG-274",
+      "title": "Transcripts + AI Summaries",
+      "description": "Added 2026-07-17 (SIG-264 closeout). Wolf: transcripts + AI summaries ARE launch (reverses 07-03 Phase-1.5 deferral; aligns SIG-228 paywall). Research caption mechanics (ASR) + compliant access path (official captions.download owner-only -> third-party = timedtext/InnerTube = §1201 gray area) + provider comparison (Supadata vs alts) + AI-summary pipeline. Legal posture -> SIG-269 packet. Feature spec (per-video transcript + summary; 10/20/40 daily meter). Opener: _Working/SIGNAL-TRANSCRIPTS-AISUMMARIES_OPENER_2026-07-17.md.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-17"
+    },
+    {
+      "id": "SIG-275",
+      "title": "Platform-algorithm research synthesis (YouTube/TikTok/IG/X/Pinterest/etc.)",
+      "description": "Added 2026-07-17 (SIG-264 closeout). Deep-research harness COMPLETE (YouTube/X/Instagram/Pinterest verified via primary sources + Mozilla harm data; TikTok/Spotify/Reddit/Netflix + synthesis flagged as verification gaps). Synthesis PENDING: comparison grid + what-to-AVOID (engagement-max mechanisms) + what-to-BORROW mapped to Signal floors, split launch-engine vs Crowd-Signal-v2. Deliver report + comparison visual for Wolf. Informs Crowd Signal v2 / DELPHI.",
+      "status": "s-doing",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-17"
     },
     {
       "id": "SIG-160",
@@ -9361,6 +9439,84 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "SIG-276",
+      "title": "Signal Sparks",
+      "description": "Added 2026-07-17. Signal's own library of positive/motivational/mindfulness (+ uplifting humor) cards; backgrounds x words composition engine -> infinite unique cards (never scraped); view/save-to-channel/like/tag; own curation adapter on the reusable spine (NOT in the video engine doc); Signal-page Motivation section w/ owner-vs-visitor display. Name LOCKED \"Signal Sparks.\" Running in a separate chat. Opener: _Working/SIGNAL-SPARKS_OPENER_2026-07-17.md. Ref: _Inbox/MOTIVATION APP- SPARKS/ (motivation.app).",
+      "status": "s-doing",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "2-1",
+      "deadline_label": "Phase B2",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-17"
+    },
+    {
+      "id": "SIG-277",
+      "title": "Website \"wow\" Curation-Engine graphic (IP-safe, brain-with-layers)",
+      "description": "Added 2026-07-17. Striking animated/static graphic of the engine for website + social — layers in the sophistication WITHOUT revealing IP/mechanics (anti-copycat CF-SIG35-4). North-star: Wolf's Solitaire \"Anatomy of Behavioral Intelligence\" brain infographic. Distinct from the internal how-it-works visual (that one is IP-exposing). Seed: _Working/SIGNAL_WEBSITE-ENGINE-GRAPHIC_task-seed_2026-07-17.md.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "2-1",
+      "deadline_label": "Phase B2",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-07-17"
+    },
+    {
+      "id": "SIG-278",
+      "title": "Signal+ Spaces",
+      "description": "Added 2026-07-17. The Topic modality as premium Signal+ spaces on a Signal page; AI-original artifacts first (clean + premium), web/news aggregation later (per-source terms + copyright diligence, CF-SIG259-5). Future-page mockup (6-12mo) with News/websites/articles/books/images/social + Google-like search-and-curate. Own dedicated chat. Seed: _Working/SIGNAL_FUTURE-CONTENT-MODULES_seed_2026-07-16.md.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-17"
+    },
+    {
       "id": "SIG-045",
       "title": "Apple Developer Program enrollment (Organization)",
       "description": "Enroll as Organization ($99/yr) (Checklist §5). Apple review is an external wait; report to Claude on approval before proceeding.",
@@ -12622,6 +12778,32 @@
       "first_seen": "2026-07-11"
     },
     {
+      "id": "SIG-264",
+      "title": "Curation Engine re-architecture",
+      "description": "Added 2026-07-15 (SIG-259). The 11 decision-free spec changes from _Working/SIGNAL_API-ARCHITECTURE_PLAN_v0_1_2026-07-15.md §9: delete §4.6 Layer 2 (5-project pool = ToS violation, \"sharding\") · §4.5/§4.7 search-harvest → graph traversal + PubSubHubbub push · §8 Give Me More → local corpus · new §8B Filtered Search → local corpus · §9 corpus + 30-day rolling refresh as a hard data-layer constraint · §11 cost model rebuilt (flat in user count) · §3.2/§6.7/§7.4 the nine caps redlines + signalChannelId/ytChannelId split · Taxonomy §8 weekly cron → monthly-full + weekly-rotating (74%→17% of searc…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-15"
+    },
+    {
       "id": "SIG-162",
       "title": "Launch Mechanics session (waitlist + founding-member pre-order + early-tester beta + PR/posting list)",
       "description": "SIG28 (2026-06-07): Shipped the full launch spine — 7-phase funnel (Survey→Beta→Waitlist→Pre-order→Kickstarter→Launch→Steady). Waitlister engine; 2-for-1 giftable pre-order + viral-army gift flow (email+SMS capture); 3-tier Ambassador (25/40) + stackable badges; concept test (CareAngel template + Van Westendorp/Gabor-Granger); ~30d beta + PMF≥40% gate; KS pre-launch ~T-60 funds the build (stretch=iOS/Europe/modules); PR/pitch list; trackable-links + demo gate; runway. Canonical draft _Working/SIG28_Launch_Mechanics_Plan_v0_1_DRAFT; formal promotion → SIG-177.",
@@ -13836,6 +14018,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 17, 2026 · 2:56 PM CEST",
-  "published_at_iso": "2026-07-17T14:56:59+0200"
+  "published_at": "July 17, 2026 · 8:57 PM CEST",
+  "published_at_iso": "2026-07-17T20:57:21+0200"
 }
