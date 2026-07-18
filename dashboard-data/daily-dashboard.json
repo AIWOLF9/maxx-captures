@@ -3210,15 +3210,15 @@
       "id": "SIG-266",
       "title": "Filters-not-scores Stage 3 + smallCreatorBoost as slot reservation",
       "description": "Added 2026-07-15 (SIG-259). Derived-metrics policy prohibits *\"a score that factors in likes, total views, or any other API Data\"* (their example = our §5.6 \"Total Score Formula\"). Wolf-locked reframe: ship filters + slot reservation, not a composite score. subscriberCount < 10,000 AND viewCount > 100,000 = two thresholds on two existing fields, zero arithmetic → catches breakout small creators with no derived metric. Reserve ~20% of feed slots for that bucket (our rule, no API data). Sort by viewCount/publishedAt (existing fields) ✅; views ÷ days ❌. Keep the spam guard (channel <90d + >100 u…",
-      "status": "s-todo",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Product",
       "venture": "v-signal",
       "deadline": "1-1",
       "deadline_label": "Phase P1",
       "deadline_class": "d-future",
-      "effort_mc": "4h",
-      "effort_wolf": null,
+      "effort_mc": "1h",
+      "effort_wolf": "0.5h",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
@@ -3227,7 +3227,7 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -14018,6 +14018,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 17, 2026 · 8:57 PM CEST",
-  "published_at_iso": "2026-07-17T20:57:21+0200"
+  "published_at": "July 18, 2026 · 10:58 AM CEST",
+  "published_at_iso": "2026-07-18T10:58:01+0200"
 }
