@@ -5950,8 +5950,8 @@
     {
       "id": "SIG-274",
       "title": "Transcripts + AI Summaries",
-      "description": "Added 2026-07-17 (SIG-264 closeout). Wolf: transcripts + AI summaries ARE launch (reverses 07-03 Phase-1.5 deferral; aligns SIG-228 paywall). Research caption mechanics (ASR) + compliant access path (official captions.download owner-only -> third-party = timedtext/InnerTube = §1201 gray area) + provider comparison (Supadata vs alts) + AI-summary pipeline. Legal posture -> SIG-269 packet. Feature spec (per-video transcript + summary; 10/20/40 daily meter). Opener: _Working/SIGNAL-TRANSCRIPTS-AISUMMARIES_OPENER_2026-07-17.md.",
-      "status": "s-todo",
+      "description": "Added 2026-07-17 (SIG-264 closeout). Wolf: transcripts + AI summaries ARE launch (reverses 07-03 Phase-1.5 deferral; aligns SIG-228 paywall). DELIVERED 2026-07-18 (Wolf present): research found the opener's \"Supadata adopted (CF-SIG21-2)\" premise CONFLICTS with newer decisions-of-record (D-SIG259 / API-Arch §1 / API-Compliance C-8 = \"no third-party YouTube data providers, ever\"; transcripts = worst §1201 category). Wolf reconciled: Supadata OUT; fetch summaries+transcripts via the GEMINI API (direct YouTube URL = Google's own first-party access, no timedtext/§1201). Wolf decisions: both ship…",
+      "status": "s-doing",
       "priority": "p-p2",
       "segment": "Product",
       "venture": "v-signal",
@@ -5959,7 +5959,7 @@
       "deadline_label": "Phase P2",
       "deadline_class": "d-future",
       "effort_mc": "3h",
-      "effort_wolf": "1h",
+      "effort_wolf": "3h",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
@@ -6310,6 +6310,84 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
+    },
+    {
+      "id": "SIG-279",
+      "title": "Transcripts/Summaries",
+      "description": "Added 2026-07-18 (SIG-274). Promote concept mockup 03_Design/Working/mockups/S02c_summary-transcript-panels_CONCEPT_2026-07-18.html → self-contained LOCKED (local icons/fonts per feedback_self_contained_mockup_icons; both viewports), then fold the opened-panel states (summary card + transcript reader, Copy button, meter, \"AI transcript\" honesty labels, empty/error states) into MSIG-UX-SCREEN-WATCH-0001 — S02 currently mocks only the entry buttons, not what opens. Copy-only, no Save button.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-18"
+    },
+    {
+      "id": "SIG-280",
+      "title": "Data Model",
+      "description": "Added 2026-07-18 (SIG-274). Wolf: capture for the next Data Model pass (v1.5 chat just closed). Two persisted cache tables keyed by videoId: summaryByVideoId (corpus-shared; videoId·summaryText·modelVersion·promptVersion·generatedAt) + transcriptByVideoId (per-video; videoId·segments·modelVersion·generatedAt). Both are DERIVED text (not YouTube API Data → NOT bound by the 30-day rule); regenerate on prompt/model bump; per-user display only (no redistribution/bulk export). Source: MSIG-PROD-TRANSCRIPTS-AISUMMARIES-SPEC §3/§8.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-18"
+    },
+    {
+      "id": "SIG-281",
+      "title": "Transcripts/Summaries",
+      "description": "Added 2026-07-18 (SIG-274). VULCAN: implement the pipeline in MSIG-PROD-TRANSCRIPTS-AISUMMARIES-SPEC — Gemini generateContent with YouTube URL (paid tier, low media res), meter check (10/20/40 · 5/10/30 · Free 0, per-user·day·type), DB cache read/write (SIG-280), optimized summary prompt (§5.1), transcript find + Copy, analytics events. Confirm Gemini context-caching for URL video parts at build.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-18"
     },
     {
       "id": "CF-HYGIENE-CLUSTER-PASS-1",
@@ -9515,6 +9593,58 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-17"
+    },
+    {
+      "id": "SIG-282",
+      "title": "Research Mode",
+      "description": "Added 2026-07-18 (SIG-274, Wolf insight). Fast-follow (near-free — summaries already cached per video): surface channel-level \"Summaries\" = read the gist of every video in a topic without watching hours (Wolf's own multi-video research workflow). B2B/entrepreneur pitch: \"research a subject without watching umpteen hours.\" Route positioning → GTM/PRD/HERMES (waitlist, onboarding, sales). Consumer wedge = one-tap in-context vs manual Gemini copy-paste.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Post-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-18"
+    },
+    {
+      "id": "SIG-283",
+      "title": "Signal Studio",
+      "description": "Added 2026-07-18 (Wolf idea, SIG-274 chat). Value-ladder top rung: from a video's summary/transcript → ask questions + generate assets (deck / infographic / image) via Google/Gemini/Imagen (NotebookLM-analog Wolf already does manually). Two levels: (1) individual/video-level (single video → ask+create; clean — same Gemini first-party path); (2) full Signal Studio (multi-source: many videos+assets, later Sparks/News → create; hits CF-SIG259-5 cross-modality wall). Monetize as a new higher tier (\"Signal Ultra\"), ~3–6mo post-launch. May be the creation engine *inside* Signal+ Spaces (SIG-278) —…",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-18"
     },
     {
       "id": "SIG-045",
@@ -14018,6 +14148,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 18, 2026 · 10:58 AM CEST",
-  "published_at_iso": "2026-07-18T10:58:01+0200"
+  "published_at": "July 18, 2026 · 4:37 PM CEST",
+  "published_at_iso": "2026-07-18T16:37:54+0200"
 }
