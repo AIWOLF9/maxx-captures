@@ -3311,6 +3311,32 @@
       "first_seen": "2026-07-17"
     },
     {
+      "id": "SIG-284",
+      "title": "Data Model v1.5 → v1.5.1 filter-mode fields micropatch",
+      "description": "Added 2026-07-19 (autonomous stand-up). SIG-266's launch-mode (filter) Stage 3 emits finalScore=null + filterRank/isSmallCreatorBreakout/filterFlags/smallCreatorUnderSupplyFlag + stage3.mode config — but Data Model v1.5 (SIG-272) defines none of them (v1.5 promoted the same morning SIG-266 was authored, so the field hand-off slipped past the lock). The launch-mode engine has no schema to write into. Decision-free, build-gating (SIG-052 must target v1.5.1). Paste-ready redlines DRAFTED autonomously → _Working/SIG-284_DATA-MODEL_v1_5_1_FILTER-MODE-FIELDS_paste-ready-redlines_DRAFT_2026-07-19.md…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-19"
+    },
+    {
       "id": "SIG-273",
       "title": "Taxonomy comprehensiveness review + v1.1 -> v1.2 (deepen tree + §8 cadence)",
       "description": "Added 2026-07-17 (SIG-264 closeout). Deep-research the tree vs IAB v3 / YouTube / Apple News / Kagi; map gaps; go deeper + more comprehensive (Wolf: current 12/70/190 too lean). Progressive depth — onboarding easy (top cats/subcats); L3/L4 entity depth (e.g. Pokémon) lives backend/channel-building. Apply v1.3 §8 cadence amendment (monthly-full + weekly-rotating; Stage-3-per-mode; §16->§4.5A). Deliver reviewable tree for Wolf. Owns 02_Product/Final/MSIG-UX-CATEGORY-TAXONOMY-0001. Opener: _Working/SIGNAL-TAXONOMY-COMPREHENSIVENESS_OPENER_2026-07-17.md.",
@@ -14148,6 +14174,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 18, 2026 · 4:37 PM CEST",
-  "published_at_iso": "2026-07-18T16:37:54+0200"
+  "published_at": "July 19, 2026 · 10:38 AM CEST",
+  "published_at_iso": "2026-07-19T10:38:38+0200"
 }
