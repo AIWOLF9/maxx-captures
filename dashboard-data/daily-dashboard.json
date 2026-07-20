@@ -3727,6 +3727,58 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "SIG-280",
+      "title": "Data Model v1.6",
+      "description": "Added 2026-07-20 (task-ify of SIG-274 carry-forward; reserved but unwritten per SIG-272-RECON). Add summaryByVideoId (corpus-shared) + transcriptByVideoId (per-video) cache collections so we never re-pay Gemini for the same video. Derived text — NOT bound by the 30-day corpus refresh rule; document that exception in the Data Model. Batch into ONE Data Model v1.5→v1.6 pass together with anything SIG-275 (platform-algorithm) surfaces, rather than two passes.",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-18"
+    },
+    {
+      "id": "SIG-281",
+      "title": "Transcripts + AI summaries pipeline wiring (Gemini + meter + cache + analytics)",
+      "description": "Added 2026-07-20 (task-ify of SIG-274 carry-forward; reserved but unwritten per SIG-272-RECON). VULCAN build: Gemini API call passing the YouTube URL directly (first-party access, no third-party transcript provider — Supadata OUT per SIG-274) + per-tier daily meter (Founder 10/20/40, Standard 5/10/30, Free 0) + DB cache read/write (SIG-280) + the optimized summary prompt (spec §5.1) + analytics events. Confirm Gemini context-caching for same-video Summary→Transcript cost. Spec = _Working/MSIG-PROD-TRANSCRIPTS-AISUMMARIES-SPEC_v0_1_2026-07-18.md.",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-4",
+      "deadline_label": "Phase P4",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude Code",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-18"
+    },
+    {
       "id": "CAP-0053",
       "title": "Venture-agent GitHub-write standardization + credential automation",
       "description": "Venture-agent GitHub-write standardization + credential automation. Make venture build agents (VULCAN et al.) provision + push to GitHub with zero per-session manual steps. Born from AT-VULCAN-001: the GitHub MCP connector can't do dynamic client registration (dead end), and MAXX's proven path (fine-grained PAT + REST/git via gh_put.py, CAP-0024/CAP-0042) isn't reachable by venture agents because the secret store ~/MAXX/_secrets/ is outside venture mounts (OBS-0049) and tokens get pasted per-session. Scope: (1) a portable secret store venture mounts can read (per-venture gitignored secret fil…",
@@ -6310,6 +6362,32 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
+    },
+    {
+      "id": "SIG-279",
+      "title": "Watch summary + transcript panels",
+      "description": "Added 2026-07-20 (task-ify of SIG-274 carry-forward; row reserved but unwritten per SIG-272-RECON). Lock the opened Summary + Transcript panels — take 03_Design/Working/mockups/S02c_summary-transcript-panels_CONCEPT_2026-07-18.html (mobile A/B + desktop C/D, Copy-only, meter, honesty labels) to a self-contained LOCKED mockup, then fold into MSIG-UX-SCREEN-WATCH-0001. Fills the gap S02 left (entry buttons only). Launch feature (SIG-274).",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-18"
     },
     {
       "id": "CF-HYGIENE-CLUSTER-PASS-1",
@@ -9515,6 +9593,58 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-17"
+    },
+    {
+      "id": "SIG-282",
+      "title": "Research Mode (channel-level summaries) fast-follow + GTM positioning",
+      "description": "Added 2026-07-20 (task-ify of SIG-274 carry-forward; reserved but unwritten per SIG-272-RECON). Channel-level \"summaries of every video\" so a user can research a subject without watching hours — B2B/entrepreneur pitch. Fast-follow after launch. Includes GTM positioning line. OQ from SIG-274: whether to also offer the summary as a feed value-card \"preview the gist\" (SIG-240 slot) — rec: watch-surface only at launch.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "2-0",
+      "deadline_label": "Phase B1.5",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-18"
+    },
+    {
+      "id": "SIG-283",
+      "title": "Signal Studio",
+      "description": "Added 2026-07-20 (task-ify of the memory-reserved SIG-283; anti-slip). Future creation layer: from a video (or channel corpus) the user asks questions and creates artifacts — deck / infographic / image via Gemini + Imagen — a NotebookLM-analog built on the transcript/summary substrate. Candidate \"Signal Ultra\" tier ~3–6 months post-launch; may live inside Signal+ Spaces (SIG-278). Own dedicated chat when scheduled.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-18"
     },
     {
       "id": "SIG-045",
@@ -14044,6 +14174,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 20, 2026 · 12:55 PM CEST",
-  "published_at_iso": "2026-07-20T12:55:01+0200"
+  "published_at": "July 20, 2026 · 6:59 PM CEST",
+  "published_at_iso": "2026-07-20T18:59:42+0200"
 }
