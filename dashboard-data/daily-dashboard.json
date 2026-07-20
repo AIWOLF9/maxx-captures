@@ -2949,7 +2949,7 @@
     {
       "id": "SIG-238",
       "title": "Formalize upgrade-trigger / gating map",
-      "description": "Added 2026-07-11 (SIG-228). Turn the 17-gate draft (in CAPS-DELTA §8) into a canonical doc mapping every upgrade trigger → free limit / Signal+ / paywall H1 context / event, so build wires every prompt. Resolve 2 gaps: (a) videos-per-channel = new gate, assign a context/H1 (fold under #2 or new); (b) keep-out/noise = NO gate (universal, Wolf SIG-228).",
+      "description": "Added 2026-07-11 (SIG-228). Turn the 17-gate draft (in CAPS-DELTA §8) into a canonical doc mapping every upgrade trigger → free limit / Signal+ / paywall H1 context / event, so build wires every prompt. Resolve 2 gaps: (a) videos-per-channel = new gate, assign a context/H1 (fold under #2 or new); (b) keep-out/noise = NO gate (universal, Wolf SIG-228). DRAFT authored 2026-07-20 (autonomous stand-up): _Working/MSIG-UX-GATING-MAP-0001_v0_1_DRAFT_2026-07-20.md — full 17-gate map (free limit → Founder ladder → H1 ctx → trigger → analytics event); both gaps closed. Awaiting Wolf on 2 promotion flag…",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -2957,7 +2957,7 @@
       "deadline": "1-2",
       "deadline_label": "Phase P2",
       "deadline_class": "d-future",
-      "effort_mc": "2h",
+      "effort_mc": "1h",
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -2967,7 +2967,7 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -14174,6 +14174,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 19, 2026 · 10:38 AM CEST",
-  "published_at_iso": "2026-07-19T10:38:38+0200"
+  "published_at": "July 20, 2026 · 10:39 AM CEST",
+  "published_at_iso": "2026-07-20T10:39:30+0200"
 }
