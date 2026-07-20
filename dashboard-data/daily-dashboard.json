@@ -3779,6 +3779,32 @@
       "first_seen": "2026-07-18"
     },
     {
+      "id": "SIG-287",
+      "title": "Bundling & promote-to-channel model",
+      "description": "Added 2026-07-20 (SIG-273 walkthrough). Spec the Signal Channel model: categories=filters, channels=buckets, entities (teams/players/creators) ride inside a channel or promote out. Default = bundle (one channel per pick/stopping-point; entities ride inside as sources → low channel count). Promote up-arrow = new channel seeded from a source (Tuner/Curator) → curate/pin/add-related/keep-outs/make-public → Curator program + share/growth loop + future multi-curator. Channel forms at the depth the user stops; entities inside do NOT multiply channels; cap counts stopping-points. Fits signalChannels…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-20"
+    },
+    {
       "id": "CAP-0053",
       "title": "Venture-agent GitHub-write standardization + credential automation",
       "description": "Venture-agent GitHub-write standardization + credential automation. Make venture build agents (VULCAN et al.) provision + push to GitHub with zero per-session manual steps. Born from AT-VULCAN-001: the GitHub MCP connector can't do dynamic client registration (dead end), and MAXX's proven path (fine-grained PAT + REST/git via gh_put.py, CAP-0024/CAP-0042) isn't reachable by venture agents because the secret store ~/MAXX/_secrets/ is outside venture mounts (OBS-0049) and tokens get pasted per-session. Scope: (1) a portable secret store venture mounts can read (per-venture gitignored secret fil…",
@@ -6388,6 +6414,32 @@
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-18"
+    },
+    {
+      "id": "SIG-286",
+      "title": "Top-lists / entity refresh-cadence policy",
+      "description": "Added 2026-07-20 (SIG-273 walkthrough). Formalize refresh cadence for volatile top-X entity lists (athletes, artists, shows, celebrities, games): live/timely (news, trends, live sports) · monthly (music, movies/TV, gaming, celebrity, pop culture, podcasts) · quarterly + event-triggered (athletes/breakouts — after World Cup/playoffs/Grand Slams/fights/awards/game launches) · evergreen yearly (history, philosophy, foundational science, how-to, arts canon, faith). Piggybacks on Curation Engine §8 monthly-full+weekly-rotating; search covers the long tail so refresh = keeping suggestions current,…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-20"
     },
     {
       "id": "CF-HYGIENE-CLUSTER-PASS-1",
@@ -9645,6 +9697,32 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-18"
+    },
+    {
+      "id": "SIG-285",
+      "title": "YouTube Community Posts research (why/value + Sparks/value-card mapping)",
+      "description": "Added 2026-07-20 (SIG-273 taxonomy walkthrough, Wolf). Research why YouTube built Community Posts, their value, and their growing share of non-video content; map to Signal Sparks (SIG-276) + feed value-cards (SIG-240). Ref: Wolf's Instagram quote-posting analogy; the static-card format as a curation/contribution surface. Future/separate research.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Research",
+      "venture": "v-signal",
+      "deadline": "2-1",
+      "deadline_label": "Phase B2",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "APOLLO",
+      "executor_list": [
+        "APOLLO"
+      ],
+      "autonomy": "Auto",
+      "department": "Research",
+      "kind": "tasks",
+      "first_seen": "2026-07-20"
     },
     {
       "id": "SIG-045",
@@ -14174,6 +14252,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 20, 2026 · 6:59 PM CEST",
-  "published_at_iso": "2026-07-20T18:59:42+0200"
+  "published_at": "July 20, 2026 · 11:00 PM CEST",
+  "published_at_iso": "2026-07-20T23:00:02+0200"
 }
