@@ -6442,6 +6442,84 @@
       "first_seen": "2026-07-20"
     },
     {
+      "id": "SIG-288",
+      "title": "Books & Audiobooks \"Go deeper\" affiliate module",
+      "description": "Added 2026-07-20 (SIG-273 walkthrough, Wolf). Per-topic \"Go deeper -> books & Audible\" module under any channel/subject. Amazon Associates (Wolf signs up + buys ~3 books to clear the PA-API sales bar) for buy links + Audible (Amazon-owned); Google Books / Open Library API for free display metadata (cover/title/author). Framed as learn-deeper, NOT a shopping feed (consistent with the deliberate Shopping exclusion). Launch = search-link; post-launch = native cards (Spaces SIG-278). Also feeds the SIG-261 independent-value test. Mock: _Working concept 2026-07-20.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "2-0",
+      "deadline_label": "Phase B1.5",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "id": "SIG-289",
+      "title": "Taxonomy keyword-enrichment (real demand data)",
+      "description": "Added 2026-07-20 (SIG-273 walkthrough). Run the ~500 taxonomy nodes through keyword tools to (1) prioritize onboarding surfacing by real demand, (2) enrich nodes with aliases/synonyms for search + matching, (3) find missing high-volume nodes (gaps), (4) supply the multi-modal tabs' search queries, (5) SEO for website topic pages. Sources: Ahrefs (already connected -> start here), Google Ads Keyword Planner (Wolf has a funded account under another email -> Keyword Planner CSV export, no API needed; API optional later), YouTube search autocomplete (most YT-relevant).",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "id": "SIG-290",
+      "title": "Multi-modal channel tabs + search-the-web (Videos / News / Books / Web / Images)",
+      "description": "Added 2026-07-20 (SIG-273 walkthrough, Wolf -- the Google-tabs subject-hub vision). Channel/subject page gains tabs beyond Videos: News (headlines), Books (SIG-288), Web-search, Images (Arts/reference). Search-the-web: launch = free link-out to Google/Bing (new tab, $0); post-launch = in-app via Gemini API (metered Signal+ feature, like transcripts/summaries) or cheaper AI-search (Brave/Exa/Tavily). Social tabs (X/IG/TikTok) = search-link only (API cost/terms). The taxonomy node is the spine assembling all modalities per subject. This IS Signal+ Spaces (SIG-278) fleshed out.",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "2-0",
+      "deadline_label": "Phase B1.5",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-21"
+    },
+    {
       "id": "CF-HYGIENE-CLUSTER-PASS-1",
       "title": "Run ONE focused off-peak pass over the ~16 Bucket-A doc-hygiene amendment rows (CF-PM2-3/-4, CF-PM4a-4, CF-PM…",
       "description": "Run ONE focused off-peak pass over the ~16 Bucket-A doc-hygiene amendment rows (CF-PM2-3/-4, CF-PM4a-4, CF-PM4b-8, CF-PM4d-1/-5, CF-PM5a-1/-3/-4, CF-PM5d-5, CF-PM5h-3-B/-L/-P, CF-ORCH-LOCK-1) + verify-and-close the remaining Bucket-D items (CF-PM2-8, CF-PM4a-3, CF-CAPTURE-PROMOTION-FIRSTRUN-VERIFY-1, CF-SPRINT-CLOSE-2, CF-BRAIN2-5). Anti-slip §5.4.1 tracked home for the deferred sweep work. Guided by _MAXX_OS/Research/nightly-batch/2026-07-17/CF-BACKLOG-SWEEP-classification.md.",
@@ -9723,6 +9801,32 @@
       "department": "Research",
       "kind": "tasks",
       "first_seen": "2026-07-20"
+    },
+    {
+      "id": "SIG-291",
+      "title": "Shopping / contextual considered-purchase affiliate (POST-LAUNCH)",
+      "description": "Added 2026-07-20 (SIG-273 walkthrough, Wolf -- reopens the launch-scope Shopping exclusion as a careful post-launch OPTION). Subject-scoped, user-initiated affiliate options (Amazon Associates; Google Shopping later) contextual to a channel the user already chose -- framed as helpful options (books + considered purchases), NEVER an impulse/deals feed. Guardrail: no manufactured wants; preserves the anti-consumption-pressure differentiation. Design/discuss post-launch. Revises the A5 Shopping-exclusion only as a post-launch add, not launch.",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "2-1",
+      "deadline_label": "Phase B2",
+      "deadline_class": "d-future",
+      "effort_mc": "--",
+      "effort_wolf": "--",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-21"
     },
     {
       "id": "SIG-045",
@@ -14252,6 +14356,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 21, 2026 · 11:00 AM CEST",
-  "published_at_iso": "2026-07-21T11:00:40+0200"
+  "published_at": "July 21, 2026 · 6:08 PM CEST",
+  "published_at_iso": "2026-07-21T18:08:54+0200"
 }
