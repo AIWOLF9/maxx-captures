@@ -795,7 +795,7 @@
     {
       "id": "SIG-076",
       "title": "Privacy Policy + Terms of Service",
-      "description": "Author privacy policy (aggressively pro-privacy, public data policy) + ToS; required for App Store + launch. Claude drafts; Wolf reviews / counsel as needed.",
+      "description": "Author privacy policy (aggressively pro-privacy, public data policy) + ToS; required for App Store + launch. Claude drafts; Wolf reviews / counsel as needed. 2026-07-21 (autonomous): §C-1 drafting pass DONE — 08_Legal/Draft/MSIG-LEGAL-PRIVACY-POLICY-0001_v0_1_DRAFT_2026-07-21.md. Full policy skeleton with the YouTube-facing half authored to depth: all nine C-1 sub-clauses satisfied + traced in an audit checklist (§15); data inventory §3 traced 1:1 to Data Model v1.5 §3.1/§3.3 (nothing invented); C-2 deletion + the mandatory \"this doesn't touch YouTube\" disclaimer (§9); C-3 30-day rule; C-5 Ma…",
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Legal",
@@ -813,7 +813,7 @@
       "executor_list": [
         "THEMIS"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": null
@@ -14252,6 +14252,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 20, 2026 · 11:00 PM CEST",
-  "published_at_iso": "2026-07-20T23:00:02+0200"
+  "published_at": "July 21, 2026 · 11:00 AM CEST",
+  "published_at_iso": "2026-07-21T11:00:40+0200"
 }
