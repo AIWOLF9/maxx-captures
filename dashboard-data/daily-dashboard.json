@@ -3313,8 +3313,8 @@
     {
       "id": "SIG-273",
       "title": "Taxonomy comprehensiveness review + v1.1 -> v1.2 (deepen tree + §8 cadence)",
-      "description": "Added 2026-07-17 (SIG-264 closeout). Deep-research the tree vs IAB v3 / YouTube / Apple News / Kagi; map gaps; go deeper + more comprehensive (Wolf: current 12/70/190 too lean). Progressive depth — onboarding easy (top cats/subcats); L3/L4 entity depth (e.g. Pokémon) lives backend/channel-building. Apply v1.3 §8 cadence amendment (monthly-full + weekly-rotating; Stage-3-per-mode; §16->§4.5A). Deliver reviewable tree for Wolf. Owns 02_Product/Final/MSIG-UX-CATEGORY-TAXONOMY-0001. Opener: _Working/SIGNAL-TAXONOMY-COMPREHENSIVENESS_OPENER_2026-07-17.md.",
-      "status": "s-todo",
+      "description": "Added 2026-07-17 (SIG-264 closeout). Deep-research the tree vs IAB v3 / YouTube / Apple News / Kagi; map gaps; go deeper + more comprehensive (Wolf: current 12/70/190 too lean). Progressive depth — onboarding easy (top cats/subcats); L3/L4 entity depth (e.g. Pokémon) lives backend/channel-building. Apply v1.3 §8 cadence amendment (monthly-full + weekly-rotating; Stage-3-per-mode; §16->§4.5A). Deliver reviewable tree for Wolf. Owns 02_Product/Final/MSIG-UX-CATEGORY-TAXONOMY-0001. Opener: _Working/SIGNAL-TAXONOMY-COMPREHENSIVENESS_OPENER_2026-07-17.md.  [2026-07-20] Full 19-section walkthrough…",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Product",
       "venture": "v-signal",
@@ -14356,6 +14356,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 21, 2026 · 6:08 PM CEST",
-  "published_at_iso": "2026-07-21T18:08:54+0200"
+  "published_at": "July 21, 2026 · 9:40 PM CEST",
+  "published_at_iso": "2026-07-21T21:40:14+0200"
 }
