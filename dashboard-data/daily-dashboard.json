@@ -6284,32 +6284,6 @@
       "first_seen": "2026-07-21"
     },
     {
-      "id": "SIG-289",
-      "title": "Taxonomy keyword-enrichment (real demand data)",
-      "description": "Added 2026-07-20 (SIG-273 walkthrough). Run the ~500 taxonomy nodes through keyword tools to (1) prioritize onboarding surfacing by real demand, (2) enrich nodes with aliases/synonyms for search + matching, (3) find missing high-volume nodes (gaps), (4) supply the multi-modal tabs' search queries, (5) SEO for website topic pages. Sources: Ahrefs (already connected -> start here), Google Ads Keyword Planner (Wolf has a funded account under another email -> Keyword Planner CSV export, no API needed; API optional later), YouTube search autocomplete (most YT-relevant).",
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "1.5h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Auto",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-07-21"
-    },
-    {
       "id": "SIG-290",
       "title": "Multi-modal channel tabs + search-the-web (Videos / News / Books / Web / Images)",
       "description": "Added 2026-07-20 (SIG-273 walkthrough, Wolf -- the Google-tabs subject-hub vision). Channel/subject page gains tabs beyond Videos: News (headlines), Books (SIG-288), Web-search, Images (Arts/reference). Search-the-web: launch = free link-out to Google/Bing (new tab, $0); post-launch = in-app via Gemini API (metered Signal+ feature, like transcripts/summaries) or cheaper AI-search (Brave/Exa/Tavily). Social tabs (X/IG/TikTok) = search-link only (API cost/terms). The taxonomy node is the spine assembling all modalities per subject. This IS Signal+ Spaces (SIG-278) fleshed out.",
@@ -14293,6 +14267,32 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "SIG-289",
+      "title": "Taxonomy keyword-enrichment (real demand data)",
+      "description": "Added 2026-07-20 (SIG-273 walkthrough). Run the ~500 taxonomy nodes through keyword tools to (1) prioritize onboarding surfacing by real demand, (2) enrich nodes with aliases/synonyms for search + matching, (3) find missing high-volume nodes (gaps), (4) supply the multi-modal tabs' search queries, (5) SEO for website topic pages. Sources: Ahrefs (already connected -> start here), Google Ads Keyword Planner (Wolf has a funded account under another email -> Keyword Planner CSV export, no API needed; API optional later), YouTube search autocomplete (most YT-relevant). DONE 2026-07-22 (SIG-289):…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-21"
+    },
+    {
       "id": "CF-PM5f-1",
       "title": "Wolf-Finder cleanup of 5 pre-PPB legacy folders at ~/MAXX/SOLITAIRE/ root (Canonical/, Reference/, Research/,…",
       "description": "Wolf-Finder cleanup of 5 pre-PPB legacy folders at ~/MAXX/SOLITAIRE/ root (Canonical/, Reference/, Research/, Transcripts/, Working/). Empty placeholder folders from pre-Pure-Path-B setup; Cowork bash rmdir blocked by Drive sync state (same as CF-PM5d-1 Signal precedent). Empty and harmless; no functional conflict with Pure Path B numbered departments + _Transcripts//_Research//_Working/ (with leading underscores).",
@@ -14434,6 +14434,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 22, 2026 · 2:23 PM CEST",
-  "published_at_iso": "2026-07-22T14:23:21+0200"
+  "published_at": "July 22, 2026 · 8:23 PM CEST",
+  "published_at_iso": "2026-07-22T20:23:41+0200"
 }
