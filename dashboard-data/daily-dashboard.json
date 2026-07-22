@@ -3207,32 +3207,6 @@
       "first_seen": "2026-07-17"
     },
     {
-      "id": "SIG-284",
-      "title": "Pricing + Financial reconciliation (CE §11 rebuild + 7-tier variants + standard-tier caps)",
-      "description": "Added 2026-07-18 (SIG-272 closeout — anti-slip; numbered 284 to clear the Transcripts 279–282 + Studio 283 reservations). The money re-base owed by CE v1.3 + Data Model v1.5. GATED on Taxonomy v1.2 lock (SIG-273) — §11 cost sizes against the final node count. Steps: (1) CE §11 numeric rebuild [needs Taxonomy] — flat-in-user-count, two YouTube budgets (search.list calls/day + videos.list units/day), corpus-depth-bound; clear the §11 STALE banner. (2) standard-tier (post-launch Signal+) caps still-TBD (search/GMM/Extra-Signals/AI-summaries/transcripts per day for plus_monthly/yearly/life). (3)…",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Finance",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "4h",
-      "effort_wolf": "2h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "PLUTUS",
-      "executor_list": [
-        "PLUTUS"
-      ],
-      "autonomy": "Batch",
-      "department": "Finance",
-      "kind": "tasks",
-      "first_seen": "2026-07-19"
-    },
-    {
       "id": "SIG-273",
       "title": "Taxonomy comprehensiveness review + v1.1 -> v1.2 (deepen tree + §8 cadence)",
       "description": "Added 2026-07-17 (SIG-264 closeout). Deep-research the tree vs IAB v3 / YouTube / Apple News / Kagi; map gaps; go deeper + more comprehensive (Wolf: current 12/70/190 too lean). Progressive depth — onboarding easy (top cats/subcats); L3/L4 entity depth (e.g. Pokémon) lives backend/channel-building. Apply v1.3 §8 cadence amendment (monthly-full + weekly-rotating; Stage-3-per-mode; §16->§4.5A). Deliver reviewable tree for Wolf. Owns 02_Product/Final/MSIG-UX-CATEGORY-TAXONOMY-0001. Opener: _Working/SIGNAL-TAXONOMY-COMPREHENSIVENESS_OPENER_2026-07-17.md.  [2026-07-20] Full 19-section walkthrough…",
@@ -3699,32 +3673,6 @@
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-18"
-    },
-    {
-      "id": "SIG-287",
-      "title": "Bundling & promote-to-channel model",
-      "description": "Added 2026-07-20 (SIG-273 walkthrough). Spec the Signal Channel model: categories=filters, channels=buckets, entities (teams/players/creators) ride inside a channel or promote out. Default = bundle (one channel per pick/stopping-point; entities ride inside as sources → low channel count). Promote up-arrow = new channel seeded from a source (Tuner/Curator) → curate/pin/add-related/keep-outs/make-public → Curator program + share/growth loop + future multi-curator. Channel forms at the depth the user stops; entities inside do NOT multiply channels; cap counts stopping-points. Fits signalChannels…",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Auto",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-07-20"
     },
     {
       "id": "CAP-0053",
@@ -13068,6 +13016,32 @@
       "first_seen": "2026-07-17"
     },
     {
+      "id": "SIG-284",
+      "title": "Pricing + Financial reconciliation (CE §11 rebuild + 7-tier variants + standard-tier caps)",
+      "description": "Added 2026-07-18 (SIG-272 closeout — anti-slip; numbered 284 to clear the Transcripts 279–282 + Studio 283 reservations). The money re-base owed by CE v1.3 + Data Model v1.5. GATED on Taxonomy v1.2 lock (SIG-273) — §11 cost sizes against the final node count. Steps: (1) CE §11 numeric rebuild [needs Taxonomy] — flat-in-user-count, two YouTube budgets (search.list calls/day + videos.list units/day), corpus-depth-bound; clear the §11 STALE banner. (2) standard-tier (post-launch Signal+) caps still-TBD (search/GMM/Extra-Signals/AI-summaries/transcripts per day for plus_monthly/yearly/life). (3)…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "4h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Batch",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-07-19"
+    },
+    {
       "id": "SIG-162",
       "title": "Launch Mechanics session (waitlist + founding-member pre-order + early-tester beta + PR/posting list)",
       "description": "SIG28 (2026-06-07): Shipped the full launch spine — 7-phase funnel (Survey→Beta→Waitlist→Pre-order→Kickstarter→Launch→Steady). Waitlister engine; 2-for-1 giftable pre-order + viral-army gift flow (email+SMS capture); 3-tier Ambassador (25/40) + stackable badges; concept test (CareAngel template + Van Westendorp/Gabor-Granger); ~30d beta + PMF≥40% gate; KS pre-launch ~T-60 funds the build (stretch=iOS/Europe/modules); PR/pitch list; trackable-links + demo gate; runway. Canonical draft _Working/SIG28_Launch_Mechanics_Plan_v0_1_DRAFT; formal promotion → SIG-177.",
@@ -13196,6 +13170,32 @@
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-06-08"
+    },
+    {
+      "id": "SIG-287",
+      "title": "Bundling & promote-to-channel model",
+      "description": "Added 2026-07-20 (SIG-273 walkthrough). Spec the Signal Channel model: categories=filters, channels=buckets, entities (teams/players/creators) ride inside a channel or promote out. Default = bundle (one channel per pick/stopping-point; entities ride inside as sources → low channel count). Promote up-arrow = new channel seeded from a source (Tuner/Curator) → curate/pin/add-related/keep-outs/make-public → Curator program + share/growth loop + future multi-curator. Channel forms at the depth the user stops; entities inside do NOT multiply channels; cap counts stopping-points. Fits signalChannels…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-20"
     },
     {
       "id": "CAP-0058",
@@ -14434,6 +14434,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 22, 2026 · 8:23 PM CEST",
-  "published_at_iso": "2026-07-22T20:23:41+0200"
+  "published_at": "July 22, 2026 · 10:23 PM CEST",
+  "published_at_iso": "2026-07-22T22:23:59+0200"
 }
