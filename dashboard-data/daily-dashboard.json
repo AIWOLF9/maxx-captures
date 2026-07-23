@@ -2921,32 +2921,6 @@
       "first_seen": "2026-07-11"
     },
     {
-      "id": "SIG-239",
-      "title": "Caps reconciliation + CF-SIG224-2 cascade across locked docs",
-      "description": "Added 2026-07-11 (SIG-228); absorbs the old SIG-228 cascade task. Land the locked caps grid + channel model + CF-SIG224-2 categories→channels reframe into PRD, Taxonomy (v1.1→v1.2), Feed Arch §5.7, Onboarding (v1.5→v1.6), Paywall v1.0, Pricing v1.3 + Decisions Log entry. Three-Step per doc (resolve mount rm/mv or paste-ready/allow-delete). Supersedes Taxonomy D-2 10/20/30 picks + D-CAP. Then update Screen Index + inventory; mark CF-SIG224-2 closed.",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "3h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Auto",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-07-11"
-    },
-    {
       "id": "SIG-242",
       "title": "Full service-screen inventory audit + master build-order plan",
       "description": "Added 2026-07-11 (SIG-228); leads the next chat. Reconcile the two driver docs (MSIG-SCREEN-VIEW-INDEX ↔ MSIG-SERVICE-SCREEN-INVENTORY v0.2): produce ONE checked-off list of every screen/view — done vs remaining. Known remaining: Settings sub-pages (Language/Location/Help/About-legal = SIG-235; Notifications/email #24, Data&privacy #25 need review/finish), all sharing (#26/#27/#28), Group 4 + Group 5, invite/gift capture (#34), system states (#29). Output a build-order plan in proper sequence. Then execute screens in order. Also verify every LOCKED mockup is truly self-contained (offline icon…",
@@ -3673,6 +3647,32 @@
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-18"
+    },
+    {
+      "id": "SIG-295",
+      "title": "Paywall render update",
+      "description": "Added 2026-07-23 (SIG-239 cascade). The locked paywall mocks (03_Design/Working/mockups-sig228/ + the SIG-237 desktop lock + the MSIG-UX-PAYWALL-CAPS-DELTA render) still show Free-30 channels · Founder 30/50/100 videos-per-channel · old derived totals. Update every paywall render surface to the SIG-284 FINAL grid: curated channels Free 40 / Founder 120–300; curated videos-per-channel Free 20 / Founder 40–120; total curated videos Free 800 / Founder-Life 36,000; standard-tier daily meters (AI summaries/transcripts 5/10/30, filtered search 5/10/20, Give-More 30/60/80, Extra Signals 3/5/10); cre…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-23"
     },
     {
       "id": "CAP-0053",
@@ -6308,6 +6308,32 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-22"
+    },
+    {
+      "id": "SIG-296",
+      "title": "\"Go Deeper\" re-curation nudge",
+      "description": "Added 2026-07-23 (SIG-239 cascade; seed = SIG-284 §2, Wolf 2026-07-22). Growth/engagement feature (NOT pricing): a calm, user-pull re-curation nudge that invites users to deepen a shallow Signal over time → retention + *earned* upgrade moments (bumping into videos-per-channel / more-channels / daily-refresh levers). Principles from the seed: (1) behavior-triggered first (after N watches from one channel, heavy blocking in an area, new sub-topics on a followed channel); (2) calendar floor second (once after the 3rd session, then ≤ monthly; always dismissible, honor \"don't show again\"); (3) dis…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "2-0",
+      "deadline_label": "Phase B1.5",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-23"
     },
     {
       "id": "CF-HYGIENE-CLUSTER-PASS-1",
@@ -12938,6 +12964,32 @@
       "first_seen": "2026-07-11"
     },
     {
+      "id": "SIG-239",
+      "title": "Caps reconciliation + CF-SIG224-2 cascade across locked docs",
+      "description": "Added 2026-07-11 (SIG-228); absorbs the old SIG-228 cascade task. Land the locked caps grid + channel model + CF-SIG224-2 categories→channels reframe into PRD, Taxonomy (v1.1→v1.2), Feed Arch §5.7, Onboarding (v1.5→v1.6), Paywall v1.0, Pricing v1.3 + Decisions Log entry. Three-Step per doc (resolve mount rm/mv or paste-ready/allow-delete). Supersedes Taxonomy D-2 10/20/30 picks + D-CAP. Then update Screen Index + inventory; mark CF-SIG224-2 closed. DONE 2026-07-23 (SIG-239 cascade chat). Cascaded the LOCKED SIG-284 grid (Decision 41; Pricing v1.4 §0.11.1) into all six target docs on disk: Tax…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-11"
+    },
+    {
       "id": "SIG-264",
       "title": "Curation Engine re-architecture",
       "description": "Added 2026-07-15 (SIG-259). The 11 decision-free spec changes from _Working/SIGNAL_API-ARCHITECTURE_PLAN_v0_1_2026-07-15.md §9: delete §4.6 Layer 2 (5-project pool = ToS violation, \"sharding\") · §4.5/§4.7 search-harvest → graph traversal + PubSubHubbub push · §8 Give Me More → local corpus · new §8B Filtered Search → local corpus · §9 corpus + 30-day rolling refresh as a hard data-layer constraint · §11 cost model rebuilt (flat in user count) · §3.2/§6.7/§7.4 the nine caps redlines + signalChannelId/ytChannelId split · Taxonomy §8 weekly cron → monthly-full + weekly-rotating (74%→17% of searc…",
@@ -14434,6 +14486,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 22, 2026 · 10:23 PM CEST",
-  "published_at_iso": "2026-07-22T22:23:59+0200"
+  "published_at": "July 23, 2026 · 12:24 PM CEST",
+  "published_at_iso": "2026-07-23T12:24:44+0200"
 }
