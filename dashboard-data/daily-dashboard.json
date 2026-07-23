@@ -9651,6 +9651,32 @@
       "first_seen": "2026-07-22"
     },
     {
+      "id": "SIG-297",
+      "title": "Living keep-out register maintenance",
+      "description": "Added 2026-07-23 (SIG-287A). Post-launch process to keep the Taxonomy §6 keep-out/opt-out register current as the noise landscape shifts. Two inputs → one candidate stream: (1) a monthly external scan (a research pass like SIG-287A's divisive-topics sweep — new rage-bait / culture-war / scam trends); (2) in-product crowd-flag input (thumbs/tags → aggregate). Both propose-not-apply: produce ranked keep-out/opt-out candidates with rationale + source, deduped against the current register, for human/council review before any register change (a new Taxonomy §6 minor version). Guardrails: never aut…",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "spec ~2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-23"
+    },
+    {
       "id": "SIG-045",
       "title": "Apple Developer Program enrollment (Organization)",
       "description": "Enroll as Organization ($99/yr) (Checklist §5). Apple review is an external wait; report to Claude on approval before proceeding.",
@@ -14486,6 +14512,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 23, 2026 · 12:24 PM CEST",
-  "published_at_iso": "2026-07-23T12:24:44+0200"
+  "published_at": "July 23, 2026 · 4:25 PM CEST",
+  "published_at_iso": "2026-07-23T16:25:02+0200"
 }
