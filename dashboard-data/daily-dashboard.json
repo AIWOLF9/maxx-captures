@@ -3729,6 +3729,32 @@
       "first_seen": "2026-07-25"
     },
     {
+      "id": "SIG-301",
+      "title": "Caps-cascade gap audit",
+      "description": "Added 2026-07-26 (autonomous stand-up; anti-slip catch). The SIG-239 caps cascade (2026-07-23) landed Decision 41 into six docs (Taxonomy·Paywall·PRD·Intentions·Feed Arch·Onboarding) and missed the build-facing screen specs. Four still carry the pre-SIG-284 (SIG-228) grid: SCREEN-MYCHANNELS v1.0 (Free channels 30→40; whole videos-per-channel row stale 10/20-40-50/30-50-100 → 20/30-50-60/40-60-120; §9 contract prose), SCREEN-CHANNELBUILDER v1.1 (same stale ladder ×3 plus a find/replace corruption Curated-curated-videos-per-channel ×4 from the SIG-243 relabel), SCREEN-CHANNELSLIST v1.1 (Free ch…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-26"
+    },
+    {
       "id": "CAP-0053",
       "title": "Venture-agent GitHub-write standardization + credential automation",
       "description": "Venture-agent GitHub-write standardization + credential automation. Make venture build agents (VULCAN et al.) provision + push to GitHub with zero per-session manual steps. Born from AT-VULCAN-001: the GitHub MCP connector can't do dynamic client registration (dead end), and MAXX's proven path (fine-grained PAT + REST/git via gh_put.py, CAP-0024/CAP-0042) isn't reachable by venture agents because the secret store ~/MAXX/_secrets/ is outside venture mounts (OBS-0049) and tokens get pasted per-session. Scope: (1) a portable secret store venture mounts can read (per-venture gitignored secret fil…",
@@ -14670,6 +14696,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 25, 2026 · 12:47 PM CEST",
-  "published_at_iso": "2026-07-25T12:47:40+0200"
+  "published_at": "July 26, 2026 · 9:49 AM CEST",
+  "published_at_iso": "2026-07-26T09:49:20+0200"
 }
