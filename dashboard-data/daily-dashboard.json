@@ -1047,26 +1047,6 @@
       "first_seen": null
     },
     {
-      "id": "CF-SPRINT-CLOSE-3",
-      "title": "Third-Party Security Protocol",
-      "description": "Third-Party Security Protocol — policy/discipline lock for pre-install audit per CAP-0009 capability build target. Pairs with CAP-0009; eventually graduates to its own COWORK_INSTRUCTIONS section. Per OBS-0012 OpenClaw governance lock — formalize the human-in-the-loop pre-install audit for community skills / plugins / connectors. Bundle with CF-PM5h-3-T (COWORK_INSTRUCTIONS v2.2 architectural redesign) if timing aligns; otherwise dedicated chat.",
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Trigger: opportunistic OR befor…",
-      "deadline_class": "d-future",
-      "effort_mc": "30m–2h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude (canonical chat)",
-      "kind": "cfi",
-      "first_seen": null
-    },
-    {
       "id": "CF-DASHBOARD-INSTALLER-NODE-RERUN",
       "title": "[↻ Reclassified Open → Watch 2026-06-09 MC-SUBSTRATE-HYGIENE-1",
       "description": "[↻ Reclassified Open → Watch 2026-06-09 MC-SUBSTRATE-HYGIENE-1 — recurring trigger-gated discipline, not one-time work; Watch is its correct category (Wolf-approved Q2).] Recurring discipline: re-run install-scheduler.sh after any Node version upgrade. launchd PATH is minimal by default; the plist hardcodes the detected Node bin dir via NODE_BIN_DIR (resolved at install via command -v node); a Node upgrade moves the bin dir and breaks the Netlify-CLI deploy step until re-detected. See memory feedback_launchd_path_node_detection.",
@@ -9848,25 +9828,6 @@
       "first_seen": null
     },
     {
-      "id": "CAP-0009",
-      "title": "Third-party security audit skill",
-      "description": "Third-party security audit skill — pre-install audit framework for skills, plugins, MCP servers, GitHub repos; covers permissions / network egress / dependency tree / publisher trust / update mechanism / file-system scope; pairs with policy lock CF-NEW-Third-Party-Security-Protocol; closes substrate-quality gap",
-      "status": "s-waiting",
-      "priority": "p-p2",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "2026-05-20",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
-      "created": "2026-05-20",
-      "zone": "waiting",
-      "kind": "cap",
-      "first_seen": null
-    },
-    {
       "id": "CAP-0003",
       "title": "Weekly Hive Mind scan automation (YouTube/Gemini intake + credible-reviewer roster + dedupe-vs-universe + surface candi…",
       "description": "Weekly Hive Mind scan automation (YouTube/Gemini intake + credible-reviewer roster + dedupe-vs-universe + surface candidates + recommend swaps); roster component shipped v0.1 2026-05-21 at ~/MAXX/_MAXX_OS/Substrate/CREDIBLE_REVIEWERS.md",
@@ -11964,6 +11925,26 @@
       "first_seen": "2026-07-27"
     },
     {
+      "id": "CF-SPRINT-CLOSE-3",
+      "title": "[DONE 2026-07-28 (MC-STANDUP-2026-07-28)",
+      "description": "[DONE 2026-07-28 (MC-STANDUP-2026-07-28) — shipped as MOS-SYS-PROTOCOL-THIRD-PARTY-AUDIT-0001 v1.0 at _MAXX_OS/Capabilities/third-party-security-audit/. This row's entire content was the policy half of CAP-0009, so both closed on one artifact — two rows, one doc. The 69-day stall had a single cause: CAP-0009 was scoped as an audit *skill*, which fails §10.1's own earn test (ships no executable code; is standing discipline rather than a named verb; must be in context at the moment of judgment, which is the doc column). Re-scoped as a mirrored doc it took one sitting. Four gates, cheapest-rejec…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Trigger: opportunistic OR befor…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude (canonical chat)",
+      "kind": "cfi",
+      "first_seen": null
+    },
+    {
       "id": "CF-ANTHROPIC-CLOUD-RUNTIME-EVAL-1",
       "title": "Scoped eval of Anthropic-native cloud runtime (Claude Code Routines + Managed-Agents scheduled deployments) a…",
       "description": "Scoped eval of Anthropic-native cloud runtime (Claude Code Routines + Managed-Agents scheduled deployments) as the cloud home for the nightly autonomous lane + DELPHI's council runtime. Greenlit 2026-06-29. RESOLVED 2026-06-29 (CF-ANTHROPIC-CLOUD-RUNTIME-EVAL-1 chat, Opus 4.8). Deliverables: _MAXX_OS/Research/cloud-runtime-eval-2026-06-29/ (eval doc + decision-surface HTML + bridge opener). Verdict: (1) Both runtimes run the nightly lane laptop-closed → Routines = recommended home (subscription-included, $0 marginal; native stage-don't-flip via claude/-branch-only push default). (2) The 45s/c…",
@@ -13799,6 +13780,25 @@
       "first_seen": null
     },
     {
+      "id": "CAP-0009",
+      "title": "Third-party pre-install audit protocol",
+      "description": "Third-party pre-install audit protocol — RE-SCOPED 2026-07-28 from *audit skill* → *audit protocol doc*. Shipped as MOS-SYS-PROTOCOL-THIRD-PARTY-AUDIT-0001 v1.0 at _MAXX_OS/Capabilities/third-party-security-audit/: four gates cheapest-reject-first (G0 smallest primitive · G1 provenance → CF-AGPL-TRIPWIRE-1 · G2 surface+scope incl. OWASP MCP Top 10 · G3 adversarial text audit with three automatic rejects), four-verdict vocabulary codified from existing practice, and a standing re-audit trigger the original scope lacked. Covers skills, plugins, MCP connectors, GitHub repos and borrowed code; re…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-05-20",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-05-20",
+      "zone": "done",
+      "kind": "cap",
+      "first_seen": null
+    },
+    {
       "id": "CAP-0005",
       "title": "substrate-hygiene script v0.3 + README shipped at ~/MAXX/_MAXX_OS/Capabilities/substrate-hygiene/",
       "description": "substrate-hygiene script v0.3 + README shipped at ~/MAXX/_MAXX_OS/Capabilities/substrate-hygiene/. 5 v0.2 catchers + 2 v0.3 catcher refinements + 2 v0.2 bug-fixes absorbed. v0.3 generalization caught real CAPABILITIES_BACKLOG §7 interleave drift on first run — fix landed in this v1.7 drop-in. See §4 Built/Live for entry detail.",
@@ -14248,6 +14248,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 27, 2026 · 7:51 PM CEST",
-  "published_at_iso": "2026-07-27T19:51:21+0200"
+  "published_at": "July 28, 2026 · 2:15 PM CEST",
+  "published_at_iso": "2026-07-28T14:15:36+0200"
 }
