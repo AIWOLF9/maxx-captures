@@ -897,6 +897,32 @@
       "first_seen": "2026-07-31"
     },
     {
+      "id": "SIG-311",
+      "title": "Re-examine the launch critical path",
+      "description": "Added 2026-07-31 (attended; created under D-2026-07-31a — internal contradiction on this board, evidenced from its own text). The contradiction: this file states *\"Native apps are ~90d post-launch (rollout within 90d of the ~Oct launch, so ~Q1 2027), meaning the Oct launch is mobile web\"* and CF-SIG27-1 files the native app under bigger-vision scope — while SIG-045 (Apple Organization enrolment) is P0 and twenty-one consecutive stand-ups, including the 2026-07-31 closeout authored by this agent, name the D-U-N-S → Apple chain as *the launch critical path*. Wolf confirmed independently 2026-07…",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
       "id": "CF-VENTURE-CAPTURE-TRIAGE-AT-VENTURE-1",
       "title": "Capture triage moves to the venture, and gains a standup trigger",
       "description": "Capture triage moves to the venture, and gains a standup trigger. The infrastructure already exists and was being routed around. Three findings, in order of how badly they land. (1) The venture already has the data. _index/_shared/MOS_TASKS_SIGNAL_SLICE.md is regenerated every 2h by publish-dashboards.sh and mirrored into SIGNAL/_index/_shared/ by CAP-0049. It carries all 49 Signal-tagged MOS-T rows including all 22 captures, with the full Description column, 20 of them marked 🆕 Raw. Signal could have triaged these from inside its own folder at any point. A manual MC→venture handoff was built…",
@@ -3605,11 +3631,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "VULCAN",
+      "executor": "Wolf",
       "executor_list": [
-        "VULCAN"
+        "Wolf"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Wolf",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-18"
@@ -3665,6 +3691,58 @@
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-25"
+    },
+    {
+      "id": "SIG-309",
+      "title": "IP-assignment readiness",
+      "description": "Added 2026-07-31 (attended; created under D-2026-07-31a — evidenced gap, nothing on the board covered it). Wolf stated 2026-07-31 that a separate entity (MAXX AI Ventures) will likely be formed to take outside investors, a few months out, and that Signal is built under Wolf Ventures LLC in the meantime. That is the right sequencing — but it means Wolf Ventures LLC will OWN Signal, and the first question in any investor diligence is whether the company being invested in owns the thing being bought. Moving it later needs a documented IP assignment plus novation of every third-party contract (Ve…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "THEMIS",
+      "executor_list": [
+        "THEMIS"
+      ],
+      "autonomy": "Auto",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
+      "id": "SIG-310",
+      "title": "Investment vehicle decision",
+      "description": "Added 2026-07-31 (attended; created under D-2026-07-31a). SIG-042 decided the LAUNCH entity. It did not decide the INVESTMENT vehicle, and they are different questions. Wolf 2026-07-31: MAXX AI Ventures exists *\"if I take outside investors, so it's separate from Wolf Ventures LLC.\"* Two facts that change the shape of that, neither previously on the board: (a) Outside equity investors generally will not take an LLC. Institutional money requires a Delaware C-corporation — LLC pass-through generates K-1s and UBTI exposure for tax-exempt LPs plus multi-state filing obligations, and the standard f…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Auto",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
     },
     {
       "id": "CAP-0051",
@@ -9637,6 +9715,58 @@
       "first_seen": "2026-07-23"
     },
     {
+      "id": "SIG-312",
+      "title": "Payment-source field",
+      "description": "Added 2026-07-31 (attended; created under D-2026-07-31a — preventable cascade, caught before it happens rather than after). In plain terms: the software has to know, for each user, *are they paying and on which plan*. Today the only possible source of that answer is Lemon Squeezy, so the natural build is “look up their Lemon Squeezy record.” If any purchases ever arrive from Apple or Google Play, there are suddenly two sources and the system was built assuming one. The fix is one sentence, written now: store *the subscription and where it came from*, not *the Lemon Squeezy subscription*. Conc…",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
+      "id": "SIG-313",
+      "title": "GDPR Art",
+      "description": "Added 2026-07-31 (attended; created under D-2026-07-31a). NOT launch-blocking — the deliverable is a threshold, not an appointment. Do not confuse with SIG-308. Art. 27 (SIG-308, approved 2026-07-31) is a published contact address in the EU — administrative, ~EUR 60/mo. Art. 37 is a different obligation: an actual independent person overseeing data handling. Required only where core activities consist of regular and systematic monitoring of data subjects on a large scale. Why this is a live question for Signal and not for a typical SaaS — state it honestly: *“core activities”* means the proce…",
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "THEMIS",
+      "executor_list": [
+        "THEMIS"
+      ],
+      "autonomy": "Auto",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
       "id": "SIG-045",
       "title": "Apple Developer Program enrollment (Organization)",
       "description": "Enroll as Organization ($99/yr) (Checklist §5). Apple review is an external wait; report to Claude on approval before proceeding. [2026-07-27 — DEPENDENCY EDGE ADDED: SIG-067.] Apple's Organization enrolment requires a publicly available company website on the org domain, presented as operated by the legal entity. The waitlist page will NOT clear that bar. This was written down on 2026-06-24 in _Working/SIG-043_DUNS_Registration_Instructions_v0_1_DRAFT_2026-06-24.md — 'Org website for Apple = maxxsignal.com presented as operated by Wolf Ventures LLC (registrant + footer); needs real content b…",
@@ -14576,6 +14706,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 31, 2026 · 7:27 PM CEST",
-  "published_at_iso": "2026-07-31T19:27:21+0200"
+  "published_at": "July 31, 2026 · 9:27 PM CEST",
+  "published_at_iso": "2026-07-31T21:27:36+0200"
 }
