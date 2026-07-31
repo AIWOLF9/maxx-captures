@@ -613,7 +613,7 @@
     {
       "id": "SIG-067",
       "title": "Marketing website build (maxxsignal.com)",
-      "description": "Build /home + /pricing + /about; choose deployment route (Netlify decision pending at Mission Control). Content from Brand v1.3. [2026-07-27 — START NOW, IN PARALLEL with the D-U-N-S clock. This row GATES SIG-045 (Apple Organization enrolment).] Apple will not enrol the organization without a real, functional website on maxxsignal.com presented as operated by Wolf Ventures LLC (registrant + footer). The waitlist page does not clear that bar — real content is needed on /home, /pricing, /about. Requirement known since 2026-06-24 and never tracked as an edge until today. Do not sequence this aft…",
+      "description": "Build /home + /pricing + /about; deployment route RULED: Vercel (D-2026-07-29a) — see SIG-307; the long-standing “Netlify decision pending at Mission Control” text was stale and is removed. Content from Brand v1.3. [2026-07-27 — START NOW, IN PARALLEL with the D-U-N-S clock. This row GATES SIG-045 (Apple Organization enrolment).] Apple will not enrol the organization without a real, functional website on maxxsignal.com presented as operated by Wolf Ventures LLC (registrant + footer). The waitlist page does not clear that bar — real content is needed on /home, /pricing, /about. Requirement kno…",
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -631,7 +631,7 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -845,22 +845,94 @@
       "first_seen": "2026-07-31"
     },
     {
-      "id": "CF-SIGNAL-ART27-REP-OWNER-1",
-      "title": "Name the owner for EU Article 27 representative procurement",
-      "description": "Name the owner for EU Article 27 representative procurement — venture action or MC action? Approved at D3 (2026-07-27) when Signal went worldwide-at-launch incl. EU/UK, at ~€300–1,000/yr plus the UK equivalent. Nobody has been appointed and no row existed. Procurement with external lead time, same class as D-U-N-S and Apple review. It gates publication of MSIG-LEGAL-PRIVACY-POLICY-0001 → gates SIG-076 → gates SIG-080 (launch). Signal has twice said it will take the work either way; what it needs is an owner before this accrues the twenty-standup age D-U-N-S now has. A US controller offering a…",
+      "id": "SIG-307",
+      "title": "Deployment route for maxxsignal.com",
+      "description": "Added 2026-07-31 (attended capture-triage session; created under D-2026-07-31a — autonomous row creation for an evidenced defect). THIS ROW EXISTS TO CLOSE A DECISION, NOT TO TAKE ONE. The route was already ruled: D-2026-07-29a, Wolf, verbatim *\"vercel\"* (_Inbox/MC-TO-SIGNAL_HANDOFF_2026-07-29.md). Verified live this session against the Vercel account rather than inferred: project maxx-signal / prj_JlYa5AHo3UReBCvpBJvCjHTLxAPO, team *Wolf's projects*, Next.js on Node 24.x, latest production deploy READY, and maxxsignal.com + join.maxxsignal.com are already bound to it. Why it is not cheaply r…",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
+      "id": "SIG-308",
+      "title": "EU Art",
+      "description": "Added 2026-07-31 (attended capture-triage session; created under D-2026-07-31a). OWNERSHIP MOVED TO SIGNAL by Wolf on 2026-07-31, same reasoning as the deployment route: MC has no better access to Art. 27 representative vendors than the venture does, the gated artifact is Signal's, and Signal had already offered to take it either way. CF-SIGNAL-ART27-REP-OWNER-1 closed at MC. Approved in principle at D3 on 2026-07-27, when Signal went worldwide-at-launch including EU/UK — and nobody has owned it since. Why P0 despite being small: a US controller offering a service to EU consumers with no name…",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": "1-6",
+      "deadline_label": "Phase P6",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "THEMIS",
+      "executor_list": [
+        "THEMIS"
+      ],
+      "autonomy": "Auto",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
+      "id": "CF-VENTURE-CAPTURE-TRIAGE-AT-VENTURE-1",
+      "title": "Capture triage moves to the venture, and gains a standup trigger",
+      "description": "Capture triage moves to the venture, and gains a standup trigger. The infrastructure already exists and was being routed around. Three findings, in order of how badly they land. (1) The venture already has the data. _index/_shared/MOS_TASKS_SIGNAL_SLICE.md is regenerated every 2h by publish-dashboards.sh and mirrored into SIGNAL/_index/_shared/ by CAP-0049. It carries all 49 Signal-tagged MOS-T rows including all 22 captures, with the full Description column, 20 of them marked 🆕 Raw. Signal could have triaged these from inside its own folder at any point. A manual MC→venture handoff was built…",
       "status": "s-todo",
       "priority": "p-p1",
-      "segment": "Product",
-      "venture": "v-signal",
+      "segment": "Governance",
+      "venture": "v-mos",
       "deadline": null,
-      "deadline_label": "Next attended MC standup, as a…",
+      "deadline_label": "(a) next Signal chat · (b) next…",
       "deadline_class": "d-future",
       "effort_mc": "30m–2h",
       "effort_wolf": null,
       "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
       "created": null,
       "zone": "open",
-      "owner": "Wolf (assign)",
+      "owner": "MC (codify a+b+c) · Signal (execute the batch)",
+      "kind": "cfi",
+      "first_seen": "2026-07-31"
+    },
+    {
+      "id": "CF-SEQUENTIAL-OPENER-AUTHORING-1",
+      "title": "Codify: author ONE opener",
+      "description": "Codify: author ONE opener — the next chat's — and queue the rest as triggers, not payloads. A closeout must still hand off (COWORK_INSTRUCTIONS §5.5 requires a Next-Chat Opening Prompt), so the rule is not *stop writing openers*. It is: write a paste-ready prompt for the immediately-next chat only. For every chat after that, write a one-line queue entry — chat name, purpose, and the trigger that makes it ready — and author its prompt at the moment it opens. Full derivation and the cost argument: [[OBS-0077]]. Codification target: COWORK_INSTRUCTIONS §5.4.2 (parallel-chat allocation already go…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next COWORK_INSTRUCTIONS Three-…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
       "kind": "cfi",
       "first_seen": "2026-07-31"
     },
@@ -2401,7 +2473,7 @@
     {
       "id": "SIG-068",
       "title": "/receipts page (content + build)",
-      "description": "Populate the Brand §7.17.4.1 placeholder into a live /receipts page; routes to legal pass (SIG-077). CONTENT DRAFT done 2026-06-26 (autonomous): full long-scroll evidence-wall copy, 6 clusters + honest counter-case sidebar + Signal pivot, every claim attributed w/ receipt ID + index → 05_Marketing/Working/website-receipts/MSIG-WEB-RECEIPTS-PAGE_DRAFT_v0_1.md. Build/deploy + legal pass (SIG-077) still pending → row stays To-do.",
+      "description": "Populate the Brand §7.17.4.1 placeholder into a live /receipts page; routes to legal pass (SIG-077). CONTENT DRAFT done 2026-06-26 (autonomous): full long-scroll evidence-wall copy, 6 clusters + honest counter-case sidebar + Signal pivot, every claim attributed w/ receipt ID + index → 05_Marketing/Working/website-receipts/MSIG-WEB-RECEIPTS-PAGE_DRAFT_v0_1.md. Build/deploy + legal pass (SIG-077) still pending → row stays To-do. [CAPTURE-TRIAGE 2026-07-31 — two evidence items now owed to this page.] (a) MOS-T-058 + 064 insider-kids claim (Jobs / Microsoft execs restricting their own children's…",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -2739,7 +2811,7 @@
     {
       "id": "SIG-218",
       "title": "Waitlist/Pre-order WEBSITE",
-      "description": "Added 2026-07-08 (Wolf). The landing/marketing SITE that wraps the SIG-204 interactive pre-order flow (distinct from the flow itself). Proper best-practice research (waitlist/pre-order landing pages, referral-waitlist mechanics, founding pre-order pages, receipts/proof pages, teardowns incl. Tony-Robbins RPM long-form) → full page/site architecture outline (what each page includes + CTA) → spec → storyboard → Claude Design → build (feeds SIG-067). Reuses Brand v1.5.2, /receipts + /algorithm-101 drafts, asset library, paywall spec, HERMES email voice. Research dispatched 2026-07-08.",
+      "description": "Added 2026-07-08 (Wolf). The landing/marketing SITE that wraps the SIG-204 interactive pre-order flow (distinct from the flow itself). Proper best-practice research (waitlist/pre-order landing pages, referral-waitlist mechanics, founding pre-order pages, receipts/proof pages, teardowns incl. Tony-Robbins RPM long-form) → full page/site architecture outline (what each page includes + CTA) → spec → storyboard → Claude Design → build (feeds SIG-067). Reuses Brand v1.5.2, /receipts + /algorithm-101 drafts, asset library, paywall spec, HERMES email voice. Research dispatched 2026-07-08. [CAPTURE-T…",
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -2757,7 +2829,7 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-08"
@@ -3127,6 +3199,32 @@
       "first_seen": null
     },
     {
+      "id": "SIG-084",
+      "title": "R-6 Hide-already-watched filter",
+      "description": "Spec hide-already-watched filter (pairs with WatchEvents collection). [2026-07-31 — PROMOTED ONTO THE LAUNCH PATH. Wolf ruling, attended capture-triage session.] Was P3 / B1.5 / depends-on SIG-080 — i.e. gated *behind* launch. Now P1 / P4, dependency re-pointed to SIG-272 (Data Model v1.5, Done 2026-07-18), which is its real substrate: the seen-ledger already ships at launch, so this is a filter over data we are already keeping, not a build from scratch. Why it moved: capture MOS-T-051 (*\"no duplicates\"*) is one of the very few Signal differentiators a user feels inside the first session — ca…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-4",
+      "deadline_label": "Phase P4",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": "0.1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "SIG-163",
       "title": "Website + Landing page (waitlist/pre-order page + articles/news directory + blog)",
       "description": "Its OWN long chat. Claude Design + Athena + Apollo research + Mission Control agent check. Bring Dribbble/Mobbin style refs. Gated on logo + Brand v1.4.",
@@ -3233,7 +3331,7 @@
     {
       "id": "SIG-169",
       "title": "Early-tester private beta",
-      "description": "~30-day beta (late-Jul–Aug), ~50–80 active (Wolf's groups + Reddit/BetaList + Lyssna ~$5/test). Gate: Sean Ellis PMF ≥40% \"very disappointed\".",
+      "description": "~30-day beta (late-Jul–Aug), ~50–80 active (Wolf's groups + Reddit/BetaList + Lyssna ~$5/test). Gate: Sean Ellis PMF ≥40% \"very disappointed\". [CAPTURE-TRIAGE 2026-07-31 — MOS-T-053 merged, plus a date flag.] Capture: assemble the communities and chat groups Wolf participates in, for friends-&-family, early testers, launch and Kickstarter. The channel map already shipped at SIG-199 and the PR/pitch list at SIG-162, so the only uncovered piece is exporting Wolf's own groups. MC called that *\"a Wolf action, not a row\"*; recorded here as an explicit Wolf-owned input instead, because it gates a P…",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "QA",
@@ -3363,7 +3461,7 @@
     {
       "id": "SIG-182",
       "title": "JTBD paywall copy variant",
-      "description": "SIG34 D-SIG34-5. Paywall H1 echoes user's WHY-layer intention back at them (not feature-list). Compounds with single canonical paywall + 8-context dynamic H1 architecture (SIG18 §1) and soft 11th-category trigger (SIG18 §6). Evidence: Smart Tales +72% to +169% (RevenueCat / Léa Samrani). Routed to Onboarding spec finalization chat.",
+      "description": "SIG34 D-SIG34-5. Paywall H1 echoes user's WHY-layer intention back at them (not feature-list). Compounds with single canonical paywall + 8-context dynamic H1 architecture (SIG18 §1) and soft 11th-category trigger (SIG18 §6). Evidence: Smart Tales +72% to +169% (RevenueCat / Léa Samrani). Routed to Onboarding spec finalization chat. [CAPTURE-TRIAGE 2026-07-31 — MOS-T-068, and it belongs to the NEXT chat.] Wolf's capture: *\"social media is an escape for many — the algorithm can make the escape harmful… it reminded me of something we ask people during the onboarding process: why they come to You…",
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -5532,7 +5630,7 @@
     {
       "id": "SIG-248",
       "title": "YouTube-ally positioning + Premium promo → Mission Control",
-      "description": "Added 2026-07-11 (SIG-229, Wolf). Position Signal as a YouTube ally, not replacement: at the connect step, promote \"Get YouTube Premium for ad-free playback\" (we can't strip in-player ads; Premium does — SIG-246). Builds goodwill + a future partnership / acquisition thesis (YouTube could license/absorb the curation-control layer). Surface to Mission Control as positioning + sellable-IP.",
+      "description": "Added 2026-07-11 (SIG-229, Wolf). Position Signal as a YouTube ally, not replacement: at the connect step, promote \"Get YouTube Premium for ad-free playback\" (we can't strip in-player ads; Premium does — SIG-246). Builds goodwill + a future partnership / acquisition thesis (YouTube could license/absorb the curation-control layer). Surface to Mission Control as positioning + sellable-IP. [CAPTURE-TRIAGE 2026-07-31 — MOS-T-050 / 059, mechanic half only.] The connect-step Premium promo is the concrete expression of *\"superpowers for YouTube\"* / *\"the YouTube you love, repackaged\"*. The positioni…",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -5792,7 +5890,7 @@
     {
       "id": "SIG-165",
       "title": "Social Accounts + Content Ops",
-      "description": "Create all our own accounts (platforms/handles), pick scheduler, DAILY posting cadence + anchor→atomize workflow, performance-tracking loop. (notes 4/5b/5e)",
+      "description": "Create all our own accounts (platforms/handles), pick scheduler, DAILY posting cadence + anchor→atomize workflow, performance-tracking loop. (notes 4/5b/5e) [CAPTURE-TRIAGE 2026-07-31 — MOS-T-046, the half that is not a line.] Wolf's capture is a content format, not a brand line: *\"get people to take a moment to think about the ramifications of being mindlessly manipulated by the algorithm — to simply ask questions like 'Did you know…'\"*. Add a recurring \"Did you know?\" question series to the daily cadence + anchor→atomize workflow: short, answerable, research-backed prompts that stop the scr…",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -5870,7 +5968,7 @@
     {
       "id": "SIG-172",
       "title": "Archetype-avatar profile identity",
-      "description": "Reuse Solitaire 12 MAXX archetype CENTRAL art (no card, no numbers, switchable); Wolf has the 12 descriptions. Partner profile (now) + user onboarding (UX) + Brand. Shared portfolio asset → MC.",
+      "description": "Reuse Solitaire 12 MAXX archetype CENTRAL art (no card, no numbers, switchable); Wolf has the 12 descriptions. Partner profile (now) + user onboarding (UX) + Brand. Shared portfolio asset → MC. [CAPTURE-TRIAGE 2026-07-31 — MOS-T-055 + MOS-T-048.] Two capture-sourced visual briefs land here: (a) sheep vs wolf — Wolf's reframe of *\"better a warrior in a garden than a gardener in a war\"* onto sheep/wolf, *\"don't be a sheep, be the wolf — take back control from the algorithm\"*; (b) \"I refuse to be controlled by the algorithm\" as an avatar/archetype statement — the user picks an archetype and the…",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Product",
@@ -7228,32 +7326,6 @@
       "id": "SIG-083",
       "title": "R-5 Subtitles / CC filter",
       "description": "Spec the accessibility-justified subtitles/CC feed filter (IA-chat addition).",
-      "status": "s-todo",
-      "priority": "p-p3",
-      "segment": "Build",
-      "venture": "v-signal",
-      "deadline": "2-0",
-      "deadline_label": "Phase B1.5",
-      "deadline_class": "d-future",
-      "effort_mc": "0.25h",
-      "effort_wolf": "0.1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Auto",
-      "department": "Engineering",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "SIG-084",
-      "title": "R-6 Hide-already-watched filter",
-      "description": "Spec hide-already-watched filter (pairs with WatchEvents collection).",
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Build",
@@ -9177,7 +9249,7 @@
     {
       "id": "SIG-158",
       "title": "D-2X Conscientious Parent persona",
-      "description": "Develop the Conscientious Parent persona messaging + GTM (Haidt *Anxious Generation* moment); B1 product not built for kids — buyer-side only, composes with Q-2.",
+      "description": "Develop the Conscientious Parent persona messaging + GTM (Haidt *Anxious Generation* moment); B1 product not built for kids — buyer-side only, composes with Q-2. [CAPTURE-TRIAGE 2026-07-31 — MOS-T-058.] *\"The elite protect their own kids\"* — the wealthiest people and senior tech executives restrict their children's social media and devices (Jobs / Microsoft execs). Buyer-side social proof for this persona, not a product claim (B1 is not built for kids). Deduped with MOS-T-064 — same claim, two phrasings, one entry, banked at SIG-191(h); evidence at SIG-068.",
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Research",
@@ -12036,6 +12108,26 @@
       "first_seen": "2026-07-17"
     },
     {
+      "id": "CF-SIGNAL-ART27-REP-OWNER-1",
+      "title": "Name the owner for EU Article 27 representative procurement",
+      "description": "Name the owner for EU Article 27 representative procurement — venture action or MC action? Approved at D3 (2026-07-27) when Signal went worldwide-at-launch incl. EU/UK, at ~€300–1,000/yr plus the UK equivalent. Nobody has been appointed and no row existed. Procurement with external lead time, same class as D-U-N-S and Apple review. It gates publication of MSIG-LEGAL-PRIVACY-POLICY-0001 → gates SIG-076 → gates SIG-080 (launch). Signal has twice said it will take the work either way; what it needs is an owner before this accrues the twenty-standup age D-U-N-S now has. A US controller offering a…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Agents",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "CLOSED at MC. Signal reports th…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf (assigned 2026-07-31) → Signal venture (owns + procures)",
+      "kind": "cfi",
+      "first_seen": "2026-07-31"
+    },
+    {
       "id": "CF-CLOUD-TASK-RUNTIME-MISMATCH-1",
       "title": "Two of the three cloud scheduled tasks were written for a runtime they do not have",
       "description": "Two of the three cloud scheduled tasks were written for a runtime they do not have — the \"can't connect to GitHub\" symptom. mc-nightly-watchdog and mc-weekly-hivemind-synthesis were created 2026-07-22 as Cowork-remote tasks (device-bridge + MCP tool set only: no Bash, no git sources, no push outcomes), but both prompts opened *\"You start from a fresh clone of the maxx-substrate-mirror repo\"* and instructed git ls-remote / commit / push to a claude/* branch. Neither could ever clone, reach github.com, or push — structurally, not intermittently. Only mc-nightly-autonomous-batch is a true Claude…",
@@ -14484,6 +14576,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 31, 2026 · 5:27 PM CEST",
-  "published_at_iso": "2026-07-31T17:27:03+0200"
+  "published_at": "July 31, 2026 · 7:27 PM CEST",
+  "published_at_iso": "2026-07-31T19:27:21+0200"
 }
