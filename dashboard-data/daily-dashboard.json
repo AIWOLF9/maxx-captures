@@ -169,32 +169,6 @@
       "first_seen": null
     },
     {
-      "id": "SIG-043",
-      "title": "D-U-N-S registration for chosen entity",
-      "description": "File for / confirm the D-U-N-S number Apple requires (Checklist §3). External D&B processing wait if new (~up to 30d). [2026-07-31 — WOLF COMMITMENT, attended stand-up: \"I will do it by Monday at the latest\" (Mon 2026-08-03).] Carried as a dated commitment, not an open ask; stand-ups stop re-arguing it until 08-03. Do the look-up before filing — Wolf Ventures LLC is a 10-year-old Delaware entity with a bank account and may already hold a number; a duplicate filing triggers a manual-review loop measured in weeks on top of D&B's ≤30d processing. Rationale accepted at stand-up: filing now lets t…",
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Ops",
-      "venture": "v-signal",
-      "deadline": "1-3",
-      "deadline_label": "Phase P3",
-      "deadline_class": "d-future",
-      "effort_mc": "0.25h",
-      "effort_wolf": "1.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Auto",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "SIG-044",
       "title": "Cloudflare DNS + Email Routing configured (maxxsignal.com)",
       "description": "Add A/CNAME placeholders, enable Email Routing + catch-all, verify propagation (Checklist §4). Can start now in parallel.",
@@ -216,6 +190,32 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "SIG-045",
+      "title": "Apple Developer Program enrolment",
+      "description": "[2026-08-01 — RE-SCOPED TO TWO PHASES. Wolf ruled Route A at the attended stand-up, after challenging the previous analysis and being right.] PHASE 1 — enrol as INDIVIDUAL, now (~$99/yr). Gated on NOTHING. No D-U-N-S, no website: Apple's five-item requirement list is headed *\"Organizations enrolling… will need\"*, and an Individual needs only an Apple ID with 2FA and legal age. An Individual account can issue a Services ID (*\"if you're enrolled as an individual, you can register up to 10 website URLs\"* — Signal needs one). This unblocks SIG-046/047/048 immediately and takes Sign in with Apple…",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -9807,32 +9807,6 @@
       "first_seen": "2026-07-31"
     },
     {
-      "id": "SIG-045",
-      "title": "Apple Developer Program enrollment (Organization)",
-      "description": "Enroll as Organization ($99/yr) (Checklist §5). Apple review is an external wait; report to Claude on approval before proceeding. [2026-07-27 — DEPENDENCY EDGE ADDED: SIG-067.] Apple's Organization enrolment requires a publicly available company website on the org domain, presented as operated by the legal entity. The waitlist page will NOT clear that bar. This was written down on 2026-06-24 in _Working/SIG-043_DUNS_Registration_Instructions_v0_1_DRAFT_2026-06-24.md — 'Org website for Apple = maxxsignal.com presented as operated by Wolf Ventures LLC (registrant + footer); needs real content b…",
-      "status": "s-waiting",
-      "priority": "p-p0",
-      "segment": "Ops",
-      "venture": "v-signal",
-      "deadline": "1-3",
-      "deadline_label": "Phase P3",
-      "deadline_class": "d-future",
-      "effort_mc": "0.25h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Wolf",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Auto",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "CF-SIGNAL-AGENT-NEEDS-1",
       "title": "TRIGGER VERIFIED NOT MET 2026-07-25 (MC-STANDUP-2026-07-25)",
       "description": "TRIGGER VERIFIED NOT MET 2026-07-25 (MC-STANDUP-2026-07-25) — Wolf confirmed HOLD. The gate is \"Claude Design hi-fi screens complete\" and they are not: SIG-038 and SIG-039 — the canonical Claude Design production-mockup rows — are still To-do / P0 with zero logged progress, and the parallel hand-built HTML track is incomplete (SIG-242 records Group 1 at 3 of 6 screens, with Groups 4 and 5 outstanding; SIG-295 requires re-rendering every locked paywall surface to the new SIG-284 caps grid). Scope reduced this pass: ARGUS is removed from this row and sequenced on its own as CF-ARGUS-DECOUPLE-1…",
@@ -9870,6 +9844,32 @@
       "zone": "waiting",
       "owner": "Wolf + Claude (build/engineering chat)",
       "kind": "cfi",
+      "first_seen": null
+    },
+    {
+      "id": "SIG-043",
+      "title": "D-U-N-S registration for Wolf Ventures LLC",
+      "description": "[2026-08-01 — FILED by Wolf ✅. Status To-do → Waiting (gated on external party). Commitment C1 met two days early.] Now a passive ~30-day D&B clock + ~2 business days for Apple to sync. Priority P0 → P1 under the Route-A ruling below: it no longer gates anything on the B1 launch path — Sign in with Apple runs off the Individual enrolment, and the D-U-N-S is needed only for the Organization conversion (SIG-045 phase 2, ~Q1 2027 native lane). Next action is Wolf's ping when the number ISSUES. Expect a D&B verification phone call — answer or return it promptly, a missed call adds days; have the…",
+      "status": "s-waiting",
+      "priority": "p-p1",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "waiting",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Operations",
+      "kind": "tasks",
       "first_seen": null
     },
     {
@@ -14798,6 +14798,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "August 1, 2026 · 1:29 PM CEST",
-  "published_at_iso": "2026-08-01T13:29:21+0200"
+  "published_at": "August 1, 2026 · 3:29 PM CEST",
+  "published_at_iso": "2026-08-01T15:29:37+0200"
 }
