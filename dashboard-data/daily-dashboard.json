@@ -767,58 +767,6 @@
       "first_seen": "2026-07-27"
     },
     {
-      "id": "SIG-304",
-      "title": "Refund-window cascade",
-      "description": "Added 2026-07-31 (attended stand-up; anti-slip catch — recommended by the 07-30 and 07-31 autonomous runs and never task-ified until now, which was itself the third pseudo-tracker failure in nine days). SIG-243 (2026-07-17) made money-back tier-specific (Monthly = cancel-anytime/no refund; Annual + Lifetime = 30-day) and Pricing §7.1.1 carries an explicit ⚑ flag naming the surfaces needing update. The flag was never actioned — 14 days. 12 stale \"14-day\" sites remain across PRD §11.9 (build-facing), Affiliate v1.2, Backlog P-3, Mandate, MVP Plan, Financial OnePager. Register with line numbers,…",
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-07-31"
-    },
-    {
-      "id": "SIG-305",
-      "title": "Trial-length cascade",
-      "description": "Added 2026-07-31 (attended stand-up; anti-slip catch). Trial locked 3-day → 7-day at SIG31, 52 days ago. Brand swept (v1.5.2 §47); Onboarding v1.6, Paywall v1.0, Screen Plan v1.0 and the 07-29 website draft are all correct. PRD v1.5 is the sole holdout and it is the build-facing document — 13 stale sites including user-facing CTA copy, the trial_started event, and the QA acceptance checklist. Plus 6 in Pricing's own body — including line 1777, a Wolf-owned pre-launch action item instructing him to configure a 3-day trial into the live Lemon Squeezy variant, sitting 1,644 lines below the §0.8…",
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-07-31"
-    },
-    {
       "id": "SIG-306",
       "title": "Website research + best-practice teardown → recommendation pass (DEDICATED CHAT)",
       "description": "Added 2026-07-31 (attended stand-up; new-task capture — Wolf agreed this as a separate chat, so it becomes a row before close per the anti-slip rule). Wolf's direction, verbatim in substance: *do not create the website off the existing draft.* Run the research first — best-practice research for a waitlist / pre-order site, then teardowns of the strongest real examples, then per-element recommendations with the reasoning for each, then a proper plan; review the drafts already written as part of that. Inputs: _Working/SIG-067_WEBSITE-CONTENT_home-pricing-about_v0_1_DRAFT_2026-07-29.md (input, N…",
@@ -921,6 +869,52 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-07-31"
+    },
+    {
+      "id": "SIG-314",
+      "title": "Resend domain authentication + outbound sending warm-up",
+      "description": "Added 2026-08-01 (attended stand-up; Wolf ruled it a row after a plain-English explanation). Surfaced by the SIG-311 critical-path pass — an incompressible external clock with NO row, found in the same session that concluded a *non-gating* external clock had held P0 for twenty-one stand-ups. PRD v1.5 §16.2 item 2, verbatim: *\"Resend domain authentication + warmup — DNS propagation + sending reputation warmup requires 2+ weeks before launch; cannot be compressed.\"* In plain terms: mailbox providers have no sending history for maxxsignal.com. A brand-new domain going from zero to thousands of s…",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-08-01"
+    },
+    {
+      "id": "CF-EVIDENCE-PROVENANCE-CLAUSE-1",
+      "title": "Codify the evidence-provenance rule in COWORK_INSTRUCTIONS §5.4.1 as the companion to the anti-slip disciplin…",
+      "description": "Codify the evidence-provenance rule in COWORK_INSTRUCTIONS §5.4.1 as the companion to the anti-slip discipline: every automated lane must name the surface it actually read AND that surface's timestamp, and must report INCONCLUSIVE rather than substituting \"I could not check X\" for \"X is fine.\" Origin: the 2026-08-01 false alarm, where a lane reported a chain degraded without inspecting it — it failed at tool-load and reported the subject anyway. The obvious rule (\"a bridge-dependent lane must fail loud that it is bridge-dependent\") is too narrow and was rejected: the lane that got it wrong wa…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Hive Mind",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next COWORK_INSTRUCTIONS Three-…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-01"
     },
     {
       "id": "CF-VENTURE-CAPTURE-TRIAGE-AT-VENTURE-1",
@@ -3745,6 +3739,32 @@
       "first_seen": "2026-07-31"
     },
     {
+      "id": "SIG-315",
+      "title": "Screens v1.0.1 staleness reconciliation against current canon → v1.1",
+      "description": "Added 2026-08-01 (attended stand-up; Wolf ruled it a row after a plain-English explanation). Surfaced by the SIG-305 completeness sweep — this is NOT a cascade line-patch and must not be treated as one. MSIG-UX-SCREENS-0001 v1.0.1 is the canonical screen-by-screen specification for all 13 MVP screens — the document Claude Code builds the app screens from. It is marked Status: Locked, Authority Level: P1, and Last Updated: 2026-05-21 — ten weeks stale. Its own Replaces field reads *\"patch-level cross-doc fanout update… no screen spec content changes\"*, i.e. it has had no content update at all…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "4h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-01"
+    },
+    {
       "id": "CAP-0051",
       "title": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol)",
       "description": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol). Reusable multi-session GTM protocol (research-first → present → debate → decide → lock; visual boards + phone PDFs), reverse-engineered from Signal SIG25–28, for Solitaire / AI-DVISOR / future ventures. Playbook shipped: ~/MAXX/_MAXX_OS/Observations/MOS-PLAYBOOK-GTM-WALKTHROUGH-0001.md v0.1. Roadmap v0.2 (wire to ATHENA design skill) / v0.3 (installable plugin). Provenance: Wolf-approved 2026-06-06 (\"charter now\"). → PRODUCTIZATION_LOG PS-GTM-WALKTHROUGH-1.",
@@ -3952,6 +3972,26 @@
       "zone": "open",
       "kind": "cap",
       "first_seen": null
+    },
+    {
+      "id": "CF-WATCHDOG-CHECK3-TZ-DEFECT-1",
+      "title": "watchdog_local.sh CHECK 3 parses the mirror-sync heartbeat's last_run_local as if it were UTC, understating t…",
+      "description": "watchdog_local.sh CHECK 3 parses the mirror-sync heartbeat's last_run_local as if it were UTC, understating the heartbeat's age by the local offset (currently 2h). Found during the v1.3 dry-run, which printed mirror-sync OK at 2026-08-01T12:30:10 (-1h ago) for a sync ~4 minutes old — a negative age is the tell. Harmless today, but the threshold is max_age_hours=8, so a genuinely 9-hour-stale heartbeat computes as 7h and PASSES — a silent false-green on the exact check that exists to catch a dead mirror. The heartbeat file carries last_run_utc alongside last_run_local; the fix is to parse the…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next watchdog touch; before the…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-01"
     },
     {
       "id": "CF-CANONICAL-INTEGRITY-FIRST-CATCH-1",
@@ -12238,6 +12278,58 @@
       "first_seen": "2026-07-17"
     },
     {
+      "id": "SIG-304",
+      "title": "Refund-window cascade",
+      "description": "Added 2026-07-31 (attended stand-up; anti-slip catch — recommended by the 07-30 and 07-31 autonomous runs and never task-ified until now, which was itself the third pseudo-tracker failure in nine days). SIG-243 (2026-07-17) made money-back tier-specific (Monthly = cancel-anytime/no refund; Annual + Lifetime = 30-day) and Pricing §7.1.1 carries an explicit ⚑ flag naming the surfaces needing update. The flag was never actioned — 14 days. 12 stale \"14-day\" sites remain across PRD §11.9 (build-facing), Affiliate v1.2, Backlog P-3, Mandate, MVP Plan, Financial OnePager. Register with line numbers,…",
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
+      "id": "SIG-305",
+      "title": "Trial-length cascade",
+      "description": "Added 2026-07-31 (attended stand-up; anti-slip catch). Trial locked 3-day → 7-day at SIG31, 52 days ago. Brand swept (v1.5.2 §47); Onboarding v1.6, Paywall v1.0, Screen Plan v1.0 and the 07-29 website draft are all correct. PRD v1.5 is the sole holdout and it is the build-facing document — 13 stale sites including user-facing CTA copy, the trial_started event, and the QA acceptance checklist. Plus 6 in Pricing's own body — including line 1777, a Wolf-owned pre-launch action item instructing him to configure a 3-day trial into the live Lemon Squeezy variant, sitting 1,644 lines below the §0.8…",
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
       "id": "CF-SIGNAL-ART27-REP-OWNER-1",
       "title": "Name the owner for EU Article 27 representative procurement",
       "description": "Name the owner for EU Article 27 representative procurement — venture action or MC action? Approved at D3 (2026-07-27) when Signal went worldwide-at-launch incl. EU/UK, at ~€300–1,000/yr plus the UK equivalent. Nobody has been appointed and no row existed. Procurement with external lead time, same class as D-U-N-S and Apple review. It gates publication of MSIG-LEGAL-PRIVACY-POLICY-0001 → gates SIG-076 → gates SIG-080 (launch). Signal has twice said it will take the work either way; what it needs is an owner before this accrues the twenty-standup age D-U-N-S now has. A US controller offering a…",
@@ -14706,6 +14798,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "July 31, 2026 · 9:27 PM CEST",
-  "published_at_iso": "2026-07-31T21:27:36+0200"
+  "published_at": "August 1, 2026 · 1:29 PM CEST",
+  "published_at_iso": "2026-08-01T13:29:21+0200"
 }
