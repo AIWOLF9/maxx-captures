@@ -197,7 +197,7 @@
     {
       "id": "SIG-045",
       "title": "Apple Developer Program enrolment",
-      "description": "[2026-08-01 — RE-SCOPED TO TWO PHASES. Wolf ruled Route A at the attended stand-up, after challenging the previous analysis and being right.] PHASE 1 — enrol as INDIVIDUAL, now (~$99/yr). Gated on NOTHING. No D-U-N-S, no website: Apple's five-item requirement list is headed *\"Organizations enrolling… will need\"*, and an Individual needs only an Apple ID with 2FA and legal age. An Individual account can issue a Services ID (*\"if you're enrolled as an individual, you can register up to 10 website URLs\"* — Signal needs one). This unblocks SIG-046/047/048 immediately and takes Sign in with Apple…",
+      "description": "[2026-08-01 — PHASE 1 APPROVED BY APPLE ✅, same day. Wolf: *\"I am approved, and I just got all the emails as well.\"* Submitted-to-approved in hours, not the stated 48.] SIG-046 / SIG-047 / SIG-048 are now UNBLOCKED. Sign in with Apple is off the launch path — the remaining chain is ~30–45 min of Wolf's clicking, doable any time before the P4 auth build. DELIBERATELY NOT DONE TODAY (Wolf's call, agent's recommendation): it is non-gating, and B2 — the actual gating item — was live. *Doing satisfying non-gating work while the gating lane waits is the precise failure this session was convened aro…",
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -223,7 +223,33 @@
     {
       "id": "SIG-046",
       "title": "App ID + Services ID creation",
-      "description": "Create com.maxxsignal.web App ID + Services ID and configure Sign In with Apple (Checklist §6).",
+      "description": "Create com.maxxsignal.web App ID + Services ID and configure Sign In with Apple (Checklist §6). [2026-08-01 — UNBLOCKED. SIG-045 phase 1 approved.] Runs as a single guided pass with SIG-047 + SIG-048, ~30–45 min total, Wolf clicking with Claude walking it. Sequenced AFTER B2 by agreement — non-gating, and the credential should be generated close to its use. First action when it runs: this is the step that empirically confirms an Individual account can create a Services ID. If it cannot, phase 2 becomes gating again and SIG-311's re-banding must be revisited — so report the outcome either way.",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
+      "id": "SIG-047",
+      "title": "Domain verification (Apple)",
+      "description": "Verify the domain with Apple for Sign In with Apple (Checklist §7). [2026-08-01 — NOT BLOCKED BY THE WEBSITE. Worth stating explicitly because the adjacent Organization requirement IS.] Apple's web domain verification works by hosting a token file at https://maxxsignal.com/.well-known/apple-developer-domain-association.txt and registering the return URLs. The existing waitlist page on Vercel can serve that file — it needs a path, not content. This is a different mechanism from the Organization-enrolment website check (*\"publicly available and functional… minimal content won't be accepted\"*),…",
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -232,42 +258,16 @@
       "deadline_label": "Phase P3",
       "deadline_class": "d-future",
       "effort_mc": "0.25h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Auto",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
-      "id": "SIG-047",
-      "title": "Domain verification (Apple)",
-      "description": "Verify the domain with Apple for Sign In with Apple (Checklist §7).",
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Ops",
-      "venture": "v-signal",
-      "deadline": "1-3",
-      "deadline_label": "Phase P3",
-      "deadline_class": "d-future",
-      "effort_mc": "0.1h",
       "effort_wolf": "0.25h",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
-      "owner": "Wolf",
-      "executor": "MC",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
       "executor_list": [
-        "MC"
+        "Wolf"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Wolf",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -789,32 +789,6 @@
       ],
       "autonomy": "Auto",
       "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-07-31"
-    },
-    {
-      "id": "SIG-307",
-      "title": "Deployment route for maxxsignal.com",
-      "description": "Added 2026-07-31 (attended capture-triage session; created under D-2026-07-31a — autonomous row creation for an evidenced defect). THIS ROW EXISTS TO CLOSE A DECISION, NOT TO TAKE ONE. The route was already ruled: D-2026-07-29a, Wolf, verbatim *\"vercel\"* (_Inbox/MC-TO-SIGNAL_HANDOFF_2026-07-29.md). Verified live this session against the Vercel account rather than inferred: project maxx-signal / prj_JlYa5AHo3UReBCvpBJvCjHTLxAPO, team *Wolf's projects*, Next.js on Node 24.x, latest production deploy READY, and maxxsignal.com + join.maxxsignal.com are already bound to it. Why it is not cheaply r…",
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Build",
-      "venture": "v-signal",
-      "deadline": "1-5",
-      "deadline_label": "Phase P5",
-      "deadline_class": "d-future",
-      "effort_mc": "0.25h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-31"
     },
@@ -12330,6 +12304,32 @@
       "first_seen": "2026-07-31"
     },
     {
+      "id": "SIG-307",
+      "title": "Deployment route for maxxsignal.com",
+      "description": "Added 2026-07-31 (attended capture-triage session; created under D-2026-07-31a — autonomous row creation for an evidenced defect). THIS ROW EXISTS TO CLOSE A DECISION, NOT TO TAKE ONE. The route was already ruled: D-2026-07-29a, Wolf, verbatim *\"vercel\"* (_Inbox/MC-TO-SIGNAL_HANDOFF_2026-07-29.md). Verified live this session against the Vercel account rather than inferred: project maxx-signal / prj_JlYa5AHo3UReBCvpBJvCjHTLxAPO, team *Wolf's projects*, Next.js on Node 24.x, latest production deploy READY, and maxxsignal.com + join.maxxsignal.com are already bound to it. Why it is not cheaply r…",
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
       "id": "CF-SIGNAL-ART27-REP-OWNER-1",
       "title": "Name the owner for EU Article 27 representative procurement",
       "description": "Name the owner for EU Article 27 representative procurement — venture action or MC action? Approved at D3 (2026-07-27) when Signal went worldwide-at-launch incl. EU/UK, at ~€300–1,000/yr plus the UK equivalent. Nobody has been appointed and no row existed. Procurement with external lead time, same class as D-U-N-S and Apple review. It gates publication of MSIG-LEGAL-PRIVACY-POLICY-0001 → gates SIG-076 → gates SIG-080 (launch). Signal has twice said it will take the work either way; what it needs is an owner before this accrues the twenty-standup age D-U-N-S now has. A US controller offering a…",
@@ -14798,6 +14798,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "August 1, 2026 · 3:29 PM CEST",
-  "published_at_iso": "2026-08-01T15:29:37+0200"
+  "published_at": "August 1, 2026 · 5:29 PM CEST",
+  "published_at_iso": "2026-08-01T17:29:54+0200"
 }
