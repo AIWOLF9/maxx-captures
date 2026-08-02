@@ -3107,32 +3107,6 @@
       "first_seen": "2026-07-18"
     },
     {
-      "id": "SIG-300",
-      "title": "Onboarding image finalisation",
-      "description": "Added 2026-07-25 (stand-up #2; anti-slip catch — the image work was the stated gate on the whole design lane but had no SIG row). Finalise every visual in the locked 18-single-beat-screen + 2-bookend onboarding flow (SIG-287B, 07-24) so Claude Design receives finished assets (CD does layout, not image generation). Capability: ATHENA imagery unblocked 2026-07-24 — fal via Composio; connection verified ACTIVE from a Signal venture chat 2026-07-25 08:50Z (account MAXX fal). Invocation: “Use Composio to run fal” → FAL_AI_RUN_MODEL_SYNC; resolve the Nano-Banana endpoint at call time via FAL_AI_GET…",
-      "status": "s-doing",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude(ATHENA)+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Auto",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-07-25"
-    },
-    {
       "id": "SIG-309",
       "title": "IP-assignment readiness",
       "description": "Added 2026-07-31 (attended; created under D-2026-07-31a — evidenced gap, nothing on the board covered it). Wolf stated 2026-07-31 that a separate entity (MAXX AI Ventures) will likely be formed to take outside investors, a few months out, and that Signal is built under Wolf Ventures LLC in the meantime. That is the right sequencing — but it means Wolf Ventures LLC will OWN Signal, and the first question in any investor diligence is whether the company being invested in owns the thing being bought. Moving it later needs a documented IP assignment plus novation of every third-party contract (Ve…",
@@ -13896,6 +13870,32 @@
       "first_seen": "2026-07-25"
     },
     {
+      "id": "SIG-300",
+      "title": "Onboarding image finalisation",
+      "description": "Added 2026-07-25 (stand-up #2; anti-slip catch — the image work was the stated gate on the whole design lane but had no SIG row). Finalise every visual in the locked 18-single-beat-screen + 2-bookend onboarding flow (SIG-287B, 07-24) so Claude Design receives finished assets (CD does layout, not image generation). Capability: ATHENA imagery unblocked 2026-07-24 — fal via Composio; connection verified ACTIVE from a Signal venture chat 2026-07-25 08:50Z (account MAXX fal). Invocation: “Use Composio to run fal” → FAL_AI_RUN_MODEL_SYNC; resolve the Nano-Banana endpoint at call time via FAL_AI_GET…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude(ATHENA)+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-25"
+    },
+    {
       "id": "SIG-301",
       "title": "Caps-cascade gap audit",
       "description": "Added 2026-07-26 (autonomous stand-up; anti-slip catch). The SIG-239 caps cascade (2026-07-23) landed Decision 41 into six docs (Taxonomy·Paywall·PRD·Intentions·Feed Arch·Onboarding) and missed the build-facing screen specs. Four still carry the pre-SIG-284 (SIG-228) grid: SCREEN-MYCHANNELS v1.0 (Free channels 30→40; whole videos-per-channel row stale 10/20-40-50/30-50-100 → 20/30-50-60/40-60-120; §9 contract prose), SCREEN-CHANNELBUILDER v1.1 (same stale ladder ×3 plus a find/replace corruption Curated-curated-videos-per-channel ×4 from the SIG-243 relabel), SCREEN-CHANNELSLIST v1.1 (Free ch…",
@@ -14938,6 +14938,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "August 1, 2026 · 7:30 PM CEST",
-  "published_at_iso": "2026-08-01T19:30:11+0200"
+  "published_at": "August 2, 2026 · 11:32 PM CEST",
+  "published_at_iso": "2026-08-02T23:32:35+0200"
 }
