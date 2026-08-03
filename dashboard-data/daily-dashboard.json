@@ -54,7 +54,7 @@
     },
     {
       "id": "SIG-038",
-      "title": "Claude Design production mockups",
+      "title": "Claude Design production mockups…",
       "description": "SIG22+: produce pixel-level mockups of every onboarding step in Claude Design; iterate with Wolf (context-heavy, multiple chats). [2026-07-31 — Wolf's plan of record for this row, attended stand-up.] Next chat (B2) finalises every remaining onboarding screen design first — clearing O1–O4 from the SIG-287B1 closeout §8 — and only then runs the Claude Design loop one prompt per screen, exactly as in past CD sessions. Then export everything from Claude Design and Claude QCs the export for correctness. Wolf explicitly sequenced the website work behind this row. Opener already written: SIG-287B1 c…",
       "status": "s-todo",
       "priority": "p-p0",
@@ -80,7 +80,7 @@
     },
     {
       "id": "SIG-039",
-      "title": "Claude Design production mockups",
+      "title": "Claude Design production mockups…",
       "description": "Mockups for feed, video player, settings/preferences, paywall, and share screens; iterate to lock.",
       "status": "s-todo",
       "priority": "p-p0",
@@ -132,7 +132,7 @@
     },
     {
       "id": "SIG-045",
-      "title": "Apple Developer Program enrolment",
+      "title": "Apple Developer Program enrolment…",
       "description": "[2026-08-01 — PHASE 1 APPROVED BY APPLE ✅, same day. Wolf: *\"I am approved, and I just got all the emails as well.\"* Submitted-to-approved in hours, not the stated 48.] SIG-046 / SIG-047 / SIG-048 are now UNBLOCKED. Sign in with Apple is off the launch path — the remaining chain is ~30–45 min of Wolf's clicking, doable any time before the P4 auth build. DELIBERATELY NOT DONE TODAY (Wolf's call, agent's recommendation): it is non-gating, and B2 — the actual gating item — was live. *Doing satisfying non-gating work while the gating lane waits is the precise failure this session was convened aro…",
       "status": "s-todo",
       "priority": "p-p0",
@@ -678,7 +678,7 @@
     },
     {
       "id": "SIG-303",
-      "title": "Feed value-cards",
+      "title": "Feed value-cards…",
       "description": "Added 2026-07-27 (ruling D1, D-SIG269-1 / Decision 46). HARD RELEASE CONSTRAINT: AdSense must NOT go live in any release that does not also ship interleaved Signal-authored value-cards in the feed. Why: YouTube's independent-value clause is applied to the screen, not the company — a bare feed of video tiles carrying an ad fails the \"delete the YouTube data, what is left?\" test however good the product is, because curation is the *reason* the videos are there but is not *content on that screen*. Value-cards put non-YouTube content on every ad-bearing screen, converting our weakest compliance s…",
       "status": "s-todo",
       "priority": "p-p0",
@@ -730,7 +730,7 @@
     },
     {
       "id": "SIG-308",
-      "title": "EU Art",
+      "title": "EU Art…",
       "description": "Added 2026-07-31 (attended capture-triage session; created under D-2026-07-31a). OWNERSHIP MOVED TO SIGNAL by Wolf on 2026-07-31, same reasoning as the deployment route: MC has no better access to Art. 27 representative vendors than the venture does, the gated artifact is Signal's, and Signal had already offered to take it either way. CF-SIGNAL-ART27-REP-OWNER-1 closed at MC. Approved in principle at D3 on 2026-07-27, when Signal went worldwide-at-launch including EU/UK — and nobody has owned it since. Why P0 despite being small: a US controller offering a service to EU consumers with no name…",
       "status": "s-todo",
       "priority": "p-p0",
@@ -756,7 +756,7 @@
     },
     {
       "id": "SIG-311",
-      "title": "Re-examine the launch critical path",
+      "title": "Re-examine the launch critical path…",
       "description": "Added 2026-07-31 (attended; created under D-2026-07-31a — internal contradiction on this board, evidenced from its own text). The contradiction: this file states *\"Native apps are ~90d post-launch (rollout within 90d of the ~Oct launch, so ~Q1 2027), meaning the Oct launch is mobile web\"* and CF-SIG27-1 files the native app under bigger-vision scope — while SIG-045 (Apple Organization enrolment) is P0 and twenty-one consecutive stand-ups, including the 2026-07-31 closeout authored by this agent, name the D-U-N-S → Apple chain as *the launch critical path*. Wolf confirmed independently 2026-07…",
       "status": "s-todo",
       "priority": "p-p0",
@@ -808,7 +808,7 @@
     },
     {
       "id": "CF-INBOX-PARSER-STATUS-FIELD-1",
-      "title": "21 of 40 AGENT_INBOX §3 entries do not parse, so ~53% of the Agent Inbox surface renders blank",
+      "title": "21 of 40 AGENT_INBOX §3 entries do not parse, so ~53% of the Agent Inbox surface renders blank…",
       "description": "21 of 40 AGENT_INBOX §3 entries do not parse, so ~53% of the Agent Inbox surface renders blank — including BOTH 2026-07-31 “HAND-OFF TO SIGNAL” rows, the two escalations MC had finally recorded properly. Root cause confirmed: _INBOX_FIRST_RE requires a trailing · status: X, and every entry written under the newer · lane \\X\\ · convention (MOS-SYS-INBOX-APPEND-0001, 2026-07-27) omits status: entirely. Widening the agent group to accept a (lane) qualifier was necessary and recovered 3 entries; it is not sufficient. The remaining fix needs a ruling on what status a lane entry carries and is delib…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -828,7 +828,7 @@
     },
     {
       "id": "CF-SIG192-BRIEF-OWNERSHIP-1",
-      "title": "WOLF RULED 2026-08-01: Signal takes MOS-T-003 / MOS-T-005 / MOS-T-007",
+      "title": "WOLF RULED 2026-08-01: Signal takes MOS-T-003 / MOS-T-005 / MOS-T-007…",
       "description": "WOLF RULED 2026-08-01: Signal takes MOS-T-003 / MOS-T-005 / MOS-T-007; Mission Control delivers MOS-T-035 (Marketing-OS 4-layer blueprint). Signal's SIG-192 un-blocks — convert it from Waiting to To-do scoped to the three it now owns, and sequence behind B2 per D-2026-07-27b (agent time, not founder time). MC's remaining obligation is MOS-T-035 only. Original defect for the record: MC accepted four briefs 2026-06-09, delivered none, and left Signal's row frozen 55 days; Signal asked a binary ownership question 2026-07-27 and got no answer for five days. This row stays visible rather than bein…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -848,7 +848,7 @@
     },
     {
       "id": "CF-RETURN-PATH-ORPHAN-RETIRE-1",
-      "title": "§10.1 debt",
+      "title": "§10.1 debt…",
       "description": "§10.1 debt — pay it or the fifth statement joins the other four. The return path is specified in ≥4 canonical places and built in none, so the same reflex OBS-0062 names is live right now. Retire in one pass: (a) mark the AGENT_DISPATCH_QUEUE.md §3 2026-06-15 APOLLO row cancelled; (b) graduate MOS-COMMS-FABRIC-DESIGN-0001 to Canonical/Final/ or archive it — DRAFT since 2026-06-08 is a second lifecycle either way; (c) rewrite _library/README.md §4 to point at the shipped gate instead of describing an unbuilt intake pass. The slice pointer (d) is already fixed — gen_signal_slice.py now carries…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -868,7 +868,7 @@
     },
     {
       "id": "CF-MC-HANDOFF-CADENCE-1",
-      "title": "R3",
+      "title": "R3…",
       "description": "R3 — MC's venture hand-offs are authored from the previous evening's board and read after the venture's own run has landed, which is the whole “you delegated work I already shipped” class. MC's nightly batch fires 00:03; Signal's autonomous pass fires 09:00. Move MC venture hand-off generation to after the venture's pass, and have every hand-off carry derived_from: <path>@<sha> · authored: <ts> · next_free_id: <read at authoring time>. The venture recomputes the sha at stand-up step 0 and treats a mismatch as advisory, not directive. Signal named this precisely in CALLBACK_TO_MC_2026-08-01b.m…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -908,7 +908,7 @@
     },
     {
       "id": "CF-VENTURE-CAPTURE-TRIAGE-AT-VENTURE-1",
-      "title": "Capture triage moves to the venture, and gains a standup trigger",
+      "title": "Capture triage moves to the venture, and gains a standup trigger…",
       "description": "Capture triage moves to the venture, and gains a standup trigger. The infrastructure already exists and was being routed around. Three findings, in order of how badly they land. (1) The venture already has the data. _index/_shared/MOS_TASKS_SIGNAL_SLICE.md is regenerated every 2h by publish-dashboards.sh and mirrored into SIGNAL/_index/_shared/ by CAP-0049. It carries all 49 Signal-tagged MOS-T rows including all 22 captures, with the full Description column, 20 of them marked 🆕 Raw. Signal could have triaged these from inside its own folder at any point. A manual MC→venture handoff was built…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -928,7 +928,7 @@
     },
     {
       "id": "CF-SEQUENTIAL-OPENER-AUTHORING-1",
-      "title": "Codify: author ONE opener",
+      "title": "Codify: author ONE opener…",
       "description": "Codify: author ONE opener — the next chat's — and queue the rest as triggers, not payloads. A closeout must still hand off (COWORK_INSTRUCTIONS §5.5 requires a Next-Chat Opening Prompt), so the rule is not *stop writing openers*. It is: write a paste-ready prompt for the immediately-next chat only. For every chat after that, write a one-line queue entry — chat name, purpose, and the trigger that makes it ready — and author its prompt at the moment it opens. Full derivation and the cost argument: [[OBS-0077]]. Codification target: COWORK_INSTRUCTIONS §5.4.2 (parallel-chat allocation already go…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -948,7 +948,7 @@
     },
     {
       "id": "CF-PUBLISHER-STATUS-AUTHORITY-1",
-      "title": "Publisher parser-conformance check",
+      "title": "Publisher parser-conformance check…",
       "description": "Publisher parser-conformance check — and the deeper defect found while scoping it, already fixed. Signal's ask (callback §2): reject or flag any SIGNAL_TASKS.md row that does not resolve to exactly 12 columns with a schema-legal Status, since four schema violations were found in five days in the one file the dashboard parses. Pairs with verify_canonical_integrity.py, already in that publisher. STILL OWED — the conformance check itself is not built. What scoping it uncovered, and this is the part that matters: the proposed check *would not have caught the worse bug.* dashboard_renderers._roste…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -968,7 +968,7 @@
     },
     {
       "id": "CF-DERIVED-AGGREGATES-1",
-      "title": "Codify \"aggregates must be derived, not authored\" into COWORK_INSTRUCTIONS §5.4",
+      "title": "Codify \"aggregates must be derived, not authored\" into COWORK_INSTRUCTIONS §5.4…",
       "description": "Codify \"aggregates must be derived, not authored\" into COWORK_INSTRUCTIONS §5.4. Signal's ask (callback §2), adopted: *any roll-up, count, effort total or completion % inside a living tracker must be computed from the rows at write time, or explicitly stamped with the date and row-range it was computed over. A hand-authored aggregate with no provenance is a claim, not a measurement.* The evidence is severe. SIGNAL_TASKS.md's roll-up — the table Mission Control renders and Wolf plans against — understated remaining launch effort by ~50% (67 vs 121 launch-path tasks; ~181h vs ~271h Claude; 168…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -988,7 +988,7 @@
     },
     {
       "id": "CF-CF1-STAGING-CACHE-DISCRIMINATOR-1",
-      "title": "Add the phantom-revert discriminator to the CF-1 guidance text, everywhere it is stated",
+      "title": "Add the phantom-revert discriminator to the CF-1 guidance text, everywhere it is stated…",
       "description": "Add the phantom-revert discriminator to the CF-1 guidance text, everywhere it is stated. Signal's ask (callback §6), adopted. device_stage_files keeps a staging cache keyed on the staged path: it can return *new* metadata (correct size, correct mtime) while serving the *old* bytes. That reproduces the CF-1 signature — *\"I wrote it, I read it back, it was the old content\"* — exactly, and it is not a revert. Any agent following CF-1 discipline literally will mis-attribute it, and the portfolio will accumulate phantom revert reports that bury the real signal. The discriminator, before concluding…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1008,7 +1008,7 @@
     },
     {
       "id": "CF-MCP-STATELESS-SMOKETEST-1",
-      "title": "The MCP specification goes stateless on 2026-07-28",
+      "title": "The MCP specification goes stateless on 2026-07-28…",
       "description": "The MCP specification goes stateless on 2026-07-28 — tomorrow — and MAXX owns one MCP server outright. The new standard drops the stateful handshake; each request carries its own context. Existing servers are *expected* to keep working and new clients *expected* to fall back automatically, but \"expected to\" is not \"verified,\" and the self-hosted GitHub MCP server (local Docker, CAP-0053) is load-bearing for two things at once: the unattended nightly autonomous batch, and the substrate mirror that SIGNAL now depends on for agent delivery. Neither the MAXX OS nor the Signal reflection connects…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1028,7 +1028,7 @@
     },
     {
       "id": "CF-ARGUS-DECOUPLE-1",
-      "title": "ARGUS (QA / ship-gate agent) is pulled OUT of CF-SIGNAL-AGENT-NEEDS-1 and sequenced on its own",
+      "title": "ARGUS (QA / ship-gate agent) is pulled OUT of CF-SIGNAL-AGENT-NEEDS-1 and sequenced on its own…",
       "description": "ARGUS (QA / ship-gate agent) is pulled OUT of CF-SIGNAL-AGENT-NEEDS-1 and sequenced on its own. Rationale (D-2026-07-25): ARGUS is gated on the *existence of a build*, not on final design screens — bundling it behind a Claude-Design gate was a category error that parked a ship-gate agent behind an unrelated blocker for weeks. Sequence it against the build track instead. Supersedes / absorbs the standing ask in CF-ARGUS-EARLIER-DEMAND-1 (ARGUS's Wave-4 / CAP-0033 placement is too late for an always-on quality gate) — that row is cross-referenced and deliberately left Open, not closed; work bot…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "CF-CAPTURE-REGISTER-PHANTOM-1",
-      "title": "The AM/PM newness registers' \"open queue\" is a phantom",
+      "title": "The AM/PM newness registers' \"open queue\" is a phantom…",
       "description": "The AM/PM newness registers' \"open queue\" is a phantom — it is the capture feed's array length, not a backlog. Every run reports *\"Open queue of 62 awaits filing in the daily review\"*. A reconciliation this session proved there is nothing to file: captures.json carries no status / state / archived field at all, promote_captures.py writes only to MOS_TASKS.md and never marks the feed, and the Netlify capture function supports only upsert/delete — so the feed is an append-only lifetime archive and \"open queue\" is simply its length. Across 97 registers since 2026-06-03 the number has been monoto…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1068,7 +1068,7 @@
     },
     {
       "id": "CF-APPLE-ID-COLLISION-1",
-      "title": "Wolf's personal Apple ID cannot host the new Signal Organization enrolment",
+      "title": "Wolf's personal Apple ID cannot host the new Signal Organization enrolment…",
       "description": "Wolf's personal Apple ID cannot host the new Signal Organization enrolment — stand up a fresh dedicated business Apple ID instead. Per the SIGNAL/_Working/SIG-043_DUNS_Registration_Instructions_v0_1_DRAFT_2026-06-24.md sheet: Wolf's personal Apple ID is already Account Holder of an old Care Angel developer membership; one Apple ID = one membership; Care Angel cannot be renamed to a different legal entity (a different entity requires a new Organization enrolment); and that Apple ID's 2FA is broken (SMS codes are not arriving). Recommended path (from the sheet): create a fresh dedicated busines…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1088,7 +1088,7 @@
     },
     {
       "id": "CF-PM4a-3",
-      "title": "Local Google Drive folder content not in claude.ai KB",
+      "title": "Local Google Drive folder content not in claude.ai KB…",
       "description": "Local Google Drive folder content not in claude.ai KB — significant content (Solitaire: ~15 transcripts, marketing docs, UX/UI media; Signal: chat logs, Business Corp docs, additional Design/financial/GTM/affiliate/Grok visuals, Google Doc-format canonicals needing markdown conversion, YouTube screenshots) lives only in Drive. Two-channel migration (KB content via hardened skill; Drive content via direct filesystem copy).",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1108,7 +1108,7 @@
     },
     {
       "id": "CF-PM4a-5",
-      "title": "Productization framing carry-forward",
+      "title": "Productization framing carry-forward…",
       "description": "Productization framing carry-forward — two new productization tracks logged in PM4a (PS-PM4a-1: inventory-driven migration pattern; PS-PM4a-2: dual-axis folder architecture). Fold into Launch Workflow brief scoping. [2026-07-17 fold-seed READY — nightly finding drafted the ready-to-paste fold paragraph for CF-PM4d-2's opener (covers PS-PM4a-1/2 + PS-PM4b-1/2/3/4 + PS-PM5a-1 drift-detection differentiator); gate cleared (CF-PM4d-2 \"Post-Pattern C operational\" satisfied 2026-07-08). Attach at next CF-PM4d-2 touch. Stays Open. Evidence: _MAXX_OS/Research/nightly-batch/2026-07-17/CF-PM4a-5-findin…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1128,7 +1128,7 @@
     },
     {
       "id": "CF-BRAIN3-3",
-      "title": "Launch Workflow Interview",
+      "title": "Launch Workflow Interview…",
       "description": "Launch Workflow Interview — 14 questions across 4 areas (origin: BRAIN3 transcript 2026-05-09). Feeds CF-PM4d-2 scoping.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1148,7 +1148,7 @@
     },
     {
       "id": "CF-PM4d-2",
-      "title": "Launch Workflow / MAXX OS productization next-chat brief",
+      "title": "Launch Workflow / MAXX OS productization next-chat brief…",
       "description": "Launch Workflow / MAXX OS productization next-chat brief. Founder opening paragraph from PM4d preserved verbatim as seed: *\"We're going to document and create a Maxx operating system for launching in a new project, which will have a templated structure. Everything we've learned in launching these last two projects will go into laying the foundation for all projects in the future and potentially set this up as something that could be its own product to a third party.\"* Strategic bridge between operational migration sequence and MAXX OS Cloud productization.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1168,7 +1168,7 @@
     },
     {
       "id": "CF-PM4d-9",
-      "title": "Skill Self-Suggestion Protocol codification",
+      "title": "Skill Self-Suggestion Protocol codification…",
       "description": "Skill Self-Suggestion Protocol codification — encode three sub-modes: (1) Pattern detection (MC notices workflow repetition N=3+ times across sessions; flags as skill candidate), (2) Search-before-build discipline (skill-authoring request triggers research pass against Anthropic first-party + curated marketplace + community ecosystem under OBS-0012 governance lock), (3) Customize-vs-build decision framework. Use youtube-extract skill origin story as canonical worked example. Becomes substrate-level capability ventures inherit.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1188,7 +1188,7 @@
     },
     {
       "id": "CF-PM5d-5",
-      "title": "Codify chat-transcript-filing as standard closeout protocol step in COWORK_INSTRUCTIONS.md §5",
+      "title": "Codify chat-transcript-filing as standard closeout protocol step in COWORK_INSTRUCTIONS.md §5…",
       "description": "Codify chat-transcript-filing as standard closeout protocol step in COWORK_INSTRUCTIONS.md §5. Per Wolf direction PM5d 2026-05-12: every Mission Control session closeout produces BOTH a structured closeout package AND a near-verbatim transcript at ~/MAXX/_MAXX_OS/Transcripts/MAXX_OS_Chat_Transcript_YYYY-MM-DD_[ChatID]_[ShortTopic].md. Rationale (Wolf): KB-era 30 MB constraint forced summary-only retention; Cowork has no such constraint, so fuller fidelity preserves more substrate continuity for future cross-chat work. New closeout-protocol step needs to be added to §5 cognitive substrate (lik…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1208,7 +1208,7 @@
     },
     {
       "id": "CF-PM5g-3",
-      "title": "ISA primitive build spec authoring",
+      "title": "ISA primitive build spec authoring…",
       "description": "ISA primitive build spec authoring. 12-section Ideal State Artifact template (Problem / Vision / Out of Scope / Principles / Constraints / Goal / Criteria / Test Strategy / Features / Decisions / Changelog / Verification). 6 workflows (Scaffold / Interview / CheckCompleteness / Reconcile / Seed / Append). Independent value beyond MAXX Life — applies to ventures + AI-DVISOR clients + life areas. Productization signal PS-MAXXLIFE-2. Per D-PM5g-2 (Sprint #5.1 Wolf-lock).",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1228,7 +1228,7 @@
     },
     {
       "id": "CF-PM5h-3-B",
-      "title": "Amend session-opener protocol in COWORK_INSTRUCTIONS per D-PM5h-11",
+      "title": "Amend session-opener protocol in COWORK_INSTRUCTIONS per D-PM5h-11…",
       "description": "Amend session-opener protocol in COWORK_INSTRUCTIONS per D-PM5h-11. Three-Step Replacement Protocol on COWORK_INSTRUCTIONS.md to add scan-Reference-and-Working at session opener. Bump v2.0 → v2.1. Also bundle: cross-link D-PM5h-10 (inbox convention §20 artifact-type-or-substrate update); explicit drop-zone exclusion rules per inbox README §4.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1248,7 +1248,7 @@
     },
     {
       "id": "CF-SPRINT-CLOSE-1",
-      "title": "Blueprint Visualization workstream queue",
+      "title": "Blueprint Visualization workstream queue…",
       "description": "Blueprint Visualization workstream queue — 2-chat build sequence per CAP-0008 (architecture mockup chat + interactive build chat). Sequencing AFTER SIG1 + CFI-touch + CAP-0005 v0.3 + Hive Mind dry-run #2 per Wolf Q1 decision sprint-close. Surfaces the MAXX OS substrate as a visual blueprint (per [[user_visual_preference]] + [[feedback_plan_surface_visuals]]); cross-references PS-HUMANIZER-1 + PS-STATUS-INTERACTIVITY-1 + PS-HIVEMIND-PAIRED-INTERACTIVE-1 + PS-REPORTS-HUB-1 productization signal families.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1268,7 +1268,7 @@
     },
     {
       "id": "CF-SPRINT-CLOSE-2",
-      "title": "MAXX OS Agent Roster",
+      "title": "MAXX OS Agent Roster…",
       "description": "MAXX OS Agent Roster — dedicated brainstorm chat per BS-0015. Wolf-framed at sprint-close Q1: \"we need to plan that out and most likely have a dedicated chat for.\" Defines agent taxonomy + role boundaries + interaction patterns across Mission Control + ventures + future MAXX OS Cloud productization. Pairs with Blueprint Chat 1 timing OR fires earlier if Wolf wants agent-taxonomy locked first.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1288,7 +1288,7 @@
     },
     {
       "id": "CF-DASHBOARD-INSTALLER-NODE-RERUN",
-      "title": "[↻ Reclassified Open → Watch 2026-06-09 MC-SUBSTRATE-HYGIENE-1",
+      "title": "[↻ Reclassified Open → Watch 2026-06-09 MC-SUBSTRATE-HYGIENE-1…",
       "description": "[↻ Reclassified Open → Watch 2026-06-09 MC-SUBSTRATE-HYGIENE-1 — recurring trigger-gated discipline, not one-time work; Watch is its correct category (Wolf-approved Q2).] Recurring discipline: re-run install-scheduler.sh after any Node version upgrade. launchd PATH is minimal by default; the plist hardcodes the detected Node bin dir via NODE_BIN_DIR (resolved at install via command -v node); a Node upgrade moves the bin dir and breaks the Netlify-CLI deploy step until re-detected. See memory feedback_launchd_path_node_detection.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -1348,7 +1348,7 @@
     },
     {
       "id": "CF-MARKETING-STACK-REVIEW-1",
-      "title": "Dedicated joint marketing-stack review session (Wolf-requested Stage 3)",
+      "title": "Dedicated joint marketing-stack review session (Wolf-requested Stage 3)…",
       "description": "Dedicated joint marketing-stack review session (Wolf-requested Stage 3). Go tool-by-tool / repo-by-repo through the full marketing stack (Athena + Apollo + social-content engine + the VCE repos + any \"reference-only\" classifications) WITH Wolf before locking any reference-only / validated / strengthened classification. Rationale: Mission Control has been downgrading items to \"reference-only\" off incomplete reads/skims; Wolf often has higher-credibility context. Also covers: are packaged/ready-to-go solutions already available before we build (reference-first); and define the criteria for movi…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2042,7 +2042,7 @@
     },
     {
       "id": "SIG-204",
-      "title": "Storyboard",
+      "title": "Storyboard…",
       "description": "Added 2026-06-26 (anti-slip capture). Web storyboard for the pre-launch site: waitlist capture (live today at maxxsignal.com) + pre-order surface. Runs the reusable storyboard process (see _Working/STORYBOARD_PROGRAM_MASTER_BRIEF_2026-06-26.md); browser-frame (web, not mobile-only). Reuses Brand v1.5.2, Receipts Set, /receipts + /algorithm-101 + messaging-line drafts, HERMES E1–E11 voice, GTM Journey Arc. Feeds website build SIG-067. Chat 2 of the storyboard program. IN PROGRESS 2026-07-02 (hi-fi sprint mid-iteration): waitlist storyboard adapted (pre-order paywall + launching-soon); design-s…",
       "status": "s-doing",
       "priority": "p-p1",
@@ -2068,7 +2068,7 @@
     },
     {
       "id": "SIG-205",
-      "title": "Storyboard",
+      "title": "Storyboard…",
       "description": "Added 2026-06-26 (anti-slip capture). Storyboard for the Kickstarter campaign page (hero, story, reward tiers, FAQ, social proof). Runs the reusable storyboard process; honors the E10 real-deadline exception (the one honest time-scarcity surface) + anti-copycat guardrail CF-SIG35-4. Reuses HERMES KS email set (E7–E11), Receipts Set, Hormozi/Cialdini offer structure. Chat 3 of the storyboard program.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2094,7 +2094,7 @@
     },
     {
       "id": "SIG-206",
-      "title": "Storyboard",
+      "title": "Storyboard…",
       "description": "Added 2026-06-26 (anti-slip capture). Storyboard for the launch marketing site (/home, /pricing, /about) + campaign/affiliate landing pages. Runs the reusable storyboard process; browser-frame. Reuses Brand v1.5.2, all website content drafts, paywall substrate, ambassador architecture (SIG-071). Feeds website build SIG-067. Chat 4 of the storyboard program.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2172,7 +2172,7 @@
     },
     {
       "id": "SIG-214",
-      "title": "Signature animation system",
+      "title": "Signature animation system…",
       "description": "Added 2026-07-04. Geometric brain→lotus signature animation + service-screen visuals for Claude Design. Screen 18 (build screen) DONE 2026-07-04 (Wolf-confirmed \"it runs / looks amazing\"): reveal-glow mark finalized — eye regression fixed (soft #9CF6FF iris + crescent; removed hard r22 disc; hg2→donut so pulse doesn't wash eye), reveal set to ~9s, glow-forever-never-black; social MP4s re-rendered (fixed eye, no black tail, 3 ratios); now LIVE in Claude Design via inline-JS-inject (CD strips SVG <style> on upload AND serve → fix = SVG bytes in a .js, inject inline at runtime; documented in PLA…",
       "status": "s-doing",
       "priority": "p-p1",
@@ -2250,7 +2250,7 @@
     },
     {
       "id": "SIG-217",
-      "title": "In-product creator suggestion lists",
+      "title": "In-product creator suggestion lists…",
       "description": "Added 2026-07-08 (Wolf). Build the COMPLETE per-category + per-subcategory creator suggestion sets (real YouTube-grounded: name + @handle + avatar) across the full 12-cat taxonomy (MSIG-UX-CATEGORY-TAXONOMY-0001), so the onboarding/service creator-pick reveals a real populated list for EVERY category/subcategory — hooked up + working, not a stub. News was built as the sample in SIG-204; this generalizes it to all nodes. Ties to taxonomy creator ceiling (100/200/300) + SIG-092 (nightly top-creators-by-subject job). Data feeds SIG-057 onboarding build + SIG-215 service screens.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2276,7 +2276,7 @@
     },
     {
       "id": "SIG-218",
-      "title": "Waitlist/Pre-order WEBSITE",
+      "title": "Waitlist/Pre-order WEBSITE…",
       "description": "Added 2026-07-08 (Wolf). The landing/marketing SITE that wraps the SIG-204 interactive pre-order flow (distinct from the flow itself). Proper best-practice research (waitlist/pre-order landing pages, referral-waitlist mechanics, founding pre-order pages, receipts/proof pages, teardowns incl. Tony-Robbins RPM long-form) → full page/site architecture outline (what each page includes + CTA) → spec → storyboard → Claude Design → build (feeds SIG-067). Reuses Brand v1.5.2, /receipts + /algorithm-101 drafts, asset library, paywall spec, HERMES email voice. Research dispatched 2026-07-08. [CAPTURE-T…",
       "status": "s-doing",
       "priority": "p-p1",
@@ -2328,7 +2328,7 @@
     },
     {
       "id": "SIG-224",
-      "title": "Service-screen mockups",
+      "title": "Service-screen mockups…",
       "description": "2026-07-09. Continues SIG-219. Group 1 locked BOTH viewports (Feed, Player, Saved, Mindful Shorts, Give Me More, Search). Locked: dual-viewport method; reference-first from corpus; nav (My Signal/Search/Saved/You — Shorts NOT a tab; watch hides nav; desktop rail + My Channels switcher); counts amend Decision 7 (public Signal 👍+ count, NO Noise count, labeled YouTube ref) → Decision 33 pending; Liked→Signalled; playlist drag-reorder + chips/sort; History→launch; comments omitted/chapters kept; Categories(filters) / Channels(user-built LIVE streams, AT LAUNCH) / Saved(frozen) + two-granularity…",
       "status": "s-doing",
       "priority": "p-p1",
@@ -2354,7 +2354,7 @@
     },
     {
       "id": "SIG-229",
-      "title": "Ambassador Dashboard",
+      "title": "Ambassador Dashboard…",
       "description": "Added 2026-07-10 (SIG-227). Member→Ambassador dashboard (sign-ups referred, earnings, payout), accessed from owner Signal page + You hub. Reads Lemon Squeezy affiliate data (PRD §12 / §774); decide read-via-API-and-build vs link-to-hub. Dual-viewport; new inventory screen #35.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2380,7 +2380,7 @@
     },
     {
       "id": "SIG-233",
-      "title": "Pause-subscription = launch feature",
+      "title": "Pause-subscription = launch feature…",
       "description": "Added 2026-07-10 (SIG-227). Wolf: Pause ships at launch (30/60/90 freeze; matched to \"not using\"). Reconcile FAQ §8.3.2 (says B2) → launch; align Save-Ladder §9.7.1; PRD Subscription flow; Financial Model (churn/revenue). Lock cancel-by-plan-type (monthly/yearly-auto-renew/lifetime) + \"what you'd lose\" pre-cancel screen. Decisions Log.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2406,7 +2406,7 @@
     },
     {
       "id": "SIG-234",
-      "title": "YouTube API capability research",
+      "title": "YouTube API capability research…",
       "description": "Added 2026-07-10 (SIG-227). Verify IFrame Player API controllable set (autoplay/queue, cc, rate, seek, quality, PiP, iv_load_policy) vs can't (ads/logo/related-grid). Verify Data API on account-connect: public playlists/subscriptions/likes (yes), watch history (believed NO, deprecated ~2016). Assess seeding value. Pairs with player build spike. Feeds Player spec + Playback + Onboarding import.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2432,7 +2432,7 @@
     },
     {
       "id": "SIG-238",
-      "title": "Formalize upgrade-trigger / gating map",
+      "title": "Formalize upgrade-trigger / gating map…",
       "description": "Added 2026-07-11 (SIG-228). Turn the 17-gate draft (in CAPS-DELTA §8) into a canonical doc mapping every upgrade trigger → free limit / Signal+ / paywall H1 context / event, so build wires every prompt. Resolve 2 gaps: (a) videos-per-channel = new gate, assign a context/H1 (fold under #2 or new); (b) keep-out/noise = NO gate (universal, Wolf SIG-228). [2026-07-27 — UNBLOCKED, gate 6 RESOLVED.] Wolf ruled D5: meter AI transcripts, leave YouTube's native caption track uncapped. We ration what costs us money and what we generate; YouTube's own free captions stay free — which reinforces R1 (we ar…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2510,7 +2510,7 @@
     },
     {
       "id": "SIG-247",
-      "title": "\"Connect YouTube\"",
+      "title": "\"Connect YouTube\"…",
       "description": "Added 2026-07-11 (SIG-229, Wolf). Elevate the locked Settings→Connected accounts (#23) into a real feature: OAuth-connect YouTube → import subscriptions (→ follow those creators in Signal) + user-created playlists (→ Saved / channel seeds). VERIFIED (Data API v3): subscriptions.list?mine=true ✅ · playlists.list?mine=true user-created ✅ · liked videos = restricted/unreliable ⚠️ · watch history + watch later = deprecated ~2016, NOT available ❌. Kills the #1 switch-back reason (\"don't miss anything\"). Placement: Settings Connected accounts + onboarding import step + optional rail entry under YOU…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2536,7 +2536,7 @@
     },
     {
       "id": "SIG-251",
-      "title": "Brand §10.5 amendment",
+      "title": "Brand §10.5 amendment…",
       "description": "Added 2026-07-11 (SIG-230, Wolf — LOCKED decision). Canonical patch to Brand §10.5 Badge Taxonomy (Three-Step Replacement + Decisions Log entry): (1) rename Contributor → Curator (earned by curating videos, not a survey; ties to the B2 curator program SIG-196 → the badge activates post-launch); (2) doctrine add — badges are a marketing/recruitment surface: every badge carries a “Learn more → become one” that funnels to that program's sign-up (\"what's this badge? → I want one too\"); (3) tier grouping gold honors / cyan joinable roles / steel cohorts (credentials only — stays inside AP-13, no p…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2614,7 +2614,7 @@
     },
     {
       "id": "SIG-271",
-      "title": "Per-element YouTube attribution",
+      "title": "Per-element YouTube attribution…",
       "description": "Added 2026-07-17 (SIG-270 finding). Verbatim §III.F.2.a: an API Client showing YouTube content and other sources on the same page *\"cannot provide one general set of attribution\"* — and §III.F.2.b: non-YouTube content *\"must not be shown in a way that suggests that the content is originating from YouTube.\"* That describes the SIG-240 feed (Signal-authored value cards interleaved between YouTube videos) — which is also the SIG-261 ad-eligibility mitigation and the audit's independent-value evidence, so it can't be dropped. The fix is design, not architecture: make the seams visible — YouTube B…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2874,7 +2874,7 @@
     },
     {
       "id": "SIG-180",
-      "title": "Existing-user give-a-month referral",
+      "title": "Existing-user give-a-month referral…",
       "description": "SIG34 D-SIG34-3. Premium subscriber refers → both giver + receiver get +1 mo Premium per successful paid signup; capped +12 mo/yr per giver. Recommend: lifetime tier referrals get fixed bonus credit (not perpetual extension). Wires to Lemon Squeezy alongside creator-affiliate (30/40%) infra. Pairs with per-creator unique invite link (SIG27 G1). Evidence: Dropbox 60% permanent signup lift first-party; Ground News + Tangle direct comps. Biggest leverage gap in launch spec.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2900,7 +2900,7 @@
     },
     {
       "id": "SIG-181",
-      "title": "Email Spec + Journey Spec",
+      "title": "Email Spec + Journey Spec…",
       "description": "SIG34 D-SIG34-4. Brought forward from SIG27 GROUP 3 → P1 pre-engineering-build gate per Tangle \"custom welcome page is biggest converter\" finding. Minimum drips: day-0 welcome + custom welcome page · day-1 first-value · 24h abandoned-onboarding · day-3 honest trial-end reminder w/ one-tap cancel · day-30 win-back value · day-60-90 win-back w/ offer · weekly \"Your Signal\" digest (Morning Brew pattern). Decide ESP: extend Resend (already verified mail.maxxsignal.com) or migrate to Customer.io / Kit for behavior triggers. Pairs with event-system instrumentation requirement for engineering.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -2926,7 +2926,7 @@
     },
     {
       "id": "SIG-182",
-      "title": "JTBD paywall copy variant",
+      "title": "JTBD paywall copy variant…",
       "description": "SIG34 D-SIG34-5. Paywall H1 echoes user's WHY-layer intention back at them (not feature-list). Compounds with single canonical paywall + 8-context dynamic H1 architecture (SIG18 §1) and soft 11th-category trigger (SIG18 §6). Evidence: Smart Tales +72% to +169% (RevenueCat / Léa Samrani). Routed to Onboarding spec finalization chat. [CAPTURE-TRIAGE 2026-07-31 — MOS-T-068, and it belongs to the NEXT chat.] Wolf's capture: *\"social media is an escape for many — the algorithm can make the escape harmful… it reminded me of something we ask people during the onboarding process: why they come to You…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -3004,7 +3004,7 @@
     },
     {
       "id": "SIG-185",
-      "title": "Push notification UX",
+      "title": "Push notification UX…",
       "description": "SIG34 D-SIG34-8. Mandate-clean push posture: (a) opt-in AFTER first delivered value (not at first launch — 44% baseline → 60%+ with timing); (b) preferences center (categories: weekly digest / daily picks / social activity); (c) reactivation copy NEUTRAL (\"you've got 3 new picks waiting\") — NEVER streak-guilt or \"you're losing your streak.\"",
       "status": "s-todo",
       "priority": "p-p1",
@@ -3030,7 +3030,7 @@
     },
     {
       "id": "SIG-186",
-      "title": "Cohort 90-day LTV measurement instrumentation",
+      "title": "Cohort 90-day LTV measurement instrumentation…",
       "description": "SIG34 D-SIG34-9. Build-time mandate: every paywall A/B and pricing A/B must judge winners on 90-day cohort LTV, NOT D0 conversion. Protects against accidentally optimizing for dark-pattern conversion wins that tank retention. Event-system instrumentation requirement for engineering kickoff. RevenueCat repeatedly warns; foundational metric.",
       "status": "s-todo",
       "priority": "p-p1",
@@ -3056,7 +3056,7 @@
     },
     {
       "id": "SIG-280",
-      "title": "Data Model v1.6",
+      "title": "Data Model v1.6…",
       "description": "Added 2026-07-20 (task-ify of SIG-274 carry-forward; reserved but unwritten per SIG-272-RECON). Add summaryByVideoId (corpus-shared) + transcriptByVideoId (per-video) cache collections so we never re-pay Gemini for the same video. Derived text — NOT bound by the 30-day corpus refresh rule; document that exception in the Data Model. Batch into ONE Data Model v1.5→v1.6 pass together with anything SIG-275 (platform-algorithm) surfaces, rather than two passes. [2026-07-22, SIG-266/270 lock] ALSO fold in: (a) SIG-266 filter-mode fields on ScoringBreakdown/FeedCache — totalScore nullable, filterRan…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -3108,7 +3108,7 @@
     },
     {
       "id": "SIG-309",
-      "title": "IP-assignment readiness",
+      "title": "IP-assignment readiness…",
       "description": "Added 2026-07-31 (attended; created under D-2026-07-31a — evidenced gap, nothing on the board covered it). Wolf stated 2026-07-31 that a separate entity (MAXX AI Ventures) will likely be formed to take outside investors, a few months out, and that Signal is built under Wolf Ventures LLC in the meantime. That is the right sequencing — but it means Wolf Ventures LLC will OWN Signal, and the first question in any investor diligence is whether the company being invested in owns the thing being bought. Moving it later needs a documented IP assignment plus novation of every third-party contract (Ve…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -3134,7 +3134,7 @@
     },
     {
       "id": "SIG-310",
-      "title": "Investment vehicle decision",
+      "title": "Investment vehicle decision…",
       "description": "Added 2026-07-31 (attended; created under D-2026-07-31a). SIG-042 decided the LAUNCH entity. It did not decide the INVESTMENT vehicle, and they are different questions. Wolf 2026-07-31: MAXX AI Ventures exists *\"if I take outside investors, so it's separate from Wolf Ventures LLC.\"* Two facts that change the shape of that, neither previously on the board: (a) Outside equity investors generally will not take an LLC. Institutional money requires a Delaware C-corporation — LLC pass-through generates K-1s and UBTI exposure for tax-exempt LPs plus multi-state filing obligations, and the standard f…",
       "status": "s-todo",
       "priority": "p-p1",
@@ -3186,7 +3186,7 @@
     },
     {
       "id": "CAP-0051",
-      "title": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol)",
+      "title": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol)…",
       "description": "GTM Walkthrough Capability (Boardroom Walkthrough Protocol). Reusable multi-session GTM protocol (research-first → present → debate → decide → lock; visual boards + phone PDFs), reverse-engineered from Signal SIG25–28, for Solitaire / AI-DVISOR / future ventures. Playbook shipped: ~/MAXX/_MAXX_OS/Observations/MOS-PLAYBOOK-GTM-WALKTHROUGH-0001.md v0.1. Roadmap v0.2 (wire to ATHENA design skill) / v0.3 (installable plugin). Provenance: Wolf-approved 2026-06-06 (\"charter now\"). → PRODUCTIZATION_LOG PS-GTM-WALKTHROUGH-1.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3205,7 +3205,7 @@
     },
     {
       "id": "CAP-0029",
-      "title": "ATLAS",
+      "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
       "status": "s-doing",
       "priority": "p-p2",
@@ -3224,7 +3224,7 @@
     },
     {
       "id": "CAP-0031",
-      "title": "GAIA",
+      "title": "GAIA…",
       "description": "GAIA — MAXX_LIFE agent + bootstrap (Wave 3). Cross-cutting personal-context layer (read by work agents) + MAXX_LIFE venture-branch. Highest privacy sensitivity. Full spec: §2.12 + §4. Phase 3 · MC XL (8-10h) · Wolf ~1h · depends on CAP-0014 v0.2 + enough work agents. See §3.",
       "status": "s-doing",
       "priority": "p-p2",
@@ -3243,7 +3243,7 @@
     },
     {
       "id": "CAP-0032",
-      "title": "DIONYSUS",
+      "title": "DIONYSUS…",
       "description": "DIONYSUS — Social/Community agent (Wave 4, v0.1 spec authored 2026-06-19 — NOT Built/Live). Inbound social + community engagement. Full spec: §2.3. Phase 4 · MC L (5-7h) · Wolf ~45m · depends on CAP-0014 v0.2 + community priority. See §3.",
       "status": "s-doing",
       "priority": "p-p2",
@@ -3262,7 +3262,7 @@
     },
     {
       "id": "CAP-0033",
-      "title": "ARGUS",
+      "title": "ARGUS…",
       "description": "ARGUS — QA/Quality agent (Wave 4, v0.1 spec authored 2026-06-19 — NOT Built/Live). Quality verification: tests hygiene catches, validates docs vs governance, spots drift/regressions. Full spec: §2.5. Phase 4 · MC L (5-7h) · Wolf ~30m · depends on CAP-0014 v0.2 + multi-venture build load. See §3.",
       "status": "s-doing",
       "priority": "p-p2",
@@ -3281,7 +3281,7 @@
     },
     {
       "id": "CAP-0034",
-      "title": "PLUTUS",
+      "title": "PLUTUS…",
       "description": "PLUTUS — Finance agent (Wave 4). Cost tracking, burn-rate, revenue forecasting; owns CAP-0002 cost snapshot. Full spec: §2.6. Phase 4 · MC M-L (4-6h) · Wolf ~30m · depends on CAP-0014 v0.2 + CAP-0002 cadence. See §3.",
       "status": "s-doing",
       "priority": "p-p2",
@@ -3300,7 +3300,7 @@
     },
     {
       "id": "CAP-0035",
-      "title": "PROMETHEUS",
+      "title": "PROMETHEUS…",
       "description": "PROMETHEUS — Products agent (Wave 4). Product strategy, roadmap ownership, feature scoping, user-need → spec. Full spec: §2.8. Phase 4 · MC L (5-7h) · Wolf ~45m · depends on CAP-0014 v0.2 + venture roadmap need. See §3.",
       "status": "s-doing",
       "priority": "p-p2",
@@ -3319,7 +3319,7 @@
     },
     {
       "id": "CAP-0036",
-      "title": "THEMIS",
+      "title": "THEMIS…",
       "description": "THEMIS — Legal agent (Wave 4). Legal review, contract analysis, compliance scanning, IP guidance (surfaces concerns; defers binding opinions to counsel). Full spec: §2.10. Phase 4 · MC M-L (4-6h) · Wolf ~30m · depends on CAP-0014 v0.2 + Solitaire legal need. See §3.",
       "status": "s-doing",
       "priority": "p-p2",
@@ -3338,7 +3338,7 @@
     },
     {
       "id": "CAP-0019",
-      "title": "Content Publishing via Blotato (multi-venture, MCP-driven)",
+      "title": "Content Publishing via Blotato (multi-venture, MCP-driven)…",
       "description": "Content Publishing via Blotato (multi-venture, MCP-driven). Pilot on Signal first via Blotato Starter $29/mo → Creator $97/mo if pilot holds. Activation: Cowork Settings → Connectors → Add Custom Connector → https://mcp.blotato.com/mcp OAuth. Fills SATELLITE-CONTENT-PIPELINE.md Stage-3 \"publishing skill\" gap. 9+ platforms native (X / LinkedIn / IG / TikTok / FB / Threads / Bluesky / Pinterest / YouTube). XS effort (~15 min setup + 1 pilot chat). Deferred ~14d behind Signal substrate completion per project_maxx_priority_2026-05-19. Spawned from yt-review-Blotato chat 2026-05-24; see matrix at…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3357,7 +3357,7 @@
     },
     {
       "id": "CAP-0012",
-      "title": "MAXX Council Cowork skill build (/maxx-council)",
+      "title": "MAXX Council Cowork skill build (/maxx-council)…",
       "description": "MAXX Council Cowork skill build (/maxx-council) — Claude Opus 4.7 chairman + GPT-5.5 + Gemini 2.5 Pro members; anonymized cross-critique → chairman synthesis → canonical MD output at ~/MAXX/_MAXX_OS/Council/; M effort (~4-8 MC-hrs Claude-driven); 5-invocation pilot at $50 cap to validate quality lift; advances PS-MAXX-COUNCIL-1; OPEN architecture decision = Path A (OpenRouter + free LLMs) vs Path B (subscriptions + top-tier API keys, Wolf-preferred) — resolve at build chat MAXX-COUNCIL-BUILD-1",
       "status": "s-doing",
       "priority": "p-p2",
@@ -3376,7 +3376,7 @@
     },
     {
       "id": "CAP-0014",
-      "title": "MAXX OS Agent Org Chart + Human-AI Pairing Model",
+      "title": "MAXX OS Agent Org Chart + Human-AI Pairing Model…",
       "description": "MAXX OS Agent Org Chart + Human-AI Pairing Model — graduates BS-0015. v0.1 shipped MAXX-OS-AGENT-ORG-CHART-1 chat (2026-05-22): canonical doc at ~/MAXX/_MAXX_OS/Canonical/Final/MOS-AGENT-ORG-CHART-0001.md + live HTML artifact maxx-os-agent-org-chart-2026-05-22; 12 mythologically-named heads + GAIA; APOLLO locked as Pilot Wave 1. APOLLO v1.0 spec shipped AGENT-APOLLO-BUILD-1 chat (2026-05-22): canonical specs at ~/MAXX/_MAXX_OS/Capabilities/_shared/MOS-AGENT-PRIMITIVES-0001.md (shared substrate, 13 sections — two-tier runtime, sub-agent spawn, structured-output format, Hive Mind wiring templat…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3395,7 +3395,7 @@
     },
     {
       "id": "CF-DISPATCH-PICKUP-EXISTS-1",
-      "title": "[CORRECTED 2026-08-01",
+      "title": "[CORRECTED 2026-08-01…",
       "description": "[CORRECTED 2026-08-01 — Wolf checked his desktop task list: maxx-agent-dispatch-pickup EXISTS and runs 3×/day.] The lane is not dead; it is reporting to nobody, which for seven weeks was indistinguishable from dead. It has exactly one row to surface — a 2026-06-15 APOLLO request whose by: field reads *\"when a SIGNAL content sprint is scheduled\"*, an unfalsifiable condition with no owner, so it can never rise in a queue sorted by nearest date — and it surfaces into \"the run + process-digest\", the only entry in LIVE_SURFACES.md §1 with no rendered destination. Fix is a destination, not an insta…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3435,7 +3435,7 @@
     },
     {
       "id": "CF-CANONICAL-INTEGRITY-FIRST-CATCH-1",
-      "title": "Confirm the CF-1 detector seeded, and capture the first real REVERT as evidence",
+      "title": "Confirm the CF-1 detector seeded, and capture the first real REVERT as evidence…",
       "description": "Confirm the CF-1 detector seeded, and capture the first real REVERT as evidence. verify_canonical_integrity.py ships wired into publish-dashboards.sh v0.5 (every 2h, confirmed launchd). Two checks owed: (a) after the first publish following 2026-07-31, confirm _index/STATUS_SNAPSHOTS/_canonical_integrity.json exists and check_local_lanes.sh flips the *Canonical integrity check* lane from FAIL to OK — until then FAIL is the check working, not failing; (b) the Drive-Stream daemon mechanism is strongly inferred, not witnessed — so when a REVERT first fires, do not simply restore it: record what…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3475,7 +3475,7 @@
     },
     {
       "id": "CF-WAVE2-REGISTRATION-BATCH-1",
-      "title": "Run Wave-2 agent registrations as one unattended off-peak batch, per D-2026-07-27b",
+      "title": "Run Wave-2 agent registrations as one unattended off-peak batch, per D-2026-07-27b…",
       "description": "Run Wave-2 agent registrations as one unattended off-peak batch, per D-2026-07-27b. Scope: APOLLO, HERMES and VULCAN operating cards authored and registered into the CAP-0049 Shared Foundation mirror via the 8-step registration checklist in MOS-AGENT-DELIVERY-MODEL-0001 v1.0 — registration, not build, and each card carries its own §10.1 earn-test verdict (default is the mirrored doc; a skill must earn the synchronization tax). Explicitly gated *behind* the Signal micro-decision clearance so it consumes no founder attention. Leaving the pantheon half-registered is exactly the half-migrated sta…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3495,7 +3495,7 @@
     },
     {
       "id": "CF-CFI-ARCHIVE-RECURRING-1",
-      "title": "Re-model the CFI archive sweep as a recurring scheduled job, not a carry-forward row",
+      "title": "Re-model the CFI archive sweep as a recurring scheduled job, not a carry-forward row…",
       "description": "Re-model the CFI archive sweep as a recurring scheduled job, not a carry-forward row. CF-CFI-DONE-ARCHIVE-1 executed once (v1.64, 2026-06-15, 70 rows relocated) and §1 had re-accreted 30 terminal rows against ~99 genuinely-open ones by today — 161 physical rows in the \"Open & Active\" section. A CF cannot close a *recurring* accretion problem; it has now consumed review attention in at least four sessions and this standup executed the sweep manually for the second time. Proposal: fold a §1→§3 terminal-row relocation into the nightly or weekly lane as a proposed drop-in (staged, never auto-appl…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3515,7 +3515,7 @@
     },
     {
       "id": "CF-HIVEMIND-STAGE2-VERIFY-1",
-      "title": "Confirm the Stage-2 catch-up-race guard actually self-defers on the next Sunday-after-downtime",
+      "title": "Confirm the Stage-2 catch-up-race guard actually self-defers on the next Sunday-after-downtime…",
       "description": "Confirm the Stage-2 catch-up-race guard actually self-defers on the next Sunday-after-downtime. Guard added Jul 13 (Wolf-approved) to the hive-mind-stage2-mission-control-synthesis task: self-defers +30 min, retries twice, fail-loud — better than the drafted precondition. Optional on-disk deferral breadcrumb. Ref: _MAXX_OS/Working/MOS-HIVEMIND-STAGE2-PRECONDITION-FIX_2026-07-15.md.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3535,7 +3535,7 @@
     },
     {
       "id": "CF-SONNET5-LADDER-REWEIGH-1",
-      "title": "RE-SCOPED 2026-07-27 (MC-STANDUP-2026-07-27)",
+      "title": "RE-SCOPED 2026-07-27 (MC-STANDUP-2026-07-27)…",
       "description": "RE-SCOPED 2026-07-27 (MC-STANDUP-2026-07-27) — now a full Opus 5 / Sonnet 5 / Haiku 4.5 re-weigh, not a Sonnet-only pass. APOLLO's 2026-07-26 scan converted it: Opus 5 (claude-opus-5, launched 2026-07-24) is $5/$25 per MTok — half Opus 4.8's cost per task at near-Fable-5 quality — with a 5-rung effort ladder (low/medium/high/xhigh/max) and a Fast Mode at 2.5× speed / 2× price. That changes the cost geometry the ladder was weighted against, and effort-before-tier may now dominate tier selection outright. Sonnet 5's +30% tokenizer inflation still applies. Deliverable: an updated [[feedback_mode…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3555,7 +3555,7 @@
     },
     {
       "id": "CF-PM2-5",
-      "title": "Hygiene-pass decision",
+      "title": "Hygiene-pass decision…",
       "description": "Hygiene-pass decision — formalize \"Mission Control\" display name vs \"Portfolio Manager\" canonical name across older artifacts (Foundation, Template, Project Instructions, Executive Summary, PM0/PM1 transcripts). Absorbs CF-BRAIN1-1 (merged 2026-07-27) — the rename *propagation* through Foundation / Template / Project Instructions / Executive Summary / transcripts and artifacts is in scope here.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3595,7 +3595,7 @@
     },
     {
       "id": "CF-BRAIN2-1",
-      "title": "Skills-Discovery + Connectors-Discovery combined chat",
+      "title": "Skills-Discovery + Connectors-Discovery combined chat…",
       "description": "Skills-Discovery + Connectors-Discovery combined chat — first departmental research pass using MOS-SKILLS-RESEARCH-PROTOCOL methodology",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3615,7 +3615,7 @@
     },
     {
       "id": "CF-BRAIN2-7",
-      "title": "Author MOS-SYS-PROTOCOL-CLOSEOUT-0001.md",
+      "title": "Author MOS-SYS-PROTOCOL-CLOSEOUT-0001.md…",
       "description": "Author MOS-SYS-PROTOCOL-CLOSEOUT-0001.md — full Closeout & Hygiene Protocol; reconcile Solitaire's §5.5/§11/§13/§14 + Signal's Closeout Protocol v2 + KB Hygiene Protocol into canonical substrate version",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3655,7 +3655,7 @@
     },
     {
       "id": "CF-PM3-9",
-      "title": "Solitaire pattern extraction",
+      "title": "Solitaire pattern extraction…",
       "description": "Solitaire pattern extraction — extract §5.5/§11/§13/§14 into MAXX OS substrate-level patterns",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3675,7 +3675,7 @@
     },
     {
       "id": "CF-PM3-10",
-      "title": "Signal pattern extraction",
+      "title": "Signal pattern extraction…",
       "description": "Signal pattern extraction — extract Closeout Protocol v2 + KB Hygiene Protocol into MAXX OS substrate-level patterns",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3715,7 +3715,7 @@
     },
     {
       "id": "CF-PM3-15",
-      "title": "Signal RF-2 mandate amendment + Mandate v1.3 refresh",
+      "title": "Signal RF-2 mandate amendment + Mandate v1.3 refresh…",
       "description": "Signal RF-2 mandate amendment + Mandate v1.3 refresh — codify Hygiene Protocol + reflect 35-day public commitment delock",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3735,7 +3735,7 @@
     },
     {
       "id": "CF-PM4-1",
-      "title": "Build youtube-extract Cowork skill",
+      "title": "Build youtube-extract Cowork skill…",
       "description": "Build youtube-extract Cowork skill — multi-video-type validation (talking-head, screen-share, slide-deck). Skill v0.1.1 shipped per PM4 session continuation; further hardening / multi-video-type validation still open.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3755,7 +3755,7 @@
     },
     {
       "id": "CF-PM4-4",
-      "title": "Build multi-llm-research Cowork skill",
+      "title": "Build multi-llm-research Cowork skill…",
       "description": "Build multi-llm-research Cowork skill — generalize gemini-research pattern across ChatGPT, Perplexity, etc.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3795,7 +3795,7 @@
     },
     {
       "id": "CF-BRAIN3-4",
-      "title": "Launch Workflow tri-LLM research pass (origin: BRAIN3 2026-05-09)",
+      "title": "Launch Workflow tri-LLM research pass (origin: BRAIN3 2026-05-09)…",
       "description": "Launch Workflow tri-LLM research pass (origin: BRAIN3 2026-05-09).",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3815,7 +3815,7 @@
     },
     {
       "id": "CF-BRAIN3-5",
-      "title": "LAUNCH-SYNTH chat",
+      "title": "LAUNCH-SYNTH chat…",
       "description": "LAUNCH-SYNTH chat — synthesize the tri-LLM reports into the Launch Workflow brief (origin: BRAIN3 2026-05-09).",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3835,7 +3835,7 @@
     },
     {
       "id": "CF-PM4b-1",
-      "title": "Cowork review queue / task list workflow",
+      "title": "Cowork review queue / task list workflow…",
       "description": "Cowork review queue / task list workflow — AI-generated content surfaces as unified review queue (cross-program batch review)",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3875,7 +3875,7 @@
     },
     {
       "id": "CF-PM4b-3",
-      "title": "Time-series rendering requirement for analytics views",
+      "title": "Time-series rendering requirement for analytics views…",
       "description": "Time-series rendering requirement for analytics views — Live Artifacts support today/yesterday/this-week/this-month/historical comparisons",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3895,7 +3895,7 @@
     },
     {
       "id": "CF-PM4b-8",
-      "title": "Hygiene pass scope addition",
+      "title": "Hygiene pass scope addition…",
       "description": "Hygiene pass scope addition — update Foundation, Template, Project Instructions to reflect D-PM4b-1",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3915,7 +3915,7 @@
     },
     {
       "id": "CF-PM4d-1",
-      "title": "Codify transcript-first protocol in COWORK_INSTRUCTIONS.md v2.0 → v2.1 amendment",
+      "title": "Codify transcript-first protocol in COWORK_INSTRUCTIONS.md v2.0 → v2.1 amendment…",
       "description": "Codify transcript-first protocol in COWORK_INSTRUCTIONS.md v2.0 → v2.1 amendment. Per OBS-0017: at chat resume, first KB read is the prior chat's full transcript, not just its closeout package. Standard read order: (1) COWORK_INSTRUCTIONS, (2) prior chat's transcript, (3) prior chat's closeout package, (4) additional artifacts.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3935,7 +3935,7 @@
     },
     {
       "id": "CF-PM4d-7",
-      "title": "PM tooling research-pass",
+      "title": "PM tooling research-pass…",
       "description": "PM tooling research-pass — research best practices for project management tooling (Asana, Linear, Motion, Height, etc.) covering: Gantt views, dependency graphs, effort estimation, resource modeling, parallelization-aware scheduling, multi-view rendering, capacity-aware sequencing. Apply critical-thinking + first-principles framework. Output: Live Artifact spec for the MAXX OS PM dashboard rendering from CFI. Tri-LLM research-pass candidate.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3955,7 +3955,7 @@
     },
     {
       "id": "CF-PM5d-1",
-      "title": "[RE-SCOPED 2026-07-31",
+      "title": "[RE-SCOPED 2026-07-31…",
       "description": "[RE-SCOPED 2026-07-31 — the original premise was factually wrong; verified from disk.] Two POPULATED legacy folders sit outside Pure Path B at ~/MAXX/SIGNAL/ root. Original text (2026-05-12) said *five empty placeholder folders* awaiting a Finder delete. On disk today: Canonical/, Transcripts/ and Working/ are already gone, and the two that remain are not empty — Reference/ holds 4 subfolders (archetypes, inbox, library, notebooklm) and Research/ holds 9 (ai-marketing-playbook, apollo, conversion-playbook, keyword-strategy, kickstarter, market-analysis, notebooklm, waitlist-website, youtube-a…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3975,7 +3975,7 @@
     },
     {
       "id": "CF-PM5d-2",
-      "title": "Delete ~/MAXX/SIGNAL/_Working/SIGNAL REFERENCE DOCS / source folder once spot-check confirmed",
+      "title": "Delete ~/MAXX/SIGNAL/_Working/SIGNAL REFERENCE DOCS / source folder once spot-check confirmed…",
       "description": "Delete ~/MAXX/SIGNAL/_Working/SIGNAL REFERENCE DOCS / source folder once spot-check confirmed. Folder-import copied (not moved) the 86 reference files; originals remain in this _Working/ subfolder (note trailing space in folder name). Once Wolf has eyeballed Finder and confirmed the 86 files landed correctly in their target Reference/ subfolders, delete this source folder.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -3995,7 +3995,7 @@
     },
     {
       "id": "CF-PM5d-4",
-      "title": "CARRY_FORWARD_INBOX scope review for Signal venture-side items",
+      "title": "CARRY_FORWARD_INBOX scope review for Signal venture-side items…",
       "description": "CARRY_FORWARD_INBOX scope review for Signal venture-side items. Migration is complete; Signal is now operational in Cowork. The 4 venture-level open carry-forward items previously tracked in PORTFOLIO_STATUS §3 (FeedCache TTL ambiguity → Curation Engine v1.2 patch chat; Mandate v1.3 refresh; dormant free-user auto-pause B1/B2 promotion → Financial Model v2.0; Cluster E backlog ID renumbering hygiene) should be evaluated for whether they belong in this portfolio CFI as CF-SIGNAL-* items, or stay venture-scoped only.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4015,7 +4015,7 @@
     },
     {
       "id": "CF-PM5h-3-F",
-      "title": "NotebookLM MCP verification",
+      "title": "NotebookLM MCP verification…",
       "description": "NotebookLM MCP verification. Wolf confirms community/Antigravity port exists; verification deferred from CF-PM5h-3 per descope. WebSearch + GitHub for clean NotebookLM MCP. If exists, install. If not, build adapter via Chrome MCP automation. Pairs with credible-reviewer roster (CF-PM5h-3-G) and weekly Hive Mind scan automation (Cap-PM5h-3-1) as the wisdom-of-crowds substrate.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4035,7 +4035,7 @@
     },
     {
       "id": "CF-PM5h-3-S",
-      "title": "BrandPolish",
+      "title": "BrandPolish…",
       "description": "BrandPolish — Visual design system + brand strategy + retroactive artifact polish. Opened 2026-05-20 per Wolf strategic-input mid-chat in CF-PM5h-3-K-Stages-3+4 §4 carry-forward routing (bucket-routed per §5.4 protocol, not silently absorbed). Scope: design tokens (color palette, typography, spacing, visual hierarchy) + brand strategy alignment (positioning, voice, identity) + retroactive polish across all current live artifacts (maxx-os-substrate-completion-status, maxx-os-hive-mind-synthesis-2026-05-19, maxx-os-universe-v1, maxx-os-inventory-first-party-v1) + treatment for all future artifa…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4055,7 +4055,7 @@
     },
     {
       "id": "CF-SIG1-prep-1",
-      "title": "Venture-opener templates carry explicit \"create Cowork project first\" header BEFORE OPENER markers",
+      "title": "Venture-opener templates carry explicit \"create Cowork project first\" header BEFORE OPENER markers…",
       "description": "Venture-opener templates carry explicit \"create Cowork project first\" header BEFORE OPENER markers. Per [[feedback_venture_opener_creation_header]] codified 2026-05-20 SIG1-prep. Apply retroactively to future AID1 + MAXX_CLOUD setup openers (and any future venture-bootstrap opener). Prevents mispastes into Mission Control (which happened with SIG1 opener — Wolf pasted it into MC; MC caught the governance conflict per [[feedback_substrate_credibility_recovery]] and rerouted to legitimate MC-side prep work). Header should be a CRITICAL block above the opener content reading something like: \"BEF…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4075,7 +4075,7 @@
     },
     {
       "id": "CF-NEW-Productization-Log-Review-Sweep",
-      "title": "Productization log review + family-clustering + graduation sweep",
+      "title": "Productization log review + family-clustering + graduation sweep…",
       "description": "Productization log review + family-clustering + graduation sweep. Wolf-requested 2026-05-24 mid-chat (\"we'll need to do a review of this productization log... NOT NOW- BUT ADD TO LIST OF WHAT WE NEED TO DO- BASED ON OUR PRIORITIES\"). Scope: (a) audit all 11 active PS signals for current status accuracy + evidence freshness; (b) apply family-clustering per BS-0018 design (humanizer family + collaboration-surface family + MAXX-Cloud-trinity + content-operations family etc.); (c) promote eligible signals NEW → STRENGTHENED → VALIDATED per §3 lifecycle gate criteria; (d) demote stale signals to W…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4095,7 +4095,7 @@
     },
     {
       "id": "CF-APOLLO-PILOT-3-1",
-      "title": "APOLLO Pilot 3 follow-up #1",
+      "title": "APOLLO Pilot 3 follow-up #1…",
       "description": "APOLLO Pilot 3 follow-up #1. Best-effort placeholder pending AGENT-APOLLO-PILOT-3 chat transcript content; per APOLLO multi-stream pattern likely a sub-agent stream output absorption / canonical-routing action. Substrate-credibility flag: row exists to close Block B drift-claim; canonical content authoritative from chat transcript when next CFI-touch loads it.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4115,7 +4115,7 @@
     },
     {
       "id": "CF-APOLLO-PILOT-3-2",
-      "title": "APOLLO Pilot 3 follow-up #2",
+      "title": "APOLLO Pilot 3 follow-up #2…",
       "description": "APOLLO Pilot 3 follow-up #2. Best-effort placeholder pending transcript-context refresh; same provenance + trigger pattern as -1.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4135,7 +4135,7 @@
     },
     {
       "id": "CF-APOLLO-PILOT-3-3",
-      "title": "APOLLO Pilot 3 follow-up #3",
+      "title": "APOLLO Pilot 3 follow-up #3…",
       "description": "APOLLO Pilot 3 follow-up #3. Best-effort placeholder pending transcript-context refresh; same provenance + trigger pattern as -1.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4155,7 +4155,7 @@
     },
     {
       "id": "CF-APOLLO-PILOT-3-4",
-      "title": "APOLLO Pilot 3 follow-up #4",
+      "title": "APOLLO Pilot 3 follow-up #4…",
       "description": "APOLLO Pilot 3 follow-up #4. Best-effort placeholder pending transcript-context refresh; same provenance + trigger pattern as -1.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4175,7 +4175,7 @@
     },
     {
       "id": "CF-NEW-Tool-Registry-Planning",
-      "title": "Tool Registry capability scoping",
+      "title": "Tool Registry capability scoping…",
       "description": "Tool Registry capability scoping. Plan a canonical Tool Registry artifact (class + schema + intake protocol + tracking metadata) to consolidate per-tool decision history surfaced via PDF-INTAKE chat workflow. Scope includes: registry artifact class (canonical doc vs. living-log; likely living-log given append-only intake cadence); schema (per-tool fields: name + intake-source-with-credibility-score + reviewer-credibility-from-CREDIBLE_REVIEWERS-roster + composite-decision-score + status-history + adoption-decision + revisit-triggers + TOS/account-safety-flag); intake protocol (manual now per…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4255,7 +4255,7 @@
     },
     {
       "id": "CF-OUTREACH-HERMES-WORKFLOW-1",
-      "title": "Recurring lead / influencer outreach as a scheduled, review-gated workflow",
+      "title": "Recurring lead / influencer outreach as a scheduled, review-gated workflow…",
       "description": "Recurring lead / influencer outreach as a scheduled, review-gated workflow — agent contacts prospects daily from approved templates; replies return to the agent inbox; graduated-trust per MOS-AGENT-PRIMITIVES-0001 §12. Surfaced in the ATHENA build but routed to HERMES (marketing), not ATHENA.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4295,7 +4295,7 @@
     },
     {
       "id": "CF-ORCH-LOCK-1",
-      "title": "Document the Cowork-is-orchestrator lock in COWORK_INSTRUCTIONS at the next governance touch",
+      "title": "Document the Cowork-is-orchestrator lock in COWORK_INSTRUCTIONS at the next governance touch…",
       "description": "Document the Cowork-is-orchestrator lock in COWORK_INSTRUCTIONS at the next governance touch. External orchestrators (n8n / Activepieces / Windmill / Zapier / Make) are marked superseded-by-Cowork-native (two independent confirmations: Wolf lock project_cowork_is_orchestrator_no_external + APOLLO 2026-05-31 scan). Wolf's blueprint-borrow nuance (Stage 3): external orchestrator workflows + popular GitHub workflow repos are usable as REFERENCE BLUEPRINTS — when a complex multi-step / multi-tool / multi-MCP workflow already exists and is battle-tested (high stars, published by reviewers), borrow…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4315,7 +4315,7 @@
     },
     {
       "id": "CF-SIG27-1",
-      "title": "Signal scale vision",
+      "title": "Signal scale vision…",
       "description": "Signal scale vision — global / multi-language + native app + ~$1M raise. Promoted from Signal SIG27. The ~$1M raise is part of the founder-profile + fundraising-prep initiative ([[project_founder_profile_initiative]]) — keep the two synchronized. Vision-stage, not yet scheduled.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4335,7 +4335,7 @@
     },
     {
       "id": "CF-COWORK-INPUTBOX-1",
-      "title": "Cowork chat input-box non-responsiveness recurred a 3rd time",
+      "title": "Cowork chat input-box non-responsiveness recurred a 3rd time…",
       "description": "Cowork chat input-box non-responsiveness recurred a 3rd time — treat as a reproducible Cowork-app issue, not incidental focus contention (Risk R4). SIG26 ran fully non-responsive (Wolf answered via uploaded docs), SIG27 intermittent, SIG29 input glitchy (Wolf dictated long answers). Crosses the \"file if it recurs a 3rd time\" threshold set at SYNTHESIS_2026-06-07 R4. Distinct from feedback_browser_driving_exclusive_input (that is focus contention while the agent drives the browser; this is plain typing in the Cowork box with no browser-driving in play).",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4355,7 +4355,7 @@
     },
     {
       "id": "CF-CATCHUP-DECONFLICT-1",
-      "title": "Sequence the two ventures' canonical catch-up sweeps on DIFFERENT days (Risk R2 bandwidth deconfliction)",
+      "title": "Sequence the two ventures' canonical catch-up sweeps on DIFFERENT days (Risk R2 bandwidth deconfliction)…",
       "description": "Sequence the two ventures' canonical catch-up sweeps on DIFFERENT days (Risk R2 bandwidth deconfliction). Signal's catch-up batch (SIG-177 consolidation + Market-Analysis promotion SIG-176 + Decisions-Log append) and the MAXX OS staged-commit reconciliation both need Wolf-heavy time; landing them in the same window collides against the ~3-chats/day tempo. Mission Control owns the calendar deconfliction. NOTE: Signal's load is now lighter than the synthesis assumed — Brand v1.4 (SIG-174) already cleared at SIG29 (2026-06-08).",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4375,7 +4375,7 @@
     },
     {
       "id": "CF-SHARED-FOUNDATION-SCHEDULE-1",
-      "title": "Schedule the shared-foundation sync Mac-side",
+      "title": "Schedule the shared-foundation sync Mac-side…",
       "description": "Schedule the shared-foundation sync Mac-side. Either a launchd plist running bash sync-shared-foundation.sh on a cadence, or fold --verify-only into the nightly substrate-hygiene run (alert on exit 1) plus a sync on canonical change. Read-only-by-convention today; scheduling makes mirrors self-maintaining.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4415,7 +4415,7 @@
     },
     {
       "id": "CF-CFI-DONE-ARCHIVE-1",
-      "title": "Archive the Done rows out of §1 → §3 (SYNTHESIS_2026-06-14 §4 hygiene",
+      "title": "Archive the Done rows out of §1 → §3 (SYNTHESIS_2026-06-14 §4 hygiene…",
       "description": "Archive the Done rows out of §1 → §3 (SYNTHESIS_2026-06-14 §4 hygiene; source-level done-pollution). SCOPED 2026-06-15: §1 holds 196 CF rows, 64 of them Done, scattered across 30+ source subsections; the in-§1-cohort retention is current \"file convention\" (§5), so this is a deliberate convention change → best done read-fully-then-write-fresh with a §5 recount in a dedicated chat. Sibling of CF-CFI-SECTION1-HYGIENE-1 (which flips stale-Open→Done; this relocates Done→§3).",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4435,7 +4435,7 @@
     },
     {
       "id": "CF-STAGED-LIMBO-AGE-WATCH-1",
-      "title": "Staged-work \"limbo age\" hygiene watch",
+      "title": "Staged-work \"limbo age\" hygiene watch…",
       "description": "Staged-work \"limbo age\" hygiene watch — surface how long any staged-but-unratified batch (redlines, decision docs, drop-ins awaiting Three-Step) has been sitting, so a consolidated ratify pass fires before staged work drifts against live canon. Net-new item from SYNTHESIS_2026-07-05 §2 Pattern 2 (stage-don't-flip is now a two-venture default).",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4649,7 +4649,7 @@
     {
       "id": "MOS-T-023",
       "title": "yt-dlp YouTube skill research",
-      "description": "🔬 RESEARCHED — scrapers brief covered the transcript-tool landscape; yt-dlp = OSS alt to the GREEN-lit Supadata. Folds into the T-040 transcript-method decision (portfolio-wide). from cap-mpraak22hgk",
+      "description": "🔬 RESEARCHED — scrapers brief covered the transcript-tool landscape; yt-dlp = OSS alt to the then-GREEN-lit Supadata. ⛔ PREMISE SUPERSEDED 2026-07-18 — see MOS-T-040: Supadata is OUT, the transcript mechanism is Gemini-API-via-YouTube-URL. The 2026-08-03 nightly finding on this row (cloud-ASN blocking ⇒ 'Supadata is the only cloud-viable path') was reasoning from that dead premise and does NOT apply. Folds into the T-040 transcript-method decision (portfolio-wide). from cap-mpraak22hgk",
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Ops",
@@ -4746,7 +4746,7 @@
     },
     {
       "id": "MOS-T-045",
-      "title": "Morning roll-up v0.3",
+      "title": "Morning roll-up v0.3…",
       "description": "🔍 TRIAGED 2026-06-22 (MC-STANDUP-QUICKWINS-1) — the deferred 3rd Signal-parity strip for /rollup. Needs publisher-side wiring (NOT a template-only edit): port parse_nightly_digest + the overnight builder from _MAXX_OS/Capabilities/standup-parity/render_standup_board.py into dashboard_renderers.py, emit the digest rows in the morning-rollup JSON, add a {{STANDUP_OVERNIGHT}} token to the bake step + the template section. Queued for a nightly batch (Auto-eligible bounded build; verify in-sandbox, stage-don't-flip — Wolf force-deploys). Extends CAP-0056 v0.2.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4863,7 +4863,7 @@
     },
     {
       "id": "SIG-066",
-      "title": "Ad integration (free-tier",
+      "title": "Ad integration (free-tier…",
       "description": "Brand-safe ads on the free tier; premium is ad-free. No dark patterns (tone-floor lock).",
       "status": "s-todo",
       "priority": "p-p2",
@@ -4941,7 +4941,7 @@
     },
     {
       "id": "SIG-222",
-      "title": "Time-Cost Calculator v0.2",
+      "title": "Time-Cost Calculator v0.2…",
       "description": "Added 2026-07-09 (SIG-CALC chat). v0.2 backlog for the SIG-221 calculator: (1) auto-generate a PNG shareable image the user can download/post (canvas-based render of the receipt card, 1200×630 OG-sized); (2) wire the waitlist CTA to Resend/Cloudflare form (currently href-to-maxxsignal.com); (3) analytics event pixels (slider adjustments, frame switches, CTA clicks); (4) 2-3 H1 copy candidates per multi-candidate protocol; (5) currency dropdown (EUR/GBP/CAD); (6) onboarding-mode variant (personalized post-signup reveal, hides sliders, shows only user's number); (7) dashboard-mode variant (logg…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5045,7 +5045,7 @@
     },
     {
       "id": "SIG-235",
-      "title": "Remaining Settings sub-pages",
+      "title": "Remaining Settings sub-pages…",
       "description": "Added 2026-07-10 (SIG-227). Dual-viewport mocks for the near-standard settings sub-pages; mobile-first web (no native-only). Already built: Playback/Accessibility/Connected/Wellbeing/Account; exist: Plan #22, Notifications #24, Data&privacy #25.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5071,7 +5071,7 @@
     },
     {
       "id": "SIG-240",
-      "title": "Fix #22 \"what you lose\"",
+      "title": "Fix #22 \"what you lose\"…",
       "description": "Added 2026-07-11 (SIG-228). The locked plan-subscription cancel flow (#22, mockups-sig227/plan-subscription_LOCKED.html) omits AI summaries + transcripts among lost benefits. Add them + a full premium-benefit sweep; re-lock + re-save.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5149,7 +5149,7 @@
     },
     {
       "id": "SIG-250",
-      "title": "Signal-page badges",
+      "title": "Signal-page badges…",
       "description": "Added 2026-07-11 (SIG-230, Wolf). Badge treatment LOCKED at 03_Design/Working/mockups-sig230/signal-page-badges_LOCKED.html (dual-viewport, self-contained): marquee honor = avatar emblem + full earned set = shelf under the name + tap→detail sheet + full 7-badge key. 3 tiers (gold honors / cyan joinable roles / steel cohorts). Viewer-independent (owner=visitor, free=paid). Remaining: fold the exact badge markup into the two locked pages mockups-sig227/signal-page-owner_LOCKED.html + signal-page-visitor_LOCKED.html; re-lock+re-save.",
       "status": "s-doing",
       "priority": "p-p2",
@@ -5227,7 +5227,7 @@
     },
     {
       "id": "SIG-255",
-      "title": "Break Reminder pop-up",
+      "title": "Break Reminder pop-up…",
       "description": "Added 2026-07-11 (SIG-230, Wolf). A mindful \"time for a break?\" pop-up that appears while watching — the in-the-moment surface of the Wellbeing break-reminder (SIG-227). KEY DECISION (Wolf): ON by DEFAULT at 1 hour (opt-out), unlike YouTube's buried opt-in — active anti-doom-scroll, on-brand. Elements: rotating positive affirmation message (library = SIG-256), calm on-brand imagery (NOT YouTube's; explore later), an \"I'm fine / keep watching\" dismiss, an inline change-frequency control (Every 30 / 45 / 60 min / Customize — matches the locked Wellbeing radio) + Settings gear (\"turn off in Sett…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5253,7 +5253,7 @@
     },
     {
       "id": "SIG-257",
-      "title": "Mindful messaging in comms",
+      "title": "Mindful messaging in comms…",
       "description": "Added 2026-07-11 (SIG-230, Wolf; recalls a months-back idea). The owner Signal page carries a positive/mindful message, and the \"your Signal page\" email leads with that same message → then gives access to the page's content (mini-previews) + program CTAs (Ambassador, Become a Curator, etc.). Growth-loop + mindfulness-in-comms: pull people in with a supportive message, not FOMO. Email not finalized — folds into Email Spec SIG-029 (DRAFT); decide the content modules there. Minor amendment to owner Signal page #19 (add the message).",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5331,7 +5331,7 @@
     },
     {
       "id": "SIG-274",
-      "title": "Transcripts + AI Summaries",
+      "title": "Transcripts + AI Summaries…",
       "description": "Added 2026-07-17 (SIG-264 closeout). Wolf: transcripts + AI summaries ARE launch (reverses 07-03 Phase-1.5 deferral; aligns SIG-228 paywall). Research caption mechanics (ASR) + compliant access path (official captions.download owner-only -> third-party = timedtext/InnerTube = §1201 gray area) + provider comparison (Supadata vs alts) + AI-summary pipeline. Legal posture -> SIG-269 packet. Feature spec (per-video transcript + summary; 10/20/40 daily meter). Opener: _Working/SIGNAL-TRANSCRIPTS-AISUMMARIES_OPENER_2026-07-17.md.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5357,7 +5357,7 @@
     },
     {
       "id": "SIG-160",
-      "title": "Direct search function (intent-driven)",
+      "title": "Direct search function (intent-driven)…",
       "description": "SIG20-surfaced (Wolf \"Signal intentions\" capture, 2026-06-01). The \"I want to find something specific\" intent needs a search path Signal does not yet have. STRATEGIC TENSION (no-yes-man flag): search is unbounded by nature and could reintroduce the infinite-rabbit-hole Signal exists to prevent — must be designed to stay inside \"finite by design / curation, not algorithm.\" Composes with SIG-098 free-text keyword. Decision needed: in-MVP-B1 vs post-launch B2. Discuss before spec. [2026-07-27 — SUBSTANTIALLY SUPERSEDED; scope reduced; stays B2.] This row was written 2026-06-01 stating 'the I-wan…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5513,7 +5513,7 @@
     },
     {
       "id": "SIG-187",
-      "title": "Pricing v1.2.1 micropatch",
+      "title": "Pricing v1.2.1 micropatch…",
       "description": "SIG34 D-SIG34-10. Add: (a) Student/edu 50% discount verified via SheerID — fits \"adults primary, college+\" audience reframe + Spotify/Notion category norm; (b) Accelerate Family plan decision from deferred (SIG26 §5 #21) to early-launch consideration — direct fit for Attention-Hygienic Parent persona + Apple One pattern. 3-step replace Pricing v1.2 → v1.2.1.",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5591,7 +5591,7 @@
     },
     {
       "id": "SIG-193",
-      "title": "Organic distribution",
+      "title": "Organic distribution…",
       "description": "MC hand-off MOS-T-004 residual — REFRAMED per Wolf (SIG35, 2026-06-09). Referral layer already specced (SIG-180). This row = founder/brand participation in communities *already raising the alarm on AI/algorithm harms* — jump into existing conversations and surface Signal as the answer. Explicitly NOT build-in-public / IndieHackers / Starter Story / idea-generator / maker communities — those breed copycats (Cal AI lesson → guardrail CF-SIG35-4). Target set comes from the community map produced in SIG-199. Gated on Wolf's weekly-distribution-hours decision (how many hrs/wk he commits). Claude d…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5617,7 +5617,7 @@
     },
     {
       "id": "SIG-196",
-      "title": "Crowd-tagging / wisdom-of-crowds differentiator",
+      "title": "Crowd-tagging / wisdom-of-crowds differentiator…",
       "description": "PULLED FORWARD per Wolf (SIG35, 2026-06-09) from B3/SIG-130. Wolf believes user-applied tagging is a major differentiator and wants a dedicated session to discuss mechanics + a light mockup, then decide launch vs launch-window/right-after-launch sequencing against other priorities (logo/website/onboarding come first). Scope umbrella (consolidates MOS-T-024 + crowd-tagging CAP-1 [CF-SIG28-2] + aggregate-quality SIG-130/C-4): user-applied tags → ML → richer curation taxonomy + cross-reference; how tags compose with the locked taxonomy (SIG-027) + intentions/WHY layer (SIG-159); aggregate \"wisdo…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5643,7 +5643,7 @@
     },
     {
       "id": "SIG-279",
-      "title": "Watch summary + transcript panels",
+      "title": "Watch summary + transcript panels…",
       "description": "Added 2026-07-20 (task-ify of SIG-274 carry-forward; row reserved but unwritten per SIG-272-RECON). Lock the opened Summary + Transcript panels — take 03_Design/Working/mockups/S02c_summary-transcript-panels_CONCEPT_2026-07-18.html (mobile A/B + desktop C/D, Copy-only, meter, honesty labels) to a self-contained LOCKED mockup, then fold into MSIG-UX-SCREEN-WATCH-0001. Fills the gap S02 left (entry buttons only). Launch feature (SIG-274).",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5747,7 +5747,7 @@
     },
     {
       "id": "SIG-292",
-      "title": "Platform-algorithm synthesis",
+      "title": "Platform-algorithm synthesis…",
       "description": "Added 2026-07-22 (SIG-275 v1.0 closeout). The SIG-275 synthesis is high-confidence on YouTube/X/Instagram/Pinterest but the strict verification pass did NOT stand up TikTok/Spotify/Reddit/Netflix/Kagi/Ground News (sources fetched; claims didn't clear the 2-of-3 bar in budget). Do a focused gap-fill: TikTok FIRST (completion/rewatch signals + Amnesty/WSJ rabbit-hole & minor-mental-health evidence — the sharpest \"what-to-AVOID\" case and load-bearing for the family-safety posture), then humane-discovery comparators (Spotify BaRT · Reddit crowd curation · Netflix rows) and the ethical-recommender…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5799,7 +5799,7 @@
     },
     {
       "id": "SIG-296",
-      "title": "\"Go Deeper\" re-curation nudge",
+      "title": "\"Go Deeper\" re-curation nudge…",
       "description": "Added 2026-07-23 (SIG-239 cascade; seed = SIG-284 §2, Wolf 2026-07-22). Growth/engagement feature (NOT pricing): a calm, user-pull re-curation nudge that invites users to deepen a shallow Signal over time → retention + *earned* upgrade moments (bumping into videos-per-channel / more-channels / daily-refresh levers). Principles from the seed: (1) behavior-triggered first (after N watches from one channel, heavy blocking in an area, new sub-topics on a followed channel); (2) calendar floor second (once after the 3rd session, then ≤ monthly; always dismissible, honor \"don't show again\"); (3) dis…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5851,7 +5851,7 @@
     },
     {
       "id": "SIG-302",
-      "title": "\"Remove the noise\"",
+      "title": "\"Remove the noise\"…",
       "description": "Added 2026-07-27 (capture triage, MOS-T-067 — the ONLY new row spawned from 22 capture items). Triage found a real gap: nothing on the board owns \"pick the through-line creative platform and build a campaign on it.\" SIG-191 is a *line bank*; SIG-165 is channels/cadence; SIG-166 is partner enablement; SIG-193 is community participation. \"Remove the noise\" is also literally Signal's product thesis, which makes it the strongest candidate to be the master platform rather than one line among forty. GATE: do not open this chat until SIG-191 v1.0 locks, or the campaign will invent a parallel line ba…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -5877,7 +5877,7 @@
     },
     {
       "id": "CF-SCHEDULED-LANE-INBOX-WIRING-1",
-      "title": "[MECHANISM SHIPPED + ALL THREE RECURRING CLOUD LANES WIRED 2026-07-27 (MC-GOVCODIFY-2026-07-27)",
+      "title": "[MECHANISM SHIPPED + ALL THREE RECURRING CLOUD LANES WIRED 2026-07-27 (MC-GOVCODIFY-2026-07-27)…",
       "description": "[MECHANISM SHIPPED + ALL THREE RECURRING CLOUD LANES WIRED 2026-07-27 (MC-GOVCODIFY-2026-07-27). Row stays Open on ONE residual — the Mac-side launchd / Cowork-desktop lanes. Priority P1→P3, effort S→XS.] Self-correction recorded: MC first reported the nightly Routine as needing a founder paste because update_trigger returned *\"this routine was created via http_api … Agents can only update routines they created.\"* Wolf pointed out that MC had already edited that same routine by browser on 2026-07-25 (that is how the absence-reporting guard was installed) — he was right. It was wired via Claud…",
       "status": "s-todo",
       "priority": "p-p3",
@@ -5917,7 +5917,7 @@
     },
     {
       "id": "CF-PM2-3",
-      "title": "Template §16 amendment",
+      "title": "Template §16 amendment…",
       "description": "Template §16 amendment — Path Conventions (case convention + symlink pattern)",
       "status": "s-todo",
       "priority": "p-p3",
@@ -5937,7 +5937,7 @@
     },
     {
       "id": "CF-PM2-4",
-      "title": "Template §17 amendment",
+      "title": "Template §17 amendment…",
       "description": "Template §17 amendment — Mac + Drive Setup Diagnostics (BUSINESS folder trailing whitespace, etc.)",
       "status": "s-todo",
       "priority": "p-p3",
@@ -5977,7 +5977,7 @@
     },
     {
       "id": "CF-BRAIN2-3",
-      "title": "Apply Tier-2.5 logic informally during first departmental pass",
+      "title": "Apply Tier-2.5 logic informally during first departmental pass…",
       "description": "Apply Tier-2.5 logic informally during first departmental pass; report back; formalize into Research Protocol v1.1 if valuable",
       "status": "s-todo",
       "priority": "p-p3",
@@ -5997,7 +5997,7 @@
     },
     {
       "id": "CF-BRAIN2-6",
-      "title": "Bucket-validation",
+      "title": "Bucket-validation…",
       "description": "Bucket-validation — assess whether the 8-bucket departmental map (B1-B8) holds up after first departmental pass; consider amendment to Skills Foundation if not",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6017,7 +6017,7 @@
     },
     {
       "id": "CF-PM3-4",
-      "title": "Bootstrap-rule activation tracking",
+      "title": "Bootstrap-rule activation tracking…",
       "description": "Bootstrap-rule activation tracking — identify when SOLITAIRE / SIGNAL / MAXX_OS each cross the 2-week activity threshold",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6077,7 +6077,7 @@
     },
     {
       "id": "CF-PM3-16",
-      "title": "Portfolio-level communication: Signal launch is no longer date-driven (35-day delocked)",
+      "title": "Portfolio-level communication: Signal launch is no longer date-driven (35-day delocked)…",
       "description": "Portfolio-level communication: Signal launch is no longer date-driven (35-day delocked); update any external collateral / commitments referring to original window",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6097,7 +6097,7 @@
     },
     {
       "id": "CF-PM4-3",
-      "title": "Deprecate-or-keep decision for youtube-transcript MCP",
+      "title": "Deprecate-or-keep decision for youtube-transcript MCP…",
       "description": "Deprecate-or-keep decision for youtube-transcript MCP. Empirically unreliable; now redundant with in-browser extraction method.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6137,7 +6137,7 @@
     },
     {
       "id": "CF-PM4b-6",
-      "title": "Pattern C Mode 1 setup",
+      "title": "Pattern C Mode 1 setup…",
       "description": "Pattern C Mode 1 setup — RE-SCOPED 2026-07-08 (Wolf, MC-STANDUP-2026-07-08): \"Pattern C operational\" ruled satisfied *in spirit* by the June-vintage substrate (GitHub mirror + cloud Routine + live dashboards) that superseded the original May checklist. 3 sub-steps RETIRED as obsolete (productivity plugin install, CLAUDE.md customization, prompts/ directory seeding — all predate the mirror/Routines architecture and no longer fit how MAXX operates). 2 sub-steps STILL-OPEN (Dispatch iPhone pairing, per-venture TASKS.md skeletons). Live-Artifact generation + Cloud-Routine schedule already done vi…",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6177,7 +6177,7 @@
     },
     {
       "id": "CF-PM5d-3",
-      "title": "Pre-Launch Security Hardening Checklist routing decision",
+      "title": "Pre-Launch Security Hardening Checklist routing decision…",
       "description": "Pre-Launch Security Hardening Checklist routing decision. File extracted from a parent canonical doc, surfaced as separate file by Wolf for build-phase convenience. Currently routed to 09_Operations/Final/checklists/Pre-Launch_Security_Hardening_Checklist.md (spaces normalized). Open question: add back-reference annotation to parent canonical doc, OR delete extracted copy as duplicate (parent already has the checklist embedded). Decide at next Signal Cowork session.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6217,7 +6217,7 @@
     },
     {
       "id": "CF-PM5f-4",
-      "title": "claude.ai MAXX Solitaire project state decision",
+      "title": "claude.ai MAXX Solitaire project state decision…",
       "description": "claude.ai MAXX Solitaire project state decision. Wolf retains the original claude.ai project as archival reference per COWORK_INSTRUCTIONS §2 KB-vs-Cowork divergence note. Open question: close project entirely, vs leave-as-archival-reference for occasional lookup. New Solitaire venture work happens in the (TBD) MAXX SOLITAIRE Cowork project, not in claude.ai.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6237,7 +6237,7 @@
     },
     {
       "id": "CF-PM5f-5",
-      "title": "Trailing-space folder substrate hardening",
+      "title": "Trailing-space folder substrate hardening…",
       "description": "Trailing-space folder substrate hardening. Per PS-PM5f-3 productization signal: augment folder-import skill spec to v1.2 with parse-time warning for trailing-space target paths (caught at PM5f Sprint #7 dry-run v1 as 31 failures; fixed by explicit mkdir -p of TOUR SCREENS / and MYERS BRIGGS /). Optional sub-item: pre-create-target-folders-from-manifest helper script that auto-creates intermediate folders preserving exact filename strings. Not blocking — quality-of-life skill improvement.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6257,7 +6257,7 @@
     },
     {
       "id": "CF-NEW-Tool-Registry-Build",
-      "title": "Tool Registry build execution",
+      "title": "Tool Registry build execution…",
       "description": "Tool Registry build execution. Execute the registry per CF-NEW-Tool-Registry-Planning scope; ship v0.1 with initial population from PDF-INTAKE-TOP-12 results + retroactive sweep of all CF-PM5h-3-* skill-ecosystem-survey outputs (MOS-RESEARCH-UNIVERSE-v1.0 + MOS-RESEARCH-RUBRIC-v0.2-SCORED + S(-1)/S5/S0 sweeps).",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6277,7 +6277,7 @@
     },
     {
       "id": "CF-NEW-SUBSTRATE-HYGIENE-AGENT-INBOX-CHECK",
-      "title": "substrate-hygiene v0.4 scope hold per Decision #2",
+      "title": "substrate-hygiene v0.4 scope hold per Decision #2…",
       "description": "substrate-hygiene v0.4 scope hold per Decision #2. Extend CAP-0005 --check-canonical scope to include ~/MAXX/_index/AGENT_INBOX.md (initialized at AGENT-APOLLO-BUILD-1 chat 2026-05-22 as forward-compatibility stub; not currently in substrate-hygiene scope). Bundles with CF-NEW-SUBSTRATE-HYGIENE-REVIEWERS-CHECK + future v0.4 scope items. Fire CAP-0005 v0.4 amendment chat when ≥4 v0.4 scope items accumulate per Stage 3 Decision #2 lock.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6297,7 +6297,7 @@
     },
     {
       "id": "CF-NEW-SUBSTRATE-HYGIENE-REVIEWERS-CHECK",
-      "title": "substrate-hygiene v0.4 scope hold per Decision #2",
+      "title": "substrate-hygiene v0.4 scope hold per Decision #2…",
       "description": "substrate-hygiene v0.4 scope hold per Decision #2. Extend CAP-0005 --check-canonical scope to include ~/MAXX/_MAXX_OS/Substrate/CREDIBLE_REVIEWERS.md (shipped at CF-PM5h-3-G chat 2026-05-21 as living-log class; bucket-routed at v1.20 closure for future v0.4 chat — formalized here per Stage 3 Decision #2 lock). Bundles with CF-NEW-SUBSTRATE-HYGIENE-AGENT-INBOX-CHECK + future v0.4 scope items.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6317,7 +6317,7 @@
     },
     {
       "id": "CF-NEW-MEMORY-PROPAGATION-AI-DVISOR",
-      "title": "Memory pointer block propagation to AI-DVISOR Project Instructions per Decision #4 (queued bootstrap)",
+      "title": "Memory pointer block propagation to AI-DVISOR Project Instructions per Decision #4 (queued bootstrap)…",
       "description": "Memory pointer block propagation to AI-DVISOR Project Instructions per Decision #4 (queued bootstrap). When AI-DVISOR Cowork project bootstraps (currently placeholder/dormant per PORTFOLIO_STATUS §1; bootstrap deferred per CF-PM3-8), add \"MAXX OS substrate discipline references\" pointer block referencing the 9 memory entries (May 21 cluster: project_clickup_deprecated + feedback_visual_explanation_default + feedback_paste_ready_blocks + feedback_visual_explicit_colors + feedback_reference_first_principle + feedback_chat_start_humanized_plan; May 26 cluster: feedback_youtuber_review_protocol +…",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6337,7 +6337,7 @@
     },
     {
       "id": "CF-NEW-MEMORY-PROPAGATION-MAXX_LIFE",
-      "title": "Memory pointer block propagation to MAXX_LIFE Project Instructions per Decision #4 (queued bootstrap)",
+      "title": "Memory pointer block propagation to MAXX_LIFE Project Instructions per Decision #4 (queued bootstrap)…",
       "description": "Memory pointer block propagation to MAXX_LIFE Project Instructions per Decision #4 (queued bootstrap). When MAXX_LIFE Cowork project bootstraps (currently concept-formation per PORTFOLIO_STATUS §1 footnote; bootstrap queued via BS-0014 / MAXX_LIFE personal-life-management substrate brainstorm), add the same \"MAXX OS substrate discipline references\" pointer block as AI-DVISOR (see template above).",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6357,7 +6357,7 @@
     },
     {
       "id": "CF-NEW-MEMORY-PROPAGATION-MAXX_CLOUD",
-      "title": "Memory pointer block propagation to MAXX_CLOUD Project Instructions per Decision #4 (queued bootstrap)",
+      "title": "Memory pointer block propagation to MAXX_CLOUD Project Instructions per Decision #4 (queued bootstrap)…",
       "description": "Memory pointer block propagation to MAXX_CLOUD Project Instructions per Decision #4 (queued bootstrap). When MAXX_CLOUD Cowork project bootstraps (currently concept/pre-bootstrap per PORTFOLIO_STATUS §1; 60-90 day horizon per Wolf direction; MAXX Cloud out of immediate scope months out per May 26 priority lock), add the same \"MAXX OS substrate discipline references\" pointer block.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6377,7 +6377,7 @@
     },
     {
       "id": "CF-DASHBOARD-SHIM-CLEANUP",
-      "title": "Weeks out: delete the publish-dashboard.sh deprecation shim once confident no callers remain",
+      "title": "Weeks out: delete the publish-dashboard.sh deprecation shim once confident no callers remain…",
       "description": "Weeks out: delete the publish-dashboard.sh deprecation shim once confident no callers remain. Currently safe — the shim exec's publish-dashboards.sh --only daily-dashboard for back-compat.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6437,7 +6437,7 @@
     },
     {
       "id": "CF-VCE-3",
-      "title": "Optional",
+      "title": "Optional…",
       "description": "Optional — Gemini-in-Chrome verbatim extraction of the 2 Superwall onboarding/paywall videos referenced in the VCE research (needs a hands-off browser window per feedback_browser_driving_exclusive_input). Nice-to-have evidence enrichment; not blocking.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6457,7 +6457,7 @@
     },
     {
       "id": "CF-FOLD-CANONICAL-VIEWS-INTO-PUBLISHER-1",
-      "title": "Optionally fold the two CAP-0046 views into the 30-min publisher batch",
+      "title": "Optionally fold the two CAP-0046 views into the 30-min publisher batch…",
       "description": "Optionally fold the two CAP-0046 views into the 30-min publisher batch. Today publish-canonical-views.sh is a standalone wrapper (deliberate — kept the Built/Live publish-dashboards.sh/dashboards.yaml untouched). Once stable, add a \"render\" kind to dashboards.yaml + a render hook so the two views refresh on the same 30-min launchd cadence as the daily dashboard (one place to maintain).",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6558,7 +6558,7 @@
     },
     {
       "id": "SIG-208",
-      "title": "Signal Ratings",
+      "title": "Signal Ratings…",
       "description": "Added 2026-06-30 (anti-slip capture — Wolf brainstorm). Per-video/per-channel rating + tagging layer, movie-rating analogy but unbundled into 4 axes: (1) Signal Score substance-vs-noise [flagship, most on-brand]; (2) tone/valence negativity↔positivity [on-brand, attention-hygiene]; (3) maturity/safety flag [table-stakes parental control, secondary]; (4) bias/perspective [News-only, later — Ground News analogy, LEGAL-gated]. Key insight: ratings = the human-readable surface of the same metadata layer that powers filtering/exclusion presets (ties to Kagi contentFilters ref + keyword/category ex…",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6584,7 +6584,7 @@
     },
     {
       "id": "SIG-209",
-      "title": "\"Choose your next Short\"",
+      "title": "\"Choose your next Short\"…",
       "description": "Added 2026-07-01 (anti-slip capture — Wolf idea, SIG-207 session). In the Shorts player, replace algorithm-fed auto-next (the TikTok/X/YouTube doom-scroll) with user-selects-the-next-Short — a chooser (a few curated next options / grid / topic pick) so Shorts becomes mindful selection, not a slot machine. Most on-brand differentiator (flips the internet's single most addictive mechanic); defensible because rivals' business models depend on the doom-scroll. Post-MVP service-screen feature; pairs with the Watch-screen Shorts slider + Shorts-detection engine note. Source: 02_Product/Working/SIG2…",
       "status": "s-todo",
       "priority": "p-p3",
@@ -6688,7 +6688,7 @@
     },
     {
       "id": "SIG-249",
-      "title": "\"Signal Audit\"",
+      "title": "\"Signal Audit\"…",
       "description": "Added 2026-07-11 (SIG-229, Wolf). Post-launch attention-coach: analyze the connected YouTube subscriptions/playlists (+ the user's keep-outs/noise) → recommend channels/videos to add, and gently flag keep-outs/patterns \"that may be working against you.\" Guardrails: SUGGESTS only, never auto-applies (user approves every change — consistent anti-algorithm/transparency stance); gentle wellbeing tone, no judgment. Marketable \"attention audit\" differentiator (\"see what the algorithm's been feeding you — take it back\"). Surface to Mission Control as differentiator + sellable-IP.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -7520,7 +7520,7 @@
     },
     {
       "id": "SIG-111",
-      "title": "Q-1 MAXX Signal Share v2",
+      "title": "Q-1 MAXX Signal Share v2…",
       "description": "Spec magic-link Signal sharing (builds on N-1 multi-Signal architecture).",
       "status": "s-todo",
       "priority": "p-p3",
@@ -7546,7 +7546,7 @@
     },
     {
       "id": "SIG-112",
-      "title": "Q-1 sub-spec",
+      "title": "Q-1 sub-spec…",
       "description": "Spec the 4 magic-link expiry-page scenarios.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -8742,7 +8742,7 @@
     },
     {
       "id": "SIG-158",
-      "title": "D-2X Conscientious Parent persona",
+      "title": "D-2X Conscientious Parent persona…",
       "description": "Develop the Conscientious Parent persona messaging + GTM (Haidt *Anxious Generation* moment); B1 product not built for kids — buyer-side only, composes with Q-2. [CAPTURE-TRIAGE 2026-07-31 — MOS-T-058.] *\"The elite protect their own kids\"* — the wealthiest people and senior tech executives restrict their children's social media and devices (Jobs / Microsoft execs). Buyer-side social proof for this persona, not a product claim (B1 is not built for kids). Deduped with MOS-T-064 — same claim, two phrasings, one entry, banked at SIG-191(h); evidence at SIG-068.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -8820,7 +8820,7 @@
     },
     {
       "id": "SIG-190",
-      "title": "Track-later bundle",
+      "title": "Track-later bundle…",
       "description": "SIG34 D-SIG34-13. Track-for-later: (1) Real-time public stats page (Kagi pattern, threshold ≥5K paid); (2) Open-source companion browser extension (Unhook-style funnel-top, Y1 H2 / Y2); (3) Localized pricing (PPP, international expansion); (4) Anniversary \"1 year on Signal\" email (Y2 retention); (5) Quarterly Wolf \"state of Signal\" essay (Y2 brand loop); (6) Conversational AI onboarding v2 variant (Calm 2026 pattern, when v1 ships). Watch list — surface to relevant chats when triggers hit.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -8846,7 +8846,7 @@
     },
     {
       "id": "SIG-194",
-      "title": "Daily positive-motivation widget",
+      "title": "Daily positive-motivation widget…",
       "description": "MC hand-off (2026-06-09): MOS-T-006. Spec a default-on daily positive-motivation widget (copy the \"Motivation\"/\"I am\" app pattern — one affirming/grounding card per day). Brand-clean fit with the calm/anti-noise posture. Couples to E-2 Uplifting category, SIG-124 \"Lighten my feed\", SIG-155 \"Daily Lift\" track. Post-launch B2 product row.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -8898,7 +8898,7 @@
     },
     {
       "id": "SIG-276",
-      "title": "Signal Sparks",
+      "title": "Signal Sparks…",
       "description": "Added 2026-07-17. Signal's own library of positive/motivational/mindfulness (+ uplifting humor) cards; backgrounds x words composition engine -> infinite unique cards (never scraped); view/save-to-channel/like/tag; own curation adapter on the reusable spine (NOT in the video engine doc); Signal-page Motivation section w/ owner-vs-visitor display. Name LOCKED \"Signal Sparks.\" Running in a separate chat. Opener: _Working/SIGNAL-SPARKS_OPENER_2026-07-17.md. Ref: _Inbox/MOTIVATION APP- SPARKS/ (motivation.app).",
       "status": "s-doing",
       "priority": "p-p3",
@@ -8950,7 +8950,7 @@
     },
     {
       "id": "SIG-278",
-      "title": "Signal+ Spaces",
+      "title": "Signal+ Spaces…",
       "description": "Added 2026-07-17. The Topic modality as premium Signal+ spaces on a Signal page; AI-original artifacts first (clean + premium), web/news aggregation later (per-source terms + copyright diligence, CF-SIG259-5). Future-page mockup (6-12mo) with News/websites/articles/books/images/social + Google-like search-and-curate. Own dedicated chat. Seed: _Working/SIGNAL_FUTURE-CONTENT-MODULES_seed_2026-07-16.md.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -9002,7 +9002,7 @@
     },
     {
       "id": "SIG-283",
-      "title": "Signal Studio",
+      "title": "Signal Studio…",
       "description": "Added 2026-07-20 (task-ify of the memory-reserved SIG-283; anti-slip). Future creation layer: from a video (or channel corpus) the user asks questions and creates artifacts — deck / infographic / image via Gemini + Imagen — a NotebookLM-analog built on the transcript/summary substrate. Candidate \"Signal Ultra\" tier ~3–6 months post-launch; may live inside Signal+ Spaces (SIG-278). Own dedicated chat when scheduled.",
       "status": "s-todo",
       "priority": "p-p3",
@@ -9106,7 +9106,7 @@
     },
     {
       "id": "SIG-297",
-      "title": "Living keep-out register maintenance",
+      "title": "Living keep-out register maintenance…",
       "description": "Added 2026-07-23 (SIG-287A). Post-launch process to keep the Taxonomy §6 keep-out/opt-out register current as the noise landscape shifts. Two inputs → one candidate stream: (1) a monthly external scan (a research pass like SIG-287A's divisive-topics sweep — new rage-bait / culture-war / scam trends); (2) in-product crowd-flag input (thumbs/tags → aggregate). Both propose-not-apply: produce ranked keep-out/opt-out candidates with rationale + source, deduped against the current register, for human/council review before any register change (a new Taxonomy §6 minor version). Guardrails: never aut…",
       "status": "s-todo",
       "priority": "p-p3",
@@ -9132,7 +9132,7 @@
     },
     {
       "id": "SIG-312",
-      "title": "Payment-source field",
+      "title": "Payment-source field…",
       "description": "Added 2026-07-31 (attended; created under D-2026-07-31a — preventable cascade, caught before it happens rather than after). In plain terms: the software has to know, for each user, *are they paying and on which plan*. Today the only possible source of that answer is Lemon Squeezy, so the natural build is “look up their Lemon Squeezy record.” If any purchases ever arrive from Apple or Google Play, there are suddenly two sources and the system was built assuming one. The fix is one sentence, written now: store *the subscription and where it came from*, not *the Lemon Squeezy subscription*. Conc…",
       "status": "s-todo",
       "priority": "p-p3",
@@ -9158,7 +9158,7 @@
     },
     {
       "id": "SIG-313",
-      "title": "GDPR Art",
+      "title": "GDPR Art…",
       "description": "Added 2026-07-31 (attended; created under D-2026-07-31a). NOT launch-blocking — the deliverable is a threshold, not an appointment. Do not confuse with SIG-308. Art. 27 (SIG-308, approved 2026-07-31) is a published contact address in the EU — administrative, ~EUR 60/mo. Art. 37 is a different obligation: an actual independent person overseeing data handling. Required only where core activities consist of regular and systematic monitoring of data subjects on a large scale. Why this is a live question for Signal and not for a typical SaaS — state it honestly: *“core activities”* means the proce…",
       "status": "s-todo",
       "priority": "p-p3",
@@ -9184,7 +9184,7 @@
     },
     {
       "id": "CF-SIGNAL-AGENT-NEEDS-1",
-      "title": "TRIGGER VERIFIED NOT MET 2026-07-25 (MC-STANDUP-2026-07-25)",
+      "title": "TRIGGER VERIFIED NOT MET 2026-07-25 (MC-STANDUP-2026-07-25)…",
       "description": "TRIGGER VERIFIED NOT MET 2026-07-25 (MC-STANDUP-2026-07-25) — Wolf confirmed HOLD. The gate is \"Claude Design hi-fi screens complete\" and they are not: SIG-038 and SIG-039 — the canonical Claude Design production-mockup rows — are still To-do / P0 with zero logged progress, and the parallel hand-built HTML track is incomplete (SIG-242 records Group 1 at 3 of 6 screens, with Groups 4 and 5 outstanding; SIG-295 requires re-rendering every locked paywall surface to the new SIG-284 caps grid). Scope reduced this pass: ARGUS is removed from this row and sequenced on its own as CF-ARGUS-DECOUPLE-1…",
       "status": "s-waiting",
       "priority": "p-p1",
@@ -9204,7 +9204,7 @@
     },
     {
       "id": "CF-CROSS-PLATFORM-FRAMEWORK-1",
-      "title": "Cross-platform app framework decision",
+      "title": "Cross-platform app framework decision…",
       "description": "Cross-platform app framework decision — one codebase → iOS + Android + web → App Store / Play Store. Candidates: Expo / React Native, Flutter / FlutterFlow, alternatives. Automation / agent-controllability + app-store path are selection criteria. OUT of ATHENA (design surfaces ≠ app framework; v0 / Claude Design generate UI surfaces, not the framework); belongs to a build/engineering workstream. Time-sensitive — most urgent of the three. Scope clarification (Signal recon 2026-05-30): Signal is NOT affected — its web-first stack (Next.js/Vercel + Firebase + Cloudflare + Lemon Squeezy, monorepo…",
       "status": "s-waiting",
       "priority": "p-p1",
@@ -9250,7 +9250,7 @@
     },
     {
       "id": "CAP-0060",
-      "title": "Venture-chat credential reach + non-bridged GitHub access",
+      "title": "Venture-chat credential reach + non-bridged GitHub access…",
       "description": "Venture-chat credential reach + non-bridged GitHub access — the unshipped remainder of CAP-0053, split out 2026-07-31 (Wolf). Two items, both genuinely open, neither started:\n(1) A portable secret store venture chats can actually read. A folder-scoped venture session (Signal, Solitaire) cannot see ~/MAXX/_secrets/ — it is outside the mount (OBS-0049 / OBS-0060 / OBS-0061), so a venture agent has no path to an API key at all. Options originally scoped: a per-venture gitignored secret file inside the mount, or Cowork-native credential injection at session start. Irreducible manual step either w…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9269,7 +9269,7 @@
     },
     {
       "id": "CAP-0059",
-      "title": "Autonomy Vehicles",
+      "title": "Autonomy Vehicles…",
       "description": "Autonomy Vehicles — ratify MOS-AUTONOMY-VEHICLES-0001 with the 8 Fable 5 edits. The three ratified vehicles by which MAXX work runs without founder attention — sub-agent · off-peak batch · staged opener — plus the guardrails the Fable 5 adversarial review found missing. Fable verdict 2026-07-10 (§3.6 / §5.5): “RATIFY WITH 8 EDITS” — close the auto-deploy-pipeline hole, and add a kill-switch, a budget cap and limbo handling (what happens to work that is neither running nor finished). Tracked by CF-AUTONOMY-VEHICLES-RATIFY-1 (Deferred · P2 · owner MC · trigger: post-sprint governance chat), whi…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9288,7 +9288,7 @@
     },
     {
       "id": "CAP-0057",
-      "title": "O3 Dynamic-Workflow capability",
+      "title": "O3 Dynamic-Workflow capability…",
       "description": "O3 Dynamic-Workflow capability. A dynamic workflow = a short program Claude writes on the fly to orchestrate subagents at scale, run in the background, and merge results — productizing the APOLLO multi-stream batching pattern MAXX already runs by hand. Greenlit now that the pattern is publicly shipped + validated: Claude Code's ultracode / dynamic workflows (v2.1.154+, all paid plans, shipped late May 2026) ship exactly this, so greenlighting O3 is no longer betting on an unproven idea. v1 scope (honest, Cowork-native): formalize the APOLLO-style in-Cowork multi-stream orchestration we alread…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9307,7 +9307,7 @@
     },
     {
       "id": "CAP-0055",
-      "title": "MAXX SEO Agent (build-not-buy)",
+      "title": "MAXX SEO Agent (build-not-buy)…",
       "description": "MAXX SEO Agent (build-not-buy). Thin Claude-native SEO agent, Executor: APOLLO, three modes — keyword map (GSC API + autocomplete/PAA/related scrape + Answer The Public; relative-difficulty proxy, labelled estimate), on-page audit (deterministic, zero-key, replaces NeuronWriter), GEO pass (Reddit-led citation checklist — expert quotes/stats/FAQ schema/summary blocks; posting stays human per TOS guardrail). Replaces default paid SEO tools at $0 for Claude-native users. Reference-first off aaron-he-zhu/seo-geo-claude-skills (Apache-2.0, Tier-1 zero-key; origin: provenance per T-041; CAP-0009 ga…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9326,7 +9326,7 @@
     },
     {
       "id": "CAP-0045",
-      "title": "Viral Content Engine",
+      "title": "Viral Content Engine…",
       "description": "Viral Content Engine — discover → decide → create → gate → publish → engage → learn, self-improving. Official-API-first intelligence loop that surfaces what content/frameworks are already winning for SIGNAL's audience, then produces + posts conversion-optimized content and learns why it worked. Org-chart-grounded cross-agent ownership (this map supersedes the VCE decision doc's §3 split, which was out of that chat's remit): APOLLO = discover + learn · HERMES = decide + copy + publish (via Zernio) · ATHENA = visual/design · VULCAN = video forge · ARGUS = policy gate · DIONYSUS = engage. Cowork…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9345,7 +9345,7 @@
     },
     {
       "id": "CAP-0041",
-      "title": "Dashboard view expansion",
+      "title": "Dashboard view expansion…",
       "description": "Dashboard view expansion — Gantt + per-view field-config + venture-aware hero — net-new beyond CAP-0040 (timeline/phase-swimlane already covered there): (1) a true Gantt view leveraging the now-wired Depends-on + Effort/duration data (Signal tasks carry both); (2) per-view field-config — choose which fields are visible per view (List/Kanban/Daily), the ClickUp/Asana/Monday \"see the same data many ways\" affordance Wolf flagged; (3) venture-aware Daily hero \"recommends\" card — now that 158 Signal P0s share the pool, the hero should respect the active Venture filter (or show one rec per venture)…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9364,7 +9364,7 @@
     },
     {
       "id": "CAP-0026",
-      "title": "Daily Dashboard v0.1.2 (chat-source alias CAP-DASHBOARD-v0.1.2)",
+      "title": "Daily Dashboard v0.1.2 (chat-source alias CAP-DASHBOARD-v0.1.2)…",
       "description": "Daily Dashboard v0.1.2 (chat-source alias CAP-DASHBOARD-v0.1.2) — in-Cowork browser-side callMcpTool live parsers for CFI/CAP/PS/PORTFOLIO_STATUS (the deferred-from-Phase-A in-Cowork-fresh-data scope; distinct from CAP-0024's server-side published-static parsers). Trigger: post-CAP-0024 (Done) OR Wolf flags need for in-Cowork fresh data. L effort (~8-12 MC-hrs across 2 chats). See §3 for entry detail.",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9383,7 +9383,7 @@
     },
     {
       "id": "CAP-0037",
-      "title": "Mission Control dashboard-suite expansion",
+      "title": "Mission Control dashboard-suite expansion…",
       "description": "Mission Control dashboard-suite expansion — additional dashboards via the v0.2 YAML seam (agent-status board, Hive Mind synthesis surface, per-venture dashboards). Phase 2-3 · MC M per dashboard · Wolf ~15m each · depends on CF-DASHBOARD-VENTURE-INFERENCE-FIX + CAP-0024 (done). See §3.",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9402,7 +9402,7 @@
     },
     {
       "id": "CAP-0040",
-      "title": "Dashboard phase/dependency rendering",
+      "title": "Dashboard phase/dependency rendering…",
       "description": "Dashboard phase/dependency rendering — teach the parser+template to read Phase + Depends-on fields and render a phase-swimlane / timeline view + \"what's unblocked now\" filter. Cheap part: phase as a filter facet. Overlaps CF-DASHBOARD-v0.2-views Timeline + CAP-0022 multi-view-switcher. Phase 1 · MC S-M (2-4h) · Wolf ~15m · depends on CF-CAP-PHASE-TAGGING + CAP-0024 parser/template. See §3.",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9421,7 +9421,7 @@
     },
     {
       "id": "CAP-0021",
-      "title": "Pass-list quick-capture with canonical-promotion path",
+      "title": "Pass-list quick-capture with canonical-promotion path…",
       "description": "Pass-list quick-capture with canonical-promotion path — portfolio-wide substrate UX primitive that lets Wolf capture in-flow ideas/items/tasks to a lightweight pass-list panel (localStorage-persisted) and promote selected items to canonical living-log destinations (CFI / CAPABILITIES / BRAINSTORM / PRODUCTIZATION) via clipboard with pre-formatted text. Replaces the Apple-Reminders external-tool workaround pattern Wolf had been using. First empirical instance shipped inside CAP-0015 Daily Dashboard v0.1 2026-05-27; this CAP captures the primitive at substrate level so it can appear in other su…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9440,7 +9440,7 @@
     },
     {
       "id": "CAP-0022",
-      "title": "Multi-view-switcher + cross-cutting affordances as substrate UX primitive",
+      "title": "Multi-view-switcher + cross-cutting affordances as substrate UX primitive…",
       "description": "Multi-view-switcher + cross-cutting affordances as substrate UX primitive. Multi-view UX pattern (4 views in CAP-0015 Daily Dashboard v0.1: Daily-priorities + Kanban + List + By-venture; pairs with v0.2 candidates Calendar + Timeline + Gantt per MOS-RESEARCH-PM-SYSTEMS-v1.1 §6 v2 set) with cross-cutting affordances applied across all views (filter facets / sort / search / detail drawer / state-edit popover). Differentiates against generic single-view dashboards (Trello pure-Kanban / Asana pure-List / Linear hybrid-with-no-easy-switcher) by treating the same underlying data as renderable in mu…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9459,7 +9459,7 @@
     },
     {
       "id": "CAP-0018",
-      "title": "Social Content Research",
+      "title": "Social Content Research…",
       "description": "Social Content Research — On-Demand (multi-platform, Apify-primary). Scans X / IG / TikTok / Meta Ad Library / LinkedIn / FB / YouTube for high-performing posts in a venture's niche; extracts hook / format / hashtag / timing patterns; outputs per-venture research artifact at ~/MAXX/[VENTURE]/05_Marketing/Research/. v0.1 ships as $5 Meta Ad Library canary; v0.2 expands. S-to-M effort (~2-4 MC-hrs). Apify Starter $29/mo + actor fees ~$35-45/mo all-in across 3 ventures. Apify MCP at mcp.apify.com (Streamable HTTP + OAuth) = zero orchestration glue. Spawned from yt-review-Blotato-and-social-conte…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9478,7 +9478,7 @@
     },
     {
       "id": "CAP-0020",
-      "title": "Social Content Research",
+      "title": "Social Content Research…",
       "description": "Social Content Research — Standing Scan. Weekly scheduled-task scan per active venture (Apify + free tool wrappers); output feeds Hive Mind Stage 2 synthesis. Reuses CAP-0006 scheduled-task runtime. Deferred until CAP-0018 v1 produces empirical signal-volume data + objective trigger: \"≥3 on-demand runs across ≥2 ventures AND ≥1 finding actually changed a content decision AND Wolf flags 'I wish this just ran weekly so I didn't have to ask'.\" M effort (~4-6 MC-hrs). Spawned from yt-review-Blotato chat 2026-05-24.",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9497,7 +9497,7 @@
     },
     {
       "id": "CAP-0011",
-      "title": "agentskills.io open standard adoption",
+      "title": "agentskills.io open standard adoption…",
       "description": "agentskills.io open standard adoption — port 3 MAXX skills to the Anthropic-published standard adopted by Hermes, Cursor, Codex CLI, Gemini CLI, ChatGPT; mostly directory rename + frontmatter audit; portability gain real and immediate; XS effort (~2 MC-hrs); no dependency on Hermes adoption; advances PS-AGENTSKILLS-PORTABILITY",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9516,7 +9516,7 @@
     },
     {
       "id": "CAP-0013",
-      "title": "Paperclip pattern-borrow into Mission Control",
+      "title": "Paperclip pattern-borrow into Mission Control…",
       "description": "Paperclip pattern-borrow into Mission Control — borrow the Founder → Orchestrator → Sub-Agents org-chart metaphor WITHOUT installing Paperclip (filesystem-of-truth conflict structural per Phase 2 research); pure pattern study; pairs with CAP-0014 Agent Org Chart; XS effort (no install, no infra); references-first per feedback_reference_first_principle",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9535,7 +9535,7 @@
     },
     {
       "id": "CAP-0016",
-      "title": "Daily Standup + End-of-Day Closeout cadence",
+      "title": "Daily Standup + End-of-Day Closeout cadence…",
       "description": "Daily Standup + End-of-Day Closeout cadence — morning standup pulls overnight agent work + AGENT_INBOX deltas; evening closeout processes the day's work and queues next day's actions; complements weekly Hive Mind (Stage 1-4 weekly) with daily rhythm; potentially absorbs into or replaces CAP-0010 Mission Control Daily Cadence; M effort; trigger condition: 3+ operational agents producing daily output (currently APOLLO only). Spawned from AGENT-APOLLO-BUILD-1 Wolf feedback Thread 6.",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9554,7 +9554,7 @@
     },
     {
       "id": "CAP-0017",
-      "title": "Real-time alerts surface for autonomous agent completions, failures, and need-for-input events",
+      "title": "Real-time alerts surface for autonomous agent completions, failures, and need-for-input events…",
       "description": "Real-time alerts surface for autonomous agent completions, failures, and need-for-input events; OS-level notification + dashboard badge; complements AGENT_INBOX (passive log) with real-time push; S-M effort (~3-5 MC-hrs); depends on CAP-0015 Inbox + Dashboard ship for dashboard-badge surface. Spawned from AGENT-APOLLO-BUILD-1 Wolf feedback Thread 6.",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9573,7 +9573,7 @@
     },
     {
       "id": "CAP-0010",
-      "title": "Mission Control Daily Cadence (morning standup + EOD review)",
+      "title": "Mission Control Daily Cadence (morning standup + EOD review)…",
       "description": "Mission Control Daily Cadence (morning standup + EOD review) — sister to CAP-0006 weekly Hive Mind cycle; daily Mission Control rhythm for cross-venture status hygiene + queue planning; 2 scheduled tasks (morning standup ~7-8am Mon-Fri + EOD review ~5-6pm Mon-Fri); trigger revised 2026-05-27 per Hive Mind Cycle 2 Stage 3 Decision #6: Signal go-live OR Wolf flags ready (was: MAXX_LIFE Cowork project activation OR Wolf flags ready); productization signal candidate PS-DAILY-CADENCE-1 flagged",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9592,7 +9592,7 @@
     },
     {
       "id": "CAP-0008",
-      "title": "MAXX OS Blueprint Visualization",
+      "title": "MAXX OS Blueprint Visualization…",
       "description": "MAXX OS Blueprint Visualization — multi-zoom interactive architecture artifact (building / floor / room metaphor); 2-chat build sequence (scoping/mapping + Cowork HTML artifact); dual-audience (internal navigation + external comms); 4-affordance cards per feedback_status_artifact_interactivity.md",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9649,7 +9649,7 @@
     },
     {
       "id": "CAP-0006",
-      "title": "MAXX OS Hive Mind 4-stage loop automation v0.1",
+      "title": "MAXX OS Hive Mind 4-stage loop automation v0.1…",
       "description": "MAXX OS Hive Mind 4-stage loop automation v0.1 — Scheduled tasks runtime (Path 2 Option A); Stage 1 reflection template + Stage 2 synthesis template + scheduled-tasks provisioning + first operational cycle; templates shipped 2026-05-19 + 3 scheduled tasks provisioned 2026-05-21 (Stage 1 Sun 14:00 + Stage 2 Sun 19:00 + Stage 4 Mon 14:00 local); first production cycle target May 31, 2026",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9706,7 +9706,7 @@
     },
     {
       "id": "CF-GOVCUT-3",
-      "title": "Freeze Layer Model v0.1 → v0.1.1 (govcut Cut 3",
+      "title": "Freeze Layer Model v0.1 → v0.1.1 (govcut Cut 3…",
       "description": "Freeze Layer Model v0.1 → v0.1.1 (govcut Cut 3 — approved, no-risk, \"freeze-until-consumer\" not permanent). Decided D-2026-07-10 (MC-STANDUP-2026-07-10 §3.3). First of the sequenced govcut chain (Cut 3 → Step-0 → Cut 1).",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9726,7 +9726,7 @@
     },
     {
       "id": "CF-GOVCUT-STEP0",
-      "title": "Triple-check the 6 living logs are in the GitHub-mirror slice + launchd sync green",
+      "title": "Triple-check the 6 living logs are in the GitHub-mirror slice + launchd sync green…",
       "description": "Triple-check the 6 living logs are in the GitHub-mirror slice + launchd sync green — the precondition gating Cut 1. Decided 07-10 (§5.2).",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9746,7 +9746,7 @@
     },
     {
       "id": "CF-GOVCUT-1",
-      "title": "Living-log versioning cut (govcut Cut 1)",
+      "title": "Living-log versioning cut (govcut Cut 1)…",
       "description": "Living-log versioning cut (govcut Cut 1) — explained but NOT ratified 07-10; deferred post-sprint, careful, gated behind Step-0. Confirmed it does NOT touch transcripts / closeouts / memory / file-content (chat-to-chat continuity preserved). Decided 07-10 (§3.5 / §5.3).",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9806,7 +9806,7 @@
     },
     {
       "id": "CF-PM2-9",
-      "title": "Investigation half COMPLETE 2026-07-25",
+      "title": "Investigation half COMPLETE 2026-07-25…",
       "description": "Investigation half COMPLETE 2026-07-25; build DEFERRED by Wolf. The 2026-07-25 nightly finding (_MAXX_OS/Research/nightly-batch/2026-07-25/CF-PM2-9-finding.md) established that Anthropic's no-code \"Plugin Create\" tool is a clean fit for packaging the Hive Mind reflection generator, and that the original \"Skills-Discovery + Connectors-Discovery combined chat\" gate is over-specified — no discovery chat is needed to build this. Build deferred at the 2026-07-25 standup under the Signal-FIRST ~90/10 lock: the reflection generator already works on its cron, plugin-ifying it changes *distribution*,…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -9826,7 +9826,7 @@
     },
     {
       "id": "CF-BACKEND-STACK-1",
-      "title": "Backend stack decision",
+      "title": "Backend stack decision…",
       "description": "Backend stack decision — database, authentication, APIs, storage. Partly decided in Signal planning; many choices apply cross-venture. OUT of ATHENA's lane; separate build/engineering conversation/agent (VULCAN).",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -10033,7 +10033,7 @@
     },
     {
       "id": "SIG-199",
-      "title": "Signal Scanner + Signal Hijack",
+      "title": "Signal Scanner + Signal Hijack…",
       "description": "SIG38 (2026-06-09): DESIGN DELIVERED. Shipped 05_Marketing/Working/MSIG-MKT-SCANNER-HIJACK-PROGRAM-0001_v0_1.md (full program: community & channel map across Reddit/FB-parent-movements/Discord-HN/X-Bluesky/YouTube/journalists+newsletters with fit/tone/participation; Scanner WATCH→TRIAGE→DRAFT→HUMAN-GATE→LOG + reply-worthiness rubric + mention-ladder; Hijack T1/T2/T3 tiering + Care-Angel rapid-response drill + angle bank/templates + speed targets; 8-week content storyboard with intentions; automation tooling research — official-API-only, aggressive ban-reject, X-API-now-pay-per-use finding, re…",
       "status": "s-waiting",
       "priority": "p-p2",
@@ -10059,7 +10059,7 @@
     },
     {
       "id": "CF-CLOUD-ROUTINE-SIGNAL-FIRST-PASTE-1",
-      "title": "Optional / low-value: repoint the live cloud nightly Routine prompt to Signal-first ordering",
+      "title": "Optional / low-value: repoint the live cloud nightly Routine prompt to Signal-first ordering…",
       "description": "Optional / low-value: repoint the live cloud nightly Routine prompt to Signal-first ordering. The Cowork fallback task was already updated Signal-first 07-10; ruled skippable because Signal's remaining work is design/build, not research (D-2026-07-10 §3.2). Surfaced only so it cannot silently slip.",
       "status": "s-waiting",
       "priority": "p-p3",
@@ -10099,7 +10099,7 @@
     },
     {
       "id": "CF-PM3-5",
-      "title": "Cowork-Onboarding doc material",
+      "title": "Cowork-Onboarding doc material…",
       "description": "Cowork-Onboarding doc material — capture Cowork tooling gotchas for future productization",
       "status": "s-waiting",
       "priority": "p-p3",
@@ -10119,7 +10119,7 @@
     },
     {
       "id": "CF-FACTORY-INFRA-TIER-1",
-      "title": "\"Factory infrastructure\" tier",
+      "title": "\"Factory infrastructure\" tier…",
       "description": "\"Factory infrastructure\" tier — analytics, paywall experimentation, asset registry, click attribution beyond Dub/Bitly short-links. Captured in the APOLLO research log; deliberately kept OUT of the ATHENA design-stack doc per scope. Separate decision when Wolf is ready.",
       "status": "s-waiting",
       "priority": "p-p3",
@@ -10908,7 +10908,7 @@
     },
     {
       "id": "CF-SIGNAL-DEPLOY-ROUTE-1",
-      "title": "Rule the deployment route for maxxsignal.com (Netlify vs alternative), or delegate it to the venture",
+      "title": "Rule the deployment route for maxxsignal.com (Netlify vs alternative), or delegate it to the venture…",
       "description": "Rule the deployment route for maxxsignal.com (Netlify vs alternative), or delegate it to the venture. Fourth surfacing from Signal (07-29, 07-30, 07-31 autonomous, 07-31 attended addendum) and untracked until now. Timing nuance from the attended addendum: the venture has sequenced a website research chat (SIG-306) in front of the build, so the ruling is *not* on the immediate critical path this week — but it becomes blocking the moment SIG-306 closes, and the Apple clock behind SIG-045 does not start until it is ruled. This sits on a compounding external clock: SIG-067 (marketing website) is…",
       "status": "s-done",
       "priority": "p-p0",
@@ -11401,7 +11401,7 @@
     },
     {
       "id": "SIG-022",
-      "title": "Brand v1.3",
+      "title": "Brand v1.3…",
       "description": "SIG19 Phase 1: author full-depth Onboarding + First-Feed receipt libraries (§7.15.1, §7.17), structured Pre-Site/Website placeholders, AP-AP-5 gate repositioning. Three-Step Replacement on Brand doc. (done 2026-05-29)",
       "status": "s-done",
       "priority": "p-p0",
@@ -11531,7 +11531,7 @@
     },
     {
       "id": "SIG-159",
-      "title": "Intentions/WHY Layer spec (MSIG-UX-INTENTIONS-0001)",
+      "title": "Intentions/WHY Layer spec (MSIG-UX-INTENTIONS-0001)…",
       "description": "DONE SIG42 (2026-06-19): authored MSIG-UX-INTENTIONS-0001 v1.0 → 02_Product/Final. 4 forks locked w/ Wolf (single interactive screen · re-rank+pre-select w/ sovereignty · persistent Stage-4 feed tilt · free-text nearest-node+search-log). Capture = locked v0.3 reasons → tunable category-weight map; 4-movement model reconciled to v0.3 order. De-stubbed Onboarding §4.5b (→v1.2). Built clickable prototype v2.1 (03_Design/Reference/onboarding-flows/ + Cowork artifact) through 4 rounds of Wolf review → locked single-signal launch, plan→build→feed re-sequence, Go-Deeper+Creators merge, per-category…",
       "status": "s-done",
       "priority": "p-p0",
@@ -11609,7 +11609,7 @@
     },
     {
       "id": "SIG-259",
-      "title": "🔴🔴 Playback Integrity vs the paid model",
+      "title": "🔴🔴 Playback Integrity vs the paid model…",
       "description": "Added 2026-07-15 (SIG-259). Developer Policies \"Playback Integrity\" (verbatim, fetched 2026-07-15): *\"API Clients must not charge users to watch content in an embedded YouTube player... must not otherwise gate access to a video by requiring a user to take an action other than clicking the play button.\"* SIG-228 locked videos-per-channel 10→100 with the trigger spec'd as *\"attempting the 11th video → soft upgrade card\"* — i.e. a visible, blocked video, which is the prohibited pattern. Distinction that may save it: curation (show 50, play all 50, never see #51) vs gate (show 100, 90 locked). Ac…",
       "status": "s-done",
       "priority": "p-p0",
@@ -11635,7 +11635,7 @@
     },
     {
       "id": "SIG-260",
-      "title": "🔴 \"Ad-free\"",
+      "title": "🔴 \"Ad-free\"…",
       "description": "Added 2026-07-15 (SIG-259). \"Ad-free\" is locked in 3 canonical docs: Mandate v1.4 §186 · Brand v1.5.2 ×4 (*\"Ad-free feed\"*, *\"Ad-free starts immediately\"*) · MVP Plan v2.4 ×4 (compare row + *\"No AdSense banners, no sponsored cards, no pre-roll\"*). Two problems: (a) blocking YouTube ads is explicitly prohibited (*\"modify, interfere with, replace, or block advertisements placed or served by YouTube\"*) and technically impossible in the embedded player → a user buying \"ad-free\" hits a pre-roll on video #1 = false promise on a live paywall; to a Google reviewer \"ad-free\" reads as ad blocker = audi…",
       "status": "s-done",
       "priority": "p-p0",
@@ -11687,7 +11687,7 @@
     },
     {
       "id": "SIG-269",
-      "title": "Rebuild SIG-077 legal packet",
+      "title": "Rebuild SIG-077 legal packet…",
       "description": "Added 2026-07-15 (SIG-259). Wolf: \"we just need to go through everything comprehensively.\" Today's findings materially change the packet — rebuild as ONE coherent document, not the original scope with questions bolted on. Priority order: (1) 🔴🔴 Playback integrity vs the paid model — *\"must not charge users to watch content in an embedded YouTube player\"* vs our videos-per-channel caps (business-model question, ahead of everything); (2) derived metrics — is internal ranking \"use\"? our filters-not-scores mitigation; (3) COPPA §J / Kids Signal + the Google notification obligation; (4) ad placeme…",
       "status": "s-done",
       "priority": "p-p0",
@@ -11739,7 +11739,7 @@
     },
     {
       "id": "SIG-304",
-      "title": "Refund-window cascade",
+      "title": "Refund-window cascade…",
       "description": "Added 2026-07-31 (attended stand-up; anti-slip catch — recommended by the 07-30 and 07-31 autonomous runs and never task-ified until now, which was itself the third pseudo-tracker failure in nine days). SIG-243 (2026-07-17) made money-back tier-specific (Monthly = cancel-anytime/no refund; Annual + Lifetime = 30-day) and Pricing §7.1.1 carries an explicit ⚑ flag naming the surfaces needing update. The flag was never actioned — 14 days. 12 stale \"14-day\" sites remain across PRD §11.9 (build-facing), Affiliate v1.2, Backlog P-3, Mandate, MVP Plan, Financial OnePager. Register with line numbers,…",
       "status": "s-done",
       "priority": "p-p0",
@@ -11765,7 +11765,7 @@
     },
     {
       "id": "SIG-305",
-      "title": "Trial-length cascade",
+      "title": "Trial-length cascade…",
       "description": "Added 2026-07-31 (attended stand-up; anti-slip catch). Trial locked 3-day → 7-day at SIG31, 52 days ago. Brand swept (v1.5.2 §47); Onboarding v1.6, Paywall v1.0, Screen Plan v1.0 and the 07-29 website draft are all correct. PRD v1.5 is the sole holdout and it is the build-facing document — 13 stale sites including user-facing CTA copy, the trial_started event, and the QA acceptance checklist. Plus 6 in Pricing's own body — including line 1777, a Wolf-owned pre-launch action item instructing him to configure a 3-day trial into the live Lemon Squeezy variant, sitting 1,644 lines below the §0.8…",
       "status": "s-done",
       "priority": "p-p0",
@@ -11791,7 +11791,7 @@
     },
     {
       "id": "SIG-307",
-      "title": "Deployment route for maxxsignal.com",
+      "title": "Deployment route for maxxsignal.com…",
       "description": "Added 2026-07-31 (attended capture-triage session; created under D-2026-07-31a — autonomous row creation for an evidenced defect). THIS ROW EXISTS TO CLOSE A DECISION, NOT TO TAKE ONE. The route was already ruled: D-2026-07-29a, Wolf, verbatim *\"vercel\"* (_Inbox/MC-TO-SIGNAL_HANDOFF_2026-07-29.md). Verified live this session against the Vercel account rather than inferred: project maxx-signal / prj_JlYa5AHo3UReBCvpBJvCjHTLxAPO, team *Wolf's projects*, Next.js on Node 24.x, latest production deploy READY, and maxxsignal.com + join.maxxsignal.com are already bound to it. Why it is not cheaply r…",
       "status": "s-done",
       "priority": "p-p0",
@@ -11837,7 +11837,7 @@
     },
     {
       "id": "CF-SIGNAL-ART27-REP-OWNER-1",
-      "title": "Name the owner for EU Article 27 representative procurement",
+      "title": "Name the owner for EU Article 27 representative procurement…",
       "description": "Name the owner for EU Article 27 representative procurement — venture action or MC action? Approved at D3 (2026-07-27) when Signal went worldwide-at-launch incl. EU/UK, at ~€300–1,000/yr plus the UK equivalent. Nobody has been appointed and no row existed. Procurement with external lead time, same class as D-U-N-S and Apple review. It gates publication of MSIG-LEGAL-PRIVACY-POLICY-0001 → gates SIG-076 → gates SIG-080 (launch). Signal has twice said it will take the work either way; what it needs is an owner before this accrues the twenty-standup age D-U-N-S now has. A US controller offering a…",
       "status": "s-done",
       "priority": "p-p1",
@@ -11857,7 +11857,7 @@
     },
     {
       "id": "CF-CLOUD-TASK-RUNTIME-MISMATCH-1",
-      "title": "Two of the three cloud scheduled tasks were written for a runtime they do not have",
+      "title": "Two of the three cloud scheduled tasks were written for a runtime they do not have…",
       "description": "Two of the three cloud scheduled tasks were written for a runtime they do not have — the \"can't connect to GitHub\" symptom. mc-nightly-watchdog and mc-weekly-hivemind-synthesis were created 2026-07-22 as Cowork-remote tasks (device-bridge + MCP tool set only: no Bash, no git sources, no push outcomes), but both prompts opened *\"You start from a fresh clone of the maxx-substrate-mirror repo\"* and instructed git ls-remote / commit / push to a claude/* branch. Neither could ever clone, reach github.com, or push — structurally, not intermittently. Only mc-nightly-autonomous-batch is a true Claude…",
       "status": "s-done",
       "priority": "p-p1",
@@ -11877,7 +11877,7 @@
     },
     {
       "id": "CF-MICROSPEND-CEILING-1",
-      "title": "[EXECUTED 2026-07-27 (MC-GOVCODIFY-2026-07-27)",
+      "title": "[EXECUTED 2026-07-27 (MC-GOVCODIFY-2026-07-27)…",
       "description": "[EXECUTED 2026-07-27 (MC-GOVCODIFY-2026-07-27) — COWORK_INSTRUCTIONS v2.6 → v2.7, one Three-Step carrying all three locks. Witness on disk: _index/COWORK_INSTRUCTIONS.md now opens Version: v2.7, closes End of COWORK_INSTRUCTIONS.md v2.7, and carries four new sections — §6.1.1 (the $50/month per-venture band, the bucket set incl. a _MAXX_OS bucket, no-pooling / no-rollover, the five carve-outs that stay Wolf-gated at any amount incl. $0.00, the \"pre-authorized lane means named not inferred\" clause, and stop-and-escalate on ceiling), §6.1.2 (the spend log — file, 9-column row schema, running-to…",
       "status": "s-done",
       "priority": "p-p1",
@@ -11897,7 +11897,7 @@
     },
     {
       "id": "CF-SPRINT-CLOSE-3",
-      "title": "[DONE 2026-07-28 (MC-STANDUP-2026-07-28)",
+      "title": "[DONE 2026-07-28 (MC-STANDUP-2026-07-28)…",
       "description": "[DONE 2026-07-28 (MC-STANDUP-2026-07-28) — shipped as MOS-SYS-PROTOCOL-THIRD-PARTY-AUDIT-0001 v1.0 at _MAXX_OS/Capabilities/third-party-security-audit/. This row's entire content was the policy half of CAP-0009, so both closed on one artifact — two rows, one doc. The 69-day stall had a single cause: CAP-0009 was scoped as an audit *skill*, which fails §10.1's own earn test (ships no executable code; is standing discipline rather than a named verb; must be in context at the moment of judgment, which is the doc column). Re-scoped as a mirrored doc it took one sitting. Four gates, cheapest-rejec…",
       "status": "s-done",
       "priority": "p-p1",
@@ -11937,7 +11937,7 @@
     },
     {
       "id": "MOS-T-002",
-      "title": "GBrain repo",
+      "title": "GBrain repo…",
       "description": "✅ DONE 2026-06-15 (MC-CAP0009-INSTALLS-1) — architecture stood up: _MAXX_OS/Architecture/MOS-MEMORY-ARCHITECTURE-0001.md v0.1 (6-scope tiered hybrid: storage-tier markdown truth + MEM-1 graph index; OS-shared + 5 per-venture; rule + skeleton; no migration). MEM-1 CAP-0009-audited APPROVED → INSTALLED + LIVE 2026-06-17 (one-command installer _MAXX_OS/Capabilities/mem-mcp/install-mem1.sh; read_graph responds, empty graph ready to seed). Closed w/ T-013. ◀ 🔬 RESEARCHED 2026-06-09 (memory-architecture findings) — TIERED-HYBRID; GBrain = borrow markdown-truth+index pattern, don't adopt. from cap-m…",
       "status": "s-done",
       "priority": "p-p1",
@@ -12164,7 +12164,7 @@
     {
       "id": "MOS-T-037",
       "title": "Social scrapers (Apify etc.) eval",
-      "description": "✅ DONE 2026-06-22 (MC-STANDUP-QUICKWINS-1) — eval closed: its decision was made in T-040 (adopt Supadata $17/mo, 2026-06-20, CAP-0009-gated). GREEN (Supadata YT transcripts) adopted; RED set (email-harvest + logged-in IG/TikTok/X scraping) permanently excluded on TOS/account-risk. Nothing left to eval. ◀ 🔬 RESEARCHED 2026-06-09 (findings: _MAXX_OS/Research/social-scrapers-eval/). from cap-mpu6yewzanq",
+      "description": "✅ DONE 2026-06-22 (MC-STANDUP-QUICKWINS-1) — eval closed: its decision was made in T-040 (adopt Supadata $17/mo, 2026-06-20, CAP-0009-gated; that adoption was ⛔ superseded 2026-07-18 — see T-040). GREEN (Supadata YT transcripts) adopted-then-superseded; RED set (email-harvest + logged-in IG/TikTok/X scraping) permanently excluded on TOS/account-risk. Nothing left to eval. ◀ 🔬 RESEARCHED 2026-06-09 (findings: _MAXX_OS/Research/social-scrapers-eval/). from cap-mpu6yewzanq",
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Social",
@@ -12196,8 +12196,8 @@
     },
     {
       "id": "MOS-T-040",
-      "title": "Decide: adopt Supadata YouTube-transcript API",
-      "description": "✅ DECIDED 2026-06-20 (MAXX-COUNCIL-BUILD-1) — adopt Supadata $17/mo (3,000 credits/mo) for reliable YouTube transcripts (fixes Chrome+Gemini unreliability; AI fallback for no-caption videos). Wolf-approved spend. Install gated on CAP-0009 third-party security audit (Supadata is 3rd-party) + volume confirm at signup. Note: free youtube-transcript MCP + Chrome-scrape fallback remain for low-volume; Supadata buys production reliability for Signal messaging tasks (unblocks the T-023/T-029 cluster). Spawned from the MOS-T-037 scrapers brief.",
+      "title": "Decide: transcript-fetch method…",
+      "description": "⛔ SUPERSEDED 2026-07-18 by Signal (SIG-269 / SIG-274; ratified in SIGNAL/_Working/REFLECTION_2026-07-19.md): Supadata is OUT. Wolf's business decision of 2026-07-18 ships both AI transcripts and AI summaries at launch via the Gemini-API-via-YouTube-URL mechanism, and explicitly rejects *both* third-party transcript APIs (Supadata) *and* YouTube's unofficial timedtext/InnerTube caption route. No Supadata account was ever provisioned and none is needed. Corrected 2026-08-03 (MC-STANDUP) after this stale row propagated into the 2026-08-03 nightly finding and from there into the morning standup a…",
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Build",
@@ -12222,8 +12222,8 @@
       "autonomy": "Wolf",
       "department": "Engineering",
       "prov": null,
-      "review": "r-done",
-      "review_label": "Done",
+      "review": "r-none",
+      "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -13221,7 +13221,7 @@
     },
     {
       "id": "SIG-202",
-      "title": "HERMES Deliverable 4",
+      "title": "HERMES Deliverable 4…",
       "description": "HERMES native full-draft of launch-day announcement to waitlist (E12), launch-day welcome for new signups (E13), founding-member confirmation (E14), Signal+ welcome (E15). Reuse E1/E2/E3 spines + founder/members-first voices. Banks #4 of ~5 toward HERMES v1.0. Draft-only; publish gated. DONE 2026-06-25 (drafted overnight, autonomous): all 4 emails full-drafted → 05_Marketing/hermes/2026-06-25--launch-day-set/MSIG-MKT-LAUNCH-DAY-SET_DRAFT_v0_1.md (354 lines, §7 self-review PASS). Awaiting Wolf review. (done 2026-06-25)",
       "status": "s-done",
       "priority": "p-p1",
@@ -13247,7 +13247,7 @@
     },
     {
       "id": "SIG-207",
-      "title": "Paywall design pass (MSIG-UX-PAYWALL-0001)",
+      "title": "Paywall design pass (MSIG-UX-PAYWALL-0001)…",
       "description": "Added 2026-06-26 (anti-slip capture — was only an opener, untracked). The dedicated paywall / \"Choose Plan\" §4.7 design-science pass: one component, 8 contexts (substrate §K.3); research synth → reference teardown → resolve the honest-conversion-vs-Free-is-equal tension → sketch → interactive mockup → review rounds → lock → Claude Design hi-fi → author MSIG-UX-PAYWALL-0001 v1.0 + de-placeholder Onboarding v1.3 §4.7 + Decisions Log. Prices/trial LOCKED (Pricing v1.3 — do NOT change); Mandate §3 no-dark-patterns floor. Closes CF-SIG42-5; folds in SIG-183 (paywall-upgrades bundle). Brief/prompt…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13299,7 +13299,7 @@
     },
     {
       "id": "SIG-219",
-      "title": "Mobbin YouTube screens",
+      "title": "Mobbin YouTube screens…",
       "description": "Added 2026-07-08 (Wolf). Wolf downloaded ALL YouTube iOS + web screens from Mobbin (few hundred: front-end, backend, settings). Its own chat: review every screen thoroughly (via agents / systematic view), borrow useful patterns, and surface service screens we haven't thought of yet (Wolf already flags: YouTube search flow + save-to-playlist/channel — Signal has neither designed). Output = gap list of missing/《borrow》screens feeding SIG-215 service-screen storyboard. NB: YouTube's model = ad-extraction (opposite of Signal) — borrow interaction patterns, not the attention-capture mechanics (per…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13325,7 +13325,7 @@
     },
     {
       "id": "SIG-221",
-      "title": "Time-Cost Calculator v0.1",
+      "title": "Time-Cost Calculator v0.1…",
       "description": "Done 2026-07-09. Built single-file mobile-first HTML calculator: five reactive inputs (age, hrs/day social, $/hr, hrs/day Signal reclaims, life expectancy) → dual-frame monthly/yearly/lifetime waste vs reclaim outputs → screenshot-ready receipt card → waitlist CTA. Reference: ehm-tech.com time-wasted-calculator (age + life expectancy + lifetime projection pattern). Deliverables: HTML _Working/artifacts/signal-time-cost-calculator-v0-1.html · populated-preview PDF ..._populated-preview.pdf · structural PDF signal-time-cost-calculator-v0-1.pdf · desktop+mobile screenshots (via WeasyPrint; Playw…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13351,7 +13351,7 @@
     },
     {
       "id": "SIG-227",
-      "title": "Service-screen mockups",
+      "title": "Service-screen mockups…",
       "description": "2026-07-10. Locked #18 visitor + #19 owner (archetype→real MAXX archetype tap-pop-up, no verify check, Signalled=public toggle, profile-tour idea), #21 History (no pause/clear; positive ⓘ; Delete; search-entry view), #20 renamed \"Reclaimed\" (OQ-BRAND-15 resolved = reclaimed-time via SIG-221 calculator + Your-Future projection + 3 share cards + Ambassador pill), Reflections split to own You-hub item, #22 Plan (plan-type cancel logic, what-you-lose delta, step-down + Pause 30/60/90, Reclaimed \"Before you go\", Ambassador loss), #23 Settings (dark-lock, autoplay=your-queue toggle, Accessibility,…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13455,7 +13455,7 @@
     },
     {
       "id": "SIG-243",
-      "title": "Claude Design handoff package",
+      "title": "Claude Design handoff package…",
       "description": "Added 2026-07-11 (SIG-228). Once the screen set is complete, assemble the full CD handoff package (wireframes + per-screen spec + verbatim copy + \"LOCKED — don't reinvent\"), delivered in groupings like the onboarding hand-off. ~40+ screens/views (Settings alone has many sub-pages). Pairs with the SIG45 Export→Claude Design pipeline. DONE — flipped 2026-07-27 with cross-session evidence (verify-and-flip audit; row NOT on Mission Control's list — found during this pass). Evidence: _Transcripts/closeouts/SIG-259-263_BLOCKER-SWEEP-LANDING_closeout_2026-07-22.md independently verifies it — 'SIG-24…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13533,7 +13533,7 @@
     },
     {
       "id": "SIG-264",
-      "title": "Curation Engine re-architecture",
+      "title": "Curation Engine re-architecture…",
       "description": "Added 2026-07-15 (SIG-259). The 11 decision-free spec changes from _Working/SIGNAL_API-ARCHITECTURE_PLAN_v0_1_2026-07-15.md §9: delete §4.6 Layer 2 (5-project pool = ToS violation, \"sharding\") · §4.5/§4.7 search-harvest → graph traversal + PubSubHubbub push · §8 Give Me More → local corpus · new §8B Filtered Search → local corpus · §9 corpus + 30-day rolling refresh as a hard data-layer constraint · §11 cost model rebuilt (flat in user count) · §3.2/§6.7/§7.4 the nine caps redlines + signalChannelId/ytChannelId split · Taxonomy §8 weekly cron → monthly-full + weekly-rotating (74%→17% of searc…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13793,7 +13793,7 @@
     },
     {
       "id": "SIG-287",
-      "title": "Bundling & promote-to-channel model",
+      "title": "Bundling & promote-to-channel model…",
       "description": "Added 2026-07-20 (SIG-273 walkthrough). Spec the Signal Channel model: categories=filters, channels=buckets, entities (teams/players/creators) ride inside a channel or promote out. Default = bundle (one channel per pick/stopping-point; entities ride inside as sources → low channel count). Promote up-arrow = new channel seeded from a source (Tuner/Curator) → curate/pin/add-related/keep-outs/make-public → Curator program + share/growth loop + future multi-curator. Channel forms at the depth the user stops; entities inside do NOT multiply channels; cap counts stopping-points. Fits signalChannels…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13819,7 +13819,7 @@
     },
     {
       "id": "SIG-295",
-      "title": "Paywall render update",
+      "title": "Paywall render update…",
       "description": "Added 2026-07-23 (SIG-239 cascade). The locked paywall mocks (03_Design/Working/mockups-sig228/ + the SIG-237 desktop lock + the MSIG-UX-PAYWALL-CAPS-DELTA render) still show Free-30 channels · Founder 30/50/100 videos-per-channel · old derived totals. Update every paywall render surface to the SIG-284 FINAL grid: curated channels Free 40 / Founder 120–300; curated videos-per-channel Free 20 / Founder 40–120; total curated videos Free 800 / Founder-Life 36,000; standard-tier daily meters (AI summaries/transcripts 5/10/30, filtered search 5/10/20, Give-More 30/60/80, Extra Signals 3/5/10); cre…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13845,7 +13845,7 @@
     },
     {
       "id": "SIG-298",
-      "title": "④ Specs-reconciliation pass",
+      "title": "④ Specs-reconciliation pass…",
       "description": "Added 2026-07-25 (autonomous stand-up; anti-slip catch — the ④ debt was multi-doc work with no SIG row). Bring the dependent P1 specs current with locks made after their v1.0 (Decision 40 filters-not-scores + API-Compliance, Data Model v1.5, CE v1.3, Taxonomy v1.4) — non-caps debt only (caps already reconciled at SIG-239). Scope + evidence: _Working/SIG-SPECS-RECONCILIATION_DELTA-REGISTER_v0_1_DRAFT_2026-07-24.md. (a) Feed Architecture v1.0 → v1.1 — DONE 2026-07-25 (Wolf-approved; Three-Step; 02_Product/Final/MAXX_Signal_Feed_Architecture_v1_1.md; redline lineage _Working/SIG-FEED-ARCH_v1_1_R…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13871,7 +13871,7 @@
     },
     {
       "id": "SIG-300",
-      "title": "Onboarding image finalisation",
+      "title": "Onboarding image finalisation…",
       "description": "Added 2026-07-25 (stand-up #2; anti-slip catch — the image work was the stated gate on the whole design lane but had no SIG row). Finalise every visual in the locked 18-single-beat-screen + 2-bookend onboarding flow (SIG-287B, 07-24) so Claude Design receives finished assets (CD does layout, not image generation). Capability: ATHENA imagery unblocked 2026-07-24 — fal via Composio; connection verified ACTIVE from a Signal venture chat 2026-07-25 08:50Z (account MAXX fal). Invocation: “Use Composio to run fal” → FAL_AI_RUN_MODEL_SYNC; resolve the Nano-Banana endpoint at call time via FAL_AI_GET…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13897,7 +13897,7 @@
     },
     {
       "id": "SIG-301",
-      "title": "Caps-cascade gap audit",
+      "title": "Caps-cascade gap audit…",
       "description": "Added 2026-07-26 (autonomous stand-up; anti-slip catch). The SIG-239 caps cascade (2026-07-23) landed Decision 41 into six docs (Taxonomy·Paywall·PRD·Intentions·Feed Arch·Onboarding) and missed the build-facing screen specs. Four still carry the pre-SIG-284 (SIG-228) grid: SCREEN-MYCHANNELS v1.0 (Free channels 30→40; whole videos-per-channel row stale 10/20-40-50/30-50-100 → 20/30-50-60/40-60-120; §9 contract prose), SCREEN-CHANNELBUILDER v1.1 (same stale ladder ×3 plus a find/replace corruption Curated-curated-videos-per-channel ×4 from the SIG-243 relabel), SCREEN-CHANNELSLIST v1.1 (Free ch…",
       "status": "s-done",
       "priority": "p-p1",
@@ -13923,7 +13923,7 @@
     },
     {
       "id": "CAP-0058",
-      "title": "HERMES/SEO marketing-skill library (copy-and-adapt adoption)",
+      "title": "HERMES/SEO marketing-skill library (copy-and-adapt adoption)…",
       "description": "HERMES/SEO marketing-skill library (copy-and-adapt adoption). 5 MAXX-authored skills copy-adapted from coreyhaines31/marketingskills (MIT; skills/ markdown only, tools/clis/ excluded per OBS-0012): marketing-psychology · offers · cro · churn-prevention (owner HERMES, at _MAXX_OS/Capabilities/hermes/skills/) + ai-seo (owner SEO capability, at _MAXX_OS/Capabilities/seo/skills/). Each carries an origin: credit + MAXX brand-voice/substrate framing; churn honors the honest-retention rule; offers/psychology cross-ref the _library Hormozi/Cialdini synthesis. Registered as shared-foundation residents…",
       "status": "s-done",
       "priority": "p-p2",
@@ -13942,7 +13942,7 @@
     },
     {
       "id": "CAP-0056",
-      "title": "Cross-venture morning roll-up (the daily lane view)",
+      "title": "Cross-venture morning roll-up (the daily lane view)…",
       "description": "Cross-venture morning roll-up (the daily lane view). One morning surface that aggregates every venture's 🟢🟡🔴 lanes (= ratified Auto/Batch/Wolf) from MOS_TASKS.md + per-venture task files into a single cross-portfolio stand-up, so Wolf sees what's running autonomously, what needs his 5 minutes, and what's together — across Signal/Solitaire/AIDVISOR/MOS at once. Folds in the missing Signal EOD stand-up (A1). Decided at MC-CADENCE-AUTOMATION-AUDIT-1 (2026-06-20): absorb the 🟢🟡🔴 taxonomy as a relabel of the already-ratified Auto/Batch/Wolf model (no new philosophy; mc-nightly-autonomous-batch alr…",
       "status": "s-done",
       "priority": "p-p2",
@@ -13961,7 +13961,7 @@
     },
     {
       "id": "CAP-0054",
-      "title": "Agent trigger / callback model (the return-path automation)",
+      "title": "Agent trigger / callback model (the return-path automation)…",
       "description": "Agent trigger / callback model (the return-path automation) — SHIPPED 2026-06-08 (CAP-0054-TRIGGER-CALLBACK-1). Cowork-native dispatch making the comms fabric's *invoke* + *receive* steps flow without hand-carrying each one. Shipped: (1) NEW canonical ~/MAXX/_index/AGENT_DISPATCH_QUEUE.md (MOS-AGENT-DISPATCH-QUEUE-0001 v0.1) with the documented request-row convention (- [ts] · AGENT · priority · venture · task · status: queued + · by:/· req:/· ref:/· acknowledged:/· invoked:/· callback: lifecycle fields; mirrors AGENT_INBOX §6.7 anchor-parse); (2) a Cowork scheduled task maxx-agent-dispatch-p…",
       "status": "s-done",
       "priority": "p-p2",
@@ -13980,7 +13980,7 @@
     },
     {
       "id": "CAP-0052",
-      "title": "Process Digest (the synthesis-inbox)",
+      "title": "Process Digest (the synthesis-inbox)…",
       "description": "Process Digest (the synthesis-inbox). Daily renderer that reads what every live scheduled task last produced and grades it ran-clean / needs-you / inferred / not-due, so Wolf stops opening each task's output by hand (deterministic — reads each task's expected output file for its latest due window; no LLM judgment). At ~/MAXX/_MAXX_OS/Capabilities/process-digest/ — render_process_digest.py + README; emits build/process-digest.json (data; Cowork reads) + build/process-digest.html (the monitor), styled with the locked MAXX tokens (MOS-DESIGN-TOKENS-0001). Scheduled daily 07:45 (maxx-process-dige…",
       "status": "s-done",
       "priority": "p-p2",
@@ -13999,7 +13999,7 @@
     },
     {
       "id": "CAP-0053",
-      "title": "Venture-agent GitHub-write standardization + credential automation",
+      "title": "Venture-agent GitHub-write standardization + credential automation…",
       "description": "Venture-agent GitHub-write standardization + credential automation. Make venture build agents (VULCAN et al.) provision + push to GitHub with zero per-session manual steps. Born from AT-VULCAN-001: the GitHub MCP connector can't do dynamic client registration (dead end), and MAXX's proven path (fine-grained PAT + REST/git via gh_put.py, CAP-0024/CAP-0042) isn't reachable by venture agents because the secret store ~/MAXX/_secrets/ is outside venture mounts (OBS-0049) and tokens get pasted per-session. Scope: (1) a portable secret store venture mounts can read (per-venture gitignored secret fil…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14018,7 +14018,7 @@
     },
     {
       "id": "CAP-0050",
-      "title": "ATHENA Design Skill (MAXX-native Claude Design)",
+      "title": "ATHENA Design Skill (MAXX-native Claude Design)…",
       "description": "ATHENA Design Skill (MAXX-native Claude Design). Generates on-brand MAXX surfaces (dashboards, decks, one-pagers, landing pages, emails, mockups) against the locked tokens (MOS-DESIGN-TOKENS-0001) with a generate→refine loop — removes the web-Claude-Design round-trip. Owner ATHENA (CAP-0028). Files: ~/MAXX/_MAXX_OS/Capabilities/athena-design/ (SKILL.md + maxx-design-tokens.css + athena-components.html). nexu-io/open-design mined as reference only — NOT installed (OBS-0012 / CAP-0009). Full entry staged at athena-design/_STAGED_CAP_ENTRY.md; roadmap v0.2 snippet library (gallery shipped) → v0.…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14037,7 +14037,7 @@
     },
     {
       "id": "CAP-0046",
-      "title": "Canonical-state auto-render (PORTFOLIO_STATUS + agent/workflow map)",
+      "title": "Canonical-state auto-render (PORTFOLIO_STATUS + agent/workflow map)…",
       "description": "Canonical-state auto-render (PORTFOLIO_STATUS + agent/workflow map). Structural fix for Risk R1 (PORTFOLIO_STATUS recurring ~8-chat drift). SHIPPED v0.1: render_canonical_state.py + publish-canonical-views.sh + README_CANONICAL_RENDER.md at ~/MAXX/_MAXX_OS/Capabilities/dashboard-publisher/, composing with the CAP-0024 publisher (reuses canonical_md.py; did NOT modify the Built/Live publish-dashboards.sh/dashboards.yaml — smallest delta). Renders two derived always-fresh views — Portfolio-at-a-Glance (CAP totals + status, open/blocked CF counts, PS count, doc-freshness ledger, recently-Built/L…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14056,7 +14056,7 @@
     },
     {
       "id": "CAP-0047",
-      "title": "Away Mode",
+      "title": "Away Mode…",
       "description": "Away Mode — SMS founder hand-off loop. Agent operating mode that texts decision questions to Wolf's phone (iMessage) and ingests SMS/Dispatch replies, so autonomous work continues across a founder-away window instead of stalling. Built + verified end-to-end once (2026-05-31 dashboard-recovery incident); same iMessage channel as maxx-dashboard-watchdog. Needs Mac awake + Cowork open + Full Disk Access for iMessage reads. Memory feedback_away_mode_sms_handoff; → PRODUCTIZATION_LOG PS-AWAY-MODE-SMS-1. STRENGTHENED gate before governance amendment = several successful unattended away-runs. Self-c…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14075,7 +14075,7 @@
     },
     {
       "id": "CAP-0048",
-      "title": "Self-healing dashboard + stale-data watchdog",
+      "title": "Self-healing dashboard + stale-data watchdog…",
       "description": "Self-healing dashboard + stale-data watchdog. Published-surface resilience layer — launchd-relaunched publisher + alert-only stall watchdog over a messaging channel — that detects + recovers a downed live surface and alerts the owner without noisy false positives. Born from the May 31 overnight Netlify credit-exhaustion incident (live dashboard auto-disabled ~1:30 AM; recovered + verified live at 403 items). Pairs with CAP-0024 publisher. Memory project_dashboard_publisher_v0.3_decouple; → PRODUCTIZATION_LOG PS-SELF-HEALING-DASHBOARD-1. Self-contained entry.",
       "status": "s-done",
       "priority": "p-p2",
@@ -14094,7 +14094,7 @@
     },
     {
       "id": "CAP-0049",
-      "title": "Shared Foundation Layer + Venture Agent-Awareness",
+      "title": "Shared Foundation Layer + Venture Agent-Awareness…",
       "description": "Shared Foundation Layer + Venture Agent-Awareness. _index/_shared/ single-authored canonical + read-only auto-mirror per venture (ventures mounted at ~/MAXX/[VENTURE]/ can't read _index/_MAXX_OS by design — deliberate write-guardrail); the agent roster is the first resident. First brick of the agent-comms fabric (≠ the Hive Mind learning loop). Staged at AFVA 2026-06-01, committed 2026-06-07 (PROCESS-DIGEST reconciliation pass). See memory project_shared_foundation_layer; sibling CF-FRAMEWORK-VIZ-1 (the framework-visualization + comms-fabric design chat). 2026-06-08 (CAP-0049-SHARED-FOUNDATIO…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14113,7 +14113,7 @@
     },
     {
       "id": "CAP-0042",
-      "title": "Capture Inbox + autonomous phone→GitHub→Claude capture pipeline",
+      "title": "Capture Inbox + autonomous phone→GitHub→Claude capture pipeline…",
       "description": "Capture Inbox + autonomous phone→GitHub→Claude capture pipeline. Reminders-style capture box (venture / priority / segment / free-form tags / now-vs-later / notes) pinned at the top of the dashboard with popup add + edit/delete + count badge + collapse toggle. Autonomous write-back: netlify/functions/capture.js commits captures to AIWOLF9/maxx-captures/captures.json via a server-side token (Netlify env GITHUB_TOKEN, marked secret); the dashboard reads the repo on load and writes each add/edit/delete through the function, with graceful localStorage fallback if the token isn't set. Claude reads…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14132,7 +14132,7 @@
     },
     {
       "id": "CAP-0043",
-      "title": "Dashboard enhancement bundle (gaps surfaced this session)",
+      "title": "Dashboard enhancement bundle (gaps surfaced this session)…",
       "description": "Dashboard enhancement bundle (gaps surfaced this session). (1) per-source freshness indicator (\"Signal: updated <ts>\") — kills the stale-vs-late confusion; (2) Owner filter facet (Wolf / Claude / Claude Code) — \"what's mine vs delegated to agents\"; (3) completion dates + \"done this week / this sprint\" view; (4) per-venture task-file template + \"wire a new venture in 5 min\" playbook so the multi-venture promise scales past Signal. (1)(2) cheap quick wins; (3)(4) small. Capture-form tweaks added 2026-05-29 (DASHBOARD-PUBLISHER-v0.3-DROPIN-1): (5) multi-select segments on a capture; (6) date-add…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14151,7 +14151,7 @@
     },
     {
       "id": "CAP-0044",
-      "title": "Capture → task-system promotion workflow + provenance filter",
+      "title": "Capture → task-system promotion workflow + provenance filter…",
       "description": "Capture → task-system promotion workflow + provenance filter. (a) Promotion workflow — Mission Control reviews each Capture Inbox item, attaches any relevant docs it already holds (which the capture form can't carry), routes each to the right destination (venture task file / CAP / CF / brainstorm), prioritizes, and flags what's parallelizable — turning raw captures into real tasks that appear in Kanban/Daily/List/By-venture. (b) Provenance filter — a persistent \"from Capture / added by Wolf\" tag that survives promotion, surfaced as a filter facet so Wolf can click to see just his own addition…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14170,7 +14170,7 @@
     },
     {
       "id": "CAP-0023",
-      "title": "Dashboard publisher (chat-source alias CAP-DASHBOARD-PUBLISHER)",
+      "title": "Dashboard publisher (chat-source alias CAP-DASHBOARD-PUBLISHER)…",
       "description": "Dashboard publisher (chat-source alias CAP-DASHBOARD-PUBLISHER) — bash + Python publish-dashboard.sh + install-dashboard-publisher.sh pushing Cowork artifacts to Netlify with sha256 hash-detect change-gate + macOS launchd 30-min scheduled cadence (v0.1.2 launchd subsystem replaced the failed Cowork sandbox scheduled-task approach). Shipped v0.1.1 + v0.1.2 same day 2026-05-28. See §4 Built/Live for entry detail.",
       "status": "s-done",
       "priority": "p-p2",
@@ -14189,7 +14189,7 @@
     },
     {
       "id": "CAP-0024",
-      "title": "Dashboard publisher v0.2 (chat-source alias CAP-DASHBOARD-PUBLISHER-v0.2)",
+      "title": "Dashboard publisher v0.2 (chat-source alias CAP-DASHBOARD-PUBLISHER-v0.2)…",
       "description": "Dashboard publisher v0.2 (chat-source alias CAP-DASHBOARD-PUBLISHER-v0.2) — canonical-markdown-only rebuild: server-side parsers (CFI/CAP/PS/PORTFOLIO_STATUS) bake fresh data into HTML each publish from Drive-synced ~/MAXX/_index/ (non-TCC, portable); multi-dashboard YAML config + per-kind quotas + venture inference + iPhone polish folded in; launchd Node-bin-dir detection; deprecation-shim back-compat via Three-Step Replacement. Dissolves TCC + sandbox-allowlist blockers. Live https://maxx-dashboard.netlify.app confirmed 20:22 CEST; 4 bugs surfaced + fixed in Wolf-side verify cycle. v0.3 (20…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14208,7 +14208,7 @@
     },
     {
       "id": "CAP-0025",
-      "title": "Daily Dashboard iPhone polish (chat-source alias CAP-DASHBOARD-MOBILE-POLISH)",
+      "title": "Daily Dashboard iPhone polish (chat-source alias CAP-DASHBOARD-MOBILE-POLISH)…",
       "description": "Daily Dashboard iPhone polish (chat-source alias CAP-DASHBOARD-MOBILE-POLISH) — responsive @media (max-width: 480px) layout for ~375px viewport (compact topbar, scrollable tabs, list-table horizontal-scroll wrapper, drawer grid 1fr, pass-list reflow). Folded into CAP-0024 v0.2 template; same-chat Done. See §4 Built/Live for entry detail.",
       "status": "s-done",
       "priority": "p-p2",
@@ -14227,7 +14227,7 @@
     },
     {
       "id": "CAP-0027",
-      "title": "VULCAN",
+      "title": "VULCAN…",
       "description": "VULCAN — Build/Engineering agent (Wave 2, 2nd). Substrate-build agent: compiles skills, refactors primitives, ships canonical-doc updates, spawns build sub-agents. Spec MOS-AGENT-VULCAN-0001.md v0.2.1; first Forge build = CAP-0046 (render_canonical_state.py composing with the CAP-0024 publisher). Full spec: MOS-AGENT-ORG-CHART-0001 §2.4. Phase 2 · MC L (6-8h) · Wolf ~45m · depends on CAP-0014 v0.2. See §3.",
       "status": "s-done",
       "priority": "p-p2",
@@ -14246,7 +14246,7 @@
     },
     {
       "id": "CAP-0028",
-      "title": "ATHENA",
+      "title": "ATHENA…",
       "description": "ATHENA — Design agent (Wave 2). Visual + structural design: onboarding screens, landing pages, UI, brand identity, layout. AGENT-ATHENA-BUILD-1 (2026-05-30) shipped the v0.1-DRAFT skeleton + ATHENA→VULCAN handoff contract; AGENT-ATHENA-BUILD-2 (2026-05-30) locked spec §4 (per-family Primary/Backup/Tertiary tool matrix + social create→post→track pipeline + imagery architecture + scope boundary) from the decision doc MOS-ATHENA-STACK-DECISIONS-0001 v1.0 → spec v0.1. Spec mode operational; Production mode gated on §4.7 (Zernio pilot + CAP-0009 per tool + first deliverable). NOT Built/Live until…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14265,7 +14265,7 @@
     },
     {
       "id": "CAP-0030",
-      "title": "HERMES",
+      "title": "HERMES…",
       "description": "HERMES — Marketing agent (Wave 3, 1st). Brand voice + outbound messaging: marketing copy, social posts, sales/lifecycle emails, launch comms. Spec MOS-AGENT-HERMES-0001.md v0.1.1; modes Draft/Campaign/Publish(gated); outbound-only; operationalizes Signal's locked voice. Built/Live for native drafting — HERMES-DELIVERABLE-1 shipped end-to-end 2026-06-19 (Signal waitlist welcome email, Brand v1.5 voice, full native spine + HERMES→ATHENA brief). Publish families (Zernio+Buffer+Klaviyo+Blotato) GATED (CAP-0009/CAP-0019/Zernio pilot); full v1.0 pending (~5 deliverables/~2wk + APOLLO→HERMES handoff…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14284,7 +14284,7 @@
     },
     {
       "id": "CAP-0038",
-      "title": "AGENT_INBOX surface",
+      "title": "AGENT_INBOX surface…",
       "description": "AGENT_INBOX surface — SHIPPED 2026-06-08 (CAP-0038-INBOX-SURFACE-1). Built as the 4th view in the CAP-0046 renderer (render_canonical_state.py → v0.3; v0.2 archived; --verify clean 54/12/6; emits agent-inbox.html). Parses AGENT_INBOX.md §3 → review cards (agent · mode · task · status · self-review · canonical path · Wolf-action) with filters (agent/status/venture/Wolf-action) + sort-by-Wolf-action + the 4-affordance pattern (note=localStorage · flag=color-cycle · ask=sendPrompt-or-clipboard). Dual-layer mark-as-handled per MOS-COMMS-FABRIC-DESIGN-0001 §2.1: localStorage (instant per-browser)…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14303,7 +14303,7 @@
     },
     {
       "id": "CAP-0039",
-      "title": "Reports Hub navigation surface",
+      "title": "Reports Hub navigation surface…",
       "description": "Reports Hub navigation surface — SHIPPED 2026-06-08 (MC-CANONICAL-VIEWS-GOLIVE-1). The single human front door (PS-REPORTS-HUB-1) — built as the 5th view in the CAP-0046 renderer (render_canonical_state.py → v0.5; v0.4 archived before edit; --verify clean CAPs=54/agents=12/docs=6), emitted as index.html (the site front page over the four sibling views) on maxx-canonical-views.netlify.app. Static-derived from LIVE_SURFACES.md §1 + the canonical logs (~0 credit, drift-proof). Five blocks, most-important first: needs you now (built ONLY from trustworthy signals — agent outputs flagged review-req…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14322,7 +14322,7 @@
     },
     {
       "id": "CAP-0015",
-      "title": "MAXX OS Daily Dashboard v0.1 shipped 2026-05-27",
+      "title": "MAXX OS Daily Dashboard v0.1 shipped 2026-05-27…",
       "description": "MAXX OS Daily Dashboard v0.1 shipped 2026-05-27 — canonical spec ~/MAXX/_MAXX_OS/Canonical/Final/MOS-DAILY-DASHBOARD-0001.md v0.1 + paired live Cowork artifact maxx-os-daily-dashboard-v0-1 (4-view-switcher: Daily-priorities / Kanban / List / By-venture; pass-list quick-capture with canonical-promotion path; click-popover state+priority edit across all views; drag-drop Kanban; detail drawer on card click; segment+priority first-class filters; sort+search popovers; MC+Wolf effort chips per item; humanized titles with opaque IDs as secondary tags; localStorage persistence). See §4 Built/Live for…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14341,7 +14341,7 @@
     },
     {
       "id": "CAP-0009",
-      "title": "Third-party pre-install audit protocol",
+      "title": "Third-party pre-install audit protocol…",
       "description": "Third-party pre-install audit protocol — RE-SCOPED 2026-07-28 from *audit skill* → *audit protocol doc*. Shipped as MOS-SYS-PROTOCOL-THIRD-PARTY-AUDIT-0001 v1.0 at _MAXX_OS/Capabilities/third-party-security-audit/: four gates cheapest-reject-first (G0 smallest primitive · G1 provenance → CF-AGPL-TRIPWIRE-1 · G2 surface+scope incl. OWASP MCP Top 10 · G3 adversarial text audit with three automatic rejects), four-verdict vocabulary codified from existing practice, and a standing re-audit trigger the original scope lacked. Covers skills, plugins, MCP connectors, GitHub repos and borrowed code; re…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14360,7 +14360,7 @@
     },
     {
       "id": "CAP-0005",
-      "title": "substrate-hygiene script v0.3 + README shipped at ~/MAXX/_MAXX_OS/Capabilities/substrate-hygiene/",
+      "title": "substrate-hygiene script v0.3 + README shipped at ~/MAXX/_MAXX_OS/Capabilities/substrate-hygiene/…",
       "description": "substrate-hygiene script v0.3 + README shipped at ~/MAXX/_MAXX_OS/Capabilities/substrate-hygiene/. 5 v0.2 catchers + 2 v0.3 catcher refinements + 2 v0.2 bug-fixes absorbed. v0.3 generalization caught real CAPABILITIES_BACKLOG §7 interleave drift on first run — fix landed in this v1.7 drop-in. See §4 Built/Live for entry detail.",
       "status": "s-done",
       "priority": "p-p2",
@@ -14379,7 +14379,7 @@
     },
     {
       "id": "CAP-0007",
-      "title": "MAXX OS Layer Model v0.1 canonical doc shipped at ~/MAXX/_MAXX_OS/Canonical/Final/MOS-LAYER-MODEL-0001.md",
+      "title": "MAXX OS Layer Model v0.1 canonical doc shipped at ~/MAXX/_MAXX_OS/Canonical/Final/MOS-LAYER-MODEL-0001.md…",
       "description": "MAXX OS Layer Model v0.1 canonical doc shipped at ~/MAXX/_MAXX_OS/Canonical/Final/MOS-LAYER-MODEL-0001.md. Closes §2 filesystem-as-truth violation. See §4 Built/Live for entry detail.",
       "status": "s-done",
       "priority": "p-p2",
@@ -14398,7 +14398,7 @@
     },
     {
       "id": "CF-SCHEDULED-TASK-MODEL-PIN-1",
-      "title": "[RESOLVED 2026-07-27, same session",
+      "title": "[RESOLVED 2026-07-27, same session…",
       "description": "[RESOLVED 2026-07-27, same session. The workaround is delete-and-recreate — and it cost nothing, because both tasks were broken from birth (created 2026-07-22, never able to run), so their entire run history was failures with nothing to preserve. Empirically established first: a task created today (mc-mcp-stateless-smoketest-2026-07-29) came up claude-opus-5 + effort high, proving new tasks inherit the current default. Both were then recreated with the repaired prompts and the corrected crons, verified on Opus 5, and the originals deleted. New IDs: watchdog trig_01UNniaRMucN9rL3eUbU2nz5, week…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14418,7 +14418,7 @@
     },
     {
       "id": "CF-OPUS5-CAPABILITY-TRIAGE-1",
-      "title": "[TRIAGED 2026-07-27 (MC-GOVCODIFY-2026-07-27)",
+      "title": "[TRIAGED 2026-07-27 (MC-GOVCODIFY-2026-07-27)…",
       "description": "[TRIAGED 2026-07-27 (MC-GOVCODIFY-2026-07-27) — one verdict per item, each verified against platform.claude.com/docs in-session rather than adopted from the summary. Full analysis: _MAXX_OS/Research/opus5-capability-triage-2026-07-27/OPUS5-CAPABILITY-TRIAGE_2026-07-27.md.] ADOPT (1) mid-conversation tool changes — header confirmed exactly mid-conversation-tool-changes-2026-07-01; cache holds because *\"the tools array itself never changes, so the cached prefix stays intact\"*. The bigger find the scan did not have: \"defer_loading\": true — declare a tool but withhold it until a tool_addition sur…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14458,7 +14458,7 @@
     },
     {
       "id": "MOS-T-009",
-      "title": "SOP skill",
+      "title": "SOP skill…",
       "description": "✅ DONE (research+spec) 2026-06-15 (MC-CAP0009-INSTALLS-1) — SOP-1 (operations plugin /process-doc + /runbook) CAP-0009-audited + RATIFIED present. Thin wrapper spec'd: _MAXX_OS/Capabilities/sop-wrapper/MOS-SOP-WRAPPER-SPEC-0001.md v0.1. Build (XS ~2h) WAITING on first real SOP/runbook demand. Reject 3rd-party SOP packs. ◀ 🔬 RESEARCHED 2026-06-09 (sop-skill findings). from cap-mpqwemouc6i",
       "status": "s-done",
       "priority": "p-p2",
@@ -14587,7 +14587,7 @@
     },
     {
       "id": "MOS-T-069",
-      "title": "Filter what you feed your mind",
+      "title": "Filter what you feed your mind…",
       "description": "✅ Done — from cap-mrlpndl604e — Start this video with this monk uses an analogy of asking questions related to if someone has a kitchen if they have a sink do they have a filter on that sink and most people do to keep out the crap from clogging up the… [tags: Brand positioning, Content ideas for blogs and posting, For…] · DISPOSITIONED 2026-07-31 by Signal, attended, Wolf ruling. Audit trail: SIGNAL/_Inbox/CAPTURE-TRIAGE-APPLIED_2026-07-31.md. Applied to this board 2026-08-01 (MC-RETURN-PATH-2026-08-01) — Signal cannot write _index/, so the flip was owed by MC and had not been made. MERGE as…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14697,7 +14697,7 @@
     },
     {
       "id": "SIG-201",
-      "title": "HERMES Deliverable 3",
+      "title": "HERMES Deliverable 3…",
       "description": "HERMES native full-draft of E5–E6 (pre-order) + E7–E11 (Kickstarter). Reuse the E1 pain→reframe→solution spine; honor E10 real-deadline exception (only honest time-scarcity point); numbers principle-level; banks #3 of ~5 toward HERMES v1.0. Slipped 2026-06-20→caught 2026-06-25 by accident — root cause: opener-relay, never task-ified (now fixed by the new-task-capture rule). DONE 2026-06-25: all 7 emails drafted via background Opus agent → 05_Marketing/hermes/2026-06-20--kickstarter-preorder-set/MSIG-MKT-KICKSTARTER-PREORDER-SET_DRAFT_v0_1.md; comms-map status E5–E11 flipped ✍️→✅; §7 self-revi…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14723,7 +14723,7 @@
     },
     {
       "id": "SIG-203",
-      "title": "HERMES Deliverable 5",
+      "title": "HERMES Deliverable 5…",
       "description": "HERMES native full-draft of dormant re-engagement (E18), win-back post-cancel (E19), Insiders \"see it first\" preview (E20), Free→Signal+ upgrade value email (E21). E16 daily reminder was GATED on the SIG-029 daily-reminder content research pass — now unblocked (Email Spec v1.0 §4 content contract). Transactional (E17) = locked microcopy, no drafting. DONE 2026-06-26 (autonomous): all 5 emails full-drafted incl. E16 to the Email Spec §4 contract → 05_Marketing/hermes/2026-06-26--lifecycle-upsell-set/MSIG-MKT-LIFECYCLE-UPSELL-SET_DRAFT_v0_1.md; §7 self-review PASS (AP-1–16). HERMES email series…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14827,7 +14827,7 @@
     },
     {
       "id": "SIG-197",
-      "title": "Hormozi $100M library",
+      "title": "Hormozi $100M library…",
       "description": "DONE SIG36 (2026-06-09): synthesis shipped — 05_Marketing/Working/MSIG-MKT-HORMOZI-CIALDINI-SYNTHESIS-0001_v0_1.md + interactive pick-menu MSIG-MKT-HORMOZI-CIALDINI-MENU-0001_v0_1.html (67 insights across 7 funnel stages, yes/maybe/no + export). Awaiting Wolf menu picks → then route to SIG-191/SIG-181/Brand §3.6/pricing copy/algorithm-101. Universal layer U1–U11 → Mission Control (MOS-T-027 mirror to shared _library/). MC hand-off (2026-06-09): MOS-T-027 — REFRAMED + content landed (SIG35). Hormozi content starts with Signal (applies to active offer/lead/launch/social/email work). FILED 2026-…",
       "status": "s-done",
       "priority": "p-p2",
@@ -14938,6 +14938,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note: This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 (project-management-discipline-as-substrate) and D-PM4d-4 (CFI priority protocol). CFI is canonical; this is the rendered view. Updates flow CFI → this section, not the r…",
-  "published_at": "August 2, 2026 · 11:32 PM CEST",
-  "published_at_iso": "2026-08-02T23:32:35+0200"
+  "published_at": "August 3, 2026 · 7:33 PM CEST",
+  "published_at_iso": "2026-08-03T19:33:56+0200"
 }
