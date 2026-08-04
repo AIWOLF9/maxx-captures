@@ -85,32 +85,6 @@
       "first_seen": null
     },
     {
-      "id": "SIG-044",
-      "title": "Cloudflare DNS + Email Routing configured (maxxsignal.com)",
-      "description": "Add A/CNAME placeholders, enable Email Routing + catch-all, verify propagation (Checklist §4). Can start now in parallel.",
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Ops",
-      "venture": "v-signal",
-      "deadline": "1-3",
-      "deadline_label": "Phase P3",
-      "deadline_class": "d-future",
-      "effort_mc": "0.5h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "SIG-045",
       "title": "Apple Developer Program enrolment…",
       "description": "[2026-08-01 — PHASE 1 APPROVED BY APPLE ✅, same day. Wolf: *\"I am approved, and I just got all the emails as well.\"* Submitted-to-approved in hours, not the stated 48.] SIG-046 / SIG-047 / SIG-048 are now UNBLOCKED. Sign in with Apple is off the launch path — the remaining chain is ~30–45 min of Wolf's clicking, doable any time before the P4 auth build. DELIBERATELY NOT DONE TODAY (Wolf's call, agent's recommendation): it is non-gating, and B2 — the actual gating item — was live. *Doing satisfying non-gating work while the gating lane waits is the precise failure this session was convened aro…",
@@ -735,32 +709,6 @@
       "first_seen": "2026-07-31"
     },
     {
-      "id": "SIG-311",
-      "title": "Re-examine the launch critical path…",
-      "description": "Added 2026-07-31 (attended; created under D-2026-07-31a — internal contradiction on this board, evidenced from its own text). The contradiction: this file states *\"Native apps are ~90d post-launch (rollout within 90d of the ~Oct launch, so ~Q1 2027), meaning the Oct launch is mobile web\"* and CF-SIG27-1 files the native app under bigger-vision scope — while SIG-045 (Apple Organization enrolment) is P0 and twenty-one consecutive stand-ups, including the 2026-07-31 closeout authored by this agent, name the D-U-N-S → Apple chain as *the launch critical path*. Wolf confirmed independently 2026-07…",
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Governance",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Batch",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": "2026-07-31"
-    },
-    {
       "id": "SIG-314",
       "title": "Resend domain authentication + outbound sending warm-up",
       "description": "Added 2026-08-01 (attended stand-up; Wolf ruled it a row after a plain-English explanation). Surfaced by the SIG-311 critical-path pass — an incompressible external clock with NO row, found in the same session that concluded a *non-gating* external clock had held P0 for twenty-one stand-ups. PRD v1.5 §16.2 item 2, verbatim: *\"Resend domain authentication + warmup — DNS propagation + sending reputation warmup requires 2+ weeks before launch; cannot be compressed.\"* In plain terms: mailbox providers have no sending history for maxxsignal.com. A brand-new domain going from zero to thousands of s…",
@@ -785,6 +733,26 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-01"
+    },
+    {
+      "id": "CF-SIGNAL-LINKED-COLUMN-ADOPT-1",
+      "title": "Signal adopts the Linked column on SIGNAL_TASKS.md (12 → 13 cols, trailing, after Wolf Est)…",
+      "description": "Signal adopts the Linked column on SIGNAL_TASKS.md (12 → 13 cols, trailing, after Wolf Est). The MC half of MOS-SYS-PROTOCOL-DELEGATION-0001 shipped 2026-08-04 with --verify check 15; until Signal adopts, the protocol is half-live and reciprocity cannot be checked in either direction. Routed rather than authored — MC does not write a venture's schema (§7.4 / [[OBS-0078]]: custody is not authority), which is why this is a row and not a completed edit. Backward compatibility already proven: _VENTURE_TASK_ROW_RE is prefix-anchored and ignores a trailing 13th cell, tested against synthetic 12- an…",
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Signal's next stand-up.",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Signal (MC routes)",
+      "kind": "cfi",
+      "first_seen": "2026-08-04"
     },
     {
       "id": "CF-PORTFOLIO-OWNER-COLUMN-RENAME-1",
@@ -3374,6 +3342,46 @@
       "zone": "open",
       "kind": "cap",
       "first_seen": null
+    },
+    {
+      "id": "CF-PORTFOLIO-VERSION-CHAIN-COLLAPSE-1",
+      "title": "Collapse the Version: chain at PORTFOLIO_STATUS.md line 7…",
+      "description": "Collapse the Version: chain at PORTFOLIO_STATUS.md line 7 — the same defect as line 9, deliberately left untouched on 2026-08-04 for scope discipline. ~11,000 characters on one line, carrying the v1.21→v1.35 narrative chain. Same treatment applies and the same premise warning applies harder: derive the record set yourself before cutting. The line-9 pass was commissioned on a set-difference that turned out to be a date-regex over prose, and it would have fabricated nine log rows had it been executed as briefed. Preconditions: archive before edit · confirm every chain record maps to a §10 row ·…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next MC session touching PORTFO…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-04"
+    },
+    {
+      "id": "CF-DELEGATION-PROTOCOL-REGISTER-1",
+      "title": "Register MOS-SYS-PROTOCOL-DELEGATION-0001 in COWORK_INSTRUCTIONS §10 references + add a §14 maintenance trigg…",
+      "description": "Register MOS-SYS-PROTOCOL-DELEGATION-0001 in COWORK_INSTRUCTIONS §10 references + add a §14 maintenance trigger for check 15. Deliberately NOT done 2026-08-04: COWORK_INSTRUCTIONS is a non-log canonical doc requiring a Three-Step, and the codification v2.8 Three-Step was explicitly excluded from that session's scope — opening it opportunistically is the scope-absorption §5.4 forbids. Fold into v2.8 rather than running a separate Three-Step for three lines. Content: one §10 row pointing at the protocol; one §14 trigger reading *\"a --verify check is added, removed or waived\"* (already present —…",
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "The codification v2.8 Three-Ste…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-04"
     },
     {
       "id": "CF-AUTONOMY-CENSUS-NONCONSERVATION-1",
@@ -11808,6 +11816,32 @@
       "first_seen": null
     },
     {
+      "id": "SIG-044",
+      "title": "Cloudflare DNS + Email Routing configured (maxxsignal.com)",
+      "description": "Add A/CNAME placeholders, enable Email Routing + catch-all, verify propagation (Checklist §4). Can start now in parallel. (done 2026-08-04)",
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "SIG-259",
       "title": "🔴🔴 Playback Integrity vs the paid model…",
       "description": "Added 2026-07-15 (SIG-259). Developer Policies \"Playback Integrity\" (verbatim, fetched 2026-07-15): *\"API Clients must not charge users to watch content in an embedded YouTube player... must not otherwise gate access to a video by requiring a user to take an action other than clicking the play button.\"* SIG-228 locked videos-per-channel 10→100 with the trigger spec'd as *\"attempting the 11th video → soft upgrade card\"* — i.e. a visible, blocked video, which is the prohibited pattern. Distinction that may save it: curation (show 50, play all 50, never see #51) vs gate (show 100, 90 locked). Ac…",
@@ -12014,6 +12048,52 @@
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-31"
+    },
+    {
+      "id": "SIG-311",
+      "title": "Re-examine the launch critical path…",
+      "description": "Added 2026-07-31 (attended; created under D-2026-07-31a — internal contradiction on this board, evidenced from its own text). The contradiction: this file states *\"Native apps are ~90d post-launch (rollout within 90d of the ~Oct launch, so ~Q1 2027), meaning the Oct launch is mobile web\"* and CF-SIG27-1 files the native app under bigger-vision scope — while SIG-045 (Apple Organization enrolment) is P0 and twenty-one consecutive stand-ups, including the 2026-07-31 closeout authored by this agent, name the D-U-N-S → Apple chain as *the launch critical path*. Wolf confirmed independently 2026-07…",
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
+      "id": "CF-PAIRED-ROW-DELEGATION-1",
+      "title": "Build the bidirectional paired-row delegation protocol…",
+      "description": "Build the bidirectional paired-row delegation protocol. APPROVED BY WOLF 2026-08-04 (D-2026-08-04h). Six locked principles: (1) a delegation creates two rows, never one — the asking side keeps a tracking row, the doing side gets a work row; (2) both rows carry the counterpart ID in a new Linked column, one field added to MOS_TASKS.md and SIGNAL_TASKS.md; (3) the asking side's row closes on delivery, not on hand-off — this is the defect being fixed, and it is why CF-SIGNAL-DEPLOY-ROUTE-1 closed while no SIG- row existed; (4) status is read through the link, never copied (D-2026-07-31b authorit…",
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next MC session. Sequenced ahea…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-04"
     },
     {
       "id": "CF-ROSTER-ATHENA-INVISIBLE-1",
@@ -14597,6 +14677,26 @@
       "first_seen": null
     },
     {
+      "id": "CF-PORTFOLIO-HEADER-CHAIN-MERGE-1",
+      "title": "Merge, then truncate, the 33,329-character Last updated chain at PORTFOLIO_STATUS.md line 9…",
+      "description": "Merge, then truncate, the 33,329-character Last updated chain at PORTFOLIO_STATUS.md line 9 — and it is NOT the duplicate it appeared to be. The header field accreted 56 dated entries end-to-end on one unbroken physical line (10.8% of the file), duplicating the job of the §10 Update Log table. Verified this pass: the two have diverged. The header chain holds 9 dated records absent from §10 (2026-05-18, -05-21, -05-28, -06-07, -06-27, -07-02, -07-10, -07-13, -07-27) and §10 holds 6 absent from the chain. So a straight truncation destroys nine records of what changed and why. Order is load-bear…",
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "First action of the next MC ses…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-04"
+    },
+    {
       "id": "CF-SCHEDULED-TASK-MODEL-PIN-1",
       "title": "[RESOLVED 2026-07-27, same session…",
       "description": "[RESOLVED 2026-07-27, same session. The workaround is delete-and-recreate — and it cost nothing, because both tasks were broken from birth (created 2026-07-22, never able to run), so their entire run history was failures with nothing to preserve. Empirically established first: a task created today (mc-mcp-stateless-smoketest-2026-07-29) came up claude-opus-5 + effort high, proving new tasks inherit the current default. Both were then recreated with the repaired prompts and the corrected crons, verified on Opus 5, and the originals deleted. New IDs: watchdog trig_01UNniaRMucN9rL3eUbU2nz5, week…",
@@ -15164,6 +15264,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 4, 2026 · 7:36 PM CEST",
-  "published_at_iso": "2026-08-04T19:36:12+0200"
+  "published_at": "August 4, 2026 · 9:37 PM CEST",
+  "published_at_iso": "2026-08-04T21:37:01+0200"
 }
