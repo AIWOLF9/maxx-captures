@@ -33,32 +33,6 @@
       "first_seen": "2026-06-25"
     },
     {
-      "id": "SIG-038",
-      "title": "Claude Design production mockups…",
-      "description": "SIG22+: produce pixel-level mockups of every onboarding step in Claude Design; iterate with Wolf (context-heavy, multiple chats). [2026-07-31 — Wolf's plan of record for this row, attended stand-up.] Next chat (B2) finalises every remaining onboarding screen design first — clearing O1–O4 from the SIG-287B1 closeout §8 — and only then runs the Claude Design loop one prompt per screen, exactly as in past CD sessions. Then export everything from Claude Design and Claude QCs the export for correctness. Wolf explicitly sequenced the website work behind this row. Opener already written: SIG-287B1 c…",
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "6h",
-      "effort_wolf": "3h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "SIG-039",
       "title": "Claude Design production mockups…",
       "description": "Mockups for feed, video player, settings/preferences, paywall, and share screens; iterate to lock.",
@@ -502,7 +476,7 @@
     },
     {
       "id": "SIG-067",
-      "title": "Marketing website build (maxxsignal.com)",
+      "title": "Marketing website build (maxxsignal.com)…",
       "description": "Build /home + /pricing + /about; deployment route RULED: Vercel (D-2026-07-29a) — see SIG-307; the long-standing “Netlify decision pending at Mission Control” text was stale and is removed. Content from Brand v1.3. [2026-07-27 — START NOW, IN PARALLEL with the D-U-N-S clock. This row GATES SIG-045 (Apple Organization enrolment).] Apple will not enrol the organization without a real, functional website on maxxsignal.com presented as operated by Wolf Ventures LLC (registrant + footer). The waitlist page does not clear that bar — real content is needed on /home, /pricing, /about. Requirement kno…",
       "status": "s-todo",
       "priority": "p-p0",
@@ -629,6 +603,32 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
+    },
+    {
+      "id": "SIG-320",
+      "title": "Spec reconciliation audit…",
+      "description": "Added 2026-08-04 (SIG-287B5 close-out; named as a hard gate inside Decisions Log Decision 48). Nothing goes to Claude Code against this corpus until this row is Done. Cause: MSIG-UX-INTENTIONS-0001 v1.0 §4.2 was written over the 12-category tree and never brought forward when Decision 39 took the taxonomy to 19, while §2.1 had been pointer-patched to say the target *was* 19. The contradiction sat in 02_Product/Final for six weeks, read as authoritative, and produced a real defect in the build — ten of nineteen channels unreachable from any intention. The prototype was not wrong; it implemente…",
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "6h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-05"
     },
     {
       "id": "SIG-303",
@@ -6080,7 +6080,7 @@
     },
     {
       "id": "SIG-299",
-      "title": "Version-independent cross-reference hygiene pass (Mandate §7) across all P1/P2 specs",
+      "title": "Version-independent cross-reference hygiene pass (Mandate §7) across all P1/P2 specs…",
       "description": "Added 2026-07-25 (SIG-298 residual). Mandate §7 Version-Independent Reference Rule says cross-refs use MDS-ID + title, never version numbers — so a downstream doc never needs a pointer-bump when an upstream spec versions. Multiple P1 specs violate this (Feed Arch, PRD, Watch, Search carry Data Model v1.x §… / Curation Engine v1.x §… in-body). Strip in-body version numbers from live cross-refs → per MSIG-PROD-DATA-MODEL-0001 §X. Careful, per-line, NOT a blanket sed: must preserve genuinely-historical version mentions (e.g. PRD line 3875 \"lowered from v1.1's 20/day\") and verify each §-anchor su…",
       "status": "s-todo",
       "priority": "p-p2",
@@ -12009,6 +12009,32 @@
       "first_seen": null
     },
     {
+      "id": "SIG-038",
+      "title": "Claude Design production mockups…",
+      "description": "SIG22+: produce pixel-level mockups of every onboarding step in Claude Design; iterate with Wolf (context-heavy, multiple chats). [2026-07-31 — Wolf's plan of record for this row, attended stand-up.] Next chat (B2) finalises every remaining onboarding screen design first — clearing O1–O4 from the SIG-287B1 closeout §8 — and only then runs the Claude Design loop one prompt per screen, exactly as in past CD sessions. Then export everything from Claude Design and Claude QCs the export for correctness. Wolf explicitly sequenced the website work behind this row. Opener already written: SIG-287B1 c…",
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "6h",
+      "effort_wolf": "3h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "SIG-200",
       "title": "Claude Design pipeline setup (export upgrade + design-system repo)",
       "description": "DONE SIG45 (2026-06-20): the rails between storyboard (plan) and Claude Design (render). (A) audited storyboard export; (B) added Export → Claude Design ▾ mode to _Working/maxx_signal_v5_phase_c1.html (buildClaudeDesignHandoff() = master brief header + 23 per-screen render blocks, locked copy verbatim, governance metadata stripped, provisional-copy auto-flag); (C) reconciled tokens → canonical --maxx-* (role-map appendix + system pointer baked in); (D) pushed private repo github.com/AIWOLF9/maxx-design-system (7 files: tokens, BRAND_CONTRACT, DESIGN.md, components, example, README, PIPELINE_R…",
@@ -15829,6 +15855,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 5, 2026 · 1:37 AM CEST",
-  "published_at_iso": "2026-08-05T01:37:46+0200"
+  "published_at": "August 5, 2026 · 3:38 AM CEST",
+  "published_at_iso": "2026-08-05T03:38:01+0200"
 }
