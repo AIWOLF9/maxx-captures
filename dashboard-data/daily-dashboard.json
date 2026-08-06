@@ -3537,6 +3537,27 @@
       "first_seen": null
     },
     {
+      "id": "CF-P1-INFLATION-1",
+      "title": "P1 has stopped being a priority and become a label, and the number is the argument…",
+      "description": "P1 has stopped being a priority and become a label, and the number is the argument. Measured 2026-08-06 from CARRY_FORWARD_INBOX §1's own rows, not from a header: 223 rows · 144 Open · 27 of them P1. That is 19% of the open register at top priority, which no lane can act on as a priority ordering. Nine are ≥29 days old, the oldest dated one 89 days (CF-BRAIN3-3, 2026-05-09 — the day this file was created), and six carry no date at all (CF-PM4a-3, CF-PM4d-2, CF-PM5g-3, CF-SPRINT-CLOSE-1, CF-SPRINT-CLOSE-2, CF-CAP-PHASE-TAGGING, CF-MARKETING-STACK-REVIEW-1, CF-CFI-SECTION-HEADER-COUNTS-1) so th…",
+      "description_chars": 2352,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "MC-P1-TRIAGE-1 — authored 2026-…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-06"
+    },
+    {
       "id": "CF-RECORD-NEW-STATE-FOLDED-INTO-CONSISTENT-1",
       "title": "The success line says *\"all 55 tracked file(s) consistent with ledger\"* over a result set of 53 OK + 1 NEW +…",
       "description": "The success line says *\"all 55 tracked file(s) consistent with ledger\"* over a result set of 53 OK + 1 NEW + 1 WAIVER-OK. A NEW file's content DIFFERS from the recorded head; the ledger advanced to match it. Anchored to the code, not to the output: verify_canonical_integrity.py line 466 returns NEW only after sha != e[\"head\"], after no prior recorded hash matched, and after the shrink test declined — then led.advance(...) moves the head to the new content. Lines 733–744 are the honest-summary branch shipped under CF-RECORD-PHANTOM-LEDGER-DISCRIMINATOR-1: it names SEEDED files separately and p…",
@@ -17798,6 +17819,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 6, 2026 · 7:36 PM CEST",
-  "published_at_iso": "2026-08-06T19:36:04+0200"
+  "published_at": "August 6, 2026 · 9:36 PM CEST",
+  "published_at_iso": "2026-08-06T21:36:33+0200"
 }
