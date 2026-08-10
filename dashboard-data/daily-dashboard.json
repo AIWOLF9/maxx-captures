@@ -738,8 +738,8 @@
     {
       "id": "SIG-324",
       "title": "Publish compliant maxxsignal.com activation page",
-      "description": "BLOCKS SIG-049 — this is the gate on all revenue. Stripe will not activate an account whose site is a placeholder; requires business name, description of goods/services, customer-service contact, refund + dispute policy, cancellation policy, reachable without password. Live site is currently a waitlist capture and fails every requirement but the name. NOT the full SIG-204 marketing site — a compliance surface, reusable as /terms /pricing /refunds later. Draft from locked canon at _Working/SIG-049_maxxsignal-activation-page_DRAFT_2026-08-05.html. Deploy = Vercel, apex bound (D-2026-07-29a).",
-      "description_chars": 596,
+      "description": "BLOCKS SIG-049 — this is the gate on all revenue. Stripe will not activate an account whose site is a placeholder; requires business name, description of goods/services, customer-service contact, refund + dispute policy, cancellation policy, reachable without password. Live site is currently a waitlist capture and fails every requirement but the name. NOT the full SIG-204 marketing site — a compliance surface, reusable as /terms /pricing /refunds later. Draft from locked canon at _Working/SIG-049_maxxsignal-activation-page_DRAFT_2026-08-05.html. Deploy = Vercel, apex bound (D-2026-07-29a). [⬜…",
+      "description_chars": 882,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -765,8 +765,8 @@
     {
       "id": "SIG-325",
       "title": "Finalize + publish Terms of Service and Privacy Policy",
-      "description": "BLOCKS SIG-324. Both exist only as v0_2 drafts (2026-07-30); 08_Legal/Final/ is empty and neither is published. Stripe requires the refund + cancellation policy visible on the reviewed site, and the activation page links /terms and /privacy — 404s would undercut the review. ToS must carry the tier-specific money-back policy per Pricing §0.10-A (Monthly = cancel-anytime no refund; Annual + Lifetime = 30-day), replacing any 14-day-all-tiers language.",
-      "description_chars": 452,
+      "description": "BLOCKS SIG-324. Both exist only as v0_2 drafts (2026-07-30); 08_Legal/Final/ is empty and neither is published. Stripe requires the refund + cancellation policy visible on the reviewed site, and the activation page links /terms and /privacy — 404s would undercut the review. ToS must carry the tier-specific money-back policy per Pricing §0.10-A (Monthly = cancel-anytime no refund; Annual + Lifetime = 30-day), replacing any 14-day-all-tiers language. [⬜ DRAFT AWAITING WOLF REVIEW — ToS v0.3 §A + Privacy Policy v0.3 · 08_Legal/Draft/MSIG-LEGAL-TERMS-OF-SERVICE-0001_v0_3_DRAFT_2026-08-09.md + MSI…",
+      "description_chars": 769,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Legal",
@@ -847,7 +847,7 @@
       "id": "SIG-350",
       "title": "Source or retire the four uncited claims before any of them reach the website",
       "description": "Added 2026-08-07 (SIG-306 content inventory; this is a liability row, not a polish row). Four load-bearing claims appear in onboarding and draft marketing copy with no receipt anywhere on disk: *~70% of what you watch*, *7 in 10 teens / ~90% of adults*, *100–300+ hrs/year*, and the 38,599-hour Attention Receipt. SIG-067 explicitly warned against unsourced statistics and the onboarding deck did it anyway. On a brand whose whole thesis is anti-manipulation and whose /receipts page invites people to check us, an uncited number is the single most damaging thing we can publish. Method: for each cl…",
-      "description_chars": 948,
+      "description_chars": 1146,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Content",
@@ -869,6 +869,60 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-08"
+    },
+    {
+      "id": "SIG-357",
+      "title": "Site architecture v1…",
+      "description": "Added 2026-08-10 (Wolf instruction: put the review deliverables on the master board). Proposed in _Working/SIG-306d_OPENER_2026-08-10.md and held until the section list was agreed; created now so it is tracked rather than living in an opener file (anti-slip rule). Turn the agreed section list into a frozen architecture: the 14-route skeleton confirmed or cut, the nav named, and a per-section breakdown authored for every homepage section that currently has only a one-line job description. Sources already on disk: _Working/SIGNAL_WEBSITE_MASTER_MAP_2026-08-09.html (routes + 11 homepage sections…",
+      "description_chars": 1217,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "6h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-11"
+    },
+    {
+      "id": "SIG-358",
+      "title": "The SIG-306d website writing set…",
+      "description": "Added 2026-08-10 on Wolf instruction. The three drafts were authored 2026-08-10 with no board row — exactly the failure the anti-slip rule exists to prevent — so this row is the tracking, and _Working/SIGNAL_REVIEW_QUEUE.md rows 15/16/17 carry the per-item ask. Three homepage writing deliverables, all drafted, all awaiting Wolf. Read as ONE sitting in this order, ~50 min total: (1) The Argument — _Working/SIGNAL_THE-ARGUMENT_v0_1_DRAFT_2026-08-10.md — the belief spine, five numbered beliefs set for scroll. Two rulings: the belief count (4/5/7 — our own documents disagree) and belief 5. (2) Ou…",
+      "description_chars": 1969,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "4h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-11"
     },
     {
       "id": "CF-CLOUD-LANE-NO-PROVIDER-REACH-1",
@@ -1365,7 +1419,7 @@
       "id": "SIG-029",
       "title": "Email Spec (MSIG-UX-EMAIL-0001 v1.0)",
       "description": "Spec the daily reminder email (both tiers, default-on, easy unsubscribe) + transactional + lifecycle emails + copy. SIG43: v0.1 DRAFT reviewed — transactional set + taxonomy + deliverability + send-time (7am local, research-grounded) drafted; T5 rollover corrected to 24h-before-day-7 (7-day trial). Blocked on a dedicated daily-reminder CONTENT research+design pass (component menu + digest teardowns, Wolf direction) before promotion. Conversion emails → conversion-email design pass. Stays DRAFT. 2026-06-26 (autonomous): named blocker RESOLVED — daily-reminder CONTENT pass folded in; Email Spec…",
-      "description_chars": 1908,
+      "description_chars": 2173,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Product",
@@ -1580,8 +1634,8 @@
     {
       "id": "SIG-069",
       "title": "/algorithm-101 page (content + build)",
-      "description": "Build the /algorithm-101 explainer (Decision 7 B1 commitment); fill Brand §7.17.4.2 placeholder. CONTENT DRAFT done 2026-06-26 (autonomous): 9-section mechanism explainer (loop diagram, casino reward, filter bubble, in-their-own-words, counter-case, principle-level Signal contrast) w/ per-section visual concepts; consolidates/supersedes earlier _Working/SIG-069_..._2026-06-22.md → 05_Marketing/Working/website-algorithm-101/MSIG-WEB-ALGORITHM-101_DRAFT_v0_1.md. Build/deploy still pending → row stays To-do.",
-      "description_chars": 510,
+      "description": "Build the /algorithm-101 explainer (Decision 7 B1 commitment); fill Brand §7.17.4.2 placeholder. CONTENT DRAFT done 2026-06-26 (autonomous): 9-section mechanism explainer (loop diagram, casino reward, filter bubble, in-their-own-words, counter-case, principle-level Signal contrast) w/ per-section visual concepts; consolidates/supersedes earlier _Working/SIG-069_..._2026-06-22.md → 05_Marketing/Working/website-algorithm-101/MSIG-WEB-ALGORITHM-101_DRAFT_v0_1.md. Build/deploy still pending → row stays To-do. [⬜ DRAFT AWAITING WOLF REVIEW — /algorithm-101 page content v0.1 · _Working/SIG-069_algo…",
+      "description_chars": 774,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -1599,7 +1653,7 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -1770,7 +1824,7 @@
       "id": "SIG-213",
       "title": "Email deliverability + Gmail Primary-tab placement research",
       "description": "Added 2026-07-03 (Wolf ask, gating-decisions chat). Research + playbook: how to (a) stay out of spam/junk and (b) land in Gmail Primary (not Promotions/Updates) for the daily reminder + lifecycle mail. Covers: SPF/DKIM/DMARC (Resend partly done) + sender-reputation warmup; the content signals that push mail into Promotions (bulk/newsletter markup, image-heavy, many links, promo language) vs. Primary (1:1 plain feel, personalized, account-related framing); the onboarding \"click to confirm\" engagement tactic Wolf flagged; list hygiene; unsubscribe-protects-reputation. Whether recurring product…",
-      "description_chars": 707,
+      "description_chars": 963,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Ops",
@@ -1788,7 +1842,7 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-07-03"
@@ -2067,7 +2121,7 @@
       "id": "SIG-238",
       "title": "Formalize upgrade-trigger / gating map…",
       "description": "Added 2026-07-11 (SIG-228). Turn the 17-gate draft (in CAPS-DELTA §8) into a canonical doc mapping every upgrade trigger → free limit / Signal+ / paywall H1 context / event, so build wires every prompt. Resolve 2 gaps: (a) videos-per-channel = new gate, assign a context/H1 (fold under #2 or new); (b) keep-out/noise = NO gate (universal, Wolf SIG-228). [2026-07-27 — UNBLOCKED, gate 6 RESOLVED.] Wolf ruled D5: meter AI transcripts, leave YouTube's native caption track uncapped. We ration what costs us money and what we generate; YouTube's own free captions stay free — which reinforces R1 (we ar…",
-      "description_chars": 1856,
+      "description_chars": 2055,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -2282,8 +2336,8 @@
     {
       "id": "SIG-077",
       "title": "/receipts legal-review pass",
-      "description": "Claims/attribution legal review of the /receipts page (CF-SIG15-2) at the 08_Legal sister-chat.",
-      "description_chars": 95,
+      "description": "Claims/attribution legal review of the /receipts page (CF-SIG15-2) at the 08_Legal sister-chat. [⬜ DRAFT AWAITING WOLF REVIEW — /receipts legal-review prep packet · _Working/SIG-077_Legal-Review-Prep-Packet_receipts+algorithm-101_DRAFT_2026-07-08.md · No gate behind it. · drafted 2026-07-08, 33 days]",
+      "description_chars": 301,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Legal",
@@ -2769,7 +2823,7 @@
       "id": "SIG-280",
       "title": "Data Model v1.6…",
       "description": "Added 2026-07-20 (task-ify of SIG-274 carry-forward; reserved but unwritten per SIG-272-RECON). Add summaryByVideoId (corpus-shared) + transcriptByVideoId (per-video) cache collections so we never re-pay Gemini for the same video. Derived text — NOT bound by the 30-day corpus refresh rule; document that exception in the Data Model. Batch into ONE Data Model v1.5→v1.6 pass together with anything SIG-275 (platform-algorithm) surfaces, rather than two passes. [2026-07-22, SIG-266/270 lock] ALSO fold in: (a) SIG-266 filter-mode fields on ScoringBreakdown/FeedCache — totalScore nullable, filterRan…",
-      "description_chars": 3994,
+      "description_chars": 4337,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Build",
@@ -6181,7 +6235,7 @@
       "id": "SIG-286",
       "title": "Top-lists / entity refresh-cadence policy",
       "description": "Added 2026-07-20 (SIG-273 walkthrough). Formalize refresh cadence for volatile top-X entity lists (athletes, artists, shows, celebrities, games): live/timely (news, trends, live sports) · monthly (music, movies/TV, gaming, celebrity, pop culture, podcasts) · quarterly + event-triggered (athletes/breakouts — after World Cup/playoffs/Grand Slams/fights/awards/game launches) · evergreen yearly (history, philosophy, foundational science, how-to, arts canon, faith). Piggybacks on Curation Engine §8 monthly-full+weekly-rotating; search covers the long tail so refresh = keeping suggestions current,…",
-      "description_chars": 642,
+      "description_chars": 831,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Product",
@@ -18871,6 +18925,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 8, 2026 · 3:41 AM CEST",
-  "published_at_iso": "2026-08-08T03:41:22+0200"
+  "published_at": "August 11, 2026 · 1:14 AM CEST",
+  "published_at_iso": "2026-08-11T01:14:17+0200"
 }
