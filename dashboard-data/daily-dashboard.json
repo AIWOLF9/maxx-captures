@@ -1114,6 +1114,33 @@
       "first_seen": "2026-08-11"
     },
     {
+      "id": "SIG-374",
+      "title": "Board schema v3…",
+      "description": "Created SIG-373, 2026-08-11. DAILY_STANDUP_PROTOCOL §4: a venture *should durably carry the Executor + Autonomy fields in its own task schema — until it does, the dashboards derive them.* Signal never added them, which is why no renderer (MC's or ours) can produce Wolf's four views. Append-only columns 14 (Department) + 15 (Autonomy), positions 1–13 untouched per the schema rule. Department = Wolf's five stages + Governance (Product→SPECS · Design/Brand→DESIGN · Ops/Legal/Finance→EXTERNAL SETUP · Build/QA→BUILD · Marketing/Content/Launch/Research→GTM · Governance→RUNNING THE VENTURE). Autonom…",
+      "description_chars": 1185,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "deadline": "1-0",
+      "deadline_label": "Phase P0",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "0.75h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-08-12"
+    },
+    {
       "id": "CF-STAGE2-NO-RUNNER-1",
       "title": "Hive Mind Stage 2 has had no runner since 2026-08-07, and the first cycle it mattered produced three complete…",
       "description": "Hive Mind Stage 2 has had no runner since 2026-08-07, and the first cycle it mattered produced three complete inputs and no consumer. mc-weekly-hivemind-synthesis was disabled 2026-08-07 — correctly: it ran in a cloud Cowork task and routed everything through device_bash, which never receives the bridge, so it produced zero observable output while reporting nothing. Nothing replaced it. Measured 2026-08-11: _MAXX_OS/Working/REFLECTION_2026-08-09.md (29,498 B), SIGNAL/_Working/REFLECTION_2026-08-09.md (24,852 B) and _stage1_inputs/APOLLO-2026-08-09-weekly-scan.md (41,738 B) all present and com…",
@@ -3793,6 +3820,33 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-11"
+    },
+    {
+      "id": "SIG-375",
+      "title": "_Working/ retirement…",
+      "description": "Created SIG-373, 2026-08-11. _Working/ holds 453 files — 73 openers, 49 stand-up sheets, 79 HTML surfaces, 64 MB — and not one carries a type label, so a read-once analysis from 4 August is indistinguishable from a live tracker to anyone who opens it. The absence of a type stamp is the defect, not the count. Every artifact gets a header line: LIVING · READ-ONCE — history as of YYYY-MM-DD · SUPERSEDED BY <x>. ⚠️ Archive the three stale full copies of the master board today — SIGNAL_TASKS_pre_SIG320-done / _pre_SIG321 / _pre_SIG322-323, each ~345 KB, dated 2026-08-05, indistinguishable from the…",
+      "description_chars": 1009,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "deadline": "1-0",
+      "deadline_label": "Phase P0",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-08-12"
     },
     {
       "id": "CAP-0029",
@@ -19477,6 +19531,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 11, 2026 · 11:17 PM CEST",
-  "published_at_iso": "2026-08-11T23:17:23+0200"
+  "published_at": "August 12, 2026 · 1:17 AM CEST",
+  "published_at_iso": "2026-08-12T01:17:55+0200"
 }
