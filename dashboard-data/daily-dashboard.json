@@ -763,33 +763,6 @@
       "first_seen": "2026-08-05"
     },
     {
-      "id": "SIG-325",
-      "title": "Finalize + publish Terms of Service and Privacy Policy",
-      "description": "BLOCKS SIG-324. Both exist only as v0_2 drafts (2026-07-30); 08_Legal/Final/ is empty and neither is published. Stripe requires the refund + cancellation policy visible on the reviewed site, and the activation page links /terms and /privacy — 404s would undercut the review. ToS must carry the tier-specific money-back policy per Pricing §0.10-A (Monthly = cancel-anytime no refund; Annual + Lifetime = 30-day), replacing any 14-day-all-tiers language. [⬜ DRAFT AWAITING WOLF REVIEW — ToS v0.3 §A + Privacy Policy v0.3 · 08_Legal/Draft/MSIG-LEGAL-TERMS-OF-SERVICE-0001_v0_3_DRAFT_2026-08-09.md + MSI…",
-      "description_chars": 769,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Legal",
-      "venture": "v-signal",
-      "deadline": "1-3",
-      "deadline_label": "Phase P3",
-      "deadline_class": "d-future",
-      "effort_mc": "3h",
-      "effort_wolf": "2h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Legal",
-      "kind": "tasks",
-      "first_seen": "2026-08-05"
-    },
-    {
       "id": "SIG-326",
       "title": "Verify Wolf Ventures LLC standing + DBA filing status",
       "description": "Closes OQ-OPS-04 and OQ-OPS-05 (opened at Pre-Build Checklist v1.1). (a) Delaware Division of Corporations lookup — Stripe validates name + EIN against state records, and administrative dissolution for unpaid franchise tax is silent because the bank account keeps working; a lapsed LLC fails KYC days after submission. (b) Is the MAXX AI Ventures DBA actually filed, or decided-but-never-registered? If unfiled, leave Stripe's optional DBA field blank. (c) ⚠️ ADDED 2026-08-06 (attended stand-up) — THE OPERATING ADDRESS, and it is not the one Wolf has. Wolf's address of record is CSC (The Company…",
@@ -1090,7 +1063,7 @@
       "id": "SIG-373",
       "title": "ORGANIZATIONAL PASS…",
       "description": "Added 2026-08-11 (attended; the agreed next chat). Wolf's instruction, verbatim in substance: *\"I want to use one consistent dashboard platform that would help me very clearly, in English, understand what needs to be done, what's being done autonomously, what's already in draft, and what I need to do.\"* The diagnosis is Claude's, stated plainly: every time Wolf has asked for clarity, a new document has been produced — the website task list, the review queue, the section catalog, the master map, the visual board. That is the problem, not the solution. Produces, BY DEPARTMENT: (1) every spec —…",
-      "description_chars": 1273,
+      "description_chars": 2749,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Governance",
@@ -2797,9 +2770,9 @@
     },
     {
       "id": "SIG-163",
-      "title": "Website + Landing page (waitlist/pre-order page + articles/news directory + blog)",
-      "description": "Its OWN long chat. Claude Design + Athena + Apollo research + Mission Control agent check. Bring Dribbble/Mobbin style refs. Gated on logo + Brand v1.4.",
-      "description_chars": 152,
+      "title": "Articles/news directory + blog…",
+      "description": "Its OWN long chat. Claude Design + Athena + Apollo research + Mission Control agent check. Bring Dribbble/Mobbin style refs. Gated on logo + Brand v1.4. [2026-08-12 — RE-SCOPED in SIG-378 on Wolf's ruling, attended.] This row bundled three different jobs and two of them are owned elsewhere. (a) The waitlist / pre-order page half is DROPPED as redundant — it is fully covered by SIG-306 (research + direction), SIG-357 (route list + architecture) and SIG-067 (the build). (b) /receipts was never in this row — that is SIG-068, content drafted 2026-06-26, separately tracked. (c) What REMAINS and is…",
+      "description_chars": 1196,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -3307,6 +3280,33 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-04"
+    },
+    {
+      "id": "SIG-325",
+      "title": "Finalize + publish Terms of Service and Privacy Policy",
+      "description": "BLOCKS SIG-324. Both exist only as v0_2 drafts (2026-07-30); 08_Legal/Final/ is empty and neither is published. Stripe requires the refund + cancellation policy visible on the reviewed site, and the activation page links /terms and /privacy — 404s would undercut the review. ToS must carry the tier-specific money-back policy per Pricing §0.10-A (Monthly = cancel-anytime no refund; Annual + Lifetime = 30-day), replacing any 14-day-all-tiers language. [⬜ DRAFT AWAITING WOLF REVIEW — ToS v0.3 §A + Privacy Policy v0.3 · 08_Legal/Draft/MSIG-LEGAL-TERMS-OF-SERVICE-0001_v0_3_DRAFT_2026-08-09.md + MSI…",
+      "description_chars": 1564,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-08-05"
     },
     {
       "id": "SIG-330",
@@ -3852,7 +3852,7 @@
       "id": "SIG-372",
       "title": "Operating Cadence v0.3…",
       "description": "Added 2026-08-11 (attended; Wolf: *\"make that part of the process and protocol, not just for these stand-ups, but for the different chats\"*). v0.2 has been awaiting approval since 2026-08-01 and Wolf's 2026-08-07 rulings were already flagged as v0.3 content; this adds the trigger. Wolf's instruction, verbatim in substance: *\"I do not know what R1 through R4 are… I need you to always provide the TLDR-type structure so I clearly understand without all the jargon.\"* The rule: every decision put to Wolf, in every chat, carries six things — (1) what it is in plain English, no system vocabulary; (2…",
-      "description_chars": 1113,
+      "description_chars": 2021,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -3926,6 +3926,33 @@
       ],
       "autonomy": "Batch",
       "department": "Research",
+      "kind": "tasks",
+      "first_seen": "2026-08-12"
+    },
+    {
+      "id": "SIG-379",
+      "title": "Social account setup…",
+      "description": "Added 2026-08-12 in SIG-378 (attended, Wolf's instruction; split out of SIG-165 and routed out of SIG-373). Wolf, verbatim in substance: *\"an external setup of all the accounts we need to set up in order to start doing the go-to-market — LinkedIn, X, Instagram, YouTube, TikTok, etc.\"* SIG-373's own text flagged that the social accounts *\"appear on no list anywhere\"*; they were in fact half-buried inside SIG-165, at P2, behind a SIG-174 gate, invisible. Scope: create the accounts and CLAIM THE HANDLES only — consistent handle across all five, plus a reserved handle on any platform we are not l…",
+      "description_chars": 1105,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-12"
     },
@@ -6554,9 +6581,9 @@
     },
     {
       "id": "SIG-165",
-      "title": "Social Accounts + Content Ops",
+      "title": "Social Content Ops…",
       "description": "Create all our own accounts (platforms/handles), pick scheduler, DAILY posting cadence + anchor→atomize workflow, performance-tracking loop. (notes 4/5b/5e) [CAPTURE-TRIAGE 2026-07-31 — MOS-T-046, the half that is not a line.] Wolf's capture is a content format, not a brand line: *\"get people to take a moment to think about the ramifications of being mindlessly manipulated by the algorithm — to simply ask questions like 'Did you know…'\"*. Add a recurring \"Did you know?\" question series to the daily cadence + anchor→atomize workflow: short, answerable, research-backed prompts that stop the scr…",
-      "description_chars": 782,
+      "description_chars": 1387,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -19612,6 +19639,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 12, 2026 · 7:13 PM CEST",
-  "published_at_iso": "2026-08-12T19:13:06+0200"
+  "published_at": "August 12, 2026 · 9:13 PM CEST",
+  "published_at_iso": "2026-08-12T21:13:43+0200"
 }
