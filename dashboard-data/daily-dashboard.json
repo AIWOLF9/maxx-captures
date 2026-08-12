@@ -793,7 +793,7 @@
       "id": "SIG-326",
       "title": "Verify Wolf Ventures LLC standing + DBA filing status",
       "description": "Closes OQ-OPS-04 and OQ-OPS-05 (opened at Pre-Build Checklist v1.1). (a) Delaware Division of Corporations lookup — Stripe validates name + EIN against state records, and administrative dissolution for unpaid franchise tax is silent because the bank account keeps working; a lapsed LLC fails KYC days after submission. (b) Is the MAXX AI Ventures DBA actually filed, or decided-but-never-registered? If unfiled, leave Stripe's optional DBA field blank. (c) ⚠️ ADDED 2026-08-06 (attended stand-up) — THE OPERATING ADDRESS, and it is not the one Wolf has. Wolf's address of record is CSC (The Company…",
-      "description_chars": 1347,
+      "description_chars": 1451,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -19531,6 +19531,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 12, 2026 · 2:50 AM CEST",
-  "published_at_iso": "2026-08-12T02:50:35+0200"
+  "published_at": "August 12, 2026 · 5:11 AM CEST",
+  "published_at_iso": "2026-08-12T05:11:29+0200"
 }
