@@ -2664,7 +2664,7 @@
       "id": "SIG-322",
       "title": "Pre-order → launch billing lifecycle…",
       "description": "Added 2026-08-05 (SIG-320 close-out; Wolf surfaced the gap in session). The $5 refundable deposit is the pre-launch revenue mechanic — *\"$5 refundable deposit (or pre-order in full) · fully refundable until launch\"* — and it is specified on the design side and absent on the money and data sides. Present in: MSIG-UX-PAYWALL-0001 offer-variant table · MSIG-UX-SCREEN-PLAN-0001 (copy token paywall.bar.due.deposit = *\"Due today: $5 deposit · refundable\"*, analytics event reservation_created) · MSIG-PROD-ANALYTICS-0001 (×2) · MSIG-PROD-API-INTEGRATIONS-0001 (×1). Absent from: MSIG-PROD-PRICING-0001…",
-      "description_chars": 4218,
+      "description_chars": 4913,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -19531,6 +19531,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 12, 2026 · 11:12 AM CEST",
-  "published_at_iso": "2026-08-12T11:12:08+0200"
+  "published_at": "August 12, 2026 · 5:12 PM CEST",
+  "published_at_iso": "2026-08-12T17:12:45+0200"
 }
