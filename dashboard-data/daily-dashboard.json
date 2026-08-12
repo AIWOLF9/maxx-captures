@@ -1117,8 +1117,8 @@
       "id": "SIG-374",
       "title": "Board schema v3…",
       "description": "Created SIG-373, 2026-08-11. DAILY_STANDUP_PROTOCOL §4: a venture *should durably carry the Executor + Autonomy fields in its own task schema — until it does, the dashboards derive them.* Signal never added them, which is why no renderer (MC's or ours) can produce Wolf's four views. Append-only columns 14 (Department) + 15 (Autonomy), positions 1–13 untouched per the schema rule. Department = Wolf's five stages + Governance (Product→SPECS · Design/Brand→DESIGN · Ops/Legal/Finance→EXTERNAL SETUP · Build/QA→BUILD · Marketing/Content/Launch/Research→GTM · Governance→RUNNING THE VENTURE). Autonom…",
-      "description_chars": 1185,
-      "status": "s-todo",
+      "description_chars": 2144,
+      "status": "s-doing",
       "priority": "p-p0",
       "segment": "Governance",
       "venture": "v-signal",
@@ -19531,6 +19531,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 12, 2026 · 5:11 AM CEST",
-  "published_at_iso": "2026-08-12T05:11:29+0200"
+  "published_at": "August 12, 2026 · 11:12 AM CEST",
+  "published_at_iso": "2026-08-12T11:12:08+0200"
 }
