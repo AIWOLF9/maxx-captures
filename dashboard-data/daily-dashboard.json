@@ -682,33 +682,6 @@
       "first_seen": "2026-07-31"
     },
     {
-      "id": "SIG-308",
-      "title": "EU Art…",
-      "description": "Added 2026-07-31 (attended capture-triage session; created under D-2026-07-31a). OWNERSHIP MOVED TO SIGNAL by Wolf on 2026-07-31, same reasoning as the deployment route: MC has no better access to Art. 27 representative vendors than the venture does, the gated artifact is Signal's, and Signal had already offered to take it either way. CF-SIGNAL-ART27-REP-OWNER-1 closed at MC. Approved in principle at D3 on 2026-07-27, when Signal went worldwide-at-launch including EU/UK — and nobody has owned it since. Why P0 despite being small: a US controller offering a service to EU consumers with no name…",
-      "description_chars": 3610,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Legal",
-      "venture": "v-signal",
-      "deadline": "1-6",
-      "deadline_label": "Phase P6",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "THEMIS",
-      "executor_list": [
-        "THEMIS"
-      ],
-      "autonomy": "Batch",
-      "department": "Legal",
-      "kind": "tasks",
-      "first_seen": "2026-07-31"
-    },
-    {
       "id": "SIG-314",
       "title": "Resend domain authentication + outbound sending warm-up",
       "description": "Added 2026-08-01 (attended stand-up; Wolf ruled it a row after a plain-English explanation). Surfaced by the SIG-311 critical-path pass — an incompressible external clock with NO row, found in the same session that concluded a *non-gating* external clock had held P0 for twenty-one stand-ups. PRD v1.5 §16.2 item 2, verbatim: *\"Resend domain authentication + warmup — DNS propagation + sending reputation warmup requires 2+ weeks before launch; cannot be compressed.\"* In plain terms: mailbox providers have no sending history for maxxsignal.com. A brand-new domain going from zero to thousands of s…",
@@ -1247,6 +1220,60 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-13"
+    },
+    {
+      "id": "SIG-389",
+      "title": "Auth-Security v1.1 → v1.2…",
+      "description": "Added 2026-08-16 (attended; surfaced by the SIG-366 draft 2026-08-15). Claude Code builds from this document, not from the Claude Design files — and the document describes a different product. MSIG-PROD-AUTH-SECURITY-0001 v1.1 is dated 2026-05-01, two months BEFORE Decision 30 (2026-07-01) relocated sign-up to the 24th screen. It still routes /onboarding as route-class AUTH_ACTIVE (auth required to reach onboarding at all) and its §4.1/§4.2 flows both end by routing a newly-authenticated user INTO onboarding. Hand Claude Code this file today and it builds auth-first onboarding — the opposite…",
+      "description_chars": 1064,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-17"
+    },
+    {
+      "id": "SIG-390",
+      "title": "Post-click landing pages…",
+      "description": "Added 2026-08-16 (attended). When someone finishes onboarding we send a welcome email; the page its link opens does not exist in any design, spec or row. It is one surface with four entry paths — waitlist (share only) · pre-order Monthly (share only) · pre-order Annual and Lifetime (gift-recipient capture, then share) · Kickstarter (same shape, separate chat) — collapsing after launch to a straight redirect into the user's feed. Also carries the SMS opt-in (collect now, activation a separate go/no-go; TCPA consent wording shared with SIG-370). Wolf ruling 2026-08-16: this is its OWN Claude De…",
+      "description_chars": 1018,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-08-17"
     },
     {
       "id": "CF-STAGE2-NO-RUNNER-1",
@@ -3818,33 +3845,6 @@
       ],
       "autonomy": "Wolf",
       "department": "Operations",
-      "kind": "tasks",
-      "first_seen": "2026-08-11"
-    },
-    {
-      "id": "SIG-367",
-      "title": "Measure the live waitlist confirmed-vs-pending ratio…",
-      "description": "Added 2026-08-11 (attended). The production waitlist is double opt-in: a signup stays pending until the confirmation link is clicked, and the token expires after 72h (Data Model §15B). A pending signup is not on the list and will not receive a launch email. Double-opt-in confirmation rates are routinely well under 100%. The waitlist has been live since June, so this number exists on disk today — and it is the difference between the list's claimed size and its real size. Material to: the pre-order invitation campaign's expected yield, and to SIG-350/Decision 49 (whether we publish a waitlist n…",
-      "description_chars": 620,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "0.5h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-11"
     },
@@ -7579,6 +7579,60 @@
       "first_seen": "2026-08-13"
     },
     {
+      "id": "SIG-391",
+      "title": "Kickstarter multi-gift packages…",
+      "description": "Added 2026-08-16 (attended; Wolf raised it while walking SIG-359). Pre-order BOGO gives a buyer exactly ONE gift seat, and the whole claim design assumes that. A Kickstarter tier may sell a package containing SEVERAL gift seats, and a future gifting campaign (give the gift of Signal) would too. That needs a backend ledger per purchaser — seats held, seats gifted, to whom, redeemed or not — plus a surface where the buyer manages them. SIG-362's claim-link design must know this exists before it is finalised, or it gets built one-seat-shaped and reopened. Not launch-blocking for the pre-order pa…",
+      "description_chars": 652,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-17"
+    },
+    {
+      "id": "SIG-392",
+      "title": "LAUNCH GEOGRAPHY RULING…",
+      "description": "Added 2026-08-16 (attended). This row exists so the EU question stops appearing in stand-ups, in drafts, and in Wolf's inbox as nine separate items. Wolf, 2026-08-16: *\"European accounts don't seem to be a high priority at this moment with everything that we have to do. Just move these tasks down to the side later.\"* Deferral cost assessed and it is near-zero: the Privacy Policy is unpublished so no live claim is wrong; the geo-gate is one country check at signup (Cloudflare supplies the visitor country in a request header) specced whenever signup is built, not a decision; Kickstarter is unbu…",
+      "description_chars": 1895,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-08-17"
+    },
+    {
       "id": "CF-REFLECTION-COUNT-UNENUMERATED-1",
       "title": "An unattended lane reported a count it had not enumerated, inside the section of its own document that descri…",
       "description": "An unattended lane reported a count it had not enumerated, inside the section of its own document that describes doing exactly that. REFLECTION_2026-08-09.md (MAXX OS) §5 states _MAXX_OS/Working/ holds *\"two consumed opener-named files\"*; measured this session with find . -maxdepth 1 -type f -iname '*OPENER*': 31, the oldest dating to 2026-05-16. Wrong by ~15×, in the direction that reads as health. The residue itself is repaired (below); this row is about the *reporting*, which the repair does not touch. Recorded in SYNTHESIS_2026-08-09.md §2 P3 as the cycle's own best evidence for Signal's…",
@@ -10909,6 +10963,33 @@
       "first_seen": "2026-07-23"
     },
     {
+      "id": "SIG-308",
+      "title": "EU Art…",
+      "description": "Added 2026-07-31 (attended capture-triage session; created under D-2026-07-31a). OWNERSHIP MOVED TO SIGNAL by Wolf on 2026-07-31, same reasoning as the deployment route: MC has no better access to Art. 27 representative vendors than the venture does, the gated artifact is Signal's, and Signal had already offered to take it either way. CF-SIGNAL-ART27-REP-OWNER-1 closed at MC. Approved in principle at D3 on 2026-07-27, when Signal went worldwide-at-launch including EU/UK — and nobody has owned it since. Why P0 despite being small: a US controller offering a service to EU consumers with no name…",
+      "description_chars": 3835,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "THEMIS",
+      "executor_list": [
+        "THEMIS"
+      ],
+      "autonomy": "Batch",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-07-31"
+    },
+    {
       "id": "SIG-313",
       "title": "GDPR Art…",
       "description": "Added 2026-07-31 (attended; created under D-2026-07-31a). NOT launch-blocking — the deliverable is a threshold, not an appointment. Do not confuse with SIG-308. Art. 27 (SIG-308, approved 2026-07-31) is a published contact address in the EU — administrative, ~EUR 60/mo. Art. 37 is a different obligation: an actual independent person overseeing data handling. Required only where core activities consist of regular and systematic monitoring of data subjects on a large scale. Why this is a live question for Signal and not for a typical SaaS — state it honestly: *“core activities”* means the proce…",
@@ -10961,6 +11042,60 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-07"
+    },
+    {
+      "id": "SIG-367",
+      "title": "Measure the live waitlist confirmed-vs-pending ratio…",
+      "description": "Added 2026-08-11 (attended). The production waitlist is double opt-in: a signup stays pending until the confirmation link is clicked, and the token expires after 72h (Data Model §15B). A pending signup is not on the list and will not receive a launch email. Double-opt-in confirmation rates are routinely well under 100%. The waitlist has been live since June, so this number exists on disk today — and it is the difference between the list's claimed size and its real size. Material to: the pre-order invitation campaign's expected yield, and to SIG-350/Decision 49 (whether we publish a waitlist n…",
+      "description_chars": 1591,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-11"
+    },
+    {
+      "id": "SIG-388",
+      "title": "Article 30 Record of Processing Activities…",
+      "description": "Added 2026-08-16 (attended; proposed at the 2026-08-14 and 2026-08-15 stand-ups and uncreated for two days). GDPR Art. 30 requires the controller to keep an internal written register of processing: what personal data we hold, the purposes, the data-subject and data categories, recipients, third-country transfers, retention periods and the technical/organisational measures. It is not published — it is what we produce if a regulator asks. No such document exists anywhere in the tree, verified twice against alternate wordings. Why it is not merely paperwork: the EU/UK Art. 27 representative we a…",
+      "description_chars": 1100,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "THEMIS",
+      "executor_list": [
+        "THEMIS"
+      ],
+      "autonomy": "Auto",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-08-17"
     },
     {
       "id": "CF-PM5h-3-H",
@@ -19855,6 +19990,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 13, 2026 · 9:19 PM CEST",
-  "published_at_iso": "2026-08-13T21:19:55+0200"
+  "published_at": "August 17, 2026 · 5:35 AM CEST",
+  "published_at_iso": "2026-08-17T05:35:01+0200"
 }
