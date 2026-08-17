@@ -871,33 +871,6 @@
       "first_seen": "2026-08-11"
     },
     {
-      "id": "SIG-359",
-      "title": "Claude Design onboarding reopen…",
-      "description": "Added 2026-08-11 (attended, SIG-316 session). Wolf: *\"that's probably 30 minutes on Claude Design.\"* The 28 onboarding screens are locked at three widths and are being reopened anyway for pending paywall copy — so every change below rides in one reopen, one prompt pack, not five. (1) Screen 18 paywall — add an \"I have a code\" button (the entry for Kickstarter backers, gift recipients and comped partners; the paywall is ONE component used in 8 contexts, so decide context-specific vs global). (2) Screen 18 — the already-pending paywall copy updates (see SIG-332, SIG-347). (3) Screen 17 *Save &…",
-      "description_chars": 1748,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "1h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-08-11"
-    },
-    {
       "id": "SIG-360",
       "title": "Onboarding spec v1.6 → v1.7…",
       "description": "Added 2026-08-11 (attended; Wolf: *\"we're going to need to make sure that the specs for the onboarding are updated to match everything that is being updated\"*). Claude Code builds from the spec, not from the Claude Design files — a screen that exists in design and not in the spec does not get built. Confirmed divergences to close: (a) the spec places the username *\"below password\"* on the sign-up form; the build has no password field at all (Apple / Google / magic-link only) — both halves change under SIG-359. (b) Screen 20 Archetype is built (Wolf screenshot 2026-08-11, sequence 19 Building…",
@@ -1271,6 +1244,33 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-08-17"
+    },
+    {
+      "id": "SIG-393",
+      "title": "Comped-user paywall state…",
+      "description": "Added 2026-08-17 (attended). Not new work — D-SIG316-12 ruled it on 2026-08-11 (*\"Don't skip the paywall for comped users — change its state\"*); it was invisible until it was drawn. Mocked at _Working/SIG-390_COMPED-PAYWALL_MOCKUP_2026-08-17.html, four states in the product palette. The design, agreed with Wolf 2026-08-17: keep the FOUNDER · best value chip, the four caps tiles and the Everything in Free, plus: bullets; replace the price row with a free/already-paid treatment; remove the trial timeline, the trial-reminder toggle, the money-back line and the whole Due today: $5 deposit receipt…",
+      "description_chars": 1701,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": "0.75h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-17"
@@ -3444,33 +3444,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "SIG-332",
-      "title": "Paywall annual card string…",
-      "description": "Added 2026-08-07 (stand-up recovery of the SIG-322 close-out task list; see the ID-collision note on SIG-333). The annual paywall card still reads *\"2 years for the price of one.\"* SIG-229 (2026-07-11) replaced that offer — BOGO on annual + lifetime, monthly none, plus a 2-year price lock (MSIG-UX-PAYWALL-CAPS-DELTA §11). The compare table was updated; the card was not, so the primary conversion surface has advertised a product we do not sell for four weeks. Confirmed at SIG-322 by ruling 10 and ruling 11. Replacement string, Wolf-locked: \"2-year lock and buy one, get one.\" Propagation miss,…",
-      "description_chars": 720,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "0.5h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-08-07"
-    },
-    {
       "id": "SIG-333",
       "title": "Lemon Squeezy…",
       "description": "Added 2026-08-07 (stand-up recovery). ⚠️ ID-COLLISION NOTE: _Working/SIG-323_OPENER_2026-08-07.md names its own next chat *\"SIG-323 — Lemon Squeezy build + copy\"*, but SIG-323 was already taken on 2026-08-05 by the native-app payment-economics row. This row is that chat. The opener file keeps its filename; cite this ID. Scope (opener Jobs 1–3): R1 Signal+ Annual Founding Reservation $29/yr · R2 Monthly $4.99/mo · R3 Lifetime $99 (all three carrying setup_fee $5 and a trial ending launch+7d, except R3 which is one-time), plus L1–L3 the post-launch live products. Every string pasted verbatim fr…",
@@ -3629,33 +3602,6 @@
       ],
       "autonomy": "Batch",
       "department": "Legal",
-      "kind": "tasks",
-      "first_seen": "2026-08-07"
-    },
-    {
-      "id": "SIG-347",
-      "title": "Paywall surface audit…",
-      "description": "Added 2026-08-07 (attended stand-up; Wolf: *\"we need to update the paywall in a few places\"* — plural). SIG-332 fixes the one known defect: the annual card still reading *\"2 years for the price of one\"*, four weeks stale. This row asks the wider question that defect implies — what else on this surface never got propagated? SIG-229 (2026-07-11) changed the offer shape; SIG-239/SIG-284 changed the caps; SIG-322 changed the deposit terms and confirmed BOGO anchors are two accounts, not two years. Each of those had to reach the paywall and at least one demonstrably did not. Method: diff every pay…",
-      "description_chars": 1060,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "3h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-07"
     },
@@ -15185,6 +15131,33 @@
       "first_seen": "2026-08-05"
     },
     {
+      "id": "SIG-359",
+      "title": "Claude Design onboarding reopen…",
+      "description": "Added 2026-08-11 (attended, SIG-316 session). Wolf: *\"that's probably 30 minutes on Claude Design.\"* The 28 onboarding screens are locked at three widths and are being reopened anyway for pending paywall copy — so every change below rides in one reopen, one prompt pack, not five. (1) Screen 18 paywall — add an \"I have a code\" button (the entry for Kickstarter backers, gift recipients and comped partners; the paywall is ONE component used in 8 contexts, so decide context-specific vs global). (2) Screen 18 — the already-pending paywall copy updates (see SIG-332, SIG-347). (3) Screen 17 *Save &…",
+      "description_chars": 2786,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-08-11"
+    },
+    {
       "id": "CF-GATE-CHECK11-BRANCH-A-PROSE-1",
       "title": "--verify check 11's branch (a) was discharged by PROSE, and the sentence reporting the obligation unmet was t…",
       "description": "--verify check 11's branch (a) was discharged by PROSE, and the sentence reporting the obligation unmet was the sentence that discharged it. Branch (a) tested for the callback's filename anywhere in CARRY_FORWARD_INBOX.md + MOS_TASKS.md — both Mission-Control-authored, and Mission Control is the party check 11 binds. Demonstrated on a throwaway root rather than argued: an aged, wholly undispositioned callback fired the gate; appending one line of prose to CARRY_FORWARD_INBOX.md reading *\"We have not yet handled CALLBACK_TO_MC_2026-07-01z and it remains open\"* returned VERIFY CLEAN. That is D-…",
@@ -18162,6 +18135,60 @@
       "first_seen": "2026-08-05"
     },
     {
+      "id": "SIG-332",
+      "title": "Paywall annual card string…",
+      "description": "Added 2026-08-07 (stand-up recovery of the SIG-322 close-out task list; see the ID-collision note on SIG-333). The annual paywall card still reads *\"2 years for the price of one.\"* SIG-229 (2026-07-11) replaced that offer — BOGO on annual + lifetime, monthly none, plus a 2-year price lock (MSIG-UX-PAYWALL-CAPS-DELTA §11). The compare table was updated; the card was not, so the primary conversion surface has advertised a product we do not sell for four weeks. Confirmed at SIG-322 by ruling 10 and ruling 11. Replacement string, Wolf-locked: \"2-year lock and buy one, get one.\" Propagation miss,…",
+      "description_chars": 882,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-08-07"
+    },
+    {
+      "id": "SIG-347",
+      "title": "Paywall surface audit…",
+      "description": "Added 2026-08-07 (attended stand-up; Wolf: *\"we need to update the paywall in a few places\"* — plural). SIG-332 fixes the one known defect: the annual card still reading *\"2 years for the price of one\"*, four weeks stale. This row asks the wider question that defect implies — what else on this surface never got propagated? SIG-229 (2026-07-11) changed the offer shape; SIG-239/SIG-284 changed the caps; SIG-322 changed the deposit terms and confirmed BOGO anchors are two accounts, not two years. Each of those had to reach the paywall and at least one demonstrably did not. Method: diff every pay…",
+      "description_chars": 1703,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-08-07"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -19990,6 +20017,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 17, 2026 · 5:35 AM CEST",
-  "published_at_iso": "2026-08-17T05:35:01+0200"
+  "published_at": "August 17, 2026 · 7:35 AM CEST",
+  "published_at_iso": "2026-08-17T07:35:30+0200"
 }
