@@ -871,33 +871,6 @@
       "first_seen": "2026-08-11"
     },
     {
-      "id": "SIG-360",
-      "title": "Onboarding spec v1.6 → v1.7…",
-      "description": "Added 2026-08-11 (attended; Wolf: *\"we're going to need to make sure that the specs for the onboarding are updated to match everything that is being updated\"*). Claude Code builds from the spec, not from the Claude Design files — a screen that exists in design and not in the spec does not get built. Confirmed divergences to close: (a) the spec places the username *\"below password\"* on the sign-up form; the build has no password field at all (Apple / Google / magic-link only) — both halves change under SIG-359. (b) Screen 20 Archetype is built (Wolf screenshot 2026-08-11, sequence 19 Building…",
-      "description_chars": 1611,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-08-11"
-    },
-    {
       "id": "SIG-361",
       "title": "Login + forgot-password screen package…",
       "description": "Added 2026-08-11 (attended; surfaced by Wolf: *\"that's the one part I think we still need to finalize… which I don't think we have spoken about\"*). There is no login screen in any screen spec — SIG-315 flagged Auth + Landing as orphans on 2026-08-03 and it was never resolved. Every launch email we send says \"come log in\" and points at a screen that does not exist. Package: (1) login — email-first lookup, so a Google/Apple user is never asked for a password they never set (Wolf: *\"I've run into this issue myself\"*; this is the #1 support ticket in this pattern); (2) forgot password; (3) reset…",
@@ -928,7 +901,7 @@
       "id": "SIG-362",
       "title": "Claim-link system…",
       "description": "Added 2026-08-11 (attended, SIG-316 session). This replaced the email-binding design mid-session when Wolf pointed out the flaw: *\"we don't know people's email addresses.\"* Binding a reserved username to an email cannot work for creator outreach conducted by Instagram/LinkedIn DM, and breaks whenever someone signs up with a different address than the one we contacted. The fix is a secret token in a link — maxxsignal.com/claim/{token} — which works over any channel, needs no prior knowledge of the person, and deletes the \"must sign up with this exact address\" failure mode entirely. One mechani…",
-      "description_chars": 886,
+      "description_chars": 2028,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Build",
@@ -3831,7 +3804,7 @@
       "id": "SIG-377",
       "title": "Competitor site teardown…",
       "description": "Added 2026-08-12 (attended, chat close). Wolf has already started this and the material is in his hands, not on disk. He captured screenshots plus full-site PDFs of comparable waitlist / pre-order sites — *\"companies that already spent a tremendous amount of time and money creating these\"* — specifically to study top-to-bottom structure: section order, what sections exist that we do not have, and how the page argues its way down. Scope: (1) Wolf hands over the captures; (2) Claude tears them down section-by-section into a comparable table — section, job, position in the scroll, the persuasion…",
-      "description_chars": 3601,
+      "description_chars": 4457,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -3961,6 +3934,87 @@
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-08-13"
+    },
+    {
+      "id": "SIG-395",
+      "title": "Archetype assignment…",
+      "description": "Added 2026-08-18 (SIG-360, attended; W-51). Screen 20 Archetype [idx 27] promises *\"We've suggested one based on your choices\"* and *\"the badges you earn stack on it.\"* The suggestion is hardcoded — suggested: key==='architect' — so every user is suggested The Architect, and nothing maps any onboarding answer to any archetype. Wolf ruled the copy STAYS and the mapping gets built (rather than softening the sentence now and re-hardening it later). The model already exists — do not reinvent it. Wolf copied all four archetype docs into Reference/archetypes/ on 2026-08-18, so no Mission Control mi…",
+      "description_chars": 1911,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-18"
+    },
+    {
+      "id": "SIG-396",
+      "title": "Channel-builder screen #17…",
+      "description": "Added 2026-08-18 (SIG-360, attended; W-35 + W-36). Wolf ruled both features out of onboarding and into the in-service channel builder — they are returning-member moves, not first-run moves. Neither is on any service screen today. Verified 2026-08-17 across all 50 files in 03_Design/Working/mockups/, the mockup index, and the four channel/creator screen specs: zero occurrences of promote-⤴ or entity-follow in any of them. This is NOT a new screen. Promote is a control plus a resulting state, and a promoted channel *is* a channel, so it renders as #17 Channel — detail + builder (S17_channel-det…",
+      "description_chars": 2179,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "4h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-08-18"
+    },
+    {
+      "id": "SIG-398",
+      "title": "⚠️ DEFECT…",
+      "description": "Added 2026-08-18 (SIG-360, unattended; found by the v1.7 adversarial verification pass and reproduced by hand). W-28 suppressed six gift promises for a gift recipient. There is a seventh, and it is still live in both paywall files. An un-id'd <tr> reading Gift one free, with a ✓ under Year and Life, sits inside the founder-compare modal — desktop offset ~90560, mobile ~88107. applyComped() never touches it: its only interaction with founder-compare is renaming the heading to WHAT THAT MEANS, and cDrop('p-giftrow') targets the *other* table — the Compare all plans row that reads Buy one, gift…",
+      "description_chars": 1811,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-08-18"
     },
     {
       "id": "CAP-0029",
@@ -7099,33 +7153,6 @@
       "first_seen": "2026-08-06"
     },
     {
-      "id": "SIG-336",
-      "title": "Gift-claim flow…",
-      "description": "Added 2026-08-07 (stand-up recovery; opener Job 6 — Wolf routes). BOGO on Annual + Lifetime means the $98 / $398 anchors are two accounts, not two years (SIG-322 ruling 10, confirming SIG-229), so every founding annual and lifetime reserver holds a second seat they must be able to give away. Two dispositions: build the claim flow (gift link, recipient signup, seat binding), or ship the sanctioned fallback — an informational line, *\"We'll send your gift link at launch\"*, no button. The fallback is already written into email E3 in the copy matrix, so the fallback path costs nothing and the buil…",
-      "description_chars": 666,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Batch",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-08-07"
-    },
-    {
       "id": "SIG-337",
       "title": "Pricing §0.2 redline…",
       "description": "Added 2026-08-07 (stand-up recovery; opener Job 5). MSIG-PROD-PRICING-0001 §0.2 says founding-member caps normalize after 2 years. The locked paywall design says the founder rate and caps hold *\"as long as you're a member.\"* These are different promises on the same offer, one of them on the conversion surface. SIG-322 ruling 7 sets the tie-break: locked design outranks older canon — so Pricing is what moves. Three-Step Replacement plus a Decisions Log line (folds naturally into SIG-338 as one Pricing pass).",
@@ -7502,6 +7529,33 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-17"
+    },
+    {
+      "id": "SIG-397",
+      "title": "Write-in empty state…",
+      "description": "Added 2026-08-18 (SIG-360, attended; surfaced by Wolf's question about typing in a team or athlete name). Across the channel builder, the Why screen and the keep-out field, a user can type a name and commit it as a chip. What happens when that name is not in Signal's corpus is specified nowhere. The Curation Engine is unambiguous about the mechanic — retrieval runs against the local corpus (~26,000 creators), zero YouTube calls, locked P0 — and *\"a video from a creator outside the graph is invisible to search.\"* \"Search all of YouTube\" was struck from every surface (SIG-260 §D). The engine na…",
+      "description_chars": 1383,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-18"
     },
     {
       "id": "CF-REFLECTION-COUNT-UNENUMERATED-1",
@@ -15183,6 +15237,33 @@
       "first_seen": "2026-08-11"
     },
     {
+      "id": "SIG-360",
+      "title": "Onboarding spec v1.6 → v1.7…",
+      "description": "Added 2026-08-11 (attended; Wolf: *\"we're going to need to make sure that the specs for the onboarding are updated to match everything that is being updated\"*). Claude Code builds from the spec, not from the Claude Design files — a screen that exists in design and not in the spec does not get built. Confirmed divergences to close: (a) the spec places the username *\"below password\"* on the sign-up form; the build has no password field at all (Apple / Google / magic-link only) — both halves change under SIG-359. (b) Screen 20 Archetype is built (Wolf screenshot 2026-08-11, sequence 19 Building…",
+      "description_chars": 3766,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-11"
+    },
+    {
       "id": "SIG-366",
       "title": "⚠️ CRITICAL CHECK…",
       "description": "Added 2026-08-11 (attended). The single highest-consequence item to come out of this session. By screen 17 the user has already built their entire preference set — channels, keep-outs, content mix, twenty minutes of work. If the account is only created when the magic link is clicked, then an unread email destroys all of it, and we never find out. Screen 17's own copy says *\"Save your progress. Create your free account,\"* so the intent is right — but intent is not mechanics. The account must be written at submit; the link must only verify. Verify against the build, not the spec — this session…",
@@ -19956,6 +20037,33 @@
       "first_seen": "2026-07-25"
     },
     {
+      "id": "SIG-336",
+      "title": "Gift-claim flow…",
+      "description": "Added 2026-08-07 (stand-up recovery; opener Job 6 — Wolf routes). BOGO on Annual + Lifetime means the $98 / $398 anchors are two accounts, not two years (SIG-322 ruling 10, confirming SIG-229), so every founding annual and lifetime reserver holds a second seat they must be able to give away. Two dispositions: build the claim flow (gift link, recipient signup, seat binding), or ship the sanctioned fallback — an informational line, *\"We'll send your gift link at launch\"*, no button. The fallback is already written into email E3 in the copy matrix, so the fallback path costs nothing and the buil…",
+      "description_chars": 1357,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-07"
+    },
+    {
       "id": "CF-MOBBIN-CAP-ROW-1",
       "title": "Row Mobbin MCP as a shipped capability in CAPABILITIES_BACKLOG.md…",
       "description": "Row Mobbin MCP as a shipped capability in CAPABILITIES_BACKLOG.md. CLOSED 2026-08-06 MC-MOBBIN-MCP-1 — CAP-0062, Built / Live, self-contained §2 entry (backlog v1.60 → v1.61, surgical append per §5.6 rather than a drop-in; the file is 1,758 lines and the change is one row). The row deliberately carries the measured constraints rather than the documented ones — the 768px ceiling, the inline-image context cost, the download-to-disk confirmation and the Claude Design reach are none of them in Mobbin's documentation, and a future session would re-derive all four. CAP-0061 was skipped, not used —…",
@@ -20144,6 +20252,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 17, 2026 · 9:37 PM CEST",
-  "published_at_iso": "2026-08-17T21:37:00+0200"
+  "published_at": "August 18, 2026 · 3:38 AM CEST",
+  "published_at_iso": "2026-08-18T03:38:49+0200"
 }
