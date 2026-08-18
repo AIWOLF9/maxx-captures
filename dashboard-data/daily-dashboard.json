@@ -1195,6 +1195,33 @@
       "first_seen": "2026-08-17"
     },
     {
+      "id": "SIG-399",
+      "title": "PRD v1.5 → v1.6…",
+      "description": "Added 2026-08-18 (stand-up + Wolf ruling, attended: *\"Its own row\"*). The PRD is the build-facing document and it carries the identical pre-Decision-30 defect the SIG-389 draft catalogues in Auth-Security: §6.2.1 *\"Routes new users into onboarding (Screen 3) on successful signup\"* — the opposite of build-then-auth. And one defect Auth-Security does not have: §6.3 specifies per-step auto-save of preferences to Firestore during onboarding — an *\"Auto-saved\"* indicator (§6.3.6), retry-with-backoff on network error and full restore-on-resume (§6.3.4, §6.3.8). Written for the auth-first world, eve…",
+      "description_chars": 1628,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-18"
+    },
+    {
       "id": "CF-STAGE2-NO-RUNNER-1",
       "title": "Hive Mind Stage 2 has had no runner since 2026-08-07, and the first cycle it mattered produced three complete…",
       "description": "Hive Mind Stage 2 has had no runner since 2026-08-07, and the first cycle it mattered produced three complete inputs and no consumer. mc-weekly-hivemind-synthesis was disabled 2026-08-07 — correctly: it ran in a cloud Cowork task and routed everything through device_bash, which never receives the bridge, so it produced zero observable output while reporting nothing. Nothing replaced it. Measured 2026-08-11: _MAXX_OS/Working/REFLECTION_2026-08-09.md (29,498 B), SIGNAL/_Working/REFLECTION_2026-08-09.md (24,852 B) and _stage1_inputs/APOLLO-2026-08-09-weekly-scan.md (41,738 B) all present and com…",
@@ -3939,7 +3966,7 @@
       "id": "SIG-395",
       "title": "Archetype assignment…",
       "description": "Added 2026-08-18 (SIG-360, attended; W-51). Screen 20 Archetype [idx 27] promises *\"We've suggested one based on your choices\"* and *\"the badges you earn stack on it.\"* The suggestion is hardcoded — suggested: key==='architect' — so every user is suggested The Architect, and nothing maps any onboarding answer to any archetype. Wolf ruled the copy STAYS and the mapping gets built (rather than softening the sentence now and re-hardening it later). The model already exists — do not reinvent it. Wolf copied all four archetype docs into Reference/archetypes/ on 2026-08-18, so no Mission Control mi…",
-      "description_chars": 1911,
+      "description_chars": 3636,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -3990,29 +4017,29 @@
       "first_seen": "2026-08-18"
     },
     {
-      "id": "SIG-398",
-      "title": "⚠️ DEFECT…",
-      "description": "Added 2026-08-18 (SIG-360, unattended; found by the v1.7 adversarial verification pass and reproduced by hand). W-28 suppressed six gift promises for a gift recipient. There is a seventh, and it is still live in both paywall files. An un-id'd <tr> reading Gift one free, with a ✓ under Year and Life, sits inside the founder-compare modal — desktop offset ~90560, mobile ~88107. applyComped() never touches it: its only interaction with founder-compare is renaming the heading to WHAT THAT MEANS, and cDrop('p-giftrow') targets the *other* table — the Compare all plans row that reads Buy one, gift…",
-      "description_chars": 1811,
+      "id": "SIG-400",
+      "title": "Custom domain for Firebase Authentication emails…",
+      "description": "Added 2026-08-18 (Wolf ruling, attended: one combined branded email, not two). Wolf ruled the signup flow sends ONE branded email carrying both the welcome and the verification link, not Firebase's unbranded message plus ours. The mechanism is admin.auth().generateEmailVerificationLink(email, actionCodeSettings) — the Admin SDK returns the link as a string for embedding in our own Resend template; Firebase's docs name this as the supported path for *\"custom email templates and third-party delivery services.\"* No hosted action handler is required — the claim in Auth-Security v1.1 §4.1 that bra…",
+      "description_chars": 1314,
       "status": "s-todo",
       "priority": "p-p1",
-      "segment": "Design",
+      "segment": "Ops",
       "venture": "v-signal",
       "deadline": "1-2",
       "deadline_label": "Phase P2",
       "deadline_class": "d-future",
       "effort_mc": "0.5h",
-      "effort_wolf": "0.25h",
+      "effort_wolf": "1h",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
+      "owner": "Wolf",
+      "executor": "Wolf",
       "executor_list": [
-        "ATHENA"
+        "Wolf"
       ],
-      "autonomy": "Batch",
-      "department": "Design",
+      "autonomy": "Wolf",
+      "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-18"
     },
@@ -11021,6 +11048,33 @@
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-08-17"
+    },
+    {
+      "id": "SIG-398",
+      "title": "⚠️ DEFECT…",
+      "description": "Added 2026-08-18 (SIG-360, unattended; found by the v1.7 adversarial verification pass and reproduced by hand). W-28 suppressed six gift promises for a gift recipient. There is a seventh, and it is still live in both paywall files. An un-id'd <tr> reading Gift one free, with a ✓ under Year and Life, sits inside the founder-compare modal — desktop offset ~90560, mobile ~88107. applyComped() never touches it: its only interaction with founder-compare is renaming the heading to WHAT THAT MEANS, and cDrop('p-giftrow') targets the *other* table — the Compare all plans row that reads Buy one, gift…",
+      "description_chars": 3195,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-08-18"
     },
     {
       "id": "CF-PM5h-3-H",
@@ -20252,6 +20306,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 18, 2026 · 3:38 AM CEST",
-  "published_at_iso": "2026-08-18T03:38:49+0200"
+  "published_at": "August 18, 2026 · 5:15 PM CEST",
+  "published_at_iso": "2026-08-18T17:15:04+0200"
 }
