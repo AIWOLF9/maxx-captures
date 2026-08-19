@@ -1141,33 +1141,6 @@
       "first_seen": "2026-08-13"
     },
     {
-      "id": "SIG-389",
-      "title": "Auth-Security v1.1 → v1.2…",
-      "description": "Added 2026-08-16 (attended; surfaced by the SIG-366 draft 2026-08-15). Claude Code builds from this document, not from the Claude Design files — and the document describes a different product. MSIG-PROD-AUTH-SECURITY-0001 v1.1 is dated 2026-05-01, two months BEFORE Decision 30 (2026-07-01) relocated sign-up to the 24th screen. It still routes /onboarding as route-class AUTH_ACTIVE (auth required to reach onboarding at all) and its §4.1/§4.2 flows both end by routing a newly-authenticated user INTO onboarding. Hand Claude Code this file today and it builds auth-first onboarding — the opposite…",
-      "description_chars": 1392,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "1.5h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-08-17"
-    },
-    {
       "id": "SIG-390",
       "title": "Post-click landing pages…",
       "description": "Added 2026-08-16 (attended). When someone finishes onboarding we send a welcome email; the page its link opens does not exist in any design, spec or row. It is one surface with four entry paths — waitlist (share only) · pre-order Monthly (share only) · pre-order Annual and Lifetime (gift-recipient capture, then share) · Kickstarter (same shape, separate chat) — collapsing after launch to a straight redirect into the user's feed. Also carries the SMS opt-in (collect now, activation a separate go/no-go; TCPA consent wording shared with SIG-370). Wolf ruling 2026-08-16: this is its OWN Claude De…",
@@ -1193,33 +1166,6 @@
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-17"
-    },
-    {
-      "id": "SIG-399",
-      "title": "PRD v1.5 → v1.6…",
-      "description": "Added 2026-08-18 (stand-up + Wolf ruling, attended: *\"Its own row\"*). The PRD is the build-facing document and it carries the identical pre-Decision-30 defect the SIG-389 draft catalogues in Auth-Security: §6.2.1 *\"Routes new users into onboarding (Screen 3) on successful signup\"* — the opposite of build-then-auth. And one defect Auth-Security does not have: §6.3 specifies per-step auto-save of preferences to Firestore during onboarding — an *\"Auto-saved\"* indicator (§6.3.6), retry-with-backoff on network error and full restore-on-resume (§6.3.4, §6.3.8). Written for the auth-first world, eve…",
-      "description_chars": 1628,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-08-18"
     },
     {
       "id": "CF-CLOSEOUT-TRANSCRIPT-GAP-1",
@@ -15345,6 +15291,33 @@
       "first_seen": "2026-08-11"
     },
     {
+      "id": "SIG-389",
+      "title": "Auth-Security v1.1 → v1.2…",
+      "description": "Added 2026-08-16 (attended; surfaced by the SIG-366 draft 2026-08-15). Claude Code builds from this document, not from the Claude Design files — and the document describes a different product. MSIG-PROD-AUTH-SECURITY-0001 v1.1 is dated 2026-05-01, two months BEFORE Decision 30 (2026-07-01) relocated sign-up to the 24th screen. It still routes /onboarding as route-class AUTH_ACTIVE (auth required to reach onboarding at all) and its §4.1/§4.2 flows both end by routing a newly-authenticated user INTO onboarding. Hand Claude Code this file today and it builds auth-first onboarding — the opposite…",
+      "description_chars": 2030,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-17"
+    },
+    {
       "id": "SIG-393",
       "title": "Comped-user paywall state…",
       "description": "Added 2026-08-17 (attended). Not new work — D-SIG316-12 ruled it on 2026-08-11 (*\"Don't skip the paywall for comped users — change its state\"*); it was invisible until it was drawn. Mocked at _Working/SIG-390_COMPED-PAYWALL_MOCKUP_2026-08-17.html, four states in the product palette. The design, agreed with Wolf 2026-08-17: keep the FOUNDER · best value chip, the four caps tiles and the Everything in Free, plus: bullets; replace the price row with a free/already-paid treatment; remove the trial timeline, the trial-reminder toggle, the money-back line and the whole Due today: $5 deposit receipt…",
@@ -15370,6 +15343,33 @@
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-17"
+    },
+    {
+      "id": "SIG-399",
+      "title": "PRD v1.5 → v1.6…",
+      "description": "Added 2026-08-18 (stand-up + Wolf ruling, attended: *\"Its own row\"*). The PRD is the build-facing document and it carries the identical pre-Decision-30 defect the SIG-389 draft catalogues in Auth-Security: §6.2.1 *\"Routes new users into onboarding (Screen 3) on successful signup\"* — the opposite of build-then-auth. And one defect Auth-Security does not have: §6.3 specifies per-step auto-save of preferences to Firestore during onboarding — an *\"Auto-saved\"* indicator (§6.3.6), retry-with-backoff on network error and full restore-on-resume (§6.3.4, §6.3.8). Written for the auth-first world, eve…",
+      "description_chars": 2459,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-18"
     },
     {
       "id": "CF-CLOUD-LANE-NO-PROVIDER-REACH-1",
@@ -20339,6 +20339,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 19, 2026 · 3:24 PM CEST",
-  "published_at_iso": "2026-08-19T15:24:14+0200"
+  "published_at": "August 19, 2026 · 8:35 PM CEST",
+  "published_at_iso": "2026-08-19T20:35:17+0200"
 }
