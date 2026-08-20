@@ -1114,6 +1114,33 @@
       "first_seen": "2026-08-17"
     },
     {
+      "id": "SIG-404",
+      "title": "Website prep pass…",
+      "description": "Added 2026-08-20 (attended stand-up). D-2026-08-20f — Wolf ruled the scope AND the sequence. Verbatim: *\"Do all the work that you think is necessary — 3 arcs, libraries, etc. that you recommend, and then if you think you have one of the strongest arcs and you want to draft a manifesto, argument, or letter based on what you feel is the strongest arc. After you finish all the three arcs, then do it after.\"* THE SEQUENCE IS A CONSTRAINT, NOT A PREFERENCE: three arcs finished completely → then, and only if one is clearly strongest, the long-form drafts. If the three are close, STOP AND BRING THRE…",
+      "description_chars": 2405,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "6-9h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-21"
+    },
+    {
       "id": "CF-CLOSEOUT-TRANSCRIPT-GAP-1",
       "title": "Two consecutive attended sessions did canonical work and filed no record…",
       "description": "Two consecutive attended sessions did canonical work and filed no record. Measured 2026-08-11: the newest file in _MAXX_OS/Transcripts/ is dated 2026-08-07. Since then MC-LAUNCHD-LANE-1 cont. (08-08, CFI v1.132→v1.133) and MC-STANDUP-2026-08-10 (Three-Step replacements on LIVE_SURFACES v0.3→v0.4) both ran attended and left neither transcript nor closeout. §5.8 calls this non-negotiable per standing founder direction. NIGHTLY_HYGIENE_2026-08-11.md BONUS check B caught the 08-10 half the night before; the 08-08 half was found only by this session counting the folder, so the new check sees one n…",
@@ -20420,6 +20447,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 20, 2026 · 10:50 PM CEST",
-  "published_at_iso": "2026-08-20T22:50:01+0200"
+  "published_at": "August 21, 2026 · 12:50 AM CEST",
+  "published_at_iso": "2026-08-21T00:50:22+0200"
 }
