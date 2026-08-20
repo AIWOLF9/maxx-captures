@@ -3125,8 +3125,8 @@
     {
       "id": "SIG-324",
       "title": "Publish compliant maxxsignal.com activation page",
-      "description": "BLOCKS SIG-049 — this is the gate on all revenue. Stripe will not activate an account whose site is a placeholder; requires business name, description of goods/services, customer-service contact, refund + dispute policy, cancellation policy, reachable without password. Live site is currently a waitlist capture and fails every requirement but the name. NOT the full SIG-204 marketing site — a compliance surface, reusable as /terms /pricing /refunds later. Draft from locked canon at _Working/SIG-049_maxxsignal-activation-page_DRAFT_2026-08-05.html. Deploy = Vercel, apex bound (D-2026-07-29a). [⬜…",
-      "description_chars": 1487,
+      "description": "BLOCKS SIG-049 — this is the gate on all revenue. Stripe will not activate an account whose site is a placeholder; requires business name, description of goods/services, customer-service contact, refund + dispute policy, cancellation policy, reachable without password. Live site is currently a waitlist capture and fails every requirement but the name. NOT the full SIG-204 marketing site — a compliance surface, reusable as /terms /pricing /refunds later. Draft from locked canon at _Working/SIG-049_maxxsignal-activation-page_DRAFT_2026-08-05.html.  [⚠️ RULING APPLIED 2026-08-20 (Wolf, attended,…",
+      "description_chars": 2365,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -20393,6 +20393,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 20, 2026 · 12:36 AM CEST",
-  "published_at_iso": "2026-08-20T00:36:47+0200"
+  "published_at": "August 20, 2026 · 8:49 PM CEST",
+  "published_at_iso": "2026-08-20T20:49:37+0200"
 }
