@@ -36,8 +36,8 @@
     {
       "id": "SIG-039",
       "title": "Claude Design production mockups…",
-      "description": "Mockups for feed, video player, settings/preferences, paywall, and share screens; iterate to lock.",
-      "description_chars": 98,
+      "description": "Mockups for feed, video player, settings/preferences, paywall, and share screens; iterate to lock. [⚠️ RE-SCOPED — D-2026-08-20e (Wolf, attended, 2026-08-20). Wolf: *\"if it's not complete or we need to add additional information to make sure that Claude Design creates all the mockups for all the service screens, then let's do so.\"* The old title named only feed + player + settings + paywall — roughly a fifth of the actual set, and the rest had no home on this board. VERIFIED 2026-08-20: 24 service screens exist as LOCKED self-contained HTML mockups in 03_Design/Working/mockups/ (52 files incl…",
+      "description_chars": 2144,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Design",
@@ -793,7 +793,7 @@
       "id": "SIG-358",
       "title": "The SIG-306d website writing set…",
       "description": "Added 2026-08-10 on Wolf instruction. The three drafts were authored 2026-08-10 with no board row — exactly the failure the anti-slip rule exists to prevent — so this row is the tracking, and _Working/SIGNAL_REVIEW_QUEUE.md rows 15/16/17 carry the per-item ask. Three homepage writing deliverables, all drafted, all awaiting Wolf. Read as ONE sitting in this order, ~50 min total: (1) The Argument — _Working/SIGNAL_THE-ARGUMENT_v0_1_DRAFT_2026-08-10.md — the belief spine, five numbered beliefs set for scroll. Two rulings: the belief count (4/5/7 — our own documents disagree) and belief 5. (2) Ou…",
-      "description_chars": 2700,
+      "description_chars": 7293,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1992,7 +1992,7 @@
       "id": "SIG-213",
       "title": "Email deliverability + Gmail Primary-tab placement research",
       "description": "Added 2026-07-03 (Wolf ask, gating-decisions chat). Research + playbook: how to (a) stay out of spam/junk and (b) land in Gmail Primary (not Promotions/Updates) for the daily reminder + lifecycle mail. Covers: SPF/DKIM/DMARC (Resend partly done) + sender-reputation warmup; the content signals that push mail into Promotions (bulk/newsletter markup, image-heavy, many links, promo language) vs. Primary (1:1 plain feel, personalized, account-related framing); the onboarding \"click to confirm\" engagement tactic Wolf flagged; list hygiene; unsubscribe-protects-reputation. Whether recurring product…",
-      "description_chars": 963,
+      "description_chars": 2453,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Ops",
@@ -10733,6 +10733,33 @@
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-18"
+    },
+    {
+      "id": "SIG-403",
+      "title": "Cross-platform trending signal → catalogue candidate feed (Wolf concept, 2026-08-20)",
+      "description": "Wolf's idea, 2026-08-20: *\"see what's trending within subject matters within our taxonomy… we put it into one list, compare it against what we have, see if there are things that we don't have, and make those suggested options.\"* What it is in plain terms: a weekly job that reads public trending lists, compares them against the named things Signal already holds, and outputs the gaps as CANDIDATES for the catalogue. It never touches a user's feed and never auto-adds anything — it proposes rows to a review step. That containment is what makes it safe, and it must not be relaxed. Closes a real ga…",
+      "description_chars": 3653,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "2-0",
+      "deadline_label": "Phase B1.5",
+      "deadline_class": "d-future",
+      "effort_mc": "6h",
+      "effort_wolf": "30m",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-20"
     },
     {
       "id": "CF-PM5h-3-H",
@@ -20393,6 +20420,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 20, 2026 · 8:49 PM CEST",
-  "published_at_iso": "2026-08-20T20:49:37+0200"
+  "published_at": "August 20, 2026 · 10:50 PM CEST",
+  "published_at_iso": "2026-08-20T22:50:01+0200"
 }
