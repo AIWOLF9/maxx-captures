@@ -5641,39 +5641,6 @@
       "first_seen": null
     },
     {
-      "id": "MOS-T-023",
-      "title": "yt-dlp YouTube skill research",
-      "description": "🔬 RESEARCHED — scrapers brief covered the transcript-tool landscape; yt-dlp = OSS alt to the then-GREEN-lit Supadata. ⛔ PREMISE SUPERSEDED 2026-07-18 — see MOS-T-040: Supadata is OUT, the transcript mechanism is Gemini-API-via-YouTube-URL. The 2026-08-03 nightly finding on this row (cloud-ASN blocking ⇒ 'Supadata is the only cloud-viable path') was reasoning from that dead premise and does NOT apply. Folds into the T-040 transcript-method decision (portfolio-wide). from cap-mpraak22hgk",
-      "description_chars": 490,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Ops",
-      "venture": "v-signal",
-      "ventures": [
-        "v-signal"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "2–4h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Auto",
-      "department": "Operations",
-      "prov": "capture",
-      "review": "r-researched",
-      "review_label": "Researched",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "MOS-T-039",
       "title": "Spend / budget dashboard widget",
       "description": "🔬 RESEARCHED 2026-07-31 (mc-nightly-autonomous-batch; applied MC-STANDUP-2026-07-31) — MAXX build / CAP candidate (spend across services/APIs, by venture). from cap-mpt2gv038ir. The 2026-07-18 blocker is closed: D-2026-07-27a + _index/SPEND_LOG.md supplied the venture dimension. Findings: _MAXX_OS/Research/nightly-batch/2026-07-18/... + .../2026-07-31/MOS-T-039-extension-2026-07-31-finding.md. Design constraint — attestation state must be a first-class field, not just dollars: SPEND_LOG reads $0.00 on all five buckets while its own §4 names a $10 SIG-300 release owed a row, and canon already…",
@@ -19776,6 +19743,39 @@
       "first_seen": null
     },
     {
+      "id": "MOS-T-023",
+      "title": "yt-dlp YouTube skill research",
+      "description": "✅ CLOSED 2026-08-21 AS SUPERSEDED (MC-STANDUP-2026-08-21, attended) — not a new ruling: the premise died on 2026-07-18 when Wolf ruled Supadata OUT (MOS-T-040), and every subsequent finding on this row reasoned from the dead premise. Closed under DAILY_STANDUP_PROTOCOL §8.1 — *a stale document is corrected, not queued* — after the nightly lane carried \"close as superseded\" as an undischarged founder recommendation for 8 days across three consecutive nights. Transcript work, if ever needed, lives on MOS-T-040 (Gemini-API-via-YouTube-URL). Prior text retained: 🔬 was-RESEARCHED — scrapers brief…",
+      "description_chars": 1059,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "ventures": [
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-done",
+      "review_label": "Done",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "MOS-T-031",
       "title": "Agent-creation methodology (RUFLO)",
       "description": "✅ DONE 2026-06-22 (MC-STANDUP-QUICKWINS-1) — methodology RATIFIED + codified at _MAXX_OS/Canonical/Final/MOS-AGENT-CREATION-METHODOLOGY-0001.md v1.0 (5 gates: Spec → Architecture+provenance → Build → Tests-with-skill → Register; borrows SPARC phasing). RUFLO stays REFERENCE-ONLY (permanent NO on install). Paired with T-041 (the origin: field is Gate 2). ◀ 🔬 RESEARCHED 2026-06-09 (agent-framework brief). from cap-mpv6e1b40kg [recovered 2026-08-06 CF-CAPTURE-DESCRIPTION-TRUNCATION-1 — full capture notes: https://youtube.com/shorts/DuDrHzaBQ3k?is=KputL-MpMB4iG-WD Just saw this video on the GitHu…",
@@ -20447,6 +20447,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 21, 2026 · 12:50 AM CEST",
-  "published_at_iso": "2026-08-21T00:50:22+0200"
+  "published_at": "August 21, 2026 · 4:51 PM CEST",
+  "published_at_iso": "2026-08-21T16:51:30+0200"
 }
