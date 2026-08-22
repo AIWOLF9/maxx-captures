@@ -4017,7 +4017,7 @@
       "id": "SIG-407",
       "title": "Image library…",
       "description": "Added 2026-08-21 (attended). Extends SIG-351 rather than duplicating it — that row owns the re-make; this row owns the LIBRARY. ⚠️ THE GOVERNING RULE, ruled by Wolf 2026-08-21 and it reverses the premise of the morning's audit: A LOGO IN AN IMAGE IS NEVER A BLOCKER. Everything we made or collected is reference and candidates; rebuilding is a choice made on the merits after we agree the final candidate, never a consequence of what is in the frame. Precedent is in our own inbox — One Sec, Opal and the blocker category ship platform logos on live commercial sites. The rule was already written in…",
-      "description_chars": 2103,
+      "description_chars": 3331,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -20555,6 +20555,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 22, 2026 · 12:52 AM CEST",
-  "published_at_iso": "2026-08-22T00:52:14+0200"
+  "published_at": "August 22, 2026 · 4:52 AM CEST",
+  "published_at_iso": "2026-08-22T04:52:55+0200"
 }
