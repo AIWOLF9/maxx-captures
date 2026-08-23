@@ -955,7 +955,7 @@
       "id": "SIG-376",
       "title": "Website messaging + positioning arc…",
       "description": "Added 2026-08-12 (attended, chat close; Wolf's own framing). The thinking between the structure and the words — and nothing on this board owned it. SIG-357 freezes WHICH pages exist; SIG-358 produces the finished copy; the arc that decides what the copy is FOR had no row at all. Wolf, verbatim in substance: *what do we want to accomplish with the website · what's the proper messaging people first see · how do we want to engage people · what's the right messaging arc as they move through the pages · what's the takeaway as people review the site.* Scope: the promise and positioning for the wait…",
-      "description_chars": 6194,
+      "description_chars": 7607,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1144,7 +1144,7 @@
       "id": "SIG-405",
       "title": "THE BOARD v9.0…",
       "description": "Added 2026-08-21 (attended). The tool rebuild Wolf specified across a long working session. v8 is renamed v9.0 — the file said v8 while its contents were v8.1 and Wolf lost time looking for a file that did not exist under the name a closeout gave it. Version numbers go on the artefact from now on, never only in the write-up. WHAT IS ALREADY THERE AND MUST NOT BE REBUILT (verified by rendering the board headless, after four features were proposed that already existed): six views · responsive preview works (ST.width = full/tab 820px/mob 412px) · word-count + read-time · live design tokens · a ?…",
-      "description_chars": 2590,
+      "description_chars": 4484,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -20555,6 +20555,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 23, 2026 · 10:55 PM CEST",
-  "published_at_iso": "2026-08-23T22:55:02+0200"
+  "published_at": "August 24, 2026 · 12:55 AM CEST",
+  "published_at_iso": "2026-08-24T00:55:29+0200"
 }
