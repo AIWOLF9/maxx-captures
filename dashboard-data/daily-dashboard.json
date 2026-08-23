@@ -3502,9 +3502,9 @@
     },
     {
       "id": "SIG-352",
-      "title": "Resolve six stale-number conflicts between Brand v1.5.2 and Pricing v1.4",
+      "title": "Reconcile the retired 10/20-category model out of Brand, the PRD, Pricing and the Data Model",
       "description": "Added 2026-08-07 (SIG-306 content inventory). Brand v1.5.2 contradicts Pricing v1.4 §0.11.1 in six places. The two that matter: §7.1.5 still says *10/20 categories* against the locked 40/120/180/300 channel caps, and §7.1.2 describes a waitlist counter that Decision 49 and Pricing §0.9 both forbid. Any of these reaching the website publishes a number we have already ruled against. These are canon edits and therefore Wolf's call — enumerate all six with the exact conflicting text side by side, then land them as one Brand version increment with a Change Log entry rather than six separate touche…",
-      "description_chars": 601,
+      "description_chars": 1589,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -5068,12 +5068,12 @@
     },
     {
       "id": "CF-SONNET5-LADDER-REWEIGH-1",
-      "title": "[2026-08-07 MC-REGISTER-TRIAGE-1, attended] KEPT…",
-      "description": "[2026-08-07 MC-REGISTER-TRIAGE-1, attended] KEPT — trigger replaced. Re-scoped to a full Opus 5 / Sonnet 5 / Haiku 4.5 re-weigh. Every agent run in the portfolio prices off this, and the cost geometry changed when Opus 5 launched. <br><br> *Prior text preserved:* RE-SCOPED 2026-07-27 (MC-STANDUP-2026-07-27) — now a full Opus 5 / Sonnet 5 / Haiku 4.5 re-weigh, not a Sonnet-only pass. APOLLO's 2026-07-26 scan converted it: Opus 5 (claude-opus-5, launched 2026-07-24) is $5/$25 per MTok — half Opus 4.8's cost per task at near-Fable-5 quality — with a 5-rung effort ladder (low/medium/high/xhigh/ma…",
-      "description_chars": 1011,
+      "title": "[2026-08-23 MC-STANDUP-2026-08-23, attended…",
+      "description": "[2026-08-23 MC-STANDUP-2026-08-23, attended — THE CLOCK ON THIS ROW WAS FICTIONAL AND IS DELETED. Sonnet 5's rise from $2/$10 to $3/$15 per MTok on 2026-09-01 was cancelled by Anthropic on 2026-08-10; $2/$10 is now the standard price, verified verbatim on Anthropic's pricing docs and reported in _index/WEEKLY_SYNTHESIS/_stage1_inputs/APOLLO-2026-08-23-weekly-scan.md (read 2026-08-23), which also retracts its own two-cycle carry of the opposite claim at HIGH confidence. No money moved and no lane changed — but a queued job was being paced by a deadline that had already evaporated. The re-weigh…",
+      "description_chars": 1903,
       "status": "s-todo",
       "priority": "p-p2",
-      "segment": "Agents",
+      "segment": "Hive Mind",
       "venture": "v-mos",
       "deadline": null,
       "deadline_label": "Closed when [[feedback_model_se…",
@@ -13216,27 +13216,6 @@
       "first_seen": "2026-08-07"
     },
     {
-      "id": "CF-CFI-LIVE-TOTAL-MEMBERSHIP-1",
-      "title": "The register's own live total cannot be reconciled from its own status table, and both readings are defensible…",
-      "description": "The register's own live total cannot be reconciled from its own status table, and both readings are defensible. §5 Quick stats (stamped v1.129 / 2026-08-07) reports Open 87 · Noticed 10 · Watch 4 · Deferred 21, and the drain reports a live total of 97. 87 + 10 = 97 exactly — which reads as though Watch and Deferred sit *outside* the live set — while the block lists all four together and states no membership rule. This is §5.4.4's own defect wearing the register's numbers: *a total cannot tell you which population it counted.* PORTFOLIO_STATUS v1.38 §7.0 surfaced it rather than picking a readi…",
-      "description_chars": 636,
-      "status": "s-noticed",
-      "priority": "p-p2",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Closes when §5 states its membe…",
-      "deadline_class": "d-future",
-      "effort_mc": "<30m",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "info",
-      "owner": "MC",
-      "kind": "cfi",
-      "first_seen": "2026-08-11"
-    },
-    {
       "id": "CF-AGENT-SHIP-ARGUS-ATLAS-1",
       "title": "SIGNAL asked Mission Control to ship two agents, and the ask is well-founded…",
       "description": "SIGNAL asked Mission Control to ship two agents, and the ask is well-founded — rowed here because a received escalation is not tracked by having been sent (§5.4.1 item 5). SIG-343b (2026-08-07): ARGUS owns the 20 Wolf-hours in QA and the launch gate; ATLAS owns the routing overhead that makes ten parallel lanes survivable. Verified against _index/_shared/AGENT_ROSTER.md rather than taken on assertion: both are SPEC, v0.1 authored 2026-06-19, *\"In progress, not Built/Live\"*, and the roster's own words are *\"the pantheon is fully specified; remaining work is shipping, not authoring.\"* Measured…",
@@ -19154,6 +19133,27 @@
       "first_seen": null
     },
     {
+      "id": "CF-CFI-LIVE-TOTAL-MEMBERSHIP-1",
+      "title": "[✅ Done…",
+      "description": "[✅ Done — CLOSED RETROACTIVELY 2026-08-23 MC-STANDUP-2026-08-23, attended. The fix landed 2026-08-17 in v1.135 and THIS ROW WAS NEVER FLIPPED — six days marked Noticed against a close condition that had already been met. §5 Quick stats now opens with the membership rule stated above the table it governs — *a row is LIVE if and only if its Status is Open or Noticed; Watch and Deferred are dispositioned, outside live and inside UNDISPOSED* — and §5's own text says in as many words that *\"CF-CFI-LIVE-TOTAL-MEMBERSHIP-1 closes here on its own close condition.\"* This is the DAILY_STANDUP_PROTOCOL…",
+      "description_chars": 1458,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Closes when §5 states its membe…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-11"
+    },
+    {
       "id": "CF-P1-INFLATION-1",
       "title": "P1 has stopped being a priority and become a label, and the number is the argument…",
       "description": "P1 has stopped being a priority and become a label, and the number is the argument. Measured 2026-08-06 from CARRY_FORWARD_INBOX §1's own rows, not from a header: 223 rows · 144 Open · 27 of them P1. That is 19% of the open register at top priority, which no lane can act on as a priority ordering. Nine are ≥29 days old, the oldest dated one 89 days (CF-BRAIN3-3, 2026-05-09 — the day this file was created), and six carry no date at all (CF-PM4a-3, CF-PM4d-2, CF-PM5g-3, CF-SPRINT-CLOSE-1, CF-SPRINT-CLOSE-2, CF-CAP-PHASE-TAGGING, CF-MARKETING-STACK-REVIEW-1, CF-CFI-SECTION-HEADER-COUNTS-1) so th…",
@@ -20555,6 +20555,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 22, 2026 · 4:52 AM CEST",
-  "published_at_iso": "2026-08-22T04:52:55+0200"
+  "published_at": "August 23, 2026 · 10:55 PM CEST",
+  "published_at_iso": "2026-08-23T22:55:02+0200"
 }
