@@ -1195,6 +1195,27 @@
       "first_seen": "2026-08-22"
     },
     {
+      "id": "CF-LANE-INSTRUCTIONS-UNREACHABLE-1",
+      "title": "~13 scheduled lanes carry UNVERSIONED production instructions that nothing reviews, and at least one has been…",
+      "description": "~13 scheduled lanes carry UNVERSIONED production instructions that nothing reviews, and at least one has been known-stale for three consecutive cycles. Where they are, quoted from our own transcript rather than inferred: /Users/wolfmini/Documents/Claude/Scheduled/<task-name>/SKILL.md — recorded 2026-05-21 in MAXX_OS_Chat_Transcript_2026-05-21_CAP-0006-v0.1.md line 203, the session that created the three Hive Mind lanes. That session used mcpscheduled-taskscreate_scheduled_task (Wolf approved each via dialog) and verified with mcpscheduled-taskslist_scheduled_tasks. Neither tool is connected t…",
+      "description_chars": 3945,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Hive Mind",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Closed when every lane's instru…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf connects the folder; MC audits and migrates",
+      "kind": "cfi",
+      "first_seen": "2026-08-24"
+    },
+    {
       "id": "CF-CADENCE-BLIND-TO-DESKTOP-LANES-1",
       "title": "The Cadence dashboard…",
       "description": "The Cadence dashboard — the surface whose entire job is *what is automated and when* — cannot see the layer where almost all of this portfolio's automation actually lives. build_cadence_items() in dashboard_renderers.py reads exactly two sources: _index/STATUS_SNAPSHOTS/_cloud_lanes.json (the cloud-scheduler projection) and launchd plists (Capabilities/*/launchd/*.plist plus ~/Library/LaunchAgents/com.maxx.*.plist). Cowork desktop scheduled tasks are neither, and every lane in Wolf's 2026-08-24 screenshot is marked *Runs on this computer* — i.e. a Cowork desktop task. Measured, not inferred:…",
@@ -4306,9 +4327,9 @@
     },
     {
       "id": "CF-SCHEDULED-TASK-DESCRIPTIONS-STALE-1",
-      "title": "Two scheduled tasks now describe times they no longer run at…",
-      "description": "Two scheduled tasks now describe times they no longer run at. After the 2026-08-24 changes: hive mind stage4 mission control propagation still reads *\"(Monday afternoon)\"* and now fires 21:00; hive mind stage1 maxx os reflection still reads *\"(Sunday afternoon)\"* and now fires Saturday 14:00. Small, and named anyway because of what it is: a task's description is the only place a future reader — or a future Wolf scanning fifteen cards — learns what the lane is for and when it runs, and DAILY_STANDUP_PROTOCOL §8.1 is explicit that *a stale document is corrected, not queued*. The correction is t…",
-      "description_chars": 726,
+      "title": "[AMENDED 2026-08-24…",
+      "description": "[AMENDED 2026-08-24 — the row said *what* to fix and never said *what to type*, which is the defect it was describing, one layer up. Exact replacement text now supplied.] Task Hive mind stage4 mission control propagation — replace its description with: Mission Control Stage 4 propagation execution with Stage-3-complete time-gate (Monday 8:00 PM — after the attended Monday standup). Task Hive mind stage1 maxx os reflection — replace its description with: MAXX OS Mission Control Stage 1 weekly reflection per COWORK_INSTRUCTIONS §4 (Saturday 2:00 PM — end of cycle). —— *(original row text follow…",
+      "description_chars": 1332,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Hive Mind",
@@ -19301,6 +19322,27 @@
       "first_seen": null
     },
     {
+      "id": "CF-SCHEDULER-TWO-STORES-DOCUMENTED-1",
+      "title": "[SUPERSEDED SAME DAY by CF-LANE-INSTRUCTIONS-UNREACHABLE-1 below…",
+      "description": "[SUPERSEDED SAME DAY by CF-LANE-INSTRUCTIONS-UNREACHABLE-1 below — the answer in this row was under-researched and Wolf pushed a THIRD time before it was right. Kept unedited as the audit trail of two wrong answers.] The correction: the lanes' instructions are ordinary markdown files at /Users/wolfmini/Documents/Claude/Scheduled/<task-name>/SKILL.md, and Mission Control created them with a tool called mcpscheduled-taskscreate_scheduled_task that was connected in May 2026 and is not connected in this session — verbatim from _MAXX_OS/Transcripts/MAXX_OS_Chat_Transcript_2026-05-21_CAP-0006-v0.1.…",
+      "description_chars": 2930,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Closed 2026-08-24.",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-24"
+    },
+    {
       "id": "CF-CFI-LIVE-TOTAL-MEMBERSHIP-1",
       "title": "[✅ Done…",
       "description": "[✅ Done — CLOSED RETROACTIVELY 2026-08-23 MC-STANDUP-2026-08-23, attended. The fix landed 2026-08-17 in v1.135 and THIS ROW WAS NEVER FLIPPED — six days marked Noticed against a close condition that had already been met. §5 Quick stats now opens with the membership rule stated above the table it governs — *a row is LIVE if and only if its Status is Open or Noticed; Watch and Deferred are dispositioned, outside live and inside UNDISPOSED* — and §5's own text says in as many words that *\"CF-CFI-LIVE-TOTAL-MEMBERSHIP-1 closes here on its own close condition.\"* This is the DAILY_STANDUP_PROTOCOL…",
@@ -20723,6 +20765,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 24, 2026 · 8:56 PM CEST",
-  "published_at_iso": "2026-08-24T20:56:52+0200"
+  "published_at": "August 24, 2026 · 10:57 PM CEST",
+  "published_at_iso": "2026-08-24T22:57:20+0200"
 }
