@@ -3177,33 +3177,6 @@
       "first_seen": "2026-07-31"
     },
     {
-      "id": "SIG-316",
-      "title": "Username + reservations schema…",
-      "description": "Added 2026-08-04 (attended; Wolf approved the SIG-280 draft §5 Q3 recommendation that this be its own row rather than folded into the v1.6 patch). The gap: PRD §6.2.12 *\"Username Collection + Reservation Integration (Chat 3 Phase A lock)\"* is a locked sub-spec — usernames collected at sign-up for ALL users, free and Signal+; real-time debounced availability check; seven visual states including a \"Held for you\" badge for names reserved to the signing-up email; three telemetry events; an admin tool at /admin/reservations. Its own Engineering impact line reads verbatim: *\"+1–1.5 day to B1 timeli…",
-      "description_chars": 3181,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "1.5h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Batch",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-08-04"
-    },
-    {
       "id": "SIG-324",
       "title": "Publish compliant maxxsignal.com activation page",
       "description": "BLOCKS SIG-049 — this is the gate on all revenue. Stripe will not activate an account whose site is a placeholder; requires business name, description of goods/services, customer-service contact, refund + dispute policy, cancellation policy, reachable without password. Live site is currently a waitlist capture and fails every requirement but the name. NOT the full SIG-204 marketing site — a compliance surface, reusable as /terms /pricing /refunds later. Draft from locked canon at _Working/SIG-049_maxxsignal-activation-page_DRAFT_2026-08-05.html.  [⚠️ RULING APPLIED 2026-08-20 (Wolf, attended,…",
@@ -3990,7 +3963,7 @@
       "id": "SIG-402",
       "title": "Username + reservations schema design…",
       "description": "Added 2026-08-19 (attended; SIG-280 Q3 ruled — its own row, not folded in). PRD §6.2.12 is locked and sizes this at +1–1.5 build-days, and neither the Data Model nor the screen spec has a surface for it — nor for the reservations collection the PRD's own sizing line names. Not a field: a schema design pass. Needs (a) a held-for-you reservation structure, (b) case-insensitive uniqueness — Firestore has no unique-index primitive, so uniqueness needs a second structure, (c) case-folding with display-case preserved, (d) the public-page binding, (e) the SIG-362 claim-token trigger, since D-SIG316-…",
-      "description_chars": 1178,
+      "description_chars": 2293,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Build",
@@ -4748,27 +4721,6 @@
       "created": null,
       "zone": "open",
       "owner": "MC",
-      "kind": "cfi",
-      "first_seen": "2026-08-04"
-    },
-    {
-      "id": "CF-DECISION-ID-ALLOCATION-1",
-      "title": "[AMENDED 2026-08-11 MC-STANDUP-2026-08-11, attended…",
-      "description": "[AMENDED 2026-08-11 MC-STANDUP-2026-08-11, attended — this row's own count is stale and understates in the direction that matters.] It says *four* live D- collisions; there are six. MC-MOBBIN-MCP-1 self-corrected a fifth on 2026-08-06 and named it *\"a codified trap\"*; the sixth, D-2026-08-04i, carries two entirely different definitions in two closeouts written the same day — *the plain-English numbered readout is the standing wrap-up format* and *v2.8's real scope is six drafted rows plus three CFs* — and a full-substrate grep finds no correction anywhere: no annotation, no observations-log n…",
-      "description_chars": 1145,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Hive Mind",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "MC",
-      "deadline_class": "d-future",
-      "effort_mc": "<30m",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "[2026-08-07 MC-REGISTER-TRIAGE-1, attended] KEPT — trigger replaced. Four live D- collisions in four days, in the portfolio's primary citation key. §5.4.2 pre-allocates OBS/BS/CAP/SIG and never enumerated D-. Its old trigger — *rides the v2.8 Three-Step* — was spent on 2026-08-04 without serving it. <br><br> *Prior text preserved:* Extend §5.4.2 pre-allocation to the D- family, and disambiguate four live collisions. §5.4.2 exists *because* two parallel Signal chats produced two items wearing one SIG- ID. It responded by pre-allocating OBS-, CAP- and SIG- — and did not enumerate D-. Within four days, four decision IDs each named two different decisions authored the same day by parallel MC chats: D-2026-07-31a (*\"never ban ToolSearch\"* vs *\"autonomous runs MAY create To-do rows, MAY NOT flip status\"*), D-2026-07-31b (*\"runtime rule for scheduled lanes\"* vs *\"a field is authoritative or decorative\"*), D-2026-08-01a (*\"fund the return-path package\"* vs *\"Cowork-remote lane class retired\"*), D-2026-08-01b (*\"approve Signal cadence v0.2\"* vs *\"evidence-provenance rule\"*). Nothing downstream flagged any of them — every write landed cleanly, which is §5.4.2's own thesis (*a guard that protects bytes does not protect meaning*) firing on §5.4.2's own blind spot. Downstream files resolve -31a/-31b to one meaning each by usage; both 08-01 pairs remain genuinely ambiguous. Deliverable: the §5.4.2 amendment naming D- (and the general rule — enumerate the *class*, not the instance), plus a disambiguation ruling for the four. DEMOTED P1 → P2 2026-08-06 MC-P1-TRIAGE-1 against D-2026-08-06g — the closest call of the twelve, and the reasoning is recorded because it deserves to be contested. Four D- collisions is an integrity defect in the portfolio's primary citation key. It fails the *loses information irrecoverably* limb on a narrow reading: both decisions in each colliding pair still exist and are still readable — they are ambiguously keyed, not lost, and ambiguity is repairable later at higher cost. Its trigger is spent: *\"rides the codification v2.8 Three-Step\"* — v2.8 shipped 2026-08-04 and §5.4.2 still enumerates only OBS-/BS-/CAP-/SIG-, so the row was carried past its own discharge point. Re-pointed. This pass allocated D-2026-08-06g by grepping a–f off disk first, which is the discipline this row is asking for, applied by hand.",
       "kind": "cfi",
       "first_seen": "2026-08-04"
     },
@@ -6832,7 +6784,7 @@
       "id": "SIG-286",
       "title": "Top-lists / entity refresh-cadence policy",
       "description": "Added 2026-07-20 (SIG-273 walkthrough). Formalize refresh cadence for volatile top-X entity lists (athletes, artists, shows, celebrities, games): live/timely (news, trends, live sports) · monthly (music, movies/TV, gaming, celebrity, pop culture, podcasts) · quarterly + event-triggered (athletes/breakouts — after World Cup/playoffs/Grand Slams/fights/awards/game launches) · evergreen yearly (history, philosophy, foundational science, how-to, arts canon, faith). Piggybacks on Curation Engine §8 monthly-full+weekly-rotating; search covers the long tail so refresh = keeping suggestions current,…",
-      "description_chars": 831,
+      "description_chars": 1210,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Product",
@@ -11168,6 +11120,33 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
+    },
+    {
+      "id": "SIG-316",
+      "title": "Username + reservations schema…",
+      "description": "Added 2026-08-04 (attended; Wolf approved the SIG-280 draft §5 Q3 recommendation that this be its own row rather than folded into the v1.6 patch). The gap: PRD §6.2.12 *\"Username Collection + Reservation Integration (Chat 3 Phase A lock)\"* is a locked sub-spec — usernames collected at sign-up for ALL users, free and Signal+; real-time debounced availability check; seven visual states including a \"Held for you\" badge for names reserved to the signing-up email; three telemetry events; an admin tool at /admin/reservations. Its own Engineering impact line reads verbatim: *\"+1–1.5 day to B1 timeli…",
+      "description_chars": 3907,
+      "status": "s-blocked",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "waiting",
+      "owner": "Claude",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-04"
     },
     {
       "id": "CAP-0060",
@@ -15906,6 +15885,27 @@
       "first_seen": "2026-08-04"
     },
     {
+      "id": "CF-DECISION-ID-ALLOCATION-1",
+      "title": "[CLOSED 2026-08-24 MC-STANDUP-2026-08-24, attended…",
+      "description": "[CLOSED 2026-08-24 MC-STANDUP-2026-08-24, attended — D-MC-2026-08-24a, Wolf ruled venture-scoped decision IDs.] All three parts of this row's own recommendation executed in one pass. (1) The count is amended 6 → 10 and the cross-venture sub-class recorded — six between parallel Mission Control chats, three cross-venture (D-2026-08-20b/c/d, MC vs SIGNAL, verified by a full D-2026-* namespace grep in the 2026-08-23 synthesis pass), plus D-2026-08-19d issued twice internally the same week. And the count was re-derived rather than transcribed, which corrected it in the SAFE direction for the firs…",
+      "description_chars": 4673,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Hive Mind",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "MC",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "[2026-08-07 MC-REGISTER-TRIAGE-1, attended] KEPT — trigger replaced. Four live D- collisions in four days, in the portfolio's primary citation key. §5.4.2 pre-allocates OBS/BS/CAP/SIG and never enumerated D-. Its old trigger — *rides the v2.8 Three-Step* — was spent on 2026-08-04 without serving it. <br><br> *Prior text preserved:* Extend §5.4.2 pre-allocation to the D- family, and disambiguate four live collisions. §5.4.2 exists *because* two parallel Signal chats produced two items wearing one SIG- ID. It responded by pre-allocating OBS-, CAP- and SIG- — and did not enumerate D-. Within four days, four decision IDs each named two different decisions authored the same day by parallel MC chats: D-2026-07-31a (*\"never ban ToolSearch\"* vs *\"autonomous runs MAY create To-do rows, MAY NOT flip status\"*), D-2026-07-31b (*\"runtime rule for scheduled lanes\"* vs *\"a field is authoritative or decorative\"*), D-2026-08-01a (*\"fund the return-path package\"* vs *\"Cowork-remote lane class retired\"*), D-2026-08-01b (*\"approve Signal cadence v0.2\"* vs *\"evidence-provenance rule\"*). Nothing downstream flagged any of them — every write landed cleanly, which is §5.4.2's own thesis (*a guard that protects bytes does not protect meaning*) firing on §5.4.2's own blind spot. Downstream files resolve -31a/-31b to one meaning each by usage; both 08-01 pairs remain genuinely ambiguous. Deliverable: the §5.4.2 amendment naming D- (and the general rule — enumerate the *class*, not the instance), plus a disambiguation ruling for the four. DEMOTED P1 → P2 2026-08-06 MC-P1-TRIAGE-1 against D-2026-08-06g — the closest call of the twelve, and the reasoning is recorded because it deserves to be contested. Four D- collisions is an integrity defect in the portfolio's primary citation key. It fails the *loses information irrecoverably* limb on a narrow reading: both decisions in each colliding pair still exist and are still readable — they are ambiguously keyed, not lost, and ambiguity is repairable later at higher cost. Its trigger is spent: *\"rides the codification v2.8 Three-Step\"* — v2.8 shipped 2026-08-04 and §5.4.2 still enumerates only OBS-/BS-/CAP-/SIG-, so the row was carried past its own discharge point. Re-pointed. This pass allocated D-2026-08-06g by grepping a–f off disk first, which is the discipline this row is asking for, applied by hand.",
+      "kind": "cfi",
+      "first_seen": "2026-08-04"
+    },
+    {
       "id": "CF-RECORD-PHANTOM-LEDGER-DISCRIMINATOR-1",
       "title": "verify_canonical_integrity.py --record cannot detect that its own ledger is a phantom, and reports green when…",
       "description": "verify_canonical_integrity.py --record cannot detect that its own ledger is a phantom, and reports green when it is. Fired against Mission Control 2026-08-05. The memory rule *(do not run --record from a cloud session)* is correct and was nearly overturned on the strength of this tool's own output. Mechanism: --maxx-root can be pointed at the real mount while --state-dir silently defaults to Path.home()/.maxx, which in a bridge session is /sessions/<session-id>/ — a throwaway. --record then *creates* the ledger and immediately compares the files to it, so the comparison is X == X and the row…",
@@ -20555,6 +20555,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 24, 2026 · 12:55 AM CEST",
-  "published_at_iso": "2026-08-24T00:55:29+0200"
+  "published_at": "August 24, 2026 · 6:56 PM CEST",
+  "published_at_iso": "2026-08-24T18:56:14+0200"
 }
