@@ -1222,6 +1222,27 @@
       "first_seen": "2026-08-25"
     },
     {
+      "id": "CF-IMAGE-LIBRARY-UNDESCRIBED-1",
+      "title": "2,202 images indexed, 165 described (7.5%), 0 titled, 0 scored…",
+      "description": "2,202 images indexed, 165 described (7.5%), 0 titled, 0 scored; ratings.json 0% filled on score/tier/serves/rights across 2,663 entries — and the 165 described are all product renders described from their own filenames. The emotive library (136 founder-picks · 76 research-harm · 32 research-brain) is effectively undescribed, which makes semantic image matching impossible: an index of filenames, categories and dimensions supports *filtering*, not *matching*. This is a data gap, not a build gap — the schema is already correct and empty (img_index.json carries ti/sv/no/sc/ri). The fix is a visio…",
+      "description_chars": 1073,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Research",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Before SIGNAL's Artifact 3 fill…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "SIGNAL (executes) · MC (proposed)",
+      "kind": "cfi",
+      "first_seen": "2026-08-25"
+    },
+    {
       "id": "CF-LANE-INSTRUCTIONS-UNREACHABLE-1",
       "title": "~13 scheduled lanes carry UNVERSIONED production instructions that nothing reviews, and at least one has been…",
       "description": "~13 scheduled lanes carry UNVERSIONED production instructions that nothing reviews, and at least one has been known-stale for three consecutive cycles. Where they are, quoted from our own transcript rather than inferred: /Users/wolfmini/Documents/Claude/Scheduled/<task-name>/SKILL.md — recorded 2026-05-21 in MAXX_OS_Chat_Transcript_2026-05-21_CAP-0006-v0.1.md line 203, the session that created the three Hive Mind lanes. That session used mcpscheduled-taskscreate_scheduled_task (Wolf approved each via dialog) and verified with mcpscheduled-taskslist_scheduled_tasks. Neither tool is connected t…",
@@ -4351,6 +4372,27 @@
       "zone": "open",
       "kind": "cap",
       "first_seen": null
+    },
+    {
+      "id": "CF-CAP-0057-TRIGGER-FIRED-1",
+      "title": "CAP-0057's upgrade trigger has fired and nothing noticed…",
+      "description": "CAP-0057's upgrade trigger has fired and nothing noticed. The row was greenlit 2026-06-29 scoped to *\"the APOLLO-style in-Cowork multi-stream we already run (NOT a Claude-Code dependency)\"* with an explicit upgrade condition: _\"re-scope to native dynamic workflows if/when they reach Cowork.\"_ They have. Mission Control ran a 64-agent, 6-lens, 0-failure adversarial audit via the native Workflow tool on 2026-08-25 — 58 findings raised, 20 refuted by per-finding verification, 38 survived. The capability is not pending; it is in production and undocumented. Re-scope CAP-0057 to the native engine…",
+      "description_chars": 782,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next capabilities pass. Evidenc…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-25"
     },
     {
       "id": "CF-SCHEDULED-TASK-DESCRIPTIONS-STALE-1",
@@ -7616,6 +7658,27 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-18"
+    },
+    {
+      "id": "CF-CAP-0055-SEO-TRIGGER-1",
+      "title": "CAP-0055's build trigger reads _\"a SIGNAL content sprint is scheduled\"_…",
+      "description": "CAP-0055's build trigger reads _\"a SIGNAL content sprint is scheduled\"_ — and a website copy lane with an open route-naming question is arguably that. Two things measured 2026-08-25 make this cheaper than the row assumes. (1) The row records the Ahrefs API as \"Enterprise / $500–$10k/mo\"; it is now bundled from Lite at $129/mo — *stale in the safe direction, but stale.* (2) Google Ads Keyword Planner covers the volume half for free and was run this session: doomscrolling 50,000/mo at competition index 1, block youtube shorts 5,000/mo at index 1 with a $5.93 top bid. So the free-stack lock (SEO…",
+      "description_chars": 798,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Research",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Data at SIGNAL/Research/keyword…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC + Wolf",
+      "kind": "cfi",
+      "first_seen": "2026-08-25"
     },
     {
       "id": "CF-DISPATCH-IPHONE-PAIRING-1",
@@ -19349,6 +19412,27 @@
       "first_seen": null
     },
     {
+      "id": "CF-SIG-BOARD-SKELETON-AUTHORITY-1",
+      "title": "Wolf ruled 2026-08-25 that SIGNAL's SKELETON VIEW is editable in place…",
+      "description": "Wolf ruled 2026-08-25 that SIGNAL's SKELETON VIEW is editable in place — which creates a second live store of the 31-beat skeleton, and the direction rule that keeps it safe currently exists in one working spec and nowhere else. The skeleton lives at SIGNAL/_Working/SIG-376_ARTIFACT-2_SKELETON_v0_3_DRAFT_2026-08-25.md (31 beats · 9 acts · five columns per beat). The board (_Working/MAXX_SIGNAL_THE_BOARD_v9.html, v11.2) cannot hold four of those five columns — measured 2026-08-25: imageJob 0, bMove 0, bProof 0, bJob 1 and emotional 4, the last two being prose/data-string hits at lines 1377/761…",
+      "description_chars": 2124,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Closes when D-2026-08-25a appea…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "MC → SIGNAL",
+      "kind": "cfi",
+      "first_seen": "2026-08-25"
+    },
+    {
       "id": "CF-SCHEDULER-TWO-STORES-DOCUMENTED-1",
       "title": "[SUPERSEDED SAME DAY by CF-LANE-INSTRUCTIONS-UNREACHABLE-1 below…",
       "description": "[SUPERSEDED SAME DAY by CF-LANE-INSTRUCTIONS-UNREACHABLE-1 below — the answer in this row was under-researched and Wolf pushed a THIRD time before it was right. Kept unedited as the audit trail of two wrong answers.] The correction: the lanes' instructions are ordinary markdown files at /Users/wolfmini/Documents/Claude/Scheduled/<task-name>/SKILL.md, and Mission Control created them with a tool called mcpscheduled-taskscreate_scheduled_task that was connected in May 2026 and is not connected in this session — verbatim from _MAXX_OS/Transcripts/MAXX_OS_Chat_Transcript_2026-05-21_CAP-0006-v0.1.…",
@@ -20792,6 +20876,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 25, 2026 · 12:59 PM CEST",
-  "published_at_iso": "2026-08-25T12:59:43+0200"
+  "published_at": "August 25, 2026 · 5:00 PM CEST",
+  "published_at_iso": "2026-08-25T17:00:14+0200"
 }
