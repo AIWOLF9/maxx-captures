@@ -739,7 +739,7 @@
       "id": "SIG-350",
       "title": "Source or retire the four uncited claims before any of them reach the website",
       "description": "Added 2026-08-07 (SIG-306 content inventory; this is a liability row, not a polish row). Four load-bearing claims appear in onboarding and draft marketing copy with no receipt anywhere on disk: *~70% of what you watch*, *7 in 10 teens / ~90% of adults*, *100–300+ hrs/year*, and the 38,599-hour Attention Receipt. SIG-067 explicitly warned against unsourced statistics and the onboarding deck did it anyway. On a brand whose whole thesis is anti-manipulation and whose /receipts page invites people to check us, an uncited number is the single most damaging thing we can publish. Method: for each cl…",
-      "description_chars": 4232,
+      "description_chars": 5941,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Content",
@@ -955,7 +955,7 @@
       "id": "SIG-376",
       "title": "Website messaging + positioning arc…",
       "description": "Added 2026-08-12 (attended, chat close; Wolf's own framing). The thinking between the structure and the words — and nothing on this board owned it. SIG-357 freezes WHICH pages exist; SIG-358 produces the finished copy; the arc that decides what the copy is FOR had no row at all. Wolf, verbatim in substance: *what do we want to accomplish with the website · what's the proper messaging people first see · how do we want to engage people · what's the right messaging arc as they move through the pages · what's the takeaway as people review the site.* Scope: the promise and positioning for the wait…",
-      "description_chars": 7607,
+      "description_chars": 8855,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1171,7 +1171,7 @@
       "id": "SIG-406",
       "title": "Module library expansion + re-set against the six acts",
       "description": "Added 2026-08-21 (attended). Wolf overruled the prior sequencing and he was right: this runs BEFORE the arc session, not after. His reasoning: the arc session *composes* from modules, so an impoverished module library produces a thin arc — and modules are arc-independent because the arc is the ordering and selection, not the authoring. He also overruled the caution about generating unused modules: *\"they can be used in more than one place, some may fit multiple places\"* — unused modules are inventory, not waste. THE SIX ACTS, in Wolf's own words: (1) grabbing their attention · (2) laying out…",
-      "description_chars": 2321,
+      "description_chars": 2961,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1198,7 +1198,7 @@
       "id": "SIG-409",
       "title": "Founding-member cap removal never propagated…",
       "description": "Added 2026-08-25 (unattended stand-up; anti-slip rule — a draft in _Working/ is not tracking). Pricing §0.4 removed the first-1,000 founding cap, the real-time counter and the \"N spots remaining\" display. The removal never reached the bodies. 54 live locations survive: Pricing v1.4.2 (33), PRD v1.6 (18), Mandate v1.4 (3) — including a Cloud Function endpoint /api/pricing/founding-counter, a Firestore seed capLimit: 1000, a 15-min scheduled hard-cap job, 950/1000 SMS+email alerts, a 410 Gone route, a telemetry field, an admin progress-bar card, a launch-day runbook and a pre-launch checklist r…",
-      "description_chars": 2090,
+      "description_chars": 3194,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Product",
@@ -1220,6 +1220,33 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-25"
+    },
+    {
+      "id": "SIG-414",
+      "title": "Ten founder decisions from 2026-07-31 → 2026-08-21 are still unfiled in the Decisions Log",
+      "description": "Added 2026-08-25 (SIG-413, attended). Decision 51 recorded a thirteen-decision gap. SIG-413 filed three of them — Decisions 54, 55, 56 (D-2026-08-20c, D-2026-08-20d, D-2026-08-12k) — plus a fourteenth that was never on the list at all: D-2026-08-19r, the register split, now Decision 53. TEN REMAIN: D-2026-07-31a (autonomous runs may CREATE rows, never flip STATUS) · D-2026-07-31b · D-2026-08-04h (the Linked column) · D-2026-08-12b (an external-counterparty clock puts a row in 03 EXTERNAL SETUP regardless of Segment) · D-2026-08-12i (legal pages are NOT a Ship 1 blocker; the only gate is publi…",
+      "description_chars": 3984,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
+      "effort_wolf": "0.6h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-08-26"
     },
     {
       "id": "CF-IMAGE-LIBRARY-UNDESCRIBED-1",
@@ -4110,7 +4137,7 @@
       "id": "SIG-401",
       "title": "Email retention system…",
       "description": "Added 2026-08-19 (attended; Wolf ask — supersedes the narrow SIG-213 framing). Wolf: *\"We probably need to have a process there, so put something together, see what you recommend, do whatever research you need to, and bring that back… not a major priority per se.\"* Five parts, one design. (1) No naked \"unsubscribe\" link — an EMAIL SETTINGS page. Wolf: *\"I've seen in other places where it didn't say unsubscribe; it would say Email settings… it would go to a page, and there it would try to convince me not to unsubscribe.\"* (2) A step-down ladder, mirroring the cancellation ladder. Daily → every…",
-      "description_chars": 2260,
+      "description_chars": 3544,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Ops",
@@ -20939,6 +20966,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 25, 2026 · 7:00 PM CEST",
-  "published_at_iso": "2026-08-25T19:00:42+0200"
+  "published_at": "August 26, 2026 · 1:03 AM CEST",
+  "published_at_iso": "2026-08-26T01:03:29+0200"
 }
