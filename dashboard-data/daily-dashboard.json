@@ -1195,6 +1195,33 @@
       "first_seen": "2026-08-22"
     },
     {
+      "id": "SIG-409",
+      "title": "Founding-member cap removal never propagated…",
+      "description": "Added 2026-08-25 (unattended stand-up; anti-slip rule — a draft in _Working/ is not tracking). Pricing §0.4 removed the first-1,000 founding cap, the real-time counter and the \"N spots remaining\" display. The removal never reached the bodies. 54 live locations survive: Pricing v1.4.2 (33), PRD v1.6 (18), Mandate v1.4 (3) — including a Cloud Function endpoint /api/pricing/founding-counter, a Firestore seed capLimit: 1000, a 15-min scheduled hard-cap job, 950/1000 SMS+email alerts, a 410 Gone route, a telemetry field, an admin progress-bar card, a launch-day runbook and a pre-launch checklist r…",
+      "description_chars": 2090,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-25"
+    },
+    {
       "id": "CF-LANE-INSTRUCTIONS-UNREACHABLE-1",
       "title": "~13 scheduled lanes carry UNVERSIONED production instructions that nothing reviews, and at least one has been…",
       "description": "~13 scheduled lanes carry UNVERSIONED production instructions that nothing reviews, and at least one has been known-stale for three consecutive cycles. Where they are, quoted from our own transcript rather than inferred: /Users/wolfmini/Documents/Claude/Scheduled/<task-name>/SKILL.md — recorded 2026-05-21 in MAXX_OS_Chat_Transcript_2026-05-21_CAP-0006-v0.1.md line 203, the session that created the three Hive Mind lanes. That session used mcpscheduled-taskscreate_scheduled_task (Wolf approved each via dialog) and verified with mcpscheduled-taskslist_scheduled_tasks. Neither tool is connected t…",
@@ -20765,6 +20792,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 24, 2026 · 10:57 PM CEST",
-  "published_at_iso": "2026-08-24T22:57:20+0200"
+  "published_at": "August 25, 2026 · 12:59 PM CEST",
+  "published_at_iso": "2026-08-25T12:59:43+0200"
 }
