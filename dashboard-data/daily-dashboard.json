@@ -739,7 +739,7 @@
       "id": "SIG-350",
       "title": "Source or retire the four uncited claims before any of them reach the website",
       "description": "Added 2026-08-07 (SIG-306 content inventory; this is a liability row, not a polish row). Four load-bearing claims appear in onboarding and draft marketing copy with no receipt anywhere on disk: *~70% of what you watch*, *7 in 10 teens / ~90% of adults*, *100–300+ hrs/year*, and the 38,599-hour Attention Receipt. SIG-067 explicitly warned against unsourced statistics and the onboarding deck did it anyway. On a brand whose whole thesis is anti-manipulation and whose /receipts page invites people to check us, an uncited number is the single most damaging thing we can publish. Method: for each cl…",
-      "description_chars": 5941,
+      "description_chars": 6778,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Content",
@@ -3678,7 +3678,7 @@
       "id": "SIG-352",
       "title": "Reconcile the retired 10/20-category model out of Brand, the PRD, Pricing and the Data Model",
       "description": "Added 2026-08-07 (SIG-306 content inventory). Brand v1.5.2 contradicts Pricing v1.4 §0.11.1 in six places. The two that matter: §7.1.5 still says *10/20 categories* against the locked 40/120/180/300 channel caps, and §7.1.2 describes a waitlist counter that Decision 49 and Pricing §0.9 both forbid. Any of these reaching the website publishes a number we have already ruled against. These are canon edits and therefore Wolf's call — enumerate all six with the exact conflicting text side by side, then land them as one Brand version increment with a Change Log entry rather than six separate touche…",
-      "description_chars": 1589,
+      "description_chars": 2624,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -4083,7 +4083,7 @@
       "id": "SIG-396",
       "title": "Channel-builder screen #17…",
       "description": "Added 2026-08-18 (SIG-360, attended; W-35 + W-36). Wolf ruled both features out of onboarding and into the in-service channel builder — they are returning-member moves, not first-run moves. Neither is on any service screen today. Verified 2026-08-17 across all 50 files in 03_Design/Working/mockups/, the mockup index, and the four channel/creator screen specs: zero occurrences of promote-⤴ or entity-follow in any of them. This is NOT a new screen. Promote is a control plus a resulting state, and a promoted channel *is* a channel, so it renders as #17 Channel — detail + builder (S17_channel-det…",
-      "description_chars": 2179,
+      "description_chars": 2725,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -20966,6 +20966,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 26, 2026 · 1:03 AM CEST",
-  "published_at_iso": "2026-08-26T01:03:29+0200"
+  "published_at": "August 26, 2026 · 2:59 PM CEST",
+  "published_at_iso": "2026-08-26T14:59:36+0200"
 }
