@@ -3675,33 +3675,6 @@
       "first_seen": "2026-08-08"
     },
     {
-      "id": "SIG-352",
-      "title": "Reconcile the retired 10/20-category model out of Brand, the PRD, Pricing and the Data Model",
-      "description": "Added 2026-08-07 (SIG-306 content inventory). Brand v1.5.2 contradicts Pricing v1.4 §0.11.1 in six places. The two that matter: §7.1.5 still says *10/20 categories* against the locked 40/120/180/300 channel caps, and §7.1.2 describes a waitlist counter that Decision 49 and Pricing §0.9 both forbid. Any of these reaching the website publishes a number we have already ruled against. These are canon edits and therefore Wolf's call — enumerate all six with the exact conflicting text side by side, then land them as one Brand version increment with a Change Log entry rather than six separate touche…",
-      "description_chars": 2624,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Governance",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Batch",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": "2026-08-08"
-    },
-    {
       "id": "SIG-353",
       "title": "Write the palette's missing half into Brand…",
       "description": "Added 2026-08-07 (SIG-306 research §7.6 and §7.8). The brand lock names the colours but not what they *mean*, and without that engineers invent greys and the lock drifts inside a sprint. Add: cyan = interactive or live; gold = value or measurement; nothing else gets colour — and gold gets its own screen region rather than sitting adjacent to cyan at small sizes. Also record that cyan fails contrast for body copy on #0A0B10 — body must be near-white at roughly 7:1. Add a will-not-ship list beside the palette lock: smooth scroll (Lenis-class), magnetic cursors, horizontal scroll-hijacking, and…",
@@ -4240,6 +4213,33 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-22"
+    },
+    {
+      "id": "SIG-419",
+      "title": "Receipts pack…",
+      "description": "Added 2026-08-27 (attended stand-up). Four claims came out of the founder session, all wanted, none printable yet. (1) The aggregate fines figure — *\"tens and tens of billions\"* across all platforms; $18bn (Meta) is verified, the total is not. (2) A fast-food chain's admission of downgraded ingredients. (3) Chocolate makers substituting ingredients. (4) Doctors appearing in cigarette advertising, 1940s–60s — documented, needs only its citation attached. Plus the standing correction from Decision 82: *\"Meta lost the case\"* and *\"fraud\"* are both unsupportable — Meta settled, and the California…",
+      "description_chars": 774,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-27"
     },
     {
       "id": "CAP-0029",
@@ -7748,6 +7748,33 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-18"
+    },
+    {
+      "id": "SIG-420",
+      "title": "Nesting…",
+      "description": "Added 2026-08-27 (attended stand-up). SIG-352 confirmed nesting is a genuine feature — *\"A whole channel → Nest it — pick where it lands\"*, the whole-playlist-inside-a-playlist idea — and distinct from the sub-channel hierarchy Decision 74 removed. The retired wording *\"choose parent channel / subchannel\"* was struck from four LOCKED sites; the feature stands. What remains genuinely open is the spec's own [INFERRED] note: how deep may nesting go, and may a channel be nested in more than one parent? This is where a hierarchy can quietly grow back, and it interacts with the Decision 73 counting…",
+      "description_chars": 736,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Build",
+      "deadline_class": "d-future",
+      "effort_mc": "spec ~1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-08-27"
     },
     {
       "id": "CF-CAP-0055-SEO-TRIGGER-1",
@@ -15855,6 +15882,33 @@
       "first_seen": "2026-08-18"
     },
     {
+      "id": "SIG-418",
+      "title": "Brand patch…",
+      "description": "Added 2026-08-27 (attended stand-up). Decisions 78–84 are filed in the log; two of them must reach Brand before any copy session or they will be re-run at the founder, which is exactly how Decision 81 became a repeat. (a) §1.0 gains the plain-language rule — consumer surfaces are written at roughly a fifth-grade level, jargon-free, harm explained through examples and comparisons; feed is demoted from any main line, NOT banned (Wolf: *\"we're going to use 'take back your feed', but it's kind of a technical term\"*); the Take back your _ family fills with *attention · focus · freedom of choice*.…",
+      "description_chars": 2024,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Brand",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "spec ~1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-08-27"
+    },
+    {
       "id": "CF-CLOUD-LANE-NO-PROVIDER-REACH-1",
       "title": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE…",
       "description": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE — discharged on evidence that had been sitting on disk for three days. The row's own re-pointed trigger (2026-08-07) says it closes on execution, verified by reading the output file, not by the job reporting success. Four artifacts now satisfy it, each stamped by the run into its own bytes rather than read from a Drive-rewritten mtime: provider-reach/runs/PROVIDER-REACH_2026-08-{08,09,10,11}T01*Z.md — OpenAI HTTP 200 / 124 models and Google HTTP 200 / 50 models on every run, $0.00 (unbilled model-list endpoints), corroborated live in AGENT_INB…",
@@ -18955,6 +19009,33 @@
       "first_seen": "2026-08-07"
     },
     {
+      "id": "SIG-352",
+      "title": "Reconcile the retired 10/20-category model out of Brand, the PRD, Pricing and the Data Model",
+      "description": "Added 2026-08-07 (SIG-306 content inventory). Brand v1.5.2 contradicts Pricing v1.4 §0.11.1 in six places. The two that matter: §7.1.5 still says *10/20 categories* against the locked 40/120/180/300 channel caps, and §7.1.2 describes a waitlist counter that Decision 49 and Pricing §0.9 both forbid. Any of these reaching the website publishes a number we have already ruled against. These are canon edits and therefore Wolf's call — enumerate all six with the exact conflicting text side by side, then land them as one Brand version increment with a Change Log entry rather than six separate touche…",
+      "description_chars": 3533,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-08-08"
+    },
+    {
       "id": "SIG-368",
       "title": "DECIDE…",
       "description": "Added 2026-08-11 (attended; Claude pushback on Wolf's proposal, recorded as a disagreement rather than applied). Wolf proposed day 1 / 2 / 3 / 5 / 7 reminders to anyone who has not clicked their confirmation. The hidden cost: spam complaints are scored against the sending DOMAIN, not the message — so complaints harvested from cold unconfirmed signups degrade inbox placement for every subsequent send, including the launch email to people who paid us. We are maximally exposed: a new domain, mid-warm-up (SIG-314). Claude recommends 3 reminders — day 1, 3, 7 — then stop, with permanent complaint…",
@@ -20966,6 +21047,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 26, 2026 · 5:00 PM CEST",
-  "published_at_iso": "2026-08-26T17:00:03+0200"
+  "published_at": "August 27, 2026 · 9:02 PM CEST",
+  "published_at_iso": "2026-08-27T21:02:57+0200"
 }
