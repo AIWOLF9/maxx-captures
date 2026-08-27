@@ -4218,7 +4218,7 @@
       "id": "SIG-419",
       "title": "Receipts pack…",
       "description": "Added 2026-08-27 (attended stand-up). Four claims came out of the founder session, all wanted, none printable yet. (1) The aggregate fines figure — *\"tens and tens of billions\"* across all platforms; $18bn (Meta) is verified, the total is not. (2) A fast-food chain's admission of downgraded ingredients. (3) Chocolate makers substituting ingredients. (4) Doctors appearing in cigarette advertising, 1940s–60s — documented, needs only its citation attached. Plus the standing correction from Decision 82: *\"Meta lost the case\"* and *\"fraud\"* are both unsupportable — Meta settled, and the California…",
-      "description_chars": 774,
+      "description_chars": 1832,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4237,6 +4237,33 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-27"
+    },
+    {
+      "id": "SIG-422",
+      "title": "Receipts harvest…",
+      "description": "Added 2026-08-27 (attended), agreed with Wolf after he supplied the NYT *Daily* episode by hand. He asked whether a systematic YouTube search + transcript pull would add value. Answer: yes, in this order. (1) INVENTORY FIRST — we are not receipt-poor. MSIG-MKT-RECEIPTS-SET-0001_v1_0 is 473 lines already holding Haugen (×10), the WSJ files, Anderson v. TikTok, 60 Minutes, Surgeon General, Haidt, Twenge, Orben, Przybylski, Tristan Harris, Raskin, Newport, Nature, JAMA — plus 13 §7.17 receipt-library sections in Brand. None of it has been re-read since Decision 78. ⚠️ Allcott and Hunt are both i…",
+      "description_chars": 2375,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-27"
@@ -21047,6 +21074,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 27, 2026 · 9:02 PM CEST",
-  "published_at_iso": "2026-08-27T21:02:57+0200"
+  "published_at": "August 27, 2026 · 11:03 PM CEST",
+  "published_at_iso": "2026-08-27T23:03:16+0200"
 }
