@@ -1276,6 +1276,33 @@
       "first_seen": "2026-08-28"
     },
     {
+      "id": "SIG-424",
+      "title": "THE WALL OF PAIN…",
+      "description": "Added 2026-08-27/28 (attended). Decisions 87 (D-2026-08-27j) + 88 (D-2026-08-27k). Wolf's idea and his name for it. THE ROOT CAUSE, found by reading the instruction that built the corpus: MSIG-MKT-RESEARCH-PROMPT-0001 lists six source types in priority order — court filings · regulatory action · whistleblower documents · peer-reviewed research · major-outlet journalism · documentaries. All six are institutions; not one is a person. And its Outlet brand visibility requirement mandates *\"you MUST preserve the outlet brand name and date alongside every cited finding… The brand names ARE the visu…",
+      "description_chars": 6892,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~8h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-28"
+    },
+    {
       "id": "CF-IMAGE-LIBRARY-UNDESCRIBED-1",
       "title": "2,202 images indexed, 165 described (7.5%), 0 titled, 0 scored…",
       "description": "2,202 images indexed, 165 described (7.5%), 0 titled, 0 scored; ratings.json 0% filled on score/tier/serves/rights across 2,663 entries — and the 165 described are all product renders described from their own filenames. The emotive library (136 founder-picks · 76 research-harm · 32 research-brain) is effectively undescribed, which makes semantic image matching impossible: an index of filenames, categories and dimensions supports *filtering*, not *matching*. This is a data gap, not a build gap — the schema is already correct and empty (img_index.json carries ti/sv/no/sc/ri). The fix is a visio…",
@@ -4272,7 +4299,7 @@
       "id": "SIG-422",
       "title": "Receipts harvest…",
       "description": "Added 2026-08-27 (attended), agreed with Wolf after he supplied the NYT *Daily* episode by hand. He asked whether a systematic YouTube search + transcript pull would add value. Answer: yes, in this order. (1) INVENTORY FIRST — we are not receipt-poor. MSIG-MKT-RECEIPTS-SET-0001_v1_0 is 473 lines already holding Haugen (×10), the WSJ files, Anderson v. TikTok, 60 Minutes, Surgeon General, Haidt, Twenge, Orben, Przybylski, Tristan Harris, Raskin, Newport, Nature, JAMA — plus 13 §7.17 receipt-library sections in Brand. None of it has been re-read since Decision 78. ⚠️ Allcott and Hunt are both i…",
-      "description_chars": 2375,
+      "description_chars": 3563,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -21101,6 +21128,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 28, 2026 · 11:04 AM CEST",
-  "published_at_iso": "2026-08-28T11:04:25+0200"
+  "published_at": "August 28, 2026 · 5:46 PM CEST",
+  "published_at_iso": "2026-08-28T17:46:14+0200"
 }
