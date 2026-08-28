@@ -12951,7 +12951,7 @@
       "id": "SIG-199",
       "title": "Signal Scanner + Signal Hijack…",
       "description": "SIG38 (2026-06-09): DESIGN DELIVERED. Shipped 05_Marketing/Working/MSIG-MKT-SCANNER-HIJACK-PROGRAM-0001_v0_1.md (full program: community & channel map across Reddit/FB-parent-movements/Discord-HN/X-Bluesky/YouTube/journalists+newsletters with fit/tone/participation; Scanner WATCH→TRIAGE→DRAFT→HUMAN-GATE→LOG + reply-worthiness rubric + mention-ladder; Hijack T1/T2/T3 tiering + Care-Angel rapid-response drill + angle bank/templates + speed targets; 8-week content storyboard with intentions; automation tooling research — official-API-only, aggressive ban-reject, X-API-now-pay-per-use finding, re…",
-      "description_chars": 3906,
+      "description_chars": 6543,
       "status": "s-waiting",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -21128,6 +21128,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 28, 2026 · 5:46 PM CEST",
-  "published_at_iso": "2026-08-28T17:46:14+0200"
+  "published_at": "August 28, 2026 · 7:46 PM CEST",
+  "published_at_iso": "2026-08-28T19:46:45+0200"
 }
