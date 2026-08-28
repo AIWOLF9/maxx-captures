@@ -793,7 +793,7 @@
       "id": "SIG-358",
       "title": "The SIG-306d website writing set…",
       "description": "Added 2026-08-10 on Wolf instruction. The three drafts were authored 2026-08-10 with no board row — exactly the failure the anti-slip rule exists to prevent — so this row is the tracking, and _Working/SIGNAL_REVIEW_QUEUE.md rows 15/16/17 carry the per-item ask. Three homepage writing deliverables, all drafted, all awaiting Wolf. Read as ONE sitting in this order, ~50 min total: (1) The Argument — _Working/SIGNAL_THE-ARGUMENT_v0_1_DRAFT_2026-08-10.md — the belief spine, five numbered beliefs set for scroll. Two rulings: the belief count (4/5/7 — our own documents disagree) and belief 5. (2) Ou…",
-      "description_chars": 7293,
+      "description_chars": 8308,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1117,7 +1117,7 @@
       "id": "SIG-404",
       "title": "Website prep pass…",
       "description": "Added 2026-08-20 (attended stand-up). D-2026-08-20f — Wolf ruled the scope AND the sequence. Verbatim: *\"Do all the work that you think is necessary — 3 arcs, libraries, etc. that you recommend, and then if you think you have one of the strongest arcs and you want to draft a manifesto, argument, or letter based on what you feel is the strongest arc. After you finish all the three arcs, then do it after.\"* THE SEQUENCE IS A CONSTRAINT, NOT A PREFERENCE: three arcs finished completely → then, and only if one is clearly strongest, the long-form drafts. If the three are close, STOP AND BRING THRE…",
-      "description_chars": 2405,
+      "description_chars": 3291,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1247,6 +1247,33 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-26"
+    },
+    {
+      "id": "SIG-423",
+      "title": "Chat 1 of 5…",
+      "description": "Added 2026-08-28 (unattended stand-up; anti-slip rule in this document's governance header — *an opener is not tracking*). Chat 1 of the five-chat sequence in _Working/SIGNAL_PLAN_WHAT-HAPPENS-NEXT_2026-08-27.html had a written opener (_Working/SIG-421_OPENER_COUNCIL-AND-RESCORE_2026-08-27.md) and no row — so the single item gating every downstream chat was invisible to this board and to the MC dashboard. What it is: Wolf fires /maxx-council on the scoring rubric (~20 minutes of his time), then Claude re-scores all 647 candidate copy lines on the agreed rubric (/30, per Decisions 79 and 80).…",
+      "description_chars": 1782,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "4-6h",
+      "effort_wolf": "20min",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-28"
     },
     {
       "id": "CF-IMAGE-LIBRARY-UNDESCRIBED-1",
@@ -21074,6 +21101,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 27, 2026 · 11:03 PM CEST",
-  "published_at_iso": "2026-08-27T23:03:16+0200"
+  "published_at": "August 28, 2026 · 11:04 AM CEST",
+  "published_at_iso": "2026-08-28T11:04:25+0200"
 }
