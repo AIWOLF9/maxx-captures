@@ -16137,10 +16137,10 @@
       "id": "CF-MEMORY-INDEX-UNAMENDABLE-1",
       "title": "[2026-08-29 MC-MEMINDEX-RECUT-2026-08-29, attended] CLOSED on D-MC-2026-08-29b…",
       "description": "[2026-08-29 MC-MEMINDEX-RECUT-2026-08-29, attended] CLOSED on D-MC-2026-08-29b — all conditions MEASURED from disk, not summarised. The index was rewritten as a genuine index and verified five ways: section-cut (14 sections) · every entry ≤150 characters (0 of 106 entries over, against 46 over-length lines before) · 12,236 bytes, under the ~12 KB bar (from 20,240) · read-back byte-compare PASSES — the staging copy's sha256 7b59f605… was computed BY SCRIPT before any hand-transfer, and the copy read back off the live file hashes identically, so a transcription slip would have surfaced as a mis…",
-      "description_chars": 4395,
+      "description_chars": 5874,
       "status": "s-done",
       "priority": "p-p1",
-      "segment": "Build",
+      "segment": "Agents",
       "venture": "v-mos",
       "deadline": null,
       "deadline_label": "Dedicated pass. Closed when the…",
@@ -19873,10 +19873,10 @@
       "id": "CF-MEMORY-INDEX-OUTGREW-ITS-CONTRACT-1",
       "title": "[2026-08-29 MC-MEMINDEX-RECUT-2026-08-29, attended] CLOSED on D-MC-2026-08-29b…",
       "description": "[2026-08-29 MC-MEMINDEX-RECUT-2026-08-29, attended] CLOSED on D-MC-2026-08-29b — all conditions MEASURED from disk, not summarised. The index was rewritten as a genuine index and verified five ways: section-cut (14 sections) · every entry ≤150 characters (0 of 106 entries over, against 46 over-length lines before) · 12,236 bytes, under the ~12 KB bar (from 20,240) · read-back byte-compare PASSES — the staging copy's sha256 7b59f605… was computed BY SCRIPT before any hand-transfer, and the copy read back off the live file hashes identically, so a transcription slip would have surfaced as a mis…",
-      "description_chars": 3945,
+      "description_chars": 5424,
       "status": "s-done",
       "priority": "p-p2",
-      "segment": "Marketing",
+      "segment": "Agents",
       "venture": "v-mos",
       "deadline": null,
       "deadline_label": "Closes when MEMORY.md is under…",
@@ -21355,6 +21355,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 29, 2026 · 1:48 AM CEST",
-  "published_at_iso": "2026-08-29T01:48:38+0200"
+  "published_at": "August 29, 2026 · 3:49 AM CEST",
+  "published_at_iso": "2026-08-29T03:49:04+0200"
 }
