@@ -1252,7 +1252,7 @@
       "id": "SIG-423",
       "title": "Chat 1 of 5…",
       "description": "Added 2026-08-28 (unattended stand-up; anti-slip rule in this document's governance header — *an opener is not tracking*). Chat 1 of the five-chat sequence in _Working/SIGNAL_PLAN_WHAT-HAPPENS-NEXT_2026-08-27.html had a written opener (_Working/SIG-421_OPENER_COUNCIL-AND-RESCORE_2026-08-27.md) and no row — so the single item gating every downstream chat was invisible to this board and to the MC dashboard. What it is: Wolf fires /maxx-council on the scoring rubric (~20 minutes of his time), then Claude re-scores all 647 candidate copy lines on the agreed rubric (/30, per Decisions 79 and 80).…",
-      "description_chars": 7901,
+      "description_chars": 13298,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1279,7 +1279,7 @@
       "id": "SIG-424",
       "title": "THE WALL OF PAIN…",
       "description": "Added 2026-08-27/28 (attended). Decisions 87 (D-2026-08-27j) + 88 (D-2026-08-27k). Wolf's idea and his name for it. THE ROOT CAUSE, found by reading the instruction that built the corpus: MSIG-MKT-RESEARCH-PROMPT-0001 lists six source types in priority order — court filings · regulatory action · whistleblower documents · peer-reviewed research · major-outlet journalism · documentaries. All six are institutions; not one is a person. And its Outlet brand visibility requirement mandates *\"you MUST preserve the outlet brand name and date alongside every cited finding… The brand names ARE the visu…",
-      "description_chars": 26764,
+      "description_chars": 28061,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1301,6 +1301,33 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-28"
+    },
+    {
+      "id": "SIG-425",
+      "title": "HEADLINES + TRANSCRIPTS…",
+      "description": "Added 2026-08-30 (attended stand-up). ⚖️ WOLF'S FINDING, and it is a THIRD and FOURTH layer the research programme never had. Verbatim: *\"we also were going to go look for a list of all these articles, YouTube headlines, podcast headlines, article headlines, and everything that's been published that meets the criteria… if I look at what are the most impactful headlines… do we have that? Do we do that?\"* and *\"inside of those podcasts, articles, and YouTube videos are the actual transcripts that also have very powerful statements which we want to use.\"* 🔴 VERIFIED THE SAME SESSION — the word h…",
+      "description_chars": 3935,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~8h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-30"
     },
     {
       "id": "CF-SHARED-FOUNDATION-SYNC-STALE-2",
@@ -21355,6 +21382,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 29, 2026 · 3:49 AM CEST",
-  "published_at_iso": "2026-08-29T03:49:04+0200"
+  "published_at": "August 30, 2026 · 8:06 PM CEST",
+  "published_at_iso": "2026-08-30T20:06:26+0200"
 }
