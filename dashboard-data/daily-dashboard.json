@@ -1330,6 +1330,27 @@
       "first_seen": "2026-08-30"
     },
     {
+      "id": "CF-MOS-TASKS-NOT-MIRRORED-1",
+      "title": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26…",
+      "description": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26 days. SIG-317 (*\"Backfill real MOS-T-### pairs into the Linked column\"*, To-do since 2026-08-04) states its own blocker: MOS_TASKS.md sits outside every venture mount and is unreadable from Signal scope, so the 314 — entries assert *\"no Signal row is paired with an MC row\"* — a claim this session falsified: 25 MC rows name 22 distinct Signal rows. A hand-off carrying the full pairing table was written to SIGNAL/_Inbox/MC-TO-SIGNAL_HANDOFF_2026-08-30_MOS-T-070_pairing-data.md with deriv…",
+      "description_chars": 1027,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Trigger: next shared-foundation…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf (rule) → Claude (execute)",
+      "kind": "cfi",
+      "first_seen": "2026-08-30"
+    },
+    {
       "id": "CF-SHARED-FOUNDATION-SYNC-STALE-2",
       "title": "The CAP-0049 shared-foundation mirror has not synced since 2026-08-25, so two ventures are served a stale AGE…",
       "description": "The CAP-0049 shared-foundation mirror has not synced since 2026-08-25, so two ventures are served a stale AGENT_ROSTER.md at every session start. Measured 2026-08-28: canonical _index/_shared/AGENT_ROSTER.md is v1.12 (28,697 bytes, mtime 2026-08-28 23:41 CEST); SIGNAL/_index/_shared/AGENT_ROSTER.md is v1.10 (22,663 bytes, mtime 2026-08-25 21:56) and SOLITAIRE/_index/_shared/AGENT_ROSTER.md is v1.10 (22,034 bytes, mtime 2026-08-05 20:47) — both missed v1.11 and v1.12, this session's two corrective passes. In both mirrors the §3 DELPHI status cell reads a bare LIVE with (/maxx-council Built/Liv…",
@@ -4466,6 +4487,27 @@
       "zone": "open",
       "kind": "cap",
       "first_seen": null
+    },
+    {
+      "id": "CF-QUOTE-IS-NOT-A-DEADLINE-1",
+      "title": "A founder's own estimate, said once, propagated three hops and arrived back at him as a red legal deadline…",
+      "description": "A founder's own estimate, said once, propagated three hops and arrived back at him as a red legal deadline. Wolf, 2026-08-26, captured in SIG-326: *\"I have not done the DBA yet. I'm going to be doing that in the next two days. by Monday latest.\"* That became \"🔴 DBA filing due Monday 2026-08-31, everything downstream provisional\" in Signal's reflection → the weekly synthesis → the chat opener. Whole-tree search 2026-08-30: the date exists in no task row, no decisions log and no register — only in those three copies. And it blocks nothing: SIG-042 ruled 2026-07-25 that the entity is Wolf Ventur…",
+      "description_chars": 831,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Trigger: any dated item escalat…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "kind": "cfi",
+      "first_seen": "2026-08-30"
     },
     {
       "id": "CF-CAP-0057-TRIGGER-FIRED-1",
@@ -13511,6 +13553,27 @@
       "first_seen": null
     },
     {
+      "id": "CF-ALERT-TWICE-NO-OWNER-1",
+      "title": "An alert that fires twice acquires no owner, so a correct detector produces zero response indefinitely…",
+      "description": "An alert that fires twice acquires no owner, so a correct detector produces zero response indefinitely. Measured 2026-08-30: maxx-canonical-views-render wrote a canonical-views-drift alert on 2026-08-28, 08-29 and 08-30 — all three correct, all three drained by the launchd job exactly as designed, all three unanswered, because detection has an owner and response does not. This substrate now has more detectors than responders (five synthesis claims retracted, one headline retracted 08-30b, three items corrected 08-30c) and adding another detector is the lower-value move. Proposed rule, NOT rul…",
+      "description_chars": 758,
+      "status": "s-noticed",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Testable trigger: any key in _l…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "info",
+      "owner": "Claude",
+      "kind": "cfi",
+      "first_seen": "2026-08-30"
+    },
+    {
       "id": "CF-ROSTER-ASSERTED-UNBUILT-SKILL-1",
       "title": "_index/_shared/AGENT_ROSTER.md recorded the Cowork skill /maxx-council as Built/Live…",
       "description": "_index/_shared/AGENT_ROSTER.md recorded the Cowork skill /maxx-council as Built/Live — and as *\"today exactly one\"* earned orchestration skill. Verified FALSE 2026-08-28, three ways. (a) The Mac-wide Cowork skills directory holds 38 skills and maxx-council is not among them. (b) Skill scope is Mac-wide, not project-scoped — proven by signal-done, built inside the SIGNAL project on 2026-05-29 and present in Mission Control's own skills directory — so *\"it exists in another project\"* is not available as an explanation. (c) The skill's own spec at _MAXX_OS/Capabilities/maxx-council/MOS-SYS-SKILL…",
@@ -14724,6 +14787,27 @@
       "zone": "info",
       "kind": "ps",
       "first_seen": "2026-08-28"
+    },
+    {
+      "id": "CF-CFI-BUCKET-COUNT-PARSER-DISAGREE-1",
+      "title": "Two parsers agree exactly on this register's Open count and disagree on Noticed and Deferred…",
+      "description": "Two parsers agree exactly on this register's Open count and disagree on Noticed and Deferred. 2026-08-30c script re-derivation: 98 Open (96 Open + 1 Open (unblocked) + 1 Open (RE-OPENED)) — matching the 08-30b opener exactly — but 20 Noticed / 27 Deferred against that opener's 27 Noticed / 23 Deferred. Most likely two different populations rather than corruption, since the bucket that agrees is the one both parsers treat identically. Logged INCONCLUSIVE rather than asserted in either direction (§5.4.6).",
+      "description_chars": 508,
+      "status": "s-noticed",
+      "priority": "p-p3",
+      "segment": "Build",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Trigger: the next carry-forward…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "info",
+      "owner": "Claude",
+      "kind": "cfi",
+      "first_seen": "2026-08-30"
     },
     {
       "id": "CF-REFLECTION-COUNT-UNENUMERATED-1",
@@ -19876,6 +19960,27 @@
       "first_seen": null
     },
     {
+      "id": "CF-REPORTSHUB-POSITIONAL-PARSE-1",
+      "title": "A positional parser read column index 3 across four tables that do not share a shape, silently dropping four…",
+      "description": "A positional parser read column index 3 across four tables that do not share a shape, silently dropping four live surfaces. LIVE_SURFACES.md §1 is four tables: §1.1/§1.2 are Surface \\",
+      "description_chars": 183,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "CAP \\",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "What it is \\",
+      "kind": "cfi",
+      "first_seen": "2026-08-30"
+    },
+    {
       "id": "CF-SIG-BOARD-SKELETON-AUTHORITY-1",
       "title": "Wolf ruled 2026-08-25 that SIGNAL's SKELETON VIEW is editable in place…",
       "description": "Wolf ruled 2026-08-25 that SIGNAL's SKELETON VIEW is editable in place — which creates a second live store of the 31-beat skeleton, and the direction rule that keeps it safe currently exists in one working spec and nowhere else. The skeleton lives at SIGNAL/_Working/SIG-376_ARTIFACT-2_SKELETON_v0_3_DRAFT_2026-08-25.md (31 beats · 9 acts · five columns per beat). The board (_Working/MAXX_SIGNAL_THE_BOARD_v9.html, v11.2) cannot hold four of those five columns — measured 2026-08-25: imageJob 0, bMove 0, bProof 0, bJob 1 and emotional 4, the last two being prose/data-string hits at lines 1377/761…",
@@ -21382,6 +21487,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 30, 2026 · 8:06 PM CEST",
-  "published_at_iso": "2026-08-30T20:06:26+0200"
+  "published_at": "August 30, 2026 · 10:06 PM CEST",
+  "published_at_iso": "2026-08-30T22:06:49+0200"
 }
