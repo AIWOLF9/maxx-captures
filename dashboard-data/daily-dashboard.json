@@ -1330,6 +1330,33 @@
       "first_seen": "2026-08-30"
     },
     {
+      "id": "SIG-434",
+      "title": "THE GEO-GATE…",
+      "description": "Added 2026-08-31 (attended), created by Decision 98 (D-SIG-2026-08-31a). ⚠️ This row is the entire difference between a US-only ruling and a wish. GDPR reaches a US company that offers services to people in the EU — the test is targeting, not accidental access. A US-only marketing posture is decent evidence of non-targeting, but if an EU resident finds the site, signs up and pays, we have arguably offered them a service. The failure mode is the worst of both worlds: in GDPR scope, with no Art. 27 representative, no consent banner, no register, and a privacy policy that says the EU sections do…",
+      "description_chars": 1229,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Engineering",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-08-31"
+    },
+    {
       "id": "CF-MOS-TASKS-NOT-MIRRORED-1",
       "title": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26…",
       "description": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26 days. SIG-317 (*\"Backfill real MOS-T-### pairs into the Linked column\"*, To-do since 2026-08-04) states its own blocker: MOS_TASKS.md sits outside every venture mount and is unreadable from Signal scope, so the 314 — entries assert *\"no Signal row is paired with an MC row\"* — a claim this session falsified: 25 MC rows name 22 distinct Signal rows. A hand-off carrying the full pairing table was written to SIGNAL/_Inbox/MC-TO-SIGNAL_HANDOFF_2026-08-30_MOS-T-070_pairing-data.md with deriv…",
@@ -4332,7 +4359,7 @@
       "id": "SIG-426",
       "title": "GTM audit + staleness pass…",
       "description": "Added 2026-08-31 (attended, GTM reboot session). Wolf asked whether the launch-mechanics and go-to-market research had already been done. It has — far more than he remembered — and the finding is that the spine was never locked. SIG28 (2026-06-07) shipped nine artifacts including the 7-phase funnel spine, the tiered traffic-channel map, the mission-driven Kickstarter playbook and the launch PR list, plus SIG27 partner GTM, the v1.2 Ambassador spec locked at P0, the freemium-conversion playbook and the keyword strategy. SIG28_Launch_Mechanics_Plan is still v0.1 DRAFT in _Working/ — SIG28 route…",
-      "description_chars": 1766,
+      "description_chars": 2419,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -7907,7 +7934,7 @@
       "id": "SIG-392",
       "title": "LAUNCH GEOGRAPHY RULING…",
       "description": "Added 2026-08-16 (attended). This row exists so the EU question stops appearing in stand-ups, in drafts, and in Wolf's inbox as nine separate items. Wolf, 2026-08-16: *\"European accounts don't seem to be a high priority at this moment with everything that we have to do. Just move these tasks down to the side later.\"* Deferral cost assessed and it is near-zero: the Privacy Policy is unpublished so no live claim is wrong; the geo-gate is one country check at signup (Cloudflare supplies the visitor country in a request header) specced whenever signup is built, not a decision; Kickstarter is unbu…",
-      "description_chars": 1895,
+      "description_chars": 2964,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Legal",
@@ -8035,6 +8062,33 @@
       ],
       "autonomy": "Auto",
       "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-31"
+    },
+    {
+      "id": "SIG-435",
+      "title": "Global Privacy Control + \"Do Not Sell or Share\"…",
+      "description": "Added 2026-08-31 (attended), created by Decision 98 (D-SIG-2026-08-31a). The half of the US-only trade that is a cost, not a saving. Going US-only deletes the EU/UK cookie-consent banner — the biggest engineering win in the switch — but US state law replaces it with an opt-out regime that is lighter and is not nothing. California, Colorado, Connecticut, Texas, Oregon and Montana among others require honouring the browser's universal opt-out signal (GPC). A \"Do Not Sell or Share\" link is additionally advisable if AdSense ships — our position (Privacy §12.4) is that we do not \"share\" because Go…",
+      "description_chars": 1313,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Engineering",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Auto",
+      "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-31"
     },
@@ -21703,6 +21757,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 31, 2026 · 2:07 PM CEST",
-  "published_at_iso": "2026-08-31T14:07:57+0200"
+  "published_at": "August 31, 2026 · 6:08 PM CEST",
+  "published_at_iso": "2026-08-31T18:08:22+0200"
 }
