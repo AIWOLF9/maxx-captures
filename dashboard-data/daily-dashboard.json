@@ -1405,27 +1405,6 @@
       "first_seen": "2026-08-31"
     },
     {
-      "id": "CF-RULEBOOK-UNSTAMPED-MUTATION-1",
-      "title": "Eight canonical files were rewritten inside the same 40 milliseconds last night, and one of them is the ruleb…",
-      "description": "Eight canonical files were rewritten inside the same 40 milliseconds last night, and one of them is the rulebook that loads on every session. At 23:19:40.40–.44 on 2026-08-31 the modification time of _index/COWORK_INSTRUCTIONS.md, all four cowork-satellites/ files, COWORK_INSTRUCTIONS_CHANGELOG.md and _MAXX_OS/Capabilities/process-digest/render_process_digest.py all moved together — 40 ms across eight unrelated files is a bulk write by a sync or mirror layer, not authoring, and the shared-foundation sync ran 38 seconds later at 23:20:18, regenerating Signal's and Solitaire's copies *from the…",
-      "description_chars": 1385,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Next session, one question firs…",
-      "deadline_class": "d-future",
-      "effort_mc": "30m–2h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "kind": "cfi",
-      "first_seen": "2026-08-31"
-    },
-    {
       "id": "CF-MOS-TASKS-NOT-MIRRORED-1",
       "title": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26…",
       "description": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26 days. SIG-317 (*\"Backfill real MOS-T-### pairs into the Linked column\"*, To-do since 2026-08-04) states its own blocker: MOS_TASKS.md sits outside every venture mount and is unreadable from Signal scope, so the 314 — entries assert *\"no Signal row is paired with an MC row\"* — a claim this session falsified: 25 MC rows name 22 distinct Signal rows. A hand-off carrying the full pairing table was written to SIGNAL/_Inbox/MC-TO-SIGNAL_HANDOFF_2026-08-30_MOS-T-070_pairing-data.md with deriv…",
@@ -4658,6 +4637,27 @@
       "owner": "MC",
       "kind": "cfi",
       "first_seen": "2026-08-31"
+    },
+    {
+      "id": "CF-ID-SCHEME-CHURN-1",
+      "title": "The session-token scheme is now a coin-flip per month, and it has been rewritten three times in eight days…",
+      "description": "The session-token scheme is now a coin-flip per month, and it has been rewritten three times in eight days. Wolf raised this unprompted and the data backs him. History: the pre-2026-08-24 scheme (D-<date><letter>, no venture scope, no session token) accumulated 10 collisions; the census correction on 08-26 took it to 12; then on 08-31 six IDs collided in a single day (D-MC-2026-08-31-DSa … DSf), allocated twice by two attended Mission Control sessions. The cause was not randomness — it was the absence of it. §8 said *session token* without saying *how*, so both sessions did the natural thing…",
+      "description_chars": 1537,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next session — one decision. Re…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "kind": "cfi",
+      "first_seen": "2026-09-01"
     },
     {
       "id": "CF-QUOTE-IS-NOT-A-DEADLINE-1",
@@ -16551,6 +16551,27 @@
       "first_seen": "2026-08-27"
     },
     {
+      "id": "CF-RULEBOOK-UNSTAMPED-MUTATION-1",
+      "title": "RESOLVED, and it was never a corruption…",
+      "description": "RESOLVED, and it was never a corruption — it was a find-and-replace. Raised as a possible Drive round-trip rewrite of the always-loaded rulebook; Wolf rejected the premise (no Drive interaction in four months) and was right. Cause: MC-GOVAMEND-2026-08-31's final act was retiring the malformed ID D-MC-2026-08-31-NO1 and remapping it to -B8a. 19 characters for 19 characters — byte-neutral by construction — applied at 23:19:40 across exactly the 7 files that carried it (rulebook, SATELLITE-READOUT-DISCIPLINE, -CLOSEOUT-PROTOCOL, -NAMING-CONVENTIONS, -CANONICAL-DOC-REGISTER, the changelog, render…",
+      "description_chars": 1290,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Closed 2026-08-31. Flag cleared…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-31"
+    },
+    {
       "id": "CF-STAGE4-EOD-2100-COLLISION-1",
       "title": "[2026-08-28 MC-OPENER-EXEC-2026-08-28, attended, Wolf ruled D-MC-2026-08-28e] CLOSED…",
       "description": "[2026-08-28 MC-OPENER-EXEC-2026-08-28, attended, Wolf ruled D-MC-2026-08-28e] CLOSED — the hazard was removed, and the stated trigger was SUPERSEDED rather than satisfied, which is said plainly because closing on a condition that did not fire is exactly the move this register exists to catch. The trigger asked for a Monday Stage 4 findings doc with a Fired: time before 21:00 and a clean EOD register for the same Monday; the next Stage 4 fire is 2026-08-31, so it could not have fired. Both legs of the collision are gone instead, verified against the live scheduler in this pass, not against an…",
@@ -21868,6 +21889,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 31, 2026 · 11:47 PM CEST",
-  "published_at_iso": "2026-08-31T23:47:03+0200"
+  "published_at": "September 1, 2026 · 12:02 AM CEST",
+  "published_at_iso": "2026-09-01T00:02:37+0200"
 }
