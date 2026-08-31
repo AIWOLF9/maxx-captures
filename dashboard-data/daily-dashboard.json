@@ -4639,27 +4639,6 @@
       "first_seen": "2026-08-31"
     },
     {
-      "id": "CF-ID-SCHEME-CHURN-1",
-      "title": "The session-token scheme is now a coin-flip per month, and it has been rewritten three times in eight days…",
-      "description": "The session-token scheme is now a coin-flip per month, and it has been rewritten three times in eight days. Wolf raised this unprompted and the data backs him. History: the pre-2026-08-24 scheme (D-<date><letter>, no venture scope, no session token) accumulated 10 collisions; the census correction on 08-26 took it to 12; then on 08-31 six IDs collided in a single day (D-MC-2026-08-31-DSa … DSf), allocated twice by two attended Mission Control sessions. The cause was not randomness — it was the absence of it. §8 said *session token* without saying *how*, so both sessions did the natural thing…",
-      "description_chars": 1537,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Next session — one decision. Re…",
-      "deadline_class": "d-future",
-      "effort_mc": "30m–2h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "kind": "cfi",
-      "first_seen": "2026-09-01"
-    },
-    {
       "id": "CF-QUOTE-IS-NOT-A-DEADLINE-1",
       "title": "A founder's own estimate, said once, propagated three hops and arrived back at him as a red legal deadline…",
       "description": "A founder's own estimate, said once, propagated three hops and arrived back at him as a red legal deadline. Wolf, 2026-08-26, captured in SIG-326: *\"I have not done the DBA yet. I'm going to be doing that in the next two days. by Monday latest.\"* That became \"🔴 DBA filing due Monday 2026-08-31, everything downstream provisional\" in Signal's reflection → the weekly synthesis → the chat opener. Whole-tree search 2026-08-30: the date exists in no task row, no decisions log and no register — only in those three copies. And it blocks nothing: SIG-042 ruled 2026-07-25 that the entity is Wolf Ventur…",
@@ -20329,6 +20308,27 @@
       "first_seen": null
     },
     {
+      "id": "CF-ID-SCHEME-CHURN-1",
+      "title": "CLOSED ON DELIVERY…",
+      "description": "CLOSED ON DELIVERY — the scheme is replaced, not patched again. Wolf refused a fifth increment: *\"You need to fix it once and for all.\"* He was right that he had asked for more characters and got two. Shipped and tested this session: format D-<VENTURE>-<YYYY-MM-DD>-<SESS>-<seq> with <SESS> = 10 Crockford base32 characters (260 combinations → 1.13e15); the token computed by allocate_session_token.py, never chosen — the half that closes the class, since both real incidents (DS/DS, NO1) were choosing failures not entropy failures; and check_id_collisions.py shipped in the same pass, because ever…",
+      "description_chars": 1135,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Closed 2026-09-01. Standing con…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-09-01"
+    },
+    {
       "id": "CF-REPORTSHUB-POSITIONAL-PARSE-1",
       "title": "A positional parser read column index 3 across four tables that do not share a shape, silently dropping four…",
       "description": "A positional parser read column index 3 across four tables that do not share a shape, silently dropping four live surfaces. LIVE_SURFACES.md §1 is four tables: §1.1/§1.2 are Surface \\",
@@ -21889,6 +21889,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 1, 2026 · 12:02 AM CEST",
-  "published_at_iso": "2026-09-01T00:02:37+0200"
+  "published_at": "September 1, 2026 · 12:33 AM CEST",
+  "published_at_iso": "2026-09-01T00:33:44+0200"
 }
