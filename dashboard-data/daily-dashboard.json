@@ -1030,7 +1030,7 @@
       "id": "SIG-378",
       "title": "Priorities walkthrough…",
       "description": "Added 2026-08-12 (attended, chat close; the agreed next chat). Wolf: *\"once we finish this, the dashboard will review the top items that we need to work on... I want to be super clear so we walk through it together.\"* The board is now trustworthy enough to plan from — schema v3 applied, contract-conformant, cycle-free, Mission Control re-parsing stored values instead of deriving them — which was the precondition. Scope, in order: (1) walk the board together and agree what is actually next, in what order, and what Wolf personally owns; (2) agree the website workstream as an ordered list — a ke…",
-      "description_chars": 3892,
+      "description_chars": 4130,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Governance",
@@ -21784,6 +21784,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 31, 2026 · 10:31 PM CEST",
-  "published_at_iso": "2026-08-31T22:31:27+0200"
+  "published_at": "August 31, 2026 · 10:37 PM CEST",
+  "published_at_iso": "2026-08-31T22:37:45+0200"
 }
