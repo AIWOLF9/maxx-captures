@@ -1,39 +1,6 @@
 {
   "items": [
     {
-      "id": "MOS-T-056",
-      "title": "UNDERSTAND NEW OPUS 4.8 Features- DYNAMIC WORKFLOWS, ultra code- etc",
-      "description": "🔬 Researched — from cap-mpqyecvmupz — I saw a video on some of opus 4.8 new capabilities specially, the dynamic workflows and ultracode. I want you to throw the review all the latest capability specially these dynamic workflows and whatever else we can use right away to get the best outcome done as quickly as possible, especially if we can use many agents doing build mode and planning mode and etc. [tags: Operating system optimization]",
-      "description_chars": 439,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Auto",
-      "department": "Operations",
-      "prov": "capture",
-      "review": "r-researched",
-      "review_label": "Researched",
-      "kind": "tasks",
-      "first_seen": "2026-06-25"
-    },
-    {
       "id": "SIG-039",
       "title": "Claude Design production mockups…",
       "description": "Mockups for feed, video player, settings/preferences, paywall, and share screens; iterate to lock. [⚠️ RE-SCOPED — D-2026-08-20e (Wolf, attended, 2026-08-20). Wolf: *\"if it's not complete or we need to add additional information to make sure that Claude Design creates all the mockups for all the service screens, then let's do so.\"* The old title named only feed + player + settings + paywall — roughly a fifth of the actual set, and the rest had no home on this board. VERIFIED 2026-08-20: 24 service screens exist as LOCKED self-contained HTML mockups in 03_Design/Working/mockups/ (52 files incl…",
@@ -1849,8 +1816,8 @@
     {
       "id": "MOS-T-043",
       "title": "Shared cross-venture asset library (~/MAXX/_library/)",
-      "description": "🔍 Triaged — Stand up a portfolio reference library mirrored read-only into each venture via CAP-0049 (precedent: AGENT_ROSTER + design tokens). Cross-venture assets (e.g., Hormozi PDFs + 2-page synthesis notes) live once, visible everywhere. Define the intake/flag procedure (venture → MC via the comms fabric). (Wolf 2026-06-09.)",
-      "description_chars": 330,
+      "description": "🔍 Triaged — Stand up a portfolio reference library mirrored read-only into each venture via CAP-0049 (precedent: AGENT_ROSTER + design tokens). Cross-venture assets (e.g., Hormozi PDFs + 2-page synthesis notes) live once, visible everywhere. Define the intake/flag procedure (venture → MC via the comms fabric). (Wolf 2026-06-09.) 📏 MEASURED 2026-08-31 (D-MC-2026-08-31-K7c) — the row was re-flagged on five nights with text unchanged since 2026-06-09, because the text does not say what is left. Part 1 (stand up ~/MAXX/_library/) is DONE: 9 files on disk, INDEX.md + README.md + marketing/hormozi-…",
+      "description_chars": 1019,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -21152,6 +21119,39 @@
       "first_seen": "2026-06-25"
     },
     {
+      "id": "MOS-T-056",
+      "title": "UNDERSTAND NEW OPUS 4.8 Features- DYNAMIC WORKFLOWS, ultra code- etc",
+      "description": "⛔ RETIRED 2026-08-31 — item: MOS-T-056 (D-MC-2026-08-31-X0f, MC-STANDUP-2026-08-31d, attended). Its premise expired. The row asks what to adopt from Opus 4.8; the portfolio moved to Opus 5 on 2026-07-24 and has run on it for five weeks. There is nothing left to adopt from a superseded model. NOT closed as a duplicate of MOS-T-017, which is what three nightly passes (2026-08-06, -08-17, -08-18) recommended — they compared titles, and the bodies differ. T-017 asked *is 4.8 current and what are its features* (closed 2026-06-24). T-056 asks an operational question T-017 never did: *which capabili…",
+      "description_chars": 1121,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": "capture",
+      "review": "r-none",
+      "review_label": null,
+      "kind": "tasks",
+      "first_seen": "2026-06-25"
+    },
+    {
       "id": "MOS-T-069",
       "title": "Filter what you feed your mind…",
       "description": "✅ Done — from cap-mrlpndl604e — Start this video with this monk uses an analogy of asking questions related to if someone has a kitchen if they have a sink do they have a filter on that sink and most people do to keep out the crap from clogging up the sink in the meantime, most people don’t have a filter for what clogs up their mind. Just another great analogy. Something we can use and we can always look for other analogies like this that are great that it’s easy for people to understand. Because then we can say now you can help filter what you feed your mind with signal. Watch video for refe…",
@@ -21757,6 +21757,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 31, 2026 · 6:08 PM CEST",
-  "published_at_iso": "2026-08-31T18:08:22+0200"
+  "published_at": "August 31, 2026 · 8:09 PM CEST",
+  "published_at_iso": "2026-08-31T20:09:55+0200"
 }
