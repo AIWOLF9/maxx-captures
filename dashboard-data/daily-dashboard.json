@@ -1405,6 +1405,27 @@
       "first_seen": "2026-08-31"
     },
     {
+      "id": "CF-RULEBOOK-UNSTAMPED-MUTATION-1",
+      "title": "Eight canonical files were rewritten inside the same 40 milliseconds last night, and one of them is the ruleb…",
+      "description": "Eight canonical files were rewritten inside the same 40 milliseconds last night, and one of them is the rulebook that loads on every session. At 23:19:40.40–.44 on 2026-08-31 the modification time of _index/COWORK_INSTRUCTIONS.md, all four cowork-satellites/ files, COWORK_INSTRUCTIONS_CHANGELOG.md and _MAXX_OS/Capabilities/process-digest/render_process_digest.py all moved together — 40 ms across eight unrelated files is a bulk write by a sync or mirror layer, not authoring, and the shared-foundation sync ran 38 seconds later at 23:20:18, regenerating Signal's and Solitaire's copies *from the…",
+      "description_chars": 1385,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Next session, one question firs…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "kind": "cfi",
+      "first_seen": "2026-08-31"
+    },
+    {
       "id": "CF-MOS-TASKS-NOT-MIRRORED-1",
       "title": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26…",
       "description": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26 days. SIG-317 (*\"Backfill real MOS-T-### pairs into the Linked column\"*, To-do since 2026-08-04) states its own blocker: MOS_TASKS.md sits outside every venture mount and is unreadable from Signal scope, so the 314 — entries assert *\"no Signal row is paired with an MC row\"* — a claim this session falsified: 25 MC rows name 22 distinct Signal rows. A hand-off carrying the full pairing table was written to SIGNAL/_Inbox/MC-TO-SIGNAL_HANDOFF_2026-08-30_MOS-T-070_pairing-data.md with deriv…",
@@ -4616,6 +4637,27 @@
       "zone": "open",
       "kind": "cap",
       "first_seen": null
+    },
+    {
+      "id": "CF-MOS-TASKS-UNSTAMPED-1",
+      "title": "The board has carried 5,252 bytes of unstamped edits since 2026-08-26 and reported clean the whole time…",
+      "description": "The board has carried 5,252 bytes of unstamped edits since 2026-08-26 and reported clean the whole time. _index/MOS_TASKS.md header/update-log/footer all read v0.21 while its content moved — five days in which the file §0 obligation 10 names as *the* source of daily priorities did not match its own version stamp. Benign in cause (rows appended without a bump), not benign in kind: the board is the one file whose stamp other surfaces trust. Concealed by the same detector bug as the row above.",
+      "description_chars": 495,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "At the next board pass — reconc…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-31"
     },
     {
       "id": "CF-QUOTE-IS-NOT-A-DEADLINE-1",
@@ -14999,6 +15041,48 @@
       "first_seen": "2026-08-28"
     },
     {
+      "id": "CF-REF-SCAN-TEMPLATE-FALSE-POSITIVES-1",
+      "title": "16 of the 53 remaining \"broken path\" hits are not defects…",
+      "description": "16 of the 53 remaining \"broken path\" hits are not defects — they are the docs describing a filename *pattern*, and the scanner reads the pattern as a citation. Examples: <MAXX>/_index/DAILY/STANDUP_[YYYY-MM-DD], <MAXX>/_index/cowork-satellites/SATELLITE-*.md, <MAXX>/[VENTURE]/. Every one is permanently unresolvable by design, so the reference count can never reach zero and a reader cannot tell a real dead pointer from a template. The count is the problem, not the paths — an alarm that cannot go green stops being read.",
+      "description_chars": 523,
+      "status": "s-noticed",
+      "priority": "p-p3",
+      "segment": "Research",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Testable trigger: when the brok…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "info",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-31"
+    },
+    {
+      "id": "CF-DEAD-PATH-RESIDUE-1",
+      "title": "31 genuinely dead <MAXX>/ paths remain across the six living logs, and most of them should be left alone…",
+      "description": "31 genuinely dead <MAXX>/ paths remain across the six living logs, and most of them should be left alone. They fall in three kinds: *history* — narrative correctly recording where a file used to be (\"(was at <MAXX>/MAXX_OS/Working/…)\"), which it would be wrong to rewrite; *aspiration* — brainstorm entries proposing folders never built (<MAXX>/prompts/, <MAXX>/.claude/); and *true residue* — pointers to files actually deleted, e.g. the Solitaire and Signal KB staging exports, and MAXX_CLOUD_pending_filing/ which is already tracked as HYG-10. Repairing them is not a batch job; each needs a judg…",
+      "description_chars": 657,
+      "status": "s-noticed",
+      "priority": "p-p3",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Opportunistic — resolve a file'…",
+      "deadline_class": "d-future",
+      "effort_mc": "2–4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "info",
+      "owner": "MC",
+      "kind": "cfi",
+      "first_seen": "2026-08-31"
+    },
+    {
       "id": "CF-CFI-BUCKET-COUNT-PARSER-DISAGREE-1",
       "title": "Two parsers agree exactly on this register's Open count and disagree on Noticed and Deferred…",
       "description": "Two parsers agree exactly on this register's Open count and disagree on Noticed and Deferred. 2026-08-30c script re-derivation: 98 Open (96 Open + 1 Open (unblocked) + 1 Open (RE-OPENED)) — matching the 08-30b opener exactly — but 20 Noticed / 27 Deferred against that opener's 27 Noticed / 23 Deferred. Most likely two different populations rather than corruption, since the bucket that agrees is the one both parsers treat identically. Logged INCONCLUSIVE rather than asserted in either direction (§5.4.6).",
@@ -21784,6 +21868,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "August 31, 2026 · 10:37 PM CEST",
-  "published_at_iso": "2026-08-31T22:37:45+0200"
+  "published_at": "August 31, 2026 · 11:47 PM CEST",
+  "published_at_iso": "2026-08-31T23:47:03+0200"
 }
