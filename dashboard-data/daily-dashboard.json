@@ -1405,27 +1405,6 @@
       "first_seen": "2026-08-31"
     },
     {
-      "id": "CF-DEPT-TAXONOMY-SIX-OR-EIGHT-1",
-      "title": "Wolf's decision, and the only thing MOS-SYS-PROTOCOL-BOARD-LOOP-0001 does not settle…",
-      "description": "Wolf's decision, and the only thing MOS-SYS-PROTOCOL-BOARD-LOOP-0001 does not settle. Six Signal tasks carry a Department outside the agreed six — 08 LEGAL ×3, 09 OPERATIONS ×2, 07 FINANCE ×1 — and two of them are P0. MC's parser correctly falls back to deriving from Segment, so nothing is broken; the consequence is that Signal's legal and finance work is invisible as its own area on the board built to make work visible by area. (a) Extend the set to eight — Legal and Finance become departments, Operations folds into *Running the venture*; MC owns a contract change reaching every venture boar…",
-      "description_chars": 870,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "One ruling. Signal is not block…",
-      "deadline_class": "d-future",
-      "effort_mc": "<30m",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "kind": "cfi",
-      "first_seen": "2026-09-01"
-    },
-    {
       "id": "CF-MOS-TASKS-NOT-MIRRORED-1",
       "title": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26…",
       "description": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26 days. SIG-317 (*\"Backfill real MOS-T-### pairs into the Linked column\"*, To-do since 2026-08-04) states its own blocker: MOS_TASKS.md sits outside every venture mount and is unreadable from Signal scope, so the 314 — entries assert *\"no Signal row is paired with an MC row\"* — a claim this session falsified: 25 MC rows name 22 distinct Signal rows. A hand-off carrying the full pairing table was written to SIGNAL/_Inbox/MC-TO-SIGNAL_HANDOFF_2026-08-30_MOS-T-070_pairing-data.md with deriv…",
@@ -4719,6 +4698,27 @@
       "created": null,
       "zone": "open",
       "owner": "MC (Wolf authorises the deletion)",
+      "kind": "cfi",
+      "first_seen": "2026-09-01"
+    },
+    {
+      "id": "CF-LENS-DEFINITION-DUPLICATED-1",
+      "title": "THE TRIGGER FIRED, 2026-09-01…",
+      "description": "THE TRIGGER FIRED, 2026-09-01 — this is now owed work, not an observation. Its stated trigger was *the first time a lens definition changes on the MC side*, and two changed tonight. (1) Quick wins: the new MC Board parses Effort to hours and selects anything at or under 2h, which returns 153 rows; the 08:08 lane still string-matches three spellings (<30m, 0.5h, 30m–2h) and returns 107. Both read the same 562-item set — so the page and the morning message now disagree by 46 rows about the same question. (2) Departments: the six became eight, and that list is duplicated between venture_board.py…",
+      "description_chars": 1697,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "Testable trigger: the first tim…",
+      "deadline_class": "d-future",
+      "effort_mc": "30m–2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "open",
+      "owner": "MC",
       "kind": "cfi",
       "first_seen": "2026-09-01"
     },
@@ -15320,27 +15320,6 @@
       "first_seen": "2026-09-01"
     },
     {
-      "id": "CF-LENS-DEFINITION-DUPLICATED-1",
-      "title": "The stand-up lens definitions now exist in two places and nothing keeps them in step…",
-      "description": "The stand-up lens definitions now exist in two places and nothing keeps them in step. A scheduled Cowork lane has no browser — the tools are absent, not erroring — so an unattended stand-up cannot open a board page and must recompute the lenses (biggest unlocks · what is next · quick wins · waiting on you · what runs in parallel) from the canonical task file instead. That is fine and arguably better, since the file is fresher than any published page. The cost is that the definitions are duplicated between the renderer and every venture's lane prompt. Raised by Signal in its 2026-08-31 handoff…",
-      "description_chars": 690,
-      "status": "s-noticed",
-      "priority": "p-p3",
-      "segment": "Governance",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "Testable trigger: the first tim…",
-      "deadline_class": "d-future",
-      "effort_mc": "30m–2h",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
-      "created": null,
-      "zone": "info",
-      "owner": "MC",
-      "kind": "cfi",
-      "first_seen": "2026-09-01"
-    },
-    {
       "id": "CF-REF-SCAN-TEMPLATE-FALSE-POSITIVES-1",
       "title": "16 of the 53 remaining \"broken path\" hits are not defects…",
       "description": "16 of the 53 remaining \"broken path\" hits are not defects — they are the docs describing a filename *pattern*, and the scanner reads the pattern as a citation. Examples: <MAXX>/_index/DAILY/STANDUP_[YYYY-MM-DD], <MAXX>/_index/cowork-satellites/SATELLITE-*.md, <MAXX>/[VENTURE]/. Every one is permanently unresolvable by design, so the reference count can never reach zero and a reader cannot tell a real dead pointer from a template. The count is the problem, not the paths — an alarm that cannot go green stops being read.",
@@ -16849,6 +16828,27 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-27"
+    },
+    {
+      "id": "CF-DEPT-TAXONOMY-SIX-OR-EIGHT-1",
+      "title": "RULED AND SHIPPED 2026-09-01 (D-MC-2026-09-01-CE0YWAY7PC-02, Wolf, attended): EIGHT…",
+      "description": "RULED AND SHIPPED 2026-09-01 (D-MC-2026-09-01-CE0YWAY7PC-02, Wolf, attended): EIGHT. Legal and Finance are now real departments; 09 OPERATIONS is not a department and folds into 06 RUNNING THE VENTURE through a named alias, so a row already carrying it is absorbed rather than warned about. Implemented in venture_board.py (DEPARTMENTS, _DEPT_ALIASES, and the legal/finance segment mappings, which now derive to the new departments instead of sweeping into External setup) and in templates/venture-board.html, whose ST array is a duplicate of that list and had to change in the same pass. Verified b…",
+      "description_chars": 1972,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "One ruling. Signal is not block…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "kind": "cfi",
+      "first_seen": "2026-09-01"
     },
     {
       "id": "CF-RULEBOOK-UNSTAMPED-MUTATION-1",
@@ -22273,6 +22273,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 1, 2026 · 2:05 AM CEST",
-  "published_at_iso": "2026-09-01T02:05:10+0200"
+  "published_at": "September 1, 2026 · 2:20 AM CEST",
+  "published_at_iso": "2026-09-01T02:20:29+0200"
 }
