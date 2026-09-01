@@ -11762,6 +11762,33 @@
       "first_seen": "2026-08-31"
     },
     {
+      "id": "SIG-437",
+      "title": "ATHENA Claude Design operating card…",
+      "description": "Added 2026-09-01 (attended). Wolf: *\"I would want ATHENA to know Claude Design inside and out.\"* A candidate operating card is authored at 03_Design/Reference/claude-design-playbook/CANDIDATE_ATHENA-SKILL-claude-design.md, alongside ANTHROPIC-PRIMARY_claude-design_2026-09-01.md (a capture of Anthropic’s own Claude Design documentation) and a third-party workflow playbook. Signal cannot ship it portfolio-wide — the mirror at _index/_shared/ is read-only and single-authored by Mission Control. Per MOS-AGENT-DELIVERY-MODEL-0001 §2.1 the correct vehicle is a mirrored topic skill-doc (ATHENA-SKILL…",
+      "description_chars": 1391,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": "15min",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Auto",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-01"
+    },
+    {
       "id": "CF-PM5h-3-H",
       "title": "Execute S(-1) pre-install bundle on first venture-live trigger AND Cloud Runtime request-access pre-install a…",
       "description": "Execute S(-1) pre-install bundle on first venture-live trigger AND Cloud Runtime request-access pre-install action set (scope expanded 2026-05-19 per CF-PM5h-3-Phase3-StratumSweep1b-S5-MultiAgent §9.1 Wolf governance decision). S(-1) Pre-install bundle: Datadog + Sentry + incident.io per CF-PM5h-3-E sweep §5 + §7 (PagerDuty DEFERRED per Wolf §9.1 governance decision 2026-05-19). Trigger conditions per S(-1) sweep §7: Datadog install when first venture has running cloud infrastructure (EC2/GCE/K8s/serverless w/ ≥1k req/day); Sentry install when first venture has shipped code in production AND…",
@@ -22246,6 +22273,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 1, 2026 · 1:19 AM CEST",
-  "published_at_iso": "2026-09-01T01:19:45+0200"
+  "published_at": "September 1, 2026 · 2:05 AM CEST",
+  "published_at_iso": "2026-09-01T02:05:10+0200"
 }
