@@ -1354,7 +1354,7 @@
       "id": "SIG-425",
       "title": "HEADLINES + TRANSCRIPTS…",
       "description": "Added 2026-08-30 (attended stand-up). ⚖️ WOLF'S FINDING, and it is a THIRD and FOURTH layer the research programme never had. Verbatim: *\"we also were going to go look for a list of all these articles, YouTube headlines, podcast headlines, article headlines, and everything that's been published that meets the criteria… if I look at what are the most impactful headlines… do we have that? Do we do that?\"* and *\"inside of those podcasts, articles, and YouTube videos are the actual transcripts that also have very powerful statements which we want to use.\"* 🔴 VERIFIED THE SAME SESSION — the word h…",
-      "description_chars": 3935,
+      "description_chars": 6214,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -2154,7 +2154,7 @@
       "id": "SIG-068",
       "title": "/receipts page (content + build)",
       "description": "Populate the Brand §7.17.4.1 placeholder into a live /receipts page; routes to legal pass (SIG-077). CONTENT DRAFT done 2026-06-26 (autonomous): full long-scroll evidence-wall copy, 6 clusters + honest counter-case sidebar + Signal pivot, every claim attributed w/ receipt ID + index → 05_Marketing/Working/website-receipts/MSIG-WEB-RECEIPTS-PAGE_DRAFT_v0_1.md. Build/deploy + legal pass (SIG-077) still pending → row stays To-do. [CAPTURE-TRIAGE 2026-07-31 — two evidence items now owed to this page.] (a) MOS-T-058 + 064 insider-kids claim (Jobs / Microsoft execs restricting their own children's…",
-      "description_chars": 1161,
+      "description_chars": 3433,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -4287,7 +4287,7 @@
       "id": "SIG-422",
       "title": "Receipts harvest…",
       "description": "Added 2026-08-27 (attended), agreed with Wolf after he supplied the NYT *Daily* episode by hand. He asked whether a systematic YouTube search + transcript pull would add value. Answer: yes, in this order. (1) INVENTORY FIRST — we are not receipt-poor. MSIG-MKT-RECEIPTS-SET-0001_v1_0 is 473 lines already holding Haugen (×10), the WSJ files, Anderson v. TikTok, 60 Minutes, Surgeon General, Haidt, Twenge, Orben, Przybylski, Tristan Harris, Raskin, Newport, Nature, JAMA — plus 13 §7.17 receipt-library sections in Brand. None of it has been re-read since Decision 78. ⚠️ Allcott and Hunt are both i…",
-      "description_chars": 5180,
+      "description_chars": 5828,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4498,6 +4498,33 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-31"
+    },
+    {
+      "id": "SIG-438",
+      "title": "THE CURATED-AGGREGATOR SEAM…",
+      "description": "Added 2026-09-01 (attended). ⚖️ WOLF'S FIND, and it is a DIFFERENT METHOD from every research row we have. Every other seam SEARCHES the open web. This one is a finite, enumerable index of already-cited material — author · date · outlet · live URL, in a consistent near-APA form, on ~800 of its entries. Wolf ruled it runs FIRST and in its own row, 2026-09-01, against the alternative of folding it into SIG-425. 📊 MEASURED THIS SESSION, not estimated — all 20 content index pages fetched in full, nothing truncated: 886 listed entries. Academic bucket 395 (adult 130 · teens 14-18 135 · tweens 36 ·…",
+      "description_chars": 4425,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-01"
     },
     {
       "id": "CAP-0029",
@@ -22273,6 +22300,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 1, 2026 · 2:20 AM CEST",
-  "published_at_iso": "2026-09-01T02:20:29+0200"
+  "published_at": "September 1, 2026 · 4:34 PM CEST",
+  "published_at_iso": "2026-09-01T16:34:55+0200"
 }
