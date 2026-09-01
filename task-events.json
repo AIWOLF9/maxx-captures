@@ -10,5 +10,17 @@
     "received_at": "2026-08-12T00:51:56.031Z",
     "status": "pending",
     "source": "venture-board"
+  },
+  {
+    "event_id": "mtiu6t93x8w5a",
+    "type": "note",
+    "task_id": "SIG-326",
+    "venture": "SIGNAL",
+    "file": "SIGNAL/_index/SIGNAL_TASKS.md",
+    "note": "will file dba by tomorrow",
+    "created_at": "2026-09-01T15:43:15.351Z",
+    "received_at": "2026-09-01T15:43:16.661Z",
+    "status": "pending",
+    "source": "venture-board"
   }
 ]
