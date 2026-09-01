@@ -1003,7 +1003,7 @@
       "id": "SIG-376",
       "title": "Website messaging + positioning arc…",
       "description": "Added 2026-08-12 (attended, chat close; Wolf's own framing). The thinking between the structure and the words — and nothing on this board owned it. SIG-357 freezes WHICH pages exist; SIG-358 produces the finished copy; the arc that decides what the copy is FOR had no row at all. Wolf, verbatim in substance: *what do we want to accomplish with the website · what's the proper messaging people first see · how do we want to engage people · what's the right messaging arc as they move through the pages · what's the takeaway as people review the site.* Scope: the promise and positioning for the wait…",
-      "description_chars": 8855,
+      "description_chars": 11327,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1354,7 +1354,7 @@
       "id": "SIG-425",
       "title": "HEADLINES + TRANSCRIPTS…",
       "description": "Added 2026-08-30 (attended stand-up). ⚖️ WOLF'S FINDING, and it is a THIRD and FOURTH layer the research programme never had. Verbatim: *\"we also were going to go look for a list of all these articles, YouTube headlines, podcast headlines, article headlines, and everything that's been published that meets the criteria… if I look at what are the most impactful headlines… do we have that? Do we do that?\"* and *\"inside of those podcasts, articles, and YouTube videos are the actual transcripts that also have very powerful statements which we want to use.\"* 🔴 VERIFIED THE SAME SESSION — the word h…",
-      "description_chars": 6657,
+      "description_chars": 7136,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -2154,7 +2154,7 @@
       "id": "SIG-068",
       "title": "/receipts page (content + build)",
       "description": "Populate the Brand §7.17.4.1 placeholder into a live /receipts page; routes to legal pass (SIG-077). CONTENT DRAFT done 2026-06-26 (autonomous): full long-scroll evidence-wall copy, 6 clusters + honest counter-case sidebar + Signal pivot, every claim attributed w/ receipt ID + index → 05_Marketing/Working/website-receipts/MSIG-WEB-RECEIPTS-PAGE_DRAFT_v0_1.md. Build/deploy + legal pass (SIG-077) still pending → row stays To-do. [CAPTURE-TRIAGE 2026-07-31 — two evidence items now owed to this page.] (a) MOS-T-058 + 064 insider-kids claim (Jobs / Microsoft execs restricting their own children's…",
-      "description_chars": 4259,
+      "description_chars": 7196,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -2168,11 +2168,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Wolf",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -2181,7 +2181,7 @@
       "id": "SIG-069",
       "title": "/algorithm-101 page (content + build)",
       "description": "Build the /algorithm-101 explainer (Decision 7 B1 commitment); fill Brand §7.17.4.2 placeholder. CONTENT DRAFT done 2026-06-26 (autonomous): 9-section mechanism explainer (loop diagram, casino reward, filter bubble, in-their-own-words, counter-case, principle-level Signal contrast) w/ per-section visual concepts; consolidates/supersedes earlier _Working/SIG-069_..._2026-06-22.md → 05_Marketing/Working/website-algorithm-101/MSIG-WEB-ALGORITHM-101_DRAFT_v0_1.md. Build/deploy still pending → row stays To-do. [⬜ DRAFT AWAITING WOLF REVIEW — /algorithm-101 page content v0.1 · _Working/SIG-069_algo…",
-      "description_chars": 774,
+      "description_chars": 2173,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -4503,7 +4503,7 @@
       "id": "SIG-438",
       "title": "THE CURATED-AGGREGATOR SEAM…",
       "description": "Added 2026-09-01 (attended). ⚖️ WOLF'S FIND, and it is a DIFFERENT METHOD from every research row we have. Every other seam SEARCHES the open web. This one is a finite, enumerable index of already-cited material — author · date · outlet · live URL, in a consistent near-APA form, on ~800 of its entries. Wolf ruled it runs FIRST and in its own row, 2026-09-01, against the alternative of folding it into SIG-425. 📊 MEASURED THIS SESSION, not estimated — all 20 content index pages fetched in full, nothing truncated: 886 listed entries. Academic bucket 395 (adult 130 · teens 14-18 135 · tweens 36 ·…",
-      "description_chars": 5310,
+      "description_chars": 6608,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -8140,33 +8140,6 @@
       ],
       "autonomy": "Batch",
       "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-08-17"
-    },
-    {
-      "id": "SIG-392",
-      "title": "LAUNCH GEOGRAPHY RULING…",
-      "description": "Added 2026-08-16 (attended). This row exists so the EU question stops appearing in stand-ups, in drafts, and in Wolf's inbox as nine separate items. Wolf, 2026-08-16: *\"European accounts don't seem to be a high priority at this moment with everything that we have to do. Just move these tasks down to the side later.\"* Deferral cost assessed and it is near-zero: the Privacy Policy is unpublished so no live claim is wrong; the geo-gate is one country check at signup (Cloudflare supplies the visitor country in a request header) specced whenever signup is built, not a decision; Kickstarter is unbu…",
-      "description_chars": 2964,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Legal",
-      "venture": "v-signal",
-      "deadline": "3-0",
-      "deadline_label": "Phase Future",
-      "deadline_class": "d-future",
-      "effort_mc": "0.5h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-08-17"
     },
@@ -22091,6 +22064,33 @@
       "first_seen": "2026-08-07"
     },
     {
+      "id": "SIG-392",
+      "title": "LAUNCH GEOGRAPHY RULING…",
+      "description": "Added 2026-08-16 (attended). This row exists so the EU question stops appearing in stand-ups, in drafts, and in Wolf's inbox as nine separate items. Wolf, 2026-08-16: *\"European accounts don't seem to be a high priority at this moment with everything that we have to do. Just move these tasks down to the side later.\"* Deferral cost assessed and it is near-zero: the Privacy Policy is unpublished so no live claim is wrong; the geo-gate is one country check at signup (Cloudflare supplies the visitor country in a request header) specced whenever signup is built, not a decision; Kickstarter is unbu…",
+      "description_chars": 4068,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-08-17"
+    },
+    {
       "id": "CF-OPENERS-SPENT-NOT-ARCHIVED-1",
       "title": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE…",
       "description": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE — measured, then repaired. Was Cancelled on 2026-08-07 as merged into CF-CONF-OPENERS-UNCOUNTABLE-1; the merge target's own count was wrong, so the residue was never actually addressed — §5.4.1 item 7, *a merge onto a blocked target is parked with extra steps*, visible here in miniature. Enumerated 2026-08-11: 31 opener-named files at the top level of _MAXX_OS/Working/. 29 moved to Working/openers-archive/ (28 → 57 files), per §5.8 *\"new openers go to Working/; spent ones go to Working/openers-archive/.\"* Two deliberately left: MC-LAUNCHD-LANE…",
@@ -22300,6 +22300,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 1, 2026 · 4:50 PM CEST",
-  "published_at_iso": "2026-09-01T16:50:16+0200"
+  "published_at": "September 1, 2026 · 5:20 PM CEST",
+  "published_at_iso": "2026-09-01T17:20:43+0200"
 }
