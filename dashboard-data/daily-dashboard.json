@@ -82,33 +82,6 @@
       "first_seen": null
     },
     {
-      "id": "SIG-047",
-      "title": "Domain verification (Apple)",
-      "description": "Verify the domain with Apple for Sign In with Apple (Checklist §7). [2026-08-01 — NOT BLOCKED BY THE WEBSITE. Worth stating explicitly because the adjacent Organization requirement IS.] Apple's web domain verification works by hosting a token file at https://maxxsignal.com/.well-known/apple-developer-domain-association.txt and registering the return URLs. The existing waitlist page on Vercel can serve that file — it needs a path, not content. This is a different mechanism from the Organization-enrolment website check (*\"publicly available and functional… minimal content won't be accepted\"*),…",
-      "description_chars": 1816,
-      "status": "s-doing",
-      "priority": "p-p0",
-      "segment": "Ops",
-      "venture": "v-signal",
-      "deadline": "1-3",
-      "deadline_label": "Phase P3",
-      "deadline_class": "d-future",
-      "effort_mc": "0.25h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "SIG-049",
       "title": "Lemon Squeezy account + products + checkout/portal + webhooks",
       "description": "Stand up merchant-of-record. RE-SCOPED 2026-08-05 (SIG-049 review): was S/0.5h — that priced the clicking only. Real chain = publishable maxxsignal.com (SIG-324) + published legal pages (SIG-325) + Stripe Connect KYC with a 2-3 business-day external review + hand-built products (API cannot create products/variants). \"4 products\" is STALE — the SIG-322 deposit must be a subscription product; reconcile the count when SIG-322 locks. Full runbook: 09_Operations/Final/checklists/MAXX_Signal_Payments_Activation_Runbook_v1_0.md; procedure restored at Pre-Build Checklist v1.1 §4A.",
@@ -16305,10 +16278,37 @@
       "first_seen": null
     },
     {
+      "id": "SIG-047",
+      "title": "Domain verification (Apple)",
+      "description": "Verify the domain with Apple for Sign In with Apple (Checklist §7). [2026-08-01 — NOT BLOCKED BY THE WEBSITE. Worth stating explicitly because the adjacent Organization requirement IS.] Apple's web domain verification works by hosting a token file at https://maxxsignal.com/.well-known/apple-developer-domain-association.txt and registering the return URLs. The existing waitlist page on Vercel can serve that file — it needs a path, not content. This is a different mechanism from the Organization-enrolment website check (*\"publicly available and functional… minimal content won't be accepted\"*),…",
+      "description_chars": 4155,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "SIG-048",
       "title": "Sign In with Apple key generation",
-      "description": "Generate the Sign In with Apple private key/credentials (Checklist §8) that feed the auth build. [2026-09-02 — WOLF EXECUTED IN THE PORTAL, attended; evidence = his screenshots in-session.] IDENTIFIERS NOW ON RECORD (all are identifiers, NOT secrets, and are safe to hold here): Team ID C4KN4P563V · Services / primary App ID C4KN4P563V.com.maxxsignal.web (description *MAXX Signal*) · Sign-in-with-Apple Key ID 6L68QRYMPY (*MAXX Signal Sign in with Apple*, created 2026-09-02) · Return URL registered: https://maxxsignal.com/api/auth/callback/apple · Domain registered: maxxsignal.com. ⛔ The .p8 pr…",
-      "description_chars": 1183,
+      "description": "Generate the Sign In with Apple private key/credentials (Checklist §8) that feed the auth build. [2026-09-02 — WOLF EXECUTED IN THE PORTAL, attended; evidence = his screenshots in-session.] IDENTIFIERS NOW ON RECORD (all are identifiers, NOT secrets, and are safe to hold here): Team ID C4KN4P563V · App ID C4KN4P563V.com.maxxsignal.web · 🔴 SERVICES ID com.maxxsignal.web.signin — ⚠️ CORRECTED 2026-09-02: an earlier version of this note recorded the App ID as though it were the Services ID. They are two different identifiers and the distinction is load-bearing — THE SERVICES ID IS WHAT BECOMES c…",
+      "description_chars": 1559,
       "status": "s-done",
       "priority": "p-p0",
       "segment": "Ops",
@@ -22450,6 +22450,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 2, 2026 · 8:45 PM CEST",
-  "published_at_iso": "2026-09-02T20:45:35+0200"
+  "published_at": "September 2, 2026 · 9:01 PM CEST",
+  "published_at_iso": "2026-09-02T21:01:30+0200"
 }
