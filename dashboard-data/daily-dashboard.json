@@ -706,7 +706,7 @@
       "id": "SIG-314",
       "title": "Resend domain authentication + outbound sending warm-up",
       "description": "Added 2026-08-01 (attended stand-up; Wolf ruled it a row after a plain-English explanation). Surfaced by the SIG-311 critical-path pass — an incompressible external clock with NO row, found in the same session that concluded a *non-gating* external clock had held P0 for twenty-one stand-ups. PRD v1.5 §16.2 item 2, verbatim: *\"Resend domain authentication + warmup — DNS propagation + sending reputation warmup requires 2+ weeks before launch; cannot be compressed.\"* In plain terms: mailbox providers have no sending history for maxxsignal.com. A brand-new domain going from zero to thousands of s…",
-      "description_chars": 3004,
+      "description_chars": 3673,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -1300,8 +1300,8 @@
       "id": "SIG-434",
       "title": "THE GEO-GATE…",
       "description": "Added 2026-08-31 (attended), created by Decision 98 (D-SIG-2026-08-31a). ⚠️ This row is the entire difference between a US-only ruling and a wish. GDPR reaches a US company that offers services to people in the EU — the test is targeting, not accidental access. A US-only marketing posture is decent evidence of non-targeting, but if an EU resident finds the site, signs up and pays, we have arguably offered them a service. The failure mode is the worst of both worlds: in GDPR scope, with no Art. 27 representative, no consent banner, no register, and a privacy policy that says the EU sections do…",
-      "description_chars": 1924,
-      "status": "s-todo",
+      "description_chars": 2946,
+      "status": "s-doing",
       "priority": "p-p0",
       "segment": "Engineering",
       "venture": "v-signal",
@@ -22423,6 +22423,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 2, 2026 · 9:13 AM CEST",
-  "published_at_iso": "2026-09-02T09:13:12+0200"
+  "published_at": "September 2, 2026 · 4:19 PM CEST",
+  "published_at_iso": "2026-09-02T16:19:18+0200"
 }
