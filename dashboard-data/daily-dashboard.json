@@ -4392,6 +4392,33 @@
       "first_seen": "2026-09-01"
     },
     {
+      "id": "SIG-439",
+      "title": "_Inbox/ reconciliation…",
+      "description": "Added 2026-09-02 (attended, evening session). ⚠️ _Inbox/ is an UNMONITORED CHANNEL. Mission Control delivers portfolio-binding messages into SIGNAL/_Inbox/ — rulings, corrections, delivery rules, grant approvals, board-defect reports. 21 MC-TO-SIGNAL / MC_TO_SIGNAL files sit there and only 3 are named in any closeout. ⚠️ That number is a claim about a FILENAME grep of _Transcripts/closeouts/, NOT a finding that 18 items were dropped — substance may have landed under another name. The defect that IS established: the daily stand-up prompt's STEP 1 does not mention _Inbox/ at all, so nothing rou…",
+      "description_chars": 1212,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-09-02"
+    },
+    {
       "id": "CAP-0029",
       "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
@@ -22342,6 +22369,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 2, 2026 · 3:29 AM CEST",
-  "published_at_iso": "2026-09-02T03:29:55+0200"
+  "published_at": "September 2, 2026 · 3:45 AM CEST",
+  "published_at_iso": "2026-09-02T03:45:45+0200"
 }
