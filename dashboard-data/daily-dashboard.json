@@ -679,7 +679,7 @@
       "id": "SIG-306",
       "title": "Website research + best-practice teardown → recommendation pass (DEDICATED CHAT)",
       "description": "Added 2026-07-31 (attended stand-up; new-task capture — Wolf agreed this as a separate chat, so it becomes a row before close per the anti-slip rule). Wolf's direction, verbatim in substance: *do not create the website off the existing draft.* Run the research first — best-practice research for a waitlist / pre-order site, then teardowns of the strongest real examples, then per-element recommendations with the reasoning for each, then a proper plan; review the drafts already written as part of that. Inputs: _Working/SIG-067_WEBSITE-CONTENT_home-pricing-about_v0_1_DRAFT_2026-07-29.md (input, N…",
-      "description_chars": 4180,
+      "description_chars": 7853,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -3882,7 +3882,7 @@
       "id": "SIG-377",
       "title": "Competitor site teardown…",
       "description": "Added 2026-08-12 (attended, chat close). Wolf has already started this and the material is in his hands, not on disk. He captured screenshots plus full-site PDFs of comparable waitlist / pre-order sites — *\"companies that already spent a tremendous amount of time and money creating these\"* — specifically to study top-to-bottom structure: section order, what sections exist that we do not have, and how the page argues its way down. Scope: (1) Wolf hands over the captures; (2) Claude tears them down section-by-section into a comparable table — section, job, position in the scroll, the persuasion…",
-      "description_chars": 6891,
+      "description_chars": 10564,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -22450,6 +22450,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 2, 2026 · 5:53 PM CEST",
-  "published_at_iso": "2026-09-02T17:53:40+0200"
+  "published_at": "September 2, 2026 · 6:24 PM CEST",
+  "published_at_iso": "2026-09-02T18:24:35+0200"
 }
