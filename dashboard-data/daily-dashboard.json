@@ -1300,7 +1300,7 @@
       "id": "SIG-434",
       "title": "THE GEO-GATE…",
       "description": "Added 2026-08-31 (attended), created by Decision 98 (D-SIG-2026-08-31a). ⚠️ This row is the entire difference between a US-only ruling and a wish. GDPR reaches a US company that offers services to people in the EU — the test is targeting, not accidental access. A US-only marketing posture is decent evidence of non-targeting, but if an EU resident finds the site, signs up and pays, we have arguably offered them a service. The failure mode is the worst of both worlds: in GDPR scope, with no Art. 27 representative, no consent banner, no register, and a privacy policy that says the EU sections do…",
-      "description_chars": 6708,
+      "description_chars": 8716,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Engineering",
@@ -1314,11 +1314,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "VULCAN",
+      "executor": "Wolf",
       "executor_list": [
-        "VULCAN"
+        "Wolf"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Wolf",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -22423,6 +22423,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 2, 2026 · 4:34 PM CEST",
-  "published_at_iso": "2026-09-02T16:34:44+0200"
+  "published_at": "September 2, 2026 · 4:51 PM CEST",
+  "published_at_iso": "2026-09-02T16:51:12+0200"
 }
