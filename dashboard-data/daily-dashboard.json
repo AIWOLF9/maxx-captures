@@ -1324,6 +1324,33 @@
       "first_seen": "2026-08-31"
     },
     {
+      "id": "SIG-442",
+      "title": "PHASE THE GTM…",
+      "description": "Added 2026-09-02 (attended, Wolf's instruction, twice in one message). ⚠️ CHECKED BEFORE CREATING, per rule 1 — 43 open tasks already touch waitlist/GTM/distribution and the SIG-426→SIG-433 spine covers most of what Wolf described. This row is NOT a parallel programme and creates no duplicate scope. The genuine gap, stated precisely: the GTM chain has no PHASE axis. SIG-428 (acquisition model), SIG-429 (organic content engine) and SIG-431 (ambassador list) are each written as one undifferentiated go-to-market. A keyword scan of all five spine tasks finds phase words in only one of them. But t…",
+      "description_chars": 2806,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-02"
+    },
+    {
       "id": "CF-MOS-TASKS-NOT-MIRRORED-1",
       "title": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26…",
       "description": "_index/MOS_TASKS.md is not in the shared-foundation mirror, and that gap silently blocked a Signal P1 for 26 days. SIG-317 (*\"Backfill real MOS-T-### pairs into the Linked column\"*, To-do since 2026-08-04) states its own blocker: MOS_TASKS.md sits outside every venture mount and is unreadable from Signal scope, so the 314 — entries assert *\"no Signal row is paired with an MC row\"* — a claim this session falsified: 25 MC rows name 22 distinct Signal rows. A hand-off carrying the full pairing table was written to SIGNAL/_Inbox/MC-TO-SIGNAL_HANDOFF_2026-08-30_MOS-T-070_pairing-data.md with deriv…",
@@ -3855,7 +3882,7 @@
       "id": "SIG-377",
       "title": "Competitor site teardown…",
       "description": "Added 2026-08-12 (attended, chat close). Wolf has already started this and the material is in his hands, not on disk. He captured screenshots plus full-site PDFs of comparable waitlist / pre-order sites — *\"companies that already spent a tremendous amount of time and money creating these\"* — specifically to study top-to-bottom structure: section order, what sections exist that we do not have, and how the page argues its way down. Scope: (1) Wolf hands over the captures; (2) Claude tears them down section-by-section into a comparable table — section, job, position in the scroll, the persuasion…",
-      "description_chars": 5764,
+      "description_chars": 6891,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -22423,6 +22450,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 2, 2026 · 4:51 PM CEST",
-  "published_at_iso": "2026-09-02T16:51:12+0200"
+  "published_at": "September 2, 2026 · 5:23 PM CEST",
+  "published_at_iso": "2026-09-02T17:23:10+0200"
 }
