@@ -4260,7 +4260,7 @@
       "id": "SIG-428",
       "title": "The acquisition model…",
       "description": "Added 2026-08-31 (attended). THE HIGHEST-VALUE MISSING ARTIFACT. A full sweep of the venture found nothing on disk that converts channels into a user count — no target CAC, no assumed conversion rates, no reach assumptions, no per-channel yield. *First 10,000 users* and *100,000 users* have been ambition, never arithmetic, in every GTM document since May. Build the model: channel to reach to conversion to users, at both the 10k and 100k marks, in three scenarios (conservative / expected / optimistic), with every assumption named and its source stated. Why this row gates SIG-429, SIG-430 and S…",
-      "description_chars": 1090,
+      "description_chars": 4862,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -22450,6 +22450,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 2, 2026 · 6:24 PM CEST",
-  "published_at_iso": "2026-09-02T18:24:35+0200"
+  "published_at": "September 2, 2026 · 6:55 PM CEST",
+  "published_at_iso": "2026-09-02T18:55:46+0200"
 }
