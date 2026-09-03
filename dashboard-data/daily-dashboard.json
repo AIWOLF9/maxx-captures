@@ -1111,7 +1111,7 @@
       "id": "SIG-423",
       "title": "Chat 1 of 5…",
       "description": "Added 2026-08-28 (unattended stand-up; anti-slip rule in this document's governance header — *an opener is not tracking*). Chat 1 of the five-chat sequence in _Working/SIGNAL_PLAN_WHAT-HAPPENS-NEXT_2026-08-27.html had a written opener (_Working/SIG-421_OPENER_COUNCIL-AND-RESCORE_2026-08-27.md) and no row — so the single item gating every downstream chat was invisible to this board and to the MC dashboard. What it is: Wolf fires /maxx-council on the scoring rubric (~20 minutes of his time), then Claude re-scores all 647 candidate copy lines on the agreed rubric (/30, per Decisions 79 and 80).…",
-      "description_chars": 26650,
+      "description_chars": 29681,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -22673,6 +22673,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 3, 2026 · 2:11 PM CEST",
-  "published_at_iso": "2026-09-03T14:11:45+0200"
+  "published_at": "September 3, 2026 · 2:42 PM CEST",
+  "published_at_iso": "2026-09-03T14:42:11+0200"
 }
