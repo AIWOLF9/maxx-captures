@@ -1111,7 +1111,7 @@
       "id": "SIG-423",
       "title": "Chat 1 of 5…",
       "description": "Added 2026-08-28 (unattended stand-up; anti-slip rule in this document's governance header — *an opener is not tracking*). Chat 1 of the five-chat sequence in _Working/SIGNAL_PLAN_WHAT-HAPPENS-NEXT_2026-08-27.html had a written opener (_Working/SIG-421_OPENER_COUNCIL-AND-RESCORE_2026-08-27.md) and no row — so the single item gating every downstream chat was invisible to this board and to the MC dashboard. What it is: Wolf fires /maxx-council on the scoring rubric (~20 minutes of his time), then Claude re-scores all 647 candidate copy lines on the agreed rubric (/30, per Decisions 79 and 80).…",
-      "description_chars": 25254,
+      "description_chars": 26650,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1241,6 +1241,33 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-02"
+    },
+    {
+      "id": "SIG-449",
+      "title": "SCORE THE FULL CORPUS on the ruled rubric, and set the real quality floor…",
+      "description": "Added 2026-09-03 (attended, session M3). D-SIG-2026-09-03-M3i — the scoring half of SIG-423, split out because it sits on the far side of the content harvest. What it is: score every line in the corpus on RUBRIC_v0_3.md (or its successor), rank within job, and set the definitive quality floor. 🔑 Why it cannot run before the harvest: a SCORE survives the harvest, a RANK does not. A line's ENERGY is a property of that line and is stable; the floor and the within-job ranking are properties of the SET, and every one of them is invalidated when stronger material arrives. A floor set on a pre-harve…",
+      "description_chars": 1286,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-03"
     },
     {
       "id": "CF-MOS-TASKS-NOT-MIRRORED-1",
@@ -22646,6 +22673,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 3, 2026 · 1:41 PM CEST",
-  "published_at_iso": "2026-09-03T13:41:17+0200"
+  "published_at": "September 3, 2026 · 2:11 PM CEST",
+  "published_at_iso": "2026-09-03T14:11:45+0200"
 }
