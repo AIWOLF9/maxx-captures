@@ -4314,7 +4314,7 @@
       "id": "SIG-444",
       "title": "Sign-in-with-Apple identity durability…",
       "description": "Added 2026-09-02 (SIG-439 _Inbox/ reconciliation). _Inbox/MC-TO-SIGNAL_SIWA-IDENTITY-DURABILITY_2026-08-04.md gave five identity-durability requirements for the SIG-280 Data Model v1.6 edit. Two landed, three did not. ✅ In: the Firebase Auth UID as the stable document key, and authProvider extended with 'apple' (04_Build/Final/MAXX_Signal_Data_Model_v1_6.md line 479). ❌ Missing: (a) Apple's sub documented as a mutable lookup value rather than an identity; (b) a nullable appleTransferSub for the team-transfer path; (c) a durable private-relay boolean on the user document — today it exists only…",
-      "description_chars": 1296,
+      "description_chars": 2188,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Build",
@@ -22773,6 +22773,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 4, 2026 · 2:07 AM CEST",
-  "published_at_iso": "2026-09-04T02:07:19+0200"
+  "published_at": "September 4, 2026 · 9:25 AM CEST",
+  "published_at_iso": "2026-09-04T09:25:17+0200"
 }
