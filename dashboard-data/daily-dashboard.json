@@ -4,7 +4,7 @@
       "id": "SIG-029",
       "title": "Email Spec (MSIG-UX-EMAIL-0001 v1.0)",
       "description": "Spec the daily reminder email (both tiers, default-on, easy unsubscribe) + transactional + lifecycle emails + copy. SIG43: v0.1 DRAFT reviewed — transactional set + taxonomy + deliverability + send-time (7am local, research-grounded) drafted; T5 rollover corrected to 24h-before-day-7 (7-day trial). Blocked on a dedicated daily-reminder CONTENT research+design pass (component menu + digest teardowns, Wolf direction) before promotion. Conversion emails → conversion-email design pass. Stays DRAFT. 2026-06-26 (autonomous): named blocker RESOLVED — daily-reminder CONTENT pass folded in; Email Spec…",
-      "description_chars": 2713,
+      "description_chars": 5313,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Product",
@@ -22773,6 +22773,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 6, 2026 · 9:13 PM CEST",
-  "published_at_iso": "2026-09-06T21:13:17+0200"
+  "published_at": "September 7, 2026 · 9:16 AM CEST",
+  "published_at_iso": "2026-09-07T09:16:57+0200"
 }
