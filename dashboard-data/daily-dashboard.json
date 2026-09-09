@@ -22063,7 +22063,7 @@
       "id": "MOS-T-056",
       "title": "UNDERSTAND NEW OPUS 4.8 Features- DYNAMIC WORKFLOWS, ultra code- etc",
       "description": "⛔ RETIRED 2026-08-31 — item: MOS-T-056 (D-MC-2026-08-31-X0f, MC-STANDUP-2026-08-31d, attended). Its premise expired. The row asks what to adopt from Opus 4.8; the portfolio moved to Opus 5 on 2026-07-24 and has run on it for five weeks. There is nothing left to adopt from a superseded model. NOT closed as a duplicate of MOS-T-017, which is what three nightly passes (2026-08-06, -08-17, -08-18) recommended — they compared titles, and the bodies differ. T-017 asked *is 4.8 current and what are its features* (closed 2026-06-24). T-056 asks an operational question T-017 never did: *which capabili…",
-      "description_chars": 1121,
+      "description_chars": 1577,
       "status": "s-done",
       "priority": "p-p2",
       "segment": "Governance",
@@ -22773,6 +22773,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 9, 2026 · 9:16 AM CEST",
-  "published_at_iso": "2026-09-09T09:16:15+0200"
+  "published_at": "September 9, 2026 · 4:08 PM CEST",
+  "published_at_iso": "2026-09-09T16:08:39+0200"
 }
