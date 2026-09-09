@@ -23,6 +23,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -50,6 +51,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": null
@@ -77,6 +79,7 @@
         "ATHENA"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": null
@@ -104,6 +107,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -126,11 +130,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "VULCAN",
+      "executor": "Wolf",
       "executor_list": [
-        "VULCAN"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -158,6 +163,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -185,6 +191,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -212,6 +219,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -239,6 +247,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -266,6 +275,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -293,6 +303,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -320,6 +331,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -347,6 +359,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -374,6 +387,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -401,6 +415,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -428,6 +443,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -454,7 +470,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -482,6 +499,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-06-26"
@@ -509,6 +527,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "QA",
       "kind": "tasks",
       "first_seen": null
@@ -531,11 +550,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code+Wolf",
-      "executor": "VULCAN",
+      "executor": "Wolf",
       "executor_list": [
-        "VULCAN"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "QA",
       "kind": "tasks",
       "first_seen": null
@@ -563,6 +583,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -585,11 +606,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-05"
@@ -616,7 +638,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-27"
@@ -644,6 +667,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-31"
@@ -666,11 +690,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "MC",
+      "executor": "Wolf",
       "executor_list": [
-        "MC"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-01"
@@ -698,6 +723,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-05"
@@ -725,6 +751,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-08"
@@ -752,6 +779,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -779,6 +807,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -801,11 +830,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "ATHENA",
       "executor_list": [
-        "Wolf"
+        "ATHENA"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -828,11 +858,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -860,6 +891,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-12"
@@ -887,6 +919,7 @@
         "MC"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-12"
@@ -914,6 +947,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-08-13"
@@ -936,11 +970,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-13"
@@ -963,11 +998,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-13"
@@ -990,11 +1026,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "ATHENA",
       "executor_list": [
-        "Wolf"
+        "ATHENA"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-17"
@@ -1022,6 +1059,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-21"
@@ -1049,6 +1087,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-22"
@@ -1076,6 +1115,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-22"
@@ -1098,11 +1138,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "VULCAN",
+      "executor": "Wolf",
       "executor_list": [
-        "VULCAN"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-25"
@@ -1130,6 +1171,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-28"
@@ -1157,6 +1199,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-28"
@@ -1179,11 +1222,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "HERMES",
       "executor_list": [
-        "Wolf"
+        "HERMES"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-30"
@@ -1206,11 +1250,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -1237,7 +1282,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-02"
@@ -1265,6 +1311,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-03"
@@ -1951,6 +1998,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -1978,6 +2026,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -2005,6 +2054,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -2032,6 +2082,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -2054,11 +2105,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "HERMES",
       "executor_list": [
-        "Wolf"
+        "HERMES"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -2086,6 +2138,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -2112,7 +2165,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -2140,6 +2194,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -2166,7 +2221,8 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-06-26"
@@ -2193,7 +2249,8 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-06-26"
@@ -2220,7 +2277,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-03"
@@ -2248,6 +2306,7 @@
         "MC"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-07-03"
@@ -2275,6 +2334,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-04"
@@ -2302,6 +2362,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-08"
@@ -2329,6 +2390,7 @@
         "APOLLO"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": "2026-07-08"
@@ -2355,7 +2417,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-08"
@@ -2383,6 +2446,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-08"
@@ -2410,6 +2474,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -2436,7 +2501,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -2463,7 +2529,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -2491,6 +2558,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -2518,6 +2586,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -2545,6 +2614,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -2572,6 +2642,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -2598,7 +2669,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -2626,6 +2698,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -2652,7 +2725,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -2680,6 +2754,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-17"
@@ -2702,11 +2777,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "THEMIS",
       "executor_list": [
-        "Wolf"
+        "THEMIS"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": null
@@ -2734,6 +2810,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": null
@@ -2760,7 +2837,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-04"
@@ -2788,6 +2866,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -2815,6 +2894,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -2837,11 +2917,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -2864,11 +2945,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "MC",
+      "executor": "Wolf",
       "executor_list": [
-        "MC"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -2891,11 +2973,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "APOLLO",
+      "executor": "Wolf",
       "executor_list": [
-        "APOLLO"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -2918,11 +3001,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "ARGUS",
+      "executor": "Wolf",
       "executor_list": [
-        "ARGUS"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "QA",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -2950,6 +3034,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -2977,6 +3062,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -3003,7 +3089,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -3030,7 +3117,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -3057,7 +3145,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -3084,7 +3173,8 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -3111,7 +3201,8 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -3138,7 +3229,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -3165,7 +3257,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -3193,6 +3286,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-18"
@@ -3215,11 +3309,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "THEMIS",
+      "executor": "Wolf",
       "executor_list": [
-        "THEMIS"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-07-31"
@@ -3247,6 +3342,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-07-31"
@@ -3274,6 +3370,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-05"
@@ -3301,6 +3398,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-08-05"
@@ -3328,6 +3426,7 @@
         "THEMIS"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-08-06"
@@ -3350,11 +3449,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "MC",
       "executor_list": [
-        "Wolf"
+        "MC"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -3382,6 +3482,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -3404,11 +3505,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude Code",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -3436,6 +3538,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -3463,6 +3566,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -3489,7 +3593,8 @@
       "executor_list": [
         "THEMIS"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -3517,6 +3622,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-08"
@@ -3544,6 +3650,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-08"
@@ -3571,6 +3678,7 @@
         "MC"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-08"
@@ -3598,6 +3706,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-08"
@@ -3620,11 +3729,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -3652,6 +3762,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -3678,7 +3789,8 @@
       "executor_list": [
         "THEMIS"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -3706,6 +3818,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -3733,6 +3846,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -3760,6 +3874,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-12"
@@ -3782,11 +3897,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "APOLLO",
+      "executor": "Wolf",
       "executor_list": [
-        "APOLLO"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": "2026-08-12"
@@ -3814,6 +3930,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-12"
@@ -3836,11 +3953,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-13"
@@ -3863,11 +3981,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-13"
@@ -3895,6 +4014,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-08-13"
@@ -3917,11 +4037,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "VULCAN",
+      "executor": "Wolf",
       "executor_list": [
-        "VULCAN"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-18"
@@ -3944,11 +4065,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "ATHENA",
+      "executor": "Wolf",
       "executor_list": [
-        "ATHENA"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-18"
@@ -3976,6 +4098,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-18"
@@ -4002,7 +4125,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-20"
@@ -4025,11 +4149,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-20"
@@ -4057,6 +4182,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-22"
@@ -4083,7 +4209,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-22"
@@ -4111,6 +4238,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-27"
@@ -4133,11 +4261,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "HERMES",
       "executor_list": [
-        "Wolf"
+        "HERMES"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-27"
@@ -4164,7 +4293,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -4192,6 +4322,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -4218,7 +4349,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -4241,11 +4373,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -4272,7 +4405,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -4299,7 +4433,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-01"
@@ -4327,6 +4462,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-09-02"
@@ -4353,7 +4489,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-09-02"
@@ -6697,7 +6834,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -6725,6 +6863,7 @@
         "ATHENA"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": null
@@ -6752,6 +6891,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -6779,6 +6919,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -6806,6 +6947,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -6832,7 +6974,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-09"
@@ -6859,7 +7002,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -6886,7 +7030,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -6913,7 +7058,8 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -6941,6 +7087,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -6968,6 +7115,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -6994,7 +7142,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -7022,6 +7171,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -7049,6 +7199,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -7075,7 +7226,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -7102,7 +7254,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -7129,7 +7282,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -7156,7 +7310,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -7184,6 +7339,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -7210,7 +7366,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -7237,7 +7394,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-05"
@@ -7264,7 +7422,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-04"
@@ -7291,7 +7450,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -7314,11 +7474,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -7341,11 +7502,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -7368,11 +7530,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -7400,6 +7563,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -7426,7 +7590,8 @@
       "executor_list": [
         "APOLLO"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -7454,6 +7619,7 @@
         "PLUTUS"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -7481,6 +7647,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -7508,6 +7675,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -7530,11 +7698,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -7557,11 +7726,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -7589,6 +7759,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-18"
@@ -7616,6 +7787,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-20"
@@ -7642,7 +7814,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-21"
@@ -7669,7 +7842,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-21"
@@ -7697,6 +7871,7 @@
         "APOLLO"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": "2026-07-22"
@@ -7723,7 +7898,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-22"
@@ -7750,7 +7926,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-23"
@@ -7778,6 +7955,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-27"
@@ -7804,7 +7982,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-06"
@@ -7832,6 +8011,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -7859,6 +8039,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -7881,11 +8062,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -7908,11 +8090,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -7935,11 +8118,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "MC",
       "executor_list": [
-        "Wolf"
+        "MC"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -7967,6 +8151,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-08"
@@ -7994,6 +8179,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-08"
@@ -8020,7 +8206,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-08"
@@ -8043,11 +8230,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -8074,7 +8262,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-13"
@@ -8102,6 +8291,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-13"
@@ -8129,6 +8319,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-17"
@@ -8156,6 +8347,7 @@
         "MC"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-17"
@@ -8183,6 +8375,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-18"
@@ -8210,6 +8403,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-27"
@@ -8236,7 +8430,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -8263,7 +8458,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -8290,7 +8486,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-09-02"
@@ -8318,6 +8515,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-09-02"
@@ -8344,7 +8542,8 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-09-02"
@@ -8372,6 +8571,7 @@
         "MC"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-09-02"
@@ -8959,7 +9159,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -8986,7 +9187,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-06-30"
@@ -9013,7 +9215,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-01"
@@ -9040,7 +9243,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -9067,7 +9271,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -9094,7 +9299,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -9121,7 +9327,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -9148,7 +9355,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -9175,7 +9383,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -9198,11 +9407,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "PLUTUS",
       "executor_list": [
-        "Wolf"
+        "PLUTUS"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-08-05"
@@ -9230,6 +9440,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -9256,7 +9467,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9284,6 +9496,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -9311,6 +9524,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -9333,11 +9547,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -9365,6 +9580,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -9391,7 +9607,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -9419,6 +9636,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -9446,6 +9664,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9473,6 +9692,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9500,6 +9720,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9527,6 +9748,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9554,6 +9776,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9581,6 +9804,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9608,6 +9832,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9634,7 +9859,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9662,6 +9888,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9689,6 +9916,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9716,6 +9944,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9743,6 +9972,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9770,6 +10000,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9797,6 +10028,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9824,6 +10056,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -9851,6 +10084,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9877,7 +10111,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9905,6 +10140,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9932,6 +10168,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -9959,6 +10196,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -9986,6 +10224,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10013,6 +10252,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10040,6 +10280,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10066,7 +10307,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10094,6 +10336,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -10121,6 +10364,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10148,6 +10392,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10175,6 +10420,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10201,7 +10447,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -10229,6 +10476,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -10256,6 +10504,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10283,6 +10532,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10310,6 +10560,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10337,6 +10588,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10364,6 +10616,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10391,6 +10644,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10418,6 +10672,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10445,6 +10700,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10472,6 +10728,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10499,6 +10756,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10526,6 +10784,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10553,6 +10812,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10580,6 +10840,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10607,6 +10868,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10634,6 +10896,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10660,7 +10923,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10687,7 +10951,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -10715,6 +10980,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10742,6 +11008,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10769,6 +11036,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10796,6 +11064,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10823,6 +11092,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -10850,6 +11120,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10876,7 +11147,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -10904,6 +11176,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10931,6 +11204,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10957,7 +11231,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -10985,6 +11260,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -11012,6 +11288,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -11039,6 +11316,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -11066,6 +11344,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -11093,6 +11372,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -11120,6 +11400,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -11147,6 +11428,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -11174,6 +11456,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -11201,6 +11484,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -11227,7 +11511,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -11255,6 +11540,7 @@
         "APOLLO"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": null
@@ -11281,7 +11567,8 @@
       "executor_list": [
         "APOLLO"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": null
@@ -11308,7 +11595,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -11335,7 +11623,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -11362,7 +11651,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -11390,6 +11680,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -11416,7 +11707,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -11443,7 +11735,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-17"
@@ -11471,6 +11764,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-17"
@@ -11498,6 +11792,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-17"
@@ -11524,7 +11819,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-18"
@@ -11552,6 +11848,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-18"
@@ -11578,7 +11875,8 @@
       "executor_list": [
         "APOLLO"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": "2026-07-20"
@@ -11605,7 +11903,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-21"
@@ -11632,7 +11931,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-22"
@@ -11659,7 +11959,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-23"
@@ -11686,7 +11987,8 @@
       "executor_list": [
         "THEMIS"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-07-31"
@@ -11713,7 +12015,8 @@
       "executor_list": [
         "THEMIS"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-07-31"
@@ -11741,6 +12044,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -11763,11 +12067,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "HERMES",
       "executor_list": [
-        "Wolf"
+        "HERMES"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -11795,6 +12100,7 @@
         "THEMIS"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-08-17"
@@ -11817,11 +12123,12 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "ATHENA",
+      "executor": "Wolf",
       "executor_list": [
-        "ATHENA"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-18"
@@ -11849,6 +12156,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-20"
@@ -11876,6 +12184,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -11902,7 +12211,8 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-09-01"
@@ -12181,7 +12491,8 @@
       "executor_list": [
         "PLUTUS"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": null
@@ -12209,6 +12520,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -12231,11 +12543,12 @@
       "created": null,
       "zone": "waiting",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-04"
@@ -13590,7 +13903,8 @@
       "executor_list": [
         "APOLLO"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -13618,6 +13932,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -15912,6 +16227,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -15939,6 +16255,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -15966,6 +16283,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -15993,6 +16311,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -16020,6 +16339,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -16047,6 +16367,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -16074,6 +16395,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -16101,6 +16423,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -16128,6 +16451,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -16155,6 +16479,7 @@
         "PLUTUS"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": null
@@ -16182,6 +16507,7 @@
         "ATHENA"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": null
@@ -16209,6 +16535,7 @@
         "ATHENA"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": null
@@ -16236,6 +16563,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -16263,6 +16591,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": null
@@ -16290,6 +16619,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -16317,6 +16647,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -16344,6 +16675,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -16371,6 +16703,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -16398,6 +16731,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": null
@@ -16420,11 +16754,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "ATHENA",
       "executor_list": [
-        "Wolf"
+        "ATHENA"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-06-20"
@@ -16452,6 +16787,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -16479,6 +16815,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -16506,6 +16843,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -16533,6 +16871,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -16560,6 +16899,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -16587,6 +16927,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -16614,6 +16955,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -16640,7 +16982,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -16667,7 +17010,8 @@
       "executor_list": [
         "PLUTUS"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -16690,11 +17034,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "THEMIS",
+      "executor": "Wolf",
       "executor_list": [
-        "THEMIS"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -16721,7 +17066,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-17"
@@ -16744,11 +17090,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "VULCAN",
+      "executor": "Wolf",
       "executor_list": [
-        "VULCAN"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-05"
@@ -16771,11 +17118,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-31"
@@ -16803,6 +17151,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-31"
@@ -16830,6 +17179,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-31"
@@ -16852,11 +17202,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "MC",
+      "executor": "Wolf",
       "executor_list": [
-        "MC"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-07-31"
@@ -16883,7 +17234,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-05"
@@ -16910,7 +17262,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -16933,11 +17286,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "ATHENA",
       "executor_list": [
-        "Wolf"
+        "ATHENA"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -16960,11 +17314,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -16987,11 +17342,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "MC",
+      "executor": "Wolf",
       "executor_list": [
-        "MC"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -17018,7 +17374,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -17041,11 +17398,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "MC",
+      "executor": "Wolf",
       "executor_list": [
-        "MC"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -17072,7 +17430,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-12"
@@ -17095,11 +17454,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-17"
@@ -17127,6 +17487,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-17"
@@ -17149,11 +17510,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-18"
@@ -17176,11 +17538,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "MC",
+      "executor": "Wolf",
       "executor_list": [
-        "MC"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-26"
@@ -17208,9 +17571,31 @@
         "MC"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-27"
+    },
+    {
+      "id": "CF-SIGNAL-INC-FORMED-1",
+      "title": "MAXX Signal Inc…",
+      "description": "MAXX Signal Inc. is now officially formed as a Florida C Corporation, and the 15,000,000 authorised-share count was confirmed with the registered agent before the filing was submitted. Wolf confirmed both in the Mission Control stand-up of 2026-09-09. This closes the one item from MC-ENTITY-SETUP-2026-09-04 that carried a closing window — confirming the share count was free before submission and would have cost a fee plus delay afterwards. It had been recorded under 'what Wolf does next' and never reached a register, which is why it went five days without a status; that routing gap is the sam…",
+      "description_chars": 870,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Agents",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Closed on Wolf's confirmation 2…",
+      "deadline_class": "d-future",
+      "effort_mc": "<30m",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CARRY_FORWARD_INBOX.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "kind": "cfi",
+      "first_seen": "2026-09-09"
     },
     {
       "id": "CF-DEPT-TAXONOMY-SIX-OR-EIGHT-1",
@@ -19137,7 +19522,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -19165,6 +19551,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -19192,6 +19579,7 @@
         "ATHENA"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": null
@@ -19219,6 +19607,7 @@
         "APOLLO"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": null
@@ -19246,6 +19635,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -19273,6 +19663,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -19300,6 +19691,7 @@
         "APOLLO"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
       "first_seen": null
@@ -19327,6 +19719,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -19354,6 +19747,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-06-02"
@@ -19381,6 +19775,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -19408,6 +19803,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -19435,6 +19831,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": null
@@ -19462,6 +19859,7 @@
         "PLUTUS"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": null
@@ -19489,6 +19887,7 @@
         "ARGUS"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "QA",
       "kind": "tasks",
       "first_seen": null
@@ -19511,11 +19910,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "ARGUS",
       "executor_list": [
-        "Wolf"
+        "ARGUS"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "QA",
       "kind": "tasks",
       "first_seen": null
@@ -19543,6 +19943,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": null
@@ -19569,7 +19970,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-25"
@@ -19597,6 +19999,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-06-26"
@@ -19623,7 +20026,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-01"
@@ -19650,7 +20054,8 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-09"
@@ -19678,6 +20083,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-09"
@@ -19705,6 +20111,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-09"
@@ -19732,6 +20139,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-09"
@@ -19759,6 +20167,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -19785,7 +20194,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -19813,6 +20223,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -19839,7 +20250,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -19867,6 +20279,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-11"
@@ -19889,11 +20302,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "VULCAN",
+      "executor": "Wolf",
       "executor_list": [
-        "VULCAN"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -19916,11 +20330,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "THEMIS",
+      "executor": "Wolf",
       "executor_list": [
-        "THEMIS"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -19948,6 +20363,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -19974,7 +20390,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-15"
@@ -20002,6 +20419,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-17"
@@ -20028,7 +20446,8 @@
       "executor_list": [
         "PLUTUS"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-07-19"
@@ -20056,6 +20475,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-17"
@@ -20082,7 +20502,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -20109,7 +20530,8 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -20137,6 +20559,7 @@
         "MC"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -20164,6 +20587,7 @@
         "PLUTUS"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-06-06"
@@ -20191,6 +20615,7 @@
         "VULCAN"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-06-08"
@@ -20213,11 +20638,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-18"
@@ -20245,6 +20671,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-20"
@@ -20272,6 +20699,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-23"
@@ -20298,7 +20726,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-25"
@@ -20321,11 +20750,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude(ATHENA)+Wolf",
-      "executor": "ATHENA",
+      "executor": "Wolf",
       "executor_list": [
-        "ATHENA"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-07-25"
@@ -20352,7 +20782,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-26"
@@ -20380,6 +20811,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-01"
@@ -20402,11 +20834,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "MC",
       "executor_list": [
-        "Wolf"
+        "MC"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-05"
@@ -20434,6 +20867,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-05"
@@ -20461,6 +20895,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -20488,6 +20923,7 @@
         "ATHENA"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -20514,7 +20950,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-08-08"
@@ -20542,6 +20979,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-11"
@@ -20568,7 +21006,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -20595,7 +21034,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-31"
@@ -20623,6 +21063,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-09-02"
@@ -20645,11 +21086,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "MC",
       "executor_list": [
-        "Wolf"
+        "MC"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-09-02"
@@ -20677,6 +21119,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-09-02"
@@ -22349,6 +22792,7 @@
         "MC"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
@@ -22375,7 +22819,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": null
@@ -22403,6 +22848,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": null
@@ -22429,7 +22875,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-25"
@@ -22456,7 +22903,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-25"
@@ -22484,6 +22932,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-01"
@@ -22510,7 +22959,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-07-09"
@@ -22537,7 +22987,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-17"
@@ -22565,6 +23016,7 @@
         "VULCAN"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-17"
@@ -22592,6 +23044,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -22618,7 +23071,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-06-09"
@@ -22645,7 +23099,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-21"
@@ -22672,7 +23127,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-07-25"
@@ -22695,11 +23151,12 @@
       "created": null,
       "zone": "done",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-08-07"
@@ -22727,6 +23184,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-08-17"
@@ -22930,17 +23388,18 @@
       "created": null,
       "zone": "done",
       "owner": "Claude",
-      "executor": "Wolf",
+      "executor": "VULCAN",
       "executor_list": [
-        "Wolf"
+        "VULCAN"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-07-31"
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 9, 2026 · 4:55 PM CEST",
-  "published_at_iso": "2026-09-09T16:55:18+0200"
+  "published_at": "September 9, 2026 · 5:25 PM CEST",
+  "published_at_iso": "2026-09-09T17:25:45+0200"
 }
