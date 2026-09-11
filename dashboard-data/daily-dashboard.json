@@ -676,7 +676,7 @@
       "id": "SIG-350",
       "title": "Source or retire the four uncited claims before any of them reach the website",
       "description": "Added 2026-08-07 (SIG-306 content inventory; this is a liability row, not a polish row). Four load-bearing claims appear in onboarding and draft marketing copy with no receipt anywhere on disk: *~70% of what you watch*, *7 in 10 teens / ~90% of adults*, *100–300+ hrs/year*, and the 38,599-hour Attention Receipt. SIG-067 explicitly warned against unsourced statistics and the onboarding deck did it anyway. On a brand whose whole thesis is anti-manipulation and whose /receipts page invites people to check us, an uncited number is the single most damaging thing we can publish. Method: for each cl…",
-      "description_chars": 6778,
+      "description_chars": 10199,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Content",
@@ -2287,7 +2287,7 @@
       "id": "SIG-213",
       "title": "Email deliverability + Gmail Primary-tab placement research",
       "description": "Added 2026-07-03 (Wolf ask, gating-decisions chat). Research + playbook: how to (a) stay out of spam/junk and (b) land in Gmail Primary (not Promotions/Updates) for the daily reminder + lifecycle mail. Covers: SPF/DKIM/DMARC (Resend partly done) + sender-reputation warmup; the content signals that push mail into Promotions (bulk/newsletter markup, image-heavy, many links, promo language) vs. Primary (1:1 plain feel, personalized, account-related framing); the onboarding \"click to confirm\" engagement tactic Wolf flagged; list hygiene; unsubscribe-protects-reputation. Whether recurring product…",
-      "description_chars": 4702,
+      "description_chars": 6191,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Ops",
@@ -23512,6 +23512,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 12, 2026 · 12:44 AM CEST",
-  "published_at_iso": "2026-09-12T00:44:13+0200"
+  "published_at": "September 12, 2026 · 12:59 AM CEST",
+  "published_at_iso": "2026-09-12T00:59:31+0200"
 }
