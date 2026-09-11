@@ -1152,7 +1152,7 @@
       "id": "SIG-434",
       "title": "THE GEO-GATE…",
       "description": "Added 2026-08-31 (attended), created by Decision 98 (D-SIG-2026-08-31a). ⚠️ This row is the entire difference between a US-only ruling and a wish. GDPR reaches a US company that offers services to people in the EU — the test is targeting, not accidental access. A US-only marketing posture is decent evidence of non-targeting, but if an EU resident finds the site, signs up and pays, we have arguably offered them a service. The failure mode is the worst of both worlds: in GDPR scope, with no Art. 27 representative, no consent banner, no register, and a privacy policy that says the EU sections do…",
-      "description_chars": 10134,
+      "description_chars": 12110,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Engineering",
@@ -2287,7 +2287,7 @@
       "id": "SIG-213",
       "title": "Email deliverability + Gmail Primary-tab placement research",
       "description": "Added 2026-07-03 (Wolf ask, gating-decisions chat). Research + playbook: how to (a) stay out of spam/junk and (b) land in Gmail Primary (not Promotions/Updates) for the daily reminder + lifecycle mail. Covers: SPF/DKIM/DMARC (Resend partly done) + sender-reputation warmup; the content signals that push mail into Promotions (bulk/newsletter markup, image-heavy, many links, promo language) vs. Primary (1:1 plain feel, personalized, account-related framing); the onboarding \"click to confirm\" engagement tactic Wolf flagged; list hygiene; unsubscribe-protects-reputation. Whether recurring product…",
-      "description_chars": 3782,
+      "description_chars": 4702,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Ops",
@@ -3659,7 +3659,7 @@
       "id": "SIG-353",
       "title": "Write the palette's missing half into Brand…",
       "description": "Added 2026-08-07 (SIG-306 research §7.6 and §7.8). The brand lock names the colours but not what they *mean*, and without that engineers invent greys and the lock drifts inside a sprint. Add: cyan = interactive or live; gold = value or measurement; nothing else gets colour — and gold gets its own screen region rather than sitting adjacent to cyan at small sizes. Also record that cyan fails contrast for body copy on #0A0B10 — body must be near-white at roughly 7:1. Add a will-not-ship list beside the palette lock: smooth scroll (Lenis-class), magnetic cursors, horizontal scroll-hijacking, and…",
-      "description_chars": 916,
+      "description_chars": 1479,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Brand",
@@ -23512,6 +23512,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 11, 2026 · 7:41 PM CEST",
-  "published_at_iso": "2026-09-11T19:41:59+0200"
+  "published_at": "September 11, 2026 · 7:57 PM CEST",
+  "published_at_iso": "2026-09-11T19:57:21+0200"
 }
