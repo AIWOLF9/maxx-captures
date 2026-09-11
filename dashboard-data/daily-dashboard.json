@@ -872,7 +872,7 @@
       "id": "SIG-376",
       "title": "Website messaging + positioning arc…",
       "description": "Added 2026-08-12 (attended, chat close; Wolf's own framing). The thinking between the structure and the words — and nothing on this board owned it. SIG-357 freezes WHICH pages exist; SIG-358 produces the finished copy; the arc that decides what the copy is FOR had no row at all. Wolf, verbatim in substance: *what do we want to accomplish with the website · what's the proper messaging people first see · how do we want to engage people · what's the right messaging arc as they move through the pages · what's the takeaway as people review the site.* Scope: the promise and positioning for the wait…",
-      "description_chars": 13280,
+      "description_chars": 14169,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -23400,6 +23400,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 11, 2026 · 6:25 PM CEST",
-  "published_at_iso": "2026-09-11T18:25:45+0200"
+  "published_at": "September 11, 2026 · 7:11 PM CEST",
+  "published_at_iso": "2026-09-11T19:11:19+0200"
 }
