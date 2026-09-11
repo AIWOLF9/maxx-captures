@@ -760,7 +760,7 @@
       "id": "SIG-361",
       "title": "Login + forgot-password screen package…",
       "description": "Added 2026-08-11 (attended; surfaced by Wolf: *\"that's the one part I think we still need to finalize… which I don't think we have spoken about\"*). There is no login screen in any screen spec — SIG-315 flagged Auth + Landing as orphans on 2026-08-03 and it was never resolved. Every launch email we send says \"come log in\" and points at a screen that does not exist. Package: (1) login — email-first lookup, so a Google/Apple user is never asked for a password they never set (Wolf: *\"I've run into this issue myself\"*; this is the #1 support ticket in this pattern); (2) forgot password; (3) reset…",
-      "description_chars": 1092,
+      "description_chars": 2085,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Design",
@@ -2454,8 +2454,8 @@
     {
       "id": "SIG-229",
       "title": "Ambassador Dashboard…",
-      "description": "Added 2026-07-10 (SIG-227). Member→Ambassador dashboard (sign-ups referred, earnings, payout), accessed from owner Signal page + You hub. Reads Lemon Squeezy affiliate data (PRD §12 / §774); decide read-via-API-and-build vs link-to-hub. Dual-viewport; new inventory screen #35.",
-      "description_chars": 277,
+      "description": "Added 2026-07-10 (SIG-227). Member→Ambassador dashboard (sign-ups referred, earnings, payout), accessed from owner Signal page + You hub. Reads Lemon Squeezy affiliate data (PRD §12 / §774); decide read-via-API-and-build vs link-to-hub. Dual-viewport; new inventory screen #35. [2026-09-12 — 📌 ARTEFACT POINTER ADDED, overnight pre-read pass. This row did not name work that already exists on disk, and that omission caused a wrong conclusion tonight.] 🔑 SCREEN #35 IS ALREADY DESIGNED AND LOCKED — NINE FILES in 03_Design/Working/mockups/: S35a_program-welcome · S35b_earnings · S35c_impact-calcula…",
+      "description_chars": 1272,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -2567,7 +2567,7 @@
       "id": "SIG-242",
       "title": "Full service-screen inventory audit + master build-order plan",
       "description": "Added 2026-07-11 (SIG-228); leads the next chat. Reconcile the two driver docs (MSIG-SCREEN-VIEW-INDEX ↔ MSIG-SERVICE-SCREEN-INVENTORY v0.2): produce ONE checked-off list of every screen/view — done vs remaining. Known remaining: Settings sub-pages (Language/Location/Help/About-legal = SIG-235; Notifications/email #24, Data&privacy #25 need review/finish), all sharing (#26/#27/#28), Group 4 + Group 5, invite/gift capture (#34), system states (#29). Output a build-order plan in proper sequence. Then execute screens in order. Also verify every LOCKED mockup is truly self-contained (offline icon…",
-      "description_chars": 1189,
+      "description_chars": 2387,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Product",
@@ -3014,8 +3014,8 @@
     {
       "id": "SIG-177",
       "title": "SIG27 consolidation: canonical 4a/4b/4c specs + Favikon/Apollo import CSV + roadmap v1.1",
-      "description": "Promote the SIG27 working boards into canonical specs once decisions confirmed; export the seed-list CSV for Favikon/Apollo import; fold the new captures into roadmap v1.1.",
-      "description_chars": 172,
+      "description": "Promote the SIG27 working boards into canonical specs once decisions confirmed; export the seed-list CSV for Favikon/Apollo import; fold the new captures into roadmap v1.1. [2026-09-12 — 📌 ARTEFACT POINTER ADDED, overnight pre-read pass. This row did not name work that already exists on disk, and that omission caused a wrong conclusion tonight.] 🔑 TWENTY-THREE SIG27_* ARTEFACTS ARE IN _Working/ — 4a content-channels + enablement, 4b seed list (v1.0–v1.3), outreach-stack decision (v1.0/v1.1), creator-discovery options, contact-acquisition-at-scale, 4c partner/affiliate programme, the GTM and l…",
+      "description_chars": 1118,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -3042,8 +3042,8 @@
     {
       "id": "SIG-179",
       "title": "Lock single activation event + 60-second-rule",
-      "description": "SIG34 D-SIG34-2. Gates SIG-026 onboarding finalization + engineering kickoff. Lock the one in-product behavior that proves a user experienced Signal's core value. Recommended candidate: \"first intent-matched category populated + first curated session viewed.\" Pair with WHY/intentions layer; surface 2-3 alt candidates with WHY-each. Evidence: Lenny + Yuriy 500-product survey 2.5x trial-paid lift (best-validated single number in the literature).",
-      "description_chars": 447,
+      "description": "SIG34 D-SIG34-2. Gates SIG-026 onboarding finalization + engineering kickoff. Lock the one in-product behavior that proves a user experienced Signal's core value. Recommended candidate: \"first intent-matched category populated + first curated session viewed.\" Pair with WHY/intentions layer; surface 2-3 alt candidates with WHY-each. Evidence: Lenny + Yuriy 500-product survey 2.5x trial-paid lift (best-validated single number in the literature). [2026-09-12 — 📌 ARTEFACT POINTER ADDED, overnight pre-read pass. This row did not name work that already exists on disk, and that omission caused a wro…",
+      "description_chars": 1680,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -4303,7 +4303,7 @@
       "id": "SIG-431",
       "title": "Ambassador / influencer LIST build…",
       "description": "Added 2026-08-31 (attended). Wolf, 2026-08-31: *\"an aggressive campaign to get ambassador and affiliate partners.\"* ⚠️ The gap here is precise and easy to misread: the PROGRAM is fully designed and locked; the LIST OF PEOPLE was never built. MAXX_Signal_AFFILIATE_v1_2 is 4,258 lines locked at P0 — tiers at 25/40/40-plus-badge, commission mechanics, payouts, attribution, anti-fraud, dashboard. MSIG-GTM-PARTNER-DISCOVERY-0001 v0.2 defines exactly how to build the database of public voices on algorithmic harm and was ratified 2026-05-28 and then explicitly queued behind upstream blockers — where…",
-      "description_chars": 1218,
+      "description_chars": 2222,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -23512,6 +23512,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 12, 2026 · 12:59 AM CEST",
-  "published_at_iso": "2026-09-12T00:59:31+0200"
+  "published_at": "September 12, 2026 · 1:29 AM CEST",
+  "published_at_iso": "2026-09-12T01:29:55+0200"
 }
