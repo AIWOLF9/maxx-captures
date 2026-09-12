@@ -2567,8 +2567,8 @@
       "id": "SIG-242",
       "title": "Full service-screen inventory audit + master build-order plan",
       "description": "Added 2026-07-11 (SIG-228); leads the next chat. Reconcile the two driver docs (MSIG-SCREEN-VIEW-INDEX ↔ MSIG-SERVICE-SCREEN-INVENTORY v0.2): produce ONE checked-off list of every screen/view — done vs remaining. Known remaining: Settings sub-pages (Language/Location/Help/About-legal = SIG-235; Notifications/email #24, Data&privacy #25 need review/finish), all sharing (#26/#27/#28), Group 4 + Group 5, invite/gift capture (#34), system states (#29). Output a build-order plan in proper sequence. Then execute screens in order. Also verify every LOCKED mockup is truly self-contained (offline icon…",
-      "description_chars": 2387,
-      "status": "s-doing",
+      "description_chars": 5424,
+      "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
       "venture": "v-signal",
@@ -23512,6 +23512,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 12, 2026 · 1:29 AM CEST",
-  "published_at_iso": "2026-09-12T01:29:55+0200"
+  "published_at": "September 12, 2026 · 9:17 AM CEST",
+  "published_at_iso": "2026-09-12T09:17:11+0200"
 }
