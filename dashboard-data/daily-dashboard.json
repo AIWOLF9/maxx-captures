@@ -956,7 +956,7 @@
       "id": "SIG-390",
       "title": "Post-click landing pages…",
       "description": "Added 2026-08-16 (attended). When someone finishes onboarding we send a welcome email; the page its link opens does not exist in any design, spec or row. It is one surface with four entry paths — waitlist (share only) · pre-order Monthly (share only) · pre-order Annual and Lifetime (gift-recipient capture, then share) · Kickstarter (same shape, separate chat) — collapsing after launch to a straight redirect into the user's feed. Also carries the SMS opt-in (collect now, activation a separate go/no-go; TCPA consent wording shared with SIG-370). Wolf ruling 2026-08-16: this is its OWN Claude De…",
-      "description_chars": 1018,
+      "description_chars": 2143,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Design",
@@ -23512,6 +23512,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 13, 2026 · 5:09 AM CEST",
-  "published_at_iso": "2026-09-13T05:09:05+0200"
+  "published_at": "September 13, 2026 · 9:25 AM CEST",
+  "published_at_iso": "2026-09-13T09:25:28+0200"
 }
