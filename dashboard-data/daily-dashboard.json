@@ -1180,7 +1180,7 @@
       "id": "SIG-442",
       "title": "PHASE THE GTM…",
       "description": "Added 2026-09-02 (attended, Wolf's instruction, twice in one message). ⚠️ CHECKED BEFORE CREATING, per rule 1 — 43 open tasks already touch waitlist/GTM/distribution and the SIG-426→SIG-433 spine covers most of what Wolf described. This row is NOT a parallel programme and creates no duplicate scope. The genuine gap, stated precisely: the GTM chain has no PHASE axis. SIG-428 (acquisition model), SIG-429 (organic content engine) and SIG-431 (ambassador list) are each written as one undifferentiated go-to-market. A keyword scan of all five spine tasks finds phase words in only one of them. But t…",
-      "description_chars": 2806,
+      "description_chars": 4895,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -4247,7 +4247,7 @@
       "id": "SIG-428",
       "title": "The acquisition model…",
       "description": "Added 2026-08-31 (attended). THE HIGHEST-VALUE MISSING ARTIFACT. A full sweep of the venture found nothing on disk that converts channels into a user count — no target CAC, no assumed conversion rates, no reach assumptions, no per-channel yield. *First 10,000 users* and *100,000 users* have been ambition, never arithmetic, in every GTM document since May. Build the model: channel to reach to conversion to users, at both the 10k and 100k marks, in three scenarios (conservative / expected / optimistic), with every assumption named and its source stated. Why this row gates SIG-429, SIG-430 and S…",
-      "description_chars": 4862,
+      "description_chars": 6592,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4303,7 +4303,7 @@
       "id": "SIG-431",
       "title": "Ambassador / influencer LIST build…",
       "description": "Added 2026-08-31 (attended). Wolf, 2026-08-31: *\"an aggressive campaign to get ambassador and affiliate partners.\"* ⚠️ The gap here is precise and easy to misread: the PROGRAM is fully designed and locked; the LIST OF PEOPLE was never built. MAXX_Signal_AFFILIATE_v1_2 is 4,258 lines locked at P0 — tiers at 25/40/40-plus-badge, commission mechanics, payouts, attribution, anti-fraud, dashboard. MSIG-GTM-PARTNER-DISCOVERY-0001 v0.2 defines exactly how to build the database of public voices on algorithmic harm and was ratified 2026-05-28 and then explicitly queued behind upstream blockers — where…",
-      "description_chars": 2222,
+      "description_chars": 3000,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -23512,6 +23512,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 13, 2026 · 9:25 AM CEST",
-  "published_at_iso": "2026-09-13T09:25:28+0200"
+  "published_at": "September 13, 2026 · 11:59 PM CEST",
+  "published_at_iso": "2026-09-13T23:59:31+0200"
 }
