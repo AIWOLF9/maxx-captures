@@ -2343,7 +2343,7 @@
       "id": "SIG-215",
       "title": "Service-screen SPECIFICATIONS (post-login)…",
       "description": "Added 2026-07-08 (anti-slip capture — Wolf). The post-login product screens (no task existed). Process: complete screen inventory → agree most-valuable → storyboard → Claude Design hi-fi → specs + examples. Covers Feed (My Signal/All-YouTube), Video Player (👍/👎 + transcript/summary), mindful-Shorts chooser (SIG-209), Settings/prefs (categories, granular subcategory drill, keep-outs, creators, intentions, subscription), Profile/archetype, Give-Me-More — PLUS the more-granular in-app options once a user is in. Intermix screenshots with App-Store-style benefit/pain messaging. Screenshots feed SI…",
-      "description_chars": 4514,
+      "description_chars": 6884,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Design",
@@ -4492,6 +4492,62 @@
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-14"
+    },
+    {
+      "id": "SIG-458",
+      "title": "Patch MAXX_Signal_AFFILIATE_v1_2…",
+      "description": "Created 2026-09-14 by the SIG-215 spec pass. ⚠️ CHECKED BEFORE CREATING: no task covers the affiliate spec document itself — the only two rows that mention it (SIG-229, SIG-431) consume it, they do not maintain it. 🔑 WHY THIS EXISTS: AFF v1.2 is 4,258 lines, locked at P0, and had never had a screen spec written against it. Writing one surfaced eleven defects in a single pass. Full list with evidence in 02_Product/Working/MSIG-UX-SCREEN-AMBASSADOR-0001_v0_1_2026-09-14.md §16 (items 25–35) and in MSIG-DESIGN-SPEC-SYNC §H.4. Headline three: (a) §10.12 specifies event properties in snake_case, vi…",
+      "description_chars": 1678,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~3h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-09-14"
+    },
+    {
+      "id": "SIG-459",
+      "title": "The batched Claude Design reopen…",
+      "description": "Created 2026-09-14 on Wolf's explicit attended instruction. Wolf: *\"We don't need to stop everything and update the one now, but we keep a running tab of all the screens that need to be updated, and then we update them in the next week or so… Make sure that the specs and the screens correlate precisely.\"* ⚠️ CHECKED BEFORE CREATING: the two precedents (SIG-359, SIG-393) are both Done and were onboarding-specific. Nothing covers a service-screen reopen batch. 📌 THE INPUT IS 02_Product/Working/MSIG-DESIGN-SPEC-SYNC_v0_1_2026-07-15.md §H — do not maintain a second list. Already logged there, fro…",
+      "description_chars": 1586,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-09-14"
     },
@@ -23624,6 +23680,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 14, 2026 · 6:51 PM CEST",
-  "published_at_iso": "2026-09-14T18:51:39+0200"
+  "published_at": "September 14, 2026 · 9:23 PM CEST",
+  "published_at_iso": "2026-09-14T21:23:41+0200"
 }
