@@ -2959,7 +2959,7 @@
       "id": "SIG-168",
       "title": "Concept + price test (PickFu + Prolific)",
       "description": "PRE-build demand + WTP validation of $29/$49/$99 with ~100 persona-matched respondents (~$450–700). The CareAngel-style concept test. Method (MC handoff 2026-07-01, SIG-168-finding): Van Westendorp cheap-first on PickFu → optional Prolific point-estimate later. Runnable in parallel NOW — spin up a separate Signal chat to build the PickFu questionnaire while onboarding/website work proceeds; MC supplied only the methodology, not the questionnaire. Full brief: nightly-batch/2026-07-01/SIG-168-finding.md. 2026-07-04 (Wolf input — feeds this test): wants an in-chat pricing GRID reconciling his la…",
-      "description_chars": 1337,
+      "description_chars": 4930,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -23540,6 +23540,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 14, 2026 · 12:30 AM CEST",
-  "published_at_iso": "2026-09-14T00:30:07+0200"
+  "published_at": "September 14, 2026 · 3:31 AM CEST",
+  "published_at_iso": "2026-09-14T03:31:19+0200"
 }
