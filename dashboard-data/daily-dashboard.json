@@ -2343,7 +2343,7 @@
       "id": "SIG-215",
       "title": "Service-screen SPECIFICATIONS (post-login)…",
       "description": "Added 2026-07-08 (anti-slip capture — Wolf). The post-login product screens (no task existed). Process: complete screen inventory → agree most-valuable → storyboard → Claude Design hi-fi → specs + examples. Covers Feed (My Signal/All-YouTube), Video Player (👍/👎 + transcript/summary), mindful-Shorts chooser (SIG-209), Settings/prefs (categories, granular subcategory drill, keep-outs, creators, intentions, subscription), Profile/archetype, Give-Me-More — PLUS the more-granular in-app options once a user is in. Intermix screenshots with App-Store-style benefit/pain messaging. Screenshots feed SI…",
-      "description_chars": 13484,
+      "description_chars": 16353,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Design",
@@ -23708,6 +23708,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 15, 2026 · 9:13 AM CEST",
-  "published_at_iso": "2026-09-15T09:13:51+0200"
+  "published_at": "September 15, 2026 · 1:45 PM CEST",
+  "published_at_iso": "2026-09-15T13:45:20+0200"
 }
