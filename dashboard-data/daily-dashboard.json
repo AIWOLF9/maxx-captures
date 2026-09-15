@@ -1976,6 +1976,40 @@
       "first_seen": "2026-08-04"
     },
     {
+      "id": "MOS-T-077",
+      "title": "MC handed Signal a two-cell correction on SIG-454 and a hand-off file is not tracking…",
+      "description": "Hand-off written 2026-09-15 to SIGNAL/_Inbox/MC-TO-SIGNAL_HANDOFF_2026-09-15_sig454-column-transposition.md, derived from SIGNAL/_index/SIGNAL_TASKS.md@fc6e89a (930,263 B, mtime 2026-09-15T11:40:32Z). Closeout-protocol §5.4.1 item 6: an MC→venture inbox hand-off is authoritative in tone and tracked by nothing — the maxxsignal.com deployment ruling was re-opened four times for exactly this reason. This row is MC's side; Signal owns the edit. Measured, and it corrects the 2026-09-15 overnight board: Phase alone drives the board's track field (Pre-Launch→launch on 53/53 rows, B*→post on 86/86),…",
+      "description_chars": 815,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Governance",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos",
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "XS",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": null,
+      "review": "r-none",
+      "review_label": null,
+      "kind": "tasks",
+      "first_seen": "2026-09-15"
+    },
+    {
       "id": "SIG-060",
       "title": "Settings / preference management + per-category exclusions",
       "description": "Post-onboarding editing of categories, exclusions, and followed creators.",
@@ -6902,6 +6936,39 @@
       "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-09-03"
+    },
+    {
+      "id": "MOS-T-076",
+      "title": "Watchdog CHECK 22 was installed today but has never fired…",
+      "description": "Installed 2026-09-15 attended (D-MC-2026-09-15-32S8BCR06F-02): check_column_domain_swap.py copied to _MAXX_OS/Capabilities/substrate-hygiene/scripts/ and wired into watchdog_local.sh as CHECK 22, advisory, matching checks 19-21. Verified here by bash -n, by exercising the live branch (reports the SIG-454 swap) and the missing-file branch (reports SKIP, not a silent pass), and by the detector's own 9/9 suite from its new home. NOT verified: that launchd actually runs it. Installed is not observed-running — three sibling lanes died in exactly that gap. TRIGGER: the 2026-09-16 08:05 local watchd…",
+      "description_chars": 689,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Substrate",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "XS",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": null,
+      "review": "r-none",
+      "review_label": null,
+      "kind": "tasks",
+      "first_seen": "2026-09-15"
     },
     {
       "id": "SIG-034",
@@ -23764,6 +23831,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 15, 2026 · 5:01 PM CEST",
-  "published_at_iso": "2026-09-15T17:01:58+0200"
+  "published_at": "September 15, 2026 · 6:17 PM CEST",
+  "published_at_iso": "2026-09-15T18:17:40+0200"
 }
