@@ -4555,7 +4555,7 @@
       "id": "SIG-460",
       "title": "The document-fix pass…",
       "description": "Created 2026-09-15 by the daily stand-up lane, per the CONVERSION RULE — a finding that implies work becomes a task in the same run, or is named and dropped. ⚠️ CHECKED BEFORE CREATING (board rule 1). SIG-459 is the mockup reopen and its own cell says this split unblocks it; SIG-458 covers the AFFILIATE document only; SIG-215 is finished and owes nothing. No task covered the document side. Three board greps were run — for document-fix or divergence or H.6 or split; for MSIG-UX-EMAIL or cadence; for foundations or shared component — and returned only SIG-359, SIG-393, SIG-459, all reopens, plu…",
-      "description_chars": 3058,
+      "description_chars": 3296,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -4575,6 +4575,62 @@
       ],
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-09-15"
+    },
+    {
+      "id": "SIG-461",
+      "title": "Write the help & tour CONTENT…",
+      "description": "Created 2026-09-15, attended, at the SIG-215 spec-pass-2 closeout. Ruled by Wolf as Decisions 132 and 133 (00_Canonical/Final/MAXX_Signal_Decisions_Log_v1_4.md). ⚠️ CHECKED BEFORE CREATING (board rule 1). A search of all 449 rows for tour, coach, help, first-run and info dot returns only SIG-232 (*Stepped \"set up your Signal profile\" tour* — a DIFFERENT tour), SIG-235 (the Settings sub-pages batch, which is the correct home for the Settings door alone), SIG-459 (the mockup reopen) and SIG-460 (the document-fix pass, created earlier today by the daily stand-up lane). Nothing covers the content…",
+      "description_chars": 3034,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~5h",
+      "effort_wolf": "~1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-15"
+    },
+    {
+      "id": "SIG-462",
+      "title": "Foundations amendment…",
+      "description": "Created 2026-09-15, attended, at the SIG-215 spec-pass-2 closeout. Ruled by Wolf as Decisions 132 and 133 (00_Canonical/Final/MAXX_Signal_Decisions_Log_v1_4.md). ⚠️ CHECKED BEFORE CREATING (board rule 1). 🔴 grep -ci \"help\" on MSIG-UX-FOUNDATIONS-0001_v1_2.md returns ZERO. Foundations specifies the left rail, the ▤ mobile menu, the bottom nav and the channel guide bar — and NO TOP BAR AT ALL. The only top-bar anatomy in the corpus sits inside one screen spec's §4 R1. So the ?, which the help component requires on *every main surface*, is specified nowhere shared; MSIG-UX-SCREEN-HELP-0001 had t…",
+      "description_chars": 2040,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~2h",
+      "effort_wolf": "~0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "joint-owner",
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-09-15"
@@ -23708,6 +23764,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 15, 2026 · 1:45 PM CEST",
-  "published_at_iso": "2026-09-15T13:45:20+0200"
+  "published_at": "September 15, 2026 · 3:31 PM CEST",
+  "published_at_iso": "2026-09-15T15:31:08+0200"
 }
