@@ -4505,7 +4505,7 @@
       "id": "SIG-459",
       "title": "The batched Claude Design reopen…",
       "description": "Created 2026-09-14 on Wolf's explicit attended instruction. Wolf: *\"We don't need to stop everything and update the one now, but we keep a running tab of all the screens that need to be updated, and then we update them in the next week or so… Make sure that the specs and the screens correlate precisely.\"* ⚠️ CHECKED BEFORE CREATING: the two precedents (SIG-359, SIG-393) are both Done and were onboarding-specific. Nothing covers a service-screen reopen batch. 📌 THE INPUT IS 02_Product/Working/MSIG-DESIGN-SPEC-SYNC_v0_1_2026-07-15.md §H — do not maintain a second list. Already logged there, fro…",
-      "description_chars": 7824,
+      "description_chars": 9067,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -4612,6 +4612,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-09-15"
+    },
+    {
+      "id": "SIG-465",
+      "title": "Master index per department…",
+      "description": "Created 2026-09-16, attended, on Wolf's explicit instruction to make this an operating procedure, not a one-off. Wolf: *\"If we used these master index files that have everything needed, with all the mockups and a proper index that describes everything with the proper descriptions and keywords, then it'd be much easier to find. That's what I also want to do for all the content, all the library, everything related to that… As we look at each major area, we create a master index because we're going to be creating lots of documents, and everything is in one place by department.\"* ⚠️ CHECKED BEFOR…",
+      "description_chars": 2960,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-09-16"
     },
     {
       "id": "CAP-0029",
@@ -23887,6 +23915,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 16, 2026 · 12:05 AM CEST",
-  "published_at_iso": "2026-09-16T00:05:24+0200"
+  "published_at": "September 16, 2026 · 12:35 AM CEST",
+  "published_at_iso": "2026-09-16T00:35:46+0200"
 }
