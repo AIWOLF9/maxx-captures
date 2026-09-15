@@ -4552,6 +4552,34 @@
       "first_seen": "2026-09-14"
     },
     {
+      "id": "SIG-460",
+      "title": "The document-fix pass…",
+      "description": "Created 2026-09-15 by the daily stand-up lane, per the CONVERSION RULE — a finding that implies work becomes a task in the same run, or is named and dropped. ⚠️ CHECKED BEFORE CREATING (board rule 1). SIG-459 is the mockup reopen and its own cell says this split unblocks it; SIG-458 covers the AFFILIATE document only; SIG-215 is finished and owes nothing. No task covered the document side. Three board greps were run — for document-fix or divergence or H.6 or split; for MSIG-UX-EMAIL or cadence; for foundations or shared component — and returned only SIG-359, SIG-393, SIG-459, all reopens, plu…",
+      "description_chars": 3058,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~6h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-09-15"
+    },
+    {
       "id": "CAP-0029",
       "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
@@ -23680,6 +23708,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 15, 2026 · 3:57 AM CEST",
-  "published_at_iso": "2026-09-15T03:57:12+0200"
+  "published_at": "September 15, 2026 · 9:13 AM CEST",
+  "published_at_iso": "2026-09-15T09:13:51+0200"
 }
