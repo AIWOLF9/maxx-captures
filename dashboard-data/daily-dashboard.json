@@ -4505,7 +4505,7 @@
       "id": "SIG-459",
       "title": "The batched Claude Design reopen…",
       "description": "Created 2026-09-14 on Wolf's explicit attended instruction. Wolf: *\"We don't need to stop everything and update the one now, but we keep a running tab of all the screens that need to be updated, and then we update them in the next week or so… Make sure that the specs and the screens correlate precisely.\"* ⚠️ CHECKED BEFORE CREATING: the two precedents (SIG-359, SIG-393) are both Done and were onboarding-specific. Nothing covers a service-screen reopen batch. 📌 THE INPUT IS 02_Product/Working/MSIG-DESIGN-SPEC-SYNC_v0_1_2026-07-15.md §H — do not maintain a second list. Already logged there, fro…",
-      "description_chars": 4463,
+      "description_chars": 5632,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -4561,7 +4561,7 @@
       "id": "SIG-462",
       "title": "Foundations amendment…",
       "description": "Created 2026-09-15, attended, at the SIG-215 spec-pass-2 closeout. Ruled by Wolf as Decisions 132 and 133 (00_Canonical/Final/MAXX_Signal_Decisions_Log_v1_4.md). ⚠️ CHECKED BEFORE CREATING (board rule 1). 🔴 grep -ci \"help\" on MSIG-UX-FOUNDATIONS-0001_v1_2.md returns ZERO. Foundations specifies the left rail, the ▤ mobile menu, the bottom nav and the channel guide bar — and NO TOP BAR AT ALL. The only top-bar anatomy in the corpus sits inside one screen spec's §4 R1. So the ?, which the help component requires on *every main surface*, is specified nowhere shared; MSIG-UX-SCREEN-HELP-0001 had t…",
-      "description_chars": 2406,
+      "description_chars": 3088,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -21566,7 +21566,7 @@
       "id": "SIG-461",
       "title": "Write the help & tour CONTENT…",
       "description": "Created 2026-09-15, attended, at the SIG-215 spec-pass-2 closeout. Ruled by Wolf as Decisions 132 and 133 (00_Canonical/Final/MAXX_Signal_Decisions_Log_v1_4.md). ⚠️ CHECKED BEFORE CREATING (board rule 1). A search of all 449 rows for tour, coach, help, first-run and info dot returns only SIG-232 (*Stepped \"set up your Signal profile\" tour* — a DIFFERENT tour), SIG-235 (the Settings sub-pages batch, which is the correct home for the Settings door alone), SIG-459 (the mockup reopen) and SIG-460 (the document-fix pass, created earlier today by the daily stand-up lane). Nothing covers the content…",
-      "description_chars": 6134,
+      "description_chars": 7126,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Design",
@@ -23887,6 +23887,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 15, 2026 · 10:34 PM CEST",
-  "published_at_iso": "2026-09-15T22:34:27+0200"
+  "published_at": "September 15, 2026 · 10:49 PM CEST",
+  "published_at_iso": "2026-09-15T22:49:46+0200"
 }
