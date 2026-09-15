@@ -1125,7 +1125,7 @@
       "title": "HEADLINES + TRANSCRIPTS…",
       "description": "Added 2026-08-30 (attended stand-up). ⚖️ WOLF'S FINDING, and it is a THIRD and FOURTH layer the research programme never had. Verbatim: *\"we also were going to go look for a list of all these articles, YouTube headlines, podcast headlines, article headlines, and everything that's been published that meets the criteria… if I look at what are the most impactful headlines… do we have that? Do we do that?\"* and *\"inside of those podcasts, articles, and YouTube videos are the actual transcripts that also have very powerful statements which we want to use.\"* 🔴 VERIFIED THE SAME SESSION — the word h…",
       "description_chars": 8175,
-      "status": "s-todo",
+      "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -23680,6 +23680,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 14, 2026 · 9:23 PM CEST",
-  "published_at_iso": "2026-09-14T21:23:41+0200"
+  "published_at": "September 15, 2026 · 2:56 AM CEST",
+  "published_at_iso": "2026-09-15T02:56:40+0200"
 }
