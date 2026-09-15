@@ -2340,34 +2340,6 @@
       "first_seen": "2026-07-04"
     },
     {
-      "id": "SIG-215",
-      "title": "Service-screen SPECIFICATIONS (post-login)…",
-      "description": "Added 2026-07-08 (anti-slip capture — Wolf). The post-login product screens (no task existed). Process: complete screen inventory → agree most-valuable → storyboard → Claude Design hi-fi → specs + examples. Covers Feed (My Signal/All-YouTube), Video Player (👍/👎 + transcript/summary), mindful-Shorts chooser (SIG-209), Settings/prefs (categories, granular subcategory drill, keep-outs, creators, intentions, subscription), Profile/archetype, Give-Me-More — PLUS the more-granular in-app options once a user is in. Intermix screenshots with App-Store-style benefit/pain messaging. Screenshots feed SI…",
-      "description_chars": 16353,
-      "status": "s-doing",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "3h",
-      "effort_wolf": "2h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-07-08"
-    },
-    {
       "id": "SIG-216",
       "title": "Kickstarter A-Z research + campaign plan",
       "description": "Added 2026-07-08 (anti-slip capture — Wolf). Proper KS research + plan. v0.1 DONE 2026-07-08 → Research/kickstarter/Working/MSIG-KICKSTARTER-A-Z-RESEARCH_v0_1_2026-07-08.md: mechanics/registration/fees/tax, page anatomy, teardowns (memoryOS = subscription-app template; FinalStraw $12.5k→$1.9M; Fidget/Exploding Kittens/Pebble), pre-launch VIP-deposit playbook, tiered no-counter pricing ladder, A-Z action plan. Two decision surfaces: (1) ⚠ prototype-demonstration rule = KS requires a working curation-engine demo in the video (can't fake) → engine build on KS critical path; (2) strategic fork =…",
@@ -20264,6 +20236,34 @@
       "first_seen": "2026-07-01"
     },
     {
+      "id": "SIG-215",
+      "title": "Service-screen SPECIFICATIONS (post-login)…",
+      "description": "Added 2026-07-08 (anti-slip capture — Wolf). The post-login product screens (no task existed). Process: complete screen inventory → agree most-valuable → storyboard → Claude Design hi-fi → specs + examples. Covers Feed (My Signal/All-YouTube), Video Player (👍/👎 + transcript/summary), mindful-Shorts chooser (SIG-209), Settings/prefs (categories, granular subcategory drill, keep-outs, creators, intentions, subscription), Profile/archetype, Give-Me-More — PLUS the more-granular in-app options once a user is in. Intermix screenshots with App-Store-style benefit/pain messaging. Screenshots feed SI…",
+      "description_chars": 17167,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-07-08"
+    },
+    {
       "id": "SIG-219",
       "title": "Mobbin YouTube screens…",
       "description": "Added 2026-07-08 (Wolf). Wolf downloaded ALL YouTube iOS + web screens from Mobbin (few hundred: front-end, backend, settings). Its own chat: review every screen thoroughly (via agents / systematic view), borrow useful patterns, and surface service screens we haven't thought of yet (Wolf already flags: YouTube search flow + save-to-playlist/channel — Signal has neither designed). Output = gap list of missing/《borrow》screens feeding SIG-215 service-screen storyboard. NB: YouTube's model = ad-extraction (opposite of Signal) — borrow interaction patterns, not the attention-capture mechanics (per…",
@@ -23764,6 +23764,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 15, 2026 · 3:31 PM CEST",
-  "published_at_iso": "2026-09-15T15:31:08+0200"
+  "published_at": "September 15, 2026 · 5:01 PM CEST",
+  "published_at_iso": "2026-09-15T17:01:58+0200"
 }
