@@ -1012,7 +1012,7 @@
       "id": "SIG-406",
       "title": "Module library expansion + re-set against the six acts",
       "description": "Added 2026-08-21 (attended). Wolf overruled the prior sequencing and he was right: this runs BEFORE the arc session, not after. His reasoning: the arc session *composes* from modules, so an impoverished module library produces a thin arc — and modules are arc-independent because the arc is the ordering and selection, not the authoring. He also overruled the caution about generating unused modules: *\"they can be used in more than one place, some may fit multiple places\"* — unused modules are inventory, not waste. THE SIX ACTS, in Wolf's own words: (1) grabbing their attention · (2) laying out…",
-      "description_chars": 5138,
+      "description_chars": 5918,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1096,7 +1096,7 @@
       "id": "SIG-425",
       "title": "HEADLINES + TRANSCRIPTS…",
       "description": "Added 2026-08-30 (attended stand-up). ⚖️ WOLF'S FINDING, and it is a THIRD and FOURTH layer the research programme never had. Verbatim: *\"we also were going to go look for a list of all these articles, YouTube headlines, podcast headlines, article headlines, and everything that's been published that meets the criteria… if I look at what are the most impactful headlines… do we have that? Do we do that?\"* and *\"inside of those podcasts, articles, and YouTube videos are the actual transcripts that also have very powerful statements which we want to use.\"* 🔴 VERIFIED THE SAME SESSION — the word h…",
-      "description_chars": 8813,
+      "description_chars": 9514,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -4617,7 +4617,7 @@
       "id": "SIG-466",
       "title": "Positioning chat…",
       "description": "Added 2026-09-16 (attended, Wolf's instruction to discuss it in the positioning chat). Test the ruled website argument v0.3 against Wolf's identity-based positioning framework: lead with the pain and how people feel, then how they will feel — the release, a healthy mind, what they get back, for them, their family and society. Already in the argument: beat 2.12 what-if modules, Act 4 \"Is this you?\" with the Dickens turn, 6.5 the outcome made concrete, Act 7 belonging. The gap: no beat whose job is who the reader becomes. Also measured 09-16: of 675 blocks scored 4–5, Acts 1, 5, 6, 7 hold only…",
-      "description_chars": 959,
+      "description_chars": 1693,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -8785,6 +8785,34 @@
         "HERMES"
       ],
       "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-16"
+    },
+    {
+      "id": "SIG-468",
+      "title": "Healthy-relationship content strategy…",
+      "description": "Added 2026-09-16 (attended, from Wolf's note on HL0003). A helpful-content piece that pairs with the \"why you can't stop scrolling\" module: turn off notifications, set app timers, a weekend digital detox, blockers, and where MAXX Signal fits. Wolf: \"there's a whole kind of campaign that we're going to do to recommend how people can engage with content on social media platforms in a healthy way.\" Recommended home: a standalone page / SEO article / email series rather than the main story, so the website stays tight; the main page carries a one-line bridge (\"tips help, but they fight the feed; S…",
+      "description_chars": 1670,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -23971,6 +23999,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 16, 2026 · 9:22 AM CEST",
-  "published_at_iso": "2026-09-16T09:22:55+0200"
+  "published_at": "September 16, 2026 · 7:21 PM CEST",
+  "published_at_iso": "2026-09-16T19:21:55+0200"
 }
