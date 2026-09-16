@@ -1236,13 +1236,13 @@
       "id": "SIG-454",
       "title": "Partner attribution across the waitlist -> pre-order seam…",
       "description": "Added 2026-09-14 (attended, Wolf's partner-programme walkthrough). ⚠️ CHECKED BEFORE CREATING, per rule 1. Searched all 442 task titles AND descriptions for partner/ambassador/affiliate co-occurring with attribution/credit/track/UTM; searched 02_Product/Final, 00_Canonical/Final and 04_Build/Final for waitlist co-occurring with affiliate/ambassador/referral/attribution (30 hits, all read). Most of what looked missing is NOT missing — the PRD v1.7 already specifies partner links as maxxsignal.com/?ref=[code] with a founding-partner variant &fp=1, a session-persistent cookie that survives signu…",
-      "description_chars": 2674,
+      "description_chars": 3355,
       "status": "s-todo",
       "priority": "p-p0",
-      "segment": "Pre-Launch",
+      "segment": "Marketing",
       "venture": "v-signal",
       "deadline": null,
-      "deadline_label": "Phase B1",
+      "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
       "effort_mc": "3h",
       "effort_wolf": "0.5h",
@@ -1250,13 +1250,13 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "MC",
+      "executor": "HERMES",
       "executor_list": [
-        "MC"
+        "HERMES"
       ],
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
-      "department": "Operations",
+      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-14"
     },
@@ -4505,7 +4505,7 @@
       "id": "SIG-460",
       "title": "The document-fix pass…",
       "description": "Created 2026-09-15 by the daily stand-up lane, per the CONVERSION RULE — a finding that implies work becomes a task in the same run, or is named and dropped. ⚠️ CHECKED BEFORE CREATING (board rule 1). SIG-459 is the mockup reopen and its own cell says this split unblocks it; SIG-458 covers the AFFILIATE document only; SIG-215 is finished and owes nothing. No task covered the document side. Three board greps were run — for document-fix or divergence or H.6 or split; for MSIG-UX-EMAIL or cadence; for foundations or shared component — and returned only SIG-359, SIG-393, SIG-459, all reopens, plu…",
-      "description_chars": 3296,
+      "description_chars": 4607,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -23971,6 +23971,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 16, 2026 · 3:00 AM CEST",
-  "published_at_iso": "2026-09-16T03:00:14+0200"
+  "published_at": "September 16, 2026 · 9:22 AM CEST",
+  "published_at_iso": "2026-09-16T09:22:55+0200"
 }
