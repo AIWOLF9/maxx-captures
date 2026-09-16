@@ -1096,7 +1096,7 @@
       "id": "SIG-425",
       "title": "HEADLINES + TRANSCRIPTS…",
       "description": "Added 2026-08-30 (attended stand-up). ⚖️ WOLF'S FINDING, and it is a THIRD and FOURTH layer the research programme never had. Verbatim: *\"we also were going to go look for a list of all these articles, YouTube headlines, podcast headlines, article headlines, and everything that's been published that meets the criteria… if I look at what are the most impactful headlines… do we have that? Do we do that?\"* and *\"inside of those podcasts, articles, and YouTube videos are the actual transcripts that also have very powerful statements which we want to use.\"* 🔴 VERIFIED THE SAME SESSION — the word h…",
-      "description_chars": 8175,
+      "description_chars": 8813,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1175,34 +1175,6 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-02"
-    },
-    {
-      "id": "SIG-449",
-      "title": "SCORE THE FULL CORPUS on the ruled rubric, and set the real quality floor…",
-      "description": "Added 2026-09-03 (attended, session M3). D-SIG-2026-09-03-M3i — the scoring half of SIG-423, split out because it sits on the far side of the content harvest. What it is: score every line in the corpus on RUBRIC_v0_3.md (or its successor), rank within job, and set the definitive quality floor. 🔑 Why it cannot run before the harvest: a SCORE survives the harvest, a RANK does not. A line's ENERGY is a property of that line and is stable; the floor and the within-job ranking are properties of the SET, and every one of them is invalidated when stronger material arrives. A floor set on a pre-harve…",
-      "description_chars": 1286,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Auto",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-03"
     },
     {
       "id": "SIG-451",
@@ -4617,8 +4589,8 @@
       "id": "SIG-465",
       "title": "Master index per department…",
       "description": "Created 2026-09-16, attended, on Wolf's explicit instruction to make this an operating procedure, not a one-off. Wolf: *\"If we used these master index files that have everything needed, with all the mockups and a proper index that describes everything with the proper descriptions and keywords, then it'd be much easier to find. That's what I also want to do for all the content, all the library, everything related to that… As we look at each major area, we create a master index because we're going to be creating lots of documents, and everything is in one place by department.\"* ⚠️ CHECKED BEFOR…",
-      "description_chars": 2960,
-      "status": "s-todo",
+      "description_chars": 3397,
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Product",
       "venture": "v-signal",
@@ -4638,6 +4610,34 @@
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-09-16"
+    },
+    {
+      "id": "SIG-466",
+      "title": "Positioning chat…",
+      "description": "Added 2026-09-16 (attended, Wolf's instruction to discuss it in the positioning chat). Test the ruled website argument v0.3 against Wolf's identity-based positioning framework: lead with the pain and how people feel, then how they will feel — the release, a healthy mind, what they get back, for them, their family and society. Already in the argument: beat 2.12 what-if modules, Act 4 \"Is this you?\" with the Dickens turn, 6.5 the outcome made concrete, Act 7 belonging. The gap: no beat whose job is who the reader becomes. Also measured 09-16: of 675 blocks scored 4–5, Acts 1, 5, 6, 7 hold only…",
+      "description_chars": 959,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-16"
     },
@@ -8761,6 +8761,34 @@
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-09-15"
+    },
+    {
+      "id": "SIG-467",
+      "title": "Content housekeeping found while building the Content Master Index",
+      "description": "Added 2026-09-16. (1) Stale RUBRIC v0.5/v0.6 copies beside the ruled v0.7 — Wolf approved deletion 2026-09-16; DONE 2026-09-16: the three copies were deleted after byte-identical copies were confirmed in _Working/archive/founder-corpus-rubric/. (2) Every block-library JSON's internal document field says v0.1 (v0.7 fixed; older files left as history). (3) source-fetch/transcripts_still_missing.json still lists 45, all resolved 09-15. (4) The argument-first plan's Phase 4 source table omits transcripts and comments. Listed in _index/MSIG-INDEX-CONTENT.html housekeeping. ⛔ Priority and estimate…",
+      "description_chars": 610,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-16"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -17875,6 +17903,34 @@
       "first_seen": "2026-08-28"
     },
     {
+      "id": "SIG-449",
+      "title": "SCORE THE FULL CORPUS on the ruled rubric, and set the real quality floor…",
+      "description": "Added 2026-09-03 (attended, session M3). D-SIG-2026-09-03-M3i — the scoring half of SIG-423, split out because it sits on the far side of the content harvest. What it is: score every line in the corpus on RUBRIC_v0_3.md (or its successor), rank within job, and set the definitive quality floor. 🔑 Why it cannot run before the harvest: a SCORE survives the harvest, a RANK does not. A line's ENERGY is a property of that line and is stable; the floor and the within-job ranking are properties of the SET, and every one of them is invalidated when stronger material arrives. A floor set on a pre-harve…",
+      "description_chars": 1999,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-03"
+    },
+    {
       "id": "SIG-450",
       "title": "Get the company's EIN…",
       "description": "Added 2026-09-11 (attended; Mission Control hand-off _Inbox/MC-TO-SIGNAL_HANDOFF_2026-09-11_entity-chain-unrowed.md). What it is, plainly: the federal tax identification number the IRS issues to a company. A bank will not open a business account without it. What has happened: MAXX Signal Inc. was formed as a Florida C Corporation, 15,000,000 authorised shares, confirmed by Wolf 2026-09-09 (CF-SIGNAL-INC-FORMED-1). The four steps that follow existed only as prose inside a closed carry-forward row — verified independently 2026-09-11 by word-boundary grep across all 438 tasks for EIN, federal ta…",
@@ -23915,6 +23971,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 16, 2026 · 12:35 AM CEST",
-  "published_at_iso": "2026-09-16T00:35:46+0200"
+  "published_at": "September 16, 2026 · 3:00 AM CEST",
+  "published_at_iso": "2026-09-16T03:00:14+0200"
 }
