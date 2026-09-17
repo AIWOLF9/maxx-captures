@@ -4589,7 +4589,7 @@
       "id": "SIG-465",
       "title": "Master index per department…",
       "description": "Created 2026-09-16, attended, on Wolf's explicit instruction to make this an operating procedure, not a one-off. Wolf: *\"If we used these master index files that have everything needed, with all the mockups and a proper index that describes everything with the proper descriptions and keywords, then it'd be much easier to find. That's what I also want to do for all the content, all the library, everything related to that… As we look at each major area, we create a master index because we're going to be creating lots of documents, and everything is in one place by department.\"* ⚠️ CHECKED BEFOR…",
-      "description_chars": 3397,
+      "description_chars": 4622,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Product",
@@ -23999,6 +23999,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 16, 2026 · 11:08 PM CEST",
-  "published_at_iso": "2026-09-16T23:08:10+0200"
+  "published_at": "September 17, 2026 · 9:11 AM CEST",
+  "published_at_iso": "2026-09-17T09:11:11+0200"
 }
