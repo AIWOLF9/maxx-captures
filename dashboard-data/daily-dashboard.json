@@ -4625,7 +4625,7 @@
       "deadline": null,
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
-      "effort_mc": null,
+      "effort_mc": "— 📌 2026-09-17/18 — story-layers review tool BUILT and out with Wolf (attended). Story Map (all 7 acts / 39 beats, notes save to Claude): https://claude.ai/artifact/6Dy7CgW6EWraYJLmN6jeS4 · Signal Page Review tool (library picks placed per beat + 31 drafted option-slots across 11 beats + library search + layouts + image notes): https://claude.ai/artifact/6SgGxF9bafP1UKnbMCDMaS · Wolf's 10 Story Map notes read and carried onto their beats. Rulings: 6.5 split → new 6.6 \"Who you get to be\" (mirror beat), old 6.6 → 6.7, so 38 beats become 39; break-reminder frequency is the user's choice (verified against the locked S37 screen) — canon's \"one a day\" is the reminder EMAIL; standing call-to-action pill on every surface; collapsible FAQ at the page foot plus a fuller FAQ page; short formats (elevator pitch, one-pager, mission/vision/purpose, investor) moved OUT of this task → SIG-469. Wolf reviews act by act starting with Act 6; marks read back from the tool's saved data. Checkpoint: _Working/CHECKPOINT_POSITIONING-AND-STORY-LAYERS_2026-09-17.md.",
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -4640,6 +4640,62 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-16"
+    },
+    {
+      "id": "SIG-470",
+      "title": "Brand patch…",
+      "description": "Wolf, 2026-09-17, attended: the no-invented-scarcity rule reads as if a limited beta launch were dishonest. It is not — limited editions and beta waves are ordinary business practice. Patch Brand §5.12 so a stated launch cohort, wave or founding window is allowed when it reflects a real operating plan (first 10,000 in Wave One, further waves as capacity allows), while live spot-counters, countdown timers and limits we do not intend to honour stay banned. P0 document: archive first, patch, then record the decision with an ID in the Decisions Log. Claude brings Wolf the exact wording to approve…",
+      "description_chars": 628,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-18"
+    },
+    {
+      "id": "SIG-471",
+      "title": "Founding-offer wording for the waitlist and pre-order pages…",
+      "description": "From the 2026-09-17 session. The founder discount of 70% (annual) and 75% (lifetime) is honest ONLY with the gift membership counted: $29 against a $98 two-membership standard price, $99 against $398. Any surface showing a percentage must show the gift alongside it. Also decide and record the beta-cohort wording (first in line vs Wave One of 10,000), and add a Decisions Log entry; the Pricing spec's \"no cap, no counter\" line needs a note saying what IS allowed. Check the built paywall screens as the reference for the numbers.",
+      "description_chars": 531,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-18"
     },
     {
       "id": "CAP-0029",
@@ -8761,6 +8817,34 @@
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-09-15"
+    },
+    {
+      "id": "SIG-469",
+      "title": "Short formats from the settled page story…",
+      "description": "Split out of SIG-466 on 2026-09-17 (attended). Once the page story is marked good act by act in the review tool, Claude drafts each short format FROM that spine — one line per act for the elevator pitch, then the one-pager, the mission/vision/purpose statement and the investor version. Wolf reacts to real drafts, not an outline. Do not start before the acts are marked.",
+      "description_chars": 371,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-18"
     },
     {
       "id": "SIG-467",
@@ -23999,6 +24083,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 17, 2026 · 9:26 AM CEST",
-  "published_at_iso": "2026-09-17T09:26:28+0200"
+  "published_at": "September 18, 2026 · 1:16 AM CEST",
+  "published_at_iso": "2026-09-18T01:16:04+0200"
 }
