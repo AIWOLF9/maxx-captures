@@ -673,6 +673,34 @@
       "first_seen": "2026-08-01"
     },
     {
+      "id": "SIG-326",
+      "title": "Verify Wolf Ventures LLC standing + DBA filing status",
+      "description": "Closes OQ-OPS-04 and OQ-OPS-05 (opened at Pre-Build Checklist v1.1). (a) Delaware Division of Corporations lookup — Stripe validates name + EIN against state records, and administrative dissolution for unpaid franchise tax is silent because the bank account keeps working; a lapsed LLC fails KYC days after submission. (b) Is the MAXX AI Ventures DBA actually filed, or decided-but-never-registered? If unfiled, leave Stripe's optional DBA field blank. (c) ⚠️ ADDED 2026-08-06 (attended stand-up) — THE OPERATING ADDRESS, and it is not the one Wolf has. Wolf's address of record is CSC (The Company…",
+      "description_chars": 7333,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-08-05"
+    },
+    {
       "id": "SIG-357",
       "title": "Site architecture v1…",
       "description": "Added 2026-08-10 (Wolf instruction: put the review deliverables on the master board). Proposed in _Working/SIG-306d_OPENER_2026-08-10.md and held until the section list was agreed; created now so it is tracked rather than living in an opener file (anti-slip rule). Turn the agreed section list into a frozen architecture: the 14-route skeleton confirmed or cut, the nav named, and a per-section breakdown authored for every homepage section that currently has only a one-line job description. Sources already on disk: _Working/SIGNAL_WEBSITE_MASTER_MAP_2026-08-09.html (routes + 11 homepage sections…",
@@ -1180,7 +1208,7 @@
       "id": "SIG-451",
       "title": "Open the Mercury business bank account for MAXX Signal Inc…",
       "description": "Added 2026-09-11 (attended; MC entity-chain hand-off). What it is, plainly: the business bank account the company's money actually sits in. Wolf named Mercury. Needs the EIN first (SIG-450). What it unblocks and what it decides: this is the task that answers whether a DBA is needed at all — SIG-326 is now Waiting on its outcome, because the DBA for Wolf Ventures LLC is only a fallback if the account under the corporation runs into trouble. ⚠️ It also gates SIG-049 — the entity behind this account becomes the merchant name on every receipt and card statement, and Lemon Squeezy products are rea…",
-      "description_chars": 3580,
+      "description_chars": 5805,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -12563,34 +12591,6 @@
       "owner": "Mission Control (per-tool install + per-service request-access procedure) + Wolf (triggers on venture activation + Anthropic console access flow)",
       "kind": "cfi",
       "first_seen": null
-    },
-    {
-      "id": "SIG-326",
-      "title": "Verify Wolf Ventures LLC standing + DBA filing status",
-      "description": "Closes OQ-OPS-04 and OQ-OPS-05 (opened at Pre-Build Checklist v1.1). (a) Delaware Division of Corporations lookup — Stripe validates name + EIN against state records, and administrative dissolution for unpaid franchise tax is silent because the bank account keeps working; a lapsed LLC fails KYC days after submission. (b) Is the MAXX AI Ventures DBA actually filed, or decided-but-never-registered? If unfiled, leave Stripe's optional DBA field blank. (c) ⚠️ ADDED 2026-08-06 (attended stand-up) — THE OPERATING ADDRESS, and it is not the one Wolf has. Wolf's address of record is CSC (The Company…",
-      "description_chars": 5456,
-      "status": "s-waiting",
-      "priority": "p-p0",
-      "segment": "Ops",
-      "venture": "v-signal",
-      "deadline": "1-3",
-      "deadline_label": "Phase P3",
-      "deadline_class": "d-future",
-      "effort_mc": "0.25h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": "2026-08-05"
     },
     {
       "id": "CF-SIGNAL-AGENT-NEEDS-1",
@@ -24083,6 +24083,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 18, 2026 · 9:37 PM CEST",
-  "published_at_iso": "2026-09-18T21:37:25+0200"
+  "published_at": "September 18, 2026 · 10:53 PM CEST",
+  "published_at_iso": "2026-09-18T22:53:01+0200"
 }
