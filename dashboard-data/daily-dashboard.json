@@ -634,11 +634,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -718,11 +718,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -802,11 +802,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -1166,11 +1166,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -2111,11 +2111,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -2279,11 +2279,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "MC",
+      "executor": "Wolf",
       "executor_list": [
-        "MC"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
@@ -2503,11 +2503,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "VULCAN",
+      "executor": "Wolf",
       "executor_list": [
-        "VULCAN"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
@@ -3371,11 +3371,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "MC",
+      "executor": "Wolf",
       "executor_list": [
-        "MC"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
@@ -3455,11 +3455,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "VULCAN",
+      "executor": "Wolf",
       "executor_list": [
-        "VULCAN"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Products",
       "kind": "tasks",
@@ -3777,7 +3777,7 @@
       "id": "SIG-377",
       "title": "Competitor site teardown…",
       "description": "Added 2026-08-12 (attended, chat close). Wolf has already started this and the material is in his hands, not on disk. He captured screenshots plus full-site PDFs of comparable waitlist / pre-order sites — *\"companies that already spent a tremendous amount of time and money creating these\"* — specifically to study top-to-bottom structure: section order, what sections exist that we do not have, and how the page argues its way down. Scope: (1) Wolf hands over the captures; (2) Claude tears them down section-by-section into a comparable table — section, job, position in the scroll, the persuasion…",
-      "description_chars": 10564,
+      "description_chars": 13593,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -3791,11 +3791,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "Wolf",
+      "executor": "APOLLO",
       "executor_list": [
-        "Wolf"
+        "APOLLO"
       ],
-      "autonomy": "Wolf",
+      "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Research",
       "kind": "tasks",
@@ -13784,11 +13784,11 @@
       "created": null,
       "zone": "waiting",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Batch",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -24083,6 +24083,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 18, 2026 · 9:18 AM CEST",
-  "published_at_iso": "2026-09-18T09:18:24+0200"
+  "published_at": "September 18, 2026 · 7:21 PM CEST",
+  "published_at_iso": "2026-09-18T19:21:24+0200"
 }
