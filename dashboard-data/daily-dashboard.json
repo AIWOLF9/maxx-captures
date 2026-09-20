@@ -704,7 +704,7 @@
       "id": "SIG-326",
       "title": "Verify Wolf Ventures LLC standing + DBA filing status",
       "description": "Closes OQ-OPS-04 and OQ-OPS-05 (opened at Pre-Build Checklist v1.1). (a) Delaware Division of Corporations lookup — Stripe validates name + EIN against state records, and administrative dissolution for unpaid franchise tax is silent because the bank account keeps working; a lapsed LLC fails KYC days after submission. (b) Is the MAXX AI Ventures DBA actually filed, or decided-but-never-registered? If unfiled, leave Stripe's optional DBA field blank. (c) ⚠️ ADDED 2026-08-06 (attended stand-up) — THE OPERATING ADDRESS, and it is not the one Wolf has. Wolf's address of record is CSC (The Company…",
-      "description_chars": 9573,
+      "description_chars": 11630,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -4589,7 +4589,7 @@
       "id": "SIG-462",
       "title": "Foundations amendment…",
       "description": "Created 2026-09-15, attended, at the SIG-215 spec-pass-2 closeout. Ruled by Wolf as Decisions 132 and 133 (00_Canonical/Final/MAXX_Signal_Decisions_Log_v1_4.md). ⚠️ CHECKED BEFORE CREATING (board rule 1). 🔴 grep -ci \"help\" on MSIG-UX-FOUNDATIONS-0001_v1_2.md returns ZERO. Foundations specifies the left rail, the ▤ mobile menu, the bottom nav and the channel guide bar — and NO TOP BAR AT ALL. The only top-bar anatomy in the corpus sits inside one screen spec's §4 R1. So the ?, which the help component requires on *every main surface*, is specified nowhere shared; MSIG-UX-SCREEN-HELP-0001 had t…",
-      "description_chars": 3088,
+      "description_chars": 7573,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -4785,7 +4785,7 @@
       "id": "SIG-473",
       "title": "Claude Design is now integrated into Cowork…",
       "description": "Created 2026-09-20, attended, on Wolf's report. Wolf: *\"it now seems to have integrated Claude design right into Claude Cowork here. Now we don't need to hand off any designs to a separate Claude design application… If you can, verify that… You probably need to update the documentation to reference the new operating procedures.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): swept all 461 tasks for *Claude Design*, *D-SIG19-1*, *mockup tool*, *operating procedure* and *capability*. SIG-023 (lock the mockup tool) and SIG-200 (pipeline setup) are both Done and describe the OLD hand-off pipeline. N…",
-      "description_chars": 3810,
+      "description_chars": 5374,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -24167,6 +24167,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 20, 2026 · 4:50 PM CEST",
-  "published_at_iso": "2026-09-20T16:50:42+0200"
+  "published_at": "September 20, 2026 · 5:06 PM CEST",
+  "published_at_iso": "2026-09-20T17:06:02+0200"
 }
