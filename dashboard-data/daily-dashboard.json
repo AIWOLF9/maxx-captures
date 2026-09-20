@@ -4757,7 +4757,7 @@
       "id": "SIG-472",
       "title": "The blocks are not a narrative…",
       "description": "Created 2026-09-20, attended, from WOLF'S OWN READ of the Signal Page Review. Wolf: *\"we have a whole library of copy blocks that are all trying to relay a narrative, but it's not really done in narrative form.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): swept all 460 tasks for *drafting pass*, *write the copy*, *blocks to beats*, *beat assignment*, *in our voice*, *narrative*, *prose*, *continuity* and *flow between blocks*. The nearest hits are SIG-376 (the arc, which is the SPINE not the prose), SIG-404 (merge and rank the libraries) and SIG-466 (the act-by-act review). NO ROW COVERS TURN…",
-      "description_chars": 12217,
+      "description_chars": 13894,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -24251,6 +24251,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 21, 2026 · 1:24 AM CEST",
-  "published_at_iso": "2026-09-21T01:24:30+0200"
+  "published_at": "September 21, 2026 · 1:39 AM CEST",
+  "published_at_iso": "2026-09-21T01:39:47+0200"
 }
