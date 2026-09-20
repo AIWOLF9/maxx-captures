@@ -4757,7 +4757,7 @@
       "id": "SIG-472",
       "title": "The blocks are not a narrative…",
       "description": "Created 2026-09-20, attended, from WOLF'S OWN READ of the Signal Page Review. Wolf: *\"we have a whole library of copy blocks that are all trying to relay a narrative, but it's not really done in narrative form.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): swept all 460 tasks for *drafting pass*, *write the copy*, *blocks to beats*, *beat assignment*, *in our voice*, *narrative*, *prose*, *continuity* and *flow between blocks*. The nearest hits are SIG-376 (the arc, which is the SPINE not the prose), SIG-404 (merge and rank the libraries) and SIG-466 (the act-by-act review). NO ROW COVERS TURN…",
-      "description_chars": 10122,
+      "description_chars": 12217,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -4808,6 +4808,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-09-20"
+    },
+    {
+      "id": "SIG-475",
+      "title": "Rank the image library the way we ranked the language, then match a picture to every one of the 39 beats",
+      "description": "Created 2026-09-21, attended, on Wolf's instruction: *\"whatever other images we need, we're pulling from the library we already have, even as placeholders, and if we have to tweak them, we do.\"* ⚠️ CHECKED BEFORE CREATING: SIG-404 built the ranked image library and is Done; this is the pass that USES it. MEASURED 2026-09-21 by rendering THE BOARD: it indexes 2,202 images with thumbnails and only 25 are scored and ranked. All 40 beats of the new arc now carry a written image job (from the ruled argument), and not one beat has an image chosen against it. The work: (1) score the library on the s…",
+      "description_chars": 990,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-21"
     },
     {
       "id": "CAP-0029",
@@ -9013,6 +9041,62 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-16"
+    },
+    {
+      "id": "SIG-476",
+      "title": "The five objections the 39 beats do not answer…",
+      "description": "Created 2026-09-21, attended, from the Phase 1b migration. The nine-act skeleton Wolf never used is being retired, and one act in it has no home in the 39-beat story: \"what it doesn't do\" — five written jobs covering (1) necessity: work use, search and subscriptions still function and more than one Signal is possible, (2) reversibility: one tap off, nothing deleted, the account untouched, (3) no shame mechanics: no streaks, no lockouts, no willpower asked for, (4) access and permissions: what Signal can see and what it never touches, (5) what entering an email does and does not commit you to.…",
+      "description_chars": 786,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-21"
+    },
+    {
+      "id": "SIG-477",
+      "title": "Score Wolf's 20 new founder blocks so his own lines compete in the candidate pool",
+      "description": "Created 2026-09-21. The fold to library v0.7.2 added WL0001–WL0020 — 20 passages Wolf wrote by hand into the Signal Page Review, in his own voice, which existed nowhere else. They are in the ranked pool but unscored, so they will not surface as candidates in THE BOARD's copy rail until a scoring run touches them. Short run against RUBRIC_v0_7, same axes, so his lines are ranked on the same footing as everything else before the copy phase.",
+      "description_chars": 442,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-21"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -24167,6 +24251,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 20, 2026 · 5:52 PM CEST",
-  "published_at_iso": "2026-09-20T17:52:00+0200"
+  "published_at": "September 21, 2026 · 1:24 AM CEST",
+  "published_at_iso": "2026-09-21T01:24:30+0200"
 }
