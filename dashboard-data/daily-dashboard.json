@@ -4757,7 +4757,7 @@
       "id": "SIG-472",
       "title": "The blocks are not a narrative…",
       "description": "Created 2026-09-20, attended, from WOLF'S OWN READ of the Signal Page Review. Wolf: *\"we have a whole library of copy blocks that are all trying to relay a narrative, but it's not really done in narrative form.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): swept all 460 tasks for *drafting pass*, *write the copy*, *blocks to beats*, *beat assignment*, *in our voice*, *narrative*, *prose*, *continuity* and *flow between blocks*. The nearest hits are SIG-376 (the arc, which is the SPINE not the prose), SIG-404 (merge and rank the libraries) and SIG-466 (the act-by-act review). NO ROW COVERS TURN…",
-      "description_chars": 4638,
+      "description_chars": 7100,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -4785,7 +4785,7 @@
       "id": "SIG-473",
       "title": "Claude Design is now integrated into Cowork…",
       "description": "Created 2026-09-20, attended, on Wolf's report. Wolf: *\"it now seems to have integrated Claude design right into Claude Cowork here. Now we don't need to hand off any designs to a separate Claude design application… If you can, verify that… You probably need to update the documentation to reference the new operating procedures.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): swept all 461 tasks for *Claude Design*, *D-SIG19-1*, *mockup tool*, *operating procedure* and *capability*. SIG-023 (lock the mockup tool) and SIG-200 (pipeline setup) are both Done and describe the OLD hand-off pipeline. N…",
-      "description_chars": 5374,
+      "description_chars": 7836,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -24167,6 +24167,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 20, 2026 · 5:06 PM CEST",
-  "published_at_iso": "2026-09-20T17:06:02+0200"
+  "published_at": "September 20, 2026 · 5:21 PM CEST",
+  "published_at_iso": "2026-09-20T17:21:27+0200"
 }
