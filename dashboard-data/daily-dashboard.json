@@ -2349,7 +2349,7 @@
       "id": "SIG-213",
       "title": "Email deliverability + Gmail Primary-tab placement research",
       "description": "Added 2026-07-03 (Wolf ask, gating-decisions chat). Research + playbook: how to (a) stay out of spam/junk and (b) land in Gmail Primary (not Promotions/Updates) for the daily reminder + lifecycle mail. Covers: SPF/DKIM/DMARC (Resend partly done) + sender-reputation warmup; the content signals that push mail into Promotions (bulk/newsletter markup, image-heavy, many links, promo language) vs. Primary (1:1 plain feel, personalized, account-related framing); the onboarding \"click to confirm\" engagement tactic Wolf flagged; list hygiene; unsubscribe-protects-reputation. Whether recurring product…",
-      "description_chars": 7044,
+      "description_chars": 8415,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Ops",
@@ -4757,7 +4757,7 @@
       "id": "SIG-472",
       "title": "The blocks are not a narrative…",
       "description": "Created 2026-09-20, attended, from WOLF'S OWN READ of the Signal Page Review. Wolf: *\"we have a whole library of copy blocks that are all trying to relay a narrative, but it's not really done in narrative form.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): swept all 460 tasks for *drafting pass*, *write the copy*, *blocks to beats*, *beat assignment*, *in our voice*, *narrative*, *prose*, *continuity* and *flow between blocks*. The nearest hits are SIG-376 (the arc, which is the SPINE not the prose), SIG-404 (merge and rank the libraries) and SIG-466 (the act-by-act review). NO ROW COVERS TURN…",
-      "description_chars": 14465,
+      "description_chars": 23087,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -4765,8 +4765,8 @@
       "deadline": null,
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
-      "effort_mc": "\\",
-      "effort_wolf": "7 collided act 0 with act 7 → n:(a \\",
+      "effort_mc": "6h",
+      "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
@@ -4776,7 +4776,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
-      "autonomy_reason": "joint-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-20"
@@ -8486,7 +8486,7 @@
       "id": "SIG-341",
       "title": "Decisions Log…",
       "description": "Added 2026-08-07 (stand-up recovery; opener Job 5). Twelve founder rulings from 2026-08-06 exist only in _Transcripts/closeouts/SIG-322_CLOSEOUT_2026-08-06.md: refund copy carries no day count · no refund-confirmation email required · Monthly uses the identical mechanism to Annual, no free first month · the 2-year price lock stands · Phase 3 pricing is directional not locked · the founding window's duration is discretionary · locked design outranks older canon · the Trial — FREE invoice line is acceptable as-is · Lifetime is one-time and its 30-day guarantee runs from launch · BOGO on Annual…",
-      "description_chars": 933,
+      "description_chars": 2409,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Governance",
@@ -24279,6 +24279,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 21, 2026 · 4:41 AM CEST",
-  "published_at_iso": "2026-09-21T04:41:26+0200"
+  "published_at": "September 21, 2026 · 9:12 AM CEST",
+  "published_at_iso": "2026-09-21T09:12:52+0200"
 }
