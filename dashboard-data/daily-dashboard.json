@@ -4645,7 +4645,7 @@
       "id": "SIG-472",
       "title": "The blocks are not a narrative…",
       "description": "Created 2026-09-20, attended, from WOLF'S OWN READ of the Signal Page Review. Wolf: *\"we have a whole library of copy blocks that are all trying to relay a narrative, but it's not really done in narrative form.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): swept all 460 tasks for *drafting pass*, *write the copy*, *blocks to beats*, *beat assignment*, *in our voice*, *narrative*, *prose*, *continuity* and *flow between blocks*. The nearest hits are SIG-376 (the arc, which is the SPINE not the prose), SIG-404 (merge and rank the libraries) and SIG-466 (the act-by-act review). NO ROW COVERS TURN…",
-      "description_chars": 25853,
+      "description_chars": 26528,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -4752,62 +4752,6 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-21"
-    },
-    {
-      "id": "SIG-479",
-      "title": "The research review…",
-      "description": "Created 2026-09-22, attended. THIS ROW REPLACES SIG-306, SIG-377, SIG-408 and SIG-218, which are marked Superseded and point here. Wolf: *\"we just never had a chat to review it or to get a sense of what came out of it, what findings you found, what you recommend using, and why.\"* 🔑 THE PROBLEM WAS NEVER MISSING RESEARCH. IT IS THAT NOBODY EVER TURNED IT INTO RECOMMENDATIONS. Confirmed on disk 2026-09-22: 49 competitor homepages captured live (2026-08-12/13, 206 pages) with a cross-site synthesis whose header states every figure is counted not estimated · a 552-line structure teardown _Working…",
-      "description_chars": 3746,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-22"
-    },
-    {
-      "id": "SIG-480",
-      "title": "The five built sections the 40-beat arc dropped…",
-      "description": "Created 2026-09-22, attended, from Wolf's screenshot of THE BOARD's FLOW view. He asked where the How It Works carousel went — he remembered building one and could not find it in the narrative. He is right, and the gap is wider than that one module. 🔍 VERIFIED by reading the board's own page data, not the screenshot: the live v1 home page carries 18 sections with real patterns assigned, and H5 How it works is a tab-carousel — eight numbered steps (Curate channels · Curate videos · Curate creators · Keep out the noise · AI summaries & transcripts · Signal search · Mindful shorts · Share your S…",
-      "description_chars": 2081,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-22"
     },
     {
       "id": "SIG-481",
@@ -22067,6 +22011,62 @@
       "first_seen": "2026-09-15"
     },
     {
+      "id": "SIG-479",
+      "title": "The research review…",
+      "description": "Created 2026-09-22, attended. THIS ROW REPLACES SIG-306, SIG-377, SIG-408 and SIG-218, which are marked Superseded and point here. Wolf: *\"we just never had a chat to review it or to get a sense of what came out of it, what findings you found, what you recommend using, and why.\"* 🔑 THE PROBLEM WAS NEVER MISSING RESEARCH. IT IS THAT NOBODY EVER TURNED IT INTO RECOMMENDATIONS. Confirmed on disk 2026-09-22: 49 competitor homepages captured live (2026-08-12/13, 206 pages) with a cross-site synthesis whose header states every figure is counted not estimated · a 552-line structure teardown _Working…",
+      "description_chars": 4595,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
+      "id": "SIG-480",
+      "title": "The five built sections the 40-beat arc dropped…",
+      "description": "Created 2026-09-22, attended, from Wolf's screenshot of THE BOARD's FLOW view. He asked where the How It Works carousel went — he remembered building one and could not find it in the narrative. He is right, and the gap is wider than that one module. 🔍 VERIFIED by reading the board's own page data, not the screenshot: the live v1 home page carries 18 sections with real patterns assigned, and H5 How it works is a tab-carousel — eight numbered steps (Curate channels · Curate videos · Curate creators · Keep out the noise · AI summaries & transcripts · Signal search · Mindful shorts · Share your S…",
+      "description_chars": 2753,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -24363,6 +24363,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 22, 2026 · 12:32 AM CEST",
-  "published_at_iso": "2026-09-22T00:32:51+0200"
+  "published_at": "September 22, 2026 · 1:03 AM CEST",
+  "published_at_iso": "2026-09-22T01:03:14+0200"
 }
