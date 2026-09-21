@@ -4757,7 +4757,7 @@
       "id": "SIG-472",
       "title": "The blocks are not a narrative…",
       "description": "Created 2026-09-20, attended, from WOLF'S OWN READ of the Signal Page Review. Wolf: *\"we have a whole library of copy blocks that are all trying to relay a narrative, but it's not really done in narrative form.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): swept all 460 tasks for *drafting pass*, *write the copy*, *blocks to beats*, *beat assignment*, *in our voice*, *narrative*, *prose*, *continuity* and *flow between blocks*. The nearest hits are SIG-376 (the arc, which is the SPINE not the prose), SIG-404 (merge and rank the libraries) and SIG-466 (the act-by-act review). NO ROW COVERS TURN…",
-      "description_chars": 23087,
+      "description_chars": 25853,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -4813,7 +4813,7 @@
       "id": "SIG-475",
       "title": "Rank the image library the way we ranked the language, then match a picture to every one of the 39 beats",
       "description": "Created 2026-09-21, attended, on Wolf's instruction: *\"whatever other images we need, we're pulling from the library we already have, even as placeholders, and if we have to tweak them, we do.\"* ⚠️ CHECKED BEFORE CREATING: SIG-404 built the ranked image library and is Done; this is the pass that USES it. MEASURED 2026-09-21 by rendering THE BOARD: it indexes 2,202 images with thumbnails and only 25 are scored and ranked. All 40 beats of the new arc now carry a written image job (from the ruled argument), and not one beat has an image chosen against it. The work: (1) score the library on the s…",
-      "description_chars": 990,
+      "description_chars": 4816,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -24279,6 +24279,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 21, 2026 · 9:12 AM CEST",
-  "published_at_iso": "2026-09-21T09:12:52+0200"
+  "published_at": "September 21, 2026 · 3:29 PM CEST",
+  "published_at_iso": "2026-09-21T15:29:48+0200"
 }
