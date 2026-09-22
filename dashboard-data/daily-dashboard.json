@@ -4644,8 +4644,8 @@
     {
       "id": "SIG-472",
       "title": "The blocks are not a narrative…",
-      "description": "Created 2026-09-20, attended, from WOLF'S OWN READ of the Signal Page Review. Wolf: *\"we have a whole library of copy blocks that are all trying to relay a narrative, but it's not really done in narrative form.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): swept all 460 tasks for *drafting pass*, *write the copy*, *blocks to beats*, *beat assignment*, *in our voice*, *narrative*, *prose*, *continuity* and *flow between blocks*. The nearest hits are SIG-376 (the arc, which is the SPINE not the prose), SIG-404 (merge and rank the libraries) and SIG-466 (the act-by-act review). NO ROW COVERS TURN…",
-      "description_chars": 26528,
+      "description": "✅ 2026-09-22 — VERSION 3 PUBLISHED to the same URL, with all 49 research decisions written in as real draft copy rather than described. 44 beats now (was 40): four new — the belief spine, the how-it-works walkthrough, the proof beat, and the boundary beat. 15 beats touched, 28 block-level changes. 🔑 THE CHANGE FILTER BUG HE REPORTED IS FIXED AND IT WAS REAL, TWICE OVER. (1) The badges were diffing against the PRE-FOLD structure, so they answered ‘what changed when 18 sections became 40 beats’ — genuinely two things. They now diff against the version he read. (2) Worse and only found by RENDER…",
+      "description_chars": 27996,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -4784,8 +4784,8 @@
     {
       "id": "SIG-484",
       "title": "Joint session on the contested research items only…",
-      "description": "Created 2026-09-23, attended. The process Wolf approved for both review surfaces: he marks solo, then one pass together on only the items he flagged No or Maybe. *\"a make-a-note section per recommendation so I can agree or disagree with comments, then we review together.\"* ⚠️ Do not re-surface an item he already agreed to — a stale ask spends founder time and teaches him the queue is noise. Output: the agreed research recommendations become beats or are formally dropped with a reason.",
-      "description_chars": 489,
+      "description": "⚠️ RESCOPED 2026-09-22 on the evidence, and it is SMALLER than this row assumed. The row was written expecting a joint session on everything he flagged. What he actually flagged is 1 no and 6 maybes, and four of the six maybes were not disagreements at all — they were me explaining badly, and they were answered in chat the same session. What genuinely remains for a joint session: (a) the wedge sentence — ‘we replace the feed’ is already published by a competitor, so the position holds and the sentence has to change; (b) the boundary beat ‘what Signal does not fix’, now built as a PROPOSED bea…",
+      "description_chars": 1552,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -12761,34 +12761,6 @@
       "first_seen": null
     },
     {
-      "id": "SIG-483",
-      "title": "Wolf's pass on the Signal Research Decisions surface…",
-      "description": "Created 2026-09-23, attended. The decision surface is LIVE and waiting for him: https://claude.ai/artifact/Q21EUfd91aWEdXrgYJuEtc — 49 items drawn from the research review, each with Agree / No / Maybe and a comment box, saved as he goes. 🔑 HE SET THE ORDER HIMSELF: *\"I need to go through the Signal research decisions first, because when I review the Signal narrative review version 2 (once you update it), I'll have in my mind what elements can go into the narrative.\"* So this runs before his narrative pass, and it can run in parallel with SIG-482's rebuild. Done when every item carries a verd…",
-      "description_chars": 639,
-      "status": "s-waiting",
-      "priority": "p-p0",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-22"
-    },
-    {
       "id": "CF-SIGNAL-AGENT-NEEDS-1",
       "title": "TRIGGER VERIFIED NOT MET 2026-07-25 (MC-STANDUP-2026-07-25)…",
       "description": "TRIGGER VERIFIED NOT MET 2026-07-25 (MC-STANDUP-2026-07-25) — Wolf confirmed HOLD. The gate is \"Claude Design hi-fi screens complete\" and they are not: SIG-038 and SIG-039 — the canonical Claude Design production-mockup rows — are still To-do / P0 with zero logged progress, and the parallel hand-built HTML track is incomplete (SIG-242 records Group 1 at 3 of 6 screens, with Groups 4 and 5 outstanding; SIG-295 requires re-rendering every locked paywall surface to the new SIG-284 caps grid). Scope reduced this pass: ARGUS is removed from this row and sequenced on its own as CF-ARGUS-DECOUPLE-1…",
@@ -18401,6 +18373,34 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
+      "id": "SIG-483",
+      "title": "Wolf's pass on the Signal Research Decisions surface…",
+      "description": "✅ DONE 2026-09-22, attended. All 49 items marked — 42 agree, 6 maybe, 1 no. EVIDENCE: his verdicts and comments read out of the decision surface's own database (collection decisions, one document per item) and written to disk the same session at 01_Strategy/Reference/SIGNAL_RESEARCH-DECISIONS_WOLF-MARKS_2026-09-22.md, plus the machine-readable copy at _Working/_buildkit/narrative-review-v3/MARKS.json. 🔑 THE FINDING THAT MATTERS AND SHAPES SIG-484: only 5 of the 42 agreements are clean. The other 37 carry a question, and the dominant one is a version of *“I agree, but show me an example.”* So…",
+      "description_chars": 1557,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -24503,6 +24503,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 22, 2026 · 11:11 AM CEST",
-  "published_at_iso": "2026-09-22T11:11:58+0200"
+  "published_at": "September 22, 2026 · 1:27 PM CEST",
+  "published_at_iso": "2026-09-22T13:27:53+0200"
 }
