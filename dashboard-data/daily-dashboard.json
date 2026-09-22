@@ -731,8 +731,8 @@
     {
       "id": "SIG-358",
       "title": "The SIG-306d website writing set…",
-      "description": "Added 2026-08-10 on Wolf instruction. The three drafts were authored 2026-08-10 with no board row — exactly the failure the anti-slip rule exists to prevent — so this row is the tracking, and _Working/SIGNAL_REVIEW_QUEUE.md rows 15/16/17 carry the per-item ask. Three homepage writing deliverables, all drafted, all awaiting Wolf. Read as ONE sitting in this order, ~50 min total: (1) The Argument — _Working/SIGNAL_THE-ARGUMENT_v0_1_DRAFT_2026-08-10.md — the belief spine, five numbered beliefs set for scroll. Two rulings: the belief count (4/5/7 — our own documents disagree) and belief 5. (2) Ou…",
-      "description_chars": 8642,
+      "description": "✅ 2026-09-25 — THE BLOCKER ON THIS ROW IS CLEARED, AND THE TITLE IS NOW CORRECT. SIG-486 is ruled: Decision 149 places Decision 140's five promise items into the WITH SIGNAL / WITHOUT SIGNAL comparison, with privacy in the privacy beat. Decision 84 stands — there is no *Our Promises* section to author, and the 2026-08-28 note below that withdrew item (2) is now backed by a ruling rather than pending one. What this row now authors: The Argument · the with/without comparison · the founder letter. The retired draft at _Working/SIGNAL_OUR-PROMISES_v0_1_DRAFT_2026-08-10.md is raw material for comp…",
+      "description_chars": 9593,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -13048,34 +13048,6 @@
       "first_seen": null
     },
     {
-      "id": "SIG-486",
-      "title": "Rule the promise-block framing collision…",
-      "description": "Created 2026-09-24 by the narrative-review-rebuild session, unattended. ⚠️ CHECKED BEFORE CREATING (board rule 1): swept the board for promise, promises, Decision 84 and Our Promises — SIG-358 owns AUTHORING the website writing set and does not carry this collision, and no other row names it. This is a decision Wolf owes, not authoring work. ONE WORD FROM WOLF SETTLES IT. Two of his own attended rulings collide. Decision 84 (2026-08-27, Brand §1.0.5) RETIRED \"Our Promises\" as a framing — his words: *making this statement of our promises to you almost comes across as, please believe us... that…",
-      "description_chars": 1963,
-      "status": "s-waiting",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-22"
-    },
-    {
       "id": "CAP-0060",
       "title": "Venture-chat credential reach + non-bridged GitHub access…",
       "description": "Venture-chat credential reach + non-bridged GitHub access — the unshipped remainder of CAP-0053, split out 2026-07-31 (Wolf). Two items, both genuinely open, neither started: (1) A portable secret store venture chats can actually read. A folder-scoped venture session (Signal, Solitaire) cannot see ~/MAXX/_secrets/ — it is outside the mount (OBS-0049 / OBS-0060 / OBS-0061), so a venture agent has no path to an API key at all. Options originally scoped: a per-venture gitignored secret file inside the mount, or Cowork-native credential injection at session start. Irreducible manual step either w…",
@@ -22207,6 +22179,34 @@
       "first_seen": "2026-09-22"
     },
     {
+      "id": "SIG-486",
+      "title": "Rule the promise-block framing collision…",
+      "description": "✅ DONE 2026-09-25, attended. Wolf ruled: THE COMPARISON (Reading B). The five promise items fold into the WITH SIGNAL / WITHOUT SIGNAL comparison; privacy goes to the privacy beat; Decision 84 stands and there is no standalone promise section. EVIDENCE — the Decision 59 cascade ran in the same session, four documents: (1) 00_Canonical/Final/MAXX_Signal_Decisions_Log_v1_4.md — new Decision 149 (D-SIG-2026-09-25-SIG486) appended, and Decision 140 ②'s *not landed / needs one word from Wolf* marker struck and pointed at it; (2) 00_Canonical/Final/MAXX_Signal_Brand_v1_5_10.md — header bumped v1.5.…",
+      "description_chars": 3709,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -24503,6 +24503,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 22, 2026 · 9:11 AM CEST",
-  "published_at_iso": "2026-09-22T09:11:13+0200"
+  "published_at": "September 22, 2026 · 11:11 AM CEST",
+  "published_at_iso": "2026-09-22T11:11:58+0200"
 }
