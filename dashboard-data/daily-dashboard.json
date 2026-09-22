@@ -3749,7 +3749,7 @@
       "id": "SIG-375",
       "title": "_Working/ retirement…",
       "description": "Created SIG-373, 2026-08-11. _Working/ holds 453 files — 73 openers, 49 stand-up sheets, 79 HTML surfaces, 64 MB — and not one carries a type label, so a read-once analysis from 4 August is indistinguishable from a live tracker to anyone who opens it. The absence of a type stamp is the defect, not the count. Every artifact gets a header line: LIVING · READ-ONCE — history as of YYYY-MM-DD · SUPERSEDED BY <x>. ⚠️ Archive the three stale full copies of the master board today — SIGNAL_TASKS_pre_SIG320-done / _pre_SIG321 / _pre_SIG322-323, each ~345 KB, dated 2026-08-05, indistinguishable from the…",
-      "description_chars": 2228,
+      "description_chars": 3705,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -4729,7 +4729,7 @@
       "id": "SIG-478",
       "title": "Repair act 6 on the board after the 6.5 split…",
       "description": "Created 2026-09-22 by the overnight narrative run (SIG-472), unattended. ⚠️ CHECKED BEFORE CREATING (board rule 1): swept the board for *hand-off*, *handoff*, *act 6*, *beat 6.5*, *renumber*, *split* and *duplicate headline*. Nearest rows are SIG-466, which RULED the 6.5 split on 2026-09-17, and SIG-472, which found these while writing the prose. Neither carries the repair. Genuine gap. THREE DEFECTS, ONE ROOT. ① 2.10's headline duplicates 2.8's word for word — both open *Addictive by design*, four beats apart, which turns the verdict beat into an echo of the addiction beat. Corrected on the…",
-      "description_chars": 2180,
+      "description_chars": 3589,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -24503,6 +24503,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 22, 2026 · 4:09 AM CEST",
-  "published_at_iso": "2026-09-22T04:09:42+0200"
+  "published_at": "September 22, 2026 · 9:11 AM CEST",
+  "published_at_iso": "2026-09-22T09:11:13+0200"
 }
