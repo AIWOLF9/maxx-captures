@@ -1317,6 +1317,34 @@
       "first_seen": "2026-09-20"
     },
     {
+      "id": "SIG-482",
+      "title": "Rebuild the Signal Narrative Review v2 as a usable review surface…",
+      "description": "Created 2026-09-23, attended, out of Wolf's outright rejection of the first v2 build. Wolf: *\"It doesn't have any formatting or anything, and it's just walls of text. I can't really make sense of it. I can't use it the way it is.\"* 🔑 The defect was the instrument, not the styling — a form was built where the page was needed; the v1 review's look is what makes 40 beats readable in one pass. THE BUILD: take v1's stylesheet and JS verbatim (https://claude.ai/artifact/XjqjQDbc6usGG8vEKtHeGk — ⚠️ comparison reference, never republish over it), render the 40 FOLDED beats into the dark styled .page…",
+      "description_chars": 1444,
+      "status": "s-doing",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
       "title": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked i…",
       "description": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked is a *defect*, not a bonus — and that rule exists nowhere in the rulebook. Originated MC-ENTITY-SETUP-2026-09-04 (2026-09-04, attended, session VP7M4GYP0Y), filed there as decision candidate D-MC-2026-09-04-VP7M4GYP0Y-01, and never ratified, never routed and never written to any register — homeless for five days until this row. Wolf, attended, verbatim: *\"Please don't get us off the path with minutia details about affiliate commissions or commissions or blended rates. That has nothing t…",
@@ -4758,6 +4786,62 @@
       "title": "The motion and interaction pass…",
       "description": "Created 2026-09-22, attended. Wolf: *\"add the UI and UX elements that we see in a website like Apple, with motion and different treatment for the headlines and other elements that add a little motion or other elements that make it more engaging.\"* This is the DESIGN pass, and it is named here so it does not get lost between the emphasis pass and Claude Design. The emphasis pass decides WHAT carries weight (which line is the headline, which number goes big, where the image breaks). This row is HOW it behaves — type scale and ladder, scroll-triggered reveals, sticky and pinned sections, the her…",
       "description_chars": 1287,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
+      "id": "SIG-484",
+      "title": "Joint session on the contested research items only…",
+      "description": "Created 2026-09-23, attended. The process Wolf approved for both review surfaces: he marks solo, then one pass together on only the items he flagged No or Maybe. *\"a make-a-note section per recommendation so I can agree or disagree with comments, then we review together.\"* ⚠️ Do not re-surface an item he already agreed to — a stale ask spends founder time and teaches him the queue is noise. Output: the agreed research recommendations become beats or are formally dropped with a reason.",
+      "description_chars": 489,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
+      "id": "SIG-485",
+      "title": "The How It Works carousel / product tour needs its own review…",
+      "description": "Created 2026-09-23, attended, from Wolf's own correction. He said plainly: *\"the carousel we built, again, was in early days, so nothing was finished. You had just thrown in some images, which are not necessarily correct.\"* 🔴 So SIG-480's recommendation — that the eight-step carousel becomes its own beat after 6.2 — is a recommendation about a MODULE, not an endorsement of its current contents. The eight steps (Curate channels · Curate videos · Curate creators · Keep out the noise · AI summaries & transcripts · Signal search · Mindful shorts · Share your Signal) need re-deciding against the s…",
+      "description_chars": 986,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -12703,6 +12787,34 @@
       "owner": "Mission Control (per-tool install + per-service request-access procedure) + Wolf (triggers on venture activation + Anthropic console access flow)",
       "kind": "cfi",
       "first_seen": null
+    },
+    {
+      "id": "SIG-483",
+      "title": "Wolf's pass on the Signal Research Decisions surface…",
+      "description": "Created 2026-09-23, attended. The decision surface is LIVE and waiting for him: https://claude.ai/artifact/Q21EUfd91aWEdXrgYJuEtc — 49 items drawn from the research review, each with Agree / No / Maybe and a comment box, saved as he goes. 🔑 HE SET THE ORDER HIMSELF: *\"I need to go through the Signal research decisions first, because when I review the Signal narrative review version 2 (once you update it), I'll have in my mind what elements can go into the narrative.\"* So this runs before his narrative pass, and it can run in parallel with SIG-482's rebuild. Done when every item carries a verd…",
+      "description_chars": 639,
+      "status": "s-waiting",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "waiting",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "sole-wolf-owner",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
     },
     {
       "id": "CF-SIGNAL-AGENT-NEEDS-1",
@@ -24363,6 +24475,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 22, 2026 · 1:03 AM CEST",
-  "published_at_iso": "2026-09-22T01:03:14+0200"
+  "published_at": "September 22, 2026 · 2:54 AM CEST",
+  "published_at_iso": "2026-09-22T02:54:06+0200"
 }
