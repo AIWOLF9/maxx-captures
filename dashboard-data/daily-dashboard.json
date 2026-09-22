@@ -1317,34 +1317,6 @@
       "first_seen": "2026-09-20"
     },
     {
-      "id": "SIG-482",
-      "title": "Rebuild the Signal Narrative Review v2 as a usable review surface…",
-      "description": "Created 2026-09-23, attended, out of Wolf's outright rejection of the first v2 build. Wolf: *\"It doesn't have any formatting or anything, and it's just walls of text. I can't really make sense of it. I can't use it the way it is.\"* 🔑 The defect was the instrument, not the styling — a form was built where the page was needed; the v1 review's look is what makes 40 beats readable in one pass. THE BUILD: take v1's stylesheet and JS verbatim (https://claude.ai/artifact/XjqjQDbc6usGG8vEKtHeGk — ⚠️ comparison reference, never republish over it), render the 40 FOLDED beats into the dark styled .page…",
-      "description_chars": 1444,
-      "status": "s-doing",
-      "priority": "p-p0",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-22"
-    },
-    {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
       "title": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked i…",
       "description": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked is a *defect*, not a bonus — and that rule exists nowhere in the rulebook. Originated MC-ENTITY-SETUP-2026-09-04 (2026-09-04, attended, session VP7M4GYP0Y), filed there as decision candidate D-MC-2026-09-04-VP7M4GYP0Y-01, and never ratified, never routed and never written to any register — homeless for five days until this row. Wolf, attended, verbatim: *\"Please don't get us off the path with minutia details about affiliate commissions or commissions or blended rates. That has nothing t…",
@@ -8878,7 +8850,7 @@
       "id": "SIG-446",
       "title": "Board cell hygiene…",
       "description": "Added 2026-09-02 (SIG-439 _Inbox/ reconciliation). Two mechanical defects, both of which make roll-ups silently wrong. (1) The Linked column has exactly four legal forms — —, MOS-T-###, MOS-T-### · WOLF-NEXT, MOS-T-### ⏳ YYYY-MM-DD — and ten rows hold intra-Signal SIG-### lists in it: SIG-426, SIG-427, SIG-428, SIG-429, SIG-430, SIG-431, SIG-433, SIG-434, SIG-435, SIG-436 (e.g. SIG-429 reads SIG-356, SIG-379, SIG-075). Those belong in Depends on. A pass on 2026-09-01 cleaned five such rows and stopped — archive _index/archive/SIGNAL_TASKS_pre-linked-column-fix_2026-09-01.md. ⚠️ This is the ex…",
-      "description_chars": 1879,
+      "description_chars": 2208,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Governance",
@@ -12811,7 +12783,7 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
-      "autonomy_reason": "sole-wolf-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-22"
@@ -13074,6 +13046,34 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": null
+    },
+    {
+      "id": "SIG-486",
+      "title": "Rule the promise-block framing collision…",
+      "description": "Created 2026-09-24 by the narrative-review-rebuild session, unattended. ⚠️ CHECKED BEFORE CREATING (board rule 1): swept the board for promise, promises, Decision 84 and Our Promises — SIG-358 owns AUTHORING the website writing set and does not carry this collision, and no other row names it. This is a decision Wolf owes, not authoring work. ONE WORD FROM WOLF SETTLES IT. Two of his own attended rulings collide. Decision 84 (2026-08-27, Brand §1.0.5) RETIRED \"Our Promises\" as a framing — his words: *making this statement of our promises to you almost comes across as, please believe us... that…",
+      "description_chars": 1963,
+      "status": "s-waiting",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "waiting",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
     },
     {
       "id": "CAP-0060",
@@ -18407,6 +18407,34 @@
       "first_seen": "2026-09-11"
     },
     {
+      "id": "SIG-482",
+      "title": "Rebuild the Signal Narrative Review v2 as a usable review surface…",
+      "description": "Created 2026-09-23, attended, out of Wolf's outright rejection of the first v2 build. Wolf: *\"It doesn't have any formatting or anything, and it's just walls of text. I can't really make sense of it. I can't use it the way it is.\"* 🔑 The defect was the instrument, not the styling — a form was built where the page was needed; the v1 review's look is what makes 40 beats readable in one pass. THE BUILD: take v1's stylesheet and JS verbatim (https://claude.ai/artifact/XjqjQDbc6usGG8vEKtHeGk — ⚠️ comparison reference, never republish over it), render the 40 FOLDED beats into the dark styled .page…",
+      "description_chars": 2462,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
       "id": "CF-SIGNAL-INC-FORMED-1",
       "title": "MAXX Signal Inc…",
       "description": "MAXX Signal Inc. is now officially formed as a Florida C Corporation, and the 15,000,000 authorised-share count was confirmed with the registered agent before the filing was submitted. Wolf confirmed both in the Mission Control stand-up of 2026-09-09. This closes the one item from MC-ENTITY-SETUP-2026-09-04 that carried a closing window — confirming the share count was free before submission and would have cost a fee plus delay afterwards. It had been recorded under 'what Wolf does next' and never reached a register, which is why it went five days without a status; that routing gap is the sam…",
@@ -21006,7 +21034,7 @@
       "id": "SIG-227",
       "title": "Service-screen mockups…",
       "description": "2026-07-10. Locked #18 visitor + #19 owner (archetype→real MAXX archetype tap-pop-up, no verify check, Signalled=public toggle, profile-tour idea), #21 History (no pause/clear; positive ⓘ; Delete; search-entry view), #20 renamed \"Reclaimed\" (OQ-BRAND-15 resolved = reclaimed-time via SIG-221 calculator + Your-Future projection + 3 share cards + Ambassador pill), Reflections split to own You-hub item, #22 Plan (plan-type cancel logic, what-you-lose delta, step-down + Pause 30/60/90, Reclaimed \"Before you go\", Ambassador loss), #23 Settings (dark-lock, autoplay=your-queue toggle, Accessibility,…",
-      "description_chars": 1996,
+      "description_chars": 2626,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Design",
@@ -24475,6 +24503,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 22, 2026 · 2:54 AM CEST",
-  "published_at_iso": "2026-09-22T02:54:06+0200"
+  "published_at": "September 22, 2026 · 4:09 AM CEST",
+  "published_at_iso": "2026-09-22T04:09:42+0200"
 }
