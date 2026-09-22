@@ -9099,6 +9099,90 @@
       "first_seen": "2026-09-21"
     },
     {
+      "id": "SIG-487",
+      "title": "Signal for organisations, schools and businesses…",
+      "description": "Created 2026-09-22, attended, from Wolf's own direction + a live primary source. 🔑 THE TRIGGER IS REAL AND DATED: Wolf's daughter's school (Miami Country Day) moved to Phase 2 of its phone policy on 2026-09-17 and now REQUIRES every student bringing a smartphone to campus to run Opal during the school day; families who decline hand the phone in each morning. Three emails to families are on file at 01_Strategy/Reference/opal-school-2026-09/. ⭐ THE QUOTE WE SHOULD BE USING, from the school, in writing: *“The temptation remains, and simply asking students to resist a device designed to continual…",
+      "description_chars": 1467,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
+      "id": "SIG-488",
+      "title": "The curation engine becomes an aggregation engine…",
+      "description": "Created 2026-09-22, attended. Wolf's framing: today YouTube; the direction is one place per subject pulling from X, TikTok, Snapchat, Instagram, news, the web and books — *“one place that aggregates everything that I want to see about a subject matter.”* He notes we went down this path a couple of months ago and it was never written down. It is now. 💰 AND THE BUSINESS MODEL INSIDE IT: a curator builds a serious corpus on a subject, makes it private and charges a membership — the way YouTube and X already let creators run paid memberships — and Signal takes a small piece. That turns the curati…",
+      "description_chars": 1016,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
+      "id": "SIG-489",
+      "title": "Regenerate the NotebookLM assets properly…",
+      "description": "Created 2026-09-22, attended. Its own chat, after the website. Wolf ruled on his N2/N7 marks: do not repair the old assets — regenerate them. The wide infographic carries invented dates and garbled names, so fixing it honestly means re-checking every claim, at which point we have authored our own. The originals were made months ago with no real instruction and no research corpus, which is why they over-weight harm-to-children and miss the arc. He already pays for the subscription, so the cost is time, not money. TWO THINGS TO DO FIRST, in his order: ① review NotebookLM's CURRENT capabilities…",
+      "description_chars": 884,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
       "title": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with i…",
       "description": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with its next fire parked at 2027-01-01. The routine is trig_019Wuy5iWcJJzoSxHDj1oaDU, Wolf's *\"can a cloud routine reach the Mac?\"* probe, created and fired 2026-08-26; surfaced at MC-CLOUDSHIFT-2026-09-09 (2026-09-09, attended, cloud, session 7DMVKQTQ4B) and now recorded under the new _pending_one_offs key in _index/STATUS_SNAPSHOTS/_cloud_lanes.json. The probe is itself the portfolio's one recorded instance of the failure it was built to detect: the scheduler records it SUCCEEDED — fired…",
@@ -24503,6 +24587,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 22, 2026 · 1:27 PM CEST",
-  "published_at_iso": "2026-09-22T13:27:53+0200"
+  "published_at": "September 22, 2026 · 2:28 PM CEST",
+  "published_at_iso": "2026-09-22T14:28:25+0200"
 }
