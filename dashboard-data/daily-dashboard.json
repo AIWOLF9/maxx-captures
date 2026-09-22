@@ -3550,34 +3550,6 @@
       "first_seen": "2026-08-08"
     },
     {
-      "id": "SIG-351",
-      "title": "Re-make the marketing imagery set without third-party trademarks",
-      "description": "Added 2026-08-07 (SIG-306 content inventory; five images rendered and inspected, not inferred from filenames). Five images were rendered and inspected and all five carry third-party trademarks — YouTube, Instagram, TikTok, Facebook, X, CNN and Fox marks across 02a_the-theft, 07a_two-gardens, 09b_curator and two others. None of those five is publishable on a commercial marketing site. The directory holds 63 files and the remaining 58 have NOT been inspected — they include 18 iPhone photographs under garden-vs-chaos/ and Signal's own SVG lockups, which are very unlikely to be affected. First st…",
-      "description_chars": 1239,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-1",
-      "deadline_label": "Phase P1",
-      "deadline_class": "d-future",
-      "effort_mc": "8h",
-      "effort_wolf": "2h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-08-08"
-    },
-    {
       "id": "SIG-354",
       "title": "Correct the website estimate on this board…",
       "description": "Added 2026-08-07 (SIG-306 tiering model). SIG-067 + SIG-068 + SIG-069 + SIG-204 are still priced on this board at 8 Claude-hours / 4 Wolf-hours. SIG-343 corrected the website line to 28h top-down and the cells were never updated — the correction was recorded in a closeout and never reached the board, which is the exact defect feedback_inbox_handoff_is_not_tracking describes. Bottom-up for the recommended tier is 228h, band 200–260h. Two compounding errors: a 4x scope error — SIG-067's row literally prices *three routes* while the content plan specifies twelve — multiplied by the 2.5x estimati…",
@@ -14457,6 +14429,34 @@
       "first_seen": "2026-08-04"
     },
     {
+      "id": "SIG-351",
+      "title": "Re-make the marketing imagery set without third-party trademarks ⛔ STRUCK…",
+      "description": "⛔ SUPERSEDED 2026-09-22, attended. WOLF STRUCK THE PREMISE OF THIS ROW. His ruling, in his words: *“We can use third-party trademarks. We've already discussed that. That is not an issue… all the other app blockers, when you go to the websites, when you go to the app stores, they'll show YouTube, Instagram, and TikTok third-party marks. We use them as necessary. It is not an issue, so take that rule away.”* 🔑 THIS ROW EXISTED TO SOLVE A PROBLEM WE DO NOT HAVE. The 2026-08-21 audit found 47 of 63 marketing images carried third-party marks and that was recorded as a defect requiring 47 re-makes.…",
+      "description_chars": 2741,
+      "status": "s-blocked",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-1",
+      "deadline_label": "Phase P1",
+      "deadline_class": "d-future",
+      "effort_mc": "8h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "info",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-08-08"
+    },
+    {
       "id": "SIG-377",
       "title": "Competitor site teardown…",
       "description": "Added 2026-08-12 (attended, chat close). Wolf has already started this and the material is in his hands, not on disk. He captured screenshots plus full-site PDFs of comparable waitlist / pre-order sites — *\"companies that already spent a tremendous amount of time and money creating these\"* — specifically to study top-to-bottom structure: section order, what sections exist that we do not have, and how the page argues its way down. Scope: (1) Wolf hands over the captures; (2) Claude tears them down section-by-section into a comparable table — section, job, position in the scroll, the persuasion…",
@@ -24587,6 +24587,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 22, 2026 · 2:28 PM CEST",
-  "published_at_iso": "2026-09-22T14:28:25+0200"
+  "published_at": "September 22, 2026 · 2:59 PM CEST",
+  "published_at_iso": "2026-09-22T14:59:51+0200"
 }
