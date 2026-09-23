@@ -4841,7 +4841,7 @@
       "id": "SIG-492",
       "title": "Emphasis pass 2…",
       "description": "Created 2026-09-23, attended — Decision 155. Wolf: *\"doing these kinds of images or animated element placeholders… emphasizing in gold buttons and other elements, we need to definitely do more of that, similar to what we did on the onboarding… on all the other beats and acts.\"* Every beat in the Narrative Review gets its treatment: placeholder picture or motion (like Act 0's phone-filter drawing), eyebrow, two-tone headline, gold band where earned, alternating image side, the button. Phone first: a phone / tablet / desktop switch like the onboarding review, with the fold line marked, so the p…",
-      "description_chars": 769,
+      "description_chars": 1211,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4860,6 +4860,34 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-23"
+    },
+    {
+      "id": "SIG-493",
+      "title": "Wolf's walkthrough review…",
+      "description": "Created 2026-09-23, attended — Decision 156. Wolf: *\"I want to give you my thoughts on each… things that pop out from what I see, so you can take my thoughts and feedback into consideration before you make any final decisions.\"* The five tabs in order (by element · first screens · whole pages · motion · how it comes together); Wolf speaks first on each, then Claude's picks. Done when _Working/SIGNAL_EMPHASIS-PASS-2_RULES_v1_0_<date>.md exists (keep / adapt / skip per pattern, Wolf's words, where on our beats, phone-first notes) and is cited in SIG-492 and the website index. Opener: _Working/O…",
+      "description_chars": 699,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1.5h elapsed",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -9209,6 +9237,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-22"
+    },
+    {
+      "id": "SIG-494",
+      "title": "Carry the Lumen name into Brand, the product specs and the onboarding copy",
+      "description": "Created 2026-09-23 — Decision 154's missing third place. The engine was named Lumen in the website story and the Decisions Log, but the Brand document, the Curation Engine spec, the PRD and any onboarding or help copy still say \"the Signal curation engine\". Search every canonical document for the engine's name (open each file and read its header line), patch by Three-Step, and cite Decision 154. Keep Lumen as a product name, not an ad subject. Brand's patch can ride the next Brand update.",
+      "description_chars": 493,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1.5h elapsed",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-23"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -22350,7 +22406,7 @@
       "id": "SIG-491",
       "title": "The live competitor walk-through…",
       "description": "Created 2026-09-23, attended — Decision 155. Wolf: *\"Go to the website. Experience it as a human. Take screenshots of elements you think they do correctly. Get a sense of the whole beat of how the website works, from top to bottom, where all the calls to action are. Look at their whole website.\"* Inner pages too — *\"just get it all done at once.\"* Scope: a deep pass in the browser on ~12 sites (FeedVault, Unhook, Opal, one sec, Roots, Freedom, Brick, Light Phone, Clearspace, minimalist phone, Ground News, Matter): scroll each top to bottom at phone and desktop width, screenshot every element…",
-      "description_chars": 2331,
+      "description_chars": 2360,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -24671,6 +24727,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 23, 2026 · 7:10 PM CEST",
-  "published_at_iso": "2026-09-23T19:10:23+0200"
+  "published_at": "September 23, 2026 · 9:11 PM CEST",
+  "published_at_iso": "2026-09-23T21:11:18+0200"
 }
