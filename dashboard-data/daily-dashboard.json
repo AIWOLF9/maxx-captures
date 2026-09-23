@@ -4838,34 +4838,6 @@
       "first_seen": "2026-09-23"
     },
     {
-      "id": "SIG-491",
-      "title": "The live competitor walk-through…",
-      "description": "Created 2026-09-23, attended — Decision 155. Wolf: *\"Go to the website. Experience it as a human. Take screenshots of elements you think they do correctly. Get a sense of the whole beat of how the website works, from top to bottom, where all the calls to action are. Look at their whole website.\"* Inner pages too — *\"just get it all done at once.\"* Scope: a deep pass in the browser on ~12 sites (FeedVault, Unhook, Opal, one sec, Roots, Freedom, Brick, Light Phone, Clearspace, minimalist phone, Ground News, Matter): scroll each top to bottom at phone and desktop width, screenshot every element…",
-      "description_chars": 1116,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~6h elapsed",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-23"
-    },
-    {
       "id": "SIG-492",
       "title": "Emphasis pass 2…",
       "description": "Created 2026-09-23, attended — Decision 155. Wolf: *\"doing these kinds of images or animated element placeholders… emphasizing in gold buttons and other elements, we need to definitely do more of that, similar to what we did on the onboarding… on all the other beats and acts.\"* Every beat in the Narrative Review gets its treatment: placeholder picture or motion (like Act 0's phone-filter drawing), eyebrow, two-tone headline, gold band where earned, alternating image side, the button. Phone first: a phone / tablet / desktop switch like the onboarding review, with the fold line marked, so the p…",
@@ -22375,6 +22347,34 @@
       "first_seen": "2026-09-22"
     },
     {
+      "id": "SIG-491",
+      "title": "The live competitor walk-through…",
+      "description": "Created 2026-09-23, attended — Decision 155. Wolf: *\"Go to the website. Experience it as a human. Take screenshots of elements you think they do correctly. Get a sense of the whole beat of how the website works, from top to bottom, where all the calls to action are. Look at their whole website.\"* Inner pages too — *\"just get it all done at once.\"* Scope: a deep pass in the browser on ~12 sites (FeedVault, Unhook, Opal, one sec, Roots, Freedom, Brick, Light Phone, Clearspace, minimalist phone, Ground News, Matter): scroll each top to bottom at phone and desktop width, screenshot every element…",
+      "description_chars": 2331,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~6h elapsed",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-23"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -24671,6 +24671,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 23, 2026 · 5:38 PM CEST",
-  "published_at_iso": "2026-09-23T17:38:40+0200"
+  "published_at": "September 23, 2026 · 7:10 PM CEST",
+  "published_at_iso": "2026-09-23T19:10:23+0200"
 }
