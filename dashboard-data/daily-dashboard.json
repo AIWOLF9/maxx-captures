@@ -4870,7 +4870,7 @@
       "title": "Wolf's walkthrough review…",
       "description": "Created 2026-09-23, attended — Decision 156. Wolf: *\"I want to give you my thoughts on each… things that pop out from what I see, so you can take my thoughts and feedback into consideration before you make any final decisions.\"* The five tabs in order (by element · first screens · whole pages · motion · how it comes together); Wolf speaks first on each, then Claude's picks. Done when _Working/SIGNAL_EMPHASIS-PASS-2_RULES_v1_0_<date>.md exists (keep / adapt / skip per pattern, Wolf's words, where on our beats, phone-first notes) and is cited in SIG-492 and the website index. Opener: _Working/O…",
       "description_chars": 699,
-      "status": "s-todo",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -24727,6 +24727,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 23, 2026 · 9:11 PM CEST",
-  "published_at_iso": "2026-09-23T21:11:18+0200"
+  "published_at": "September 23, 2026 · 11:27 PM CEST",
+  "published_at_iso": "2026-09-23T23:27:13+0200"
 }
