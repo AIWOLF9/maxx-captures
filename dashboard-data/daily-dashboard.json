@@ -9267,6 +9267,34 @@
       "first_seen": "2026-09-23"
     },
     {
+      "id": "SIG-495",
+      "title": "Slim the Signal project instructions to rules-only (v2.2), with the full reasoning kept in a companion file",
+      "description": "Created 2026-09-24, attended — from Mission Control's Opus 5.5 operations audit (opener SIG-INSTRUCTIONS-DIET-7GSXEM3N2C). Wolf: keep every rule and all functionality, no forced size target. Done by Claude: v2.1 archived and byte-verified at 00_Canonical/Archive/SIGNAL_PROJECT_INSTRUCTIONS_v2_1_archived_2026-09-24.md; v2.2 written to 00_Canonical/Final/SIGNAL_PROJECT_INSTRUCTIONS.md (40.4 KB → 36.0 KB paste body; incident history removed, every rule kept with a one-line reason; default model made version-free); full history kept byte-exact in 00_Canonical/Final/SIGNAL_PROJECT_INSTRUCTIONS_RAT…",
+      "description_chars": 1187,
+      "status": "s-doing",
+      "priority": "p-p2",
+      "segment": "Governance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~0.5h elapsed",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-09-24"
+    },
+    {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
       "title": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with i…",
       "description": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with its next fire parked at 2027-01-01. The routine is trig_019Wuy5iWcJJzoSxHDj1oaDU, Wolf's *\"can a cloud routine reach the Mac?\"* probe, created and fired 2026-08-26; surfaced at MC-CLOUDSHIFT-2026-09-09 (2026-09-09, attended, cloud, session 7DMVKQTQ4B) and now recorded under the new _pending_one_offs key in _index/STATUS_SNAPSHOTS/_cloud_lanes.json. The probe is itself the portfolio's one recorded instance of the failure it was built to detect: the scheduler records it SUCCEEDED — fired…",
@@ -24727,6 +24755,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 23, 2026 · 11:27 PM CEST",
-  "published_at_iso": "2026-09-23T23:27:13+0200"
+  "published_at": "September 24, 2026 · 7:33 PM CEST",
+  "published_at_iso": "2026-09-24T19:33:32+0200"
 }
