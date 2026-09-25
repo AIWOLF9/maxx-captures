@@ -9270,7 +9270,7 @@
       "id": "SIG-497",
       "title": "Ad-library research run…",
       "description": "Created 2026-09-25, attended — from Wolf, walkthrough review batch 1, 2026-09-25 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-1_WOLF-VERBATIM_2026-09-25.md). Wolf: *\"Before we go to market, we definitely want to go to Facebook's ad library and the Google ad library. We're going to review all the ads that everybody is running to see what they're saying… because they're having to make concise use of the space to get the point across.\"* Pull the live ads of the app blockers and YouTube tools on the Competitor Walkthrough Board (BlockSite, Freedom, Opal, one sec, Roots, Qustodio and the…",
-      "description_chars": 792,
+      "description_chars": 1263,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -12994,8 +12994,8 @@
     {
       "id": "SIG-499",
       "title": "Partner with the app blockers…",
-      "description": "Created 2026-09-25, attended — from Wolf, walkthrough review batch 1, 2026-09-25 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-1_WOLF-VERBATIM_2026-09-25.md). Wolf: *\"I'm going to put that as a to-do: partner with ad blockers, because again, we're not saying replace ad blocker. We're saying, when you go to use YouTube, use our solution.\"* Approach app-blocker companies (Opal, Freedom, one sec, Roots and the rest) with a co-marketing or revenue-share offer. Strategy call; after launch.",
-      "description_chars": 497,
+      "description": "Created 2026-09-25, attended — from Wolf, walkthrough review batch 1, 2026-09-25 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-1_WOLF-VERBATIM_2026-09-25.md). Wolf: *\"I'm going to put that as a to-do: partner with ad blockers, because again, we're not saying replace ad blocker. We're saying, when you go to use YouTube, use our solution.\"* Approach app-blocker companies (Opal, Freedom, one sec, Roots and the rest) with a co-marketing or revenue-share offer. Strategy call; after launch. Update 2026-09-25 (Wolf, same session): add a *recommended solutions* page on our website — *\"Here ar…",
+      "description_chars": 867,
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Marketing",
@@ -24867,6 +24867,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 25, 2026 · 10:12 PM CEST",
-  "published_at_iso": "2026-09-25T22:12:22+0200"
+  "published_at": "September 25, 2026 · 11:12 PM CEST",
+  "published_at_iso": "2026-09-25T23:12:56+0200"
 }
