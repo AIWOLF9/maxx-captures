@@ -24548,7 +24548,7 @@
       "id": "SIG-495",
       "title": "Slim the Signal project instructions to rules-only (v2.2), with the full reasoning kept in a companion file",
       "description": "Created 2026-09-24, attended — from Mission Control's Opus 5.5 operations audit (opener SIG-INSTRUCTIONS-DIET-7GSXEM3N2C). Wolf: keep every rule and all functionality, no forced size target. Done by Claude: v2.1 archived and byte-verified at 00_Canonical/Archive/SIGNAL_PROJECT_INSTRUCTIONS_v2_1_archived_2026-09-24.md; v2.2 written to 00_Canonical/Final/SIGNAL_PROJECT_INSTRUCTIONS.md (40.4 KB → 36.0 KB paste body; incident history removed, every rule kept with a one-line reason; default model made version-free); full history kept byte-exact in 00_Canonical/Final/SIGNAL_PROJECT_INSTRUCTIONS_RAT…",
-      "description_chars": 1641,
+      "description_chars": 1739,
       "status": "s-done",
       "priority": "p-p2",
       "segment": "Governance",
@@ -24783,6 +24783,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 25, 2026 · 2:51 AM CEST",
-  "published_at_iso": "2026-09-25T02:51:06+0200"
+  "published_at": "September 25, 2026 · 3:06 AM CEST",
+  "published_at_iso": "2026-09-25T03:06:25+0200"
 }
