@@ -9267,6 +9267,62 @@
       "first_seen": "2026-09-23"
     },
     {
+      "id": "SIG-497",
+      "title": "Ad-library research run…",
+      "description": "Created 2026-09-25, attended — from Wolf, walkthrough review batch 1, 2026-09-25 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-1_WOLF-VERBATIM_2026-09-25.md). Wolf: *\"Before we go to market, we definitely want to go to Facebook's ad library and the Google ad library. We're going to review all the ads that everybody is running to see what they're saying… because they're having to make concise use of the space to get the point across.\"* Pull the live ads of the app blockers and YouTube tools on the Competitor Walkthrough Board (BlockSite, Freedom, Opal, one sec, Roots, Qustodio and the…",
+      "description_chars": 792,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "id": "SIG-498",
+      "title": "FAQ harvest…",
+      "description": "Created 2026-09-25, attended — from Wolf, walkthrough review batch 1, 2026-09-25 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-1_WOLF-VERBATIM_2026-09-25.md). Wolf: *\"you can grab FAQs from all these different sites, put them into one database or one document, and figure out what FAQs we should have on the front page. Then have a separate FAQ page.\"* On the homepage, a short accordion (the strong sites run about six). Everything else goes on its own page. Pairs with the five-objections task (SIG-476).",
+      "description_chars": 514,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-25"
+    },
+    {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
       "title": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with i…",
       "description": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with its next fire parked at 2027-01-01. The routine is trig_019Wuy5iWcJJzoSxHDj1oaDU, Wolf's *\"can a cloud routine reach the Mac?\"* probe, created and fired 2026-08-26; surfaced at MC-CLOUDSHIFT-2026-09-09 (2026-09-09, attended, cloud, session 7DMVKQTQ4B) and now recorded under the new _pending_one_offs key in _index/STATUS_SNAPSHOTS/_cloud_lanes.json. The probe is itself the portfolio's one recorded instance of the failure it was built to detect: the scheduler records it SUCCEEDED — fired…",
@@ -12932,6 +12988,34 @@
       "autonomy": "Auto",
       "autonomy_reason": "venture-declared",
       "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-09-25"
+    },
+    {
+      "id": "SIG-499",
+      "title": "Partner with the app blockers…",
+      "description": "Created 2026-09-25, attended — from Wolf, walkthrough review batch 1, 2026-09-25 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-1_WOLF-VERBATIM_2026-09-25.md). Wolf: *\"I'm going to put that as a to-do: partner with ad blockers, because again, we're not saying replace ad blocker. We're saying, when you go to use YouTube, use our solution.\"* Approach app-blocker companies (Opal, Freedom, one sec, Roots and the rest) with a co-marketing or revenue-share offer. Strategy call; after launch.",
+      "description_chars": 497,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-25"
     },
@@ -24783,6 +24867,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 25, 2026 · 9:23 AM CEST",
-  "published_at_iso": "2026-09-25T09:23:20+0200"
+  "published_at": "September 25, 2026 · 10:12 PM CEST",
+  "published_at_iso": "2026-09-25T22:12:22+0200"
 }
