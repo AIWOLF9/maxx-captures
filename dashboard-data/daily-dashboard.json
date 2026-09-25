@@ -12910,8 +12910,8 @@
     {
       "id": "SIG-496",
       "title": "Confirm two scheduled runs picked up the 2026-09-24 changes…",
-      "description": "Created 2026-09-25 — follow-up from Mission Control's reply to SIG-495. Two checks nobody can make until the runs happen. (1) After the next 9:00 daily stand-up, _index/STATUS_SNAPSHOTS/_lane_checklists/signal-daily-standup.md must exist; if missing, it is a lane fault — flag to Mission Control. (2) After the Sunday 2026-09-27 weekly reflection, _Working/REFLECTION_2026-09-27.md must show the template's §U scheduled-run behaviour; if not, the desktop app's reflection prompt is still reading an old path — tell Mission Control. Done when both are confirmed on disk or flagged.",
-      "description_chars": 580,
+      "description": "Created 2026-09-25 — follow-up from Mission Control's reply to SIG-495. Two checks nobody can make until the runs happen. (1) After the next 9:00 daily stand-up, _index/STATUS_SNAPSHOTS/_lane_checklists/signal-daily-standup.md must exist; if missing, it is a lane fault — flag to Mission Control. (2) After the Sunday 2026-09-27 weekly reflection, _Working/REFLECTION_2026-09-27.md must show the template's §U scheduled-run behaviour; if not, the desktop app's reflection prompt is still reading an old path — tell Mission Control. Done when both are confirmed on disk or flagged. [2026-09-25 07:20Z…",
+      "description_chars": 1069,
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Governance",
@@ -24783,6 +24783,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 25, 2026 · 3:06 AM CEST",
-  "published_at_iso": "2026-09-25T03:06:25+0200"
+  "published_at": "September 25, 2026 · 9:23 AM CEST",
+  "published_at_iso": "2026-09-25T09:23:20+0200"
 }
