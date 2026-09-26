@@ -1096,7 +1096,7 @@
       "id": "SIG-424",
       "title": "THE WALL OF PAIN…",
       "description": "Added 2026-08-27/28 (attended). Decisions 87 (D-2026-08-27j) + 88 (D-2026-08-27k). Wolf's idea and his name for it. THE ROOT CAUSE, found by reading the instruction that built the corpus: MSIG-MKT-RESEARCH-PROMPT-0001 lists six source types in priority order — court filings · regulatory action · whistleblower documents · peer-reviewed research · major-outlet journalism · documentaries. All six are institutions; not one is a person. And its Outlet brand visibility requirement mandates *\"you MUST preserve the outlet brand name and date alongside every cited finding… The brand names ARE the visu…",
-      "description_chars": 29276,
+      "description_chars": 29935,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -4785,7 +4785,7 @@
       "id": "SIG-492",
       "title": "Emphasis pass 2…",
       "description": "Created 2026-09-23, attended — Decision 155. Wolf: *\"doing these kinds of images or animated element placeholders… emphasizing in gold buttons and other elements, we need to definitely do more of that, similar to what we did on the onboarding… on all the other beats and acts.\"* Every beat in the Narrative Review gets its treatment: placeholder picture or motion (like Act 0's phone-filter drawing), eyebrow, two-tone headline, gold band where earned, alternating image side, the button. Phone first: a phone / tablet / desktop switch like the onboarding review, with the fold line marked, so the p…",
-      "description_chars": 1979,
+      "description_chars": 2747,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4804,34 +4804,6 @@
         "HERMES"
       ],
       "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-23"
-    },
-    {
-      "id": "SIG-493",
-      "title": "Wolf's walkthrough review…",
-      "description": "Created 2026-09-23, attended — Decision 156. Wolf: *\"I want to give you my thoughts on each… things that pop out from what I see, so you can take my thoughts and feedback into consideration before you make any final decisions.\"* The five tabs in order (by element · first screens · whole pages · motion · how it comes together); Wolf speaks first on each, then Claude's picks. Done when _Working/SIGNAL_EMPHASIS-PASS-2_RULES_v1_0_<date>.md exists (keep / adapt / skip per pattern, Wolf's words, where on our beats, phone-first notes) and is cited in SIG-492 and the website index. Opener: _Working/O…",
-      "description_chars": 1258,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~1.5h elapsed · ~6.5h elapsed so far",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -22683,6 +22655,34 @@
       "first_seen": "2026-09-23"
     },
     {
+      "id": "SIG-493",
+      "title": "Wolf's walkthrough review…",
+      "description": "Created 2026-09-23, attended — Decision 156. Wolf: *\"I want to give you my thoughts on each… things that pop out from what I see, so you can take my thoughts and feedback into consideration before you make any final decisions.\"* The five tabs in order (by element · first screens · whole pages · motion · how it comes together); Wolf speaks first on each, then Claude's picks. Done when _Working/SIGNAL_EMPHASIS-PASS-2_RULES_v1_0_<date>.md exists (keep / adapt / skip per pattern, Wolf's words, where on our beats, phone-first notes) and is cited in SIG-492 and the website index. Opener: _Working/O…",
+      "description_chars": 2201,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~9.5h elapsed in total (part 1 ~6.5h + part 2 ~3h) vs ~1.5h estimate",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-23"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -25007,6 +25007,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 26, 2026 · 3:34 PM CEST",
-  "published_at_iso": "2026-09-26T15:34:17+0200"
+  "published_at": "September 26, 2026 · 6:05 PM CEST",
+  "published_at_iso": "2026-09-26T18:05:14+0200"
 }
