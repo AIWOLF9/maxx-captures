@@ -4785,7 +4785,7 @@
       "id": "SIG-492",
       "title": "Emphasis pass 2…",
       "description": "Created 2026-09-23, attended — Decision 155. Wolf: *\"doing these kinds of images or animated element placeholders… emphasizing in gold buttons and other elements, we need to definitely do more of that, similar to what we did on the onboarding… on all the other beats and acts.\"* Every beat in the Narrative Review gets its treatment: placeholder picture or motion (like Act 0's phone-filter drawing), eyebrow, two-tone headline, gold band where earned, alternating image side, the button. Phone first: a phone / tablet / desktop switch like the onboarding review, with the fold line marked, so the p…",
-      "description_chars": 4239,
+      "description_chars": 4518,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25035,6 +25035,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 26, 2026 · 7:06 PM CEST",
-  "published_at_iso": "2026-09-26T19:06:00+0200"
+  "published_at": "September 26, 2026 · 7:21 PM CEST",
+  "published_at_iso": "2026-09-26T19:21:19+0200"
 }
