@@ -4866,6 +4866,34 @@
       "first_seen": "2026-09-26"
     },
     {
+      "id": "SIG-505",
+      "title": "Get THE BOARD ready to become the live copy of the website…",
+      "description": "Created 2026-09-26 18:45, attended — Wolf agreed the order. Wolf: *\"using the narrative review board to just get the feel of it all done, and then we move to the board after, because final images, final design… we're going to reuse components. Navigation elements will be part of the board.\"* The agreed order: ① the homepage rebuild runs in the Narrative Review (SIG-492), then the motion pass (SIG-481) there too · ② THIS TASK, in a separate parallel chat: make THE BOARD fit to become the live copy · ③ a one-time, script-generated load of the finished homepage into the board (from the narrative…",
+      "description_chars": 2540,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-26"
+    },
+    {
       "id": "CAP-0029",
       "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
@@ -25007,6 +25035,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 26, 2026 · 6:05 PM CEST",
-  "published_at_iso": "2026-09-26T18:05:14+0200"
+  "published_at": "September 26, 2026 · 6:50 PM CEST",
+  "published_at_iso": "2026-09-26T18:50:41+0200"
 }
