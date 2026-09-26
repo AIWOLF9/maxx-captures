@@ -4924,8 +4924,8 @@
     {
       "id": "SIG-508",
       "title": "The Grok garden videos…",
-      "description": "Created 2026-09-27 01:36, attended — Wolf’s request. All 20 animated videos live in 05_Marketing/Reference/grok-visuals/videos/ (6 s, 784×1168, silent; the animated versions of the Grok stills in grok-visuals/photos/). Wolf: *\"we should use the animated ones because they kind of hold your attention… use a few throughout the other pages — shows diversity — different age ranges, families, women only, men, young people.\"* What it is: ① review every video frame by frame for typos and garbled text; ② pick a diverse set and place them on the homepage and deeper pages; ③ rebuild each chosen one as o…",
-      "description_chars": 1470,
+      "description": "Created 2026-09-27 01:36, attended — Wolf’s request. All 20 animated videos live in 05_Marketing/Reference/grok-visuals/videos/ (6 s, 784×1168, silent; the animated versions of the Grok stills in grok-visuals/photos/). Wolf: *\"we should use the animated ones because they kind of hold your attention… use a few throughout the other pages — shows diversity — different age ranges, families, women only, men, young people.\"* What it is: ① review every video frame by frame for typos and garbled text; ② pick a diverse set and place them on the homepage and deeper pages; ③ fix the typos and garbled te…",
+      "description_chars": 1707,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25119,6 +25119,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 27, 2026 · 1:42 AM CEST",
-  "published_at_iso": "2026-09-27T01:42:30+0200"
+  "published_at": "September 27, 2026 · 1:57 AM CEST",
+  "published_at_iso": "2026-09-27T01:57:49+0200"
 }
