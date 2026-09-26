@@ -4868,9 +4868,9 @@
     {
       "id": "SIG-505",
       "title": "Get THE BOARD ready to become the live copy of the website…",
-      "description": "Created 2026-09-26 18:45, attended — Wolf agreed the order. Wolf: *\"using the narrative review board to just get the feel of it all done, and then we move to the board after, because final images, final design… we're going to reuse components. Navigation elements will be part of the board.\"* The agreed order: ① the homepage rebuild runs in the Narrative Review (SIG-492), then the motion pass (SIG-481) there too · ② THIS TASK, in a separate parallel chat: make THE BOARD fit to become the live copy · ③ a one-time, script-generated load of the finished homepage into the board (from the narrative…",
-      "description_chars": 2540,
-      "status": "s-todo",
+      "description": "Created 2026-09-26 18:45, attended — Wolf agreed the order. ▶ PROGRESS 2026-09-26 (board-readiness chat, 18:50→): ① every view walked and ruled (Wolf 19:04 \"approve all\" + two notes; _Working/SIGNAL_BOARD-VIEW-WALK_2026-09-26.html): retire WALL and ARC \"this page's sections\"; skeleton becomes a toggle in the beats view; LIBRARY becomes a reading-order switch in RANKED; VOICE becomes a \"your words\" filter in the library, brought up to date since August; the rest kept. ② Route B ruled (19:55): the board is a private web page that saves every edit to Claude — PUBLISHED v1 claude.ai/artifact/9YvA…",
+      "description_chars": 3919,
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Design",
       "venture": "v-signal",
@@ -8933,8 +8933,8 @@
     {
       "id": "SIG-447",
       "title": "The Board's change log is discarded on every reload…",
-      "description": "Added 2026-09-02 (SIG-439 _Inbox/ reconciliation). _Inbox/MC_TO_SIGNAL_2026-08-22_BOARD-v9-SAVE-DEFECTS.md reported that the board's override log (D.changes) and founder image picks were not persisted by save()/load(). It was fixed the same day — the fix is visible in _Working/archive/MAXX_SIGNAL_THE_BOARD_v9_pre-v94_2026-08-23.html, which contains changes: D.changes — and it is absent from every archive from the v9.4→v9.5 re-seed of 2026-08-23 onward, including the live board. savePayload() lists pages, ctas, nav, footer, snaps, fav, rkadd, rkover, imgdel, modsec, imgcat and no changes; load…",
-      "description_chars": 1255,
+      "description": "Added 2026-09-02 (SIG-439 _Inbox/ reconciliation). ▶ PART 1 FIXED 2026-09-26 (SIG-505 board-readiness chat): the change log is now in the saved payload and restored on load (_Working/board-src/js/02_core.js, savePayload/load). The reload assertion exists: _Working/board-src/tools/check_save.py — FAILS on the 21 Sept file (1 entry → 0 after reload), PASSES on the rebuilt board. Still open (part 2): the duplicate founder-pick star (r.pk) is not yet removed — this task stays open for that. _Inbox/MC_TO_SIGNAL_2026-08-22_BOARD-v9-SAVE-DEFECTS.md reported that the board's override log (D.changes)…",
+      "description_chars": 1696,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Design",
@@ -25035,6 +25035,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 26, 2026 · 8:22 PM CEST",
-  "published_at_iso": "2026-09-26T20:22:33+0200"
+  "published_at": "September 26, 2026 · 8:37 PM CEST",
+  "published_at_iso": "2026-09-26T20:37:52+0200"
 }
