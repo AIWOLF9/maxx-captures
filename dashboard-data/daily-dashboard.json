@@ -2460,8 +2460,8 @@
     {
       "id": "SIG-233",
       "title": "Pause-subscription = launch feature…",
-      "description": "Added 2026-07-10 (SIG-227). Wolf: Pause ships at launch (30/60/90 freeze; matched to \"not using\"). Reconcile FAQ §8.3.2 (says B2) → launch; align Save-Ladder §9.7.1; PRD Subscription flow; Financial Model (churn/revenue). Lock cancel-by-plan-type (monthly/yearly-auto-renew/lifetime) + \"what you'd lose\" pre-cancel screen. Decisions Log.",
-      "description_chars": 337,
+      "description": "Added 2026-07-10 (SIG-227). Wolf: Pause ships at launch (30/60/90 freeze; matched to \"not using\"). Reconcile FAQ §8.3.2 (says B2) → launch; align Save-Ladder §9.7.1; PRD Subscription flow; Financial Model (churn/revenue). Lock cancel-by-plan-type (monthly/yearly-auto-renew/lifetime) + \"what you'd lose\" pre-cancel screen. Decisions Log. [2026-09-26, unattended stand-up — RECONCILIATION MEASURED; ONE LIVE CONTRADICTION LEFT.] Every target this cell names was checked against the current files. PRD v1.7 line 2860, the locked Plan screen spec (MSIG-UX-SCREEN-PLAN-0001 v1.0 §C3), Brand §9.7.1 and t…",
+      "description_chars": 1521,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -24979,6 +24979,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 26, 2026 · 3:00 AM CEST",
-  "published_at_iso": "2026-09-26T03:00:02+0200"
+  "published_at": "September 26, 2026 · 9:32 AM CEST",
+  "published_at_iso": "2026-09-26T09:32:05+0200"
 }
