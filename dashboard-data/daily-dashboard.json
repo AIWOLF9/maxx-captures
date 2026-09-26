@@ -4793,8 +4793,8 @@
       "deadline": null,
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
-      "effort_mc": "~4h elapsed",
-      "effort_wolf": null,
+      "effort_mc": "~4h elapsed ▶ PART 2 2026-09-26 20:17→22:12 (~1h55m elapsed), attended. ⚠ Correction: part 1's closeout said Act 4 was approved — it was never reviewed (Wolf 20:34). Act 4 reviewed and APPROVED 21:47 after changes: 4.1 zombie-crowd picture + YouTube card-dealer ‘illusion of choice’ picture (placeholders), illusion text cut to two blocks, WSJ paragraph and ‘Every age’ cards cut; 4.2 gold ‘Tap the ones that are you’, escalating words per tap, funnel picture restored, 84% adults + 90% teens (Pew 2025), soft line replaced; 4.3 the onboarding calculator plugged in (maths checked: $41,063/yr, $1.93M lifetime); 4.4 shield-vs-dragon picture (placeholder), ‘More than half’ centred, the two cards under it cut. Act 5 built and APPROVED 22:09: 5.1 cards + real YouTube viewer quote; 5.2 Wolf’s ‘app blocker breached’ picture; How it compares (mock v1.3) placed after 5.2; 5.3 three-panel picture without blockers / with blockers / with MAXX Signal (placeholder); 5.4 beliefs + the turn (refuse ×3 → held line → triad) + ‘Claim my founding spot’. Evidence: Narrative Review live v39 (claude.ai/artifact/WV3HyPqi7zxq7ABHCV5mnw), Story Index v21, _Working/narrative-pipeline/ v19.13 (prior archived _archive_v19-8_pre-act5_2026-09-26/). CHAT CLOSED 22:12 at the Act 5 → 6 boundary — task returns to To-do. RESUME AT ACT 6 with _Working/OPENER_EMPHASIS-PASS-2-PART-3_2026-09-26.md. Closeout _Transcripts/closeouts/CLOSEOUT_2026-09-26_EMPHASIS-PASS-2-PART-2.md.",
+      "effort_wolf": "~6h elapsed",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
@@ -4869,8 +4869,8 @@
       "id": "SIG-505",
       "title": "Get THE BOARD ready to become the live copy of the website…",
       "description": "Created 2026-09-26 18:45, attended — Wolf agreed the order. ▶ PROGRESS 2026-09-26 (board-readiness chat, 18:50→): ① every view walked and ruled (Wolf 19:04 \"approve all\" + two notes; _Working/SIGNAL_BOARD-VIEW-WALK_2026-09-26.html): retire WALL and ARC \"this page's sections\"; skeleton becomes a toggle in the beats view; LIBRARY becomes a reading-order switch in RANKED; VOICE becomes a \"your words\" filter in the library, brought up to date since August; the rest kept. ② Route B ruled (19:55): the board is a private web page that saves every edit to Claude — PUBLISHED v1 claude.ai/artifact/9YvA…",
-      "description_chars": 3919,
-      "status": "s-doing",
+      "description_chars": 4221,
+      "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
       "venture": "v-signal",
@@ -25035,6 +25035,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 26, 2026 · 8:37 PM CEST",
-  "published_at_iso": "2026-09-26T20:37:52+0200"
+  "published_at": "September 26, 2026 · 10:23 PM CEST",
+  "published_at_iso": "2026-09-26T22:23:47+0200"
 }
