@@ -4869,7 +4869,7 @@
       "id": "SIG-505",
       "title": "Get THE BOARD ready to become the live copy of the website…",
       "description": "Created 2026-09-26 18:45, attended — Wolf agreed the order. ▶ PROGRESS 2026-09-26 (board-readiness chat, 18:50→): ① every view walked and ruled (Wolf 19:04 \"approve all\" + two notes; _Working/SIGNAL_BOARD-VIEW-WALK_2026-09-26.html): retire WALL and ARC \"this page's sections\"; skeleton becomes a toggle in the beats view; LIBRARY becomes a reading-order switch in RANKED; VOICE becomes a \"your words\" filter in the library, brought up to date since August; the rest kept. ② Route B ruled (19:55): the board is a private web page that saves every edit to Claude — PUBLISHED v1 claude.ai/artifact/9YvA…",
-      "description_chars": 5601,
+      "description_chars": 5803,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -25091,6 +25091,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 27, 2026 · 12:26 AM CEST",
-  "published_at_iso": "2026-09-27T00:26:08+0200"
+  "published_at": "September 27, 2026 · 12:41 AM CEST",
+  "published_at_iso": "2026-09-27T00:41:29+0200"
 }
