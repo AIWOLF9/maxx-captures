@@ -4867,7 +4867,7 @@
     },
     {
       "id": "SIG-510",
-      "title": "A short landing page for article and ad traffic…",
+      "title": "Landing pages for the traffic we send…",
       "description": "Created 2026-09-28 00:40, attended — Wolf 00:13 (“I would love to see what you come up with”). Draft built from the approved homepage sections by _Working/narrative-pipeline/build_landing.py → landing.html / landing_artifact.html (artifact 7JZLmysy2U8rsHJheVF7WY): first screen + benefits → 70% → “every tool controls how long” → comparison → join → the YouTube you love · superpowers · tour · what stays out · with/without → voices → founding offer → questions; 23 phone screens, no links out. Rebuilds automatically from the homepage. Why: the conversion pass showed visitors arriving already conv…",
       "description_chars": 867,
       "status": "s-todo",
@@ -4877,7 +4877,7 @@
       "deadline": null,
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
-      "effort_mc": null,
+      "effort_mc": "— ▶ WIDENED 28 Sept 00:55 (Wolf): one landing page per audience, same sections with the opening in that audience's words — students, parents, business owners, employers and teams, schools; Claude added older adults, people worn down by the news, self-improvement learners, therapists and coaches, creators and educators. List, routing (each ad / article / creator gets its own link, tagged) and launch recommendation in _Working/SIGNAL_LANDING-PAGES-BY-AUDIENCE_2026-09-28.md. Wolf reviews the general draft ~28 Sept.",
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -25203,6 +25203,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 28, 2026 · 12:38 AM CEST",
-  "published_at_iso": "2026-09-28T00:38:16+0200"
+  "published_at": "September 28, 2026 · 1:08 AM CEST",
+  "published_at_iso": "2026-09-28T01:08:41+0200"
 }
