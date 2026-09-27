@@ -4813,7 +4813,7 @@
       "id": "SIG-505",
       "title": "Get THE BOARD ready to become the live copy of the website…",
       "description": "Created 2026-09-26 18:45, attended — Wolf agreed the order. ▶ PROGRESS 2026-09-26 (board-readiness chat, 18:50→): ① every view walked and ruled (Wolf 19:04 \"approve all\" + two notes; _Working/SIGNAL_BOARD-VIEW-WALK_2026-09-26.html): retire WALL and ARC \"this page's sections\"; skeleton becomes a toggle in the beats view; LIBRARY becomes a reading-order switch in RANKED; VOICE becomes a \"your words\" filter in the library, brought up to date since August; the rest kept. ② Route B ruled (19:55): the board is a private web page that saves every edit to Claude — PUBLISHED v1 claude.ai/artifact/9YvA…",
-      "description_chars": 7897,
+      "description_chars": 8349,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -8927,34 +8927,6 @@
       "autonomy": "Auto",
       "autonomy_reason": "venture-declared",
       "department": "Operations",
-      "kind": "tasks",
-      "first_seen": "2026-09-02"
-    },
-    {
-      "id": "SIG-447",
-      "title": "The Board's change log is discarded on every reload…",
-      "description": "Added 2026-09-02 (SIG-439 _Inbox/ reconciliation). ▶ PART 1 FIXED 2026-09-26 (SIG-505 board-readiness chat): the change log is now in the saved payload and restored on load (_Working/board-src/js/02_core.js, savePayload/load). The reload assertion exists: _Working/board-src/tools/check_save.py — FAILS on the 21 Sept file (1 entry → 0 after reload), PASSES on the rebuilt board. Still open (part 2): the duplicate founder-pick star (r.pk) is not yet removed — this task stays open for that. _Inbox/MC_TO_SIGNAL_2026-08-22_BOARD-v9-SAVE-DEFECTS.md reported that the board's override log (D.changes)…",
-      "description_chars": 1696,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-09-02"
     },
@@ -24881,6 +24853,34 @@
       "first_seen": "2026-08-17"
     },
     {
+      "id": "SIG-447",
+      "title": "The Board's change log is discarded on every reload…",
+      "description": "Added 2026-09-02 (SIG-439 _Inbox/ reconciliation). ▶ PART 1 FIXED 2026-09-26 (SIG-505 board-readiness chat): the change log is now in the saved payload and restored on load (_Working/board-src/js/02_core.js, savePayload/load). The reload assertion exists: _Working/board-src/tools/check_save.py — FAILS on the 21 Sept file (1 entry → 0 after reload), PASSES on the rebuilt board. ▶ PART 2 DONE 2026-09-27 ~22:50 (board-readiness part 4, Wolf 22:36 \"if you can do other things, do them\"): the old star was already gone from the screen — image cards use the saved ★ favourite (D.fav.img); what remaine…",
+      "description_chars": 2327,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-02"
+    },
+    {
       "id": "SIG-477",
       "title": "Score Wolf's 20 new founder blocks so his own lines compete in the candidate pool",
       "description": "Created 2026-09-21. The fold to library v0.7.2 added WL0001–WL0020 — 20 passages Wolf wrote by hand into the Signal Page Review, in his own voice, which existed nowhere else. They are in the ranked pool but unscored, so they will not surface as candidates in THE BOARD's copy rail until a scoring run touches them. Short run against RUBRIC_v0_7, same axes, so his lines are ranked on the same footing as everything else before the copy phase. ▶ DONE 2026-09-27 (board-readiness part 2, SIG-505 fix 6; Wolf 01:44 \"I agree with your recommendations\"): all 20 scored on RUBRIC v0.7 — PROVISIONAL, Wolf'…",
@@ -25147,6 +25147,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 27, 2026 · 5:48 PM CEST",
-  "published_at_iso": "2026-09-27T17:48:44+0200"
+  "published_at": "September 27, 2026 · 10:52 PM CEST",
+  "published_at_iso": "2026-09-27T22:52:06+0200"
 }
