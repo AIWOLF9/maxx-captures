@@ -4838,34 +4838,6 @@
       "first_seen": "2026-09-26"
     },
     {
-      "id": "SIG-506",
-      "title": "The duplication pass…",
-      "description": "Created 2026-09-26 23:18, attended — Wolf’s request. Wolf: *\"when we finish all the acts and all the beats, we want to go through a pass and see how much duplication we have… we can go in and get surgical, and maybe we do that before the design pass so we can get a holistic view of how all the pieces go together.\"* What it is: once Acts 0–7 are all rebuilt, read the Page view top to bottom at phone size, list every line or idea said more than once and every block that does not move the arc, and propose cut / thin / keep for each — Wolf rules, Claude applies. Done when the list is ruled and ap…",
-      "description_chars": 1312,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-27"
-    },
-    {
       "id": "SIG-508",
       "title": "The Grok garden videos…",
       "description": "Created 2026-09-27 01:36, attended — Wolf’s request. All 20 animated videos live in 05_Marketing/Reference/grok-visuals/videos/ (6 s, 784×1168, silent; the animated versions of the Grok stills in grok-visuals/photos/). Wolf: *\"we should use the animated ones because they kind of hold your attention… use a few throughout the other pages — shows diversity — different age ranges, families, women only, men, young people.\"* What it is: ① review every video frame by frame for typos and garbled text; ② pick a diverse set and place them on the homepage and deeper pages; ③ fix the typos and garbled te…",
@@ -4892,6 +4864,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-27"
+    },
+    {
+      "id": "SIG-510",
+      "title": "A short landing page for article and ad traffic…",
+      "description": "Created 2026-09-28 00:40, attended — Wolf 00:13 (“I would love to see what you come up with”). Draft built from the approved homepage sections by _Working/narrative-pipeline/build_landing.py → landing.html / landing_artifact.html (artifact 7JZLmysy2U8rsHJheVF7WY): first screen + benefits → 70% → “every tool controls how long” → comparison → join → the YouTube you love · superpowers · tour · what stays out · with/without → voices → founding offer → questions; 23 phone screens, no links out. Rebuilds automatically from the homepage. Why: the conversion pass showed visitors arriving already conv…",
+      "description_chars": 867,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-28"
     },
     {
       "id": "CAP-0029",
@@ -9349,6 +9349,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-09-27"
+    },
+    {
+      "id": "SIG-511",
+      "title": "Skim-pass follow-ups waiting on one word from Wolf",
+      "description": "Created 2026-09-28 00:40. ① Approve the three answers under the first screen and the cost lines (“Signal+ will cost less than 10 cents a day”; the value contrast in the first question) — built, shown 00:40. ② 5.1: folded or as is (both shown on the before/after page; Claude recommends folded). ③ 3.3 close “The world feels crazier. / Now you know why.” — Claude’s wording, keep or change. ④ The other Act 6 eyebrows (“· What stays out” etc.): keep or trim like 6.5. ⑤ 7.2 goal targets (10M / 100M / 1B a year) — placeholders, Wolf’s to set. ⑥ A one-line pointer to the For Families page once that p…",
+      "description_chars": 620,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-28"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -22767,6 +22795,34 @@
       "first_seen": "2026-09-27"
     },
     {
+      "id": "SIG-506",
+      "title": "The duplication pass…",
+      "description": "Created 2026-09-26 23:18, attended — Wolf’s request. Wolf: *\"when we finish all the acts and all the beats, we want to go through a pass and see how much duplication we have… we can go in and get surgical, and maybe we do that before the design pass so we can get a holistic view of how all the pieces go together.\"* What it is: once Acts 0–7 are all rebuilt, read the Page view top to bottom at phone size, list every line or idea said more than once and every block that does not move the arc, and propose cut / thin / keep for each — Wolf rules, Claude applies. Done when the list is ruled and ap…",
+      "description_chars": 1312,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "— ▶ DONE 2026-09-28 00:40 (skim-and-duplication chat, attended, 27 Sept 16:06 → 28 Sept 00:40). ① Three independent first-time readers skimmed the whole page on a phone; findings page published (_Working/SIGNAL_SKIM-PASS_DECISIONS-PAGE_2026-09-27.html, artifact KpYSjQyysqKTSUZV1QsVm6). ② Headline options (rule C13) and ③ the repeats list — Wolf ruled all 49 items plus five wording decisions (“ALL AS RECOMMENDED”, 22:34); his picks word for word in _Working/SIGNAL_SKIM-PASS_WOLF-PICKS_2026-09-27.json. ④ Applied in stage20_acts.py (blocks “SKIM PASS · WOLF’S RULINGS”, “ROUND 2”, “ROUND 3”) → Narrative Review v57 with a Before / After switch in the Page view; old page frozen as homepage_BEFORE-SKIM-PASS_v53_2026-09-27.html; side-by-side page _Working/SIGNAL_SKIM-PASS_BEFORE-AFTER_2026-09-27.html (artifact 9GitGTYHjUr8VV6CbHC7Gg). ⑤ Conversion pass: 12 simulated visitors arriving from a harms article, 6 per version → _Working/SIGNAL_CONVERSION-PASS_RESULTS_2026-09-27.md. Also: the 2.8 white-and-red line; price-lock wording fixed to 2 years (canon); the 6.4 region example replaced; a benefit block under the first screen (rule C15) with how-you-watch / Connect-YouTube / cost answers; a join button inside Act 2; eight “How Signal works” links to 6.2 (in-page). Follow-ups → SIG-510 (landing page) and SIG-511 (items awaiting a word from Wolf).",
+      "effort_wolf": "~8h35m elapsed (27 Sept 16:06 → 28 Sept 00:40, includes Wolf’s review time)",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-27"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -25147,6 +25203,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 27, 2026 · 10:52 PM CEST",
-  "published_at_iso": "2026-09-27T22:52:06+0200"
+  "published_at": "September 28, 2026 · 12:38 AM CEST",
+  "published_at_iso": "2026-09-28T00:38:16+0200"
 }
