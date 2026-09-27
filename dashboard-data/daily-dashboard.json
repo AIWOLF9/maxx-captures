@@ -4446,34 +4446,6 @@
       "first_seen": "2026-09-15"
     },
     {
-      "id": "SIG-465",
-      "title": "Master index per department…",
-      "description": "Created 2026-09-16, attended, on Wolf's explicit instruction to make this an operating procedure, not a one-off. Wolf: *\"If we used these master index files that have everything needed, with all the mockups and a proper index that describes everything with the proper descriptions and keywords, then it'd be much easier to find. That's what I also want to do for all the content, all the library, everything related to that… As we look at each major area, we create a master index because we're going to be creating lots of documents, and everything is in one place by department.\"* ⚠️ CHECKED BEFOR…",
-      "description_chars": 11698,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~5h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-09-16"
-    },
-    {
       "id": "SIG-466",
       "title": "Positioning chat…",
       "description": "Added 2026-09-16 (attended, Wolf's instruction to discuss it in the positioning chat). Test the ruled website argument v0.3 against Wolf's identity-based positioning framework: lead with the pain and how people feel, then how they will feel — the release, a healthy mind, what they get back, for them, their family and society. Already in the argument: beat 2.12 what-if modules, Act 4 \"Is this you?\" with the Dickens turn, 6.5 the outcome made concrete, Act 7 belonging. The gap: no beat whose job is who the reader becomes. Also measured 09-16: of 675 blocks scored 4–5, Acts 1, 5, 6, 7 hold only…",
@@ -22627,6 +22599,34 @@
       "first_seen": "2026-09-15"
     },
     {
+      "id": "SIG-465",
+      "title": "Master index per department…",
+      "description": "Created 2026-09-16, attended, on Wolf's explicit instruction to make this an operating procedure, not a one-off. Wolf: *\"If we used these master index files that have everything needed, with all the mockups and a proper index that describes everything with the proper descriptions and keywords, then it'd be much easier to find. That's what I also want to do for all the content, all the library, everything related to that… As we look at each major area, we create a master index because we're going to be creating lots of documents, and everything is in one place by department.\"* ⚠️ CHECKED BEFOR…",
+      "description_chars": 13229,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-09-16"
+    },
+    {
       "id": "SIG-479",
       "title": "The research review…",
       "description": "Created 2026-09-22, attended. THIS ROW REPLACES SIG-306, SIG-377, SIG-408 and SIG-218, which are marked Superseded and point here. Wolf: *\"we just never had a chat to review it or to get a sense of what came out of it, what findings you found, what you recommend using, and why.\"* 🔑 THE PROBLEM WAS NEVER MISSING RESEARCH. IT IS THAT NOBODY EVER TURNED IT INTO RECOMMENDATIONS. Confirmed on disk 2026-09-22: 49 competitor homepages captured live (2026-08-12/13, 206 pages) with a cross-site synthesis whose header states every figure is counted not estimated · a 552-line structure teardown _Working…",
@@ -25147,6 +25147,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 27, 2026 · 2:28 AM CEST",
-  "published_at_iso": "2026-09-27T02:28:30+0200"
+  "published_at": "September 27, 2026 · 9:30 AM CEST",
+  "published_at_iso": "2026-09-27T09:30:47+0200"
 }
