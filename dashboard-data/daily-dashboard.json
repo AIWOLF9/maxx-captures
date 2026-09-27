@@ -4782,34 +4782,6 @@
       "first_seen": "2026-09-23"
     },
     {
-      "id": "SIG-492",
-      "title": "Emphasis pass 2…",
-      "description": "Created 2026-09-23, attended — Decision 155. Wolf: *\"doing these kinds of images or animated element placeholders… emphasizing in gold buttons and other elements, we need to definitely do more of that, similar to what we did on the onboarding… on all the other beats and acts.\"* Every beat in the Narrative Review gets its treatment: placeholder picture or motion (like Act 0's phone-filter drawing), eyebrow, two-tone headline, gold band where earned, alternating image side, the button. Phone first: a phone / tablet / desktop switch like the onboarding review, with the fold line marked, so the p…",
-      "description_chars": 8656,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~8h15m elapsed",
-      "effort_wolf": "~6h elapsed",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-23"
-    },
-    {
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
@@ -4869,7 +4841,7 @@
       "id": "SIG-505",
       "title": "Get THE BOARD ready to become the live copy of the website…",
       "description": "Created 2026-09-26 18:45, attended — Wolf agreed the order. ▶ PROGRESS 2026-09-26 (board-readiness chat, 18:50→): ① every view walked and ruled (Wolf 19:04 \"approve all\" + two notes; _Working/SIGNAL_BOARD-VIEW-WALK_2026-09-26.html): retire WALL and ARC \"this page's sections\"; skeleton becomes a toggle in the beats view; LIBRARY becomes a reading-order switch in RANKED; VOICE becomes a \"your words\" filter in the library, brought up to date since August; the rest kept. ② Route B ruled (19:55): the board is a private web page that saves every edit to Claude — PUBLISHED v1 claude.ai/artifact/9YvA…",
-      "description_chars": 6030,
+      "description_chars": 6560,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -4894,10 +4866,38 @@
       "first_seen": "2026-09-26"
     },
     {
+      "id": "SIG-509",
+      "title": "Put the Narrative Review inside THE BOARD as its NARRATIVE view…",
+      "description": "Created 2026-09-27 02:00, attended. Wolf 01:44 asked for the ideal page-building process; Claude proposed, Wolf agreed: ⓪ page brief → ① story index (ARC) → ②a inventory (COPY library into beats) → ②b narrative (woven copy, reviews, marks) → ③ styling + images at 390/834/1440 (FLOW/PREVIEW) → ④ Claude Design → ⑤ build + launch checks, each step ending with Wolf's approval. The board had every step except ②b. Wolf 01:58: *\"we have the narrative board that we've been using… perhaps you can pull the latest version\"* — claude.ai/artifact/WV3HyPqi7zxq7ABHCV5mnw. So: a NARRATIVE tab between ARC and…",
+      "description_chars": 1042,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-27"
+    },
+    {
       "id": "SIG-506",
       "title": "The duplication pass…",
       "description": "Created 2026-09-26 23:18, attended — Wolf’s request. Wolf: *\"when we finish all the acts and all the beats, we want to go through a pass and see how much duplication we have… we can go in and get surgical, and maybe we do that before the design pass so we can get a holistic view of how all the pieces go together.\"* What it is: once Acts 0–7 are all rebuilt, read the Page view top to bottom at phone size, list every line or idea said more than once and every block that does not move the arc, and propose cut / thin / keep for each — Wolf rules, Claude applies. Done when the list is ruled and ap…",
-      "description_chars": 690,
+      "description_chars": 1312,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9177,34 +9177,6 @@
         "HERMES"
       ],
       "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-21"
-    },
-    {
-      "id": "SIG-477",
-      "title": "Score Wolf's 20 new founder blocks so his own lines compete in the candidate pool",
-      "description": "Created 2026-09-21. The fold to library v0.7.2 added WL0001–WL0020 — 20 passages Wolf wrote by hand into the Signal Page Review, in his own voice, which existed nowhere else. They are in the ranked pool but unscored, so they will not surface as candidates in THE BOARD's copy rail until a scoring run touches them. Short run against RUBRIC_v0_7, same axes, so his lines are ranked on the same footing as everything else before the copy phase.",
-      "description_chars": 442,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Auto",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -22767,6 +22739,34 @@
       "first_seen": "2026-09-23"
     },
     {
+      "id": "SIG-492",
+      "title": "Emphasis pass 2…",
+      "description": "Created 2026-09-23, attended — Decision 155. Wolf: *\"doing these kinds of images or animated element placeholders… emphasizing in gold buttons and other elements, we need to definitely do more of that, similar to what we did on the onboarding… on all the other beats and acts.\"* Every beat in the Narrative Review gets its treatment: placeholder picture or motion (like Act 0's phone-filter drawing), eyebrow, two-tone headline, gold band where earned, alternating image side, the button. Phone first: a phone / tablet / desktop switch like the onboarding review, with the fold line marked, so the p…",
+      "description_chars": 9474,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~9h45m elapsed",
+      "effort_wolf": "~6h elapsed",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-23"
+    },
+    {
       "id": "SIG-493",
       "title": "Wolf's walkthrough review…",
       "description": "Created 2026-09-23, attended — Decision 156. Wolf: *\"I want to give you my thoughts on each… things that pop out from what I see, so you can take my thoughts and feedback into consideration before you make any final decisions.\"* The five tabs in order (by element · first screens · whole pages · motion · how it comes together); Wolf speaks first on each, then Claude's picks. Done when _Working/SIGNAL_EMPHASIS-PASS-2_RULES_v1_0_<date>.md exists (keep / adapt / skip per pattern, Wolf's words, where on our beats, phone-first notes) and is cited in SIG-492 and the website index. Opener: _Working/O…",
@@ -24881,6 +24881,34 @@
       "first_seen": "2026-08-17"
     },
     {
+      "id": "SIG-477",
+      "title": "Score Wolf's 20 new founder blocks so his own lines compete in the candidate pool",
+      "description": "Created 2026-09-21. The fold to library v0.7.2 added WL0001–WL0020 — 20 passages Wolf wrote by hand into the Signal Page Review, in his own voice, which existed nowhere else. They are in the ranked pool but unscored, so they will not surface as candidates in THE BOARD's copy rail until a scoring run touches them. Short run against RUBRIC_v0_7, same axes, so his lines are ranked on the same footing as everything else before the copy phase. ▶ DONE 2026-09-27 (board-readiness part 2, SIG-505 fix 6; Wolf 01:44 \"I agree with your recommendations\"): all 20 scored on RUBRIC v0.7 — PROVISIONAL, Wolf'…",
+      "description_chars": 1019,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-21"
+    },
+    {
       "id": "SIG-495",
       "title": "Slim the Signal project instructions to rules-only (v2.2), with the full reasoning kept in a companion file",
       "description": "Created 2026-09-24, attended — from Mission Control's Opus 5.5 operations audit (opener SIG-INSTRUCTIONS-DIET-7GSXEM3N2C). Wolf: keep every rule and all functionality, no forced size target. Done by Claude: v2.1 archived and byte-verified at 00_Canonical/Archive/SIGNAL_PROJECT_INSTRUCTIONS_v2_1_archived_2026-09-24.md; v2.2 written to 00_Canonical/Final/SIGNAL_PROJECT_INSTRUCTIONS.md (40.4 KB → 36.0 KB paste body; incident history removed, every rule kept with a one-line reason; default model made version-free); full history kept byte-exact in 00_Canonical/Final/SIGNAL_PROJECT_INSTRUCTIONS_RAT…",
@@ -25119,6 +25147,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 27, 2026 · 1:57 AM CEST",
-  "published_at_iso": "2026-09-27T01:57:49+0200"
+  "published_at": "September 27, 2026 · 2:13 AM CEST",
+  "published_at_iso": "2026-09-27T02:13:11+0200"
 }
