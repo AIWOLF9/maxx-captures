@@ -9362,7 +9362,7 @@
       "deadline": null,
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
-      "effort_mc": null,
+      "effort_mc": "— ▶ 01:22 (Wolf): ③ 3.3 close KEPT · ④ Act 6 eyebrows KEPT as they are (only 6.5’s “Without and with” made no sense — already removed). ② 5.1 fold: shown side by side at 01:25, awaiting his word. Final copy for the board: _Working/narrative-pipeline/HOMEPAGE-FINAL-COPY.json and LANDING-FINAL-COPY.json (always the latest; versioned copies beside them).",
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -25203,6 +25203,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 28, 2026 · 1:08 AM CEST",
-  "published_at_iso": "2026-09-28T01:08:41+0200"
+  "published_at": "September 28, 2026 · 1:24 AM CEST",
+  "published_at_iso": "2026-09-28T01:24:03+0200"
 }
