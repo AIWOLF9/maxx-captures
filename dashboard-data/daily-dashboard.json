@@ -3973,7 +3973,7 @@
       "id": "SIG-428",
       "title": "The acquisition model…",
       "description": "Added 2026-08-31 (attended). THE HIGHEST-VALUE MISSING ARTIFACT. A full sweep of the venture found nothing on disk that converts channels into a user count — no target CAC, no assumed conversion rates, no reach assumptions, no per-channel yield. *First 10,000 users* and *100,000 users* have been ambition, never arithmetic, in every GTM document since May. Build the model: channel to reach to conversion to users, at both the 10k and 100k marks, in three scenarios (conservative / expected / optimistic), with every assumption named and its source stated. Why this row gates SIG-429, SIG-430 and S…",
-      "description_chars": 6592,
+      "description_chars": 7606,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4589,7 +4589,7 @@
       "id": "SIG-481",
       "title": "The motion and interaction pass…",
       "description": "Created 2026-09-22, attended. Wolf: *\"add the UI and UX elements that we see in a website like Apple, with motion and different treatment for the headlines and other elements that add a little motion or other elements that make it more engaging.\"* This is the DESIGN pass, and it is named here so it does not get lost between the emphasis pass and Claude Design. The emphasis pass decides WHAT carries weight (which line is the headline, which number goes big, where the image breaks). This row is HOW it behaves — type scale and ladder, scroll-triggered reveals, sticky and pinned sections, the her…",
-      "description_chars": 2988,
+      "description_chars": 3608,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4813,7 +4813,7 @@
       "id": "SIG-514",
       "title": "The opening animation…",
       "description": "Created 2026-09-28 18:49, attended — Wolf: *\"the general idea is that you see these dragons, and they're actually aiming at the head with the fire, but it's the words, all the negative words. You see the icons of the different social platforms, and then you see the word 'algorithm' as well. They're attacking the man, and then there's a burst of energy. It kind of starts to morph into the lotus brain tree of life at the end… 'Protected by Signal,' maybe somewhere in there.\"* Rules file Part B already rules it: 6–8 s (9 at most); headline and button visible within 1–2 s; reduced motion shows th…",
-      "description_chars": 1718,
+      "description_chars": 1896,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25427,6 +25427,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 28, 2026 · 9:39 PM CEST",
-  "published_at_iso": "2026-09-28T21:39:18+0200"
+  "published_at": "September 28, 2026 · 11:25 PM CEST",
+  "published_at_iso": "2026-09-28T23:25:08+0200"
 }
