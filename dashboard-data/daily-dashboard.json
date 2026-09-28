@@ -4057,7 +4057,7 @@
       "id": "SIG-432",
       "title": "ATTENDED GTM walkthrough…",
       "description": "Added 2026-08-31 (attended). Wolf set the date himself, 2026-08-31: *\"In about 10 days, it's fine\"* — and named what he wants from it: *\"Walk through the whole plan and all the moving parts. See what's there. Update whatever you need to update. Provide the comprehensive plan. Agree on the plan. Execute the various pieces of the plan.\"* One boardroom session, Boardroom Walkthrough Protocol — visual-led, section by section, present then debate then decide then lock. This is the single block of Wolf's time the whole program needs; everything upstream is authored unattended and arrives finished,…",
-      "description_chars": 2214,
+      "description_chars": 2473,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25427,6 +25427,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 28, 2026 · 11:25 PM CEST",
-  "published_at_iso": "2026-09-28T23:25:08+0200"
+  "published_at": "September 28, 2026 · 11:40 PM CEST",
+  "published_at_iso": "2026-09-28T23:40:31+0200"
 }
