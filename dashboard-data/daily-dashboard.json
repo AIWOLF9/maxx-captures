@@ -1261,34 +1261,6 @@
       "first_seen": "2026-09-20"
     },
     {
-      "id": "SIG-504",
-      "title": "Sign the interim management agreement…",
-      "description": "Created 2026-09-26, attended, on Wolf's instruction. Wolf: *\"We will create a document that just says that currently Wolf Ventures LLC is going to have a management agreement to handle the banking until the MAXX Signal Inc. bank account is open… Wolf Ventures LLC is providing the service to MAXX Signal Inc.\"* What it is, plainly: a short written agreement saying Wolf Ventures LLC collects and holds MAXX Signal's customer money (Kickstarter, pre-orders, Lemon Squeezy) and pays its approved expenses, as MAXX Signal Inc.'s agent, and that the money belongs to the Inc. It is the answer to the ope…",
-      "description_chars": 1645,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Legal",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Legal",
-      "kind": "tasks",
-      "first_seen": "2026-09-26"
-    },
-    {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
       "title": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked i…",
       "description": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked is a *defect*, not a bonus — and that rule exists nowhere in the rulebook. Originated MC-ENTITY-SETUP-2026-09-04 (2026-09-04, attended, session VP7M4GYP0Y), filed there as decision candidate D-MC-2026-09-04-VP7M4GYP0Y-01, and never ratified, never routed and never written to any register — homeless for five days until this row. Wolf, attended, verbatim: *\"Please don't get us off the path with minutia details about affiliate commissions or commissions or blended rates. That has nothing t…",
@@ -18799,6 +18771,34 @@
       "first_seen": "2026-09-22"
     },
     {
+      "id": "SIG-504",
+      "title": "Sign the interim management agreement…",
+      "description": "Created 2026-09-26, attended, on Wolf's instruction. Wolf: *\"We will create a document that just says that currently Wolf Ventures LLC is going to have a management agreement to handle the banking until the MAXX Signal Inc. bank account is open… Wolf Ventures LLC is providing the service to MAXX Signal Inc.\"* What it is, plainly: a short written agreement saying Wolf Ventures LLC collects and holds MAXX Signal's customer money (Kickstarter, pre-orders, Lemon Squeezy) and pays its approved expenses, as MAXX Signal Inc.'s agent, and that the money belongs to the Inc. It is the answer to the ope…",
+      "description_chars": 2506,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-09-26"
+    },
+    {
       "id": "CF-SIGNAL-INC-FORMED-1",
       "title": "MAXX Signal Inc…",
       "description": "MAXX Signal Inc. is now officially formed as a Florida C Corporation, and the 15,000,000 authorised-share count was confirmed with the registered agent before the filing was submitted. Wolf confirmed both in the Mission Control stand-up of 2026-09-09. This closes the one item from MC-ENTITY-SETUP-2026-09-04 that carried a closing window — confirming the share count was free before submission and would have cost a fee plus delay afterwards. It had been recorded under 'what Wolf does next' and never reached a register, which is why it went five days without a status; that routing gap is the sam…",
@@ -25259,6 +25259,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 28, 2026 · 9:27 AM CEST",
-  "published_at_iso": "2026-09-28T09:27:20+0200"
+  "published_at": "September 28, 2026 · 6:30 PM CEST",
+  "published_at_iso": "2026-09-28T18:30:53+0200"
 }
