@@ -813,34 +813,6 @@
       "first_seen": "2026-08-11"
     },
     {
-      "id": "SIG-376",
-      "title": "Website messaging + positioning arc…",
-      "description": "Added 2026-08-12 (attended, chat close; Wolf's own framing). The thinking between the structure and the words — and nothing on this board owned it. SIG-357 freezes WHICH pages exist; SIG-358 produces the finished copy; the arc that decides what the copy is FOR had no row at all. Wolf, verbatim in substance: *what do we want to accomplish with the website · what's the proper messaging people first see · how do we want to engage people · what's the right messaging arc as they move through the pages · what's the takeaway as people review the site.* Scope: the promise and positioning for the wait…",
-      "description_chars": 18883,
-      "status": "s-doing",
-      "priority": "p-p0",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": "1-5",
-      "deadline_label": "Phase P5",
-      "deadline_class": "d-future",
-      "effort_mc": "4h",
-      "effort_wolf": "4h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-08-12"
-    },
-    {
       "id": "SIG-378",
       "title": "Priorities walkthrough…",
       "description": "Added 2026-08-12 (attended, chat close; the agreed next chat). Wolf: *\"once we finish this, the dashboard will review the top items that we need to work on... I want to be super clear so we walk through it together.\"* The board is now trustworthy enough to plan from — schema v3 applied, contract-conformant, cycle-free, Mission Control re-parsing stored values instead of deriving them — which was the precondition. Scope, in order: (1) walk the board together and agree what is actually next, in what order, and what Wolf personally owns; (2) agree the website workstream as an ordered list — a ke…",
@@ -3917,7 +3889,7 @@
       "id": "SIG-407",
       "title": "Image library…",
       "description": "Added 2026-08-21 (attended). Extends SIG-351 rather than duplicating it — that row owns the re-make; this row owns the LIBRARY. ⚠️ THE GOVERNING RULE, ruled by Wolf 2026-08-21 and it reverses the premise of the morning's audit: A LOGO IN AN IMAGE IS NEVER A BLOCKER. Everything we made or collected is reference and candidates; rebuilding is a choice made on the merits after we agree the final candidate, never a consequence of what is in the frame. Precedent is in our own inbox — One Sec, Opal and the blocker category ship platform logos on live commercial sites. The rule was already written in…",
-      "description_chars": 3751,
+      "description_chars": 4405,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -3945,7 +3917,7 @@
       "id": "SIG-419",
       "title": "Receipts pack…",
       "description": "Added 2026-08-27 (attended stand-up). Four claims came out of the founder session, all wanted, none printable yet. (1) The aggregate fines figure — *\"tens and tens of billions\"* across all platforms; $18bn (Meta) is verified, the total is not. (2) A fast-food chain's admission of downgraded ingredients. (3) Chocolate makers substituting ingredients. (4) Doctors appearing in cigarette advertising, 1940s–60s — documented, needs only its citation attached. Plus the standing correction from Decision 82: *\"Meta lost the case\"* and *\"fraud\"* are both unsupportable — Meta settled, and the California…",
-      "description_chars": 1832,
+      "description_chars": 2361,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9235,34 +9207,6 @@
       "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-09-22"
-    },
-    {
-      "id": "SIG-489",
-      "title": "Regenerate the NotebookLM assets properly…",
-      "description": "Created 2026-09-22, attended. Its own chat, after the website. Wolf ruled on his N2/N7 marks: do not repair the old assets — regenerate them. The wide infographic carries invented dates and garbled names, so fixing it honestly means re-checking every claim, at which point we have authored our own. The originals were made months ago with no real instruction and no research corpus, which is why they over-weight harm-to-children and miss the arc. He already pays for the subscription, so the cost is time, not money. TWO THINGS TO DO FIRST, in his order: ① review NotebookLM's CURRENT capabilities…",
-      "description_chars": 884,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-22"
     },
@@ -18631,6 +18575,34 @@
       "first_seen": "2026-08-12"
     },
     {
+      "id": "SIG-376",
+      "title": "Website messaging + positioning arc…",
+      "description": "Added 2026-08-12 (attended, chat close; Wolf's own framing). The thinking between the structure and the words — and nothing on this board owned it. SIG-357 freezes WHICH pages exist; SIG-358 produces the finished copy; the arc that decides what the copy is FOR had no row at all. Wolf, verbatim in substance: *what do we want to accomplish with the website · what's the proper messaging people first see · how do we want to engage people · what's the right messaging arc as they move through the pages · what's the takeaway as people review the site.* Scope: the promise and positioning for the wait…",
+      "description_chars": 19843,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "4h",
+      "effort_wolf": "4h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-12"
+    },
+    {
       "id": "SIG-389",
       "title": "Auth-Security v1.1 → v1.2…",
       "description": "Added 2026-08-16 (attended; surfaced by the SIG-366 draft 2026-08-15). Claude Code builds from this document, not from the Claude Design files — and the document describes a different product. MSIG-PROD-AUTH-SECURITY-0001 v1.1 is dated 2026-05-01, two months BEFORE Decision 30 (2026-07-01) relocated sign-up to the 24th screen. It still routes /onboarding as route-class AUTH_ACTIVE (auth required to reach onboarding at all) and its §4.1/§4.2 flows both end by routing a newly-authenticated user INTO onboarding. Hand Claude Code this file today and it builds auth-first onboarding — the opposite…",
@@ -25133,6 +25105,34 @@
       "first_seen": "2026-09-21"
     },
     {
+      "id": "SIG-489",
+      "title": "Regenerate the NotebookLM assets properly…",
+      "description": "Created 2026-09-22, attended. Its own chat, after the website. Wolf ruled on his N2/N7 marks: do not repair the old assets — regenerate them. The wide infographic carries invented dates and garbled names, so fixing it honestly means re-checking every claim, at which point we have authored our own. The originals were made months ago with no real instruction and no research corpus, which is why they over-weight harm-to-children and miss the arc. He already pays for the subscription, so the cost is time, not money. TWO THINGS TO DO FIRST, in his order: ① review NotebookLM's CURRENT capabilities…",
+      "description_chars": 1704,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
       "id": "SIG-495",
       "title": "Slim the Signal project instructions to rules-only (v2.2), with the full reasoning kept in a companion file",
       "description": "Created 2026-09-24, attended — from Mission Control's Opus 5.5 operations audit (opener SIG-INSTRUCTIONS-DIET-7GSXEM3N2C). Wolf: keep every rule and all functionality, no forced size target. Done by Claude: v2.1 archived and byte-verified at 00_Canonical/Archive/SIGNAL_PROJECT_INSTRUCTIONS_v2_1_archived_2026-09-24.md; v2.2 written to 00_Canonical/Final/SIGNAL_PROJECT_INSTRUCTIONS.md (40.4 KB → 36.0 KB paste body; incident history removed, every rule kept with a one-line reason; default model made version-free); full history kept byte-exact in 00_Canonical/Final/SIGNAL_PROJECT_INSTRUCTIONS_RAT…",
@@ -25427,6 +25427,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 28, 2026 · 7:38 PM CEST",
-  "published_at_iso": "2026-09-28T19:38:06+0200"
+  "published_at": "September 28, 2026 · 9:23 PM CEST",
+  "published_at_iso": "2026-09-28T21:23:52+0200"
 }
