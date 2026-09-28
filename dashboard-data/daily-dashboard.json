@@ -4589,7 +4589,7 @@
       "id": "SIG-481",
       "title": "The motion and interaction pass…",
       "description": "Created 2026-09-22, attended. Wolf: *\"add the UI and UX elements that we see in a website like Apple, with motion and different treatment for the headlines and other elements that add a little motion or other elements that make it more engaging.\"* This is the DESIGN pass, and it is named here so it does not get lost between the emphasis pass and Claude Design. The emphasis pass decides WHAT carries weight (which line is the headline, which number goes big, where the image breaks). This row is HOW it behaves — type scale and ladder, scroll-triggered reveals, sticky and pinned sections, the her…",
-      "description_chars": 4910,
+      "description_chars": 6319,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4948,6 +4948,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-28"
+    },
+    {
+      "id": "SIG-520",
+      "title": "Reader-agent read-through of the homepage and landing page…",
+      "description": "Created 2026-09-29 01:24, attended — Wolf: *\"get a bunch of agents to review once we finish everything… they've read some article or something about social media harms… they click and go to this page… a few different avatars… where they would click on Join… every one of the agents uses YouTube and has these issues.\"* The setup: 5–6 visitor personas (e.g. a parent worried about a teen, a student who loses hours to YouTube, a professional whose focus is gone, a sceptic who thinks it doesn't affect them, someone already angry about the platforms). Every persona is presupposed to use YouTube dail…",
+      "description_chars": 1579,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-29"
     },
     {
       "id": "CAP-0029",
@@ -25427,6 +25455,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 29, 2026 · 12:42 AM CEST",
-  "published_at_iso": "2026-09-29T00:42:17+0200"
+  "published_at": "September 29, 2026 · 1:42 AM CEST",
+  "published_at_iso": "2026-09-29T01:42:49+0200"
 }
