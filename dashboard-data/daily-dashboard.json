@@ -4645,7 +4645,7 @@
       "id": "SIG-481",
       "title": "The motion and interaction pass…",
       "description": "Created 2026-09-22, attended. Wolf: *\"add the UI and UX elements that we see in a website like Apple, with motion and different treatment for the headlines and other elements that add a little motion or other elements that make it more engaging.\"* This is the DESIGN pass, and it is named here so it does not get lost between the emphasis pass and Claude Design. The emphasis pass decides WHAT carries weight (which line is the headline, which number goes big, where the image breaks). This row is HOW it behaves — type scale and ladder, scroll-triggered reveals, sticky and pinned sections, the her…",
-      "description_chars": 1447,
+      "description_chars": 1809,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4810,34 +4810,6 @@
       "first_seen": "2026-09-26"
     },
     {
-      "id": "SIG-505",
-      "title": "Get THE BOARD ready to become the live copy of the website…",
-      "description": "Created 2026-09-26 18:45, attended — Wolf agreed the order. ▶ PROGRESS 2026-09-26 (board-readiness chat, 18:50→): ① every view walked and ruled (Wolf 19:04 \"approve all\" + two notes; _Working/SIGNAL_BOARD-VIEW-WALK_2026-09-26.html): retire WALL and ARC \"this page's sections\"; skeleton becomes a toggle in the beats view; LIBRARY becomes a reading-order switch in RANKED; VOICE becomes a \"your words\" filter in the library, brought up to date since August; the rest kept. ② Route B ruled (19:55): the board is a private web page that saves every edit to Claude — PUBLISHED v1 claude.ai/artifact/9YvA…",
-      "description_chars": 8349,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-09-26"
-    },
-    {
       "id": "SIG-508",
       "title": "The Grok garden videos…",
       "description": "Created 2026-09-27 01:36, attended — Wolf’s request. All 20 animated videos live in 05_Marketing/Reference/grok-visuals/videos/ (6 s, 784×1168, silent; the animated versions of the Grok stills in grok-visuals/photos/). Wolf: *\"we should use the animated ones because they kind of hold your attention… use a few throughout the other pages — shows diversity — different age ranges, families, women only, men, young people.\"* What it is: ① review every video frame by frame for typos and garbled text; ② pick a diverse set and place them on the homepage and deeper pages; ③ fix the typos and garbled te…",
@@ -4878,6 +4850,34 @@
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
       "effort_mc": "— ▶ WIDENED 28 Sept 00:55 (Wolf): one landing page per audience, same sections with the opening in that audience's words — students, parents, business owners, employers and teams, schools; Claude added older adults, people worn down by the news, self-improvement learners, therapists and coaches, creators and educators. List, routing (each ad / article / creator gets its own link, tagged) and launch recommendation in _Working/SIGNAL_LANDING-PAGES-BY-AUDIENCE_2026-09-28.md. Wolf reviews the general draft ~28 Sept.",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-28"
+    },
+    {
+      "id": "SIG-512",
+      "title": "The page-building stand-up…",
+      "description": "Created 2026-09-28 02:25, attended — Wolf 02:06: *\"I want to have a call it a standup to review everything we've done, what we learned from it, and how we go to create these other pages in the most optimal way, in the right process, with the right tools, so we don't spend more time than necessary or waste time.\"* What it is: with the loaded board open, walk the homepage journey (Story Index arc → copy into beats → the narrative → pictures and styling → reader/agent passes → the load), name what worked, what cost time and what to skip, and set the process, tools and order for the next pages (D…",
+      "description_chars": 763,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~45m with Wolf",
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -9349,6 +9349,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-09-27"
+    },
+    {
+      "id": "SIG-513",
+      "title": "Rule the pre-order and launch wording…",
+      "description": "Created 2026-09-28 02:25 (carried out of SIG-505). In THE BOARD → ARC → versions side by side, the waitlist cells are ruled (green) and applied; the pre-order and launch cells are proposals (amber): top-bar button, first-screen button and small line, the ask, the founding offer, the ask line. The launch offer is still open (end date and launch prices not set). Wolf rules each; Claude applies them to the page and reloads. Not a blocker for the waitlist version.",
+      "description_chars": 464,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~15m with Wolf",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-28"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -22739,6 +22767,34 @@
       "first_seen": "2026-09-23"
     },
     {
+      "id": "SIG-505",
+      "title": "Get THE BOARD ready to become the live copy of the website…",
+      "description": "Created 2026-09-26 18:45, attended — Wolf agreed the order. ▶ PROGRESS 2026-09-26 (board-readiness chat, 18:50→): ① every view walked and ruled (Wolf 19:04 \"approve all\" + two notes; _Working/SIGNAL_BOARD-VIEW-WALK_2026-09-26.html): retire WALL and ARC \"this page's sections\"; skeleton becomes a toggle in the beats view; LIBRARY becomes a reading-order switch in RANKED; VOICE becomes a \"your words\" filter in the library, brought up to date since August; the rest kept. ② Route B ruled (19:55): the board is a private web page that saves every edit to Claude — PUBLISHED v1 claude.ai/artifact/9YvA…",
+      "description_chars": 9647,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-26"
+    },
+    {
       "id": "SIG-509",
       "title": "Put the Narrative Review inside THE BOARD as its NARRATIVE view…",
       "description": "Created 2026-09-27 02:00, attended. Wolf 01:44 asked for the ideal page-building process; Claude proposed, Wolf agreed: ⓪ page brief → ① story index (ARC) → ②a inventory (COPY library into beats) → ②b narrative (woven copy, reviews, marks) → ③ styling + images at 390/834/1440 (FLOW/PREVIEW) → ④ Claude Design → ⑤ build + launch checks, each step ending with Wolf's approval. The board had every step except ②b. Wolf 01:58: *\"we have the narrative board that we've been using… perhaps you can pull the latest version\"* — claude.ai/artifact/WV3HyPqi7zxq7ABHCV5mnw. So: a NARRATIVE tab between ARC and…",
@@ -25203,6 +25259,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 28, 2026 · 1:39 AM CEST",
-  "published_at_iso": "2026-09-28T01:39:22+0200"
+  "published_at": "September 28, 2026 · 2:24 AM CEST",
+  "published_at_iso": "2026-09-28T02:24:55+0200"
 }
