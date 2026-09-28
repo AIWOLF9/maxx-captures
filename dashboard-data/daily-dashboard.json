@@ -4589,7 +4589,7 @@
       "id": "SIG-481",
       "title": "The motion and interaction pass…",
       "description": "Created 2026-09-22, attended. Wolf: *\"add the UI and UX elements that we see in a website like Apple, with motion and different treatment for the headlines and other elements that add a little motion or other elements that make it more engaging.\"* This is the DESIGN pass, and it is named here so it does not get lost between the emphasis pass and Claude Design. The emphasis pass decides WHAT carries weight (which line is the headline, which number goes big, where the image breaks). This row is HOW it behaves — type scale and ladder, scroll-triggered reveals, sticky and pinned sections, the her…",
-      "description_chars": 3608,
+      "description_chars": 4910,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25427,6 +25427,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 28, 2026 · 11:40 PM CEST",
-  "published_at_iso": "2026-09-28T23:40:31+0200"
+  "published_at": "September 29, 2026 · 12:42 AM CEST",
+  "published_at_iso": "2026-09-29T00:42:17+0200"
 }
