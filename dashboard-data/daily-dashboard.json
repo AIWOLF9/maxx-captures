@@ -18774,7 +18774,7 @@
       "id": "SIG-504",
       "title": "Sign the interim management agreement…",
       "description": "Created 2026-09-26, attended, on Wolf's instruction. Wolf: *\"We will create a document that just says that currently Wolf Ventures LLC is going to have a management agreement to handle the banking until the MAXX Signal Inc. bank account is open… Wolf Ventures LLC is providing the service to MAXX Signal Inc.\"* What it is, plainly: a short written agreement saying Wolf Ventures LLC collects and holds MAXX Signal's customer money (Kickstarter, pre-orders, Lemon Squeezy) and pays its approved expenses, as MAXX Signal Inc.'s agent, and that the money belongs to the Inc. It is the answer to the ope…",
-      "description_chars": 2506,
+      "description_chars": 2886,
       "status": "s-done",
       "priority": "p-p0",
       "segment": "Legal",
@@ -25259,6 +25259,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 28, 2026 · 6:30 PM CEST",
-  "published_at_iso": "2026-09-28T18:30:53+0200"
+  "published_at": "September 28, 2026 · 6:46 PM CEST",
+  "published_at_iso": "2026-09-28T18:46:16+0200"
 }
