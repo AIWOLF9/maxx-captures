@@ -4812,8 +4812,8 @@
     {
       "id": "SIG-515",
       "title": "Claude Design for the homepage and landing page…",
-      "description": "Created 2026-09-28 18:49 (Decision 162, Phase 1 step 1.4). Run from chat against THE BOARD, results carried back into the board and the page kit, so batch A to D pages inherit the approved look. Waits on the motion pass, the opening animation, the landing-page review and the pre-order/launch wording (the tweak round). ▶ 2026-09-29 (Decision 163 ③): waits for the reader-agent read-through (SIG-520) and the streamlining of the longest cards (SIG-522) — Wolf 02:11: *\"we should do the Claude design after we're fully finished getting the reviews and any feedback.\"*",
-      "description_chars": 566,
+      "description": "Created 2026-09-28 18:49 (Decision 162, Phase 1 step 1.4). Run from chat against THE BOARD, results carried back into the board and the page kit, so batch A to D pages inherit the approved look. Waits on the motion pass, the opening animation, the landing-page review and the pre-order/launch wording (the tweak round). ▶ 2026-09-29 (Decision 163 ③): waits for the reader-agent read-through (SIG-520) and the streamlining of the longest cards (SIG-522) — Wolf 02:11: *\"we should do the Claude design after we're fully finished getting the reviews and any feedback.\"* ▶ 2026-09-29: also waits on SIG-…",
+      "description_chars": 702,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -4922,38 +4922,10 @@
       "first_seen": "2026-09-28"
     },
     {
-      "id": "SIG-520",
-      "title": "Reader-agent read-through of the homepage and landing page…",
-      "description": "Created 2026-09-29 01:24, attended — Wolf: *\"get a bunch of agents to review once we finish everything… they've read some article or something about social media harms… they click and go to this page… a few different avatars… where they would click on Join… every one of the agents uses YouTube and has these issues.\"* The setup: 5–6 visitor personas (e.g. a parent worried about a teen, a student who loses hours to YouTube, a professional whose focus is gone, a sceptic who thinks it doesn't affect them, someone already angry about the platforms). Every persona is presupposed to use YouTube dail…",
-      "description_chars": 2556,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~1h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-29"
-    },
-    {
       "id": "SIG-522",
       "title": "Streamline the cards with the most text…",
       "description": "Created 2026-09-29 02:45, attended. Wolf 00:19: *\"One of the things we're going to do at the end is look at all the text where there are the boxes that have the most amount of text, and see if we need to streamline them a little bit.\"* Runs after the reader-agent read-through (SIG-520), so the cards readers stopped on are cut first. Method: list every card over a length threshold with its word count, propose a shorter version beside the original (same claim, same receipts, loud-outside register — Brand §1.1.4 / §3.6.1), Wolf picks, changes go through page_edits.py. Claude Design (SIG-515) wai…",
-      "description_chars": 628,
+      "description_chars": 851,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4978,13 +4950,13 @@
       "first_seen": "2026-09-29"
     },
     {
-      "id": "SIG-523",
-      "title": "Code-drawn pictures still arrive before their words…",
-      "description": "Created 2026-09-29 02:36, attended — Wolf: *\"there are some sections that are not photos, but are like your drawings… were already there, and then the words came in.\"* The 02:11 fix (motion kit v4.2) covers photos (img pictures); the pictures DRAWN IN CODE (inline SVG) are not on the reading queue, so they show at once. Wolf's examples: 2.x \"How we see each other / The world didn't get worse. Your feed did.\" (the inside/outside-the-bubble drawing); \"Nothing here is broken. This is by design.\" (the time-spent-watching drawing); \"The further it travels, like an epidemic virus\" (the virus drawin…",
-      "description_chars": 1158,
+      "id": "SIG-524",
+      "title": "Apply Wolf's rulings on the reader-review findings…",
+      "description": "Created 2026-09-29 ~03:45 (unattended run). Wolf rules each finding on the findings page (artifact DmypbyWdYUHF12dZJ9EJjS — Approve / Change / Reject + note, saved to its database; read them with ArtifactData list on collection rulings). A · defects: A1 hide build notes and placeholder labels on the public build · A2 pull the 2.11 watermarked photo and the 3.1 infographic with another company's name · A3 motion kit v4.4 — faster reveals, same order (show Wolf old vs new side by side first; he approved the current pacing at 01:24) · A4 counters within ~0.8 s · A5 calculator numbers agree · A6…",
+      "description_chars": 1203,
       "status": "s-todo",
       "priority": "p-p1",
-      "segment": "Design",
+      "segment": "Marketing",
       "venture": "v-signal",
       "deadline": null,
       "deadline_label": "Phase Pre-Launch",
@@ -4994,14 +4966,14 @@
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
-      "owner": "Claude",
-      "executor": "ATHENA",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
       "executor_list": [
-        "ATHENA"
+        "HERMES"
       ],
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
-      "department": "Design",
+      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-29"
     },
@@ -23075,6 +23047,62 @@
       "first_seen": "2026-09-28"
     },
     {
+      "id": "SIG-520",
+      "title": "Reader-agent read-through of the homepage and landing page…",
+      "description": "Created 2026-09-29 01:24, attended — Wolf: *\"get a bunch of agents to review once we finish everything… they've read some article or something about social media harms… they click and go to this page… a few different avatars… where they would click on Join… every one of the agents uses YouTube and has these issues.\"* The setup: 5–6 visitor personas (e.g. a parent worried about a teen, a student who loses hours to YouTube, a professional whose focus is gone, a sceptic who thinks it doesn't affect them, someone already angry about the platforms). Every persona is presupposed to use YouTube dail…",
+      "description_chars": 3775,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-29"
+    },
+    {
+      "id": "SIG-523",
+      "title": "Code-drawn pictures still arrive before their words…",
+      "description": "Created 2026-09-29 02:36, attended — Wolf: *\"there are some sections that are not photos, but are like your drawings… were already there, and then the words came in.\"* The 02:11 fix (motion kit v4.2) covers photos (img pictures); the pictures DRAWN IN CODE (inline SVG) are not on the reading queue, so they show at once. Wolf's examples: 2.x \"How we see each other / The world didn't get worse. Your feed did.\" (the inside/outside-the-bubble drawing); \"Nothing here is broken. This is by design.\" (the time-spent-watching drawing); \"The further it travels, like an epidemic virus\" (the virus drawin…",
+      "description_chars": 2298,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-29"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -25539,6 +25567,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 29, 2026 · 2:43 AM CEST",
-  "published_at_iso": "2026-09-29T02:43:35+0200"
+  "published_at": "September 29, 2026 · 3:44 AM CEST",
+  "published_at_iso": "2026-09-29T03:44:06+0200"
 }
