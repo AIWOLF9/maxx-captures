@@ -4586,34 +4586,6 @@
       "first_seen": "2026-09-21"
     },
     {
-      "id": "SIG-481",
-      "title": "The motion and interaction pass…",
-      "description": "Created 2026-09-22, attended. Wolf: *\"add the UI and UX elements that we see in a website like Apple, with motion and different treatment for the headlines and other elements that add a little motion or other elements that make it more engaging.\"* This is the DESIGN pass, and it is named here so it does not get lost between the emphasis pass and Claude Design. The emphasis pass decides WHAT carries weight (which line is the headline, which number goes big, where the image breaks). This row is HOW it behaves — type scale and ladder, scroll-triggered reveals, sticky and pinned sections, the her…",
-      "description_chars": 6319,
-      "status": "s-doing",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-22"
-    },
-    {
       "id": "SIG-484",
       "title": "Joint session on the contested research items only…",
       "description": "⚠️ RESCOPED 2026-09-22 on the evidence, and it is SMALLER than this row assumed. The row was written expecting a joint session on everything he flagged. What he actually flagged is 1 no and 6 maybes, and four of the six maybes were not disagreements at all — they were me explaining badly, and they were answered in chat the same session. What genuinely remains for a joint session: (a) the wedge sentence — ‘we replace the feed’ is already published by a competitor, so the position holds and the sentence has to change; (b) the boundary beat ‘what Signal does not fix’, now built as a PROPOSED bea…",
@@ -4840,8 +4812,8 @@
     {
       "id": "SIG-515",
       "title": "Claude Design for the homepage and landing page…",
-      "description": "Created 2026-09-28 18:49 (Decision 162, Phase 1 step 1.4). Run from chat against THE BOARD, results carried back into the board and the page kit, so batch A to D pages inherit the approved look. Waits on the motion pass, the opening animation, the landing-page review and the pre-order/launch wording (the tweak round).",
-      "description_chars": 319,
+      "description": "Created 2026-09-28 18:49 (Decision 162, Phase 1 step 1.4). Run from chat against THE BOARD, results carried back into the board and the page kit, so batch A to D pages inherit the approved look. Waits on the motion pass, the opening animation, the landing-page review and the pre-order/launch wording (the tweak round). ▶ 2026-09-29 (Decision 163 ③): waits for the reader-agent read-through (SIG-520) and the streamlining of the longest cards (SIG-522) — Wolf 02:11: *\"we should do the Claude design after we're fully finished getting the reviews and any feedback.\"*",
+      "description_chars": 566,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -4953,7 +4925,7 @@
       "id": "SIG-520",
       "title": "Reader-agent read-through of the homepage and landing page…",
       "description": "Created 2026-09-29 01:24, attended — Wolf: *\"get a bunch of agents to review once we finish everything… they've read some article or something about social media harms… they click and go to this page… a few different avatars… where they would click on Join… every one of the agents uses YouTube and has these issues.\"* The setup: 5–6 visitor personas (e.g. a parent worried about a teen, a student who loses hours to YouTube, a professional whose focus is gone, a sceptic who thinks it doesn't affect them, someone already angry about the platforms). Every persona is presupposed to use YouTube dail…",
-      "description_chars": 1579,
+      "description_chars": 2081,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4967,6 +4939,34 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-29"
+    },
+    {
+      "id": "SIG-522",
+      "title": "Streamline the cards with the most text…",
+      "description": "Created 2026-09-29 02:45, attended. Wolf 00:19: *\"One of the things we're going to do at the end is look at all the text where there are the boxes that have the most amount of text, and see if we need to streamline them a little bit.\"* Runs after the reader-agent read-through (SIG-520), so the cards readers stopped on are cut first. Method: list every card over a length threshold with its word count, propose a shorter version beside the original (same claim, same receipts, loud-outside register — Brand §1.1.4 / §3.6.1), Wolf picks, changes go through page_edits.py. Claude Design (SIG-515) wai…",
+      "description_chars": 628,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
       "executor": "HERMES",
       "executor_list": [
         "HERMES"
@@ -9461,6 +9461,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-28"
+    },
+    {
+      "id": "SIG-521",
+      "title": "The three homepage pictures still to rebuild…",
+      "description": "Created 2026-09-29 02:45 at the close of the motion pass (SIG-481), attended. These were listed as \"open by design\" inside SIG-481; moved here so they are tracked. ① 2.11 — the scream picture rebuild (the \"F*CK THE ALGORITHM\" tape lands after the face; the motion is built, the picture is the placeholder). ② 4.1 — the sleight-of-hand drawing (a placeholder drawing today). ③ 3.2 — the kids picture. Image generation spends money: propose model + count + cost and get Wolf's yes first (ATHENA via Composio → fal). The one-dragon 4.4 version belongs to the opening animation (SIG-514).",
+      "description_chars": 584,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-29"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -22767,6 +22795,34 @@
       "first_seen": "2026-09-22"
     },
     {
+      "id": "SIG-481",
+      "title": "The motion and interaction pass…",
+      "description": "Created 2026-09-22, attended. Wolf: *\"add the UI and UX elements that we see in a website like Apple, with motion and different treatment for the headlines and other elements that add a little motion or other elements that make it more engaging.\"* This is the DESIGN pass, and it is named here so it does not get lost between the emphasis pass and Claude Design. The emphasis pass decides WHAT carries weight (which line is the headline, which number goes big, where the image breaks). This row is HOW it behaves — type scale and ladder, scroll-triggered reveals, sticky and pinned sections, the her…",
+      "description_chars": 7158,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
       "id": "SIG-486",
       "title": "Rule the promise-block framing collision…",
       "description": "✅ DONE 2026-09-25, attended. Wolf ruled: THE COMPARISON (Reading B). The five promise items fold into the WITH SIGNAL / WITHOUT SIGNAL comparison; privacy goes to the privacy beat; Decision 84 stands and there is no standalone promise section. EVIDENCE — the Decision 59 cascade ran in the same session, four documents: (1) 00_Canonical/Final/MAXX_Signal_Decisions_Log_v1_4.md — new Decision 149 (D-SIG-2026-09-25-SIG486) appended, and Decision 140 ②'s *not landed / needs one word from Wolf* marker struck and pointed at it; (2) 00_Canonical/Final/MAXX_Signal_Brand_v1_5_10.md — header bumped v1.5.…",
@@ -25455,6 +25511,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 29, 2026 · 1:42 AM CEST",
-  "published_at_iso": "2026-09-29T01:42:49+0200"
+  "published_at": "September 29, 2026 · 2:28 AM CEST",
+  "published_at_iso": "2026-09-29T02:28:16+0200"
 }
