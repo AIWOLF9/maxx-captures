@@ -4897,7 +4897,7 @@
       "id": "SIG-524",
       "title": "Apply Wolf's rulings on the reader-review findings…",
       "description": "Created 2026-09-29 ~03:45 (unattended run). Wolf rules each finding on the findings page (artifact DmypbyWdYUHF12dZJ9EJjS — Approve / Change / Reject + note, saved to its database; read them with ArtifactData list on collection rulings). A · defects: A1 hide build notes and placeholder labels on the public build · A2 pull the 2.11 watermarked photo and the 3.1 infographic with another company's name · A3 motion kit v4.4 — faster reveals, same order (show Wolf old vs new side by side first; he approved the current pacing at 01:24) · A4 counters within ~0.8 s · A5 calculator numbers agree · A6…",
-      "description_chars": 3674,
+      "description_chars": 3927,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25719,6 +25719,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 29, 2026 · 6:50 PM CEST",
-  "published_at_iso": "2026-09-29T18:50:57+0200"
+  "published_at": "September 29, 2026 · 7:36 PM CEST",
+  "published_at_iso": "2026-09-29T19:36:34+0200"
 }
