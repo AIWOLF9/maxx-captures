@@ -4925,7 +4925,7 @@
       "id": "SIG-528",
       "title": "THE BOARD: compare any two page drafts side by side, with replay",
       "description": "Created 2026-09-29, attended — Wolf: *\"have it so we can select which we want to compare to… the two homepages… the new one and the old one… just like you did above here when I reviewed the proposed faster kit… a replay button… right now I want to compare the landing page to the homepage. I can't really do that next to each other.\"* In the NARRATIVE / PREVIEW page view: every draft (homepage and landing, each version) selectable; two frames side by side (phone and desktop widths), pick-left / pick-right, \"Replay both\", \"Back to top\". Prototype: the viewer on the SIG-524 comparison page (artif…",
-      "description_chars": 685,
+      "description_chars": 961,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Build",
@@ -4948,6 +4948,34 @@
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-09-29"
+    },
+    {
+      "id": "SIG-529",
+      "title": "Second reader-agent review…",
+      "description": "Created 2026-09-30 00:40, attended — Wolf: *\"we'll get the other agent reviewers to also review everything once we have all the pictures and tweak everything we need to… they review the trim version and the landing page with an updated plan.\"* Updated plan (from Wolf's 29 Sept rulings a3/exitq): same 6 market personas + 3 premium-web experts, phone and desktop, motion on; readers SKIM at about 2–2.5 s per screen and read deeper only where their persona would; waitlist framing (no commitment, no prices); exit interview per persona: what did you learn, what resonated emotionally, do you now see…",
+      "description_chars": 965,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-30"
     },
     {
       "id": "CAP-0029",
@@ -25719,6 +25747,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 30, 2026 · 12:39 AM CEST",
-  "published_at_iso": "2026-09-30T00:39:45+0200"
+  "published_at": "September 30, 2026 · 12:55 AM CEST",
+  "published_at_iso": "2026-09-30T00:55:04+0200"
 }
