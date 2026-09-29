@@ -4897,8 +4897,8 @@
       "id": "SIG-524",
       "title": "Apply Wolf's rulings on the reader-review findings…",
       "description": "Created 2026-09-29 ~03:45 (unattended run). ▶ PROGRESS 2026-09-30 ~00:40 (fal image chat): the round-1 website picture batch RAN — 32 images, $2.77, exactly as the brief wrote them, via the fal connector. Files: 05_Marketing/Assets/01_generated-ours/website/round1_2026-09-29/. Wolf picks on the pick sheet, artifact PVFwvmRH9gUhvPyKfoj2vx (picks save to its db collection picks); the website chat places the picked versions. Registry rows for Mission Control: ASSET_REGISTRY_ROWS_round1.md in that folder. Wolf rules each finding on the findings page (artifact DmypbyWdYUHF12dZJ9EJjS — Approve / Ch…",
-      "description_chars": 5107,
-      "status": "s-doing",
+      "description_chars": 5325,
+      "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -9577,8 +9577,8 @@
     {
       "id": "SIG-531",
       "title": "A little motion on the pictures…",
-      "description": "Created 2026-09-30 01:50, attended — Wolf: *\"after we finish these tweaks… animate a few of the other images slightly… just so it adds a little more wow factor\"* and *\"you know how we animated the image at the end: Join the movement… the light-flickers animation… I want to be able to discuss and see what little animation we can do across a bunch of our images, but let's do that after, at the end.\"* Choose a handful of pictures, propose one small motion each (light flicker, slow push-in, glow, drifting icons), show them side by side, Wolf picks. After all pictures are final.",
-      "description_chars": 580,
+      "description": "Created 2026-09-30 01:50, attended — Wolf: *\"after we finish these tweaks… animate a few of the other images slightly… just so it adds a little more wow factor\"* and *\"you know how we animated the image at the end: Join the movement… the light-flickers animation… I want to be able to discuss and see what little animation we can do across a bunch of our images, but let's do that after, at the end.\"* Choose a handful of pictures, propose one small motion each (light flicker, slow push-in, glow, drifting icons), show them side by side, Wolf picks. After all pictures are final. Wolf 01:41 example…",
+      "description_chars": 732,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Design",
@@ -25803,6 +25803,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 30, 2026 · 1:40 AM CEST",
-  "published_at_iso": "2026-09-30T01:40:44+0200"
+  "published_at": "September 30, 2026 · 1:56 AM CEST",
+  "published_at_iso": "2026-09-30T01:56:02+0200"
 }
