@@ -23230,7 +23230,7 @@
       "id": "SIG-524",
       "title": "Apply Wolf's rulings on the reader-review findings…",
       "description": "Created 2026-09-29 ~03:45 (unattended run). ▶ PROGRESS 2026-09-30 ~00:40 (fal image chat): the round-1 website picture batch RAN — 32 images, $2.77, exactly as the brief wrote them, via the fal connector. Files: 05_Marketing/Assets/01_generated-ours/website/round1_2026-09-29/. Wolf picks on the pick sheet, artifact PVFwvmRH9gUhvPyKfoj2vx (picks save to its db collection picks); the website chat places the picked versions. Registry rows for Mission Control: ASSET_REGISTRY_ROWS_round1.md in that folder. Wolf rules each finding on the findings page (artifact DmypbyWdYUHF12dZJ9EJjS — Approve / Ch…",
-      "description_chars": 6809,
+      "description_chars": 7178,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25803,6 +25803,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 30, 2026 · 1:00 PM CEST",
-  "published_at_iso": "2026-09-30T13:00:49+0200"
+  "published_at": "September 30, 2026 · 2:16 PM CEST",
+  "published_at_iso": "2026-09-30T14:16:14+0200"
 }
