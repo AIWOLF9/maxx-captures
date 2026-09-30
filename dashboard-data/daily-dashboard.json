@@ -4866,62 +4866,6 @@
       "first_seen": "2026-09-29"
     },
     {
-      "id": "SIG-524",
-      "title": "Apply Wolf's rulings on the reader-review findings…",
-      "description": "Created 2026-09-29 ~03:45 (unattended run). ▶ PROGRESS 2026-09-30 ~00:40 (fal image chat): the round-1 website picture batch RAN — 32 images, $2.77, exactly as the brief wrote them, via the fal connector. Files: 05_Marketing/Assets/01_generated-ours/website/round1_2026-09-29/. Wolf picks on the pick sheet, artifact PVFwvmRH9gUhvPyKfoj2vx (picks save to its db collection picks); the website chat places the picked versions. Registry rows for Mission Control: ASSET_REGISTRY_ROWS_round1.md in that folder. Wolf rules each finding on the findings page (artifact DmypbyWdYUHF12dZJ9EJjS — Approve / Ch…",
-      "description_chars": 5768,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-29"
-    },
-    {
-      "id": "SIG-528",
-      "title": "THE BOARD: compare any two page drafts side by side, with replay",
-      "description": "Created 2026-09-29, attended — Wolf: *\"have it so we can select which we want to compare to… the two homepages… the new one and the old one… just like you did above here when I reviewed the proposed faster kit… a replay button… right now I want to compare the landing page to the homepage. I can't really do that next to each other.\"* In the NARRATIVE / PREVIEW page view: every draft (homepage and landing, each version) selectable; two frames side by side (phone and desktop widths), pick-left / pick-right, \"Replay both\", \"Back to top\". Prototype: the viewer on the SIG-524 comparison page (artif…",
-      "description_chars": 961,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Build",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Engineering",
-      "kind": "tasks",
-      "first_seen": "2026-09-29"
-    },
-    {
       "id": "SIG-529",
       "title": "Second reader-agent review…",
       "description": "Created 2026-09-30 00:40, attended — Wolf: *\"we'll get the other agent reviewers to also review everything once we have all the pictures and tweak everything we need to… they review the trim version and the landing page with an updated plan.\"* Updated plan (from Wolf's 29 Sept rulings a3/exitq): same 6 market personas + 3 premium-web experts, phone and desktop, motion on; readers SKIM at about 2–2.5 s per screen and read deeper only where their persona would; waitlist framing (no commitment, no prices); exit interview per persona: what did you learn, what resonated emotionally, do you now see…",
@@ -23283,6 +23227,62 @@
       "first_seen": "2026-09-29"
     },
     {
+      "id": "SIG-524",
+      "title": "Apply Wolf's rulings on the reader-review findings…",
+      "description": "Created 2026-09-29 ~03:45 (unattended run). ▶ PROGRESS 2026-09-30 ~00:40 (fal image chat): the round-1 website picture batch RAN — 32 images, $2.77, exactly as the brief wrote them, via the fal connector. Files: 05_Marketing/Assets/01_generated-ours/website/round1_2026-09-29/. Wolf picks on the pick sheet, artifact PVFwvmRH9gUhvPyKfoj2vx (picks save to its db collection picks); the website chat places the picked versions. Registry rows for Mission Control: ASSET_REGISTRY_ROWS_round1.md in that folder. Wolf rules each finding on the findings page (artifact DmypbyWdYUHF12dZJ9EJjS — Approve / Ch…",
+      "description_chars": 6383,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-29"
+    },
+    {
+      "id": "SIG-528",
+      "title": "THE BOARD: compare any two page drafts side by side, with replay",
+      "description": "Created 2026-09-29, attended — Wolf: *\"have it so we can select which we want to compare to… the two homepages… the new one and the old one… just like you did above here when I reviewed the proposed faster kit… a replay button… right now I want to compare the landing page to the homepage. I can't really do that next to each other.\"* In the NARRATIVE / PREVIEW page view: every draft (homepage and landing, each version) selectable; two frames side by side (phone and desktop widths), pick-left / pick-right, \"Replay both\", \"Back to top\". Prototype: the viewer on the SIG-524 comparison page (artif…",
+      "description_chars": 1414,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-09-29"
+    },
+    {
       "id": "SIG-530",
       "title": "Website pictures round 2…",
       "description": "Created 2026-09-30 01:50, attended — Wolf: *\"These images — what are we doing for them? Did we forget them? … the dragon image at the top and then this other dragon image\"*. Not forgotten — they were planned as animations and not in round 1. The list: ① the opening (top) animation; ② 4.4 shield against the dragon, \"You against the algorithms\" (animation); ③ 4.1 the magician, \"Sleight of hand\" (animation); ④ 2.4 \"Your brain remembers negative experiences\" — a borrowed infographic with another site's logo (The Atlas Facts), recreate as ours; ⑤ 3.1 \"Your brain on social media\" — borrowed infogra…",
@@ -25803,6 +25803,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 30, 2026 · 11:59 AM CEST",
-  "published_at_iso": "2026-09-30T11:59:55+0200"
+  "published_at": "September 30, 2026 · 12:15 PM CEST",
+  "published_at_iso": "2026-09-30T12:15:20+0200"
 }
