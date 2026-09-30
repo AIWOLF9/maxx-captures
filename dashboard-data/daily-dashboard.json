@@ -9435,34 +9435,6 @@
       "first_seen": "2026-09-28"
     },
     {
-      "id": "SIG-521",
-      "title": "The three homepage pictures still to rebuild…",
-      "description": "Created 2026-09-29 02:45 at the close of the motion pass (SIG-481), attended. These were listed as \"open by design\" inside SIG-481; moved here so they are tracked. ① 2.11 — the scream picture rebuild (the \"F*CK THE ALGORITHM\" tape lands after the face; the motion is built, the picture is the placeholder). ② 4.1 — the sleight-of-hand drawing (a placeholder drawing today). ③ 3.2 — the kids picture. Image generation spends money: propose model + count + cost and get Wolf's yes first (ATHENA via Composio → fal). The one-dragon 4.4 version belongs to the opening animation (SIG-514).",
-      "description_chars": 584,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-09-29"
-    },
-    {
       "id": "SIG-525",
       "title": "Real focus group for the homepage and landing page…",
       "description": "Created 2026-09-29 12:00, attended — Wolf: *\"We'll eventually create something to do a focus group as well, using one of the focus group services online. We'll do a separate chat on that to plan it correctly, so we can get the outcome we need.\"* Borrow from the focus group Wolf ran for Care Angel (what was asked, what should be asked, what the outputs looked like) — find those materials first. Start from the exit-interview script drafted 29 Sept (on the SIG-524 comparison page: baseline questions, 11 persona questions incl. the four-part price question, 4 expert questions). The AI-reader pane…",
@@ -25565,6 +25537,34 @@
       "first_seen": "2026-09-28"
     },
     {
+      "id": "SIG-521",
+      "title": "The three homepage pictures still to rebuild…",
+      "description": "Created 2026-09-29 02:45 at the close of the motion pass (SIG-481), attended. These were listed as \"open by design\" inside SIG-481; moved here so they are tracked. ① 2.11 — the scream picture rebuild (the \"F*CK THE ALGORITHM\" tape lands after the face; the motion is built, the picture is the placeholder). ② 4.1 — the sleight-of-hand drawing (a placeholder drawing today). ③ 3.2 — the kids picture. Image generation spends money: propose model + count + cost and get Wolf's yes first (ATHENA via Composio → fal). The one-dragon 4.4 version belongs to the opening animation (SIG-514). ▶ DONE (closed…",
+      "description_chars": 932,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-29"
+    },
+    {
       "id": "CF-OPENERS-SPENT-NOT-ARCHIVED-1",
       "title": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE…",
       "description": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE — measured, then repaired. Was Cancelled on 2026-08-07 as merged into CF-CONF-OPENERS-UNCOUNTABLE-1; the merge target's own count was wrong, so the residue was never actually addressed — §5.4.1 item 7, *a merge onto a blocked target is parked with extra steps*, visible here in miniature. Enumerated 2026-08-11: 31 opener-named files at the top level of _MAXX_OS/Working/. 29 moved to Working/openers-archive/ (28 → 57 files), per §5.8 *\"new openers go to Working/; spent ones go to Working/openers-archive/.\"* Two deliberately left: MC-LAUNCHD-LANE…",
@@ -25803,6 +25803,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 30, 2026 · 11:44 AM CEST",
-  "published_at_iso": "2026-09-30T11:44:37+0200"
+  "published_at": "September 30, 2026 · 11:59 AM CEST",
+  "published_at_iso": "2026-09-30T11:59:55+0200"
 }
