@@ -3581,7 +3581,7 @@
       "id": "SIG-375",
       "title": "_Working/ retirement…",
       "description": "Created SIG-373, 2026-08-11. _Working/ holds 453 files — 73 openers, 49 stand-up sheets, 79 HTML surfaces, 64 MB — and not one carries a type label, so a read-once analysis from 4 August is indistinguishable from a live tracker to anyone who opens it. The absence of a type stamp is the defect, not the count. Every artifact gets a header line: LIVING · READ-ONCE — history as of YYYY-MM-DD · SUPERSEDED BY <x>. ⚠️ Archive the three stale full copies of the master board today — SIGNAL_TASKS_pre_SIG320-done / _pre_SIG321 / _pre_SIG322-323, each ~345 KB, dated 2026-08-05, indistinguishable from the…",
-      "description_chars": 5494,
+      "description_chars": 6620,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -25803,6 +25803,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 30, 2026 · 2:26 AM CEST",
-  "published_at_iso": "2026-09-30T02:26:37+0200"
+  "published_at": "September 30, 2026 · 9:28 AM CEST",
+  "published_at_iso": "2026-09-30T09:28:43+0200"
 }
