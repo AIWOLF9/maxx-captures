@@ -4894,6 +4894,62 @@
       "first_seen": "2026-09-30"
     },
     {
+      "id": "SIG-532",
+      "title": "The first screen, round 2…",
+      "description": "Created 2026-10-01 00:56, attended (Decision 167). Wolf approved (00:56): *\"No red. 2 seconds — but fade slower\"*, the splash (the big S with \"Maximize Signal.\" white / \"Minimize Noise.\" cyan, about 2 s) before the opening, the S and the tagline taken out of the first screen, and the brain-lotus alone and much bigger. Wolf then proposed the sequence: splash → the dragon opening plays in the centre, on its own, with the page text hidden → it morphs into the big lotus with \"Your mind is a garden. Tend it, or the algorithm will.\" → after about 1.5–2 s the page arrives: on desktop the lotus and g…",
+      "description_chars": 1554,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "M",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-10-01"
+    },
+    {
+      "id": "SIG-533",
+      "title": "Wolf reviews the trimmed homepage and the landing page again, in THE BOARD",
+      "description": "Created 2026-10-01 00:56, attended — Wolf: *\"I know I still have to review the landing and trimmed homepage again.\"* Wolf's own walk-through in THE BOARD (side-by-side compare: pick any two drafts, any screen size, replay), after the new first screen is in. His notes feed the card trimming (SIG-522) and the second reader-agent review (SIG-529).",
+      "description_chars": 346,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-01"
+    },
+    {
       "id": "CAP-0029",
       "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
@@ -25803,6 +25859,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 30, 2026 · 2:16 PM CEST",
-  "published_at_iso": "2026-09-30T14:16:14+0200"
+  "published_at": "October 1, 2026 · 1:15 AM CEST",
+  "published_at_iso": "2026-10-01T01:15:16+0200"
 }
