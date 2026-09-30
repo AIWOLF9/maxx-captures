@@ -4981,7 +4981,7 @@
       "id": "SIG-530",
       "title": "Website pictures round 2…",
       "description": "Created 2026-09-30 01:50, attended — Wolf: *\"These images — what are we doing for them? Did we forget them? … the dragon image at the top and then this other dragon image\"*. Not forgotten — they were planned as animations and not in round 1. The list: ① the opening (top) animation; ② 4.4 shield against the dragon, \"You against the algorithms\" (animation); ③ 4.1 the magician, \"Sleight of hand\" (animation); ④ 2.4 \"Your brain remembers negative experiences\" — a borrowed infographic with another site's logo (The Atlas Facts), recreate as ours; ⑤ 3.1 \"Your brain on social media\" — borrowed infogra…",
-      "description_chars": 1614,
+      "description_chars": 2234,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -25803,6 +25803,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "September 30, 2026 · 2:11 AM CEST",
-  "published_at_iso": "2026-09-30T02:11:19+0200"
+  "published_at": "September 30, 2026 · 2:26 AM CEST",
+  "published_at_iso": "2026-09-30T02:26:37+0200"
 }
