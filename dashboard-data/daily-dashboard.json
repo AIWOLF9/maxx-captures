@@ -4841,7 +4841,7 @@
       "id": "SIG-529",
       "title": "Second reader-agent review…",
       "description": "Created 2026-09-30 00:40, attended — Wolf: *\"we'll get the other agent reviewers to also review everything once we have all the pictures and tweak everything we need to… they review the trim version and the landing page with an updated plan.\"* Updated plan (from Wolf's 29 Sept rulings a3/exitq): same 6 market personas + 3 premium-web experts, phone and desktop, motion on; readers SKIM at about 2–2.5 s per screen and read deeper only where their persona would; waitlist framing (no commitment, no prices); exit interview per persona: what did you learn, what resonated emotionally, do you now see…",
-      "description_chars": 1554,
+      "description_chars": 1864,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25680,7 +25680,7 @@
       "id": "SIG-531",
       "title": "A little motion on the pictures…",
       "description": "Created 2026-09-30 01:50, attended — Wolf: *\"after we finish these tweaks… animate a few of the other images slightly… just so it adds a little more wow factor\"* and *\"you know how we animated the image at the end: Join the movement… the light-flickers animation… I want to be able to discuss and see what little animation we can do across a bunch of our images, but let's do that after, at the end.\"* Choose a handful of pictures, propose one small motion each (light flicker, slow push-in, glow, drifting icons), show them side by side, Wolf picks. After all pictures are final. Wolf 01:41 example…",
-      "description_chars": 2869,
+      "description_chars": 3139,
       "status": "s-done",
       "priority": "p-p2",
       "segment": "Design",
@@ -25943,6 +25943,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 1, 2026 · 10:10 PM CEST",
-  "published_at_iso": "2026-10-01T22:10:34+0200"
+  "published_at": "October 1, 2026 · 11:10 PM CEST",
+  "published_at_iso": "2026-10-01T23:10:54+0200"
 }
