@@ -4897,7 +4897,7 @@
       "id": "SIG-532",
       "title": "The first screen, round 2…",
       "description": "Created 2026-10-01 00:56, attended (Decision 167). Wolf approved (00:56): *\"No red. 2 seconds — but fade slower\"*, the splash (the big S with \"Maximize Signal.\" white / \"Minimize Noise.\" cyan, about 2 s) before the opening, the S and the tagline taken out of the first screen, and the brain-lotus alone and much bigger. Wolf then proposed the sequence: splash → the dragon opening plays in the centre, on its own, with the page text hidden → it morphs into the big lotus with \"Your mind is a garden. Tend it, or the algorithm will.\" → after about 1.5–2 s the page arrives: on desktop the lotus and g…",
-      "description_chars": 2290,
+      "description_chars": 3158,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -25859,6 +25859,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 1, 2026 · 1:30 AM CEST",
-  "published_at_iso": "2026-10-01T01:30:35+0200"
+  "published_at": "October 1, 2026 · 2:16 AM CEST",
+  "published_at_iso": "2026-10-01T02:16:02+0200"
 }
