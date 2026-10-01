@@ -4894,38 +4894,10 @@
       "first_seen": "2026-09-30"
     },
     {
-      "id": "SIG-532",
-      "title": "The first screen, round 2…",
-      "description": "Created 2026-10-01 00:56, attended (Decision 167). Wolf approved (00:56): *\"No red. 2 seconds — but fade slower\"*, the splash (the big S with \"Maximize Signal.\" white / \"Minimize Noise.\" cyan, about 2 s) before the opening, the S and the tagline taken out of the first screen, and the brain-lotus alone and much bigger. Wolf then proposed the sequence: splash → the dragon opening plays in the centre, on its own, with the page text hidden → it morphs into the big lotus with \"Your mind is a garden. Tend it, or the algorithm will.\" → after about 1.5–2 s the page arrives: on desktop the lotus and g…",
-      "description_chars": 6894,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "M",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-10-01"
-    },
-    {
       "id": "SIG-533",
       "title": "Wolf reviews the trimmed homepage and the landing page again, in THE BOARD",
-      "description": "Created 2026-10-01 00:56, attended — Wolf: *\"I know I still have to review the landing and trimmed homepage again.\"* Wolf's own walk-through in THE BOARD (side-by-side compare: pick any two drafts, any screen size, replay), after the new first screen is in. His notes feed the card trimming (SIG-522) and the second reader-agent review (SIG-529).",
-      "description_chars": 346,
+      "description": "Created 2026-10-01 00:56, attended — Wolf: *\"I know I still have to review the landing and trimmed homepage again.\"* Wolf's own walk-through in THE BOARD (side-by-side compare: pick any two drafts, any screen size, replay), after the new first screen is in. His notes feed the card trimming (SIG-522) and the second reader-agent review (SIG-529). Unblocked 2026-10-01 ~04:55: SIG-532 is done — the trimmed homepage and the landing page in THE BOARD's compare now carry the round-2 first screen (copy v65 / v7, web board version 28). Ready for Wolf. Opener: _Working/OPENER_SIG533-REVIEW_2026-10-01.m…",
+      "description_chars": 601,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -23367,6 +23339,34 @@
       "first_seen": "2026-09-30"
     },
     {
+      "id": "SIG-532",
+      "title": "The first screen, round 2…",
+      "description": "Created 2026-10-01 00:56, attended (Decision 167). Wolf approved (00:56): *\"No red. 2 seconds — but fade slower\"*, the splash (the big S with \"Maximize Signal.\" white / \"Minimize Noise.\" cyan, about 2 s) before the opening, the S and the tagline taken out of the first screen, and the brain-lotus alone and much bigger. Wolf then proposed the sequence: splash → the dragon opening plays in the centre, on its own, with the page text hidden → it morphs into the big lotus with \"Your mind is a garden. Tend it, or the algorithm will.\" → after about 1.5–2 s the page arrives: on desktop the lotus and g…",
+      "description_chars": 7614,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "M",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-10-01"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -25859,6 +25859,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 1, 2026 · 4:18 AM CEST",
-  "published_at_iso": "2026-10-01T04:18:08+0200"
+  "published_at": "October 1, 2026 · 4:48 AM CEST",
+  "published_at_iso": "2026-10-01T04:48:32+0200"
 }
