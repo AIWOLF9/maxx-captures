@@ -9464,9 +9464,9 @@
     },
     {
       "id": "SIG-536",
-      "title": "File the Delaware \"MAXX Signal\" trade-name papers in 08_Legal",
+      "title": "Delaware \"MAXX Signal\" trade-name papers…",
       "description": "Created 2026-10-01, attended, closing out SIG-326. Mission Control asked for the Trade Name Only licence PDF (licence 2026715811) and the Delaware One Stop registration confirmation (2026-10-01, 11:48 AM) to be filed in 08_Legal/. Neither file is in the Signal folder — searched every PDF modified since 2026-09-29 and every filename containing \"trade name\" or \"one stop\" on 2026-10-01; none found. Wolf's part (about 2 minutes): drop both files into 08_Legal/Final/ or _Inbox/. Claude's part: rename them to the legal naming pattern (e.g. MSIG-LEGAL-DE-TRADE-NAME-LICENCE_2026715811_2026-09-29.pdf,…",
-      "description_chars": 859,
+      "description_chars": 1983,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Legal",
@@ -25943,6 +25943,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 1, 2026 · 5:53 PM CEST",
-  "published_at_iso": "2026-10-01T17:53:36+0200"
+  "published_at": "October 1, 2026 · 6:23 PM CEST",
+  "published_at_iso": "2026-10-01T18:23:59+0200"
 }
