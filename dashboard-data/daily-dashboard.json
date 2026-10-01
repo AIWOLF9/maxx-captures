@@ -4894,34 +4894,6 @@
       "first_seen": "2026-09-30"
     },
     {
-      "id": "SIG-533",
-      "title": "Wolf reviews the trimmed homepage and the landing page again, in THE BOARD",
-      "description": "Created 2026-10-01 00:56, attended — Wolf: *\"I know I still have to review the landing and trimmed homepage again.\"* Wolf's own walk-through in THE BOARD (side-by-side compare: pick any two drafts, any screen size, replay), after the new first screen is in. His notes feed the card trimming (SIG-522) and the second reader-agent review (SIG-529). Unblocked 2026-10-01 ~04:55: SIG-532 is done — the trimmed homepage and the landing page in THE BOARD's compare now carry the round-2 first screen (copy v65 / v7, web board version 28). Ready for Wolf. Opener: _Working/OPENER_SIG533-REVIEW_2026-10-01.m…",
-      "description_chars": 1435,
-      "status": "s-doing",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-01"
-    },
-    {
       "id": "SIG-534",
       "title": "IP protection plan…",
       "description": "Created 2026-10-01 by the unattended stand-up, converting an untracked hand-off (lane CONVERSION RULE). Wolf, in the 30 Sept IP-protection chat (phone, no board access): put the IP plan into all the website pages and the board work, add a task for it, and hold a review chat in the next 1–2 weeks. Plan: Claude Doc *MAXX Signal — IP Protection Plan* (claude.ai artifact ce3405b2-66bf-4b4e-a0a4-18b046cedc14). Hand-off with the ten items A–J: _Working/HANDOFF_IP-PROTECTION_to-board-chat_2026-09-30.md §3; closeout _Transcripts/closeouts/SIGNAL_CLOSEOUT_2026-09-30_IP-protection.md. This task carries…",
@@ -9517,34 +9489,6 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-29"
-    },
-    {
-      "id": "SIG-531",
-      "title": "A little motion on the pictures…",
-      "description": "Created 2026-09-30 01:50, attended — Wolf: *\"after we finish these tweaks… animate a few of the other images slightly… just so it adds a little more wow factor\"* and *\"you know how we animated the image at the end: Join the movement… the light-flickers animation… I want to be able to discuss and see what little animation we can do across a bunch of our images, but let's do that after, at the end.\"* Choose a handful of pictures, propose one small motion each (light flicker, slow push-in, glow, drifting icons), show them side by side, Wolf picks. After all pictures are final. Wolf 01:41 example…",
-      "description_chars": 1282,
-      "status": "s-doing",
-      "priority": "p-p2",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-09-30"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -23423,6 +23367,34 @@
       "first_seen": "2026-10-01"
     },
     {
+      "id": "SIG-533",
+      "title": "Wolf reviews the trimmed homepage and the landing page again, in THE BOARD",
+      "description": "Created 2026-10-01 00:56, attended — Wolf: *\"I know I still have to review the landing and trimmed homepage again.\"* Wolf's own walk-through in THE BOARD (side-by-side compare: pick any two drafts, any screen size, replay), after the new first screen is in. His notes feed the card trimming (SIG-522) and the second reader-agent review (SIG-529). Unblocked 2026-10-01 ~04:55: SIG-532 is done — the trimmed homepage and the landing page in THE BOARD's compare now carry the round-2 first screen (copy v65 / v7, web board version 28). Ready for Wolf. Opener: _Working/OPENER_SIG533-REVIEW_2026-10-01.m…",
+      "description_chars": 1849,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-01"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -25677,6 +25649,34 @@
       "first_seen": "2026-09-29"
     },
     {
+      "id": "SIG-531",
+      "title": "A little motion on the pictures…",
+      "description": "Created 2026-09-30 01:50, attended — Wolf: *\"after we finish these tweaks… animate a few of the other images slightly… just so it adds a little more wow factor\"* and *\"you know how we animated the image at the end: Join the movement… the light-flickers animation… I want to be able to discuss and see what little animation we can do across a bunch of our images, but let's do that after, at the end.\"* Choose a handful of pictures, propose one small motion each (light flicker, slow push-in, glow, drifting icons), show them side by side, Wolf picks. After all pictures are final. Wolf 01:41 example…",
+      "description_chars": 1852,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-30"
+    },
+    {
       "id": "CF-OPENERS-SPENT-NOT-ARCHIVED-1",
       "title": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE…",
       "description": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE — measured, then repaired. Was Cancelled on 2026-08-07 as merged into CF-CONF-OPENERS-UNCOUNTABLE-1; the merge target's own count was wrong, so the residue was never actually addressed — §5.4.1 item 7, *a merge onto a blocked target is parked with extra steps*, visible here in miniature. Enumerated 2026-08-11: 31 opener-named files at the top level of _MAXX_OS/Working/. 29 moved to Working/openers-archive/ (28 → 57 files), per §5.8 *\"new openers go to Working/; spent ones go to Working/openers-archive/.\"* Two deliberately left: MC-LAUNCHD-LANE…",
@@ -25915,6 +25915,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 1, 2026 · 5:07 PM CEST",
-  "published_at_iso": "2026-10-01T17:07:55+0200"
+  "published_at": "October 1, 2026 · 5:23 PM CEST",
+  "published_at_iso": "2026-10-01T17:23:13+0200"
 }
