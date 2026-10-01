@@ -3160,8 +3160,8 @@
     {
       "id": "SIG-325",
       "title": "Finalize + publish Terms of Service and Privacy Policy",
-      "description": "BLOCKS SIG-324. Both exist only as v0_2 drafts (2026-07-30); 08_Legal/Final/ is empty and neither is published. Stripe requires the refund + cancellation policy visible on the reviewed site, and the activation page links /terms and /privacy — 404s would undercut the review. ToS must carry the tier-specific money-back policy per Pricing §0.10-A (Monthly = cancel-anytime no refund; Annual + Lifetime = 30-day), replacing any 14-day-all-tiers language. [⬜ DRAFT AWAITING WOLF REVIEW — ToS v0.3 §A + Privacy Policy v0.3 · 08_Legal/Draft/MSIG-LEGAL-TERMS-OF-SERVICE-0001_v0_3_DRAFT_2026-08-09.md + MSI…",
-      "description_chars": 4898,
+      "description": "BLOCKS SIG-324 — PRIVACY HALF ONLY (since 2026-09-29, Decision 164 ①). The Terms-of-Service half no longer blocks it; Terms now gate pre-order, not the activation page. Both exist only as v0_2 drafts (2026-07-30); 08_Legal/Final/ is empty and neither is published. Stripe requires the refund + cancellation policy visible on the reviewed site, and the activation page links /terms and /privacy — 404s would undercut the review. ToS must carry the tier-specific money-back policy per Pricing §0.10-A (Monthly = cancel-anytime no refund; Annual + Lifetime = 30-day), replacing any 14-day-all-tiers lan…",
+      "description_chars": 5782,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Legal",
@@ -25915,6 +25915,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 1, 2026 · 9:20 AM CEST",
-  "published_at_iso": "2026-10-01T09:20:03+0200"
+  "published_at": "October 1, 2026 · 4:37 PM CEST",
+  "published_at_iso": "2026-10-01T16:37:17+0200"
 }
