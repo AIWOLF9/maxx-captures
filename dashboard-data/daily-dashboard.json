@@ -1833,7 +1833,7 @@
       "id": "MOS-T-070",
       "title": "Supply Signal the MC-side pairing data, or mirror MOS_TASKS.md via CAP-0049",
       "description": "🔍 Triaged 2026-08-04 — Mission Control's half of the first delegation the paired-row protocol ever created, and it is a finding that it did not exist until now. CF-SIGNAL-LINKED-COLUMN-ADOPT-1 tracked MC's side in CARRY_FORWARD_INBOX.md, which --verify check 15 does not read — the gate reads this board. So the protocol's own first delegation was one-sided on the MC side, invisible to the gate it shipped with, while the venture side was seeded correctly. Substance (Signal CALLBACK_TO_MC_2026-08-04 §3): Signal's 315 rows now all assert Linked: —, and that assertion is untested from venture scop…",
-      "description_chars": 1013,
+      "description_chars": 1263,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -3553,7 +3553,7 @@
       "id": "SIG-375",
       "title": "_Working/ retirement…",
       "description": "Created SIG-373, 2026-08-11. _Working/ holds 453 files — 73 openers, 49 stand-up sheets, 79 HTML surfaces, 64 MB — and not one carries a type label, so a read-once analysis from 4 August is indistinguishable from a live tracker to anyone who opens it. The absence of a type stamp is the defect, not the count. Every artifact gets a header line: LIVING · READ-ONCE — history as of YYYY-MM-DD · SUPERSEDED BY <x>. ⚠️ Archive the three stale full copies of the master board today — SIGNAL_TASKS_pre_SIG320-done / _pre_SIG321 / _pre_SIG322-323, each ~345 KB, dated 2026-08-05, indistinguishable from the…",
-      "description_chars": 8801,
+      "description_chars": 9262,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -9017,8 +9017,8 @@
     {
       "id": "SIG-469",
       "title": "Short formats from the settled page story…",
-      "description": "Split out of SIG-466 on 2026-09-17 (attended). Once the page story is marked good act by act in the review tool, Claude drafts each short format FROM that spine — one line per act for the elevator pitch, then the one-pager, the mission/vision/purpose statement and the investor version. Wolf reacts to real drafts, not an outline. Do not start before the acts are marked.",
-      "description_chars": 371,
+      "description": "Split out of SIG-466 on 2026-09-17 (attended). Once the page story is marked good act by act in the review tool, Claude drafts each short format FROM that spine — one line per act for the elevator pitch, then the one-pager, the mission/vision/purpose statement and the investor version. Wolf reacts to real drafts, not an outline. Do not start before the acts are marked. ▶ 2026-10-02, attended stand-up — the MESSAGE LADDER folded in here as this task's spec (Wolf: \"Yes, fold it in\"). The idea, from the website chat 30 Sept 12:35 (_Transcripts/TRANSCRIPT_2026-09-30_WEBSITE-MOTION-CLIPS.md line 6…",
+      "description_chars": 1113,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -25999,6 +25999,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 2, 2026 · 2:01 PM CEST",
-  "published_at_iso": "2026-10-02T14:01:10+0200"
+  "published_at": "October 2, 2026 · 6:17 PM CEST",
+  "published_at_iso": "2026-10-02T18:17:33+0200"
 }
