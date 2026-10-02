@@ -4838,34 +4838,6 @@
       "first_seen": "2026-09-29"
     },
     {
-      "id": "SIG-537",
-      "title": "Apply the second reader review's rulings + Wolf's desktop layout round to the trimmed homepage and the landing page",
-      "description": "Created 2026-10-02 ~02:30, attended (Decision 169). One pipeline round (archive first): all of _Working/reader-review_2026-10-02/RULINGS_SIG529_2026-10-01.md (R1–R14: Skip intro removed; landing 5.2/5.2c moved up; 4 homepage jump links; 70%/100% pair; 'Social media platforms are free for a reason…' line both pages; kids line both pages; Lumen card wording; magician block cut; the seven fixes A–G; 5.4t reorder; 3.5 picture right) + DESKTOP-LAYOUT-LIST_2026-10-02.md (G1–G5 centring rules at desktop/tablet only, 39 layout items, W1–W12 word cuts, D1 funnel animation). Then copy re-export, Decisi…",
-      "description_chars": 5084,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-02"
-    },
-    {
       "id": "SIG-534",
       "title": "IP protection plan…",
       "description": "Created 2026-10-01 by the unattended stand-up, converting an untracked hand-off (lane CONVERSION RULE). Wolf, in the 30 Sept IP-protection chat (phone, no board access): put the IP plan into all the website pages and the board work, add a task for it, and hold a review chat in the next 1–2 weeks. Plan: Claude Doc *MAXX Signal — IP Protection Plan* (claude.ai artifact ce3405b2-66bf-4b4e-a0a4-18b046cedc14). Hand-off with the ten items A–J: _Working/HANDOFF_IP-PROTECTION_to-board-chat_2026-09-30.md §3; closeout _Transcripts/closeouts/SIGNAL_CLOSEOUT_2026-09-30_IP-protection.md. This task carries…",
@@ -13550,6 +13522,34 @@
       "owner": "Wolf + Claude",
       "kind": "cfi",
       "first_seen": null
+    },
+    {
+      "id": "SIG-537",
+      "title": "Apply the second reader review's rulings + Wolf's desktop layout round to the trimmed homepage and the landing page",
+      "description": "Created 2026-10-02 ~02:30, attended (Decision 169). One pipeline round (archive first): all of _Working/reader-review_2026-10-02/RULINGS_SIG529_2026-10-01.md (R1–R14: Skip intro removed; landing 5.2/5.2c moved up; 4 homepage jump links; 70%/100% pair; 'Social media platforms are free for a reason…' line both pages; kids line both pages; Lumen card wording; magician block cut; the seven fixes A–G; 5.4t reorder; 3.5 picture right) + DESKTOP-LAYOUT-LIST_2026-10-02.md (G1–G5 centring rules at desktop/tablet only, 39 layout items, W1–W12 word cuts, D1 funnel animation). Then copy re-export, Decisi…",
+      "description_chars": 7408,
+      "status": "s-waiting",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "waiting",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-02"
     },
     {
       "id": "CAP-0060",
@@ -26027,6 +26027,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 2, 2026 · 8:18 PM CEST",
-  "published_at_iso": "2026-10-02T20:18:49+0200"
+  "published_at": "October 2, 2026 · 9:19 PM CEST",
+  "published_at_iso": "2026-10-02T21:19:19+0200"
 }
