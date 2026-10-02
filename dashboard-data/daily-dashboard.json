@@ -3553,7 +3553,7 @@
       "id": "SIG-375",
       "title": "_Working/ retirement…",
       "description": "Created SIG-373, 2026-08-11. _Working/ holds 453 files — 73 openers, 49 stand-up sheets, 79 HTML surfaces, 64 MB — and not one carries a type label, so a read-once analysis from 4 August is indistinguishable from a live tracker to anyone who opens it. The absence of a type stamp is the defect, not the count. Every artifact gets a header line: LIVING · READ-ONCE — history as of YYYY-MM-DD · SUPERSEDED BY <x>. ⚠️ Archive the three stale full copies of the master board today — SIGNAL_TASKS_pre_SIG320-done / _pre_SIG321 / _pre_SIG322-323, each ~345 KB, dated 2026-08-05, indistinguishable from the…",
-      "description_chars": 7837,
+      "description_chars": 8801,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -4589,7 +4589,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 767,
+      "description_chars": 1157,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4841,7 +4841,7 @@
       "id": "SIG-537",
       "title": "Apply the second reader review's rulings + Wolf's desktop layout round to the trimmed homepage and the landing page",
       "description": "Created 2026-10-02 ~02:30, attended (Decision 169). One pipeline round (archive first): all of _Working/reader-review_2026-10-02/RULINGS_SIG529_2026-10-01.md (R1–R14: Skip intro removed; landing 5.2/5.2c moved up; 4 homepage jump links; 70%/100% pair; 'Social media platforms are free for a reason…' line both pages; kids line both pages; Lumen card wording; magician block cut; the seven fixes A–G; 5.4t reorder; 3.5 picture right) + DESKTOP-LAYOUT-LIST_2026-10-02.md (G1–G5 centring rules at desktop/tablet only, 39 layout items, W1–W12 word cuts, D1 funnel animation). Then copy re-export, Decisi…",
-      "description_chars": 864,
+      "description_chars": 1203,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4920,6 +4920,34 @@
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-10-01"
+    },
+    {
+      "id": "SIG-538",
+      "title": "The /join landing route and the A/B split…",
+      "description": "Created 2026-10-02, unattended stand-up — CONVERSION of a carry-forward in CLOSEOUT_2026-10-02_SIG529-READER-REVIEW.md (the closeout says: build/launch item, not yet a task; SIG-537 excludes it by name). Wolf's ruling, Decision 169 R2 (2 Oct 00:02): ads and content links go to the slimmed landing page at maxxsignal.com/join; the trimmed homepage stays at maxxsignal.com; both carry the full site menu. Split that traffic between the two pages, measure waitlist sign-ups on each, and after a few hundred visitors per page review the data and send traffic to the winner. Build: the /join route, the…",
+      "description_chars": 802,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-02"
     },
     {
       "id": "CAP-0029",
@@ -9438,7 +9466,7 @@
       "id": "SIG-527",
       "title": "The FAQ program…",
       "description": "Created 2026-09-29, attended — Wolf: *\"We need to finalize what all the FAQs are going to be: the ones that are going to be on our page (meaning at the bottom), and then a link to maybe an FAQ page that is more complete… look at all our competitors, all the app blocker companies, and all the FAQs. Pull them together and then come up with a streamlined list for us… using first principles, critical thinking, and best practices.\"* Steps: collect FAQs from app blockers and adjacent products → categorise → our master list with answers grounded in canon (Curation Engine, Pricing, privacy) → pick 6–…",
-      "description_chars": 696,
+      "description_chars": 1189,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -25971,6 +25999,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 2, 2026 · 2:27 AM CEST",
-  "published_at_iso": "2026-10-02T02:27:49+0200"
+  "published_at": "October 2, 2026 · 9:29 AM CEST",
+  "published_at_iso": "2026-10-02T09:29:54+0200"
 }
