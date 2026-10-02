@@ -4922,6 +4922,34 @@
       "first_seen": "2026-10-02"
     },
     {
+      "id": "SIG-539",
+      "title": "A marketing design system in the LOUD register, so Claude Design does not calm the website or the ads down",
+      "description": "Created 2026-10-02 ~18:50, attended — Wolf 18:05: *\"if we need to fix the MAXX Design System for Claude design so it doesn't make a mistake, then let's do that as a step… before we get to the Claude design.\"* Why: the saved design system Claude Design reads (\"MAXX Design System\", claude.ai/artifact/MvP7YrtGaaEVQdgqdRTbo3, built by Mission Control 17 Sept) is written for the CALM product register — \"calm over urgency… no alarm… never red\", no logo files. Used on the website or an ad it would pull the loud marketing register (Brand §1.0.1, Decision 53) back to calm — the 28 Sept failure. Recomm…",
+      "description_chars": 1134,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-10-02"
+    },
+    {
       "id": "CAP-0029",
       "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
@@ -10052,6 +10080,34 @@
       "first_seen": "2026-06-09"
     },
     {
+      "id": "SIG-043",
+      "title": "D-U-N-S registration for Wolf Ventures LLC",
+      "description": "[2026-08-01 — FILED by Wolf ✅. Status To-do → Waiting (gated on external party). Commitment C1 met two days early.] Now a passive ~30-day D&B clock + ~2 business days for Apple to sync. Priority P0 → P1 under the Route-A ruling below: it no longer gates anything on the B1 launch path — Sign in with Apple runs off the Individual enrolment, and the D-U-N-S is needed only for the Organization conversion (SIG-045 phase 2, ~Q1 2027 native lane). Next action is Wolf's ping when the number ISSUES. Expect a D&B verification phone call — answer or return it promptly, a missed call adds days; have the…",
+      "description_chars": 7666,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": null
+    },
+    {
       "id": "SIG-075",
       "title": "Content automation / SEO engine stand-up",
       "description": "Operationalize the Claude Content Automation Master Plan v1.0 (blog/SEO pipeline). Post-launch-leaning.",
@@ -13468,38 +13524,10 @@
       "first_seen": null
     },
     {
-      "id": "SIG-043",
-      "title": "D-U-N-S registration for Wolf Ventures LLC",
-      "description": "[2026-08-01 — FILED by Wolf ✅. Status To-do → Waiting (gated on external party). Commitment C1 met two days early.] Now a passive ~30-day D&B clock + ~2 business days for Apple to sync. Priority P0 → P1 under the Route-A ruling below: it no longer gates anything on the B1 launch path — Sign in with Apple runs off the Individual enrolment, and the D-U-N-S is needed only for the Organization conversion (SIG-045 phase 2, ~Q1 2027 native lane). Next action is Wolf's ping when the number ISSUES. Expect a D&B verification phone call — answer or return it promptly, a missed call adds days; have the…",
-      "description_chars": 7175,
-      "status": "s-waiting",
-      "priority": "p-p1",
-      "segment": "Ops",
-      "venture": "v-signal",
-      "deadline": "1-3",
-      "deadline_label": "Phase P3",
-      "deadline_class": "d-future",
-      "effort_mc": "0.25h",
-      "effort_wolf": "1.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": null
-    },
-    {
       "id": "SIG-537",
       "title": "Apply the second reader review's rulings + Wolf's desktop layout round to the trimmed homepage and the landing page",
       "description": "Created 2026-10-02 ~02:30, attended (Decision 169). One pipeline round (archive first): all of _Working/reader-review_2026-10-02/RULINGS_SIG529_2026-10-01.md (R1–R14: Skip intro removed; landing 5.2/5.2c moved up; 4 homepage jump links; 70%/100% pair; 'Social media platforms are free for a reason…' line both pages; kids line both pages; Lumen card wording; magician block cut; the seven fixes A–G; 5.4t reorder; 3.5 picture right) + DESKTOP-LAYOUT-LIST_2026-10-02.md (G1–G5 centring rules at desktop/tablet only, 39 layout items, W1–W12 word cuts, D1 funnel animation). Then copy re-export, Decisi…",
-      "description_chars": 3205,
+      "description_chars": 4412,
       "status": "s-waiting",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25999,6 +26027,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 2, 2026 · 6:17 PM CEST",
-  "published_at_iso": "2026-10-02T18:17:33+0200"
+  "published_at": "October 2, 2026 · 6:32 PM CEST",
+  "published_at_iso": "2026-10-02T18:32:52+0200"
 }
