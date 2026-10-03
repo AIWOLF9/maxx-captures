@@ -4978,34 +4978,6 @@
       "first_seen": "2026-10-02"
     },
     {
-      "id": "SIG-544",
-      "title": "Apply the third review's rulings (minor-tweaks round), then hand the pages to Claude Design",
-      "description": "Created 2026-10-03 ~04:20 (overnight, from SIG-540). Wolf's stated process (03:30 verbatim): review → minor tweaks, if any → Claude Design. Waiting on Wolf to rule the 13 calls in _Working/reader-review_2026-10-03/SIGNAL_READER-REVIEW-R3-FINDINGS_2026-10-03.html (1 defect batch incl. the slow 7.2 goal counters, clipped carousels, 2.8 margin, dragon, syringe · 2 accuracy: Haugen credit → 60 Minutes, 4.1 93% qualifier, Meta chart per-quarter label, calculator 2h 21m + age default · 3 parents jump-to-FAQ + answer — needs Wolf facts: can a parent lock the child's settings, is a child's feed free…",
-      "description_chars": 1123,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-03"
-    },
-    {
       "id": "SIG-548",
       "title": "Ambassador go-to-market strategy…",
       "description": "Created 2026-10-03 16:40, attended — Wolf (verbatim _Working/reader-review_2026-10-03/WOLF-NOTES_2026-10-03_1640_VERBATIM.md): *\"we'll talk about the ambassador go-to-market strategy, which we need to probably have a conversation about in the next 2 weeks. I want to finish the website first.\"* Ambassador program launches with the pre-order (not the waitlist); founders on Annual/Lifetime get an extra membership to give. Inputs: affiliate spec 05_Marketing/Final/affiliate/MAXX_Signal_AFFILIATE_v1_2.md, SIG-071 (ambassador page + sign-up form), SIG-252 (program sign-up pages), SIG-120 (applicati…",
@@ -9634,7 +9606,7 @@
       "id": "SIG-541",
       "title": "Site footer…",
       "description": "Created 2026-10-02 ~23:58, attended — Wolf 23:36: *\"What's missing right now is a footer, right? Links to terms and privacy, all that… We don't have to finalize it now, just pointing it out.\"* Today the pages end with a minimal footer (mark, 'Maximize Signal. Minimize Noise.', © 2026 MAXX Signal Inc.). Scope: what the footer carries (Privacy, Terms when written, contact/support, social, the site menu), on the trimmed homepage and the landing page. Legal copy itself stays last in the build order (project instructions: /privacy and /terms are placeholder pages until then). Not started; estimate…",
-      "description_chars": 1177,
+      "description_chars": 1597,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -13802,6 +13774,34 @@
       "owner": "Wolf + Claude",
       "kind": "cfi",
       "first_seen": null
+    },
+    {
+      "id": "SIG-544",
+      "title": "Apply the third review's rulings (minor-tweaks round), then hand the pages to Claude Design",
+      "description": "Created 2026-10-03 ~04:20 (overnight, from SIG-540). Wolf's stated process (03:30 verbatim): review → minor tweaks, if any → Claude Design. Waiting on Wolf to rule the 13 calls in _Working/reader-review_2026-10-03/SIGNAL_READER-REVIEW-R3-FINDINGS_2026-10-03.html (1 defect batch incl. the slow 7.2 goal counters, clipped carousels, 2.8 margin, dragon, syringe · 2 accuracy: Haugen credit → 60 Minutes, 4.1 93% qualifier, Meta chart per-quarter label, calculator 2h 21m + age default · 3 parents jump-to-FAQ + answer — needs Wolf facts: can a parent lock the child's settings, is a child's feed free…",
+      "description_chars": 1716,
+      "status": "s-waiting",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "waiting",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-03"
     },
     {
       "id": "CAP-0060",
@@ -26307,6 +26307,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 3, 2026 · 4:59 PM CEST",
-  "published_at_iso": "2026-10-03T16:59:16+0200"
+  "published_at": "October 3, 2026 · 5:29 PM CEST",
+  "published_at_iso": "2026-10-03T17:29:38+0200"
 }
