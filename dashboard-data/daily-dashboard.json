@@ -4756,8 +4756,8 @@
     {
       "id": "SIG-517",
       "title": "Pages batch B…",
-      "description": "Created 2026-09-28 18:49 (Decision 162). The Algorithm · Algorithm 101 · F*ck the Algorithm · Manifesto · LUMEN (the engine page). Most copy exists in the library and on the homepage. Six-step page process; Claude Design once for the batch.",
-      "description_chars": 240,
+      "description": "Created 2026-09-28 18:49 (Decision 162). The Algorithm · Algorithm 101 · F*ck the Algorithm · Manifesto · LUMEN (the engine page). Most copy exists in the library and on the homepage. Six-step page process; Claude Design once for the batch. 2026-10-03 19:48: Wolf asked whether Algorithm 101 and the receipts are one page or two. Claude recommends ONE page, “The Toxic Algorithm”, with two tabs (How it works · The receipts) — see _Working/reader-review_2026-10-03/SITE-MAP_RECOMMENDATION_2026-10-03.md; awaiting ruling.",
+      "description_chars": 520,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5009,7 +5009,7 @@
       "id": "SIG-549",
       "title": "Social Media Impact Index…",
       "description": "Created 2026-10-03 16:54, attended — Wolf (verbatim _Working/social-media-impact-index/WOLF-NOTES_2026-10-03_1654_SOCIAL-MEDIA-IMPACT-INDEX_VERBATIM.md; his screenshots of the Anthropic Interviewer survey in _Inbox/SOCIAL MEDIA IMPACT INDEX/; reference https://www.anthropic.com/research/your-thoughts-on-ai). Wolf: *\"creating this social media impact index… asking people about just their experience with social media… what they like… what they don't like… what they would change, and just how it's affected their life… completely anonymized… We can launch the social media impact index… a press re…",
-      "description_chars": 1160,
+      "description_chars": 1361,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9606,7 +9606,7 @@
       "id": "SIG-541",
       "title": "Site footer…",
       "description": "Created 2026-10-02 ~23:58, attended — Wolf 23:36: *\"What's missing right now is a footer, right? Links to terms and privacy, all that… We don't have to finalize it now, just pointing it out.\"* Today the pages end with a minimal footer (mark, 'Maximize Signal. Minimize Noise.', © 2026 MAXX Signal Inc.). Scope: what the footer carries (Privacy, Terms when written, contact/support, social, the site menu), on the trimmed homepage and the landing page. Legal copy itself stays last in the build order (project instructions: /privacy and /terms are placeholder pages until then). Not started; estimate…",
-      "description_chars": 1597,
+      "description_chars": 2138,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -13779,7 +13779,7 @@
       "id": "SIG-544",
       "title": "Apply the third review's rulings (minor-tweaks round), then hand the pages to Claude Design",
       "description": "Created 2026-10-03 ~04:20 (overnight, from SIG-540). Wolf's stated process (03:30 verbatim): review → minor tweaks, if any → Claude Design. Waiting on Wolf to rule the 13 calls in _Working/reader-review_2026-10-03/SIGNAL_READER-REVIEW-R3-FINDINGS_2026-10-03.html (1 defect batch incl. the slow 7.2 goal counters, clipped carousels, 2.8 margin, dragon, syringe · 2 accuracy: Haugen credit → 60 Minutes, 4.1 93% qualifier, Meta chart per-quarter label, calculator 2h 21m + age default · 3 parents jump-to-FAQ + answer — needs Wolf facts: can a parent lock the child's settings, is a child's feed free…",
-      "description_chars": 1716,
+      "description_chars": 2108,
       "status": "s-waiting",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -26307,6 +26307,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 3, 2026 · 5:29 PM CEST",
-  "published_at_iso": "2026-10-03T17:29:38+0200"
+  "published_at": "October 3, 2026 · 8:30 PM CEST",
+  "published_at_iso": "2026-10-03T20:30:44+0200"
 }
