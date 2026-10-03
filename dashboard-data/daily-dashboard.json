@@ -4589,7 +4589,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 1932,
+      "description_chars": 2516,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -13438,6 +13438,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-29"
+    },
+    {
+      "id": "SIG-546",
+      "title": "Persona landing pages…",
+      "description": "Created 2026-10-03 15:55, attended — Wolf: *\"we were going to have custom landing pages created for the different avatars or different markets… articles, content, and maybe some ads aimed at parents' concerns… When they land on that special landing page, it'll immediately… focus on the problem, but frame it with kids… Eventually, we'll have one for a teenager, a student, or a college student persona… then eventually one for a teacher or educational persona… how to use Signal for school… it will not be for launch at all… maybe for the full launch when we go live, we might have one or two… Add…",
+      "description_chars": 1341,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Post-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-03"
     },
     {
       "id": "CF-PM5h-3-H",
@@ -26195,6 +26223,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 3, 2026 · 9:26 AM CEST",
-  "published_at_iso": "2026-10-03T09:26:04+0200"
+  "published_at": "October 3, 2026 · 3:58 PM CEST",
+  "published_at_iso": "2026-10-03T15:58:02+0200"
 }
