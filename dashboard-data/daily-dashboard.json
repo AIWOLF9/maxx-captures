@@ -9578,7 +9578,7 @@
       "id": "SIG-541",
       "title": "Site footer…",
       "description": "Created 2026-10-02 ~23:58, attended — Wolf 23:36: *\"What's missing right now is a footer, right? Links to terms and privacy, all that… We don't have to finalize it now, just pointing it out.\"* Today the pages end with a minimal footer (mark, 'Maximize Signal. Minimize Noise.', © 2026 MAXX Signal Inc.). Scope: what the footer carries (Privacy, Terms when written, contact/support, social, the site menu), on the trimmed homepage and the landing page. Legal copy itself stays last in the build order (project instructions: /privacy and /terms are placeholder pages until then). Not started; estimate…",
-      "description_chars": 615,
+      "description_chars": 1177,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -26223,6 +26223,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 3, 2026 · 4:13 PM CEST",
-  "published_at_iso": "2026-10-03T16:13:19+0200"
+  "published_at": "October 3, 2026 · 4:28 PM CEST",
+  "published_at_iso": "2026-10-03T16:28:36+0200"
 }
