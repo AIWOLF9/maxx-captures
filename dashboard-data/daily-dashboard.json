@@ -4841,7 +4841,7 @@
       "id": "SIG-537",
       "title": "Apply the second reader review's rulings + Wolf's desktop layout round to the trimmed homepage and the landing page",
       "description": "Created 2026-10-02 ~02:30, attended (Decision 169). One pipeline round (archive first): all of _Working/reader-review_2026-10-02/RULINGS_SIG529_2026-10-01.md (R1–R14: Skip intro removed; landing 5.2/5.2c moved up; 4 homepage jump links; 70%/100% pair; 'Social media platforms are free for a reason…' line both pages; kids line both pages; Lumen card wording; magician block cut; the seven fixes A–G; 5.4t reorder; 3.5 picture right) + DESKTOP-LAYOUT-LIST_2026-10-02.md (G1–G5 centring rules at desktop/tablet only, 39 layout items, W1–W12 word cuts, D1 funnel animation). Then copy re-export, Decisi…",
-      "description_chars": 17061,
+      "description_chars": 17233,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9601,6 +9601,62 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-02"
+    },
+    {
+      "id": "SIG-542",
+      "title": "Research the 'trained for next' claim…",
+      "description": "Created 2026-10-03 ~03:40, attended — Wolf 03:08 (verbatim: _Working/attention-thread_2026-10-03/WOLF-NOTES_2026-10-03_VERBATIM.md): the feed's side effect is that *\"you're being trained to look for the next thing… and not to hold attention for a long time… you don't realize that's what's happening.\"* APOLLO-style pass: (1) primary studies linking heavy short-form video use to weaker sustained attention / deep reading — what is actually measured, effect sizes, causal vs correlational; (2) promote Gloria Mark's 47 s (time on a screen before switching) and 23 min 15 s (return after interruption…",
+      "description_chars": 1044,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Research",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "APOLLO",
+      "executor_list": [
+        "APOLLO"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Research",
+      "kind": "tasks",
+      "first_seen": "2026-10-03"
+    },
+    {
+      "id": "SIG-543",
+      "title": "Decide where the attention thread lands…",
+      "description": "Created 2026-10-03 ~03:40, attended — Wolf 03:35: *\"There's definitely a good thread of connecting these dots. Let's see what comes out of it and what we end up deciding to use and where. TBD.\"* Nothing ruled. Candidates (all in the thread file §4–5): the self-concealing trap as the website's cost beat with the video's ladder beneath it; an Algorithm 101 mechanism section; a founder-letter story from Wolf's own gap-filling (signed 'Founder, MAXX Signal'); an email opener ('How long did you hold one thought?'); an ATHENA visual (one-hour bar shattering into slivers). Per Decision 55 lines are…",
+      "description_chars": 920,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-03"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -26083,6 +26139,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 3, 2026 · 3:38 AM CEST",
-  "published_at_iso": "2026-10-03T03:38:51+0200"
+  "published_at": "October 3, 2026 · 3:54 AM CEST",
+  "published_at_iso": "2026-10-03T03:54:11+0200"
 }
