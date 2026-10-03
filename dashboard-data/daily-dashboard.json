@@ -5034,6 +5034,34 @@
       "first_seen": "2026-10-03"
     },
     {
+      "id": "SIG-549",
+      "title": "Social Media Impact Index…",
+      "description": "Created 2026-10-03 16:54, attended — Wolf (verbatim _Working/social-media-impact-index/WOLF-NOTES_2026-10-03_1654_SOCIAL-MEDIA-IMPACT-INDEX_VERBATIM.md; his screenshots of the Anthropic Interviewer survey in _Inbox/SOCIAL MEDIA IMPACT INDEX/; reference https://www.anthropic.com/research/your-thoughts-on-ai). Wolf: *\"creating this social media impact index… asking people about just their experience with social media… what they like… what they don't like… what they would change, and just how it's affected their life… completely anonymized… We can launch the social media impact index… a press re…",
+      "description_chars": 1160,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-03"
+    },
+    {
       "id": "CAP-0029",
       "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
@@ -26279,6 +26307,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 3, 2026 · 4:43 PM CEST",
-  "published_at_iso": "2026-10-03T16:43:53+0200"
+  "published_at": "October 3, 2026 · 4:59 PM CEST",
+  "published_at_iso": "2026-10-03T16:59:16+0200"
 }
