@@ -4701,7 +4701,7 @@
       "id": "SIG-515",
       "title": "Claude Design for the homepage and landing page…",
       "description": "Created 2026-09-28 18:49 (Decision 162, Phase 1 step 1.4). Run from chat against THE BOARD, results carried back into the board and the page kit, so batch A to D pages inherit the approved look. Waits on the motion pass, the opening animation, the landing-page review and the pre-order/launch wording (the tweak round). ▶ 2026-09-29 (Decision 163 ③): waits for the reader-agent read-through (SIG-520) and the streamlining of the longest cards (SIG-522) — Wolf 02:11: *\"we should do the Claude design after we're fully finished getting the reviews and any feedback.\"* ▶ 2026-09-29: also waits on SIG-…",
-      "description_chars": 1781,
+      "description_chars": 2194,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -26363,6 +26363,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 4, 2026 · 11:40 PM CEST",
-  "published_at_iso": "2026-10-04T23:40:37+0200"
+  "published_at": "October 5, 2026 · 12:11 AM CEST",
+  "published_at_iso": "2026-10-05T00:11:02+0200"
 }
