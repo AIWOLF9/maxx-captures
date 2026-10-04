@@ -4281,7 +4281,7 @@
       "id": "SIG-463",
       "title": "Mission, vision and purpose statement…",
       "description": "Created 2026-09-15, attended — Wolf: *\"As far as having a discussion about mission, vision, or purpose, or some type of purpose statement, we should definitely have that. We may not have talked about it before.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): searched all 451 rows and EVERY column on 2026-09-15 — *mission statement* returned ZERO rows, *purpose statement* returned ZERO rows, and the four hits on *vision* are unrelated (D-U-N-S, multi-modal tabs, the investment vehicle, the scoring ruler). This is a genuine gap, not a duplicate. What it is: the short statement of what Signal is fo…",
-      "description_chars": 1522,
+      "description_chars": 1825,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -4589,7 +4589,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 4032,
+      "description_chars": 4220,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4728,8 +4728,8 @@
     {
       "id": "SIG-516",
       "title": "Pages batch A…",
-      "description": "Created 2026-09-28 18:49 (Decision 162). Built with the six-step page process: Waitlist confirmation · How it works · FAQ (from the competitor FAQ harvest, SIG-498) · For Families and For Organizations (SIG-501) · the parents and students landing pages (SIG-510). One to two chats; Claude Design once for the batch. Record actual elapsed time per page.",
-      "description_chars": 352,
+      "description": "Created 2026-09-28 18:49 (Decision 162). Built with the six-step page process: Waitlist confirmation · How it works · FAQ (from the competitor FAQ harvest, SIG-498) · For Families and For Organizations (SIG-501) · the parents and students landing pages (SIG-510). One to two chats; Claude Design once for the batch. Record actual elapsed time per page. 2026-10-04 (Wolf 01:41): every audience page (Families, Students, Schools, Work) carries a FORM, and Contact is a FORM with a topic dropdown — all into one managed place, never a raw email inbox. Field spec (one form, audience set by the page; ≤6…",
+      "description_chars": 737,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4784,8 +4784,8 @@
     {
       "id": "SIG-518",
       "title": "Pages batch C…",
-      "description": "Created 2026-09-28 18:49 (Decision 162). About · Founder · Founder letter. Starts with Wolf talking first (voice memo or brain-dump in chat); Claude drafts from his words. Can run while A and B are in review. ▶ 2 Oct 23:08 — Wolf's founder story, in his own words (the dark years, the YouTube feed filling with negativity, deleting history again and again, his daughter and the parental-controls battle, how MAXX Signal was born): _Working/founder-corpus/WOLF-FOUNDER-STORY_2026-10-02_2308_VERBATIM.md. Wolf: \"document for the founder page or letter… so that we may borrow from it.\"",
-      "description_chars": 582,
+      "description": "Created 2026-09-28 18:49 (Decision 162). About · Founder · Founder letter. Starts with Wolf talking first (voice memo or brain-dump in chat); Claude drafts from his words. Can run while A and B are in review. ▶ 2 Oct 23:08 — Wolf's founder story, in his own words (the dark years, the YouTube feed filling with negativity, deleting history again and again, his daughter and the parental-controls battle, how MAXX Signal was born): _Working/founder-corpus/WOLF-FOUNDER-STORY_2026-10-02_2308_VERBATIM.md. Wolf: \"document for the founder page or letter… so that we may borrow from it.\" 2026-10-04 01:41…",
+      "description_chars": 809,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9606,7 +9606,7 @@
       "id": "SIG-541",
       "title": "Site footer…",
       "description": "Created 2026-10-02 ~23:58, attended — Wolf 23:36: *\"What's missing right now is a footer, right? Links to terms and privacy, all that… We don't have to finalize it now, just pointing it out.\"* Today the pages end with a minimal footer (mark, 'Maximize Signal. Minimize Noise.', © 2026 MAXX Signal Inc.). Scope: what the footer carries (Privacy, Terms when written, contact/support, social, the site menu), on the trimmed homepage and the landing page. Legal copy itself stays last in the build order (project instructions: /privacy and /terms are placeholder pages until then). Not started; estimate…",
-      "description_chars": 2138,
+      "description_chars": 2625,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -13522,6 +13522,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-03"
+    },
+    {
+      "id": "SIG-550",
+      "title": "For Creators page…",
+      "description": "Created 2026-10-04 01:41, attended — Wolf: *“creators… they can create their own Signal pages and become an ambassador partner… We can also show how, in their other channels, like YouTube, Instagram, Facebook, and LinkedIn, we can have screenshots of some fake account with the link to our Signal… I like that idea, so we can add that for creators after launch.”* Page shows: how a creator builds and shares a Signal; mock creator accounts (clearly fictional) with the Signal link in the video description, About section and link list; the ambassador-partner path. Creators are persona P4 in the MVP…",
+      "description_chars": 735,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Post-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-04"
     },
     {
       "id": "CF-PM5h-3-H",
@@ -26307,6 +26335,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 3, 2026 · 8:30 PM CEST",
-  "published_at_iso": "2026-10-03T20:30:44+0200"
+  "published_at": "October 4, 2026 · 2:02 AM CEST",
+  "published_at_iso": "2026-10-04T02:02:40+0200"
 }
