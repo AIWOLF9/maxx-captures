@@ -2013,7 +2013,7 @@
       "id": "SIG-068",
       "title": "/receipts page (content + build)",
       "description": "Populate the Brand §7.17.4.1 placeholder into a live /receipts page; routes to legal pass (SIG-077). CONTENT DRAFT done 2026-06-26 (autonomous): full long-scroll evidence-wall copy, 6 clusters + honest counter-case sidebar + Signal pivot, every claim attributed w/ receipt ID + index → 05_Marketing/Working/website-receipts/MSIG-WEB-RECEIPTS-PAGE_DRAFT_v0_1.md. Build/deploy + legal pass (SIG-077) still pending → row stays To-do. [CAPTURE-TRIAGE 2026-07-31 — two evidence items now owed to this page.] (a) MOS-T-058 + 064 insider-kids claim (Jobs / Microsoft execs restricting their own children's…",
-      "description_chars": 8406,
+      "description_chars": 8591,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Content",
@@ -4756,8 +4756,8 @@
     {
       "id": "SIG-517",
       "title": "Pages batch B…",
-      "description": "Created 2026-09-28 18:49 (Decision 162). The Algorithm · Algorithm 101 · F*ck the Algorithm · Manifesto · LUMEN (the engine page). Most copy exists in the library and on the homepage. Six-step page process; Claude Design once for the batch. 2026-10-03 19:48: Wolf asked whether Algorithm 101 and the receipts are one page or two. Claude recommends ONE page, “The Toxic Algorithm”, with two tabs (How it works · The receipts) — see _Working/reader-review_2026-10-03/SITE-MAP_RECOMMENDATION_2026-10-03.md; awaiting ruling.",
-      "description_chars": 520,
+      "description": "Created 2026-09-28 18:49 (Decision 162). The Algorithm · Algorithm 101 · F*ck the Algorithm · Manifesto · LUMEN (the engine page). Most copy exists in the library and on the homepage. Six-step page process; Claude Design once for the batch. 2026-10-03 19:48: Wolf asked whether Algorithm 101 and the receipts are one page or two. Claude recommends ONE page, “The Toxic Algorithm”, with two tabs (How it works · The receipts) — see _Working/reader-review_2026-10-03/SITE-MAP_RECOMMENDATION_2026-10-03.md; awaiting ruling. 2026-10-04 17:39 (Decision 184): “Why MAXX Signal” is a page NOW (not at launc…",
+      "description_chars": 840,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9493,8 +9493,8 @@
     {
       "id": "SIG-519",
       "title": "Pages batch D…",
-      "description": "Created 2026-09-28 18:49 (Decision 162). Pre-order flow · Pricing · Refunds · Kickstarter · Press. Waits on the launch offer and billing rulings. Legal pages (Privacy, Terms) come after, in SIG-474. 2026-10-04 (Decision 183): at launch add “Why MAXX Signal” under About — Signal vs app blockers plus real member stories; and promote Become an Ambassador to the top bar when pre-order opens.",
-      "description_chars": 390,
+      "description": "Created 2026-09-28 18:49 (Decision 162). Pre-order flow · Pricing · Refunds · Kickstarter · Press. Waits on the launch offer and billing rulings. Legal pages (Privacy, Terms) come after, in SIG-474. 2026-10-04 (Decision 183): at launch add “Why MAXX Signal” under About — Signal vs app blockers plus real member stories; and promote Become an Ambassador to the top bar when pre-order opens. 2026-10-04: superseded in part — “Why MAXX Signal” moved to NOW (Decision 184, see SIG-517).",
+      "description_chars": 483,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -9606,7 +9606,7 @@
       "id": "SIG-541",
       "title": "Site footer…",
       "description": "Created 2026-10-02 ~23:58, attended — Wolf 23:36: *\"What's missing right now is a footer, right? Links to terms and privacy, all that… We don't have to finalize it now, just pointing it out.\"* Today the pages end with a minimal footer (mark, 'Maximize Signal. Minimize Noise.', © 2026 MAXX Signal Inc.). Scope: what the footer carries (Privacy, Terms when written, contact/support, social, the site menu), on the trimmed homepage and the landing page. Legal copy itself stays last in the build order (project instructions: /privacy and /terms are placeholder pages until then). Not started; estimate…",
-      "description_chars": 2930,
+      "description_chars": 3213,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -10782,8 +10782,8 @@
     {
       "id": "SIG-088",
       "title": "O-1 Weekly blog cadence (content workflow)",
-      "description": "Establish the weekly blog production cadence (content-marketing workflow). 2026-10-04 (Decision 183): the blog lives under “Learn” (Articles and videos) and starts at waitlist launch with 3–5 cornerstone articles + 1–2 videos recreated in our own voice (not raw NotebookLM output); cadence after that.",
-      "description_chars": 301,
+      "description": "Establish the weekly blog production cadence (content-marketing workflow). 2026-10-04 (Decision 183): the blog lives under “Learn” (Articles and videos) and starts at waitlist launch with 3–5 cornerstone articles + 1–2 videos recreated in our own voice (not raw NotebookLM output); cadence after that. 2026-10-04 (Decision 184): the menu label is “Blog”.",
+      "description_chars": 354,
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Content",
@@ -26335,6 +26335,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 4, 2026 · 5:37 PM CEST",
-  "published_at_iso": "2026-10-04T17:37:20+0200"
+  "published_at": "October 4, 2026 · 5:52 PM CEST",
+  "published_at_iso": "2026-10-04T17:52:39+0200"
 }
