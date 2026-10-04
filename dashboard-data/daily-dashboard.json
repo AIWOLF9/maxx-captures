@@ -2068,8 +2068,8 @@
     {
       "id": "SIG-071",
       "title": "Ambassador landing page (maxxsignal.com/ambassador)",
-      "description": "Build the branded ambassador landing page deep-linking the Lemon Squeezy affiliate hub. ▶ 3 Oct 16:40 — Wolf (attended; verbatim _Working/reader-review_2026-10-03/WOLF-NOTES_2026-10-03_1640_VERBATIM.md): the ambassador page launches with the pre-order, not the waitlist, and is the place for interested people to sign up: a short, easy form — who they are, their social media, how many followers (a few questions only). Wolf: *\"the more they share it, the more money they make.\"* Ambassador go-to-market conversation → SIG-548.",
-      "description_chars": 527,
+      "description": "Build the branded ambassador landing page deep-linking the Lemon Squeezy affiliate hub. ▶ 3 Oct 16:40 — Wolf (attended; verbatim _Working/reader-review_2026-10-03/WOLF-NOTES_2026-10-03_1640_VERBATIM.md): the ambassador page launches with the pre-order, not the waitlist, and is the place for interested people to sign up: a short, easy form — who they are, their social media, how many followers (a few questions only). Wolf: *\"the more they share it, the more money they make.\"* Ambassador go-to-market conversation → SIG-548. 2026-10-04 (Decision 183): the ambassador page is highlighted (★, gold)…",
+      "description_chars": 698,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4729,7 +4729,7 @@
       "id": "SIG-516",
       "title": "Pages batch A…",
       "description": "Created 2026-09-28 18:49 (Decision 162). Built with the six-step page process: Waitlist confirmation · How it works · FAQ (from the competitor FAQ harvest, SIG-498) · For Families and For Organizations (SIG-501) · the parents and students landing pages (SIG-510). One to two chats; Claude Design once for the batch. Record actual elapsed time per page. 2026-10-04 (Wolf 01:41): every audience page (Families, Students, Schools, Work) carries a FORM, and Contact is a FORM with a topic dropdown — all into one managed place, never a raw email inbox. Field spec (one form, audience set by the page; ≤6…",
-      "description_chars": 737,
+      "description_chars": 1047,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4785,7 +4785,7 @@
       "id": "SIG-518",
       "title": "Pages batch C…",
       "description": "Created 2026-09-28 18:49 (Decision 162). About · Founder · Founder letter. Starts with Wolf talking first (voice memo or brain-dump in chat); Claude drafts from his words. Can run while A and B are in review. ▶ 2 Oct 23:08 — Wolf's founder story, in his own words (the dark years, the YouTube feed filling with negativity, deleting history again and again, his daughter and the parental-controls battle, how MAXX Signal was born): _Working/founder-corpus/WOLF-FOUNDER-STORY_2026-10-02_2308_VERBATIM.md. Wolf: \"document for the founder page or letter… so that we may borrow from it.\" 2026-10-04 01:41…",
-      "description_chars": 809,
+      "description_chars": 873,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9493,8 +9493,8 @@
     {
       "id": "SIG-519",
       "title": "Pages batch D…",
-      "description": "Created 2026-09-28 18:49 (Decision 162). Pre-order flow · Pricing · Refunds · Kickstarter · Press. Waits on the launch offer and billing rulings. Legal pages (Privacy, Terms) come after, in SIG-474.",
-      "description_chars": 198,
+      "description": "Created 2026-09-28 18:49 (Decision 162). Pre-order flow · Pricing · Refunds · Kickstarter · Press. Waits on the launch offer and billing rulings. Legal pages (Privacy, Terms) come after, in SIG-474. 2026-10-04 (Decision 183): at launch add “Why MAXX Signal” under About — Signal vs app blockers plus real member stories; and promote Become an Ambassador to the top bar when pre-order opens.",
+      "description_chars": 390,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -9550,7 +9550,7 @@
       "id": "SIG-527",
       "title": "The FAQ program…",
       "description": "Created 2026-09-29, attended — Wolf: *\"We need to finalize what all the FAQs are going to be: the ones that are going to be on our page (meaning at the bottom), and then a link to maybe an FAQ page that is more complete… look at all our competitors, all the app blocker companies, and all the FAQs. Pull them together and then come up with a streamlined list for us… using first principles, critical thinking, and best practices.\"* Steps: collect FAQs from app blockers and adjacent products → categorise → our master list with answers grounded in canon (Curation Engine, Pricing, privacy) → pick 6–…",
-      "description_chars": 1189,
+      "description_chars": 1317,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -9606,7 +9606,7 @@
       "id": "SIG-541",
       "title": "Site footer…",
       "description": "Created 2026-10-02 ~23:58, attended — Wolf 23:36: *\"What's missing right now is a footer, right? Links to terms and privacy, all that… We don't have to finalize it now, just pointing it out.\"* Today the pages end with a minimal footer (mark, 'Maximize Signal. Minimize Noise.', © 2026 MAXX Signal Inc.). Scope: what the footer carries (Privacy, Terms when written, contact/support, social, the site menu), on the trimmed homepage and the landing page. Legal copy itself stays last in the build order (project instructions: /privacy and /terms are placeholder pages until then). Not started; estimate…",
-      "description_chars": 2625,
+      "description_chars": 2930,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -10782,8 +10782,8 @@
     {
       "id": "SIG-088",
       "title": "O-1 Weekly blog cadence (content workflow)",
-      "description": "Establish the weekly blog production cadence (content-marketing workflow).",
-      "description_chars": 74,
+      "description": "Establish the weekly blog production cadence (content-marketing workflow). 2026-10-04 (Decision 183): the blog lives under “Learn” (Articles and videos) and starts at waitlist launch with 3–5 cornerstone articles + 1–2 videos recreated in our own voice (not raw NotebookLM output); cadence after that.",
+      "description_chars": 301,
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Content",
@@ -26335,6 +26335,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 4, 2026 · 9:19 AM CEST",
-  "published_at_iso": "2026-10-04T09:19:49+0200"
+  "published_at": "October 4, 2026 · 5:37 PM CEST",
+  "published_at_iso": "2026-10-04T17:37:20+0200"
 }
