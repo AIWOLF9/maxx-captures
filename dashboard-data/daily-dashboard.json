@@ -13807,7 +13807,7 @@
       "id": "SIG-544",
       "title": "Apply the third review's rulings (minor-tweaks round), then hand the pages to Claude Design",
       "description": "Created 2026-10-03 ~04:20 (overnight, from SIG-540). Wolf's stated process (03:30 verbatim): review → minor tweaks, if any → Claude Design. Waiting on Wolf to rule the 13 calls in _Working/reader-review_2026-10-03/SIGNAL_READER-REVIEW-R3-FINDINGS_2026-10-03.html (1 defect batch incl. the slow 7.2 goal counters, clipped carousels, 2.8 margin, dragon, syringe · 2 accuracy: Haugen credit → 60 Minutes, 4.1 93% qualifier, Meta chart per-quarter label, calculator 2h 21m + age default · 3 parents jump-to-FAQ + answer — needs Wolf facts: can a parent lock the child's settings, is a child's feed free…",
-      "description_chars": 3468,
+      "description_chars": 3652,
       "status": "s-waiting",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -26335,6 +26335,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 4, 2026 · 10:24 PM CEST",
-  "published_at_iso": "2026-10-04T22:24:27+0200"
+  "published_at": "October 4, 2026 · 10:39 PM CEST",
+  "published_at_iso": "2026-10-04T22:39:48+0200"
 }
