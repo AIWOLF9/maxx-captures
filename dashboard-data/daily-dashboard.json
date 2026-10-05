@@ -4645,7 +4645,7 @@
       "id": "SIG-516",
       "title": "Pages batch A…",
       "description": "Created 2026-09-28 18:49 (Decision 162). Built with the six-step page process: Waitlist confirmation · How it works · FAQ (from the competitor FAQ harvest, SIG-498) · For Families and For Organizations (SIG-501) · the parents and students landing pages (SIG-510). One to two chats; Claude Design once for the batch. Record actual elapsed time per page. 2026-10-04 (Wolf 01:41): every audience page (Families, Students, Schools, Work) carries a FORM, and Contact is a FORM with a topic dropdown — all into one managed place, never a raw email inbox. Field spec (one form, audience set by the page; ≤6…",
-      "description_chars": 2593,
+      "description_chars": 4149,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4673,7 +4673,7 @@
       "id": "SIG-517",
       "title": "Pages batch B…",
       "description": "Created 2026-09-28 18:49 (Decision 162). The Algorithm · Algorithm 101 · F*ck the Algorithm · Manifesto · LUMEN (the engine page). Most copy exists in the library and on the homepage. Six-step page process; Claude Design once for the batch. 2026-10-03 19:48: Wolf asked whether Algorithm 101 and the receipts are one page or two. Claude recommends ONE page, “The Toxic Algorithm”, with two tabs (How it works · The receipts) — see _Working/reader-review_2026-10-03/SITE-MAP_RECOMMENDATION_2026-10-03.md; awaiting ruling. 2026-10-04 17:39 (Decision 184): “Why MAXX Signal” is a page NOW (not at launc…",
-      "description_chars": 1312,
+      "description_chars": 1878,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4897,7 +4897,7 @@
       "id": "SIG-552",
       "title": "Forms → HubSpot: connect HubSpot, wire every website form in, and send an automatic thank-you with links",
       "description": "Created 2026-10-05 03:21, attended — Wolf (Decision 192 ①): *\"I want a solution that you're able to connect to through a plugin or connector, so you can manage everything.\"* Wolf: create the HubSpot account and connect the HubSpot connector (claude.ai). Claude: wire the audience forms, ambassador application and share form; thank-you emails per form (links: How It Works, Impact Index, Ambassador, audience pages); meeting-booking link for partner-level applicants; ambassador stages Applied → Reviewing → Accepted → Declined. Waitlist stays in our database + Resend. 2026-10-05 03:40 — HubSpot co…",
-      "description_chars": 757,
+      "description_chars": 2650,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Engineering",
@@ -9648,6 +9648,34 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-05"
+    },
+    {
+      "id": "SIG-555",
+      "title": "Homepage 'What stays out' (6.4) lead is clipped at desktop width…",
+      "description": "Created 2026-10-05 ~19:10, attended (found by the independent review of How It Works). At 1440 px the 6.4 lead ('Explicit content, graphic violence… Change anything you like.') runs on one line (white-space:nowrap from the motion kit's typed-line class) and cuts 'Change anything you like.' off at the right edge — measured: scrollWidth 1306 vs 1034 px, on the live homepage and on How It Works (fixed there with an override). Fix = the same one-line override as a pipeline round 46 + board reload; no words or colours change. Waiting on Wolf's yes (question 2 in the How It Works review doc).",
+      "description_chars": 593,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~15m",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
       "executor": "HERMES",
       "executor_list": [
         "HERMES"
@@ -26447,6 +26475,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 5, 2026 · 6:49 PM CEST",
-  "published_at_iso": "2026-10-05T18:49:10+0200"
+  "published_at": "October 5, 2026 · 7:19 PM CEST",
+  "published_at_iso": "2026-10-05T19:19:33+0200"
 }
