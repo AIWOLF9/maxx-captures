@@ -4645,7 +4645,7 @@
       "id": "SIG-516",
       "title": "Pages batch A…",
       "description": "Created 2026-09-28 18:49 (Decision 162). Built with the six-step page process: Waitlist confirmation · How it works · FAQ (from the competitor FAQ harvest, SIG-498) · For Families and For Organizations (SIG-501) · the parents and students landing pages (SIG-510). One to two chats; Claude Design once for the batch. Record actual elapsed time per page. 2026-10-04 (Wolf 01:41): every audience page (Families, Students, Schools, Work) carries a FORM, and Contact is a FORM with a topic dropdown — all into one managed place, never a raw email inbox. Field spec (one form, audience set by the page; ≤6…",
-      "description_chars": 4489,
+      "description_chars": 4834,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9699,6 +9699,34 @@
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
       "effort_mc": "~15m",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-05"
+    },
+    {
+      "id": "SIG-557",
+      "title": "Homepage: bring in the styling Wolf ruled on How It Works",
+      "description": "Created 2026-10-05 23:45, attended (Wolf 21:09–23:42 on How It Works). When the homepage is next rebuilt: ① Signal in every headline, eyebrow and step title cyan (cyan_signal() in build_howitworks.py); ② Lumen and \"anti-algorithm\" gold; ③ the bold line inside each expanding card in Meet Lumen (6.3) and What stays out (6.4) cyan; ④ the 6.3 link reads \"Meet Lumen, the MAXX Signal curation engine →\", centred, Lumen gold. Do it in the same round as SIG-555.",
+      "description_chars": 457,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~45m",
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -26503,6 +26531,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 5, 2026 · 8:20 PM CEST",
-  "published_at_iso": "2026-10-05T20:20:06+0200"
+  "published_at": "October 5, 2026 · 11:51 PM CEST",
+  "published_at_iso": "2026-10-05T23:51:28+0200"
 }
