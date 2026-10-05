@@ -26184,7 +26184,7 @@
       "id": "SIG-542",
       "title": "Research the 'trained for next' claim…",
       "description": "Created 2026-10-03 ~03:40, attended — Wolf 03:08 (verbatim: _Working/attention-thread_2026-10-03/WOLF-NOTES_2026-10-03_VERBATIM.md): the feed's side effect is that *\"you're being trained to look for the next thing… and not to hold attention for a long time… you don't realize that's what's happening.\"* APOLLO-style pass: (1) primary studies linking heavy short-form video use to weaker sustained attention / deep reading — what is actually measured, effect sizes, causal vs correlational; (2) promote Gloria Mark's 47 s (time on a screen before switching) and 23 min 15 s (return after interruption…",
-      "description_chars": 3191,
+      "description_chars": 3284,
       "status": "s-done",
       "priority": "p-p2",
       "segment": "Research",
@@ -26447,6 +26447,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 5, 2026 · 6:33 PM CEST",
-  "published_at_iso": "2026-10-05T18:33:52+0200"
+  "published_at": "October 5, 2026 · 6:49 PM CEST",
+  "published_at_iso": "2026-10-05T18:49:10+0200"
 }
