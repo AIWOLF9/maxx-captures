@@ -4841,7 +4841,7 @@
       "id": "SIG-539",
       "title": "A marketing design system in the LOUD register, so Claude Design does not calm the website or the ads down",
       "description": "Created 2026-10-02 ~18:50, attended — Wolf 18:05: *\"if we need to fix the MAXX Design System for Claude design so it doesn't make a mistake, then let's do that as a step… before we get to the Claude design.\"* Why: the saved design system Claude Design reads (\"MAXX Design System\", claude.ai/artifact/MvP7YrtGaaEVQdgqdRTbo3, built by Mission Control 17 Sept) is written for the CALM product register — \"calm over urgency… no alarm… never red\", no logo files. Used on the website or an ad it would pull the loud marketing register (Brand §1.0.1, Decision 53) back to calm — the 28 Sept failure. Recomm…",
-      "description_chars": 1497,
+      "description_chars": 1658,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -4920,6 +4920,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-03"
+    },
+    {
+      "id": "SIG-552",
+      "title": "Forms → HubSpot: connect HubSpot, wire every website form in, and send an automatic thank-you with links",
+      "description": "Created 2026-10-05 03:21, attended — Wolf (Decision 192 ①): *\"I want a solution that you're able to connect to through a plugin or connector, so you can manage everything.\"* Wolf: create the HubSpot account and connect the HubSpot connector (claude.ai). Claude: wire the audience forms, ambassador application and share form; thank-you emails per form (links: How It Works, Impact Index, Ambassador, audience pages); meeting-booking link for partner-level applicants; ambassador stages Applied → Reviewing → Accepted → Declined. Waitlist stays in our database + Resend.",
+      "description_chars": 569,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Engineering",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-10-05"
     },
     {
       "id": "CAP-0029",
@@ -9629,6 +9657,34 @@
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-10-04"
+    },
+    {
+      "id": "SIG-553",
+      "title": "'F*ck the Algorithm' page (pre-order on) + print-on-demand merch store in the footer",
+      "description": "Created 2026-10-05 03:21, attended — Wolf (Decision 192 ⑪): *\"let's definitely create a 'Fuck the Algorithm' page- FOR PRE-ORDER AND BEYOND… connecting to merchandise: hats, T-shirts, maybe a mug… print-on-demand.\"* Claude's recommendation: Fourthwall free plan (no monthly fee; prints, ships, takes payment, US sales tax as merchant of record; flat base cost per item, 2.9% + $0.30 card fee). Alternatives: Printful/Printify behind a Shopify store (monthly fee). Wolf to confirm the store; designs need the marketing design system. Related: SIG-547 loud lines.",
+      "description_chars": 561,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-05"
     },
     {
       "id": "SIG-545",
@@ -26363,6 +26419,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 5, 2026 · 2:57 AM CEST",
-  "published_at_iso": "2026-10-05T02:57:56+0200"
+  "published_at": "October 5, 2026 · 3:28 AM CEST",
+  "published_at_iso": "2026-10-05T03:28:20+0200"
 }
