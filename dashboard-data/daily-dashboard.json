@@ -4897,7 +4897,7 @@
       "id": "SIG-549",
       "title": "Social Media Impact Index…",
       "description": "Created 2026-10-03 16:54, attended — Wolf (verbatim _Working/social-media-impact-index/WOLF-NOTES_2026-10-03_1654_SOCIAL-MEDIA-IMPACT-INDEX_VERBATIM.md; his screenshots of the Anthropic Interviewer survey in _Inbox/SOCIAL MEDIA IMPACT INDEX/; reference https://www.anthropic.com/research/your-thoughts-on-ai). Wolf: *\"creating this social media impact index… asking people about just their experience with social media… what they like… what they don't like… what they would change, and just how it's affected their life… completely anonymized… We can launch the social media impact index… a press re…",
-      "description_chars": 1361,
+      "description_chars": 1851,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -26363,6 +26363,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 5, 2026 · 1:12 AM CEST",
-  "published_at_iso": "2026-10-05T01:12:06+0200"
+  "published_at": "October 5, 2026 · 2:57 AM CEST",
+  "published_at_iso": "2026-10-05T02:57:56+0200"
 }
