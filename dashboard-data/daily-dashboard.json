@@ -4924,8 +4924,8 @@
     {
       "id": "SIG-552",
       "title": "Forms → HubSpot: connect HubSpot, wire every website form in, and send an automatic thank-you with links",
-      "description": "Created 2026-10-05 03:21, attended — Wolf (Decision 192 ①): *\"I want a solution that you're able to connect to through a plugin or connector, so you can manage everything.\"* Wolf: create the HubSpot account and connect the HubSpot connector (claude.ai). Claude: wire the audience forms, ambassador application and share form; thank-you emails per form (links: How It Works, Impact Index, Ambassador, audience pages); meeting-booking link for partner-level applicants; ambassador stages Applied → Reviewing → Accepted → Declined. Waitlist stays in our database + Resend.",
-      "description_chars": 569,
+      "description": "Created 2026-10-05 03:21, attended — Wolf (Decision 192 ①): *\"I want a solution that you're able to connect to through a plugin or connector, so you can manage everything.\"* Wolf: create the HubSpot account and connect the HubSpot connector (claude.ai). Claude: wire the audience forms, ambassador application and share form; thank-you emails per form (links: How It Works, Impact Index, Ambassador, audience pages); meeting-booking link for partner-level applicants; ambassador stages Applied → Reviewing → Accepted → Declined. Waitlist stays in our database + Resend. 2026-10-05 03:40 — HubSpot co…",
+      "description_chars": 757,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Engineering",
@@ -26419,6 +26419,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 5, 2026 · 3:28 AM CEST",
-  "published_at_iso": "2026-10-05T03:28:20+0200"
+  "published_at": "October 5, 2026 · 3:43 AM CEST",
+  "published_at_iso": "2026-10-05T03:43:40+0200"
 }
