@@ -7182,7 +7182,7 @@
       "id": "MOS-T-074",
       "title": "CF-PM4-4 was cancelled on a premise its own source refutes…",
       "description": "CARRY_FORWARD_INBOX.md:594 dropped the multi-llm-research skill on 2026-08-07 as *\"superseded by DELPHI… §10.1 forbids two mechanisms for one concern.\"* DELPHI's own spec bars research use: _MAXX_OS/Capabilities/delphi/MOS-AGENT-DELPHI-0001.md:83 — *\"NOT a research agent (APOLLO). APOLLO gathers facts; DELPHI critiques a decision/claim.\"* There is no second mechanism to collide with, so the one-mechanism ruling does not apply. Harmless today (2026-09-03 decision is to run the sweep by hand, no build). Becomes blocking the moment anyone proposes the API fan-out — they will hit a Cancelled row…",
-      "description_chars": 863,
+      "description_chars": 955,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Governance",
@@ -14633,7 +14633,7 @@
       "id": "MOS-T-073",
       "title": "Signal research-sweep prompt pack…",
       "description": "MC delivered two advisory docs to SIGNAL/_Inbox/ on 2026-09-03: MC-TO-SIGNAL_HANDOFF_2026-09-03_research-sweep-prompt-pack.md (schema delta, drop convention, dedup rules) and MC-TO-SIGNAL_WRAPPERS_2026-09-03_deep-research-surface-wrappers.md (per-tool paste text). Drop folders created at SIGNAL/Research/algorithmic-harm-sweep/2026-09-03--deep-sweep/. Rowed because §5.4.1 item 6 says an MC→venture handoff is authoritative in tone and tracked by nothing. TRIGGER: Signal confirms the comprehensive prompts are updated and the pack cites MSIG-MKT-RESEARCH-OUTPUT-PROMPTS-0001_v1_1 (not the stale _v…",
-      "description_chars": 674,
+      "description_chars": 766,
       "status": "s-waiting",
       "priority": "p-p2",
       "segment": "Research",
@@ -26419,6 +26419,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 5, 2026 · 9:30 AM CEST",
-  "published_at_iso": "2026-10-05T09:30:31+0200"
+  "published_at": "October 5, 2026 · 6:03 PM CEST",
+  "published_at_iso": "2026-10-05T18:03:09+0200"
 }
