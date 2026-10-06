@@ -9799,6 +9799,90 @@
       "first_seen": "2026-10-06"
     },
     {
+      "id": "SIG-560",
+      "title": "Make Signal installable to the home screen (installable web app)",
+      "description": "Created 2026-10-06 ~02:45, attended (Wolf 02:30: redirect extension + home screen + self-block guide, Chrome first). Authority: Decision 194. Add an app manifest (name, icon, colours, start page) and a basic offline page so Signal installs from Chrome (Android/desktop) and via Safari's Add to Home Screen (iPhone). Invite to install after a member's first good session, in Settings, and on the self-block guide (SIG-562) — never a pop-up on the marketing site. Needs the Signal app deployed. Plan: https://claude.ai/code/artifact/389de6db-3918-4716-8aaf-4122d09cf24b",
+      "description_chars": 567,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1d",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude Code+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-10-06"
+    },
+    {
+      "id": "SIG-561",
+      "title": "Redirect-only Chrome extension: youtube.com opens MAXX Signal",
+      "description": "Created 2026-10-06 ~02:45, attended. Authority: Decision 194 — unparks the REDIRECT only; the overlay that puts Signal's interface inside youtube.com stays parked under Decision 46 R6 (see SIG-262). Main-page visits to youtube.com go to maxxsignal.com; no extension login (the site's login decides). Install → welcome page (first-run tour for new visitors, one-screen confirmation for members). Visits → the 'what brings you here today?' screen, then the feed. Watch links → the same video on Signal's watch page. One 'Go to YouTube anyway' link, this tab only. Toolbar menu: on/off, pause 1 hour, o…",
+      "description_chars": 1152,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1.5d",
+      "effort_wolf": "~1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude Code+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-10-06"
+    },
+    {
+      "id": "SIG-562",
+      "title": "Self-block guide page: 'Make Signal your default' (iPhone · Android · desktop)",
+      "description": "Created 2026-10-06 ~02:45, attended. Authority: Decision 194. One website Help page with step-by-step guides using built-in tools: iPhone — Shortcuts automation 'when YouTube opens, open MAXX Signal', Screen Time limits on the YouTube app, youtube.com blocked in Safari, Add to Home Screen; Android — Digital Wellbeing timer or Focus mode, 'Open supported links' off for YouTube, install Signal from Chrome; desktop — install the extension (SIG-561). Numbered steps, one screenshot each, a 'checked on' date per guide, re-checked each major iOS/Android release. Calm product-help register. Linked fr…",
+      "description_chars": 758,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1.5d",
+      "effort_wolf": "~30m",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-06"
+    },
+    {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
       "title": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with i…",
       "description": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with its next fire parked at 2027-01-01. The routine is trig_019Wuy5iWcJJzoSxHDj1oaDU, Wolf's *\"can a cloud routine reach the Mac?\"* probe, created and fired 2026-08-26; surfaced at MC-CLOUDSHIFT-2026-09-09 (2026-09-09, attended, cloud, session 7DMVKQTQ4B) and now recorded under the new _pending_one_offs key in _index/STATUS_SNAPSHOTS/_cloud_lanes.json. The probe is itself the portfolio's one recorded instance of the failure it was built to detect: the scheduler records it SUCCEEDED — fired…",
@@ -26587,6 +26671,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 6, 2026 · 2:08 AM CEST",
-  "published_at_iso": "2026-10-06T02:08:05+0200"
+  "published_at": "October 6, 2026 · 2:38 AM CEST",
+  "published_at_iso": "2026-10-06T02:38:29+0200"
 }
