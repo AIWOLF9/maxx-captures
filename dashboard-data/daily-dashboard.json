@@ -4953,7 +4953,7 @@
       "id": "SIG-558",
       "title": "How It Works tour: show the whole product on real screens (Create · Consume · Share · Earn)",
       "description": "Created 2026-10-06 ~01:20, attended (Wolf 23:54 + 00:45). Wolf: the Consume walk-through is too thin; he wants the full experience, phone and desktop. Plan sent to Wolf for a yes: a tabbed tour on How It Works (homepage-tour style) filled with REAL screens from mockups/_renders, four tabs with sub-tabs; homepage tour swaps to the same screens before pre-order. Review canvas of all 166 views with ☆ picks: https://claude.ai/artifact/25Q45n15eSqG7DTZDtNQLQ (picks in its db, collection 'picks'). Findings: 'Tags and notes' on the homepage tour has no design (Claude added it 2026-09-27); end-of-vid…",
-      "description_chars": 9080,
+      "description_chars": 10709,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5002,6 +5002,34 @@
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-06"
+    },
+    {
+      "id": "SIG-565",
+      "title": "Overview chat: where the service screens stand, and what runs in parallel with the website",
+      "description": "Created 2026-10-06 ~19:55, attended (Wolf 19:37: \"We need to have an overview, a separate chat... to get a sense of where we are and what things we can get done in parallel over the coming weeks... Finalizing the service screens, getting that build processed, getting the specs done... getting the build done.\"). One status table for every app screen (mockup · spec · build · launch scope · next action · parallel or not), launch-scope calls on the concept features the website tour shows (AI summary, transcript, tag card, intention doorway), Wolf's question whether Claude Design is needed at all…",
+      "description_chars": 849,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-10-06"
     },
@@ -9802,7 +9830,7 @@
       "id": "SIG-559",
       "title": "Finish the unbuilt app screens (after the website)",
       "description": "Created 2026-10-06 ~01:40, attended (Wolf 01:19: \"make a list and we can handle that afterwards\"). From the reconciled screen inventory (_Working/SIG-242_SCREEN-INVENTORY-RECONCILED_v1_0_2026-09-12.md) + the 6 Oct search: ① member tags and notes (design from scratch; ties to SIG-196 crowd-tagging and SIG-208 Signal Ratings) ② end-of-video 'Tag this video' card (locked in the watch spec, concept only in _Working) ③ #26 share, outbound surface + per-platform copy (partial) ④ #27 refer / gift a month (not built) ⑤ #34 invite/gift, the giver's half (partial) ⑥ #29 system states (draft, lock it) ⑦…",
-      "description_chars": 1196,
+      "description_chars": 1503,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Product",
@@ -26727,6 +26755,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 6, 2026 · 6:39 PM CEST",
-  "published_at_iso": "2026-10-06T18:39:59+0200"
+  "published_at": "October 6, 2026 · 8:10 PM CEST",
+  "published_at_iso": "2026-10-06T20:10:42+0200"
 }
