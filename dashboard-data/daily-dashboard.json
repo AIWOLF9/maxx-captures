@@ -4953,7 +4953,7 @@
       "id": "SIG-558",
       "title": "How It Works tour: show the whole product on real screens (Create · Consume · Share · Earn)",
       "description": "Created 2026-10-06 ~01:20, attended (Wolf 23:54 + 00:45). Wolf: the Consume walk-through is too thin; he wants the full experience, phone and desktop. Plan sent to Wolf for a yes: a tabbed tour on How It Works (homepage-tour style) filled with REAL screens from mockups/_renders, four tabs with sub-tabs; homepage tour swaps to the same screens before pre-order. Review canvas of all 166 views with ☆ picks: https://claude.ai/artifact/25Q45n15eSqG7DTZDtNQLQ (picks in its db, collection 'picks'). Findings: 'Tags and notes' on the homepage tour has no design (Claude added it 2026-09-27); end-of-vid…",
-      "description_chars": 2445,
+      "description_chars": 2992,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4962,6 +4962,34 @@
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
       "effort_mc": "~3h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-06"
+    },
+    {
+      "id": "SIG-563",
+      "title": "Put the real-screen tour into How It Works, after Step 3",
+      "description": "Created 2026-10-06 ~03:35, attended. Wolf 03:18: \"Yes, put the tour after step 3.\" Steps 1, 2 and 3 stay as they are; the tour (screen canvas 25Q45n15eSqG7DTZDtNQLQ, sources 03_Design/Working/screen-canvas) goes between Step 3 Share and 'Watch your YouTube through Signal, anywhere'. Embed the tour images inside the page file (base64) so they add no files to the web board. Board surface sets the tour's data-surface (waitlist hides Badges). Then the same tour replaces the homepage and landing tours (with SIG-557).",
+      "description_chars": 517,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~2h",
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -9879,6 +9907,34 @@
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-06"
+    },
+    {
+      "id": "SIG-564",
+      "title": "Free file slots on the web board by repacking the image library's enlarge files",
+      "description": "Created 2026-10-06 ~03:35, attended (Wolf 03:18 asked what can be put aside). The web board is at its 511-file cap: 382 are the image library's enlarge files (data/zoom/z000-z381), 52 its thumbnail tiles, ~40 page assets, 32 old screen renders, 5 pages. Repack the 382 enlarge files into ~40 larger ones (each under the 16MB limit); this frees ~340 slots and removes nothing. Candidates to retire only with Wolf's yes: nr/homepage-trimmed.html if unused.",
+      "description_chars": 454,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Operations",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-10-06"
     },
@@ -26671,6 +26727,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 6, 2026 · 3:08 AM CEST",
-  "published_at_iso": "2026-10-06T03:08:54+0200"
+  "published_at": "October 6, 2026 · 3:24 AM CEST",
+  "published_at_iso": "2026-10-06T03:24:14+0200"
 }
