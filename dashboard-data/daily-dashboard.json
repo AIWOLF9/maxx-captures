@@ -4953,7 +4953,7 @@
       "id": "SIG-558",
       "title": "How It Works tour: show the whole product on real screens (Create · Consume · Share · Earn)",
       "description": "Created 2026-10-06 ~01:20, attended (Wolf 23:54 + 00:45). Wolf: the Consume walk-through is too thin; he wants the full experience, phone and desktop. Plan sent to Wolf for a yes: a tabbed tour on How It Works (homepage-tour style) filled with REAL screens from mockups/_renders, four tabs with sub-tabs; homepage tour swaps to the same screens before pre-order. Review canvas of all 166 views with ☆ picks: https://claude.ai/artifact/25Q45n15eSqG7DTZDtNQLQ (picks in its db, collection 'picks'). Findings: 'Tags and notes' on the homepage tour has no design (Claude added it 2026-09-27); end-of-vid…",
-      "description_chars": 15139,
+      "description_chars": 15352,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4980,8 +4980,8 @@
     {
       "id": "SIG-563",
       "title": "Put the real-screen tour into How It Works, after Step 3",
-      "description": "Created 2026-10-06 ~03:35, attended. Wolf 03:18: \"Yes, put the tour after step 3.\" Steps 1, 2 and 3 stay as they are; the tour (screen canvas 25Q45n15eSqG7DTZDtNQLQ, sources 03_Design/Working/screen-canvas) goes between Step 3 Share and 'Watch your YouTube through Signal, anywhere'. Embed the tour images inside the page file (base64) so they add no files to the web board. Board surface sets the tour's data-surface (waitlist hides Badges). Then the same tour replaces the homepage and landing tours (with SIG-557).",
-      "description_chars": 517,
+      "description": "Created 2026-10-06 ~03:35, attended. Wolf 03:18: \"Yes, put the tour after step 3.\" Steps 1, 2 and 3 stay as they are; the tour (screen canvas 25Q45n15eSqG7DTZDtNQLQ, sources 03_Design/Working/screen-canvas) goes between Step 3 Share and 'Watch your YouTube through Signal, anywhere'. Embed the tour images inside the page file (base64) so they add no files to the web board. Board surface sets the tour's data-surface (waitlist hides Badges). Then the same tour replaces the homepage and landing tours (with SIG-557). ▶ 2026-10-07 ~00:40, scope added (Wolf 00:20): besides the tour, How It Works get…",
+      "description_chars": 1126,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -26783,6 +26783,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 6, 2026 · 10:57 PM CEST",
-  "published_at_iso": "2026-10-06T22:57:27+0200"
+  "published_at": "October 7, 2026 · 12:28 AM CEST",
+  "published_at_iso": "2026-10-07T00:28:20+0200"
 }
