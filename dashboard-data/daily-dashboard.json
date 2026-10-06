@@ -4953,7 +4953,7 @@
       "id": "SIG-558",
       "title": "How It Works tour: show the whole product on real screens (Create · Consume · Share · Earn)",
       "description": "Created 2026-10-06 ~01:20, attended (Wolf 23:54 + 00:45). Wolf: the Consume walk-through is too thin; he wants the full experience, phone and desktop. Plan sent to Wolf for a yes: a tabbed tour on How It Works (homepage-tour style) filled with REAL screens from mockups/_renders, four tabs with sub-tabs; homepage tour swaps to the same screens before pre-order. Review canvas of all 166 views with ☆ picks: https://claude.ai/artifact/25Q45n15eSqG7DTZDtNQLQ (picks in its db, collection 'picks'). Findings: 'Tags and notes' on the homepage tour has no design (Claude added it 2026-09-27); end-of-vid…",
-      "description_chars": 1628,
+      "description_chars": 2445,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -26671,6 +26671,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 6, 2026 · 2:38 AM CEST",
-  "published_at_iso": "2026-10-06T02:38:29+0200"
+  "published_at": "October 6, 2026 · 3:08 AM CEST",
+  "published_at_iso": "2026-10-06T03:08:54+0200"
 }
