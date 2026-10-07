@@ -4530,34 +4530,6 @@
       "first_seen": "2026-09-22"
     },
     {
-      "id": "SIG-490",
-      "title": "The Lumen page…",
-      "description": "Created 2026-09-23, attended — Decision 154. Wolf named the curation engine Lumen (brings the light, keeps out the darkness) and asked for its own page on the website: the engine deconstructed into layers, what each layer does, without giving away IP, so a reader thinks *\"they have thought about this very well — there is a whole platform protecting me.\"* Why it matters: it is the differentiator — *\"you can really put out an app blocker and rebuild an app blocker very, very simply, so nothing special there.\"* No blocker talks about a platform. Starting reference: the NotebookLM layered/deconst…",
-      "description_chars": 10052,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-23"
-    },
-    {
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
@@ -23507,6 +23479,34 @@
       "first_seen": "2026-09-22"
     },
     {
+      "id": "SIG-490",
+      "title": "The Lumen page…",
+      "description": "Created 2026-09-23, attended — Decision 154. Wolf named the curation engine Lumen (brings the light, keeps out the darkness) and asked for its own page on the website: the engine deconstructed into layers, what each layer does, without giving away IP, so a reader thinks *\"they have thought about this very well — there is a whole platform protecting me.\"* Why it matters: it is the differentiator — *\"you can really put out an app blocker and rebuild an app blocker very, very simply, so nothing special there.\"* No blocker talks about a platform. Starting reference: the NotebookLM layered/deconst…",
+      "description_chars": 10423,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-23"
+    },
+    {
       "id": "SIG-491",
       "title": "The live competitor walk-through…",
       "description": "Created 2026-09-23, attended — Decision 155. Wolf: *\"Go to the website. Experience it as a human. Take screenshots of elements you think they do correctly. Get a sense of the whole beat of how the website works, from top to bottom, where all the calls to action are. Look at their whole website.\"* Inner pages too — *\"just get it all done at once.\"* Scope: a deep pass in the browser on ~12 sites (FeedVault, Unhook, Opal, one sec, Roots, Freedom, Brick, Light Phone, Clearspace, minimalist phone, Ground News, Matter): scroll each top to bottom at phone and desktop width, screenshot every element…",
@@ -26895,6 +26895,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 8, 2026 · 12:50 AM CEST",
-  "published_at_iso": "2026-10-08T00:50:25+0200"
+  "published_at": "October 8, 2026 · 1:05 AM CEST",
+  "published_at_iso": "2026-10-08T01:05:48+0200"
 }
