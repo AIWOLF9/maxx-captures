@@ -4978,6 +4978,62 @@
       "first_seen": "2026-10-06"
     },
     {
+      "id": "SIG-571",
+      "title": "Landing page strategy session…",
+      "description": "Created 2026-10-07 ~21:15, attended (Wolf 16:45 + 18:22: review the landing-page research incl. Sabri Suby's playbook, plan per audience — productivity seekers emphasised — then discuss; Wolf 21:10: session tomorrow). Draft v0.1 written as a live document: https://claude.ai/code/artifact/78f06bb3-fe5d-4dde-9c64-dda0f76bb8fd (pointer + summary: _Working/landing-strategy_2026-10-07/SIGNAL_LANDING-PAGE-STRATEGY_v0_1_POINTER_2026-10-07.md). New research on disk: _Working/landing-strategy_2026-10-07/SIGNAL_VOC-NEW-QUOTES_2026-10-07.md (112 verified first-person quotes: productivity 55, parents 23,…",
+      "description_chars": 1453,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-07"
+    },
+    {
+      "id": "SIG-545",
+      "title": "Animated commercials…",
+      "description": "Created 2026-10-03 by the unattended stand-up (conversion rule). Wolf asked for a set of animated commercials in the SIG-537 rounds of 2 Oct (carried unrouted by _Transcripts/closeouts/CLOSEOUT_2026-10-02_SIG537-ROUNDS-23-24.md line 39 and CLOSEOUT_2026-10-02_SIG537-ROUND25.md line 38, and again by both 10-03 closeouts). The closeouts recommended one task under 05 MARKETING, gated on the loud marketing design system (SIG-539) so the ads are not calmed down; it also waits on the message ladder in SIG-469, which every cut is cut from. Checked before creating: no task covers commercials — SIG-43…",
+      "description_chars": 1675,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-03"
+    },
+    {
       "id": "CAP-0029",
       "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
@@ -9825,6 +9881,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-06"
+    },
+    {
+      "id": "SIG-569",
+      "title": "Time a real sign-up to back '3 minutes to freedom'",
+      "description": "Created 2026-10-07 21:10, attended. Wolf ruled the step-1 line '3 minutes to freedom' (19:59) — now on How It Works, the homepage and landing page. No timing for the sign-up/create flow exists in canon (searched Product, Design Final, Marketing and Canonical .md files on 7 Oct). Before launch, time a real first-time sign-up through 'Built'; if it runs long, change the number or the flow.",
+      "description_chars": 390,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": "SIG-570",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "joint-owner",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-10-07"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -24126,7 +24210,7 @@
       "id": "SIG-567",
       "title": "How It Works: Wolf's full-page review round (CTA, Share step, superpowers, comparison pop-up, step 1 copy everywhere)",
       "description": "Created 2026-10-07 ~20:20, attended (Wolf 19:59). Done the same session. ① Closing call to action is a command, not a question: 'Take back control of what nourishes your mind.' + 'Get back your time and your focus. Filter out the noise.' (no 'Ready…?' anywhere on the site — checked homepage, landing, How It Works). ② Share step: 'Once you join MAXX Signal, you get your own link: maxxsignal.com/maya'; 'Curate your Signal…' paragraph moved under the four profile cards, 'Curate your Signal' cyan, newsletter line folded in; 'One example creator, made up for this page' line removed. ③ Features sec…",
-      "description_chars": 2786,
+      "description_chars": 2929,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -24135,7 +24219,7 @@
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
       "effort_mc": null,
-      "effort_wolf": "SIG-545",
+      "effort_wolf": "SIG-568",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "done",
@@ -26783,6 +26867,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 7, 2026 · 8:20 PM CEST",
-  "published_at_iso": "2026-10-07T20:20:11+0200"
+  "published_at": "October 7, 2026 · 9:17 PM CEST",
+  "published_at_iso": "2026-10-07T21:17:06+0200"
 }
