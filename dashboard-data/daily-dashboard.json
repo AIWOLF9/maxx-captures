@@ -4533,7 +4533,7 @@
       "id": "SIG-490",
       "title": "The Lumen page…",
       "description": "Created 2026-09-23, attended — Decision 154. Wolf named the curation engine Lumen (brings the light, keeps out the darkness) and asked for its own page on the website: the engine deconstructed into layers, what each layer does, without giving away IP, so a reader thinks *\"they have thought about this very well — there is a whole platform protecting me.\"* Why it matters: it is the differentiator — *\"you can really put out an app blocker and rebuild an app blocker very, very simply, so nothing special there.\"* No blocker talks about a platform. Starting reference: the NotebookLM layered/deconst…",
-      "description_chars": 3063,
+      "description_chars": 3533,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9727,34 +9727,6 @@
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
       "effort_mc": "~15m",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-05"
-    },
-    {
-      "id": "SIG-557",
-      "title": "Homepage: bring in the styling Wolf ruled on How It Works",
-      "description": "Created 2026-10-05 23:45, attended (Wolf 21:09–23:42 on How It Works). When the homepage is next rebuilt: ① Signal in every headline, eyebrow and step title cyan (cyan_signal() in build_howitworks.py); ② Lumen and \"anti-algorithm\" gold; ③ the bold line inside each expanding card in Meet Lumen (6.3) and What stays out (6.4) cyan; ④ the 6.3 link reads \"Meet Lumen, the MAXX Signal curation engine →\", centred, Lumen gold. Do it in the same round as SIG-555. ▶ 2026-10-07: also carries the homepage + landing tour swap moved from SIG-563 — replace the homepage 6.2b tour and the landing tour with the…",
-      "description_chars": 669,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~45m",
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -26517,6 +26489,34 @@
       "first_seen": "2026-10-03"
     },
     {
+      "id": "SIG-557",
+      "title": "Homepage: bring in the styling Wolf ruled on How It Works",
+      "description": "Created 2026-10-05 23:45, attended (Wolf 21:09–23:42 on How It Works). When the homepage is next rebuilt: ① Signal in every headline, eyebrow and step title cyan (cyan_signal() in build_howitworks.py); ② Lumen and \"anti-algorithm\" gold; ③ the bold line inside each expanding card in Meet Lumen (6.3) and What stays out (6.4) cyan; ④ the 6.3 link reads \"Meet Lumen, the MAXX Signal curation engine →\", centred, Lumen gold. Do it in the same round as SIG-555. ▶ 2026-10-07: also carries the homepage + landing tour swap moved from SIG-563 — replace the homepage 6.2b tour and the landing tour with the…",
+      "description_chars": 2429,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~45m",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-05"
+    },
+    {
       "id": "SIG-564",
       "title": "Free file slots on the web board by repacking the image library's enlarge files",
       "description": "Created 2026-10-06 ~03:35, attended (Wolf 03:18 asked what can be put aside). The web board is at its 511-file cap: 382 are the image library's enlarge files (data/zoom/z000-z381), 52 its thumbnail tiles, ~40 page assets, 32 old screen renders, 5 pages. Repack the 382 enlarge files into ~40 larger ones (each under the 16MB limit); this frees ~340 slots and removes nothing. Candidates to retire only with Wolf's yes: nr/homepage-trimmed.html if unused. ▶ 2026-10-06, scheduled stand-up: Workstream cell was BOARD, which is outside the closed set (WEBSITE, BILLING, —; adding a value is a request t…",
@@ -26783,6 +26783,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 7, 2026 · 12:58 AM CEST",
-  "published_at_iso": "2026-10-07T00:58:43+0200"
+  "published_at": "October 7, 2026 · 2:59 AM CEST",
+  "published_at_iso": "2026-10-07T02:59:31+0200"
 }
