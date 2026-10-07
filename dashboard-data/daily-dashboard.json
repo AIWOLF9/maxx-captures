@@ -9715,34 +9715,6 @@
       "first_seen": "2026-10-05"
     },
     {
-      "id": "SIG-555",
-      "title": "Homepage 'What stays out' (6.4) lead is clipped at desktop width…",
-      "description": "Created 2026-10-05 ~19:10, attended (found by the independent review of How It Works). At 1440 px the 6.4 lead ('Explicit content, graphic violence… Change anything you like.') runs on one line (white-space:nowrap from the motion kit's typed-line class) and cuts 'Change anything you like.' off at the right edge — measured: scrollWidth 1306 vs 1034 px, on the live homepage and on How It Works (fixed there with an override). Fix = the same one-line override as a pipeline round 46 + board reload; no words or colours change. Waiting on Wolf's yes (question 2 in the How It Works review doc).",
-      "description_chars": 593,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~15m",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-05"
-    },
-    {
       "id": "SIG-559",
       "title": "Finish the unbuilt app screens (after the website)",
       "description": "Created 2026-10-06 ~01:40, attended (Wolf 01:19: \"make a list and we can handle that afterwards\"). From the reconciled screen inventory (_Working/SIG-242_SCREEN-INVENTORY-RECONCILED_v1_0_2026-09-12.md) + the 6 Oct search: ① member tags and notes (design from scratch; ties to SIG-196 crowd-tagging and SIG-208 Signal Ratings) ② end-of-video 'Tag this video' card (locked in the watch spec, concept only in _Working) ③ #26 share, outbound surface + per-platform copy (partial) ④ #27 refer / gift a month (not built) ⑤ #34 invite/gift, the giver's half (partial) ⑥ #29 system states (draft, lock it) ⑦…",
@@ -26489,6 +26461,34 @@
       "first_seen": "2026-10-03"
     },
     {
+      "id": "SIG-555",
+      "title": "Homepage 'What stays out' (6.4) lead is clipped at desktop width…",
+      "description": "Created 2026-10-05 ~19:10, attended (found by the independent review of How It Works). At 1440 px the 6.4 lead ('Explicit content, graphic violence… Change anything you like.') runs on one line (white-space:nowrap from the motion kit's typed-line class) and cuts 'Change anything you like.' off at the right edge — measured: scrollWidth 1306 vs 1034 px, on the live homepage and on How It Works (fixed there with an override). Fix = the same one-line override as a pipeline round 46 + board reload; no words or colours change. Waiting on Wolf's yes (question 2 in the How It Works review doc). ▶ 202…",
+      "description_chars": 1156,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~15m",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-05"
+    },
+    {
       "id": "SIG-557",
       "title": "Homepage: bring in the styling Wolf ruled on How It Works",
       "description": "Created 2026-10-05 23:45, attended (Wolf 21:09–23:42 on How It Works). When the homepage is next rebuilt: ① Signal in every headline, eyebrow and step title cyan (cyan_signal() in build_howitworks.py); ② Lumen and \"anti-algorithm\" gold; ③ the bold line inside each expanding card in Meet Lumen (6.3) and What stays out (6.4) cyan; ④ the 6.3 link reads \"Meet Lumen, the MAXX Signal curation engine →\", centred, Lumen gold. Do it in the same round as SIG-555. ▶ 2026-10-07: also carries the homepage + landing tour swap moved from SIG-563 — replace the homepage 6.2b tour and the landing tour with the…",
@@ -26783,6 +26783,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 7, 2026 · 6:34 PM CEST",
-  "published_at_iso": "2026-10-07T18:34:12+0200"
+  "published_at": "October 7, 2026 · 6:49 PM CEST",
+  "published_at_iso": "2026-10-07T18:49:19+0200"
 }
