@@ -4953,7 +4953,7 @@
       "id": "SIG-565",
       "title": "Overview chat: where the service screens stand, and what runs in parallel with the website",
       "description": "Created 2026-10-06 ~19:55, attended (Wolf 19:37: \"We need to have an overview, a separate chat... to get a sense of where we are and what things we can get done in parallel over the coming weeks... Finalizing the service screens, getting that build processed, getting the specs done... getting the build done.\"). One status table for every app screen (mockup · spec · build · launch scope · next action · parallel or not), launch-scope calls on the concept features the website tour shows (AI summary, transcript, tag card, intention doorway), Wolf's question whether Claude Design is needed at all…",
-      "description_chars": 849,
+      "description_chars": 1156,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -23314,7 +23314,7 @@
       "id": "SIG-465",
       "title": "Master index per department…",
       "description": "Created 2026-09-16, attended, on Wolf's explicit instruction to make this an operating procedure, not a one-off. Wolf: *\"If we used these master index files that have everything needed, with all the mockups and a proper index that describes everything with the proper descriptions and keywords, then it'd be much easier to find. That's what I also want to do for all the content, all the library, everything related to that… As we look at each major area, we create a master index because we're going to be creating lots of documents, and everything is in one place by department.\"* ⚠️ CHECKED BEFOR…",
-      "description_chars": 13229,
+      "description_chars": 13941,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Product",
@@ -26783,6 +26783,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 7, 2026 · 2:59 AM CEST",
-  "published_at_iso": "2026-10-07T02:59:31+0200"
+  "published_at": "October 7, 2026 · 9:31 AM CEST",
+  "published_at_iso": "2026-10-07T09:31:31+0200"
 }
