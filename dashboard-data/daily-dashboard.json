@@ -24126,7 +24126,7 @@
       "id": "SIG-563",
       "title": "Put the real-screen tour into How It Works, after Step 3",
       "description": "Created 2026-10-06 ~03:35, attended. Wolf 03:18: \"Yes, put the tour after step 3.\" Steps 1, 2 and 3 stay as they are; the tour (screen canvas 25Q45n15eSqG7DTZDtNQLQ, sources 03_Design/Working/screen-canvas) goes between Step 3 Share and 'Watch your YouTube through Signal, anywhere'. Embed the tour images inside the page file (base64) so they add no files to the web board. Board surface sets the tour's data-surface (waitlist hides Badges). Then the same tour replaces the homepage and landing tours (with SIG-557). ▶ 2026-10-07 ~00:40, scope added (Wolf 00:20): besides the tour, How It Works get…",
-      "description_chars": 3727,
+      "description_chars": 4533,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -26783,6 +26783,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 7, 2026 · 6:49 PM CEST",
-  "published_at_iso": "2026-10-07T18:49:19+0200"
+  "published_at": "October 7, 2026 · 7:19 PM CEST",
+  "published_at_iso": "2026-10-07T19:19:47+0200"
 }
