@@ -4533,7 +4533,7 @@
       "id": "SIG-490",
       "title": "The Lumen page…",
       "description": "Created 2026-09-23, attended — Decision 154. Wolf named the curation engine Lumen (brings the light, keeps out the darkness) and asked for its own page on the website: the engine deconstructed into layers, what each layer does, without giving away IP, so a reader thinks *\"they have thought about this very well — there is a whole platform protecting me.\"* Why it matters: it is the differentiator — *\"you can really put out an app blocker and rebuild an app blocker very, very simply, so nothing special there.\"* No blocker talks about a platform. Starting reference: the NotebookLM layered/deconst…",
-      "description_chars": 5170,
+      "description_chars": 6388,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4976,6 +4976,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-10-06"
+    },
+    {
+      "id": "SIG-545",
+      "title": "Animated commercials…",
+      "description": "Created 2026-10-03 by the unattended stand-up (conversion rule). Wolf asked for a set of animated commercials in the SIG-537 rounds of 2 Oct (carried unrouted by _Transcripts/closeouts/CLOSEOUT_2026-10-02_SIG537-ROUNDS-23-24.md line 39 and CLOSEOUT_2026-10-02_SIG537-ROUND25.md line 38, and again by both 10-03 closeouts). The closeouts recommended one task under 05 MARKETING, gated on the loud marketing design system (SIG-539) so the ads are not calmed down; it also waits on the message ladder in SIG-469, which every cut is cut from. Checked before creating: no task covers commercials — SIG-43…",
+      "description_chars": 1675,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-03"
     },
     {
       "id": "CAP-0029",
@@ -26867,6 +26895,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 7, 2026 · 10:18 PM CEST",
-  "published_at_iso": "2026-10-07T22:18:26+0200"
+  "published_at": "October 7, 2026 · 11:19 PM CEST",
+  "published_at_iso": "2026-10-07T23:19:08+0200"
 }
