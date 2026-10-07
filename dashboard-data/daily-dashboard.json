@@ -4950,6 +4950,62 @@
       "first_seen": "2026-10-06"
     },
     {
+      "id": "SIG-575",
+      "title": "The after-joining message…",
+      "description": "Created 2026-10-08 01:35, attended (Decision 197; Wolf 01:16 and 01:27). Not a separate page: the join box itself becomes the message, on phone and desktop, and may grow to fit. Wolf's direction: they are ON THE WAITLIST (not 'in'; we tell them later whether they made the first 10,000); never say it is ready or on its way — 'you just took back control of what nourishes your mind and protects it from what harms it; we're working hard to create your YouTube with superpowers; we'll let you know the next steps soon'; thank them for joining the movement to fight the algorithm and stop the mind vir…",
+      "description_chars": 1208,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-08"
+    },
+    {
+      "id": "SIG-576",
+      "title": "The Toxic Algorithm page (with The Evidence tab)…",
+      "description": "Created 2026-10-08 01:35, attended (Decision 197; Wolf 01:16). Wave 2, first page. Per the process: its own spec doc → mockup → build → THE BOARD. Wolf wants: how toxic algorithms work explained with animations and visuals (the whole loop; reuse our existing imagery where it fits), and a mockup of the Evidence section showing what it includes from all our research and how it is grouped into sections. Starting material: the Website Page Plan doc section 4 (chapters, the searchable library, torn-paper headline cards, the two charts to recreate, the attention thread); the verified receipts; the…",
+      "description_chars": 814,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-08"
+    },
+    {
       "id": "SIG-545",
       "title": "Animated commercials…",
       "description": "Created 2026-10-03 by the unattended stand-up (conversion rule). Wolf asked for a set of animated commercials in the SIG-537 rounds of 2 Oct (carried unrouted by _Transcripts/closeouts/CLOSEOUT_2026-10-02_SIG537-ROUNDS-23-24.md line 39 and CLOSEOUT_2026-10-02_SIG537-ROUND25.md line 38, and again by both 10-03 closeouts). The closeouts recommended one task under 05 MARKETING, gated on the loud marketing design system (SIG-539) so the ads are not calmed down; it also waits on the message ladder in SIG-469, which every cut is cut from. Checked before creating: no task covers commercials — SIG-43…",
@@ -26895,6 +26951,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 8, 2026 · 1:21 AM CEST",
-  "published_at_iso": "2026-10-08T01:21:11+0200"
+  "published_at": "October 8, 2026 · 1:36 AM CEST",
+  "published_at_iso": "2026-10-08T01:36:29+0200"
 }
