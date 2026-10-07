@@ -26492,7 +26492,7 @@
       "id": "SIG-557",
       "title": "Homepage: bring in the styling Wolf ruled on How It Works",
       "description": "Created 2026-10-05 23:45, attended (Wolf 21:09–23:42 on How It Works). When the homepage is next rebuilt: ① Signal in every headline, eyebrow and step title cyan (cyan_signal() in build_howitworks.py); ② Lumen and \"anti-algorithm\" gold; ③ the bold line inside each expanding card in Meet Lumen (6.3) and What stays out (6.4) cyan; ④ the 6.3 link reads \"Meet Lumen, the MAXX Signal curation engine →\", centred, Lumen gold. Do it in the same round as SIG-555. ▶ 2026-10-07: also carries the homepage + landing tour swap moved from SIG-563 — replace the homepage 6.2b tour and the landing tour with the…",
-      "description_chars": 2429,
+      "description_chars": 2904,
       "status": "s-done",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -26783,6 +26783,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 7, 2026 · 7:19 PM CEST",
-  "published_at_iso": "2026-10-07T19:19:47+0200"
+  "published_at": "October 7, 2026 · 7:34 PM CEST",
+  "published_at_iso": "2026-10-07T19:34:55+0200"
 }
