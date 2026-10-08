@@ -3525,7 +3525,7 @@
       "id": "SIG-379",
       "title": "Social account setup…",
       "description": "Added 2026-08-12 in SIG-378 (attended, Wolf's instruction; split out of SIG-165 and routed out of SIG-373). Wolf, verbatim in substance: *\"an external setup of all the accounts we need to set up in order to start doing the go-to-market — LinkedIn, X, Instagram, YouTube, TikTok, etc.\"* SIG-373's own text flagged that the social accounts *\"appear on no list anywhere\"*; they were in fact half-buried inside SIG-165, at P2, behind a SIG-174 gate, invisible. Scope: create the accounts and CLAIM THE HANDLES only — consistent handle across all five, plus a reserved handle on any platform we are not l…",
-      "description_chars": 1105,
+      "description_chars": 1447,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -27119,6 +27119,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 9, 2026 · 12:19 AM CEST",
-  "published_at_iso": "2026-10-09T00:19:55+0200"
+  "published_at": "October 9, 2026 · 12:35 AM CEST",
+  "published_at_iso": "2026-10-09T00:35:13+0200"
 }
