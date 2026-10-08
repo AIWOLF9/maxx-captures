@@ -4978,38 +4978,10 @@
       "first_seen": "2026-10-07"
     },
     {
-      "id": "SIG-575",
-      "title": "The after-joining message…",
-      "description": "Created 2026-10-08 01:35, attended (Decision 197; Wolf 01:16 and 01:27). Not a separate page: the join box itself becomes the message, on phone and desktop, and may grow to fit. Wolf's direction: they are ON THE WAITLIST (not 'in'; we tell them later whether they made the first 10,000); never say it is ready or on its way — 'you just took back control of what nourishes your mind and protects it from what harms it; we're working hard to create your YouTube with superpowers; we'll let you know the next steps soon'; thank them for joining the movement to fight the algorithm and stop the mind vir…",
-      "description_chars": 1208,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-08"
-    },
-    {
       "id": "SIG-576",
       "title": "The Toxic Algorithm page (with The Evidence tab)…",
       "description": "Created 2026-10-08 01:35, attended (Decision 197; Wolf 01:16). Wave 2, first page. Per the process: its own spec doc → mockup → build → THE BOARD. Wolf wants: how toxic algorithms work explained with animations and visuals (the whole loop; reuse our existing imagery where it fits), and a mockup of the Evidence section showing what it includes from all our research and how it is grouped into sections. Starting material: the Website Page Plan doc section 4 (chapters, the searchable library, torn-paper headline cards, the two charts to recreate, the attention thread); the verified receipts; the…",
-      "description_chars": 814,
+      "description_chars": 1479,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -24403,6 +24375,34 @@
       "first_seen": "2026-10-07"
     },
     {
+      "id": "SIG-575",
+      "title": "The after-joining message…",
+      "description": "Created 2026-10-08 01:35, attended (Decision 197; Wolf 01:16 and 01:27). Not a separate page: the join box itself becomes the message, on phone and desktop, and may grow to fit. Wolf's direction: they are ON THE WAITLIST (not 'in'; we tell them later whether they made the first 10,000); never say it is ready or on its way — 'you just took back control of what nourishes your mind and protects it from what harms it; we're working hard to create your YouTube with superpowers; we'll let you know the next steps soon'; thank them for joining the movement to fight the algorithm and stop the mind vir…",
+      "description_chars": 2067,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-08"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -27119,6 +27119,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 8, 2026 · 11:49 PM CEST",
-  "published_at_iso": "2026-10-08T23:49:19+0200"
+  "published_at": "October 9, 2026 · 12:04 AM CEST",
+  "published_at_iso": "2026-10-09T00:04:37+0200"
 }
