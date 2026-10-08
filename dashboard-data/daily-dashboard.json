@@ -5034,6 +5034,34 @@
       "first_seen": "2026-10-08"
     },
     {
+      "id": "SIG-578",
+      "title": "Spec the 'Why am I seeing this?' panel for launch (it ships at launch, Decision 199)",
+      "description": "Created 2026-10-08, attended (Decision 199; Wolf: \"Why am I seeing this? Yes, we will have it for launch.\"). The feature moved from B2 to launch, but its panel is not specified anywhere: UX Foundations §F7 says the ⋮ item \"opens transparency panel (below)\" and no panel section follows; PRD §10.4.5 describes only a B1 placeholder. Write the launch spec: what the panel shows (channel, creator, the intention or topic matched, followed-creator prioritisation, the quality reasons from scoringNotes), on phone and desktop, in the calm product register, matching what the Meet Lumen page and the How I…",
+      "description_chars": 947,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-10-08"
+    },
+    {
       "id": "SIG-545",
       "title": "Animated commercials…",
       "description": "Created 2026-10-03 by the unattended stand-up (conversion rule). Wolf asked for a set of animated commercials in the SIG-537 rounds of 2 Oct (carried unrouted by _Transcripts/closeouts/CLOSEOUT_2026-10-02_SIG537-ROUNDS-23-24.md line 39 and CLOSEOUT_2026-10-02_SIG537-ROUND25.md line 38, and again by both 10-03 closeouts). The closeouts recommended one task under 05 MARKETING, gated on the loud marketing design system (SIG-539) so the ads are not calmed down; it also waits on the message ladder in SIG-469, which every cut is cut from. Checked before creating: no task covers commercials — SIG-43…",
@@ -26825,6 +26853,34 @@
       "first_seen": "2026-10-08"
     },
     {
+      "id": "SIG-577",
+      "title": "Write Lumen's eight layer names into the Curation Engine spec and Brand",
+      "description": "Created and done 2026-10-08, attended (Wolf, stand-up chat: \"the answer is yes\"; Decision 198). Wrote Lumen's eight named layers into canon so specs and copy use the same words. Brand v1.5.17 → v1.5.18, new §2.6 (names + published descriptions, extracted by script from _Working/narrative-pipeline/lumen_hero.py; prior archived 00_Canonical/Archive/MAXX_Signal_Brand_v1_5_17_pre-D198_2026-10-08.md). Curation Engine spec §1.7 (layer → pipeline-stage map, in place, no version bump; prior archived 02_Product/Archive/MAXX_Signal_Curation_Engine_v1_3_pre-D198_2026-10-08.md). Decision 198 filed. ⚠️ Tw…",
+      "description_chars": 1021,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Brand",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-10-08"
+    },
+    {
       "id": "CF-OPENERS-SPENT-NOT-ARCHIVED-1",
       "title": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE…",
       "description": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE — measured, then repaired. Was Cancelled on 2026-08-07 as merged into CF-CONF-OPENERS-UNCOUNTABLE-1; the merge target's own count was wrong, so the residue was never actually addressed — §5.4.1 item 7, *a merge onto a blocked target is parked with extra steps*, visible here in miniature. Enumerated 2026-08-11: 31 opener-named files at the top level of _MAXX_OS/Working/. 29 moved to Working/openers-archive/ (28 → 57 files), per §5.8 *\"new openers go to Working/; spent ones go to Working/openers-archive/.\"* Two deliberately left: MC-LAUNCHD-LANE…",
@@ -27063,6 +27119,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 8, 2026 · 9:23 AM CEST",
-  "published_at_iso": "2026-10-08T09:23:53+0200"
+  "published_at": "October 8, 2026 · 11:49 PM CEST",
+  "published_at_iso": "2026-10-08T23:49:19+0200"
 }
