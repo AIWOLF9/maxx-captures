@@ -4897,7 +4897,7 @@
       "id": "SIG-576",
       "title": "The Toxic Algorithm page (with The Evidence tab)…",
       "description": "Created 2026-10-08 01:35, attended (Decision 197; Wolf 01:16). Wave 2, first page. Per the process: its own spec doc → mockup → build → THE BOARD. Wolf wants: how toxic algorithms work explained with animations and visuals (the whole loop; reuse our existing imagery where it fits), and a mockup of the Evidence section showing what it includes from all our research and how it is grouped into sections. Starting material: the Website Page Plan doc section 4 (chapters, the searchable library, torn-paper headline cards, the two charts to recreate, the attention thread); the verified receipts; the…",
-      "description_chars": 3739,
+      "description_chars": 4615,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -27119,6 +27119,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 9, 2026 · 1:20 AM CEST",
-  "published_at_iso": "2026-10-09T01:20:58+0200"
+  "published_at": "October 9, 2026 · 1:36 AM CEST",
+  "published_at_iso": "2026-10-09T01:36:18+0200"
 }
