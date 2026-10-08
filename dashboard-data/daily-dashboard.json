@@ -673,62 +673,6 @@
       "first_seen": "2026-08-05"
     },
     {
-      "id": "SIG-357",
-      "title": "Site architecture v1…",
-      "description": "Added 2026-08-10 (Wolf instruction: put the review deliverables on the master board). Proposed in _Working/SIG-306d_OPENER_2026-08-10.md and held until the section list was agreed; created now so it is tracked rather than living in an opener file (anti-slip rule). Turn the agreed section list into a frozen architecture: the 14-route skeleton confirmed or cut, the nav named, and a per-section breakdown authored for every homepage section that currently has only a one-line job description. Sources already on disk: _Working/SIGNAL_WEBSITE_MASTER_MAP_2026-08-09.html (routes + 11 homepage sections…",
-      "description_chars": 3845,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": "1-5",
-      "deadline_label": "Phase P5",
-      "deadline_class": "d-future",
-      "effort_mc": "6h",
-      "effort_wolf": "1.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-08-11"
-    },
-    {
-      "id": "SIG-358",
-      "title": "The SIG-306d website writing set…",
-      "description": "✅ 2026-09-25 — THE BLOCKER ON THIS ROW IS CLEARED, AND THE TITLE IS NOW CORRECT. SIG-486 is ruled: Decision 149 places Decision 140's five promise items into the WITH SIGNAL / WITHOUT SIGNAL comparison, with privacy in the privacy beat. Decision 84 stands — there is no *Our Promises* section to author, and the 2026-08-28 note below that withdrew item (2) is now backed by a ruling rather than pending one. What this row now authors: The Argument · the with/without comparison · the founder letter. The retired draft at _Working/SIGNAL_OUR-PROMISES_v0_1_DRAFT_2026-08-10.md is raw material for comp…",
-      "description_chars": 9593,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": "1-5",
-      "deadline_label": "Phase P5",
-      "deadline_class": "d-future",
-      "effort_mc": "4h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-08-11"
-    },
-    {
       "id": "SIG-361",
       "title": "Login + forgot-password screen package…",
       "description": "Added 2026-08-11 (attended; surfaced by Wolf: *\"that's the one part I think we still need to finalize… which I don't think we have spoken about\"*). There is no login screen in any screen spec — SIG-315 flagged Auth + Landing as orphans on 2026-08-03 and it was never resolved. Every launch email we send says \"come log in\" and points at a screen that does not exist. Package: (1) login — email-first lookup, so a Google/Apple user is never asked for a password they never set (Wolf: *\"I've run into this issue myself\"*; this is the #1 support ticket in this pattern); (2) forgot password; (3) reset…",
@@ -4502,34 +4446,6 @@
       "first_seen": "2026-09-22"
     },
     {
-      "id": "SIG-485",
-      "title": "The How It Works carousel / product tour needs its own review…",
-      "description": "Created 2026-09-23, attended, from Wolf's own correction. He said plainly: *\"the carousel we built, again, was in early days, so nothing was finished. You had just thrown in some images, which are not necessarily correct.\"* 🔴 So SIG-480's recommendation — that the eight-step carousel becomes its own beat after 6.2 — is a recommendation about a MODULE, not an endorsement of its current contents. The eight steps (Curate channels · Curate videos · Curate creators · Keep out the noise · AI summaries & transcripts · Signal search · Mindful shorts · Share your Signal) need re-deciding against the s…",
-      "description_chars": 986,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-22"
-    },
-    {
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
@@ -4617,7 +4533,7 @@
       "id": "SIG-516",
       "title": "Pages batch A…",
       "description": "Created 2026-09-28 18:49 (Decision 162). Built with the six-step page process: Waitlist confirmation · How it works · FAQ (from the competitor FAQ harvest, SIG-498) · For Families and For Organizations (SIG-501) · the parents and students landing pages (SIG-510). One to two chats; Claude Design once for the batch. Record actual elapsed time per page. 2026-10-04 (Wolf 01:41): every audience page (Families, Students, Schools, Work) carries a FORM, and Contact is a FORM with a topic dropdown — all into one managed place, never a raw email inbox. Field spec (one form, audience set by the page; ≤6…",
-      "description_chars": 5444,
+      "description_chars": 5831,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -15199,6 +15115,34 @@
       "first_seen": "2026-07-31"
     },
     {
+      "id": "SIG-358",
+      "title": "The SIG-306d website writing set…",
+      "description": "✅ 2026-09-25 — THE BLOCKER ON THIS ROW IS CLEARED, AND THE TITLE IS NOW CORRECT. SIG-486 is ruled: Decision 149 places Decision 140's five promise items into the WITH SIGNAL / WITHOUT SIGNAL comparison, with privacy in the privacy beat. Decision 84 stands — there is no *Our Promises* section to author, and the 2026-08-28 note below that withdrew item (2) is now backed by a ruling rather than pending one. What this row now authors: The Argument · the with/without comparison · the founder letter. The retired draft at _Working/SIGNAL_OUR-PROMISES_v0_1_DRAFT_2026-08-10.md is raw material for comp…",
+      "description_chars": 9782,
+      "status": "s-blocked",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "4h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "info",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-11"
+    },
+    {
       "id": "CF-ALERT-TWICE-NO-OWNER-1",
       "title": "An alert that fires twice acquires no owner, so a correct detector produces zero response indefinitely…",
       "description": "An alert that fires twice acquires no owner, so a correct detector produces zero response indefinitely. Measured 2026-08-30: maxx-canonical-views-render wrote a canonical-views-drift alert on 2026-08-28, 08-29 and 08-30 — all three correct, all three drained by the launchd job exactly as designed, all three unanswered, because detection has an owner and response does not. This substrate now has more detectors than responders (five synthesis claims retracted, one headline retracted 08-30b, three items corrected 08-30c) and adding another detector is the lower-value move. Proposed rule, NOT rul…",
@@ -19117,6 +19061,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-08"
+    },
+    {
+      "id": "SIG-357",
+      "title": "Site architecture v1…",
+      "description": "Added 2026-08-10 (Wolf instruction: put the review deliverables on the master board). Proposed in _Working/SIG-306d_OPENER_2026-08-10.md and held until the section list was agreed; created now so it is tracked rather than living in an opener file (anti-slip rule). Turn the agreed section list into a frozen architecture: the 14-route skeleton confirmed or cut, the nav named, and a per-section breakdown authored for every homepage section that currently has only a one-line job description. Sources already on disk: _Working/SIGNAL_WEBSITE_MASTER_MAP_2026-08-09.html (routes + 11 homepage sections…",
+      "description_chars": 4134,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": "1-5",
+      "deadline_label": "Phase P5",
+      "deadline_class": "d-future",
+      "effort_mc": "6h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-11"
     },
     {
       "id": "SIG-359",
@@ -23563,6 +23535,34 @@
       "first_seen": "2026-09-22"
     },
     {
+      "id": "SIG-485",
+      "title": "The How It Works carousel / product tour needs its own review…",
+      "description": "Created 2026-09-23, attended, from Wolf's own correction. He said plainly: *\"the carousel we built, again, was in early days, so nothing was finished. You had just thrown in some images, which are not necessarily correct.\"* 🔴 So SIG-480's recommendation — that the eight-step carousel becomes its own beat after 6.2 — is a recommendation about a MODULE, not an endorsement of its current contents. The eight steps (Curate channels · Curate videos · Curate creators · Keep out the noise · AI summaries & transcripts · Signal search · Mindful shorts · Share your Signal) need re-deciding against the s…",
+      "description_chars": 1285,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-22"
+    },
+    {
       "id": "SIG-486",
       "title": "Rule the promise-block framing collision…",
       "description": "✅ DONE 2026-09-25, attended. Wolf ruled: THE COMPARISON (Reading B). The five promise items fold into the WITH SIGNAL / WITHOUT SIGNAL comparison; privacy goes to the privacy beat; Decision 84 stands and there is no standalone promise section. EVIDENCE — the Decision 59 cascade ran in the same session, four documents: (1) 00_Canonical/Final/MAXX_Signal_Decisions_Log_v1_4.md — new Decision 149 (D-SIG-2026-09-25-SIG486) appended, and Decision 140 ②'s *not landed / needs one word from Wolf* marker struck and pointed at it; (2) 00_Canonical/Final/MAXX_Signal_Brand_v1_5_10.md — header bumped v1.5.…",
@@ -27119,6 +27119,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 9, 2026 · 12:04 AM CEST",
-  "published_at_iso": "2026-10-09T00:04:37+0200"
+  "published_at": "October 9, 2026 · 12:19 AM CEST",
+  "published_at_iso": "2026-10-09T00:19:55+0200"
 }
