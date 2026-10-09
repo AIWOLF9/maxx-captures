@@ -4785,7 +4785,7 @@
       "id": "SIG-552",
       "title": "Forms → HubSpot: connect HubSpot, wire every website form in, and send an automatic thank-you with links",
       "description": "Created 2026-10-05 03:21, attended — Wolf (Decision 192 ①): *\"I want a solution that you're able to connect to through a plugin or connector, so you can manage everything.\"* Wolf: create the HubSpot account and connect the HubSpot connector (claude.ai). Claude: wire the audience forms, ambassador application and share form; thank-you emails per form (links: How It Works, Impact Index, Ambassador, audience pages); meeting-booking link for partner-level applicants; ambassador stages Applied → Reviewing → Accepted → Declined. Waitlist stays in our database + Resend. 2026-10-05 03:40 — HubSpot co…",
-      "description_chars": 3790,
+      "description_chars": 4029,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Engineering",
@@ -4896,8 +4896,8 @@
     {
       "id": "SIG-579",
       "title": "Wolf reviews The Toxic Algorithm page (both tabs) on THE BOARD, and the Evidence search gets its tweaks",
-      "description": "Created 2026-10-09 02:25, attended (Wolf 02:13: \"After you add it to the board… we can tweak up this search function\"; 02:18: \"I will look at it tomorrow morning\"). Wolf walks /the-toxic-algorithm and /the-toxic-algorithm/evidence on THE BOARD (computer + phone). Claude makes his changes in build_toxic.py / build_evidence.py, rebuilds, and republishes the board. The Evidence search is folded into one bar that opens on tap (built 02:20); Wolf to confirm or change it.",
-      "description_chars": 470,
+      "description": "Created 2026-10-09 02:25, attended (Wolf 02:13: \"After you add it to the board… we can tweak up this search function\"; 02:18: \"I will look at it tomorrow morning\"). Wolf walks /the-toxic-algorithm and /the-toxic-algorithm/evidence on THE BOARD (computer + phone). Claude makes his changes in build_toxic.py / build_evidence.py, rebuilds, and republishes the board. The Evidence search is folded into one bar that opens on tap (built 02:20); Wolf to confirm or change it. 2026-10-09 stand-up (Wolf, attended): Decision 200 filed — the page lock and the link rule: outside links open in a new tab on e…",
+      "description_chars": 844,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9550,7 +9550,7 @@
       "id": "SIG-536",
       "title": "Delaware \"MAXX Signal\" trade-name papers…",
       "description": "Created 2026-10-01, attended, closing out SIG-326. Mission Control asked for the Trade Name Only licence PDF (licence 2026715811) and the Delaware One Stop registration confirmation (2026-10-01, 11:48 AM) to be filed in 08_Legal/. Neither file is in the Signal folder — searched every PDF modified since 2026-09-29 and every filename containing \"trade name\" or \"one stop\" on 2026-10-01; none found. Wolf's part (about 2 minutes): drop both files into 08_Legal/Final/ or _Inbox/. Claude's part: rename them to the legal naming pattern (e.g. MSIG-LEGAL-DE-TRADE-NAME-LICENCE_2026715811_2026-09-29.pdf,…",
-      "description_chars": 1983,
+      "description_chars": 2218,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Legal",
@@ -27175,6 +27175,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 9, 2026 · 2:10 PM CEST",
-  "published_at_iso": "2026-10-09T14:10:48+0200"
+  "published_at": "October 9, 2026 · 2:41 PM CEST",
+  "published_at_iso": "2026-10-09T14:41:01+0200"
 }
