@@ -4897,7 +4897,7 @@
       "id": "SIG-579",
       "title": "Wolf reviews The Toxic Algorithm page (both tabs) on THE BOARD, and the Evidence search gets its tweaks",
       "description": "Created 2026-10-09 02:25, attended (Wolf 02:13: \"After you add it to the board… we can tweak up this search function\"; 02:18: \"I will look at it tomorrow morning\"). Wolf walks /the-toxic-algorithm and /the-toxic-algorithm/evidence on THE BOARD (computer + phone). Claude makes his changes in build_toxic.py / build_evidence.py, rebuilds, and republishes the board. The Evidence search is folded into one bar that opens on tap (built 02:20); Wolf to confirm or change it. 2026-10-09 stand-up (Wolf, attended): Decision 200 filed — the page lock and the link rule: outside links open in a new tab on e…",
-      "description_chars": 844,
+      "description_chars": 1760,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -27175,6 +27175,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 9, 2026 · 2:41 PM CEST",
-  "published_at_iso": "2026-10-09T14:41:01+0200"
+  "published_at": "October 9, 2026 · 2:56 PM CEST",
+  "published_at_iso": "2026-10-09T14:56:20+0200"
 }
