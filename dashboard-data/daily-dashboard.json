@@ -4922,6 +4922,34 @@
       "first_seen": "2026-10-09"
     },
     {
+      "id": "SIG-584",
+      "title": "Audience pages strategy…",
+      "description": "Created 2026-10-10 01:12, attended — Wolf (closing the Why MAXX Signal chat): *\"discuss an overall strategy for all the sections: for families, for students, for schools, and for businesses first. Then we can tackle them one at a time… structure the messaging and put the four sections next to each other… what the most valuable features are for each, what pain points we are addressing for each, and the use cases for each.\"* Families and Students = the base service (Signal / Signal+), usable right away at pre-order; parents are spoken to on Families, students on Students. Schools = more to thin…",
+      "description_chars": 1625,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-10"
+    },
+    {
       "id": "SIG-545",
       "title": "Animated commercials…",
       "description": "Created 2026-10-03 by the unattended stand-up (conversion rule). Wolf asked for a set of animated commercials in the SIG-537 rounds of 2 Oct (carried unrouted by _Transcripts/closeouts/CLOSEOUT_2026-10-02_SIG537-ROUNDS-23-24.md line 39 and CLOSEOUT_2026-10-02_SIG537-ROUND25.md line 38, and again by both 10-03 closeouts). The closeouts recommended one task under 05 MARKETING, gated on the loud marketing design system (SIG-539) so the ads are not calmed down; it also waits on the message ladder in SIG-469, which every cut is cut from. Checked before creating: no task covers commercials — SIG-43…",
@@ -27259,6 +27287,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 10, 2026 · 1:03 AM CEST",
-  "published_at_iso": "2026-10-10T01:03:57+0200"
+  "published_at": "October 10, 2026 · 1:19 AM CEST",
+  "published_at_iso": "2026-10-10T01:19:15+0200"
 }
