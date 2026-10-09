@@ -4922,34 +4922,6 @@
       "first_seen": "2026-10-09"
     },
     {
-      "id": "SIG-581",
-      "title": "Why MAXX Signal page…",
-      "description": "Created 2026-10-09 17:20, attended (Wolf 17:04: \"Let's do a spec doc… reference elements on the website… so we don't have to retell the whole story\"). Wave 2, second page (Page Plan section 5). ▶ 17:20: spec doc written — https://claude.ai/code/artifact/7e9cc480-7b1e-4516-84ba-fb51340aeb75 (\"Why MAXX Signal — Page Spec\"): recommends a short decision page of seven beats that links out to The Toxic Algorithm, The Evidence, How It Works and Meet Lumen instead of retelling them; one new coded animation (the dragon's fire breaking on the Signal shield, no spend); four questions for Wolf. Next: Wol…",
-      "description_chars": 6147,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-09"
-    },
-    {
       "id": "SIG-545",
       "title": "Animated commercials…",
       "description": "Created 2026-10-03 by the unattended stand-up (conversion rule). Wolf asked for a set of animated commercials in the SIG-537 rounds of 2 Oct (carried unrouted by _Transcripts/closeouts/CLOSEOUT_2026-10-02_SIG537-ROUNDS-23-24.md line 39 and CLOSEOUT_2026-10-02_SIG537-ROUND25.md line 38, and again by both 10-03 closeouts). The closeouts recommended one task under 05 MARKETING, gated on the loud marketing design system (SIG-539) so the ads are not calmed down; it also waits on the message ladder in SIG-469, which every cut is cut from. Checked before creating: no task covers commercials — SIG-43…",
@@ -24515,6 +24487,34 @@
       "first_seen": "2026-10-09"
     },
     {
+      "id": "SIG-581",
+      "title": "Why MAXX Signal page…",
+      "description": "Created 2026-10-09 17:20, attended (Wolf 17:04: \"Let's do a spec doc… reference elements on the website… so we don't have to retell the whole story\"). Wave 2, second page (Page Plan section 5). ▶ 17:20: spec doc written — https://claude.ai/code/artifact/7e9cc480-7b1e-4516-84ba-fb51340aeb75 (\"Why MAXX Signal — Page Spec\"): recommends a short decision page of seven beats that links out to The Toxic Algorithm, The Evidence, How It Works and Meet Lumen instead of retelling them; one new coded animation (the dragon's fire breaking on the Signal shield, no spend); four questions for Wolf. Next: Wol…",
+      "description_chars": 6810,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-09"
+    },
+    {
       "id": "SIG-578",
       "title": "Spec the 'Why am I seeing this?' panel for launch (it ships at launch, Decision 199)",
       "description": "Created 2026-10-08, attended (Decision 199; Wolf: \"Why am I seeing this? Yes, we will have it for launch.\"). The feature moved from B2 to launch, but its panel is not specified anywhere: UX Foundations §F7 says the ⋮ item \"opens transparency panel (below)\" and no panel section follows; PRD §10.4.5 describes only a B1 placeholder. Write the launch spec: what the panel shows (channel, creator, the intention or topic matched, followed-creator prioritisation, the quality reasons from scoringNotes), on phone and desktop, in the calm product register, matching what the Meet Lumen page and the How I…",
@@ -27259,6 +27259,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 10, 2026 · 12:33 AM CEST",
-  "published_at_iso": "2026-10-10T00:33:35+0200"
+  "published_at": "October 10, 2026 · 1:03 AM CEST",
+  "published_at_iso": "2026-10-10T01:03:57+0200"
 }
