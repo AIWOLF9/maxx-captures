@@ -13720,6 +13720,34 @@
       "first_seen": "2026-10-07"
     },
     {
+      "id": "SIG-583",
+      "title": "PARKED…",
+      "description": "Created 2026-10-09, attended — parked on Wolf's instruction (\"P3 future\"). Wolf's idea from the SIG-578 chat: once there are many users, traffic and usage, show population-level numbers in a dashboard — e.g. number of videos blocked, number of videos served, hours saved collectively — the way Opal and others show a collective \"hours saved\" figure. Wolf: *\"Don't have to figure it out now… that might be many months ahead, but not necessary at the moment.\"* Not for the \"Why am I seeing this?\" panel (Decision 201: no link out of it). Starting points when it wakes: the Reclaimed module (per-user h…",
+      "description_chars": 755,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-10-09"
+    },
+    {
       "id": "CF-PM5h-3-H",
       "title": "Execute S(-1) pre-install bundle on first venture-live trigger AND Cloud Runtime request-access pre-install a…",
       "description": "Execute S(-1) pre-install bundle on first venture-live trigger AND Cloud Runtime request-access pre-install action set (scope expanded 2026-05-19 per CF-PM5h-3-Phase3-StratumSweep1b-S5-MultiAgent §9.1 Wolf governance decision). S(-1) Pre-install bundle: Datadog + Sentry + incident.io per CF-PM5h-3-E sweep §5 + §7 (PagerDuty DEFERRED per Wolf §9.1 governance decision 2026-05-19). Trigger conditions per S(-1) sweep §7: Datadog install when first venture has running cloud infrastructure (EC2/GCE/K8s/serverless w/ ≥1k req/day); Sentry install when first venture has shipped code in production AND…",
@@ -27231,6 +27259,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 9, 2026 · 5:13 PM CEST",
-  "published_at_iso": "2026-10-09T17:13:13+0200"
+  "published_at": "October 9, 2026 · 5:28 PM CEST",
+  "published_at_iso": "2026-10-09T17:28:31+0200"
 }
