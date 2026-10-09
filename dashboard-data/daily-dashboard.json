@@ -4953,7 +4953,7 @@
       "id": "SIG-578",
       "title": "Spec the 'Why am I seeing this?' panel for launch (it ships at launch, Decision 199)",
       "description": "Created 2026-10-08, attended (Decision 199; Wolf: \"Why am I seeing this? Yes, we will have it for launch.\"). The feature moved from B2 to launch, but its panel is not specified anywhere: UX Foundations §F7 says the ⋮ item \"opens transparency panel (below)\" and no panel section follows; PRD §10.4.5 describes only a B1 placeholder. Write the launch spec: what the panel shows (channel, creator, the intention or topic matched, followed-creator prioritisation, the quality reasons from scoringNotes), on phone and desktop, in the calm product register, matching what the Meet Lumen page and the How I…",
-      "description_chars": 947,
+      "description_chars": 1106,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -9550,7 +9550,7 @@
       "id": "SIG-536",
       "title": "Delaware \"MAXX Signal\" trade-name papers…",
       "description": "Created 2026-10-01, attended, closing out SIG-326. Mission Control asked for the Trade Name Only licence PDF (licence 2026715811) and the Delaware One Stop registration confirmation (2026-10-01, 11:48 AM) to be filed in 08_Legal/. Neither file is in the Signal folder — searched every PDF modified since 2026-09-29 and every filename containing \"trade name\" or \"one stop\" on 2026-10-01; none found. Wolf's part (about 2 minutes): drop both files into 08_Legal/Final/ or _Inbox/. Claude's part: rename them to the legal naming pattern (e.g. MSIG-LEGAL-DE-TRADE-NAME-LICENCE_2026715811_2026-09-29.pdf,…",
-      "description_chars": 2218,
+      "description_chars": 2615,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Legal",
@@ -27175,6 +27175,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 9, 2026 · 2:56 PM CEST",
-  "published_at_iso": "2026-10-09T14:56:20+0200"
+  "published_at": "October 9, 2026 · 3:41 PM CEST",
+  "published_at_iso": "2026-10-09T15:41:48+0200"
 }
