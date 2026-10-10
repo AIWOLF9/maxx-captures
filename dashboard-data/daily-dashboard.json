@@ -1124,7 +1124,7 @@
       "id": "SIG-474",
       "title": "Finalise the activation page and its legal surfaces…",
       "description": "Created 2026-09-20, attended, on Wolf's explicit instruction. Wolf: *\"We should have a separate chat just to deal with the website that was created and, I guess, the other documents that are needed, or other pieces such as privacy and/or terms.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): no row covers finalising the activation page together with its legal surfaces; SIG-324 is the page, SIG-325 is the documents, and each assumes the other is somebody else's problem. This row is the CHAT that closes both. SCOPE: (1) finish the activation page — Wolf: *\"I took a quick look at the page you creat…",
-      "description_chars": 3737,
+      "description_chars": 4638,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -4925,7 +4925,7 @@
       "id": "SIG-584",
       "title": "Audience pages strategy…",
       "description": "Created 2026-10-10 01:12, attended — Wolf (closing the Why MAXX Signal chat): *\"discuss an overall strategy for all the sections: for families, for students, for schools, and for businesses first. Then we can tackle them one at a time… structure the messaging and put the four sections next to each other… what the most valuable features are for each, what pain points we are addressing for each, and the use cases for each.\"* Families and Students = the base service (Signal / Signal+), usable right away at pre-order; parents are spoken to on Families, students on Students. Schools = more to thin…",
-      "description_chars": 3443,
+      "description_chars": 3913,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4953,7 +4953,7 @@
       "id": "SIG-585",
       "title": "Child Signals…",
       "description": "Created 2026-10-10 ~23:00, attended — Decision 203 ①. Wolf: *\"Yes, and that's optional… they might lock the search function out.\"* Spec the flow for adding a Signal in Signal+: who it is for → if a child, age or age range → a guided setup starting from the child's interests (done with the child if the parent wants) → more keep-outs pre-selected → optional PIN so the child can't edit → the search setting (Safe Search = searching only inside the chosen channels with the keep-outs applied). Claude's proposals for Wolf (in the strategy doc): the PIN must also lock leaving the child's Signal (swit…",
-      "description_chars": 1029,
+      "description_chars": 1193,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -9937,6 +9937,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-09"
+    },
+    {
+      "id": "SIG-588",
+      "title": "Dashboard mockups for the audience pages…",
+      "description": "Created 2026-10-10 ~23:15, attended — Decision 204 ④. Wolf: *\"Is that something that we can mock up as one of the mockups for school, or one of the mockups for businesses, or even for parents (so we can use it on these pages as part of the kind of tour that we can provide)?\"* One dashboard design, three views: parent (a child's Signal: time watched, top channels, what was kept out), school (class → department → school roll-ups; assigned-video progress when switched on), business (top videos, people, watch time by team/department; YouTube Studio as the reference). Shows the Decision 204 rules…",
+      "description_chars": 898,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-10-10"
     },
     {
       "id": "SIG-586",
@@ -27371,6 +27399,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 10, 2026 · 10:57 PM CEST",
-  "published_at_iso": "2026-10-10T22:57:11+0200"
+  "published_at": "October 10, 2026 · 11:12 PM CEST",
+  "published_at_iso": "2026-10-10T23:12:29+0200"
 }
