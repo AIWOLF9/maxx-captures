@@ -4925,8 +4925,8 @@
       "id": "SIG-584",
       "title": "Audience pages strategy…",
       "description": "Created 2026-10-10 01:12, attended — Wolf (closing the Why MAXX Signal chat): *\"discuss an overall strategy for all the sections: for families, for students, for schools, and for businesses first. Then we can tackle them one at a time… structure the messaging and put the four sections next to each other… what the most valuable features are for each, what pain points we are addressing for each, and the use cases for each.\"* Families and Students = the base service (Signal / Signal+), usable right away at pre-order; parents are spoken to on Families, students on Students. Schools = more to thin…",
-      "description_chars": 1625,
-      "status": "s-todo",
+      "description_chars": 2902,
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -27287,6 +27287,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 10, 2026 · 9:21 AM CEST",
-  "published_at_iso": "2026-10-10T09:21:37+0200"
+  "published_at": "October 10, 2026 · 1:17 PM CEST",
+  "published_at_iso": "2026-10-10T13:17:31+0200"
 }
