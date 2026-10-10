@@ -1124,7 +1124,7 @@
       "id": "SIG-474",
       "title": "Finalise the activation page and its legal surfaces…",
       "description": "Created 2026-09-20, attended, on Wolf's explicit instruction. Wolf: *\"We should have a separate chat just to deal with the website that was created and, I guess, the other documents that are needed, or other pieces such as privacy and/or terms.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): no row covers finalising the activation page together with its legal surfaces; SIG-324 is the page, SIG-325 is the documents, and each assumes the other is somebody else's problem. This row is the CHAT that closes both. SCOPE: (1) finish the activation page — Wolf: *\"I took a quick look at the page you creat…",
-      "description_chars": 4638,
+      "description_chars": 5489,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -4449,7 +4449,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 4676,
+      "description_chars": 4983,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4920,34 +4920,6 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-09"
-    },
-    {
-      "id": "SIG-584",
-      "title": "Audience pages strategy…",
-      "description": "Created 2026-10-10 01:12, attended — Wolf (closing the Why MAXX Signal chat): *\"discuss an overall strategy for all the sections: for families, for students, for schools, and for businesses first. Then we can tackle them one at a time… structure the messaging and put the four sections next to each other… what the most valuable features are for each, what pain points we are addressing for each, and the use cases for each.\"* Families and Students = the base service (Signal / Signal+), usable right away at pre-order; parents are spoken to on Families, students on Students. Schools = more to thin…",
-      "description_chars": 3913,
-      "status": "s-doing",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-10"
     },
     {
       "id": "SIG-585",
@@ -9522,7 +9494,7 @@
       "id": "SIG-527",
       "title": "The FAQ program…",
       "description": "Created 2026-09-29, attended — Wolf: *\"We need to finalize what all the FAQs are going to be: the ones that are going to be on our page (meaning at the bottom), and then a link to maybe an FAQ page that is more complete… look at all our competitors, all the app blocker companies, and all the FAQs. Pull them together and then come up with a streamlined list for us… using first principles, critical thinking, and best practices.\"* Steps: collect FAQs from app blockers and adjacent products → categorise → our master list with answers grounded in canon (Curation Engine, Pricing, privacy) → pick 6–…",
-      "description_chars": 1455,
+      "description_chars": 1921,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -24655,6 +24627,34 @@
       "first_seen": "2026-10-09"
     },
     {
+      "id": "SIG-584",
+      "title": "Audience pages strategy…",
+      "description": "Created 2026-10-10 01:12, attended — Wolf (closing the Why MAXX Signal chat): *\"discuss an overall strategy for all the sections: for families, for students, for schools, and for businesses first. Then we can tackle them one at a time… structure the messaging and put the four sections next to each other… what the most valuable features are for each, what pain points we are addressing for each, and the use cases for each.\"* Families and Students = the base service (Signal / Signal+), usable right away at pre-order; parents are spoken to on Families, students on Students. Schools = more to thin…",
+      "description_chars": 4627,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-10"
+    },
+    {
       "id": "SIG-578",
       "title": "Spec the 'Why am I seeing this?' panel for launch (it ships at launch, Decision 199)",
       "description": "Created 2026-10-08, attended (Decision 199; Wolf: \"Why am I seeing this? Yes, we will have it for launch.\"). The feature moved from B2 to launch, but its panel is not specified anywhere: UX Foundations §F7 says the ⋮ item \"opens transparency panel (below)\" and no panel section follows; PRD §10.4.5 describes only a B1 placeholder. Write the launch spec: what the panel shows (channel, creator, the intention or topic matched, followed-creator prioritisation, the quality reasons from scoringNotes), on phone and desktop, in the calm product register, matching what the Meet Lumen page and the How I…",
@@ -27399,6 +27399,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 10, 2026 · 11:12 PM CEST",
-  "published_at_iso": "2026-10-10T23:12:29+0200"
+  "published_at": "October 10, 2026 · 11:27 PM CEST",
+  "published_at_iso": "2026-10-10T23:27:47+0200"
 }
