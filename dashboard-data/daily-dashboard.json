@@ -4449,7 +4449,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 7891,
+      "description_chars": 8509,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4953,7 +4953,7 @@
       "id": "SIG-589",
       "title": "Invite flow + waitlist position…",
       "description": "Created 2026-10-11 ~02:00, attended — Decision 210. Wolf: *\"Share MAXX Signal with other parents and get higher on the waiting list.\"* Build: (1) the invite pop-up (first name + email rows, \"+ Add another\") on For Families and For Students, opened from the after-joining message and the page end — mockup on THE BOARD /families v110; (2) invitation email (draft in _Working/narrative-pipeline/FAMILIES_PAGE_SPEC_2026-10-11.md); (3) a real waitlist position and the referral rule the page promises; (4) the audience tag on every sign-up (families · students · schools · business). Legal check of thir…",
-      "description_chars": 635,
+      "description_chars": 773,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Engineering",
@@ -4974,6 +4974,34 @@
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-10-11"
+    },
+    {
+      "id": "SIG-590",
+      "title": "Correct the warning-label line on the homepage, landing page and For Families (\"No platform is required to print this l…",
+      "description": "Created 2026-10-11 ~14:05, attended — found by the independent fact check of the For Students page. Minnesota's social-media warning-label law took effect 1 July 2026 (enforcement paused pending the NetChoice lawsuit); New York signed one in December 2025; California's applies from 1 January 2027. The line is a red (a fact that is wrong), so it changes everywhere it appears. For Students already says \"The first laws to require it are only now arriving.\" Wolf picks the wording; then one pipeline round for homepage_trim, landing and families, and THE BOARD. Sources: https://www.kttc.com/2026/07…",
+      "description_chars": 816,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-11"
     },
@@ -27427,6 +27455,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 11, 2026 · 1:48 PM CEST",
-  "published_at_iso": "2026-10-11T13:48:23+0200"
+  "published_at": "October 11, 2026 · 2:03 PM CEST",
+  "published_at_iso": "2026-10-11T14:03:42+0200"
 }
