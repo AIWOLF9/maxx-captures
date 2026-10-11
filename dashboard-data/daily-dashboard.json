@@ -4222,34 +4222,6 @@
       "first_seen": "2026-09-15"
     },
     {
-      "id": "SIG-463",
-      "title": "Mission, vision and purpose statement…",
-      "description": "Created 2026-09-15, attended — Wolf: *\"As far as having a discussion about mission, vision, or purpose, or some type of purpose statement, we should definitely have that. We may not have talked about it before.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): searched all 451 rows and EVERY column on 2026-09-15 — *mission statement* returned ZERO rows, *purpose statement* returned ZERO rows, and the four hits on *vision* are unrelated (D-U-N-S, multi-modal tabs, the investment vehicle, the scoring ruler). This is a genuine gap, not a duplicate. What it is: the short statement of what Signal is fo…",
-      "description_chars": 2406,
-      "status": "s-doing",
-      "priority": "p-p1",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~3h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Products",
-      "kind": "tasks",
-      "first_seen": "2026-09-15"
-    },
-    {
       "id": "SIG-466",
       "title": "Positioning chat…",
       "description": "Added 2026-09-16 (attended, Wolf's instruction to discuss it in the positioning chat). Test the ruled website argument v0.3 against Wolf's identity-based positioning framework: lead with the pain and how people feel, then how they will feel — the release, a healthy mind, what they get back, for them, their family and society. Already in the argument: beat 2.12 what-if modules, Act 4 \"Is this you?\" with the Dickens turn, 6.5 the outcome made concrete, Act 7 belonging. The gap: no beat whose job is who the reader becomes. Also measured 09-16: of 675 blocks scored 4–5, Acts 1, 5, 6, 7 hold only…",
@@ -4449,7 +4421,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 12146,
+      "description_chars": 12314,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5008,9 +4980,9 @@
     {
       "id": "SIG-600",
       "title": "Manifesto page…",
-      "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, first page. Arc approved 5 Oct (Decision 192 ⑨); adds the mission and purpose once SIG-463 is ruled, and \"YouTube was great until it wasn't\". Wolf 21:59: not complicated — a call to arms, a hero's journey: \"we have to come together to fight it one person at a time, but also come together to help provide solutions like MAXX SIGNAL… a healthier you and me, and a healthier society.\" Spec lives in the Page Plan doc entry 11.",
-      "description_chars": 570,
-      "status": "s-todo",
+      "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, first page. Arc approved 5 Oct (Decision 192 ⑨); adds the mission and purpose once SIG-463 is ruled, and \"YouTube was great until it wasn't\". Wolf 21:59: not complicated — a call to arms, a hero's journey: \"we have to come together to fight it one person at a time, but also come together to help provide solutions like MAXX SIGNAL… a healthier you and me, and a healthier society.\" Spec lives in the Page Plan doc entry 11. ▶ 11 Oct ~22:55: draft 1 wri…",
+      "description_chars": 838,
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -23759,6 +23731,34 @@
       "first_seen": "2026-09-15"
     },
     {
+      "id": "SIG-463",
+      "title": "Mission, vision and purpose statement…",
+      "description": "Created 2026-09-15, attended — Wolf: *\"As far as having a discussion about mission, vision, or purpose, or some type of purpose statement, we should definitely have that. We may not have talked about it before.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): searched all 451 rows and EVERY column on 2026-09-15 — *mission statement* returned ZERO rows, *purpose statement* returned ZERO rows, and the four hits on *vision* are unrelated (D-U-N-S, multi-modal tabs, the investment vehicle, the scoring ruler). This is a genuine gap, not a duplicate. What it is: the short statement of what Signal is fo…",
+      "description_chars": 2670,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~3h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-09-15"
+    },
+    {
       "id": "SIG-465",
       "title": "Master index per department…",
       "description": "Created 2026-09-16, attended, on Wolf's explicit instruction to make this an operating procedure, not a one-off. Wolf: *\"If we used these master index files that have everything needed, with all the mockups and a proper index that describes everything with the proper descriptions and keywords, then it'd be much easier to find. That's what I also want to do for all the content, all the library, everything related to that… As we look at each major area, we create a master index because we're going to be creating lots of documents, and everything is in one place by department.\"* ⚠️ CHECKED BEFOR…",
@@ -27679,6 +27679,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 11, 2026 · 10:23 PM CEST",
-  "published_at_iso": "2026-10-11T22:23:07+0200"
+  "published_at": "October 11, 2026 · 10:38 PM CEST",
+  "published_at_iso": "2026-10-11T22:38:24+0200"
 }
