@@ -4421,7 +4421,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 12980,
+      "description_chars": 13784,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4978,6 +4978,34 @@
       "first_seen": "2026-10-11"
     },
     {
+      "id": "SIG-597",
+      "title": "Shared Signal pages: confirm that a visitor can watch without an account and that no ads from us appear on any public S…",
+      "description": "Created 2026-10-12 ~01:40, unattended (For Business chat). The business focus group's two biggest conditions for sharing a Signal with clients: 11 of 14 need viewers to watch with no account, 13 of 14 need no ads on a page with their name on it. PRD v1.7 §9.5 already renders the full public page to anonymous visitors; playback without an account is not confirmed, and the visitor-screen spec marks \"in-page ad injection ✕ at launch\" as unconfirmed. Claude recommends yes to both. The /business page draft carries both lines and drops them if Wolf says no (spec table). Findings: https://claude.ai/…",
+      "description_chars": 631,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-10-12"
+    },
+    {
       "id": "SIG-545",
       "title": "Animated commercials…",
       "description": "Created 2026-10-03 by the unattended stand-up (conversion rule). Wolf asked for a set of animated commercials in the SIG-537 rounds of 2 Oct (carried unrouted by _Transcripts/closeouts/CLOSEOUT_2026-10-02_SIG537-ROUNDS-23-24.md line 39 and CLOSEOUT_2026-10-02_SIG537-ROUND25.md line 38, and again by both 10-03 closeouts). The closeouts recommended one task under 05 MARKETING, gated on the loud marketing design system (SIG-539) so the ads are not calmed down; it also waits on the message ladder in SIG-469, which every cut is cut from. Checked before creating: no task covers commercials — SIG-43…",
@@ -5009,7 +5037,7 @@
       "id": "SIG-600",
       "title": "Manifesto page…",
       "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, first page. Arc approved 5 Oct (Decision 192 ⑨); adds the mission and purpose once SIG-463 is ruled, and \"YouTube was great until it wasn't\". Wolf 21:59: not complicated — a call to arms, a hero's journey: \"we have to come together to fight it one person at a time, but also come together to help provide solutions like MAXX SIGNAL… a healthier you and me, and a healthier society.\" Spec lives in the Page Plan doc entry 11. ▶ 11 Oct ~22:55: draft 1 wri…",
-      "description_chars": 1630,
+      "description_chars": 2243,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -10163,6 +10191,62 @@
       "first_seen": "2026-10-11"
     },
     {
+      "id": "SIG-598",
+      "title": "Curator controls for shared channels: \"Remove from this channel\", a hand-picked mode (only pinned videos show) and expo…",
+      "description": "Created 2026-10-12 ~01:40, unattended (For Business chat). 13 of 14 business personas want control over what appears on a page with their name on it (brand risk; fair-housing risk for agents; compliance for advisers); 11 of 14 asked to export their channels. Today: pins persist through refresh; there is no owner-side remove and no approval step. Claude's recommendation: remove + hand-picked mode + export at launch (small builds), approval queue later. Awaiting Wolf's ruling; then the Channel Builder and visitor-screen specs. Estimates left for Wolf.",
+      "description_chars": 555,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-10-12"
+    },
+    {
+      "id": "SIG-599",
+      "title": "Ambassador disclosure wording for experts who share their Signal page (promised on /business: \"We'll give you the wordi…",
+      "description": "Created 2026-10-12 ~01:40, unattended (For Business chat). The /business page tells experts who join the Ambassador Program to disclose the commission to their clients, and promises the wording. Write a one-line disclosure for a Signal page description, an email footer and a social bio, and put it in the ambassador kit (SIG-236 enablement). Every focus-group persona who would take the commission said they would disclose it.",
+      "description_chars": 427,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "named-owner",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-12"
+    },
+    {
       "id": "SIG-586",
       "title": "Links and resources inside a channel…",
       "description": "Created 2026-10-10 ~23:00, attended — Decision 203 ③. Wolf: *\"we can add the ability for them to have a section or place to put links to documents and websites… maybe add a tab right inside of a channel for links, but we need to discuss. That would also become available for all the other segments.\"* A working conversation first: where it lives (a tab inside a channel?), what a link shows, whether links pass through Lumen's keep-outs, which plan gets it (Signal, Signal+, Schools, Business), and whether it is a launch feature. Estimates left for Wolf.",
@@ -10194,7 +10278,7 @@
       "id": "SIG-587",
       "title": "Schools and Business feature list…",
       "description": "Created 2026-10-10 ~23:00, attended — Decision 203 ②④. Wolf: *\"I need your assistance to figure out what those are as far as the teams' capabilities, admin capabilities, and so forth… We need to make a list of features.\"* One list per audience, each feature marked: exists in Signal / Signal+ today · small build · large build, and whether the website may show it as coming. Inputs named by Wolf: teacher-picked videos in a locked subject channel; search switched off; links and resources (SIG-586); no ads; teachers, departments, school or district as buyers; edtech reseller partners on a revenue…",
-      "description_chars": 1335,
+      "description_chars": 1742,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Product",
@@ -27735,6 +27819,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 12, 2026 · 12:55 AM CEST",
-  "published_at_iso": "2026-10-12T00:55:37+0200"
+  "published_at": "October 12, 2026 · 1:26 AM CEST",
+  "published_at_iso": "2026-10-12T01:26:01+0200"
 }
