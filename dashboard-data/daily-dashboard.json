@@ -4421,7 +4421,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 12314,
+      "description_chars": 12402,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -10026,7 +10026,7 @@
       "id": "SIG-591",
       "title": "Schools and PTAs as a family channel…",
       "description": "Created 2026-10-11 16:13, attended — Wolf's idea, captured not yet ruled. Wolf: *\"a school can offer Maxx Signal for free, and then Signal+ could be discounted… give them a link to a special page that has lower pricing for students, and the school is offering it out… we can also go to PTAs, parent-teacher associations… get a list of parent-teacher associations around the country and just offer this out to PTAs… they can use a free version and/or get Signal for their kids, even if their schools haven't gotten it yet.\"* ⚠ Touches Decision 192 (no student price): a sponsored channel price is a d…",
-      "description_chars": 1725,
+      "description_chars": 2036,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -27679,6 +27679,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 11, 2026 · 10:38 PM CEST",
-  "published_at_iso": "2026-10-11T22:38:24+0200"
+  "published_at": "October 11, 2026 · 10:53 PM CEST",
+  "published_at_iso": "2026-10-11T22:53:42+0200"
 }
