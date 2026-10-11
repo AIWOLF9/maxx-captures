@@ -5009,7 +5009,7 @@
       "id": "SIG-600",
       "title": "Manifesto page…",
       "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, first page. Arc approved 5 Oct (Decision 192 ⑨); adds the mission and purpose once SIG-463 is ruled, and \"YouTube was great until it wasn't\". Wolf 21:59: not complicated — a call to arms, a hero's journey: \"we have to come together to fight it one person at a time, but also come together to help provide solutions like MAXX SIGNAL… a healthier you and me, and a healthier society.\" Spec lives in the Page Plan doc entry 11. ▶ 11 Oct ~22:55: draft 1 wri…",
-      "description_chars": 1434,
+      "description_chars": 1630,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -10217,6 +10217,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-10-10"
+    },
+    {
+      "id": "SIG-603",
+      "title": "'Review the lines' on THE BOARD for every page, not only the homepage…",
+      "description": "Created 2026-10-12 ~01:20, attended (Wave 4 chat; Decision 233 ④). Wolf 00:34: *\"I don't think that, right now, 'Review the lines' works for anything other than, I think, the homepage… eventually we'll hook up, maybe, all the pages, so all the beats and all the acts… for each page are laid out.\"* Scope: extend the board's line-review (NARRATIVE tab / page view) to the audience pages, Toxic Algorithm, Why, Lumen, How It Works and the Wave 4 pages. Coordinate with whichever chat holds THE BOARD at the time.",
+      "description_chars": 510,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~2–3h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-12"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -27707,6 +27735,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 12, 2026 · 12:25 AM CEST",
-  "published_at_iso": "2026-10-12T00:25:14+0200"
+  "published_at": "October 12, 2026 · 12:55 AM CEST",
+  "published_at_iso": "2026-10-12T00:55:37+0200"
 }
