@@ -4421,8 +4421,8 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 12541,
-      "status": "s-doing",
+      "description_chars": 12980,
+      "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -10194,7 +10194,7 @@
       "id": "SIG-587",
       "title": "Schools and Business feature list…",
       "description": "Created 2026-10-10 ~23:00, attended — Decision 203 ②④. Wolf: *\"I need your assistance to figure out what those are as far as the teams' capabilities, admin capabilities, and so forth… We need to make a list of features.\"* One list per audience, each feature marked: exists in Signal / Signal+ today · small build · large build, and whether the website may show it as coming. Inputs named by Wolf: teacher-picked videos in a locked subject channel; search switched off; links and resources (SIG-586); no ads; teachers, departments, school or district as buyers; edtech reseller partners on a revenue…",
-      "description_chars": 1200,
+      "description_chars": 1335,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Product",
@@ -27707,6 +27707,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 11, 2026 · 11:54 PM CEST",
-  "published_at_iso": "2026-10-11T23:54:42+0200"
+  "published_at": "October 12, 2026 · 12:25 AM CEST",
+  "published_at_iso": "2026-10-12T00:25:14+0200"
 }
