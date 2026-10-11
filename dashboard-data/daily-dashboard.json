@@ -1124,7 +1124,7 @@
       "id": "SIG-474",
       "title": "Finalise the activation page and its legal surfaces…",
       "description": "Created 2026-09-20, attended, on Wolf's explicit instruction. Wolf: *\"We should have a separate chat just to deal with the website that was created and, I guess, the other documents that are needed, or other pieces such as privacy and/or terms.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): no row covers finalising the activation page together with its legal surfaces; SIG-324 is the page, SIG-325 is the documents, and each assumes the other is somebody else's problem. This row is the CHAT that closes both. SCOPE: (1) finish the activation page — Wolf: *\"I took a quick look at the page you creat…",
-      "description_chars": 5781,
+      "description_chars": 6138,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -4421,7 +4421,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 12448,
+      "description_chars": 12541,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -4952,8 +4952,8 @@
     {
       "id": "SIG-596",
       "title": "School Ambassador Program…",
-      "description": "Created 2026-10-11 23:35, attended (Decision 221 ②). Wolf: *\"everything needs to be automated as much as possible, because if we don't have everything automated, then we can't make it available day one.\"* Reuse the ambassador programme's enablement (SIG-236 views, attribution stack) segmented for schools. Verify: family discount code + affiliate link at checkout. Decide: family landing page from a group link (Claude recommends For Families + group banner).",
-      "description_chars": 460,
+      "description": "Created 2026-10-11 23:35, attended (Decision 221 ②). Wolf: *\"everything needs to be automated as much as possible, because if we don't have everything automated, then we can't make it available day one.\"* Reuse the ambassador programme's enablement (SIG-236 views, attribution stack) segmented for schools. Verify: family discount code + affiliate link at checkout. Decide: family landing page from a group link (Claude recommends For Families + group banner). ~23:55 (Decision 222 ②): family landing from a group link = For Families + group banner (\"Shared by … PTA\", discount confirmed).",
+      "description_chars": 589,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5009,7 +5009,7 @@
       "id": "SIG-600",
       "title": "Manifesto page…",
       "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, first page. Arc approved 5 Oct (Decision 192 ⑨); adds the mission and purpose once SIG-463 is ruled, and \"YouTube was great until it wasn't\". Wolf 21:59: not complicated — a call to arms, a hero's journey: \"we have to come together to fight it one person at a time, but also come together to help provide solutions like MAXX SIGNAL… a healthier you and me, and a healthier society.\" Spec lives in the Page Plan doc entry 11. ▶ 11 Oct ~22:55: draft 1 wri…",
-      "description_chars": 1043,
+      "description_chars": 1434,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -27707,6 +27707,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 11, 2026 · 11:39 PM CEST",
-  "published_at_iso": "2026-10-11T23:39:22+0200"
+  "published_at": "October 11, 2026 · 11:54 PM CEST",
+  "published_at_iso": "2026-10-11T23:54:42+0200"
 }
