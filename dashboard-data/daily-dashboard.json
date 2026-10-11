@@ -4449,8 +4449,8 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 11910,
-      "status": "s-todo",
+      "description_chars": 12146,
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -9970,7 +9970,7 @@
       "id": "SIG-591",
       "title": "Schools and PTAs as a family channel…",
       "description": "Created 2026-10-11 16:13, attended — Wolf's idea, captured not yet ruled. Wolf: *\"a school can offer Maxx Signal for free, and then Signal+ could be discounted… give them a link to a special page that has lower pricing for students, and the school is offering it out… we can also go to PTAs, parent-teacher associations… get a list of parent-teacher associations around the country and just offer this out to PTAs… they can use a free version and/or get Signal for their kids, even if their schools haven't gotten it yet.\"* ⚠ Touches Decision 192 (no student price): a sponsored channel price is a d…",
-      "description_chars": 920,
+      "description_chars": 1397,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -9984,6 +9984,34 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-11"
+    },
+    {
+      "id": "SIG-592",
+      "title": "Partner and contact research for the two school routes…",
+      "description": "Created 2026-10-11 21:40, attended (Decision 218 ②⑤). Wolf: *\"Are there directories out there that can be gotten that have PTA presidents or contact information? Same thing with third parties who offer solutions to PTAs: who are the top players in that field we could also partner with… they would make a commission.\"* Runs alongside the For Schools focus group. Buys nothing: any list purchase is a Tier-3 spend proposal to Wolf.",
+      "description_chars": 430,
+      "status": "s-doing",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
       "executor": "Wolf",
       "executor_list": [
         "Wolf"
@@ -27483,6 +27511,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 11, 2026 · 9:07 PM CEST",
-  "published_at_iso": "2026-10-11T21:07:05+0200"
+  "published_at": "October 11, 2026 · 9:37 PM CEST",
+  "published_at_iso": "2026-10-11T21:37:27+0200"
 }
