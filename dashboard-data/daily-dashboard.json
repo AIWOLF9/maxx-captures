@@ -5009,7 +5009,7 @@
       "id": "SIG-605",
       "title": "Page analytics for Signal page owners (YouTube Studio-style), small version AT LAUNCH: visits, followers, channel adds,…",
       "description": "Created 2026-10-12 23:55, attended (Decision 225 ④). Wolf asked for Claude's view of a metrics dashboard for people who share Signal pages — visits, channels and videos watched, \"whatever metrics make sense\" — modelled on YouTube Studio, and whether it sits in Signal+ or needs another plan. Today: PRD v1.7 §17.1 defers \"public profile analytics (visitor count, etc., visible to curator)\" past launch, while the owner Signal-page spec has an Analytics button — a conflict to resolve. Distinct from the family dashboard (a parent sees a child's viewing, launch), the ambassador dashboard (clicks, si…",
-      "description_chars": 1060,
+      "description_chars": 1548,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -10223,34 +10223,6 @@
       "title": "Ambassador disclosure wording for experts who share their Signal page (promised on /business: \"We'll give you the wordi…",
       "description": "Created 2026-10-12 ~01:40, unattended (For Business chat). The /business page tells experts who join the Ambassador Program to disclose the commission to their clients, and promises the wording. Write a one-line disclosure for a Signal page description, an email footer and a social bio, and put it in the ambassador kit (SIG-236 enablement). Every focus-group persona who would take the commission said they would disclose it.",
       "description_chars": 427,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-12"
-    },
-    {
-      "id": "SIG-604",
-      "title": "Research: the best business segments for sharing a Signal with clients…",
-      "description": "Created 2026-10-12 23:55, attended (Decision 225 ⑥). Wolf: go after \"the lowest-hanging fruit of the biggest market opportunity, like real estate agents for sure. Fitness trainers, maybe consultants or coaches… we can look at some of the biggest channels by number of creators on these different platforms… LinkedIn… business-related.\" Financial advisers are not targeted. Starting data: _Working/research/business-page_2026-10-12/BUSINESS-RESEARCH_2026-10-12.md §A. Feeds the For Business page's examples and later ads. ▶ 13 Oct 00:05 (Decision 226 ④): widen to YouTube, LinkedIn, X and the large w…",
-      "description_chars": 754,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -27609,6 +27581,34 @@
       "first_seen": "2026-10-11"
     },
     {
+      "id": "SIG-604",
+      "title": "Research: the best business segments for sharing a Signal with clients…",
+      "description": "Created 2026-10-12 23:55, attended (Decision 225 ⑥). Wolf: go after \"the lowest-hanging fruit of the biggest market opportunity, like real estate agents for sure. Fitness trainers, maybe consultants or coaches… we can look at some of the biggest channels by number of creators on these different platforms… LinkedIn… business-related.\" Financial advisers are not targeted. Starting data: _Working/research/business-page_2026-10-12/BUSINESS-RESEARCH_2026-10-12.md §A. Feeds the For Business page's examples and later ads. ▶ 13 Oct 00:05 (Decision 226 ④): widen to YouTube, LinkedIn, X and the large w…",
+      "description_chars": 1619,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "named-owner",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-12"
+    },
+    {
       "id": "SIG-577",
       "title": "Write Lumen's eight layer names into the Curation Engine spec and Brand",
       "description": "Created and done 2026-10-08, attended (Wolf, stand-up chat: \"the answer is yes\"; Decision 198). Wrote Lumen's eight named layers into canon so specs and copy use the same words. Brand v1.5.17 → v1.5.18, new §2.6 (names + published descriptions, extracted by script from _Working/narrative-pipeline/lumen_hero.py; prior archived 00_Canonical/Archive/MAXX_Signal_Brand_v1_5_17_pre-D198_2026-10-08.md). Curation Engine spec §1.7 (layer → pipeline-stage map, in place, no version bump; prior archived 02_Product/Archive/MAXX_Signal_Curation_Engine_v1_3_pre-D198_2026-10-08.md). Decision 198 filed. ⚠️ Tw…",
@@ -27875,6 +27875,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 13, 2026 · 12:18 AM CEST",
-  "published_at_iso": "2026-10-13T00:18:56+0200"
+  "published_at": "October 13, 2026 · 12:34 AM CEST",
+  "published_at_iso": "2026-10-13T00:34:16+0200"
 }
