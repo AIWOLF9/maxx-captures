@@ -4421,7 +4421,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 14492,
+      "description_chars": 14806,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5009,7 +5009,7 @@
       "id": "SIG-605",
       "title": "Page analytics for Signal page owners (YouTube Studio-style), small version AT LAUNCH: visits, followers, channel adds,…",
       "description": "Created 2026-10-12 23:55, attended (Decision 225 ④). Wolf asked for Claude's view of a metrics dashboard for people who share Signal pages — visits, channels and videos watched, \"whatever metrics make sense\" — modelled on YouTube Studio, and whether it sits in Signal+ or needs another plan. Today: PRD v1.7 §17.1 defers \"public profile analytics (visitor count, etc., visible to curator)\" past launch, while the owner Signal-page spec has an Analytics button — a conflict to resolve. Distinct from the family dashboard (a parent sees a child's viewing, launch), the ambassador dashboard (clicks, si…",
-      "description_chars": 1548,
+      "description_chars": 1832,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -5032,6 +5032,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-10-12"
+    },
+    {
+      "id": "SIG-606",
+      "title": "Signal page contact and findability: add email as a link type and a \"Get in touch\" button…",
+      "description": "Created 2026-10-13 01:45, attended (Decision 227 ③ ④). Wolf: owners add links to all their accounts, their website and their email so prospects can reach them; and a page title like \"Carla Reyes · South Florida Real Estate Expert\" that can be found. Today the owner spec (#19 §4C) says contact email goes in the description, and PRD §9.8 og:title is \"[Display Name]'s MAXX Signal\". Mock-up: For Business draft 3, example page (THE BOARD /business). Open for Wolf: the \"Get in touch\" button (Claude's addition).",
+      "description_chars": 510,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-10-13"
     },
     {
       "id": "SIG-545",
@@ -27875,6 +27903,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 13, 2026 · 1:04 AM CEST",
-  "published_at_iso": "2026-10-13T01:04:39+0200"
+  "published_at": "October 13, 2026 · 1:35 AM CEST",
+  "published_at_iso": "2026-10-13T01:35:01+0200"
 }
