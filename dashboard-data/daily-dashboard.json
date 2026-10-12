@@ -4981,7 +4981,7 @@
       "id": "SIG-597",
       "title": "Shared Signal pages: confirm that a visitor can watch without an account and that no ads from us appear on any public S…",
       "description": "Created 2026-10-12 ~01:40, unattended (For Business chat). The business focus group's two biggest conditions for sharing a Signal with clients: 11 of 14 need viewers to watch with no account, 13 of 14 need no ads on a page with their name on it. PRD v1.7 §9.5 already renders the full public page to anonymous visitors; playback without an account is not confirmed, and the visitor-screen spec marks \"in-page ad injection ✕ at launch\" as unconfirmed. Claude recommends yes to both. The /business page draft carries both lines and drops them if Wolf says no (spec table). Findings: https://claude.ai/…",
-      "description_chars": 909,
+      "description_chars": 1027,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -4995,6 +4995,34 @@
       "created": null,
       "zone": "open",
       "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-10-12"
+    },
+    {
+      "id": "SIG-605",
+      "title": "Page analytics for Signal page owners (YouTube Studio-style), small version AT LAUNCH: visits, followers, channel adds,…",
+      "description": "Created 2026-10-12 23:55, attended (Decision 225 ④). Wolf asked for Claude's view of a metrics dashboard for people who share Signal pages — visits, channels and videos watched, \"whatever metrics make sense\" — modelled on YouTube Studio, and whether it sits in Signal+ or needs another plan. Today: PRD v1.7 §17.1 defers \"public profile analytics (visitor count, etc., visible to curator)\" past launch, while the owner Signal-page spec has an Analytics button — a conflict to resolve. Distinct from the family dashboard (a parent sees a child's viewing, launch), the ambassador dashboard (clicks, si…",
+      "description_chars": 1060,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
       "executor": "Wolf",
       "executor_list": [
         "Wolf"
@@ -10164,9 +10192,9 @@
     },
     {
       "id": "SIG-598",
-      "title": "Curator controls for shared channels: \"Remove from this channel\", a hand-picked mode (only pinned videos show) and expo…",
+      "title": "Owner controls on shared channels: confirm in the spec that Not interested and Mute this creator on your own public cha…",
       "description": "Created 2026-10-12 ~01:40, unattended (For Business chat). 13 of 14 business personas want control over what appears on a page with their name on it (brand risk; fair-housing risk for agents; compliance for advisers); 11 of 14 asked to export their channels. Today: pins persist through refresh; there is no owner-side remove and no approval step. Claude's recommendation: remove + hand-picked mode + export at launch (small builds), approval queue later. Awaiting Wolf's ruling; then the Channel Builder and visitor-screen specs. Estimates left for Wolf. ▶ 12 Oct 23:42 (Decision 225 ③⑦): remove fr…",
-      "description_chars": 760,
+      "description_chars": 1046,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Product",
@@ -10221,8 +10249,8 @@
     {
       "id": "SIG-604",
       "title": "Research: the best business segments for sharing a Signal with clients…",
-      "description": "Created 2026-10-12 23:55, attended (Decision 225 ⑥). Wolf: go after \"the lowest-hanging fruit of the biggest market opportunity, like real estate agents for sure. Fitness trainers, maybe consultants or coaches… we can look at some of the biggest channels by number of creators on these different platforms… LinkedIn… business-related.\" Financial advisers are not targeted. Starting data: _Working/research/business-page_2026-10-12/BUSINESS-RESEARCH_2026-10-12.md §A. Feeds the For Business page's examples and later ads.",
-      "description_chars": 520,
+      "description": "Created 2026-10-12 23:55, attended (Decision 225 ⑥). Wolf: go after \"the lowest-hanging fruit of the biggest market opportunity, like real estate agents for sure. Fitness trainers, maybe consultants or coaches… we can look at some of the biggest channels by number of creators on these different platforms… LinkedIn… business-related.\" Financial advisers are not targeted. Starting data: _Working/research/business-page_2026-10-12/BUSINESS-RESEARCH_2026-10-12.md §A. Feeds the For Business page's examples and later ads. ▶ 13 Oct 00:05 (Decision 226 ④): widen to YouTube, LinkedIn, X and the large w…",
+      "description_chars": 754,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -10243,34 +10271,6 @@
       "autonomy": "Auto",
       "autonomy_reason": "named-owner",
       "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-12"
-    },
-    {
-      "id": "SIG-605",
-      "title": "Page metrics for Signal page owners (YouTube Studio-style): what goes on it, which plan it belongs to, launch or later",
-      "description": "Created 2026-10-12 23:55, attended (Decision 225 ④). Wolf asked for Claude's view of a metrics dashboard for people who share Signal pages — visits, channels and videos watched, \"whatever metrics make sense\" — modelled on YouTube Studio, and whether it sits in Signal+ or needs another plan. Today: PRD v1.7 §17.1 defers \"public profile analytics (visitor count, etc., visible to curator)\" past launch, while the owner Signal-page spec has an Analytics button — a conflict to resolve. Distinct from the family dashboard (a parent sees a child's viewing, launch), the ambassador dashboard (clicks, si…",
-      "description_chars": 819,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Product",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-10-12"
     },
@@ -27875,6 +27875,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 13, 2026 · 12:03 AM CEST",
-  "published_at_iso": "2026-10-13T00:03:38+0200"
+  "published_at": "October 13, 2026 · 12:18 AM CEST",
+  "published_at_iso": "2026-10-13T00:18:56+0200"
 }
