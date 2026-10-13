@@ -3497,7 +3497,7 @@
       "id": "SIG-375",
       "title": "_Working/ retirement…",
       "description": "Created SIG-373, 2026-08-11. _Working/ holds 453 files — 73 openers, 49 stand-up sheets, 79 HTML surfaces, 64 MB — and not one carries a type label, so a read-once analysis from 4 August is indistinguishable from a live tracker to anyone who opens it. The absence of a type stamp is the defect, not the count. Every artifact gets a header line: LIVING · READ-ONCE — history as of YYYY-MM-DD · SUPERSEDED BY <x>. ⚠️ Archive the three stale full copies of the master board today — SIGNAL_TASKS_pre_SIG320-done / _pre_SIG321 / _pre_SIG322-323, each ~345 KB, dated 2026-08-05, indistinguishable from the…",
-      "description_chars": 11456,
+      "description_chars": 11706,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -5092,8 +5092,8 @@
     {
       "id": "SIG-601",
       "title": "Our Story page…",
-      "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, second page (named \"Our story\", Decision 183). Mission, vision and purpose at the top → the short shared story → how we make money → one founder paragraph linking to the letter → join (Page Plan doc entry 12). Arc goes to Wolf before any copy (Decision 55). Wolf 21:59: \"not complicated\".",
-      "description_chars": 434,
+      "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, second page (named \"Our story\", Decision 183). Mission, vision and purpose at the top → the short shared story → how we make money → one founder paragraph linking to the letter → join (Page Plan doc entry 12). Arc goes to Wolf before any copy (Decision 55). Wolf 21:59: \"not complicated\". 13 Oct 03:05 (Wave 4 part 2 chat): arc approved 02:35 (Story Index doc https://claude.ai/code/artifact/1065b017-1ab7-42c3-be96-2b3fd3c799b8); draft 1 built as a moc…",
+      "description_chars": 922,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5120,8 +5120,8 @@
     {
       "id": "SIG-602",
       "title": "Founder's Letter page…",
-      "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, third page; the letter IS the founder page. Decision 230: it carries Wolf's name, his personal struggles and why he built Signal, a LinkedIn link later, a photo possible. Before drafting: ask which personal details (COVID, his mother and brother, his daughter, health) go on the public page. MyCity name and years still to confirm (Page Plan doc entry 13).",
-      "description_chars": 502,
+      "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, third page; the letter IS the founder page. Decision 230: it carries Wolf's name, his personal struggles and why he built Signal, a LinkedIn link later, a photo possible. Before drafting: ask which personal details (COVID, his mother and brother, his daughter, health) go on the public page. MyCity name and years still to confirm (Page Plan doc entry 13). 13 Oct 03:05 (Wave 4 part 2 chat): hero's-journey arc approved 02:35 with Wolf's in-doc edits; A…",
+      "description_chars": 1008,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -23930,7 +23930,7 @@
       "id": "SIG-465",
       "title": "Master index per department…",
       "description": "Created 2026-09-16, attended, on Wolf's explicit instruction to make this an operating procedure, not a one-off. Wolf: *\"If we used these master index files that have everything needed, with all the mockups and a proper index that describes everything with the proper descriptions and keywords, then it'd be much easier to find. That's what I also want to do for all the content, all the library, everything related to that… As we look at each major area, we create a master index because we're going to be creating lots of documents, and everything is in one place by department.\"* ⚠️ CHECKED BEFOR…",
-      "description_chars": 16998,
+      "description_chars": 17653,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Product",
@@ -25106,7 +25106,7 @@
       "id": "SIG-600",
       "title": "Manifesto page…",
       "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, first page. Arc approved 5 Oct (Decision 192 ⑨); adds the mission and purpose once SIG-463 is ruled, and \"YouTube was great until it wasn't\". Wolf 21:59: not complicated — a call to arms, a hero's journey: \"we have to come together to fight it one person at a time, but also come together to help provide solutions like MAXX SIGNAL… a healthier you and me, and a healthier society.\" Spec lives in the Page Plan doc entry 11. ▶ 11 Oct ~22:55: draft 1 wri…",
-      "description_chars": 2243,
+      "description_chars": 3299,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -27903,6 +27903,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 13, 2026 · 3:06 AM CEST",
-  "published_at_iso": "2026-10-13T03:06:04+0200"
+  "published_at": "October 13, 2026 · 9:22 AM CEST",
+  "published_at_iso": "2026-10-13T09:22:58+0200"
 }
