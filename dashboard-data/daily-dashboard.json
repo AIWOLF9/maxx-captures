@@ -5094,7 +5094,7 @@
       "title": "Our Story page…",
       "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, second page (named \"Our story\", Decision 183). Mission, vision and purpose at the top → the short shared story → how we make money → one founder paragraph linking to the letter → join (Page Plan doc entry 12). Arc goes to Wolf before any copy (Decision 55). Wolf 21:59: \"not complicated\".",
       "description_chars": 434,
-      "status": "s-todo",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -5122,7 +5122,7 @@
       "title": "Founder's Letter page…",
       "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, third page; the letter IS the founder page. Decision 230: it carries Wolf's name, his personal struggles and why he built Signal, a LinkedIn link later, a photo possible. Before drafting: ask which personal details (COVID, his mother and brother, his daughter, health) go on the public page. MyCity name and years still to confirm (Page Plan doc entry 13).",
       "description_chars": 502,
-      "status": "s-todo",
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -27903,6 +27903,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 13, 2026 · 2:50 AM CEST",
-  "published_at_iso": "2026-10-13T02:50:43+0200"
+  "published_at": "October 13, 2026 · 3:06 AM CEST",
+  "published_at_iso": "2026-10-13T03:06:04+0200"
 }
