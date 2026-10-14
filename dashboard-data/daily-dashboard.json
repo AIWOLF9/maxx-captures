@@ -4421,7 +4421,7 @@
       "id": "SIG-501",
       "title": "For Families and For Organizations pages…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 15390,
+      "description_chars": 15653,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5009,7 +5009,7 @@
       "id": "SIG-605",
       "title": "Page analytics for Signal page owners (YouTube Studio-style), small version AT LAUNCH: visits, followers, channel adds,…",
       "description": "Created 2026-10-12 23:55, attended (Decision 225 ④). Wolf asked for Claude's view of a metrics dashboard for people who share Signal pages — visits, channels and videos watched, \"whatever metrics make sense\" — modelled on YouTube Studio, and whether it sits in Signal+ or needs another plan. Today: PRD v1.7 §17.1 defers \"public profile analytics (visitor count, etc., visible to curator)\" past launch, while the owner Signal-page spec has an Analytics button — a conflict to resolve. Distinct from the family dashboard (a parent sees a child's viewing, launch), the ambassador dashboard (clicks, si…",
-      "description_chars": 1832,
+      "description_chars": 1955,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -5036,8 +5036,8 @@
     {
       "id": "SIG-606",
       "title": "Signal page contact and findability: add email as a link type and a \"Get in touch\" button…",
-      "description": "Created 2026-10-13 01:45, attended (Decision 227 ③ ④). Wolf: owners add links to all their accounts, their website and their email so prospects can reach them; and a page title like \"Carla Reyes · South Florida Real Estate Expert\" that can be found. Today the owner spec (#19 §4C) says contact email goes in the description, and PRD §9.8 og:title is \"[Display Name]'s MAXX Signal\". Mock-up: For Business draft 3, example page (THE BOARD /business). Open for Wolf: the \"Get in touch\" button (Claude's addition).",
-      "description_chars": 510,
+      "description": "Created 2026-10-13 01:45, attended (Decision 227 ③ ④). Wolf: owners add links to all their accounts, their website and their email so prospects can reach them; and a page title like \"Carla Reyes · South Florida Real Estate Expert\" that can be found. Today the owner spec (#19 §4C) says contact email goes in the description, and PRD §9.8 og:title is \"[Display Name]'s MAXX Signal\". Mock-up: For Business draft 3, example page (THE BOARD /business). Open for Wolf: the \"Get in touch\" button (Claude's addition). ▶ 14 Oct 22:17 RULED (Decision 229 ①③): the button is \"Contact\" and it stays; it opens t…",
+      "description_chars": 854,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -27987,6 +27987,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 14, 2026 · 9:59 PM CEST",
-  "published_at_iso": "2026-10-14T21:59:01+0200"
+  "published_at": "October 14, 2026 · 10:29 PM CEST",
+  "published_at_iso": "2026-10-14T22:29:26+0200"
 }
