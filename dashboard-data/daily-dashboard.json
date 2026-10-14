@@ -5037,8 +5037,8 @@
       "id": "SIG-611",
       "title": "Surface layer…",
       "description": "Created 14 Oct 2026 ~02:30, overnight board clean-up (SIG-610), from Wolf 01:15: \"update whatever functionality needed so that we can eventually reuse everything we need to for the Pre-order, kickstarter, launch and standard sites\". Finding (rendered): the SURFACE switch changes the page row, the old August section records and the button labels in the old preview — it does not change any built page; each built page is a fixed waitlist build (\"Get free early access\", \"Be one of the first 10,000\", the join sheet). Plan in the report _Working/BOARD-CLEANUP_REPORT_2026-10-14.html §4: ① the shared…",
-      "description_chars": 1898,
-      "status": "s-doing",
+      "description_chars": 2777,
+      "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -5046,6 +5046,34 @@
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
       "effort_mc": "~4–6h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-14"
+    },
+    {
+      "id": "SIG-613",
+      "title": "Finish the waitlist site…",
+      "description": "Created 14 Oct 2026 22:57, attended (Decision 239 addendum). Wolf 21:28: *\"we have to build the other pages… We need to build the rest of the pages for the waitlist.\"*; 22:57: the pre-order words wait until these are done. Specs are in the Website Page Plan doc (https://claude.ai/code/artifact/f762b2cf-382b-46f7-b197-12334b06306a): Contact = Wave 3 (short form, topic drop-down); FAQ, Impact Index, Ambassador, Blog = Wave 5 (FAQ has its own chat, Decision 169; Impact Index survey design SIG-549; Ambassador program launches with the pre-order, SIG-071 — the waitlist version is an interest form;…",
+      "description_chars": 945,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -9493,8 +9521,8 @@
     {
       "id": "SIG-513",
       "title": "Rule the pre-order and launch wording…",
-      "description": "Created 2026-09-28 02:25 (carried out of SIG-505). In THE BOARD → ARC → versions side by side, the waitlist cells are ruled (green) and applied; the pre-order and launch cells are proposals (amber): top-bar button, first-screen button and small line, the ask, the founding offer, the ask line. The launch offer is still open (end date and launch prices not set). Wolf rules each; Claude applies them to the page and reloads. Not a blocker for the waitlist version.",
-      "description_chars": 464,
+      "description": "Created 2026-09-28 02:25 (carried out of SIG-505). In THE BOARD → ARC → versions side by side, the waitlist cells are ruled (green) and applied; the pre-order and launch cells are proposals (amber): top-bar button, first-screen button and small line, the ask, the founding offer, the ask line. The launch offer is still open (end date and launch prices not set). Wolf rules each; Claude applies them to the page and reloads. Not a blocker for the waitlist version. ▶ 14 Oct 22:57 (Decision 239 addendum): waits until the rest of the waitlist pages are built (SIG-613). The surface layer (SIG-611, TH…",
+      "description_chars": 754,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -27987,6 +28015,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 14, 2026 · 10:44 PM CEST",
-  "published_at_iso": "2026-10-14T22:44:43+0200"
+  "published_at": "October 14, 2026 · 11:00 PM CEST",
+  "published_at_iso": "2026-10-14T23:00:01+0200"
 }
