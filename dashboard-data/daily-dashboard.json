@@ -9995,34 +9995,6 @@
       "first_seen": "2026-10-08"
     },
     {
-      "id": "SIG-582",
-      "title": "Meet Lumen page: change \"the channel, the creator, the intention\" to \"…or the intention\" (two places)",
-      "description": "Created 2026-10-09, attended (Decision 201 ③; Wolf: \"that's fine. We could do that\"). The \"Why am I seeing this?\" panel shows the creator and intention lines only when they are reasons, so the Meet Lumen page must not promise all three on every video. Two edits for the website chat: the bullet \"Every video shows why it's there: the channel, the creator, the intention.\" → \"…the channel, the creator or the intention behind it.\" (_Working/narrative-pipeline/build_lumen_new.py) and Transparency Layer line 7 \"shows the channel, creator and intention behind it\" → \"…channel, creator or intention beh…",
-      "description_chars": 719,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-09"
-    },
-    {
       "id": "SIG-588",
       "title": "Dashboard mockups for the audience pages…",
       "description": "Created 2026-10-10 ~23:15, attended — Decision 204 ④. Wolf: *\"Is that something that we can mock up as one of the mockups for school, or one of the mockups for businesses, or even for parents (so we can use it on these pages as part of the kind of tour that we can provide)?\"* One dashboard design, three views: parent (a child's Signal: time watched, top channels, what was kept out), school (class → department → school roll-ups; assigned-video progress when switched on), business (top videos, people, watch time by team/department; YouTube Studio as the reference). Shows the Decision 204 rules…",
@@ -25203,7 +25175,7 @@
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "done",
-      "owner": "Claude+Wolf",
+      "owner": "Claude+Wolf ➕ 15 Oct 00:55: opening centred, LinkedIn photo + link added in About the Founder (Wolf 00:29; Decision 238 addendum); web v148, letter sha256 166af67e.",
       "executor": "HERMES",
       "executor_list": [
         "HERMES"
@@ -27665,6 +27637,34 @@
       "first_seen": "2026-10-08"
     },
     {
+      "id": "SIG-582",
+      "title": "Meet Lumen page: change \"the channel, the creator, the intention\" to \"…or the intention\" (two places)",
+      "description": "Created 2026-10-09, attended (Decision 201 ③; Wolf: \"that's fine. We could do that\"). The \"Why am I seeing this?\" panel shows the creator and intention lines only when they are reasons, so the Meet Lumen page must not promise all three on every video. Two edits for the website chat: the bullet \"Every video shows why it's there: the channel, the creator, the intention.\" → \"…the channel, the creator or the intention behind it.\" (_Working/narrative-pipeline/build_lumen_new.py) and Transparency Layer line 7 \"shows the channel, creator and intention behind it\" → \"…channel, creator or intention beh…",
+      "description_chars": 719,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude ✅ DONE 15 Oct 2026 ~00:55 (what's-left review chat, Wolf 00:29 \"that's fine\"): the live page had one of the two lines (Transparency Layer, twice in the file: the hero animation and the layer list) → \"channel, creator or intention behind it\"; the other bullet lives only in the retired build_lumen_new.py, fixed there too. Sources build_lumen.py, lumen_hero.py; Brand v1.5.21 §2.6 (v1.5.20 archived); THE BOARD web v148 nr/lumen.html sha256 8fc322c6, read back. Elapsed ~15 min.",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-09"
+    },
+    {
       "id": "SIG-592",
       "title": "Partner and contact research for the two school routes…",
       "description": "Created 2026-10-11 21:40, attended (Decision 218 ②⑤). Wolf: *\"Are there directories out there that can be gotten that have PTA presidents or contact information? Same thing with third parties who offer solutions to PTAs: who are the top players in that field we could also partner with… they would make a commission.\"* Runs alongside the For Schools focus group. Buys nothing: any list purchase is a Tier-3 spend proposal to Wolf. Done 2026-10-11 ~22:15 (elapsed ~10 min research run, not effort): report with a link on every fact and unverified items marked — _Working/research/schools-page_2026-10…",
@@ -28015,6 +28015,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 14, 2026 · 11:15 PM CEST",
-  "published_at_iso": "2026-10-14T23:15:25+0200"
+  "published_at": "October 15, 2026 · 12:46 AM CEST",
+  "published_at_iso": "2026-10-15T00:46:16+0200"
 }
