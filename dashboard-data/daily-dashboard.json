@@ -9522,7 +9522,7 @@
       "id": "SIG-513",
       "title": "Rule the pre-order and launch wording…",
       "description": "Created 2026-09-28 02:25 (carried out of SIG-505). In THE BOARD → ARC → versions side by side, the waitlist cells are ruled (green) and applied; the pre-order and launch cells are proposals (amber): top-bar button, first-screen button and small line, the ask, the founding offer, the ask line. The launch offer is still open (end date and launch prices not set). Wolf rules each; Claude applies them to the page and reloads. Not a blocker for the waitlist version. ▶ 14 Oct 22:57 (Decision 239 addendum): waits until the rest of the waitlist pages are built (SIG-613). The surface layer (SIG-611, TH…",
-      "description_chars": 754,
+      "description_chars": 1267,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -28015,6 +28015,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 14, 2026 · 11:00 PM CEST",
-  "published_at_iso": "2026-10-14T23:00:01+0200"
+  "published_at": "October 14, 2026 · 11:15 PM CEST",
+  "published_at_iso": "2026-10-14T23:15:25+0200"
 }
