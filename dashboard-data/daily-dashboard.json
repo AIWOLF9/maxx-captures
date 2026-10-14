@@ -5090,6 +5090,34 @@
       "first_seen": "2026-10-03"
     },
     {
+      "id": "SIG-611",
+      "title": "Surface layer…",
+      "description": "Created 14 Oct 2026 ~02:30, overnight board clean-up (SIG-610), from Wolf 01:15: \"update whatever functionality needed so that we can eventually reuse everything we need to for the Pre-order, kickstarter, launch and standard sites\". Finding (rendered): the SURFACE switch changes the page row, the old August section records and the button labels in the old preview — it does not change any built page; each built page is a fixed waitlist build (\"Get free early access\", \"Be one of the first 10,000\", the join sheet). Plan in the report _Working/BOARD-CLEANUP_REPORT_2026-10-14.html §4: ① the shared…",
+      "description_chars": 1379,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~4–6h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-14"
+    },
+    {
       "id": "CAP-0029",
       "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
@@ -14138,6 +14166,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-10-09"
+    },
+    {
+      "id": "SIG-612",
+      "title": "ARC's Story Index for every built page on THE BOARD (today ARC shows the homepage's Story Index on every page)",
+      "description": "Created 14 Oct 2026 ~02:30, overnight board clean-up (SIG-610), from Wolf 01:15: \"are you needing to update the Flow, arc, preview and build story indexes for each page?\" Rendered finding: PREVIEW and NARRATIVE's page view cover all 15 built pages; ARC shows the homepage's Story Index (8 acts · 44 beats) whichever page is picked; FLOW has real sections only for the homepage and landing (How It Works, Manifesto and the Letter show their August records, the other ten are empty); \"Review the lines\" exists for the homepage and landing only (SIG-603). Story Index docs already exist outside the boa…",
+      "description_chars": 940,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-14"
     },
     {
       "id": "CF-PM5h-3-H",
@@ -27665,6 +27721,34 @@
       "first_seen": "2026-10-08"
     },
     {
+      "id": "SIG-610",
+      "title": "THE BOARD clean-up…",
+      "description": "Created and done 14 Oct 2026 ~01:20–02:40 Zagreb, unattended (opener _Working/OPENER_BOARD-CLEANUP_2026-10-14.md; Wolf 01:15 verbatim in _Working/founder-corpus/WOLF-VERBATIM_2026-10-14_0115_WHATS-LEFT-AND-OVERNIGHT-CHAT.md). Display and link changes only — no page words changed, no saved board record touched. ① Page row: four pages replaced by built pages are hidden (/algorithm → The Evidence, /algorithm-101 → The Toxic Algorithm, /about → Our Story, /founder → the Letter) and /fuck-the-algorithm is hidden on Waitlist only (pre-order on, Decision 192 ⑪); \"show N hidden\" brings them back; bui…",
+      "description_chars": 1750,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-14"
+    },
+    {
       "id": "CF-OPENERS-SPENT-NOT-ARCHIVED-1",
       "title": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE…",
       "description": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE — measured, then repaired. Was Cancelled on 2026-08-07 as merged into CF-CONF-OPENERS-UNCOUNTABLE-1; the merge target's own count was wrong, so the residue was never actually addressed — §5.4.1 item 7, *a merge onto a blocked target is parked with extra steps*, visible here in miniature. Enumerated 2026-08-11: 31 opener-named files at the top level of _MAXX_OS/Working/. 29 moved to Working/openers-archive/ (28 → 57 files), per §5.8 *\"new openers go to Working/; spent ones go to Working/openers-archive/.\"* Two deliberately left: MC-LAUNCHD-LANE…",
@@ -27903,6 +27987,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 14, 2026 · 1:12 AM CEST",
-  "published_at_iso": "2026-10-14T01:12:58+0200"
+  "published_at": "October 14, 2026 · 2:13 AM CEST",
+  "published_at_iso": "2026-10-14T02:13:31+0200"
 }
