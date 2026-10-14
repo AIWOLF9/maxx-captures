@@ -5065,8 +5065,8 @@
       "id": "SIG-613",
       "title": "Finish the waitlist site…",
       "description": "Created 14 Oct 2026 22:57, attended (Decision 239 addendum). Wolf 21:28: *\"we have to build the other pages… We need to build the rest of the pages for the waitlist.\"*; 22:57: the pre-order words wait until these are done. Specs are in the Website Page Plan doc (https://claude.ai/code/artifact/f762b2cf-382b-46f7-b197-12334b06306a): Contact = Wave 3 (short form, topic drop-down); FAQ, Impact Index, Ambassador, Blog = Wave 5 (FAQ has its own chat, Decision 169; Impact Index survey design SIG-549; Ambassador program launches with the pre-order, SIG-071 — the waitlist version is an interest form;…",
-      "description_chars": 945,
-      "status": "s-todo",
+      "description_chars": 1262,
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -5088,6 +5088,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-14"
+    },
+    {
+      "id": "SIG-614",
+      "title": "Page-by-page review of every built website page…",
+      "description": "Created 15 Oct 2026 01:05 (Decision 240 ⑤, Wolf: \"ok on process\"). Claude checks each page on phone, tablet and desktop (links, join buttons, numbers vs receipts, wording vs rulings), sends one review sheet per page (picture per section, OK / Fixed / Your call), Wolf rules each section, Claude fixes, publishes to THE BOARD, reads back, marks reviewed. 15 built pages, then each new page. Order proposed: homepage, landing, How It Works, Meet Lumen, Why, then outward. Website only (no app until next year).",
+      "description_chars": 508,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "8h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-15"
     },
     {
       "id": "CAP-0029",
@@ -9606,8 +9634,8 @@
       "id": "SIG-527",
       "title": "The FAQ program…",
       "description": "Created 2026-09-29, attended — Wolf: *\"We need to finalize what all the FAQs are going to be: the ones that are going to be on our page (meaning at the bottom), and then a link to maybe an FAQ page that is more complete… look at all our competitors, all the app blocker companies, and all the FAQs. Pull them together and then come up with a streamlined list for us… using first principles, critical thinking, and best practices.\"* Steps: collect FAQs from app blockers and adjacent products → categorise → our master list with answers grounded in canon (Curation Engine, Pricing, privacy) → pick 6–…",
-      "description_chars": 2287,
-      "status": "s-todo",
+      "description_chars": 2371,
+      "status": "s-doing",
       "priority": "p-p2",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -9662,7 +9690,7 @@
       "id": "SIG-541",
       "title": "Site footer…",
       "description": "Created 2026-10-02 ~23:58, attended — Wolf 23:36: *\"What's missing right now is a footer, right? Links to terms and privacy, all that… We don't have to finalize it now, just pointing it out.\"* Today the pages end with a minimal footer (mark, 'Maximize Signal. Minimize Noise.', © 2026 MAXX Signal Inc.). Scope: what the footer carries (Privacy, Terms when written, contact/support, social, the site menu), on the trimmed homepage and the landing page. Legal copy itself stays last in the build order (project instructions: /privacy and /terms are placeholder pages until then). Not started; estimate…",
-      "description_chars": 3213,
+      "description_chars": 3348,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -25162,7 +25190,7 @@
       "id": "SIG-602",
       "title": "Founder's Letter page…",
       "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, third page; the letter IS the founder page. Decision 230: it carries Wolf's name, his personal struggles and why he built Signal, a LinkedIn link later, a photo possible. Before drafting: ask which personal details (COVID, his mother and brother, his daughter, health) go on the public page. MyCity name and years still to confirm (Page Plan doc entry 13). 13 Oct 03:05 (Wave 4 part 2 chat): hero's-journey arc approved 02:35 with Wolf's in-doc edits; A…",
-      "description_chars": 1424,
+      "description_chars": 1571,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25175,7 +25203,7 @@
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "done",
-      "owner": "Claude+Wolf ➕ 15 Oct 00:55: opening centred, LinkedIn photo + link added in About the Founder (Wolf 00:29; Decision 238 addendum); web v148, letter sha256 166af67e.",
+      "owner": "Claude+Wolf",
       "executor": "HERMES",
       "executor_list": [
         "HERMES"
@@ -27640,7 +27668,7 @@
       "id": "SIG-582",
       "title": "Meet Lumen page: change \"the channel, the creator, the intention\" to \"…or the intention\" (two places)",
       "description": "Created 2026-10-09, attended (Decision 201 ③; Wolf: \"that's fine. We could do that\"). The \"Why am I seeing this?\" panel shows the creator and intention lines only when they are reasons, so the Meet Lumen page must not promise all three on every video. Two edits for the website chat: the bullet \"Every video shows why it's there: the channel, the creator, the intention.\" → \"…the channel, the creator or the intention behind it.\" (_Working/narrative-pipeline/build_lumen_new.py) and Transparency Layer line 7 \"shows the channel, creator and intention behind it\" → \"…channel, creator or intention beh…",
-      "description_chars": 719,
+      "description_chars": 1168,
       "status": "s-done",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -27653,7 +27681,7 @@
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "done",
-      "owner": "Claude ✅ DONE 15 Oct 2026 ~00:55 (what's-left review chat, Wolf 00:29 \"that's fine\"): the live page had one of the two lines (Transparency Layer, twice in the file: the hero animation and the layer list) → \"channel, creator or intention behind it\"; the other bullet lives only in the retired build_lumen_new.py, fixed there too. Sources build_lumen.py, lumen_hero.py; Brand v1.5.21 §2.6 (v1.5.20 archived); THE BOARD web v148 nr/lumen.html sha256 8fc322c6, read back. Elapsed ~15 min.",
+      "owner": "Claude",
       "executor": "HERMES",
       "executor_list": [
         "HERMES"
@@ -28015,6 +28043,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 15, 2026 · 12:46 AM CEST",
-  "published_at_iso": "2026-10-15T00:46:16+0200"
+  "published_at": "October 15, 2026 · 1:01 AM CEST",
+  "published_at_iso": "2026-10-15T01:01:35+0200"
 }
