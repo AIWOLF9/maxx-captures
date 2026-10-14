@@ -23930,7 +23930,7 @@
       "id": "SIG-465",
       "title": "Master index per department…",
       "description": "Created 2026-09-16, attended, on Wolf's explicit instruction to make this an operating procedure, not a one-off. Wolf: *\"If we used these master index files that have everything needed, with all the mockups and a proper index that describes everything with the proper descriptions and keywords, then it'd be much easier to find. That's what I also want to do for all the content, all the library, everything related to that… As we look at each major area, we create a master index because we're going to be creating lots of documents, and everything is in one place by department.\"* ⚠️ CHECKED BEFOR…",
-      "description_chars": 17653,
+      "description_chars": 18016,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Product",
@@ -25134,7 +25134,7 @@
       "id": "SIG-601",
       "title": "Our Story page…",
       "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, second page (named \"Our story\", Decision 183). Mission, vision and purpose at the top → the short shared story → how we make money → one founder paragraph linking to the letter → join (Page Plan doc entry 12). Arc goes to Wolf before any copy (Decision 55). Wolf 21:59: \"not complicated\". 13 Oct 03:05 (Wave 4 part 2 chat): arc approved 02:35 (Story Index doc https://claude.ai/code/artifact/1065b017-1ab7-42c3-be96-2b3fd3c799b8); draft 1 built as a moc…",
-      "description_chars": 922,
+      "description_chars": 1336,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -25162,7 +25162,7 @@
       "id": "SIG-602",
       "title": "Founder's Letter page…",
       "description": "Created 2026-10-11 ~22:15, attended (Wave 4 chat; Wolf approved the 5 W's plan 21:59: \"let's work through it in the order you proposed\"). Wave 4, third page; the letter IS the founder page. Decision 230: it carries Wolf's name, his personal struggles and why he built Signal, a LinkedIn link later, a photo possible. Before drafting: ask which personal details (COVID, his mother and brother, his daughter, health) go on the public page. MyCity name and years still to confirm (Page Plan doc entry 13). 13 Oct 03:05 (Wave 4 part 2 chat): hero's-journey arc approved 02:35 with Wolf's in-doc edits; A…",
-      "description_chars": 1008,
+      "description_chars": 1424,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -27987,6 +27987,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 14, 2026 · 2:13 AM CEST",
-  "published_at_iso": "2026-10-14T02:13:31+0200"
+  "published_at": "October 14, 2026 · 9:30 AM CEST",
+  "published_at_iso": "2026-10-14T09:30:48+0200"
 }
