@@ -4418,34 +4418,6 @@
       "first_seen": "2026-09-22"
     },
     {
-      "id": "SIG-501",
-      "title": "For Families and For Organizations pages…",
-      "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
-      "description_chars": 15653,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~3h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-26"
-    },
-    {
       "id": "SIG-502",
       "title": "Show the product moving…",
       "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"Animate the user experience… You click on a video. It pulls up. You click to tag it… add a note… transcribe it… summarize it… I could take a video of me going through the whole onboarding process, and then we can chop it up.\"* Wolf records the onboarding (topics, sub-topics, channels, the keep-outs) and the core flows on the built screens; Claude cuts them into 5–10 second loops for the how-it-works and features sections…",
@@ -4506,34 +4478,6 @@
       "title": "Pages batch A…",
       "description": "Created 2026-09-28 18:49 (Decision 162). Built with the six-step page process: Waitlist confirmation · How it works · FAQ (from the competitor FAQ harvest, SIG-498) · For Families and For Organizations (SIG-501) · the parents and students landing pages (SIG-510). One to two chats; Claude Design once for the batch. Record actual elapsed time per page. 2026-10-04 (Wolf 01:41): every audience page (Families, Students, Schools, Work) carries a FORM, and Contact is a FORM with a topic dropdown — all into one managed place, never a raw email inbox. Field spec (one form, audience set by the page; ≤6…",
       "description_chars": 5961,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~1–2 chats",
-      "effort_wolf": "~2h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-28"
-    },
-    {
-      "id": "SIG-517",
-      "title": "Pages batch B…",
-      "description": "Created 2026-09-28 18:49 (Decision 162). The Algorithm · Algorithm 101 · F*ck the Algorithm · Manifesto · LUMEN (the engine page). Most copy exists in the library and on the homepage. Six-step page process; Claude Design once for the batch. 2026-10-03 19:48: Wolf asked whether Algorithm 101 and the receipts are one page or two. Claude recommends ONE page, “The Toxic Algorithm”, with two tabs (How it works · The receipts) — see _Working/reader-review_2026-10-03/SITE-MAP_RECOMMENDATION_2026-10-03.md; awaiting ruling. 2026-10-04 17:39 (Decision 184): “Why MAXX Signal” is a page NOW (not at launc…",
-      "description_chars": 2909,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5035,7 +4979,7 @@
     },
     {
       "id": "SIG-606",
-      "title": "Signal page contact and findability: add email as a link type and a \"Get in touch\" button…",
+      "title": "Signal page contact and findability: add email as a link type and a \"Contact\" button…",
       "description": "Created 2026-10-13 01:45, attended (Decision 227 ③ ④). Wolf: owners add links to all their accounts, their website and their email so prospects can reach them; and a page title like \"Carla Reyes · South Florida Real Estate Expert\" that can be found. Today the owner spec (#19 §4C) says contact email goes in the description, and PRD §9.8 og:title is \"[Display Name]'s MAXX Signal\". Mock-up: For Business draft 3, example page (THE BOARD /business). Open for Wolf: the \"Get in touch\" button (Claude's addition). ▶ 14 Oct 22:17 RULED (Decision 229 ①③): the button is \"Contact\" and it stays; it opens t…",
       "description_chars": 854,
       "status": "s-todo",
@@ -5093,8 +5037,8 @@
       "id": "SIG-611",
       "title": "Surface layer…",
       "description": "Created 14 Oct 2026 ~02:30, overnight board clean-up (SIG-610), from Wolf 01:15: \"update whatever functionality needed so that we can eventually reuse everything we need to for the Pre-order, kickstarter, launch and standard sites\". Finding (rendered): the SURFACE switch changes the page row, the old August section records and the button labels in the old preview — it does not change any built page; each built page is a fixed waitlist build (\"Get free early access\", \"Be one of the first 10,000\", the join sheet). Plan in the report _Working/BOARD-CLEANUP_REPORT_2026-10-14.html §4: ① the shared…",
-      "description_chars": 1379,
-      "status": "s-todo",
+      "description_chars": 1898,
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -24235,6 +24179,34 @@
       "first_seen": "2026-09-23"
     },
     {
+      "id": "SIG-501",
+      "title": "For Families and For Organizations pages…",
+      "description": "Created 2026-09-26, attended — from Wolf, walkthrough review batch 2, 2026-09-26 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-2_WOLF-VERBATIM_2026-09-26.md). Wolf: *\"we should maybe have another page on the website that says… for families, for organizations… 'Coming soon.' Get on the waitlist. We want to know if someone got on the waitlist for families and the other one for organizations… first name and email… it feels like we haven't touched on keeping your kids safe with Maxx Signal for YouTube.\"* Build: two pages (how Signal keeps kids safe on YouTube; schools, employers and other…",
+      "description_chars": 16162,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-26"
+    },
+    {
       "id": "SIG-505",
       "title": "Get THE BOARD ready to become the live copy of the website…",
       "description": "Created 2026-09-26 18:45, attended — Wolf agreed the order. ▶ PROGRESS 2026-09-26 (board-readiness chat, 18:50→): ① every view walked and ruled (Wolf 19:04 \"approve all\" + two notes; _Working/SIGNAL_BOARD-VIEW-WALK_2026-09-26.html): retire WALL and ARC \"this page's sections\"; skeleton becomes a toggle in the beats view; LIBRARY becomes a reading-order switch in RANKED; VOICE becomes a \"your words\" filter in the library, brought up to date since August; the rest kept. ② Route B ruled (19:55): the board is a private web page that saves every edit to Claude — PUBLISHED v1 claude.ai/artifact/9YvA…",
@@ -24427,6 +24399,34 @@
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-09-28"
+    },
+    {
+      "id": "SIG-517",
+      "title": "Pages batch B…",
+      "description": "Created 2026-09-28 18:49 (Decision 162). The Algorithm · Algorithm 101 · F*ck the Algorithm · Manifesto · LUMEN (the engine page). Most copy exists in the library and on the homepage. Six-step page process; Claude Design once for the batch. 2026-10-03 19:48: Wolf asked whether Algorithm 101 and the receipts are one page or two. Claude recommends ONE page, “The Toxic Algorithm”, with two tabs (How it works · The receipts) — see _Working/reader-review_2026-10-03/SITE-MAP_RECOMMENDATION_2026-10-03.md; awaiting ruling. 2026-10-04 17:39 (Decision 184): “Why MAXX Signal” is a page NOW (not at launc…",
+      "description_chars": 3273,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1–2 chats",
+      "effort_wolf": "~2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-28"
     },
@@ -27987,6 +27987,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 14, 2026 · 10:29 PM CEST",
-  "published_at_iso": "2026-10-14T22:29:26+0200"
+  "published_at": "October 14, 2026 · 10:44 PM CEST",
+  "published_at_iso": "2026-10-14T22:44:43+0200"
 }
