@@ -9634,7 +9634,7 @@
       "id": "SIG-527",
       "title": "The FAQ program…",
       "description": "Created 2026-09-29, attended — Wolf: *\"We need to finalize what all the FAQs are going to be: the ones that are going to be on our page (meaning at the bottom), and then a link to maybe an FAQ page that is more complete… look at all our competitors, all the app blocker companies, and all the FAQs. Pull them together and then come up with a streamlined list for us… using first principles, critical thinking, and best practices.\"* Steps: collect FAQs from app blockers and adjacent products → categorise → our master list with answers grounded in canon (Curation Engine, Pricing, privacy) → pick 6–…",
-      "description_chars": 2878,
+      "description_chars": 3214,
       "status": "s-doing",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -28043,6 +28043,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 15, 2026 · 1:16 AM CEST",
-  "published_at_iso": "2026-10-15T01:16:54+0200"
+  "published_at": "October 15, 2026 · 4:02 AM CEST",
+  "published_at_iso": "2026-10-15T04:02:56+0200"
 }
