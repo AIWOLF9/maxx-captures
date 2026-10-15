@@ -10247,6 +10247,62 @@
       "first_seen": "2026-10-12"
     },
     {
+      "id": "SIG-615",
+      "title": "University Ambassador Program…",
+      "description": "Created 15 Oct 2026 18:38, attended — Wolf: *\"I want to add a University Ambassador Program- where we get university students or a university organization, club or fraternity to sign up students in their university. Similar to how Facebook or other companies grew their programs… Want to know how we get to them? Perhaps there are third parties that work with universities as well- we can partner with for distribution- we can do research during our Go to market chats.\"* Scope: research past campus-ambassador programmes (who ran them, how they paid, what worked), routes to campuses (student-org d…",
+      "description_chars": 926,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-15"
+    },
+    {
+      "id": "SIG-616",
+      "title": "Association partners…",
+      "description": "Created 15 Oct 2026 18:38, attended — Wolf: *\"Business organizations or associations that have many members- such as state level- Florida real estate organization, or national associations for realtors, travel agents, coaches, etc- the largest ones? Perhaps there are third parties that work with these organizations as well- we can partner with for distribution- we can do research during our Go to market chats.\"* Scope: list the largest associations by member count in the target professions (start with Florida Realtors and the National Association of Realtors, travel-agent and coaching associa…",
+      "description_chars": 897,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-15"
+    },
+    {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
       "title": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with i…",
       "description": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with its next fire parked at 2027-01-01. The routine is trig_019Wuy5iWcJJzoSxHDj1oaDU, Wolf's *\"can a cloud routine reach the Mac?\"* probe, created and fired 2026-08-26; surfaced at MC-CLOUDSHIFT-2026-09-09 (2026-09-09, attended, cloud, session 7DMVKQTQ4B) and now recorded under the new _pending_one_offs key in _index/STATUS_SNAPSHOTS/_cloud_lanes.json. The probe is itself the portfolio's one recorded instance of the failure it was built to detect: the scheduler records it SUCCEEDED — fired…",
@@ -28043,6 +28099,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 15, 2026 · 6:23 PM CEST",
-  "published_at_iso": "2026-10-15T18:23:49+0200"
+  "published_at": "October 15, 2026 · 6:54 PM CEST",
+  "published_at_iso": "2026-10-15T18:54:14+0200"
 }
