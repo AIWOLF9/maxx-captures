@@ -841,34 +841,6 @@
       "first_seen": "2026-08-13"
     },
     {
-      "id": "SIG-390",
-      "title": "Post-click landing pages…",
-      "description": "Added 2026-08-16 (attended). When someone finishes onboarding we send a welcome email; the page its link opens does not exist in any design, spec or row. It is one surface with four entry paths — waitlist (share only) · pre-order Monthly (share only) · pre-order Annual and Lifetime (gift-recipient capture, then share) · Kickstarter (same shape, separate chat) — collapsing after launch to a straight redirect into the user's feed. Also carries the SMS opt-in (collect now, activation a separate go/no-go; TCPA consent wording shared with SIG-370). Wolf ruling 2026-08-16: this is its OWN Claude De…",
-      "description_chars": 2143,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": "1-2",
-      "deadline_label": "Phase P2",
-      "deadline_class": "d-future",
-      "effort_mc": "3h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-08-17"
-    },
-    {
       "id": "SIG-404",
       "title": "Website prep pass…",
       "description": "Added 2026-08-20 (attended stand-up). D-2026-08-20f — Wolf ruled the scope AND the sequence. Verbatim: *\"Do all the work that you think is necessary — 3 arcs, libraries, etc. that you recommend, and then if you think you have one of the strongest arcs and you want to draft a manifesto, argument, or letter based on what you feel is the strongest arc. After you finish all the three arcs, then do it after.\"* THE SEQUENCE IS A CONSTRAINT, NOT A PREFERENCE: three arcs finished completely → then, and only if one is clearly strongest, the long-form drafts. If the three are close, STOP AND BRING THRE…",
@@ -3525,7 +3497,7 @@
       "id": "SIG-379",
       "title": "Social account setup…",
       "description": "Added 2026-08-12 in SIG-378 (attended, Wolf's instruction; split out of SIG-165 and routed out of SIG-373). Wolf, verbatim in substance: *\"an external setup of all the accounts we need to set up in order to start doing the go-to-market — LinkedIn, X, Instagram, YouTube, TikTok, etc.\"* SIG-373's own text flagged that the social accounts *\"appear on no list anywhere\"*; they were in fact half-buried inside SIG-165, at P2, behind a SIG-174 gate, invisible. Scope: create the accounts and CLAIM THE HANDLES only — consistent handle across all five, plus a reserved handle on any platform we are not l…",
-      "description_chars": 1447,
+      "description_chars": 1603,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5065,7 +5037,7 @@
       "id": "SIG-613",
       "title": "Finish the waitlist site…",
       "description": "Created 14 Oct 2026 22:57, attended (Decision 239 addendum). Wolf 21:28: *\"we have to build the other pages… We need to build the rest of the pages for the waitlist.\"*; 22:57: the pre-order words wait until these are done. Specs are in the Website Page Plan doc (https://claude.ai/code/artifact/f762b2cf-382b-46f7-b197-12334b06306a): Contact = Wave 3 (short form, topic drop-down); FAQ, Impact Index, Ambassador, Blog = Wave 5 (FAQ has its own chat, Decision 169; Impact Index survey design SIG-549; Ambassador program launches with the pre-order, SIG-071 — the waitlist version is an interest form;…",
-      "description_chars": 1262,
+      "description_chars": 1387,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9631,34 +9603,6 @@
       "first_seen": "2026-09-29"
     },
     {
-      "id": "SIG-527",
-      "title": "The FAQ program…",
-      "description": "Created 2026-09-29, attended — Wolf: *\"We need to finalize what all the FAQs are going to be: the ones that are going to be on our page (meaning at the bottom), and then a link to maybe an FAQ page that is more complete… look at all our competitors, all the app blocker companies, and all the FAQs. Pull them together and then come up with a streamlined list for us… using first principles, critical thinking, and best practices.\"* Steps: collect FAQs from app blockers and adjacent products → categorise → our master list with answers grounded in canon (Curation Engine, Pricing, privacy) → pick 6–…",
-      "description_chars": 3214,
-      "status": "s-doing",
-      "priority": "p-p2",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-09-29"
-    },
-    {
       "id": "SIG-536",
       "title": "Delaware \"MAXX Signal\" trade-name papers…",
       "description": "Created 2026-10-01, attended, closing out SIG-326. Mission Control asked for the Trade Name Only licence PDF (licence 2026715811) and the Delaware One Stop registration confirmation (2026-10-01, 11:48 AM) to be filed in 08_Legal/. Neither file is in the Signal folder — searched every PDF modified since 2026-09-29 and every filename containing \"trade name\" or \"one stop\" on 2026-10-01; none found. Wolf's part (about 2 minutes): drop both files into 08_Legal/Final/ or _Inbox/. Claude's part: rename them to the legal naming pattern (e.g. MSIG-LEGAL-DE-TRADE-NAME-LICENCE_2026715811_2026-09-29.pdf,…",
@@ -10193,8 +10137,8 @@
     {
       "id": "SIG-599",
       "title": "Ambassador disclosure wording for experts who share their Signal page (promised on /business: \"We'll give you the wordi…",
-      "description": "Created 2026-10-12 ~01:40, unattended (For Business chat). The /business page tells experts who join the Ambassador Program to disclose the commission to their clients, and promises the wording. Write a one-line disclosure for a Signal page description, an email footer and a social bio, and put it in the ambassador kit (SIG-236 enablement). Every focus-group persona who would take the commission said they would disclose it.",
-      "description_chars": 427,
+      "description": "Created 2026-10-12 ~01:40, unattended (For Business chat). The /business page tells experts who join the Ambassador Program to disclose the commission to their clients, and promises the wording. Write a one-line disclosure for a Signal page description, an email footer and a social bio, and put it in the ambassador kit (SIG-236 enablement). Every focus-group persona who would take the commission said they would disclose it. ➕ 15 Oct 2026: Autonomy set to Batch (Claude writes the disclosure line, Wolf approves). Wolf delegated the call; the cell had been blank since 12 Oct.",
+      "description_chars": 579,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -10212,8 +10156,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-12"
@@ -10250,7 +10194,7 @@
       "id": "SIG-587",
       "title": "Schools and Business feature list…",
       "description": "Created 2026-10-10 ~23:00, attended — Decision 203 ②④. Wolf: *\"I need your assistance to figure out what those are as far as the teams' capabilities, admin capabilities, and so forth… We need to make a list of features.\"* One list per audience, each feature marked: exists in Signal / Signal+ today · small build · large build, and whether the website may show it as coming. Inputs named by Wolf: teacher-picked videos in a locked subject channel; search switched off; links and resources (SIG-586); no ads; teachers, departments, school or district as buyers; edtech reseller partners on a revenue…",
-      "description_chars": 1742,
+      "description_chars": 2085,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Product",
@@ -15617,6 +15561,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-11"
+    },
+    {
+      "id": "SIG-390",
+      "title": "Post-click landing pages…",
+      "description": "Added 2026-08-16 (attended). When someone finishes onboarding we send a welcome email; the page its link opens does not exist in any design, spec or row. It is one surface with four entry paths — waitlist (share only) · pre-order Monthly (share only) · pre-order Annual and Lifetime (gift-recipient capture, then share) · Kickstarter (same shape, separate chat) — collapsing after launch to a straight redirect into the user's feed. Also carries the SMS opt-in (collect now, activation a separate go/no-go; TCPA consent wording shared with SIG-370). Wolf ruling 2026-08-16: this is its OWN Claude De…",
+      "description_chars": 2702,
+      "status": "s-blocked",
+      "priority": "p-p0",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": "1-2",
+      "deadline_label": "Phase P2",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "info",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-08-17"
     },
     {
       "id": "CF-ALERT-TWICE-NO-OWNER-1",
@@ -27469,6 +27441,34 @@
       "first_seen": "2026-09-29"
     },
     {
+      "id": "SIG-527",
+      "title": "The FAQ program…",
+      "description": "Created 2026-09-29, attended — Wolf: *\"We need to finalize what all the FAQs are going to be: the ones that are going to be on our page (meaning at the bottom), and then a link to maybe an FAQ page that is more complete… look at all our competitors, all the app blocker companies, and all the FAQs. Pull them together and then come up with a streamlined list for us… using first principles, critical thinking, and best practices.\"* Steps: collect FAQs from app blockers and adjacent products → categorise → our master list with answers grounded in canon (Curation Engine, Pricing, privacy) → pick 6–…",
+      "description_chars": 3670,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-09-29"
+    },
+    {
       "id": "SIG-531",
       "title": "A little motion on the pictures…",
       "description": "Created 2026-09-30 01:50, attended — Wolf: *\"after we finish these tweaks… animate a few of the other images slightly… just so it adds a little more wow factor\"* and *\"you know how we animated the image at the end: Join the movement… the light-flickers animation… I want to be able to discuss and see what little animation we can do across a bunch of our images, but let's do that after, at the end.\"* Choose a handful of pictures, propose one small motion each (light flicker, slow push-in, glow, drifting icons), show them side by side, Wolf picks. After all pictures are final. Wolf 01:41 example…",
@@ -27724,7 +27724,7 @@
       "id": "SIG-604",
       "title": "Research: the best business segments for sharing a Signal with clients…",
       "description": "Created 2026-10-12 23:55, attended (Decision 225 ⑥). Wolf: go after \"the lowest-hanging fruit of the biggest market opportunity, like real estate agents for sure. Fitness trainers, maybe consultants or coaches… we can look at some of the biggest channels by number of creators on these different platforms… LinkedIn… business-related.\" Financial advisers are not targeted. Starting data: _Working/research/business-page_2026-10-12/BUSINESS-RESEARCH_2026-10-12.md §A. Feeds the For Business page's examples and later ads. ▶ 13 Oct 00:05 (Decision 226 ④): widen to YouTube, LinkedIn, X and the large w…",
-      "description_chars": 1619,
+      "description_chars": 1717,
       "status": "s-done",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -27743,7 +27743,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-12"
@@ -28043,6 +28043,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 15, 2026 · 9:19 AM CEST",
-  "published_at_iso": "2026-10-15T09:19:37+0200"
+  "published_at": "October 15, 2026 · 5:22 PM CEST",
+  "published_at_iso": "2026-10-15T17:22:14+0200"
 }
