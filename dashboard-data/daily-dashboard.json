@@ -4953,7 +4953,7 @@
       "id": "SIG-605",
       "title": "Page analytics for Signal page owners (YouTube Studio-style), small version AT LAUNCH: visits, followers, channel adds,…",
       "description": "Created 2026-10-12 23:55, attended (Decision 225 ④). Wolf asked for Claude's view of a metrics dashboard for people who share Signal pages — visits, channels and videos watched, \"whatever metrics make sense\" — modelled on YouTube Studio, and whether it sits in Signal+ or needs another plan. Today: PRD v1.7 §17.1 defers \"public profile analytics (visitor count, etc., visible to curator)\" past launch, while the owner Signal-page spec has an Analytics button — a conflict to resolve. Distinct from the family dashboard (a parent sees a child's viewing, launch), the ambassador dashboard (clicks, si…",
-      "description_chars": 1955,
+      "description_chars": 2401,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -28043,6 +28043,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 15, 2026 · 4:02 AM CEST",
-  "published_at_iso": "2026-10-15T04:02:56+0200"
+  "published_at": "October 15, 2026 · 9:19 AM CEST",
+  "published_at_iso": "2026-10-15T09:19:37+0200"
 }
