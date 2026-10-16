@@ -10303,6 +10303,34 @@
       "first_seen": "2026-10-15"
     },
     {
+      "id": "SIG-618",
+      "title": "Move THE BOARD's image library out of the inbox into 03_Design/Reference/image-library/ and repoint the board's image i…",
+      "description": "Created 16 Oct 2026 15:15, attended — Wolf: \"yes\" to adding it. Found during SIG-617: THE BOARD's image library reads 1,171 images straight from _Inbox/ paths (_Working/board-src/data/imgidx.json, shelf.json, pages.json; tools/pack_tiles.py and pack_zoom.py key on _Inbox/YouTube screens/). Folders involved, ~1.5 GB: YouTube screens, SIGNAL WAITLIST ONBOARDING 8-17-26 V8, TABLET SIGNAL WALKTHROUGHS, SIGNAL WEBSITEs reference materials, MOTIVATION APP- SPARKS, ONBOARDING FLOW- PAYWALL screens, one sec app, GROUND NEWS, image examples for beats, SIGNAL LOGO DRAFTS, TEST USERS : SURVEYS, Signal S…",
+      "description_chars": 1112,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "15m",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-10-16"
+    },
+    {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
       "title": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with i…",
       "description": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with its next fire parked at 2027-01-01. The routine is trig_019Wuy5iWcJJzoSxHDj1oaDU, Wolf's *\"can a cloud routine reach the Mac?\"* probe, created and fired 2026-08-26; surfaced at MC-CLOUDSHIFT-2026-09-09 (2026-09-09, attended, cloud, session 7DMVKQTQ4B) and now recorded under the new _pending_one_offs key in _index/STATUS_SNAPSHOTS/_cloud_lanes.json. The probe is itself the portfolio's one recorded instance of the failure it was built to detect: the scheduler records it SUCCEEDED — fired…",
@@ -27861,6 +27889,34 @@
       "first_seen": "2026-10-14"
     },
     {
+      "id": "SIG-617",
+      "title": "Clean up the SIGNAL inbox…",
+      "description": "Created and closed 16 Oct 2026 15:15, attended — Wolf: *\"review and clean up/ delete whatever isnt necessary\"*; plan approved 16 Oct (\"yes\", recordings included). Evidence: 1,000 files / 555 MB deleted from _Inbox/ — 991 byte-verified duplicates whose other copy was confirmed present before each delete (whole SIGNAL BRAIN - ASSETS folder), the stale 6 Oct board copy (current is _Working/), 7 chat exports already word-for-word in _Transcripts/, the four 9 Oct screen recordings. 126 moved, none deleted: Mission Control messages → _archive/_Inbox_messages_to-2026-10-16/; Haidt → Reference/librar…",
+      "description_chars": 940,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-10-16"
+    },
+    {
       "id": "CF-OPENERS-SPENT-NOT-ARCHIVED-1",
       "title": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE…",
       "description": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE — measured, then repaired. Was Cancelled on 2026-08-07 as merged into CF-CONF-OPENERS-UNCOUNTABLE-1; the merge target's own count was wrong, so the residue was never actually addressed — §5.4.1 item 7, *a merge onto a blocked target is parked with extra steps*, visible here in miniature. Enumerated 2026-08-11: 31 opener-named files at the top level of _MAXX_OS/Working/. 29 moved to Working/openers-archive/ (28 → 57 files), per §5.8 *\"new openers go to Working/; spent ones go to Working/openers-archive/.\"* Two deliberately left: MC-LAUNCHD-LANE…",
@@ -28099,6 +28155,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 16, 2026 · 9:28 AM CEST",
-  "published_at_iso": "2026-10-16T09:28:44+0200"
+  "published_at": "October 16, 2026 · 3:30 PM CEST",
+  "published_at_iso": "2026-10-16T15:30:36+0200"
 }
