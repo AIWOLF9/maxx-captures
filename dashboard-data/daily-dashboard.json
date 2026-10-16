@@ -1096,8 +1096,8 @@
       "id": "SIG-474",
       "title": "Finalise the activation page and its legal surfaces…",
       "description": "Created 2026-09-20, attended, on Wolf's explicit instruction. Wolf: *\"We should have a separate chat just to deal with the website that was created and, I guess, the other documents that are needed, or other pieces such as privacy and/or terms.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): no row covers finalising the activation page together with its legal surfaces; SIG-324 is the page, SIG-325 is the documents, and each assumes the other is somebody else's problem. This row is the CHAT that closes both. SCOPE: (1) finish the activation page — Wolf: *\"I took a quick look at the page you creat…",
-      "description_chars": 6341,
-      "status": "s-todo",
+      "description_chars": 6850,
+      "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -3049,7 +3049,7 @@
       "id": "SIG-325",
       "title": "Finalize + publish Terms of Service and Privacy Policy",
       "description": "BLOCKS SIG-324 — PRIVACY HALF ONLY (since 2026-09-29, Decision 164 ①). The Terms-of-Service half no longer blocks it; Terms now gate pre-order, not the activation page. Both exist only as v0_2 drafts (2026-07-30); 08_Legal/Final/ is empty and neither is published. Stripe requires the refund + cancellation policy visible on the reviewed site, and the activation page links /terms and /privacy — 404s would undercut the review. ToS must carry the tier-specific money-back policy per Pricing §0.10-A (Monthly = cancel-anytime no refund; Annual + Lifetime = 30-day), replacing any 14-day-all-tiers lan…",
-      "description_chars": 5782,
+      "description_chars": 6040,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Legal",
@@ -3077,7 +3077,7 @@
       "id": "SIG-330",
       "title": "Arbitration + dispute-resolution clause…",
       "description": "Added 2026-08-06 (attended stand-up; Wolf agreed a separate chat, so it becomes a row before close per the anti-slip rule §5.4.1). Closes the one genuine open decision in MSIG-LEGAL-TERMS-OF-SERVICE-0001 — §15.3 is 🟨 RESERVED and §18A holds the options. Wolf's method, verbatim in substance: *\"look at terms of service for other apps that are very similar, offering membership, subscription and so forth… look at other [companies] that have already spent a ton of money on lawyers, so we don't have to reinvent the wheel.\"* That is exactly D6's ruled drafting method (exemplars + AI legal research,…",
-      "description_chars": 1432,
+      "description_chars": 1635,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Legal",
@@ -9074,7 +9074,7 @@
       "id": "SIG-435",
       "title": "Global Privacy Control + \"Do Not Sell or Share\"…",
       "description": "Added 2026-08-31 (attended), created by Decision 98 (D-SIG-2026-08-31a). The half of the US-only trade that is a cost, not a saving. Going US-only deletes the EU/UK cookie-consent banner — the biggest engineering win in the switch — but US state law replaces it with an opt-out regime that is lighter and is not nothing. California, Colorado, Connecticut, Texas, Oregon and Montana among others require honouring the browser's universal opt-out signal (GPC). A \"Do Not Sell or Share\" link is additionally advisable if AdSense ships — our position (Privacy §12.4) is that we do not \"share\" because Go…",
-      "description_chars": 1777,
+      "description_chars": 2152,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Engineering",
@@ -28267,6 +28267,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 16, 2026 · 11:05 PM CEST",
-  "published_at_iso": "2026-10-16T23:05:30+0200"
+  "published_at": "October 17, 2026 · 1:36 AM CEST",
+  "published_at_iso": "2026-10-17T01:36:46+0200"
 }
