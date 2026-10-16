@@ -5037,7 +5037,7 @@
       "id": "SIG-613",
       "title": "Finish the waitlist site…",
       "description": "Created 14 Oct 2026 22:57, attended (Decision 239 addendum). Wolf 21:28: *\"we have to build the other pages… We need to build the rest of the pages for the waitlist.\"*; 22:57: the pre-order words wait until these are done. Specs are in the Website Page Plan doc (https://claude.ai/code/artifact/f762b2cf-382b-46f7-b197-12334b06306a): Contact = Wave 3 (short form, topic drop-down); FAQ, Impact Index, Ambassador, Blog = Wave 5 (FAQ has its own chat, Decision 169; Impact Index survey design SIG-549; Ambassador program launches with the pre-order, SIG-071 — the waitlist version is an interest form;…",
-      "description_chars": 2775,
+      "description_chars": 3560,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5088,6 +5088,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-15"
+    },
+    {
+      "id": "SIG-620",
+      "title": "Ambassador programme terms and conditions…",
+      "description": "Created 16 Oct 2026 16:54, attended — Wolf: *\"I imagine we'll need to have separate affiliate terms and conditions, so we probably want to get the affiliate terms and conditions from a few of these companies that are similar to us (like the app blockers and blocking sites). We can use it as a framework… such as- https://getbrick.com/pages/affiliate-marketing-program-terms-and-conditions-for-brick-llc or do we need them already inside the program only? after they sign up?\"* Locked spec already lists this as OQ-AFF-04 (MAXX_Signal_AFFILIATE_v1_2 — FTC disclosure, commission, payout, termination…",
+      "description_chars": 793,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "THEMIS",
+      "executor_list": [
+        "THEMIS"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-10-16"
     },
     {
       "id": "CAP-0029",
@@ -14194,6 +14222,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-14"
+    },
+    {
+      "id": "SIG-619",
+      "title": "Press kit…",
+      "description": "Created 16 Oct 2026 16:54, attended — Wolf: *\"under press kit- Onesec shows a list- what do we have?… I don't think we should have our kit available for everyone to just download, but I think we should have it as part of the research for when we do create our marketing kit… Not something we need to do this very second… adding a press kit as well. Make that a task for later.\"* Reference saved: one sec press page https://one-sec.app/press/ and kit https://impresskit.net/f5e21739-afc2-4450-a6a5-e7dd111703d0 (PDFs in _Transcripts/attachments/2026-10-16_AMBASSADOR-PAGE/one-sec_press-kit_*.pdf): co…",
+      "description_chars": 968,
+      "status": "s-todo",
+      "priority": "p-p3",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-16"
     },
     {
       "id": "CF-PM5h-3-H",
@@ -28155,6 +28211,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 16, 2026 · 3:30 PM CEST",
-  "published_at_iso": "2026-10-16T15:30:36+0200"
+  "published_at": "October 16, 2026 · 5:16 PM CEST",
+  "published_at_iso": "2026-10-16T17:16:25+0200"
 }
