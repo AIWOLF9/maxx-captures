@@ -5037,7 +5037,7 @@
       "id": "SIG-613",
       "title": "Finish the waitlist site…",
       "description": "Created 14 Oct 2026 22:57, attended (Decision 239 addendum). Wolf 21:28: *\"we have to build the other pages… We need to build the rest of the pages for the waitlist.\"*; 22:57: the pre-order words wait until these are done. Specs are in the Website Page Plan doc (https://claude.ai/code/artifact/f762b2cf-382b-46f7-b197-12334b06306a): Contact = Wave 3 (short form, topic drop-down); FAQ, Impact Index, Ambassador, Blog = Wave 5 (FAQ has its own chat, Decision 169; Impact Index survey design SIG-549; Ambassador program launches with the pre-order, SIG-071 — the waitlist version is an interest form;…",
-      "description_chars": 6005,
+      "description_chars": 6210,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -28211,6 +28211,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 16, 2026 · 10:19 PM CEST",
-  "published_at_iso": "2026-10-16T22:19:49+0200"
+  "published_at": "October 16, 2026 · 10:35 PM CEST",
+  "published_at_iso": "2026-10-16T22:35:08+0200"
 }
