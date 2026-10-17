@@ -1096,7 +1096,7 @@
       "id": "SIG-474",
       "title": "Finalise the activation page and its legal surfaces…",
       "description": "Created 2026-09-20, attended, on Wolf's explicit instruction. Wolf: *\"We should have a separate chat just to deal with the website that was created and, I guess, the other documents that are needed, or other pieces such as privacy and/or terms.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): no row covers finalising the activation page together with its legal surfaces; SIG-324 is the page, SIG-325 is the documents, and each assumes the other is somebody else's problem. This row is the CHAT that closes both. SCOPE: (1) finish the activation page — Wolf: *\"I took a quick look at the page you creat…",
-      "description_chars": 6850,
+      "description_chars": 7124,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -1119,6 +1119,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-20"
+    },
+    {
+      "id": "SIG-623",
+      "title": "Stand-up and full audit: what is done, what is left, priorities and a dated plan to publish the waitlist site and go to…",
+      "description": "Created 17 Oct 2026 ~02:15, attended (legal chat close). Wolf 01:55 (verbatim in _Working/founder-corpus/WOLF-VERBATIM_2026-10-17_0155_STANDUP-AGENDA.md): review what has been done and what is left; priorities and order; a timeline to publish the waitlist website; departments — fundraising (investor talks early November; investor presentation), marketing and go-to-market (waitlist → pre-order → Kickstarter), social handles (Wolf gets them by Monday 19 Oct; strategy and day-one content), Ambassador partner go-to-market, advisors (research invitees; advisory agreement with stock options, Wolf h…",
+      "description_chars": 978,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Operations",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-10-17"
     },
     {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
@@ -5116,6 +5144,34 @@
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-10-16"
+    },
+    {
+      "id": "SIG-624",
+      "title": "Pre-order round fixes found in the legal chat: paywall Lifetime card, Yearly reminder timeline, FAQ trial lines, invite…",
+      "description": "Created 17 Oct 2026, legal chat (Decision 247 + addendum). ① Paywall (screen 26) Lifetime card says \"Due today: $5 deposit · refundable\" — Lifetime is paid in full (SIG-322 6 Aug; FAQ). ② Yearly timeline \"Day 6 reminder · Day 7 billed\" vs Decision 122 (notice day 1, charge day 8). ③ FAQ \"Why do you charge $5 now?\" and \"Can I get my $5 back?\" say every plan starts with a 7-day trial — Monthly has none. ④ \"Wave One\" → \"Founding Beta Launch\" (Wolf's edit) on the paywall and wherever it appears. ⑤ For Families / For Students invite pop-up line \"one invitation… never added to a list\" → invitation…",
+      "description_chars": 699,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-17"
     },
     {
       "id": "CAP-0029",
@@ -28267,6 +28323,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 17, 2026 · 1:36 AM CEST",
-  "published_at_iso": "2026-10-17T01:36:46+0200"
+  "published_at": "October 17, 2026 · 2:07 AM CEST",
+  "published_at_iso": "2026-10-17T02:07:08+0200"
 }
