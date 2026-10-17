@@ -564,7 +564,7 @@
       "id": "SIG-322",
       "title": "Pre-order → launch billing lifecycle…",
       "description": "Added 2026-08-05 (SIG-320 close-out; Wolf surfaced the gap in session). The $5 refundable deposit is the pre-launch revenue mechanic — *\"$5 refundable deposit (or pre-order in full) · fully refundable until launch\"* — and it is specified on the design side and absent on the money and data sides. Present in: MSIG-UX-PAYWALL-0001 offer-variant table · MSIG-UX-SCREEN-PLAN-0001 (copy token paywall.bar.due.deposit = *\"Due today: $5 deposit · refundable\"*, analytics event reservation_created) · MSIG-PROD-ANALYTICS-0001 (×2) · MSIG-PROD-API-INTEGRATIONS-0001 (×1). Absent from: MSIG-PROD-PRICING-0001…",
-      "description_chars": 5906,
+      "description_chars": 6441,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Product",
@@ -5121,7 +5121,7 @@
       "id": "SIG-620",
       "title": "Ambassador programme terms and conditions…",
       "description": "Created 16 Oct 2026 16:54, attended — Wolf: *\"I imagine we'll need to have separate affiliate terms and conditions, so we probably want to get the affiliate terms and conditions from a few of these companies that are similar to us (like the app blockers and blocking sites). We can use it as a framework… such as- https://getbrick.com/pages/affiliate-marketing-program-terms-and-conditions-for-brick-llc or do we need them already inside the program only? after they sign up?\"* Locked spec already lists this as OQ-AFF-04 (MAXX_Signal_AFFILIATE_v1_2 — FTC disclosure, commission, payout, termination…",
-      "description_chars": 793,
+      "description_chars": 968,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Legal",
@@ -14311,7 +14311,7 @@
       "id": "SIG-619",
       "title": "Press kit…",
       "description": "Created 16 Oct 2026 16:54, attended — Wolf: *\"under press kit- Onesec shows a list- what do we have?… I don't think we should have our kit available for everyone to just download, but I think we should have it as part of the research for when we do create our marketing kit… Not something we need to do this very second… adding a press kit as well. Make that a task for later.\"* Reference saved: one sec press page https://one-sec.app/press/ and kit https://impresskit.net/f5e21739-afc2-4450-a6a5-e7dd111703d0 (PDFs in _Transcripts/attachments/2026-10-16_AMBASSADOR-PAGE/one-sec_press-kit_*.pdf): co…",
-      "description_chars": 1537,
+      "description_chars": 1712,
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Marketing",
@@ -28323,6 +28323,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 17, 2026 · 2:07 AM CEST",
-  "published_at_iso": "2026-10-17T02:07:08+0200"
+  "published_at": "October 17, 2026 · 9:24 AM CEST",
+  "published_at_iso": "2026-10-17T09:24:22+0200"
 }
