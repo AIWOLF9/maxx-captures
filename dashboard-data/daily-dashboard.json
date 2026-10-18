@@ -1093,38 +1093,10 @@
       "first_seen": "2026-09-20"
     },
     {
-      "id": "SIG-623",
-      "title": "Stand-up and full audit: what is done, what is left, priorities and a dated plan to publish the waitlist site and go to…",
-      "description": "Created 17 Oct 2026 ~02:15, attended (legal chat close). Wolf 01:55 (verbatim in _Working/founder-corpus/WOLF-VERBATIM_2026-10-17_0155_STANDUP-AGENDA.md): review what has been done and what is left; priorities and order; a timeline to publish the waitlist website; departments — fundraising (investor talks early November; investor presentation), marketing and go-to-market (waitlist → pre-order → Kickstarter), social handles (Wolf gets them by Monday 19 Oct; strategy and day-one content), Ambassador partner go-to-market, advisors (research invitees; advisory agreement with stock options, Wolf h…",
-      "description_chars": 1579,
-      "status": "s-doing",
-      "priority": "p-p0",
-      "segment": "Operations",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": "2026-10-17"
-    },
-    {
       "id": "SIG-625",
       "title": "Go live: move the built waitlist site to maxxsignal.com…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Audit finding: no task covered moving the 19 built pages from THE BOARD onto the live site. The live site is the June wiring-test app (GitHub AIWOLF9/maxx-signal, Next.js on Vercel, maxxsignal.com and join.maxxsignal.com bound). Scope: ① the built pages served at their routes; ② the join sheet writes to the waitlist collection and sends the confirmation email through Resend (needs SIG-314); ③ the US-only country check (SIG-434, Vercel country header); ④ footer links to the social handles (SIG-379, SIG-626); ⑤ the IP footer and site g…",
-      "description_chars": 1098,
+      "description_chars": 1488,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Build",
@@ -3889,7 +3861,7 @@
       "id": "SIG-431",
       "title": "Ambassador / influencer LIST build…",
       "description": "Added 2026-08-31 (attended). Wolf, 2026-08-31: *\"an aggressive campaign to get ambassador and affiliate partners.\"* ⚠️ The gap here is precise and easy to misread: the PROGRAM is fully designed and locked; the LIST OF PEOPLE was never built. MAXX_Signal_AFFILIATE_v1_2 is 4,258 lines locked at P0 — tiers at 25/40/40-plus-badge, commission mechanics, payouts, attribution, anti-fraud, dashboard. MSIG-GTM-PARTNER-DISCOVERY-0001 v0.2 defines exactly how to build the database of public voices on algorithmic harm and was ratified 2026-05-28 and then explicitly queued behind upstream blockers — where…",
-      "description_chars": 3000,
+      "description_chars": 3475,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -3917,7 +3889,7 @@
       "id": "SIG-432",
       "title": "ATTENDED GTM walkthrough…",
       "description": "Added 2026-08-31 (attended). Wolf set the date himself, 2026-08-31: *\"In about 10 days, it's fine\"* — and named what he wants from it: *\"Walk through the whole plan and all the moving parts. See what's there. Update whatever you need to update. Provide the comprehensive plan. Agree on the plan. Execute the various pieces of the plan.\"* One boardroom session, Boardroom Walkthrough Protocol — visual-led, section by section, present then debate then decide then lock. This is the single block of Wolf's time the whole program needs; everything upstream is authored unattended and arrives finished,…",
-      "description_chars": 2923,
+      "description_chars": 3359,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -9466,7 +9438,7 @@
       "id": "SIG-497",
       "title": "Ad-library research run…",
       "description": "Created 2026-09-25, attended — from Wolf, walkthrough review batch 1, 2026-09-25 (verbatim in _Working/SIGNAL_WALKTHROUGH-REVIEW_BATCH-1_WOLF-VERBATIM_2026-09-25.md). Wolf: *\"Before we go to market, we definitely want to go to Facebook's ad library and the Google ad library. We're going to review all the ads that everybody is running to see what they're saying… because they're having to make concise use of the space to get the point across.\"* Pull the live ads of the app blockers and YouTube tools on the Competitor Walkthrough Board (BlockSite, Freedom, Opal, one sec, Roots, Qustodio and the…",
-      "description_chars": 1263,
+      "description_chars": 1449,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -11034,8 +11006,8 @@
     {
       "id": "SIG-075",
       "title": "Content automation / SEO engine stand-up",
-      "description": "Operationalize the Claude Content Automation Master Plan v1.0 (blog/SEO pipeline). Post-launch-leaning.",
-      "description_chars": 103,
+      "description": "Operationalize the Claude Content Automation Master Plan v1.0 (blog/SEO pipeline). Post-launch-leaning. ▶ 18 Oct 2026 ~21:05, attended (stand-up and audit chat): Wolf asked for an SEO strategy and tools. Scheduled as the Blog and search chat, Thu 22 – Fri 23 Oct, so the Blog's first cornerstone articles are chosen by real search demand (August keyword data on disk; the Ahrefs connector now appears in sessions, plan limits to check). Depends on SIG-067 is stale (website overtaken); recommendation awaiting Wolf: clear it. ▶ 18 Oct 2026 ~21:00, attended (closeout of the stand-up and audit chat;…",
+      "description_chars": 865,
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Content",
@@ -20323,6 +20295,34 @@
       "first_seen": "2026-09-26"
     },
     {
+      "id": "SIG-623",
+      "title": "Stand-up and full audit: what is done, what is left, priorities and a dated plan to publish the waitlist site and go to…",
+      "description": "Created 17 Oct 2026 ~02:15, attended (legal chat close). Wolf 01:55 (verbatim in _Working/founder-corpus/WOLF-VERBATIM_2026-10-17_0155_STANDUP-AGENDA.md): review what has been done and what is left; priorities and order; a timeline to publish the waitlist website; departments — fundraising (investor talks early November; investor presentation), marketing and go-to-market (waitlist → pre-order → Kickstarter), social handles (Wolf gets them by Monday 19 Oct; strategy and day-one content), Ambassador partner go-to-market, advisors (research invitees; advisory agreement with stock options, Wolf h…",
+      "description_chars": 2133,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Operations",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-10-17"
+    },
+    {
       "id": "CF-SIGNAL-INC-FORMED-1",
       "title": "MAXX Signal Inc…",
       "description": "MAXX Signal Inc. is now officially formed as a Florida C Corporation, and the 15,000,000 authorised-share count was confirmed with the registered agent before the filing was submitted. Wolf confirmed both in the Mission Control stand-up of 2026-09-09. This closes the one item from MC-ENTITY-SETUP-2026-09-04 that carried a closing window — confirming the share count was free before submission and would have cost a fee plus delay afterwards. It had been recorded under 'what Wolf does next' and never reached a register, which is why it went five days without a status; that routing gap is the sam…",
@@ -28407,6 +28407,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 18, 2026 · 8:09 PM CEST",
-  "published_at_iso": "2026-10-18T20:09:52+0200"
+  "published_at": "October 18, 2026 · 8:55 PM CEST",
+  "published_at_iso": "2026-10-18T20:55:20+0200"
 }
