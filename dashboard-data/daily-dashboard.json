@@ -1096,7 +1096,7 @@
       "id": "SIG-623",
       "title": "Stand-up and full audit: what is done, what is left, priorities and a dated plan to publish the waitlist site and go to…",
       "description": "Created 17 Oct 2026 ~02:15, attended (legal chat close). Wolf 01:55 (verbatim in _Working/founder-corpus/WOLF-VERBATIM_2026-10-17_0155_STANDUP-AGENDA.md): review what has been done and what is left; priorities and order; a timeline to publish the waitlist website; departments — fundraising (investor talks early November; investor presentation), marketing and go-to-market (waitlist → pre-order → Kickstarter), social handles (Wolf gets them by Monday 19 Oct; strategy and day-one content), Ambassador partner go-to-market, advisors (research invitees; advisory agreement with stock options, Wolf h…",
-      "description_chars": 1375,
+      "description_chars": 1579,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Operations",
@@ -3917,7 +3917,7 @@
       "id": "SIG-432",
       "title": "ATTENDED GTM walkthrough…",
       "description": "Added 2026-08-31 (attended). Wolf set the date himself, 2026-08-31: *\"In about 10 days, it's fine\"* — and named what he wants from it: *\"Walk through the whole plan and all the moving parts. See what's there. Update whatever you need to update. Provide the comprehensive plan. Agree on the plan. Execute the various pieces of the plan.\"* One boardroom session, Boardroom Walkthrough Protocol — visual-led, section by section, present then debate then decide then lock. This is the single block of Wolf's time the whole program needs; everything upstream is authored unattended and arrives finished,…",
-      "description_chars": 2473,
+      "description_chars": 2923,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -28407,6 +28407,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 18, 2026 · 7:54 PM CEST",
-  "published_at_iso": "2026-10-18T19:54:34+0200"
+  "published_at": "October 18, 2026 · 8:09 PM CEST",
+  "published_at_iso": "2026-10-18T20:09:52+0200"
 }
