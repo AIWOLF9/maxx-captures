@@ -1068,7 +1068,7 @@
       "id": "SIG-474",
       "title": "Finalise the activation page and its legal surfaces…",
       "description": "Created 2026-09-20, attended, on Wolf's explicit instruction. Wolf: *\"We should have a separate chat just to deal with the website that was created and, I guess, the other documents that are needed, or other pieces such as privacy and/or terms.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): no row covers finalising the activation page together with its legal surfaces; SIG-324 is the page, SIG-325 is the documents, and each assumes the other is somebody else's problem. This row is the CHAT that closes both. SCOPE: (1) finish the activation page — Wolf: *\"I took a quick look at the page you creat…",
-      "description_chars": 7124,
+      "description_chars": 7283,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -3016,34 +3016,6 @@
       "department": "Legal",
       "kind": "tasks",
       "first_seen": "2026-07-31"
-    },
-    {
-      "id": "SIG-325",
-      "title": "Finalize + publish Terms of Service and Privacy Policy",
-      "description": "BLOCKS SIG-324 — PRIVACY HALF ONLY (since 2026-09-29, Decision 164 ①). The Terms-of-Service half no longer blocks it; Terms now gate pre-order, not the activation page. Both exist only as v0_2 drafts (2026-07-30); 08_Legal/Final/ is empty and neither is published. Stripe requires the refund + cancellation policy visible on the reviewed site, and the activation page links /terms and /privacy — 404s would undercut the review. ToS must carry the tier-specific money-back policy per Pricing §0.10-A (Monthly = cancel-anytime no refund; Annual + Lifetime = 30-day), replacing any 14-day-all-tiers lan…",
-      "description_chars": 6040,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Legal",
-      "venture": "v-signal",
-      "deadline": "1-3",
-      "deadline_label": "Phase P3",
-      "deadline_class": "d-future",
-      "effort_mc": "3h",
-      "effort_wolf": "2h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Legal",
-      "kind": "tasks",
-      "first_seen": "2026-08-05"
     },
     {
       "id": "SIG-330",
@@ -23731,6 +23703,34 @@
       "first_seen": "2026-08-01"
     },
     {
+      "id": "SIG-325",
+      "title": "Finalize + publish Terms of Service and Privacy Policy",
+      "description": "BLOCKS SIG-324 — PRIVACY HALF ONLY (since 2026-09-29, Decision 164 ①). The Terms-of-Service half no longer blocks it; Terms now gate pre-order, not the activation page. Both exist only as v0_2 drafts (2026-07-30); 08_Legal/Final/ is empty and neither is published. Stripe requires the refund + cancellation policy visible on the reviewed site, and the activation page links /terms and /privacy — 404s would undercut the review. ToS must carry the tier-specific money-back policy per Pricing §0.10-A (Monthly = cancel-anytime no refund; Annual + Lifetime = 30-day), replacing any 14-day-all-tiers lan…",
+      "description_chars": 6720,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": "1-3",
+      "deadline_label": "Phase P3",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-08-05"
+    },
+    {
       "id": "SIG-327",
       "title": "Lemon Squeezy support email…",
       "description": "Multi-day external clock; start early. (1) Is the platform fee returned to the merchant on a refund? Docs read as fee-neutral but one sentence is not enough to lock SIG-322's refundable-deposit economics. (2) Is a deposit-then-balance model acceptable under their terms, and does the multi-month gap concern their risk team? (3) Stripe Managed Payments migration timeline, and will lemon.js overlay stay supported — SIG-322's stay-on-page checkout does not port to Checkout/Payment-Links-only. WITHDRAWN 2026-08-05 — no email sent, none needed. Wolf challenged the draft; on review all three questio…",
@@ -28435,6 +28435,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 18, 2026 · 9:25 PM CEST",
-  "published_at_iso": "2026-10-18T21:25:46+0200"
+  "published_at": "October 18, 2026 · 9:41 PM CEST",
+  "published_at_iso": "2026-10-18T21:41:04+0200"
 }
