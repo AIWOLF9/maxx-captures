@@ -4589,7 +4589,7 @@
       "id": "SIG-549",
       "title": "Social Media Impact Index…",
       "description": "Created 2026-10-03 16:54, attended — Wolf (verbatim _Working/social-media-impact-index/WOLF-NOTES_2026-10-03_1654_SOCIAL-MEDIA-IMPACT-INDEX_VERBATIM.md; his screenshots of the Anthropic Interviewer survey in _Inbox/SOCIAL MEDIA IMPACT INDEX/; reference https://www.anthropic.com/research/your-thoughts-on-ai). Wolf: *\"creating this social media impact index… asking people about just their experience with social media… what they like… what they don't like… what they would change, and just how it's affected their life… completely anonymized… We can launch the social media impact index… a press re…",
-      "description_chars": 2527,
+      "description_chars": 3571,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -10362,15 +10362,15 @@
       "id": "SIG-621",
       "title": "Site-wide header and buttons: the Log in menu, and the lift-and-glow hover on every join button",
       "description": "Created 16 Oct 2026 ~23:05, attended (Decision 246 ②③). Wolf 22:54: *\"I agree with your login placement, the blue kind of button. Of course, we want to give it the same feel as what you're doing here for B, which I agree on: the lift and glow.\"* ① Every gold join / apply button on every page: hover B, lift and glow (rises 2 px, gold glow spreads under it, presses down on click; mouse only, no movement under reduced motion) — in the shared page frame so one change reaches all pages, then every page rebuilt and THE BOARD republished. ② Header Log in menu: desktop after About, before the join bu…",
-      "description_chars": 945,
-      "status": "s-todo",
+      "description_chars": 1371,
+      "status": "s-doing",
       "priority": "p-p2",
       "segment": "Marketing",
       "venture": "v-signal",
       "deadline": null,
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
-      "effort_mc": null,
+      "effort_mc": "std. Checked headless at 390 / 834–1920: hover states, no sideways scroll, no script errors. Pre-change pages _Working/archive/board-src-nr_pre-SIG621_2026-10-18/; README v12.9.70. ⚠ The log-in destinations (/ambassador/login, /login) are NOT BUILT — no ambassador log-in exists yet. Remaining: web board republish (rides with SIG-614 review) and a ruling on what the Ambassador log-in opens before the first ambassador is approved.",
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -10380,8 +10380,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
+      "autonomy": "Auto",
+      "autonomy_reason": "named-owner",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-16"
@@ -14310,8 +14310,8 @@
     {
       "id": "SIG-622",
       "title": "A fun \"page not found\" page…",
-      "description": "Created 16 Oct 2026 ~23:05, attended (Decision 246 ④). Wolf 22:54: *\"We should do something fun with the page not found... Maybe it's a little game or something.\"* His seed idea: MAXX Signal as a brain shooting down the viruses coming from the algorithms, Asteroids / Galaga style, arrow keys or tap; a few hits and you lose. Research first (Google Chrome's offline dinosaur game and other well-loved 404 pages), then brainstorm with Wolf, then build. Not before the legal pages.",
-      "description_chars": 479,
+      "description": "Created 16 Oct 2026 ~23:05, attended (Decision 246 ④). Wolf 22:54: *\"We should do something fun with the page not found... Maybe it's a little game or something.\"* His seed idea: MAXX Signal as a brain shooting down the viruses coming from the algorithms, Asteroids / Galaga style, arrow keys or tap; a few hits and you lose. Research first (Google Chrome's offline dinosaur game and other well-loved 404 pages), then brainstorm with Wolf, then build. Not before the legal pages. ▶ 18 Oct 2026 ~22:30 (website-finish chat): the PLAIN page is built for the quiet go-live — _Working/narrative-pipeline…",
+      "description_chars": 932,
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Marketing",
@@ -28435,6 +28435,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 18, 2026 · 9:41 PM CEST",
-  "published_at_iso": "2026-10-18T21:41:04+0200"
+  "published_at": "October 18, 2026 · 10:11 PM CEST",
+  "published_at_iso": "2026-10-18T22:11:28+0200"
 }
