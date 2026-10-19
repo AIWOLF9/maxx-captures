@@ -1096,7 +1096,7 @@
       "id": "SIG-625",
       "title": "Go live: move the built waitlist site to maxxsignal.com…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Audit finding: no task covered moving the 19 built pages from THE BOARD onto the live site. The live site is the June wiring-test app (GitHub AIWOLF9/maxx-signal, Next.js on Vercel, maxxsignal.com and join.maxxsignal.com bound). Scope: ① the built pages served at their routes; ② the join sheet writes to the waitlist collection and sends the confirmation email through Resend (needs SIG-314); ③ the US-only country check (SIG-434, Vercel country header); ④ footer links to the social handles (SIG-379, SIG-626); ⑤ the IP footer and site g…",
-      "description_chars": 1488,
+      "description_chars": 1792,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Build",
@@ -3438,34 +3438,6 @@
       "first_seen": "2026-08-12"
     },
     {
-      "id": "SIG-379",
-      "title": "Social account setup…",
-      "description": "Added 2026-08-12 in SIG-378 (attended, Wolf's instruction; split out of SIG-165 and routed out of SIG-373). Wolf, verbatim in substance: *\"an external setup of all the accounts we need to set up in order to start doing the go-to-market — LinkedIn, X, Instagram, YouTube, TikTok, etc.\"* SIG-373's own text flagged that the social accounts *\"appear on no list anywhere\"*; they were in fact half-buried inside SIG-165, at P2, behind a SIG-174 gate, invisible. Scope: create the accounts and CLAIM THE HANDLES only — consistent handle across all five, plus a reserved handle on any platform we are not l…",
-      "description_chars": 1603,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "0.5h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-08-12"
-    },
-    {
       "id": "SIG-380",
       "title": "TED-style keynote…",
       "description": "Added 2026-08-13 (Wolf's instruction, this chat). Wolf: build *\"the most impactful, inspiring, aspirational presentation like a TED Talk\"* — stack the algorithmic-harm monster, then introduce Signal. Built on the locked Brand v1.5.2 §7.16 three-movement spine (Movement 1 stack 59% / Movement 2 pivot 9% / Movement 3 solution 25%), deploying MSIG-MKT-RECEIPTS-SET-0001 v1.0 §A receipts with source attribution on every factual beat, 3 interleaved §A.7 counter-cases, and the 12-image SIG-287B onboarding visual set (all OURS, zero third-party imagery in the cut). Ships both pivot cuts — brand-floor…",
@@ -4617,7 +4589,7 @@
       "id": "SIG-552",
       "title": "Forms → HubSpot: connect HubSpot, wire every website form in, and send an automatic thank-you with links",
       "description": "Created 2026-10-05 03:21, attended — Wolf (Decision 192 ①): *\"I want a solution that you're able to connect to through a plugin or connector, so you can manage everything.\"* Wolf: create the HubSpot account and connect the HubSpot connector (claude.ai). Claude: wire the audience forms, ambassador application and share form; thank-you emails per form (links: How It Works, Impact Index, Ambassador, audience pages); meeting-booking link for partner-level applicants; ambassador stages Applied → Reviewing → Accepted → Declined. Waitlist stays in our database + Resend. 2026-10-05 03:40 — HubSpot co…",
-      "description_chars": 5402,
+      "description_chars": 5668,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Engineering",
@@ -4645,7 +4617,7 @@
       "id": "SIG-556",
       "title": "HubSpot finish-up AFTER the website: review every form's fields, approve and build the emails, publish",
       "description": "Created 2026-10-05 20:12, attended — Wolf: *\"I think we have to review the forms for exactly what you're trying to gather for each… the ambassador form (I think even the business form)… too simplistic… We can review the forms and the emails and whatever is left in HubSpot in our next chat or after we finish the website.\"* ⚠ What Wolf saw is HubSpot's empty STARTER version (First/Last/Email) that goes live behind every new form ID — the Signal fields sit in the UNPUBLISHED drafts. Scope: ① a field-by-field review of the four forms that stay (Contact, Schools, Business, Ambassador application —…",
-      "description_chars": 2411,
+      "description_chars": 2490,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Engineering",
@@ -23927,6 +23899,34 @@
       "first_seen": "2026-08-11"
     },
     {
+      "id": "SIG-379",
+      "title": "Social account setup…",
+      "description": "Added 2026-08-12 in SIG-378 (attended, Wolf's instruction; split out of SIG-165 and routed out of SIG-373). Wolf, verbatim in substance: *\"an external setup of all the accounts we need to set up in order to start doing the go-to-market — LinkedIn, X, Instagram, YouTube, TikTok, etc.\"* SIG-373's own text flagged that the social accounts *\"appear on no list anywhere\"*; they were in fact half-buried inside SIG-165, at P2, behind a SIG-174 gate, invisible. Scope: create the accounts and CLAIM THE HANDLES only — consistent handle across all five, plus a reserved handle on any platform we are not l…",
+      "description_chars": 2062,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-08-12"
+    },
+    {
       "id": "SIG-426",
       "title": "GTM audit + staleness pass…",
       "description": "Added 2026-08-31 (attended, GTM reboot session). Wolf asked whether the launch-mechanics and go-to-market research had already been done. It has — far more than he remembered — and the finding is that the spine was never locked. SIG28 (2026-06-07) shipped nine artifacts including the 7-phase funnel spine, the tiered traffic-channel map, the mission-driven Kickstarter playbook and the launch PR list, plus SIG27 partner GTM, the v1.2 Ambassador spec locked at P0, the freemium-conversion playbook and the keyword strategy. SIG28_Launch_Mechanics_Plan is still v0.1 DRAFT in _Working/ — SIG28 route…",
@@ -28435,6 +28435,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 19, 2026 · 9:31 AM CEST",
-  "published_at_iso": "2026-10-19T09:31:10+0200"
+  "published_at": "October 19, 2026 · 6:53 PM CEST",
+  "published_at_iso": "2026-10-19T18:53:32+0200"
 }
