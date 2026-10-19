@@ -5149,7 +5149,7 @@
       "id": "SIG-628",
       "title": "Move Signal's Claude Design work before standalone Claude Design closes on 14 Dec 2026…",
       "description": "Created 18 Oct 2026 ~21:30, from the Mission Control hand-off _Inbox/MC-TO-SIGNAL_HANDOFF_2026-10-18_sig-623-audit-inputs-and-two-one-word-calls.md (weekly synthesis W2), verified the same evening against https://support.claude.com/en/articles/17440474. Standalone Claude Design closes 14 Dec 2026; after that claude.ai/design opens Claude, and new designs, design systems and decks are artifacts. Before then: ① migrate the design system(s) from the Artifacts page (one migration brings all; fix and re-run any that fail); ② export each Signal project (Share → Project HTML → keep Project archive →…",
-      "description_chars": 1188,
+      "description_chars": 1757,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -10362,7 +10362,7 @@
       "id": "SIG-621",
       "title": "Site-wide header and buttons: the Log in menu, and the lift-and-glow hover on every join button",
       "description": "Created 16 Oct 2026 ~23:05, attended (Decision 246 ②③). Wolf 22:54: *\"I agree with your login placement, the blue kind of button. Of course, we want to give it the same feel as what you're doing here for B, which I agree on: the lift and glow.\"* ① Every gold join / apply button on every page: hover B, lift and glow (rises 2 px, gold glow spreads under it, presses down on click; mouse only, no movement under reduced motion) — in the shared page frame so one change reaches all pages, then every page rebuilt and THE BOARD republished. ② Header Log in menu: desktop after About, before the join bu…",
-      "description_chars": 1371,
+      "description_chars": 2245,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -10370,7 +10370,7 @@
       "deadline": null,
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
-      "effort_mc": "std. Checked headless at 390 / 834–1920: hover states, no sideways scroll, no script errors. Pre-change pages _Working/archive/board-src-nr_pre-SIG621_2026-10-18/; README v12.9.70. ⚠ The log-in destinations (/ambassador/login, /login) are NOT BUILT — no ambassador log-in exists yet. Remaining: web board republish (rides with SIG-614 review) and a ruling on what the Ambassador log-in opens before the first ambassador is approved. ▶ 18 Oct 22:31 — Wolf ruled: Ambassador log-in stays OFF until it is ready (\"we'll turn on the login as an ambassador as soon as we have it ready\"). Built as the AMB_LIVE switch in the tool (README v12.9.70 note); before launch no Log in shows at all. ▶ 19 Oct 02:30 (closeout): built on all site pages; remaining = web board republish with the SIG-614 review publish, and AMB_LIVE=True when the Ambassador log-in exists. Returned to To-do.",
+      "effort_mc": null,
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -10380,8 +10380,8 @@
       "executor_list": [
         "HERMES"
       ],
-      "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-16"
@@ -28435,6 +28435,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 19, 2026 · 2:59 AM CEST",
-  "published_at_iso": "2026-10-19T02:59:06+0200"
+  "published_at": "October 19, 2026 · 9:31 AM CEST",
+  "published_at_iso": "2026-10-19T09:31:10+0200"
 }
