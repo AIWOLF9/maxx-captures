@@ -4617,7 +4617,7 @@
       "id": "SIG-552",
       "title": "Forms → HubSpot: connect HubSpot, wire every website form in, and send an automatic thank-you with links",
       "description": "Created 2026-10-05 03:21, attended — Wolf (Decision 192 ①): *\"I want a solution that you're able to connect to through a plugin or connector, so you can manage everything.\"* Wolf: create the HubSpot account and connect the HubSpot connector (claude.ai). Claude: wire the audience forms, ambassador application and share form; thank-you emails per form (links: How It Works, Impact Index, Ambassador, audience pages); meeting-booking link for partner-level applicants; ambassador stages Applied → Reviewing → Accepted → Declined. Waitlist stays in our database + Resend. 2026-10-05 03:40 — HubSpot co…",
-      "description_chars": 4602,
+      "description_chars": 5402,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Engineering",
@@ -4645,7 +4645,7 @@
       "id": "SIG-556",
       "title": "HubSpot finish-up AFTER the website: review every form's fields, approve and build the emails, publish",
       "description": "Created 2026-10-05 20:12, attended — Wolf: *\"I think we have to review the forms for exactly what you're trying to gather for each… the ambassador form (I think even the business form)… too simplistic… We can review the forms and the emails and whatever is left in HubSpot in our next chat or after we finish the website.\"* ⚠ What Wolf saw is HubSpot's empty STARTER version (First/Last/Email) that goes live behind every new form ID — the Signal fields sit in the UNPUBLISHED drafts. Scope: ① a field-by-field review of the four forms that stay (Contact, Schools, Business, Ambassador application —…",
-      "description_chars": 1830,
+      "description_chars": 2411,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Engineering",
@@ -28435,6 +28435,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 19, 2026 · 2:28 AM CEST",
-  "published_at_iso": "2026-10-19T02:28:43+0200"
+  "published_at": "October 19, 2026 · 2:59 AM CEST",
+  "published_at_iso": "2026-10-19T02:59:06+0200"
 }
