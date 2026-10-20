@@ -5009,7 +5009,7 @@
       "id": "SIG-614",
       "title": "Page-by-page review of every built website page…",
       "description": "Created 15 Oct 2026 01:05 (Decision 240 ⑤, Wolf: \"ok on process\"). Claude checks each page on phone, tablet and desktop (links, join buttons, numbers vs receipts, wording vs rulings), sends one review sheet per page (picture per section, OK / Fixed / Your call), Wolf rules each section, Claude fixes, publishes to THE BOARD, reads back, marks reviewed. 15 built pages, then each new page. Order proposed: homepage, landing, How It Works, Meet Lumen, Why, then outward. Website only (no app until next year). ▶ 19 Oct ~19:20 (website-finish-2 chat): Claude's device check done on all 23 pages at pho…",
-      "description_chars": 1203,
+      "description_chars": 2390,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -28547,6 +28547,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 20, 2026 · 6:41 PM CEST",
-  "published_at_iso": "2026-10-20T18:41:25+0200"
+  "published_at": "October 21, 2026 · 1:43 AM CEST",
+  "published_at_iso": "2026-10-21T01:43:50+0200"
 }
