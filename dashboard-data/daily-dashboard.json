@@ -592,7 +592,7 @@
       "id": "SIG-314",
       "title": "Resend domain authentication + outbound sending warm-up",
       "description": "Added 2026-08-01 (attended stand-up; Wolf ruled it a row after a plain-English explanation). Surfaced by the SIG-311 critical-path pass — an incompressible external clock with NO row, found in the same session that concluded a *non-gating* external clock had held P0 for twenty-one stand-ups. PRD v1.5 §16.2 item 2, verbatim: *\"Resend domain authentication + warmup — DNS propagation + sending reputation warmup requires 2+ weeks before launch; cannot be compressed.\"* In plain terms: mailbox providers have no sending history for maxxsignal.com. A brand-new domain going from zero to thousands of s…",
-      "description_chars": 4631,
+      "description_chars": 5886,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -4645,7 +4645,7 @@
       "id": "SIG-556",
       "title": "HubSpot finish-up AFTER the website: review every form's fields, approve and build the emails, publish",
       "description": "Created 2026-10-05 20:12, attended — Wolf: *\"I think we have to review the forms for exactly what you're trying to gather for each… the ambassador form (I think even the business form)… too simplistic… We can review the forms and the emails and whatever is left in HubSpot in our next chat or after we finish the website.\"* ⚠ What Wolf saw is HubSpot's empty STARTER version (First/Last/Email) that goes live behind every new form ID — the Signal fields sit in the UNPUBLISHED drafts. Scope: ① a field-by-field review of the four forms that stay (Contact, Schools, Business, Ambassador application —…",
-      "description_chars": 2490,
+      "description_chars": 2989,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Engineering",
@@ -28547,6 +28547,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 21, 2026 · 9:16 AM CEST",
-  "published_at_iso": "2026-10-21T09:16:27+0200"
+  "published_at": "October 21, 2026 · 3:18 PM CEST",
+  "published_at_iso": "2026-10-21T15:18:27+0200"
 }
