@@ -1096,7 +1096,7 @@
       "id": "SIG-625",
       "title": "Go live: move the built waitlist site to maxxsignal.com…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Audit finding: no task covered moving the 19 built pages from THE BOARD onto the live site. The live site is the June wiring-test app (GitHub AIWOLF9/maxx-signal, Next.js on Vercel, maxxsignal.com and join.maxxsignal.com bound). Scope: ① the built pages served at their routes; ② the join sheet writes to the waitlist collection and sends the confirmation email through Resend (needs SIG-314); ③ the US-only country check (SIG-434, Vercel country header); ④ footer links to the social handles (SIG-379, SIG-626); ⑤ the IP footer and site g…",
-      "description_chars": 3889,
+      "description_chars": 4070,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Build",
@@ -2153,7 +2153,7 @@
       "id": "SIG-216",
       "title": "Kickstarter A-Z research + campaign plan",
       "description": "Added 2026-07-08 (anti-slip capture — Wolf). Proper KS research + plan. v0.1 DONE 2026-07-08 → Research/kickstarter/Working/MSIG-KICKSTARTER-A-Z-RESEARCH_v0_1_2026-07-08.md: mechanics/registration/fees/tax, page anatomy, teardowns (memoryOS = subscription-app template; FinalStraw $12.5k→$1.9M; Fidget/Exploding Kittens/Pebble), pre-launch VIP-deposit playbook, tiered no-counter pricing ladder, A-Z action plan. Two decision surfaces: (1) ⚠ prototype-demonstration rule = KS requires a working curation-engine demo in the video (can't fake) → engine build on KS critical path; (2) strategic fork =…",
-      "description_chars": 2434,
+      "description_chars": 3318,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Research",
@@ -28547,6 +28547,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 21, 2026 · 3:49 PM CEST",
-  "published_at_iso": "2026-10-21T15:49:07+0200"
+  "published_at": "October 21, 2026 · 4:04 PM CEST",
+  "published_at_iso": "2026-10-21T16:04:32+0200"
 }
