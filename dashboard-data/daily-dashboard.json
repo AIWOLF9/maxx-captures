@@ -1096,7 +1096,7 @@
       "id": "SIG-625",
       "title": "Go live: move the built waitlist site to maxxsignal.com…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Audit finding: no task covered moving the 19 built pages from THE BOARD onto the live site. The live site is the June wiring-test app (GitHub AIWOLF9/maxx-signal, Next.js on Vercel, maxxsignal.com and join.maxxsignal.com bound). Scope: ① the built pages served at their routes; ② the join sheet writes to the waitlist collection and sends the confirmation email through Resend (needs SIG-314); ③ the US-only country check (SIG-434, Vercel country header); ④ footer links to the social handles (SIG-379, SIG-626); ⑤ the IP footer and site g…",
-      "description_chars": 1792,
+      "description_chars": 2480,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Build",
@@ -4981,8 +4981,8 @@
       "id": "SIG-613",
       "title": "Finish the waitlist site…",
       "description": "Created 14 Oct 2026 22:57, attended (Decision 239 addendum). Wolf 21:28: *\"we have to build the other pages… We need to build the rest of the pages for the waitlist.\"*; 22:57: the pre-order words wait until these are done. Specs are in the Website Page Plan doc (https://claude.ai/code/artifact/f762b2cf-382b-46f7-b197-12334b06306a): Contact = Wave 3 (short form, topic drop-down); FAQ, Impact Index, Ambassador, Blog = Wave 5 (FAQ has its own chat, Decision 169; Impact Index survey design SIG-549; Ambassador program launches with the pre-order, SIG-071 — the waitlist version is an interest form;…",
-      "description_chars": 7172,
-      "status": "s-doing",
+      "description_chars": 8029,
+      "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -28547,6 +28547,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 21, 2026 · 2:14 AM CEST",
-  "published_at_iso": "2026-10-21T02:14:14+0200"
+  "published_at": "October 21, 2026 · 9:16 AM CEST",
+  "published_at_iso": "2026-10-21T09:16:27+0200"
 }
