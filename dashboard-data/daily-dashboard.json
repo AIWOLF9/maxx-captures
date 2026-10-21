@@ -5006,34 +5006,6 @@
       "first_seen": "2026-10-14"
     },
     {
-      "id": "SIG-614",
-      "title": "Page-by-page review of every built website page…",
-      "description": "Created 15 Oct 2026 01:05 (Decision 240 ⑤, Wolf: \"ok on process\"). Claude checks each page on phone, tablet and desktop (links, join buttons, numbers vs receipts, wording vs rulings), sends one review sheet per page (picture per section, OK / Fixed / Your call), Wolf rules each section, Claude fixes, publishes to THE BOARD, reads back, marks reviewed. 15 built pages, then each new page. Order proposed: homepage, landing, How It Works, Meet Lumen, Why, then outward. Website only (no app until next year). ▶ 19 Oct ~19:20 (website-finish-2 chat): Claude's device check done on all 23 pages at pho…",
-      "description_chars": 2390,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "8h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-15"
-    },
-    {
       "id": "SIG-620",
       "title": "Ambassador programme terms and conditions…",
       "description": "Created 16 Oct 2026 16:54, attended — Wolf: *\"I imagine we'll need to have separate affiliate terms and conditions, so we probably want to get the affiliate terms and conditions from a few of these companies that are similar to us (like the app blockers and blocking sites). We can use it as a framework… such as- https://getbrick.com/pages/affiliate-marketing-program-terms-and-conditions-for-brick-llc or do we need them already inside the program only? after they sign up?\"* Locked spec already lists this as OQ-AFF-04 (MAXX_Signal_AFFILIATE_v1_2 — FTC disclosure, commission, payout, termination…",
@@ -10413,34 +10385,6 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-15"
-    },
-    {
-      "id": "SIG-621",
-      "title": "Site-wide header and buttons: the Log in menu, and the lift-and-glow hover on every join button",
-      "description": "Created 16 Oct 2026 ~23:05, attended (Decision 246 ②③). Wolf 22:54: *\"I agree with your login placement, the blue kind of button. Of course, we want to give it the same feel as what you're doing here for B, which I agree on: the lift and glow.\"* ① Every gold join / apply button on every page: hover B, lift and glow (rises 2 px, gold glow spreads under it, presses down on click; mouse only, no movement under reduced motion) — in the shared page frame so one change reaches all pages, then every page rebuilt and THE BOARD republished. ② Header Log in menu: desktop after About, before the join bu…",
-      "description_chars": 2245,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Marketing",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-16"
     },
     {
       "id": "SIG-618",
@@ -25635,6 +25579,34 @@
       "first_seen": "2026-10-11"
     },
     {
+      "id": "SIG-614",
+      "title": "Page-by-page review of every built website page…",
+      "description": "Created 15 Oct 2026 01:05 (Decision 240 ⑤, Wolf: \"ok on process\"). Claude checks each page on phone, tablet and desktop (links, join buttons, numbers vs receipts, wording vs rulings), sends one review sheet per page (picture per section, OK / Fixed / Your call), Wolf rules each section, Claude fixes, publishes to THE BOARD, reads back, marks reviewed. 15 built pages, then each new page. Order proposed: homepage, landing, How It Works, Meet Lumen, Why, then outward. Website only (no app until next year). ▶ 19 Oct ~19:20 (website-finish-2 chat): Claude's device check done on all 23 pages at pho…",
+      "description_chars": 2707,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "8h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-15"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -28281,6 +28253,34 @@
       "first_seen": "2026-10-14"
     },
     {
+      "id": "SIG-621",
+      "title": "Site-wide header and buttons: the Log in menu, and the lift-and-glow hover on every join button",
+      "description": "Created 16 Oct 2026 ~23:05, attended (Decision 246 ②③). Wolf 22:54: *\"I agree with your login placement, the blue kind of button. Of course, we want to give it the same feel as what you're doing here for B, which I agree on: the lift and glow.\"* ① Every gold join / apply button on every page: hover B, lift and glow (rises 2 px, gold glow spreads under it, presses down on click; mouse only, no movement under reduced motion) — in the shared page frame so one change reaches all pages, then every page rebuilt and THE BOARD republished. ② Header Log in menu: desktop after About, before the join bu…",
+      "description_chars": 2498,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-16"
+    },
+    {
       "id": "SIG-617",
       "title": "Clean up the SIGNAL inbox…",
       "description": "Created and closed 16 Oct 2026 15:15, attended — Wolf: *\"review and clean up/ delete whatever isnt necessary\"*; plan approved 16 Oct (\"yes\", recordings included). Evidence: 1,000 files / 555 MB deleted from _Inbox/ — 991 byte-verified duplicates whose other copy was confirmed present before each delete (whole SIGNAL BRAIN - ASSETS folder), the stale 6 Oct board copy (current is _Working/), 7 chat exports already word-for-word in _Transcripts/, the four 9 Oct screen recordings. 126 moved, none deleted: Mission Control messages → _archive/_Inbox_messages_to-2026-10-16/; Haidt → Reference/librar…",
@@ -28547,6 +28547,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 21, 2026 · 1:43 AM CEST",
-  "published_at_iso": "2026-10-21T01:43:50+0200"
+  "published_at": "October 21, 2026 · 2:14 AM CEST",
+  "published_at_iso": "2026-10-21T02:14:14+0200"
 }
