@@ -1065,6 +1065,62 @@
       "first_seen": "2026-09-14"
     },
     {
+      "id": "SIG-633",
+      "title": "Go-to-market strategy chat…",
+      "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. First of the go-to-market chats, Fri 23 Oct. Reviews the research pack in 05_Marketing/Working/gtm/research_2026-10-23/ (positioning options, avatars ranked by opportunity, ranked ways to go viral with case studies, a master list of where to post, cadence per platform, scheduler re-check). Rulings land in the Launch Plan doc and feed SIG-626 (day-one profiles and first posts), SIG-442 (waitlist campaign), SIG-429 (content engine) and SIG-428 (acquisition model).",
+      "description_chars": 547,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-22"
+    },
+    {
+      "id": "SIG-636",
+      "title": "Pre-order, Kickstarter, a working demo, Lemon Squeezy payments and starting the build…",
+      "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. What has to be finished for pre-order on ~1 Dec and for a Kickstarter later: the demo Kickstarter's rules require, hooking up Lemon Squeezy payments (SIG-049, SIG-056), the service-screens overview, and starting the build by ~9 Nov (SIG-050).",
+      "description_chars": 323,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-10-22"
+    },
+    {
       "id": "SIG-474",
       "title": "Finalise the activation page and its legal surfaces…",
       "description": "Created 2026-09-20, attended, on Wolf's explicit instruction. Wolf: *\"We should have a separate chat just to deal with the website that was created and, I guess, the other documents that are needed, or other pieces such as privacy and/or terms.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): no row covers finalising the activation page together with its legal surfaces; SIG-324 is the page, SIG-325 is the documents, and each assumes the other is somebody else's problem. This row is the CHAT that closes both. SCOPE: (1) finish the activation page — Wolf: *\"I took a quick look at the page you creat…",
@@ -4080,6 +4136,62 @@
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-10-20"
+    },
+    {
+      "id": "SIG-634",
+      "title": "Outreach master list…",
+      "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. Wolf wants one comprehensive, prioritised list: who they are, their reach, what role fits (advisor, ambassador, partner, press), people interested in social good and anyone who has spoken about social media harms; organisations and their board members as advisor sources. Research started 22 Oct (people list + organisations list, public information only, every fact sourced). Extends SIG-431 (people) with organisations and boards. Reviewed in the outreach chat.",
+      "description_chars": 544,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "4h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-22"
+    },
+    {
+      "id": "SIG-635",
+      "title": "Outreach that scales but stays human…",
+      "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. Wolf: prioritise for most impact; automate the outreach to get on a call, but humanise it. Covers sequences, personalisation, volumes, tools already connected (Apollo, Clay), LinkedIn and email rules, Anthropic's usage policy from 12 Nov (no fake accounts, no fake engagement), and what each role offers (advisor, ambassador, partner).",
+      "description_chars": 416,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-22"
     },
     {
       "id": "SIG-460",
@@ -28547,6 +28659,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 22, 2026 · 9:26 AM CEST",
-  "published_at_iso": "2026-10-22T09:26:07+0200"
+  "published_at": "October 22, 2026 · 10:09 PM CEST",
+  "published_at_iso": "2026-10-22T22:09:29+0200"
 }
