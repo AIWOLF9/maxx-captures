@@ -1152,7 +1152,7 @@
       "id": "SIG-625",
       "title": "Go live: move the built waitlist site to maxxsignal.com…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Audit finding: no task covered moving the 19 built pages from THE BOARD onto the live site. The live site is the June wiring-test app (GitHub AIWOLF9/maxx-signal, Next.js on Vercel, maxxsignal.com and join.maxxsignal.com bound). Scope: ① the built pages served at their routes; ② the join sheet writes to the waitlist collection and sends the confirmation email through Resend (needs SIG-314); ③ the US-only country check (SIG-434, Vercel country header); ④ footer links to the social handles (SIG-379, SIG-626); ⑤ the IP footer and site g…",
-      "description_chars": 6572,
+      "description_chars": 7403,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Build",
@@ -4589,7 +4589,7 @@
       "id": "SIG-535",
       "title": "Website IP layer…",
       "description": "Created 2026-10-01 by the unattended stand-up from the IP hand-off, items B, C and D. Wolf ruled on 30 Sept that the IP plan goes into ALL the website pages. Source: _Working/HANDOFF_IP-PROTECTION_to-board-chat_2026-09-30.md §1 (nine items, all $0). (B) a shared footer notice, plus ™ on the first prominent MAXX Signal and LUMEN on each page and on the logo lockup — never ® until the mark is registered. (C) robots.txt blocks AI *training* crawlers site-wide and all bots from app and engine routes, while ALLOWING AI *search* bots on marketing pages; a machine-readable text-and-data-mining opt-o…",
-      "description_chars": 1996,
+      "description_chars": 2297,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Build",
@@ -9914,7 +9914,7 @@
       "id": "SIG-551",
       "title": "Track how visitors use the homepage quiz…",
       "description": "Created 2026-10-04 22:43, attended — Wolf: *“when we go build would be good to know how many people take the quiz. SOME TYPE OF TRACKER- JUST MAKE A NOTE OF THAT… Just curious if we can track it so we know, by individual sessions, how many people clicked on those boxes or something and what they clicked on.”* Build-time item, not a page change. Each tap on a quiz box is the event (no extra “Reveal” button — Decision 188 ④): record quiz viewed, first tap, which boxes were tapped, and reaching the result, per anonymous session; report how many sessions took the quiz and which boxes are tapped m…",
-      "description_chars": 1718,
+      "description_chars": 2133,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Engineering",
@@ -28659,6 +28659,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 22, 2026 · 10:09 PM CEST",
-  "published_at_iso": "2026-10-22T22:09:29+0200"
+  "published_at": "October 22, 2026 · 10:24 PM CEST",
+  "published_at_iso": "2026-10-22T22:24:54+0200"
 }
