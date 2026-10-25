@@ -3273,7 +3273,7 @@
       "id": "SIG-348",
       "title": "Self-host Space Grotesk…",
       "description": "Added 2026-08-07 (SIG-306 feasibility lane; found by measurement, not requested). maxxsignal.com currently loads Space Grotesk from Google's CDN as a render-blocking third-party <link>. Two costs: real font-swap CLS against the Core Web Vitals thresholds, and the visitor's IP reaches Google before first paint — on a site whose entire positioning is that it does not leak you to anyone. Fix is next/font/local with the subset self-hosted and display: swap handled at build. Do this before any design work lands, so every later screenshot is measured against the corrected baseline. 📏 Measured 24 Oc…",
-      "description_chars": 1413,
+      "description_chars": 1980,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Build",
@@ -28659,6 +28659,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 24, 2026 · 9:20 AM CEST",
-  "published_at_iso": "2026-10-24T09:20:33+0200"
+  "published_at": "October 25, 2026 · 9:12 AM CET",
+  "published_at_iso": "2026-10-25T09:12:46+0100"
 }
