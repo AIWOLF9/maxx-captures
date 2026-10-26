@@ -4140,8 +4140,8 @@
     {
       "id": "SIG-634",
       "title": "Outreach master list…",
-      "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. Wolf wants one comprehensive, prioritised list: who they are, their reach, what role fits (advisor, ambassador, partner, press), people interested in social good and anyone who has spoken about social media harms; organisations and their board members as advisor sources. Research started 22 Oct (people list + organisations list, public information only, every fact sourced). Extends SIG-431 (people) with organisations and boards. Reviewed in the outreach chat.",
-      "description_chars": 544,
+      "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. Wolf wants one comprehensive, prioritised list: who they are, their reach, what role fits (advisor, ambassador, partner, press), people interested in social good and anyone who has spoken about social media harms; organisations and their board members as advisor sources. Research started 22 Oct (people list + organisations list, public information only, every fact sourced). Extends SIG-431 (people) with organisations and boards. Reviewed in the outreach chat. [2026-10-26, unattended stand-up — DRAFT v0.1 OF THE O…",
+      "description_chars": 1404,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -28659,6 +28659,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 25, 2026 · 9:12 AM CET",
-  "published_at_iso": "2026-10-25T09:12:46+0100"
+  "published_at": "October 26, 2026 · 2:06 PM CET",
+  "published_at_iso": "2026-10-26T14:06:06+0100"
 }
