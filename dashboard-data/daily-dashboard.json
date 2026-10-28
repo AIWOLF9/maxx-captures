@@ -4227,6 +4227,90 @@
       "first_seen": "2026-10-22"
     },
     {
+      "id": "SIG-640",
+      "title": "Investor list + investor messaging…",
+      "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: no task held an investor list or investor messages (the deck is SIG-381; outreach tooling is SIG-635). Wolf: an investor list, investor emails, and messages he can send individually and in the groups he belongs to — framed as asking for help with a big problem, built on the mission (people nourishing their minds, not letting algorithms control how they think, believe and feel). ⚠️ Before anything mentions the raise in a group: a public or group offer of shares can count as general solicitation under U…",
+      "description_chars": 772,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "id": "SIG-641",
+      "title": "Investor and corporate paperwork for the friends-and-family raise…",
+      "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: nothing on the board covered the raise paperwork itself (SIG-310 is the vehicle and CPA question; SIG-453 is the certified Articles). Wolf drops the Caringo investor documents and his corporate documents into _Inbox/; Claude maps what each is for, what must change for MAXX Signal Inc. (a Florida C-corp), and what a lawyer must review before anything is signed or sent. Claude drafts; a lawyer signs off.",
+      "description_chars": 498,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "id": "SIG-642",
+      "title": "Wolf's personal LinkedIn update for go-live…",
+      "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: SIG-626 covers the company handles only; nothing covered Wolf's own profile. Claude drafts the headline, about section, featured items and the first post from the live site's copy; Wolf edits and posts. Lands after the switch-over so the link works.",
+      "description_chars": 342,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-28"
+    },
+    {
       "id": "SIG-460",
       "title": "The document-fix pass…",
       "description": "Created 2026-09-15 by the daily stand-up lane, per the CONVERSION RULE — a finding that implies work becomes a task in the same run, or is named and dropped. ⚠️ CHECKED BEFORE CREATING (board rule 1). SIG-459 is the mockup reopen and its own cell says this split unblocks it; SIG-458 covers the AFFILIATE document only; SIG-215 is finished and owes nothing. No task covered the document side. Three board greps were run — for document-fix or divergence or H.6 or split; for MSIG-UX-EMAIL or cadence; for foundations or shared component — and returned only SIG-359, SIG-393, SIG-459, all reopens, plu…",
@@ -9410,6 +9494,34 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-10-27"
+    },
+    {
+      "id": "SIG-643",
+      "title": "Advisor and ambassador version of the presentation…",
+      "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: the deck task (SIG-381) is investor-only; Wolf expects a version for advisors and ambassadors too. Same story and visuals, the money slides replaced by what each role gets and gives. Built after the investor deck v1 settles.",
+      "description_chars": 317,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-28"
     },
     {
       "id": "SIG-464",
@@ -28776,6 +28888,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 28, 2026 · 9:18 AM CET",
-  "published_at_iso": "2026-10-28T09:18:53+0100"
+  "published_at": "October 28, 2026 · 5:06 PM CET",
+  "published_at_iso": "2026-10-28T17:06:25+0100"
 }
