@@ -1121,6 +1121,34 @@
       "first_seen": "2026-10-22"
     },
     {
+      "id": "SIG-644",
+      "title": "One place to run Signal day to day…",
+      "description": "Created 28 Oct 2026, attended. Wolf: too many one-off HTML sheets; he wants one living system that shows priorities, grouped so it is easy to understand, with how long each item takes for Claude and for him. Checked before creating: the Venture Board (maxx-mission-control.netlify.app/signal/) is live, rebuilt from this file every 15 min, and has Daily focus, List, By department, Kanban and Post-launch views, but no grouping by workstream and no time horizon. Claude recommendation awaiting Wolf: (1) the board stays the one place, no artifact copy; (2) Claude fills the Workstream cell for the f…",
+      "description_chars": 1092,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-10-28"
+    },
+    {
       "id": "SIG-474",
       "title": "Finalise the activation page and its legal surfaces…",
       "description": "Created 2026-09-20, attended, on Wolf's explicit instruction. Wolf: *\"We should have a separate chat just to deal with the website that was created and, I guess, the other documents that are needed, or other pieces such as privacy and/or terms.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): no row covers finalising the activation page together with its legal surfaces; SIG-324 is the page, SIG-325 is the documents, and each assumes the other is somebody else's problem. This row is the CHAT that closes both. SCOPE: (1) finish the activation page — Wolf: *\"I took a quick look at the page you creat…",
@@ -4229,8 +4257,8 @@
     {
       "id": "SIG-640",
       "title": "Investor list + investor messaging…",
-      "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: no task held an investor list or investor messages (the deck is SIG-381; outreach tooling is SIG-635). Wolf: an investor list, investor emails, and messages he can send individually and in the groups he belongs to — framed as asking for help with a big problem, built on the mission (people nourishing their minds, not letting algorithms control how they think, believe and feel). ⚠️ Before anything mentions the raise in a group: a public or group offer of shares can count as general solicitation under U…",
-      "description_chars": 772,
+      "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: no task held an investor list or investor messages (the deck is SIG-381; outreach tooling is SIG-635). Wolf: an investor list, investor emails, and messages he can send individually and in the groups he belongs to — framed as asking for help with a big problem, built on the mission (people nourishing their minds, not letting algorithms control how they think, believe and feel). Wolf, 28 Oct (correcting Claude): the group and friends messages offer nothing for sale. They announce that he is launching M…",
+      "description_chars": 711,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "GTM",
@@ -28888,6 +28916,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 28, 2026 · 5:06 PM CET",
-  "published_at_iso": "2026-10-28T17:06:25+0100"
+  "published_at": "October 28, 2026 · 5:36 PM CET",
+  "published_at_iso": "2026-10-28T17:36:50+0100"
 }
