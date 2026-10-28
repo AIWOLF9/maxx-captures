@@ -981,34 +981,6 @@
       "first_seen": "2026-08-30"
     },
     {
-      "id": "SIG-434",
-      "title": "THE GEO-GATE…",
-      "description": "Added 2026-08-31 (attended), created by Decision 98 (D-SIG-2026-08-31a). ⚠️ This row is the entire difference between a US-only ruling and a wish. GDPR reaches a US company that offers services to people in the EU — the test is targeting, not accidental access. A US-only marketing posture is decent evidence of non-targeting, but if an EU resident finds the site, signs up and pays, we have arguably offered them a service. The failure mode is the worst of both worlds: in GDPR scope, with no Art. 27 representative, no consent banner, no register, and a privacy policy that says the EU sections do…",
-      "description_chars": 13513,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Engineering",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "VULCAN",
-      "executor_list": [
-        "VULCAN"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Engineering",
-      "kind": "tasks",
-      "first_seen": "2026-08-31"
-    },
-    {
       "id": "SIG-442",
       "title": "PHASE THE GTM…",
       "description": "Added 2026-09-02 (attended, Wolf's instruction, twice in one message). ⚠️ CHECKED BEFORE CREATING, per rule 1 — 43 open tasks already touch waitlist/GTM/distribution and the SIG-426→SIG-433 spine covers most of what Wolf described. This row is NOT a parallel programme and creates no duplicate scope. The genuine gap, stated precisely: the GTM chain has no PHASE axis. SIG-428 (acquisition model), SIG-429 (organic content engine) and SIG-431 (ambassador list) are each written as one undifferentiated go-to-market. A keyword scan of all five spine tasks finds phase words in only one of them. But t…",
@@ -1175,34 +1147,6 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-09-20"
-    },
-    {
-      "id": "SIG-625",
-      "title": "Go live: move the built waitlist site to maxxsignal.com…",
-      "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Audit finding: no task covered moving the 19 built pages from THE BOARD onto the live site. The live site is the June wiring-test app (GitHub AIWOLF9/maxx-signal, Next.js on Vercel, maxxsignal.com and join.maxxsignal.com bound). Scope: ① the built pages served at their routes; ② the join sheet writes to the waitlist collection and sends the confirmation email through Resend (needs SIG-314); ③ the US-only country check (SIG-434, Vercel country header); ④ footer links to the social handles (SIG-379, SIG-626); ⑤ the IP footer and site g…",
-      "description_chars": 10658,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Build",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~10–14h",
-      "effort_wolf": "~1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Engineering",
-      "kind": "tasks",
-      "first_seen": "2026-10-18"
     },
     {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
@@ -4323,6 +4267,34 @@
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
       "effort_mc": "0.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "id": "SIG-645",
+      "title": "Join confirmation email…",
+      "description": "Created 28 Oct 2026, attended (go-live tests). The email a person gets after joining (\"One click to lock in your early access\") is still the June template in lib/resend.ts: no logo, \"the feed you control\" as its main line, and \"One email when your Signal is ready\", which is no longer true now that invitations and thank-yous exist. It is not among the 15 approved form emails (Decision 251, 05_Marketing/Working/email_2026-10-19/hubspot/), so it was never redesigned. Claude drafts it in the same style as the approved set; Wolf approves the words; Claude ships it to the repo. Before the public an…",
+      "description_chars": 1004,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1.5h",
       "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
@@ -20496,6 +20468,34 @@
       "first_seen": "2026-08-28"
     },
     {
+      "id": "SIG-434",
+      "title": "THE GEO-GATE…",
+      "description": "Added 2026-08-31 (attended), created by Decision 98 (D-SIG-2026-08-31a). ⚠️ This row is the entire difference between a US-only ruling and a wish. GDPR reaches a US company that offers services to people in the EU — the test is targeting, not accidental access. A US-only marketing posture is decent evidence of non-targeting, but if an EU resident finds the site, signs up and pays, we have arguably offered them a service. The failure mode is the worst of both worlds: in GDPR scope, with no Art. 27 representative, no consent banner, no register, and a privacy policy that says the EU sections do…",
+      "description_chars": 13719,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Engineering",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-08-31"
+    },
+    {
       "id": "SIG-449",
       "title": "SCORE THE FULL CORPUS on the ruled rubric, and set the real quality floor…",
       "description": "Added 2026-09-03 (attended, session M3). D-SIG-2026-09-03-M3i — the scoring half of SIG-423, split out because it sits on the far side of the content harvest. What it is: score every line in the corpus on RUBRIC_v0_3.md (or its successor), rank within job, and set the definitive quality floor. 🔑 Why it cannot run before the harvest: a SCORE survives the harvest, a RANK does not. A line's ENERGY is a property of that line and is stable; the floor and the within-job ranking are properties of the SET, and every one of them is invalidated when stronger material arrives. A floor set on a pre-harve…",
@@ -20662,6 +20662,34 @@
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-10-17"
+    },
+    {
+      "id": "SIG-625",
+      "title": "Go live: move the built waitlist site to maxxsignal.com…",
+      "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Audit finding: no task covered moving the 19 built pages from THE BOARD onto the live site. The live site is the June wiring-test app (GitHub AIWOLF9/maxx-signal, Next.js on Vercel, maxxsignal.com and join.maxxsignal.com bound). Scope: ① the built pages served at their routes; ② the join sheet writes to the waitlist collection and sends the confirmation email through Resend (needs SIG-314); ③ the US-only country check (SIG-434, Vercel country header); ④ footer links to the social handles (SIG-379, SIG-626); ⑤ the IP footer and site g…",
+      "description_chars": 12231,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~10–14h",
+      "effort_wolf": "~1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-10-18"
     },
     {
       "id": "CF-SIGNAL-INC-FORMED-1",
@@ -28916,6 +28944,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 28, 2026 · 7:23 PM CET",
-  "published_at_iso": "2026-10-28T19:23:09+0100"
+  "published_at": "October 28, 2026 · 7:38 PM CET",
+  "published_at_iso": "2026-10-28T19:38:37+0100"
 }
