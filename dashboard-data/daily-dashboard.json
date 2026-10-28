@@ -1124,7 +1124,7 @@
       "id": "SIG-644",
       "title": "One place to run Signal day to day…",
       "description": "Created 28 Oct 2026, attended. Wolf: too many one-off HTML sheets; he wants one living system that shows priorities, grouped so it is easy to understand, with how long each item takes for Claude and for him. Checked before creating: the Venture Board (maxx-mission-control.netlify.app/signal/) is live, rebuilt from this file every 15 min, and has Daily focus, List, By department, Kanban and Post-launch views, but no grouping by workstream and no time horizon. Wolf, 28 Oct ~17:45, attended: YES to the board as the one place; advisors separate from ambassadors; NO by-when horizon (priority does…",
-      "description_chars": 1861,
+      "description_chars": 3234,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -28916,6 +28916,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 28, 2026 · 6:07 PM CET",
-  "published_at_iso": "2026-10-28T18:07:15+0100"
+  "published_at": "October 28, 2026 · 6:37 PM CET",
+  "published_at_iso": "2026-10-28T18:37:38+0100"
 }
