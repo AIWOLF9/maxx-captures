@@ -228,7 +228,7 @@
       "id": "SIG-633",
       "title": "Go-to-market strategy chat…",
       "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. First of the go-to-market chats, Fri 23 Oct. Reviews the research pack in 05_Marketing/Working/gtm/research_2026-10-23/ (positioning options, avatars ranked by opportunity, ranked ways to go viral with case studies, a master list of where to post, cadence per platform, scheduler re-check). Rulings land in the Launch Plan doc and feed SIG-626 (day-one profiles and first posts), SIG-442 (waitlist campaign), SIG-429 (content engine) and SIG-428 (acquisition model). ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream…",
-      "description_chars": 613,
+      "description_chars": 993,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -283,8 +283,8 @@
     {
       "id": "SIG-635",
       "title": "Outreach that scales but stays human…",
-      "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. Wolf: prioritise for most impact; automate the outreach to get on a call, but humanise it. Covers sequences, personalisation, volumes, tools already connected (Apollo, Clay), LinkedIn and email rules, Anthropic's usage policy from 12 Nov (no fake accounts, no fake engagement), and what each role offers (advisor, ambassador, partner). ▶ 28 Oct 2026, board clean-up (SIG-644, Wolf approved): Priority raised to P0 (next two weeks focus). ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Advisors.",
-      "description_chars": 586,
+      "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. Wolf: prioritise for most impact; automate the outreach to get on a call, but humanise it. Covers sequences, personalisation, volumes, tools already connected (Apollo, Clay), LinkedIn and email rules, Anthropic's usage policy from 12 Nov (no fake accounts, no fake engagement), and what each role offers (advisor, ambassador, partner). ▶ 28 Oct 2026, board clean-up (SIG-644, Wolf approved): Priority raised to P0 (next two weeks focus). ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Advisors. ▶ 29 Oct 202…",
+      "description_chars": 778,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -4812,6 +4812,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-20"
+    },
+    {
+      "id": "SIG-655",
+      "title": "Start LinkedIn Sales Navigator for the advisor outreach wave",
+      "description": "Created 29 Oct 2026, attended (Decision 263 ④, Wolf: \"YES ON PLAN\"). LinkedIn's own product, so it is within LinkedIn's rules: lead lists, alerts and messages to people you are not connected with. About $120 a month, usually with a free first month — confirm the price and trial on the sign-up page. Spends money, so Wolf signs up himself. Start when the first advisor notes go out (week of 2 Nov). Claude then drafts 15–20 personal notes a day for Wolf to send.",
+      "description_chars": 462,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
     },
     {
       "id": "CAP-0029",
@@ -10249,6 +10277,34 @@
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-10-16"
+    },
+    {
+      "id": "SIG-656",
+      "title": "Decide on a one-month HeyReach trial for ambassador outreach on LinkedIn (week three)",
+      "description": "Created 29 Oct 2026, attended (Decision 263 ④). Week of 16 Nov, when ambassador outreach starts. Proposal on the table: HeyReach (about $79 a month, cloud-based, official Claude connector), ambassador outreach only, 15–20 invitations a day, Claude drafts, Wolf approves each batch, no AI replies on its own. Bring to that decision: reply and acceptance rates from the manual advisor wave, and LinkedIn's current rules on third-party automation (they prohibit it; the risk is account restriction). Spends money, so Wolf decides.",
+      "description_chars": 527,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -29314,6 +29370,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 5:47 PM CET",
-  "published_at_iso": "2026-10-29T17:47:22+0100"
+  "published_at": "October 29, 2026 · 6:02 PM CET",
+  "published_at_iso": "2026-10-29T18:02:43+0100"
 }
