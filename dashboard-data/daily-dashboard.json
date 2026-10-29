@@ -228,7 +228,7 @@
       "id": "SIG-633",
       "title": "Go-to-market strategy chat…",
       "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. First of the go-to-market chats, Fri 23 Oct. Reviews the research pack in 05_Marketing/Working/gtm/research_2026-10-23/ (positioning options, avatars ranked by opportunity, ranked ways to go viral with case studies, a master list of where to post, cadence per platform, scheduler re-check). Rulings land in the Launch Plan doc and feed SIG-626 (day-one profiles and first posts), SIG-442 (waitlist campaign), SIG-429 (content engine) and SIG-428 (acquisition model). ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream…",
-      "description_chars": 993,
+      "description_chars": 1328,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -396,7 +396,7 @@
       "id": "SIG-646",
       "title": "Strategy chat…",
       "description": "Created 28 Oct 2026, attended (Wolf, board clean-up chat). Wolf: a task and a strategy chat for the platform and tools that generate social content automatically and post it automatically to the social accounts and other sites. Checked before creating: tools are touched in SIG-633 (GTM chat, tools item), SIG-429 (content engine), SIG-165 (social content ops, scheduler) and SIG-075 (SEO engine), but no task owns choosing and setting up the tool stack. Claude prepares: the candidates (schedulers and auto-posting platforms, AI content generation, what each platform allows to be automated, cost p…",
-      "description_chars": 918,
+      "description_chars": 1301,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
@@ -564,7 +564,7 @@
       "id": "SIG-654",
       "title": "Comprehensive outreach database…",
       "description": "Created 29 Oct 2026 ~17:45 Zagreb, attended (go-to-market chat 2, Wolf: \"yes on scoring and building comprehensive database for all\"). Checked before creating: SIG-634 built the 26 Oct 350-row list; SIG-635 is outreach at scale; neither covers a re-scored, multi-source, every-platform database. Method ruled 29 Oct: four scores 0–5, weighted — Voice on the issue 30%, Credibility 25%, Reach and name recognition 25%, Fit with Signal 20%; grade A ≥80, B 65–79, C 50–64, D below; reachability and risks are separate notes that set the route, not the grade. Sources: the 26 Oct list; named authors and…",
-      "description_chars": 1686,
+      "description_chars": 2272,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
@@ -29426,6 +29426,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 6:18 PM CET",
-  "published_at_iso": "2026-10-29T18:18:05+0100"
+  "published_at": "October 29, 2026 · 6:33 PM CET",
+  "published_at_iso": "2026-10-29T18:33:29+0100"
 }
