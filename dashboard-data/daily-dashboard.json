@@ -452,7 +452,7 @@
       "id": "SIG-626",
       "title": "Social media day one…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Wolf 17 Oct: *\"I can get them, and at this moment… there won't be content on day one. We'll need to talk about what content we want to put there.\"* Claude drafts bios, profile art from the locked logo, banners and the first posts from the built site's copy and imagery; Wolf approves in the go-to-market content chat (SIG-432, week of 26 Oct); Wolf posts or connects a scheduler. Cadence and the ongoing system stay with SIG-165 and SIG-429. Due before go-live (~1 Nov). ▶ 28 Oct 2026, board clean-up (SIG-644, Wolf approved): Priority rai…",
-      "description_chars": 1314,
+      "description_chars": 1420,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -4901,7 +4901,7 @@
       "id": "SIG-660",
       "title": "Set up the content tool stack…",
       "description": "Created 29 Oct 2026 ~20:30, attended (Decision 265 ⑤). From Mission Control's stack decision _index/_shared/MOS-CONTENT-ENGINE-STACK-0001.md. Wolf's part: sign in to Zernio and connect each social account himself (Claude never enters passwords); a yes on each spend item — Apify Starter $19/mo now; Zernio accounts 3–10 (~$48/mo) after the trial period; OpusClip ~$29/mo only when founder filming starts. Claude's part: add the Zernio connector (mcp.zernio.com/mcp), check the real analytics fields returned for TikTok, Reels, Shorts and LinkedIn in week one, set the UTM convention on Bitly links,…",
-      "description_chars": 735,
+      "description_chars": 906,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "GTM",
@@ -29482,6 +29482,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 8:34 PM CET",
-  "published_at_iso": "2026-10-29T20:34:51+0100"
+  "published_at": "October 29, 2026 · 8:50 PM CET",
+  "published_at_iso": "2026-10-29T20:50:19+0100"
 }
