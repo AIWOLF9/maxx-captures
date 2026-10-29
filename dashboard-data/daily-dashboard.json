@@ -449,6 +449,62 @@
       "first_seen": "2026-10-28"
     },
     {
+      "id": "SIG-650",
+      "title": "Add the payout bank account in Stripe so Lemon Squeezy can pay out pre-order money (Stripe email of 19 Aug, still unact…",
+      "description": "Created 29 Oct 2026, attended, from Claude's first triage of the wolf@maxxsignal.com inbox. Stripe asks for payout details for the Lemon Squeezy account; until they are added, pre-order money (~1 Dec) has nowhere to land. Use the Wolf Ventures LLC account under the interim management agreement (signed 28 Sep). Wolf signs in himself.",
+      "description_chars": 334,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
+    },
+    {
+      "id": "SIG-651",
+      "title": "Message library…",
+      "description": "Created 29 Oct 2026, attended (Decision 261, GTM 30,000-foot chat). The shared machine had no task for the messages themselves. Claude drafts the per-segment ladder from the settled spine; Wolf edits; drafts feed HubSpot templates and sequences.",
+      "description_chars": 245,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "joint-owner",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
+    },
+    {
       "id": "SIG-626",
       "title": "Social media day one…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Wolf 17 Oct: *\"I can get them, and at this moment… there won't be content on day one. We'll need to talk about what content we want to put there.\"* Claude drafts bios, profile art from the locked logo, banners and the first posts from the built site's copy and imagery; Wolf approves in the go-to-market content chat (SIG-432, week of 26 Oct); Wolf posts or connects a scheduler. Cadence and the ongoing system stay with SIG-165 and SIG-429. Due before go-live (~1 Nov). ▶ 28 Oct 2026, board clean-up (SIG-644, Wolf approved): Priority rai…",
@@ -20502,6 +20558,34 @@
       "first_seen": "2026-10-28"
     },
     {
+      "id": "SIG-652",
+      "title": "HubSpot set up as the shared outreach machine…",
+      "description": "Created and closed 29 Oct 2026, attended (Decision 261). Evidence: pipelines Advisors (4277558474), Ambassadors & partners (4278871236), Investors (4278899932); 7 contact fields (gtm_roles, gtm_primary_ask, gtm_tier, gtm_who_sends, gtm_why_credible, gtm_reach, gtm_source_list); booking link meetings-eu1.hubspot.com/wolf-shlagman (15/30/60, Google Meet, CET 3–11pm) tested end to end and cancelled 29 Oct ~01:36. Elapsed ~1.5 h. Open: delete the 'Test Booking' contact if Wolf wants.",
+      "description_chars": 484,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "joint-owner",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
+    },
+    {
       "id": "SIG-474",
       "title": "Finalise the activation page and its legal surfaces…",
       "description": "Created 2026-09-20, attended, on Wolf's explicit instruction. Wolf: *\"We should have a separate chat just to deal with the website that was created and, I guess, the other documents that are needed, or other pieces such as privacy and/or terms.\"* ⚠️ CHECKED BEFORE CREATING (board rule 1): no row covers finalising the activation page together with its legal surfaces; SIG-324 is the page, SIG-325 is the documents, and each assumes the other is somebody else's problem. This row is the CHAT that closes both. SCOPE: (1) finish the activation page — Wolf: *\"I took a quick look at the page you creat…",
@@ -29174,6 +29258,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 28, 2026 · 10:26 PM CET",
-  "published_at_iso": "2026-10-28T22:26:43+0100"
+  "published_at": "October 29, 2026 · 1:43 AM CET",
+  "published_at_iso": "2026-10-29T01:43:12+0100"
 }
