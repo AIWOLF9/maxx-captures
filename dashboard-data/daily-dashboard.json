@@ -533,6 +533,34 @@
       "first_seen": "2026-10-18"
     },
     {
+      "id": "SIG-653",
+      "title": "Email preferences link unsubscribes people instantly…",
+      "description": "Created 29 Oct 2026, attended stand-up — Wolf found it. In the invitation reminder sent by the site (from hello@mail.maxxsignal.com via Resend), the footer link Email preferences goes to the same /api/unsubscribe address as Unsubscribe, and opening it unsubscribes at once (\"You're unsubscribed\"). Wolf clicked it only to see his preferences and was unsubscribed (his test address vivoveritas+invitetest@gmail.com; harmless). Two defects: (1) a link labelled preferences that unsubscribes; (2) unsubscribing on a plain page visit, with no button, so a company email link-scanner can unsubscribe peop…",
+      "description_chars": 1514,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Build",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Engineering",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
+    },
+    {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
       "title": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked i…",
       "description": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked is a *defect*, not a bonus — and that rule exists nowhere in the rulebook. Originated MC-ENTITY-SETUP-2026-09-04 (2026-09-04, attended, session VP7M4GYP0Y), filed there as decision candidate D-MC-2026-09-04-VP7M4GYP0Y-01, and never ratified, never routed and never written to any register — homeless for five days until this row. Wolf, attended, verbatim: *\"Please don't get us off the path with minutia details about affiliate commissions or commissions or blended rates. That has nothing t…",
@@ -29258,6 +29286,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 4:31 PM CET",
-  "published_at_iso": "2026-10-29T16:31:27+0100"
+  "published_at": "October 29, 2026 · 4:46 PM CET",
+  "published_at_iso": "2026-10-29T16:46:45+0100"
 }
