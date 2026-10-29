@@ -561,6 +561,34 @@
       "first_seen": "2026-10-29"
     },
     {
+      "id": "SIG-654",
+      "title": "Comprehensive outreach database…",
+      "description": "Created 29 Oct 2026 ~17:45 Zagreb, attended (go-to-market chat 2, Wolf: \"yes on scoring and building comprehensive database for all\"). Checked before creating: SIG-634 built the 26 Oct 350-row list; SIG-635 is outreach at scale; neither covers a re-scored, multi-source, every-platform database. Method ruled 29 Oct: four scores 0–5, weighted — Voice on the issue 30%, Credibility 25%, Reach and name recognition 25%, Fit with Signal 20%; grade A ≥80, B 65–79, C 50–64, D below; reachability and risks are separate notes that set the route, not the grade. Sources: the 26 Oct list; named authors and…",
+      "description_chars": 1686,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "4h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
+    },
+    {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
       "title": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked i…",
       "description": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked is a *defect*, not a bonus — and that rule exists nowhere in the rulebook. Originated MC-ENTITY-SETUP-2026-09-04 (2026-09-04, attended, session VP7M4GYP0Y), filed there as decision candidate D-MC-2026-09-04-VP7M4GYP0Y-01, and never ratified, never routed and never written to any register — homeless for five days until this row. Wolf, attended, verbatim: *\"Please don't get us off the path with minutia details about affiliate commissions or commissions or blended rates. That has nothing t…",
@@ -29286,6 +29314,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 4:46 PM CET",
-  "published_at_iso": "2026-10-29T16:46:45+0100"
+  "published_at": "October 29, 2026 · 5:47 PM CET",
+  "published_at_iso": "2026-10-29T17:47:22+0100"
 }
