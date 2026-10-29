@@ -592,8 +592,8 @@
       "id": "SIG-659",
       "title": "Positioning and messaging chat…",
       "description": "Created 29 Oct 2026 ~18:40, attended. Wolf: \"we'll need a separate chat to discuss proper positioning and messaging for the different audiences and our go-to-market.\" Inputs: the 23 Oct research pack §1–2 (positioning options, avatars), Decision 264 ① (the live homepage already leads 'Your YouTube. Free from the algorithm's poison.'), the movement launch chat (SIG-658). Order per Brand §1.0.2: positioning → messaging → the arc → approval → drafts. Output feeds SIG-651 (message library at every length), SIG-626 (day-one profiles) and SIG-646 (tools). ▶ 29 Oct 2026 (Decision 265 ⑥): the tool st…",
-      "description_chars": 1754,
-      "status": "s-todo",
+      "description_chars": 1983,
+      "status": "s-doing",
       "priority": "p-p0",
       "segment": "GTM",
       "venture": "v-signal",
@@ -29600,6 +29600,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 9:35 PM CET",
-  "published_at_iso": "2026-10-29T21:35:51+0100"
+  "published_at": "October 29, 2026 · 10:06 PM CET",
+  "published_at_iso": "2026-10-29T22:06:21+0100"
 }
