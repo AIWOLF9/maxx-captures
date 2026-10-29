@@ -88,7 +88,7 @@
       "id": "SIG-324",
       "title": "Publish compliant maxxsignal.com activation page",
       "description": "BLOCKS SIG-049 — this is the gate on all revenue. Stripe will not activate an account whose site is a placeholder; requires business name, description of goods/services, customer-service contact, refund + dispute policy, cancellation policy, reachable without password. Live site is currently a waitlist capture and fails every requirement but the name. NOT the full SIG-204 marketing site — a compliance surface, reusable as /terms /pricing /refunds later. Draft from locked canon at _Working/SIG-049_maxxsignal-activation-page_DRAFT_2026-08-05.html.  [⚠️ RULING APPLIED 2026-08-20 (Wolf, attended,…",
-      "description_chars": 7121,
+      "description_chars": 7675,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -368,7 +368,7 @@
       "id": "SIG-645",
       "title": "Join confirmation email…",
       "description": "Created 28 Oct 2026, attended (go-live tests). The email a person gets after joining (\"One click to lock in your early access\") is still the June template in lib/resend.ts: no logo, \"the feed you control\" as its main line, and \"One email when your Signal is ready\", which is no longer true now that invitations and thank-yous exist. It is not among the 15 approved form emails (Decision 251, 05_Marketing/Working/email_2026-10-19/hubspot/), so it was never redesigned. Claude drafts it in the same style as the approved set; Wolf approves the words; Claude ships it to the repo. Before the public an…",
-      "description_chars": 2090,
+      "description_chars": 2933,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
@@ -451,8 +451,8 @@
     {
       "id": "SIG-650",
       "title": "Add the payout bank account in Stripe so Lemon Squeezy can pay out pre-order money (Stripe email of 19 Aug, still unact…",
-      "description": "Created 29 Oct 2026, attended, from Claude's first triage of the wolf@maxxsignal.com inbox. Stripe asks for payout details for the Lemon Squeezy account; until they are added, pre-order money (~1 Dec) has nowhere to land. Use the Wolf Ventures LLC account under the interim management agreement (signed 28 Sep). Wolf signs in himself.",
-      "description_chars": 334,
+      "description": "Created 29 Oct 2026, attended, from Claude's first triage of the wolf@maxxsignal.com inbox. Stripe asks for payout details for the Lemon Squeezy account; until they are added, pre-order money (~1 Dec) has nowhere to land. Use the Wolf Ventures LLC account under the interim management agreement (signed 28 Sep). Wolf signs in himself. ▶ 29 Oct 2026: Wolf Est 0.5h (Wolf, attended stand-up).",
+      "description_chars": 390,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -461,7 +461,7 @@
       "deadline_label": "Phase Pre-Launch",
       "deadline_class": "d-future",
       "effort_mc": null,
-      "effort_wolf": null,
+      "effort_wolf": "0.5h",
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
@@ -479,8 +479,8 @@
     {
       "id": "SIG-651",
       "title": "Message library…",
-      "description": "Created 29 Oct 2026, attended (Decision 261, GTM 30,000-foot chat). The shared machine had no task for the messages themselves. Claude drafts the per-segment ladder from the settled spine; Wolf edits; drafts feed HubSpot templates and sequences.",
-      "description_chars": 245,
+      "description": "Created 29 Oct 2026, attended (Decision 261, GTM 30,000-foot chat). The shared machine had no task for the messages themselves. Claude drafts the per-segment ladder from the settled spine; Wolf edits; drafts feed HubSpot templates and sequences. ▶ 29 Oct 2026: Autonomy changed from the invalid value \"Claude\" to Batch; Wolf 29 Oct (attended stand-up): yes, Claude drafts and Wolf approves.",
+      "description_chars": 390,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -499,7 +499,7 @@
         "HERMES"
       ],
       "autonomy": "Batch",
-      "autonomy_reason": "joint-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-10-29"
@@ -20560,8 +20560,8 @@
     {
       "id": "SIG-652",
       "title": "HubSpot set up as the shared outreach machine…",
-      "description": "Created and closed 29 Oct 2026, attended (Decision 261). Evidence: pipelines Advisors (4277558474), Ambassadors & partners (4278871236), Investors (4278899932); 7 contact fields (gtm_roles, gtm_primary_ask, gtm_tier, gtm_who_sends, gtm_why_credible, gtm_reach, gtm_source_list); booking link meetings-eu1.hubspot.com/wolf-shlagman (15/30/60, Google Meet, CET 3–11pm) tested end to end and cancelled 29 Oct ~01:36. Elapsed ~1.5 h. Open: delete the 'Test Booking' contact if Wolf wants.",
-      "description_chars": 484,
+      "description": "Created and closed 29 Oct 2026, attended (Decision 261). Evidence: pipelines Advisors (4277558474), Ambassadors & partners (4278871236), Investors (4278899932); 7 contact fields (gtm_roles, gtm_primary_ask, gtm_tier, gtm_who_sends, gtm_why_credible, gtm_reach, gtm_source_list); booking link meetings-eu1.hubspot.com/wolf-shlagman (15/30/60, Google Meet, CET 3–11pm) tested end to end and cancelled 29 Oct ~01:36. Elapsed ~1.5 h. Open: delete the 'Test Booking' contact if Wolf wants. ▶ 29 Oct 2026: Autonomy changed from the invalid value \"Claude\" to Auto; set with SIG-651, task already Done.",
+      "description_chars": 594,
       "status": "s-done",
       "priority": "p-p0",
       "segment": "Ops",
@@ -20579,8 +20579,8 @@
       "executor_list": [
         "MC"
       ],
-      "autonomy": "Batch",
-      "autonomy_reason": "joint-owner",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Operations",
       "kind": "tasks",
       "first_seen": "2026-10-29"
@@ -29258,6 +29258,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 9:28 AM CET",
-  "published_at_iso": "2026-10-29T09:28:23+0100"
+  "published_at": "October 29, 2026 · 3:15 PM CET",
+  "published_at_iso": "2026-10-29T15:15:16+0100"
 }
