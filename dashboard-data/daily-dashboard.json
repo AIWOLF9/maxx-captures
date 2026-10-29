@@ -14908,26 +14908,6 @@
       "first_seen": null
     },
     {
-      "id": "CAP-0019",
-      "title": "Content Publishing via Blotato (multi-venture, MCP-driven)…",
-      "description": "Content Publishing via Blotato (multi-venture, MCP-driven). Pilot on Signal first via Blotato Starter $29/mo → Creator $97/mo if pilot holds. Activation: Cowork Settings → Connectors → Add Custom Connector → https://mcp.blotato.com/mcp OAuth. Fills SATELLITE-CONTENT-PIPELINE.md Stage-3 \"publishing skill\" gap. 9+ platforms native (X / LinkedIn / IG / TikTok / FB / Threads / Bluesky / Pinterest / YouTube). XS effort (~15 min setup + 1 pilot chat). Deferred ~14d behind Signal substrate completion per project_maxx_priority_2026-05-19. Spawned from yt-review-Blotato chat 2026-05-24; see matrix at…",
-      "description_chars": 669,
-      "status": "s-waiting",
-      "priority": "p-p2",
-      "segment": "Agents",
-      "venture": "v-mos",
-      "deadline": null,
-      "deadline_label": "2026-05-24",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
-      "created": "2026-05-24",
-      "zone": "waiting",
-      "kind": "cap",
-      "first_seen": null
-    },
-    {
       "id": "CAP-0020",
       "title": "Social Content Research…",
       "description": "Social Content Research — Standing Scan. Weekly scheduled-task scan per active venture (Apify + free tool wrappers); output feeds Hive Mind Stage 2 synthesis. Reuses CAP-0006 scheduled-task runtime. Deferred until CAP-0018 v1 produces empirical signal-volume data + objective trigger: \"≥3 on-demand runs across ≥2 ventures AND ≥1 finding actually changed a content decision AND Wolf flags 'I wish this just ran weekly so I didn't have to ask'.\" M effort (~4-6 MC-hrs). Spawned from yt-review-Blotato chat 2026-05-24.",
@@ -16475,6 +16455,26 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-08-22"
+    },
+    {
+      "id": "CAP-0019",
+      "title": "Content Publishing via Blotato (multi-venture, MCP-driven)…",
+      "description": "Content Publishing via Blotato (multi-venture, MCP-driven). Pilot on Signal first via Blotato Starter $29/mo → Creator $97/mo if pilot holds. Activation: Cowork Settings → Connectors → Add Custom Connector → https://mcp.blotato.com/mcp OAuth. Fills SATELLITE-CONTENT-PIPELINE.md Stage-3 \"publishing skill\" gap. 9+ platforms native (X / LinkedIn / IG / TikTok / FB / Threads / Bluesky / Pinterest / YouTube). XS effort (~15 min setup + 1 pilot chat). Deferred ~14d behind Signal substrate completion per project_maxx_priority_2026-05-19. Spawned from yt-review-Blotato chat 2026-05-24; see matrix at…",
+      "description_chars": 669,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Agents",
+      "venture": "v-mos",
+      "deadline": null,
+      "deadline_label": "2026-05-24",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/CAPABILITIES_BACKLOG.md",
+      "created": "2026-05-24",
+      "zone": "info",
+      "kind": "cap",
+      "first_seen": null
     },
     {
       "id": "CF-RELAY-TABLE-NOT-A-CENSUS-1",
@@ -29454,6 +29454,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 6:48 PM CET",
-  "published_at_iso": "2026-10-29T18:48:50+0100"
+  "published_at": "October 29, 2026 · 7:34 PM CET",
+  "published_at_iso": "2026-10-29T19:34:18+0100"
 }
