@@ -393,34 +393,6 @@
       "first_seen": "2026-10-28"
     },
     {
-      "id": "SIG-646",
-      "title": "Strategy chat…",
-      "description": "Created 28 Oct 2026, attended (Wolf, board clean-up chat). Wolf: a task and a strategy chat for the platform and tools that generate social content automatically and post it automatically to the social accounts and other sites. Checked before creating: tools are touched in SIG-633 (GTM chat, tools item), SIG-429 (content engine), SIG-165 (social content ops, scheduler) and SIG-075 (SEO engine), but no task owns choosing and setting up the tool stack. Claude prepares: the candidates (schedulers and auto-posting platforms, AI content generation, what each platform allows to be automated, cost p…",
-      "description_chars": 2597,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "GTM",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "1.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "HERMES",
-      "executor_list": [
-        "HERMES"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-28"
-    },
-    {
       "id": "SIG-647",
       "title": "Five-year financial projections…",
       "description": "Created 28 Oct 2026, attended (Wolf, board clean-up chat). Wolf: 5-year financial projections. Checked before creating: the model exists (07_Finance/Final/MAXX_Signal_Financial_Model_v2_1.xlsx, one-pager v1.0), but no task produces investor-ready five-year projections; open inputs are SIG-631 (rename Expected to Stretch and build a new Expected) and SIG-384 (three Year-1 revenue figures). Claude reads the model, lays out the five-year view (members, revenue, costs, cash need, scenarios), flags every assumption that conflicts with locked pricing, and prepares the version the investor deck uses…",
@@ -480,7 +452,7 @@
       "id": "SIG-626",
       "title": "Social media day one…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Wolf 17 Oct: *\"I can get them, and at this moment… there won't be content on day one. We'll need to talk about what content we want to put there.\"* Claude drafts bios, profile art from the locked logo, banners and the first posts from the built site's copy and imagery; Wolf approves in the go-to-market content chat (SIG-432, week of 26 Oct); Wolf posts or connects a scheduler. Cadence and the ongoing system stay with SIG-165 and SIG-429. Due before go-live (~1 Nov). ▶ 28 Oct 2026, board clean-up (SIG-644, Wolf approved): Priority rai…",
-      "description_chars": 1185,
+      "description_chars": 1314,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -619,8 +591,8 @@
     {
       "id": "SIG-659",
       "title": "Positioning and messaging chat…",
-      "description": "Created 29 Oct 2026 ~18:40, attended. Wolf: \"we'll need a separate chat to discuss proper positioning and messaging for the different audiences and our go-to-market.\" Inputs: the 23 Oct research pack §1–2 (positioning options, avatars), Decision 264 ① (the live homepage already leads 'Your YouTube. Free from the algorithm's poison.'), the movement launch chat (SIG-658). Order per Brand §1.0.2: positioning → messaging → the arc → approval → drafts. Output feeds SIG-651 (message library at every length), SIG-626 (day-one profiles) and SIG-646 (tools).",
-      "description_chars": 555,
+      "description": "Created 29 Oct 2026 ~18:40, attended. Wolf: \"we'll need a separate chat to discuss proper positioning and messaging for the different audiences and our go-to-market.\" Inputs: the 23 Oct research pack §1–2 (positioning options, avatars), Decision 264 ① (the live homepage already leads 'Your YouTube. Free from the algorithm's poison.'), the movement launch chat (SIG-658). Order per Brand §1.0.2: positioning → messaging → the arc → approval → drafts. Output feeds SIG-651 (message library at every length), SIG-626 (day-one profiles) and SIG-646 (tools). ▶ 29 Oct 2026 (Decision 265 ⑥): the tool st…",
+      "description_chars": 749,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
@@ -4817,7 +4789,7 @@
       "id": "SIG-628",
       "title": "Move Signal's Claude Design work before standalone Claude Design closes on 14 Dec 2026…",
       "description": "Created 18 Oct 2026 ~21:30, from the Mission Control hand-off _Inbox/MC-TO-SIGNAL_HANDOFF_2026-10-18_sig-623-audit-inputs-and-two-one-word-calls.md (weekly synthesis W2), verified the same evening against https://support.claude.com/en/articles/17440474. Standalone Claude Design closes 14 Dec 2026; after that claude.ai/design opens Claude, and new designs, design systems and decks are artifacts. Before then: ① migrate the design system(s) from the Artifacts page (one migration brings all; fix and re-run any that fail); ② export each Signal project (Share → Project HTML → keep Project archive →…",
-      "description_chars": 1923,
+      "description_chars": 2194,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -4920,6 +4892,34 @@
         "HERMES"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
+    },
+    {
+      "id": "SIG-660",
+      "title": "Set up the content tool stack…",
+      "description": "Created 29 Oct 2026 ~20:30, attended (Decision 265 ⑤). From Mission Control's stack decision _index/_shared/MOS-CONTENT-ENGINE-STACK-0001.md. Wolf's part: sign in to Zernio and connect each social account himself (Claude never enters passwords); a yes on each spend item — Apify Starter $19/mo now; Zernio accounts 3–10 (~$48/mo) after the trial period; OpusClip ~$29/mo only when founder filming starts. Claude's part: add the Zernio connector (mcp.zernio.com/mcp), check the real analytics fields returned for TikTok, Reels, Shorts and LinkedIn in week one, set the UTM convention on Bitly links,…",
+      "description_chars": 735,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~45m",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -7902,7 +7902,7 @@
       "id": "SIG-165",
       "title": "Social Content Ops…",
       "description": "Create all our own accounts (platforms/handles), pick scheduler, DAILY posting cadence + anchor→atomize workflow, performance-tracking loop. (notes 4/5b/5e) [CAPTURE-TRIAGE 2026-07-31 — MOS-T-046, the half that is not a line.] Wolf's capture is a content format, not a brand line: *\"get people to take a moment to think about the ramifications of being mindlessly manipulated by the algorithm — to simply ask questions like 'Did you know…'\"*. Add a recurring \"Did you know?\" question series to the daily cadence + anchor→atomize workflow: short, answerable, research-backed prompts that stop the scr…",
-      "description_chars": 2022,
+      "description_chars": 2146,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Marketing",
@@ -20726,6 +20726,34 @@
       "first_seen": "2026-10-28"
     },
     {
+      "id": "SIG-646",
+      "title": "Strategy chat…",
+      "description": "Created 28 Oct 2026, attended (Wolf, board clean-up chat). Wolf: a task and a strategy chat for the platform and tools that generate social content automatically and post it automatically to the social accounts and other sites. Checked before creating: tools are touched in SIG-633 (GTM chat, tools item), SIG-429 (content engine), SIG-165 (social content ops, scheduler) and SIG-075 (SEO engine), but no task owns choosing and setting up the tool stack. Claude prepares: the candidates (schedulers and auto-posting platforms, AI content generation, what each platform allows to be automated, cost p…",
+      "description_chars": 3348,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-28"
+    },
+    {
       "id": "SIG-650",
       "title": "Add the payout bank account in Stripe so Lemon Squeezy can pay out pre-order money (Stripe email of 19 Aug, still unact…",
       "description": "Created 29 Oct 2026, attended, from Claude's first triage of the wolf@maxxsignal.com inbox. Stripe asks for payout details for the Lemon Squeezy account; until they are added, pre-order money (~1 Dec) has nowhere to land. Use the Wolf Ventures LLC account under the interim management agreement (signed 28 Sep). Wolf signs in himself. ▶ 29 Oct 2026: Wolf Est 0.5h (Wolf, attended stand-up). ▶ 29 Oct 2026 — DONE (Wolf did it; Claude flipped on his word). Wolf, attended: *\"I submitted application and connected my bank.\"* Product description written with Claude in the stand-up chat (technology plat…",
@@ -29454,6 +29482,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 7:34 PM CET",
-  "published_at_iso": "2026-10-29T19:34:18+0100"
+  "published_at": "October 29, 2026 · 8:34 PM CET",
+  "published_at_iso": "2026-10-29T20:34:51+0100"
 }
