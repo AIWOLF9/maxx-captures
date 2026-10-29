@@ -449,34 +449,6 @@
       "first_seen": "2026-10-28"
     },
     {
-      "id": "SIG-650",
-      "title": "Add the payout bank account in Stripe so Lemon Squeezy can pay out pre-order money (Stripe email of 19 Aug, still unact…",
-      "description": "Created 29 Oct 2026, attended, from Claude's first triage of the wolf@maxxsignal.com inbox. Stripe asks for payout details for the Lemon Squeezy account; until they are added, pre-order money (~1 Dec) has nowhere to land. Use the Wolf Ventures LLC account under the interim management agreement (signed 28 Sep). Wolf signs in himself. ▶ 29 Oct 2026: Wolf Est 0.5h (Wolf, attended stand-up).",
-      "description_chars": 390,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Ops",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": null,
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Operations",
-      "kind": "tasks",
-      "first_seen": "2026-10-29"
-    },
-    {
       "id": "SIG-651",
       "title": "Message library…",
       "description": "Created 29 Oct 2026, attended (Decision 261, GTM 30,000-foot chat). The shared machine had no task for the messages themselves. Claude drafts the per-segment ladder from the settled spine; Wolf edits; drafts feed HubSpot templates and sequences. ▶ 29 Oct 2026: Autonomy changed from the invalid value \"Claude\" to Batch; Wolf 29 Oct (attended stand-up): yes, Claude drafts and Wolf approves.",
@@ -20558,6 +20530,34 @@
       "first_seen": "2026-10-28"
     },
     {
+      "id": "SIG-650",
+      "title": "Add the payout bank account in Stripe so Lemon Squeezy can pay out pre-order money (Stripe email of 19 Aug, still unact…",
+      "description": "Created 29 Oct 2026, attended, from Claude's first triage of the wolf@maxxsignal.com inbox. Stripe asks for payout details for the Lemon Squeezy account; until they are added, pre-order money (~1 Dec) has nowhere to land. Use the Wolf Ventures LLC account under the interim management agreement (signed 28 Sep). Wolf signs in himself. ▶ 29 Oct 2026: Wolf Est 0.5h (Wolf, attended stand-up). ▶ 29 Oct 2026 — DONE (Wolf did it; Claude flipped on his word). Wolf, attended: *\"I submitted application and connected my bank.\"* Product description written with Claude in the stand-up chat (technology plat…",
+      "description_chars": 989,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": null,
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
+    },
+    {
       "id": "SIG-652",
       "title": "HubSpot set up as the shared outreach machine…",
       "description": "Created and closed 29 Oct 2026, attended (Decision 261). Evidence: pipelines Advisors (4277558474), Ambassadors & partners (4278871236), Investors (4278899932); 7 contact fields (gtm_roles, gtm_primary_ask, gtm_tier, gtm_who_sends, gtm_why_credible, gtm_reach, gtm_source_list); booking link meetings-eu1.hubspot.com/wolf-shlagman (15/30/60, Google Meet, CET 3–11pm) tested end to end and cancelled 29 Oct ~01:36. Elapsed ~1.5 h. Open: delete the 'Test Booking' contact if Wolf wants. ▶ 29 Oct 2026: Autonomy changed from the invalid value \"Claude\" to Auto; set with SIG-651, task already Done.",
@@ -29258,6 +29258,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 3:15 PM CET",
-  "published_at_iso": "2026-10-29T15:15:16+0100"
+  "published_at": "October 29, 2026 · 3:30 PM CET",
+  "published_at_iso": "2026-10-29T15:30:38+0100"
 }
