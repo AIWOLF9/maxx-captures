@@ -311,8 +311,8 @@
     {
       "id": "SIG-636",
       "title": "Pre-order, Kickstarter, a working demo, Lemon Squeezy payments and starting the build…",
-      "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. What has to be finished for pre-order on ~1 Dec and for a Kickstarter later: the demo Kickstarter's rules require, hooking up Lemon Squeezy payments (SIG-049, SIG-056), the service-screens overview, and starting the build by ~9 Nov (SIG-050). ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Pre-Order.",
-      "description_chars": 392,
+      "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. What has to be finished for pre-order on ~1 Dec and for a Kickstarter later: the demo Kickstarter's rules require, hooking up Lemon Squeezy payments (SIG-049, SIG-056), the service-screens overview, and starting the build by ~9 Nov (SIG-050). ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Pre-Order. ▶ 29 Oct 2026 — Decision 262: Wolf told Lemon Squeezy that pre-orders open before the end of 2026 and launch is planned for early Q1 2027. Settle here which date pre-order customers are shown: Terms §9.2 le…",
+      "description_chars": 681,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Product",
@@ -2268,8 +2268,8 @@
     {
       "id": "SIG-080",
       "title": "Launch (App Store submission + public go-live)",
-      "description": "App Store submission + review, maxxsignal.com go-live, ambassador activation. Final ship. ▶ 28 Oct 2026, board clean-up (SIG-644, Wolf approved): Priority lowered to P1 until the build starts (~9 Nov); returns to P0 then. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Standard Launch.",
-      "description_chars": 296,
+      "description": "App Store submission + review, maxxsignal.com go-live, ambassador activation. Final ship. ▶ 28 Oct 2026, board clean-up (SIG-644, Wolf approved): Priority lowered to P1 until the build starts (~9 Nov); returns to P0 then. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Standard Launch. ▶ 29 Oct 2026 — Decision 262: working launch target early Q1 2027 (Wolf, attended; stated to Lemon Squeezy). A working target, not a public commitment; launch stays quality-driven.",
+      "description_chars": 477,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Launch",
@@ -20533,7 +20533,7 @@
       "id": "SIG-650",
       "title": "Add the payout bank account in Stripe so Lemon Squeezy can pay out pre-order money (Stripe email of 19 Aug, still unact…",
       "description": "Created 29 Oct 2026, attended, from Claude's first triage of the wolf@maxxsignal.com inbox. Stripe asks for payout details for the Lemon Squeezy account; until they are added, pre-order money (~1 Dec) has nowhere to land. Use the Wolf Ventures LLC account under the interim management agreement (signed 28 Sep). Wolf signs in himself. ▶ 29 Oct 2026: Wolf Est 0.5h (Wolf, attended stand-up). ▶ 29 Oct 2026 — DONE (Wolf did it; Claude flipped on his word). Wolf, attended: *\"I submitted application and connected my bank.\"* Product description written with Claude in the stand-up chat (technology plat…",
-      "description_chars": 989,
+      "description_chars": 1256,
       "status": "s-done",
       "priority": "p-p0",
       "segment": "Ops",
@@ -29258,6 +29258,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 3:30 PM CET",
-  "published_at_iso": "2026-10-29T15:30:38+0100"
+  "published_at": "October 29, 2026 · 4:01 PM CET",
+  "published_at_iso": "2026-10-29T16:01:02+0100"
 }
