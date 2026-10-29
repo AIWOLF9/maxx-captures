@@ -589,6 +589,34 @@
       "first_seen": "2026-10-29"
     },
     {
+      "id": "SIG-658",
+      "title": "Movement launch chat…",
+      "description": "Created 29 Oct 2026 ~18:20, attended. Wolf: \"It's not about rage baiting. It's about getting people up at arms, opening up their eyes, getting them pissed, and getting them to join the fight, which is real… We might write something up that we'll post not only on our blog but on LinkedIn, on Reddit, on Substack, on Facebook, everywhere… As we launch the smile survey and index as well… we need to discuss the mechanics and logistics.\" Register: LOUD at the funnel, on documented harm (Brand §1.1.4 + §3.6.1; Decision 44), never manufactured outrage, never villainising people. Settles: survey place…",
+      "description_chars": 828,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
+    },
+    {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
       "title": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked i…",
       "description": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked is a *defect*, not a bonus — and that rule exists nowhere in the rulebook. Originated MC-ENTITY-SETUP-2026-09-04 (2026-09-04, attended, session VP7M4GYP0Y), filed there as decision candidate D-MC-2026-09-04-VP7M4GYP0Y-01, and never ratified, never routed and never written to any register — homeless for five days until this row. Wolf, attended, verbatim: *\"Please don't get us off the path with minutia details about affiliate commissions or commissions or blended rates. That has nothing t…",
@@ -4836,6 +4864,34 @@
         "Wolf"
       ],
       "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
+    },
+    {
+      "id": "SIG-657",
+      "title": "Where we post: the comprehensive list…",
+      "description": "Created 29 Oct 2026 ~18:20, attended (Wolf: \"We need to do a little research on Reddit, Substack, Facebook groups, all that, and Product Hunt. We'll have a comprehensive list of where to post. Agreed.\"). Builds on the 23 Oct research pack §4 (nine own accounts; communities participate-only; BetaList now; Product Hunt and Hacker News saved for the January beta). Per destination: audience size, topic fit, self-promotion rules, ban risk, who posts (Wolf manual for Reddit and Facebook groups), and the first post idea. Output feeds SIG-442 (waitlist campaign) and SIG-626 (day-one profiles).",
+      "description_chars": 592,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -29370,6 +29426,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 6:02 PM CET",
-  "published_at_iso": "2026-10-29T18:02:43+0100"
+  "published_at": "October 29, 2026 · 6:18 PM CET",
+  "published_at_iso": "2026-10-29T18:18:05+0100"
 }
