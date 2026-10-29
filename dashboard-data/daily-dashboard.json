@@ -4851,7 +4851,7 @@
       "id": "SIG-628",
       "title": "Move Signal's Claude Design work before standalone Claude Design closes on 14 Dec 2026…",
       "description": "Created 18 Oct 2026 ~21:30, from the Mission Control hand-off _Inbox/MC-TO-SIGNAL_HANDOFF_2026-10-18_sig-623-audit-inputs-and-two-one-word-calls.md (weekly synthesis W2), verified the same evening against https://support.claude.com/en/articles/17440474. Standalone Claude Design closes 14 Dec 2026; after that claude.ai/design opens Claude, and new designs, design systems and decks are artifacts. Before then: ① migrate the design system(s) from the Artifacts page (one migration brings all; fix and re-run any that fail); ② export each Signal project (Share → Project HTML → keep Project archive →…",
-      "description_chars": 3259,
+      "description_chars": 3896,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Design",
@@ -10537,6 +10537,34 @@
       "first_seen": "2026-10-29"
     },
     {
+      "id": "SIG-725",
+      "title": "Re-word 7 of the 25 Hard-NOs in the MAXX Signal Design System so they match later rulings (badges, red, glows, the syst…",
+      "description": "Created 30 Oct 2026, attended — Wolf: \"Let me know if there's anything I need to review.\" The July Hard-NOs list (design system README and guidelines/brand-hard-nos.card.html) conflicts with later canon on items 2 (badges, locked SIG-230), 5 and 6 (FOMO/urgency: only offer-FOMO banned, Brand AP-4 v1.5.5), 7 (red: onboarding keep-out chips, website harm side), 9 (glows: three approved onboarding glows), 19 (villain imagery: Brand §1.1.4 makes the system the villain; AP-10 bans villainising companies/people), 20 (exclamation marks: AP-9 in-product only). Proposed wording in the 30 Oct chat; Wol…",
+      "description_chars": 701,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~20m",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-10-30"
+    },
+    {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
       "title": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with i…",
       "description": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with its next fire parked at 2027-01-01. The routine is trig_019Wuy5iWcJJzoSxHDj1oaDU, Wolf's *\"can a cloud routine reach the Mac?\"* probe, created and fired 2026-08-26; surfaced at MC-CLOUDSHIFT-2026-09-09 (2026-09-09, attended, cloud, session 7DMVKQTQ4B) and now recorded under the new _pending_one_offs key in _index/STATUS_SNAPSHOTS/_cloud_lanes.json. The probe is itself the portfolio's one recorded instance of the failure it was built to detect: the scheduler records it SUCCEEDED — fired…",
@@ -14792,6 +14820,34 @@
       "owner": "Wolf + Claude",
       "kind": "cfi",
       "first_seen": null
+    },
+    {
+      "id": "SIG-723",
+      "title": "⚠️ DEFECT…",
+      "description": "Created 30 Oct 2026, attended (SIG-628 review). Found by checking the Claude Design chats against the live file. Signal Waitlist Responsive.dc.html line 2607 has const DEFAULT_SKIP — one or two whole topics pre-skipped per channel (News: Politics, Foreign wars; Feel-good: Faith & religion; Sports: Fantasy & betting; …). Claude Design seeded them on 23 Jul 17:07 to make screen 16's pills visible and no one removed them. Contradicts Decision 42 (\"all offered / OFF\" — filter the form, not the subject) and Wolf's \"all off by default\". Fix: empty DEFAULT_SKIP in the working copy (and in whatever t…",
+      "description_chars": 1449,
+      "status": "s-waiting",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~15m",
+      "effort_wolf": "~10m (elapsed)",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "waiting",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "joint-owner",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-10-30"
     },
     {
       "id": "CAP-0060",
@@ -26688,34 +26744,6 @@
       "first_seen": "2026-10-15"
     },
     {
-      "id": "SIG-723",
-      "title": "⚠️ DEFECT…",
-      "description": "Created 30 Oct 2026, attended (SIG-628 review). Found by checking the Claude Design chats against the live file. Signal Waitlist Responsive.dc.html line 2607 has const DEFAULT_SKIP — one or two whole topics pre-skipped per channel (News: Politics, Foreign wars; Feel-good: Faith & religion; Sports: Fantasy & betting; …). Claude Design seeded them on 23 Jul 17:07 to make screen 16's pills visible and no one removed them. Contradicts Decision 42 (\"all offered / OFF\" — filter the form, not the subject) and Wolf's \"all off by default\". Fix: empty DEFAULT_SKIP in the working copy (and in whatever t…",
-      "description_chars": 1232,
-      "status": "s-done",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~15m",
-      "effort_wolf": "~10m (elapsed)",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "done",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "joint-owner",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-10-30"
-    },
-    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -29656,6 +29684,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 30, 2026 · 12:07 AM CET",
-  "published_at_iso": "2026-10-30T00:07:17+0100"
+  "published_at": "October 30, 2026 · 12:22 AM CET",
+  "published_at_iso": "2026-10-30T00:22:36+0100"
 }
