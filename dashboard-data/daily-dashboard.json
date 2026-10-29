@@ -200,7 +200,7 @@
       "id": "SIG-442",
       "title": "PHASE THE GTM…",
       "description": "Added 2026-09-02 (attended, Wolf's instruction, twice in one message). ⚠️ CHECKED BEFORE CREATING, per rule 1 — 43 open tasks already touch waitlist/GTM/distribution and the SIG-426→SIG-433 spine covers most of what Wolf described. This row is NOT a parallel programme and creates no duplicate scope. The genuine gap, stated precisely: the GTM chain has no PHASE axis. SIG-428 (acquisition model), SIG-429 (organic content engine) and SIG-431 (ambassador list) are each written as one undifferentiated go-to-market. A keyword scan of all five spine tasks finds phase words in only one of them. But t…",
-      "description_chars": 5774,
+      "description_chars": 6435,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -368,7 +368,7 @@
       "id": "SIG-645",
       "title": "Join confirmation email…",
       "description": "Created 28 Oct 2026, attended (go-live tests). The email a person gets after joining (\"One click to lock in your early access\") is still the June template in lib/resend.ts: no logo, \"the feed you control\" as its main line, and \"One email when your Signal is ready\", which is no longer true now that invitations and thank-yous exist. It is not among the 15 approved form emails (Decision 251, 05_Marketing/Working/email_2026-10-19/hubspot/), so it was never redesigned. Claude drafts it in the same style as the approved set; Wolf approves the words; Claude ships it to the repo. Before the public an…",
-      "description_chars": 1176,
+      "description_chars": 2090,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
@@ -29258,6 +29258,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 29, 2026 · 1:43 AM CET",
-  "published_at_iso": "2026-10-29T01:43:12+0100"
+  "published_at": "October 29, 2026 · 9:28 AM CET",
+  "published_at_iso": "2026-10-29T09:28:23+0100"
 }
