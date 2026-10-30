@@ -5072,6 +5072,34 @@
       "first_seen": "2026-10-30"
     },
     {
+      "id": "SIG-726",
+      "title": "Review every topic's keep-outs and propose a pre-selected set for each…",
+      "description": "Created 30 Oct 2026 01:08, attended — Wolf: \"we'll need to review all the keepouts by topic, just to see if there are some that we suggest for each… all people need to do is click to unselect them. We can have suggestions for each.\" Scope: all 19 topics in the onboarding (KEEPOUT_REGISTER in _Inbox/SIGNAL WAITLIST ONBOARDING 8-17-26 V8/Signal Waitlist Responsive.dc.html) and Taxonomy v1.4 §6. Global blocks (BLANKET_ON) and the seven always-protected items stay as they are. Claude's starting recommendation, for Wolf to rule per topic: pre-select noise generously; offer subjects unticked unless…",
+      "description_chars": 847,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~1.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-10-30"
+    },
+    {
       "id": "CAP-0029",
       "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
@@ -10537,34 +10565,6 @@
       "first_seen": "2026-10-29"
     },
     {
-      "id": "SIG-725",
-      "title": "Re-word 7 of the 25 Hard-NOs in the MAXX Signal Design System so they match later rulings (badges, red, glows, the syst…",
-      "description": "Created 30 Oct 2026, attended — Wolf: \"Let me know if there's anything I need to review.\" The July Hard-NOs list (design system README and guidelines/brand-hard-nos.card.html) conflicts with later canon on items 2 (badges, locked SIG-230), 5 and 6 (FOMO/urgency: only offer-FOMO banned, Brand AP-4 v1.5.5), 7 (red: onboarding keep-out chips, website harm side), 9 (glows: three approved onboarding glows), 19 (villain imagery: Brand §1.1.4 makes the system the villain; AP-10 bans villainising companies/people), 20 (exclamation marks: AP-9 in-product only). Proposed wording in the 30 Oct chat; Wol…",
-      "description_chars": 701,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~20m",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-10-30"
-    },
-    {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
       "title": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with i…",
       "description": "A one-off cloud diagnostic routine that was spent two weeks ago is still switched on in the scheduler, with its next fire parked at 2027-01-01. The routine is trig_019Wuy5iWcJJzoSxHDj1oaDU, Wolf's *\"can a cloud routine reach the Mac?\"* probe, created and fired 2026-08-26; surfaced at MC-CLOUDSHIFT-2026-09-09 (2026-09-09, attended, cloud, session 7DMVKQTQ4B) and now recorded under the new _pending_one_offs key in _index/STATUS_SNAPSHOTS/_cloud_lanes.json. The probe is itself the portfolio's one recorded instance of the failure it was built to detect: the scheduler records it SUCCEEDED — fired…",
@@ -14820,34 +14820,6 @@
       "owner": "Wolf + Claude",
       "kind": "cfi",
       "first_seen": null
-    },
-    {
-      "id": "SIG-723",
-      "title": "⚠️ DEFECT…",
-      "description": "Created 30 Oct 2026, attended (SIG-628 review). Found by checking the Claude Design chats against the live file. Signal Waitlist Responsive.dc.html line 2607 has const DEFAULT_SKIP — one or two whole topics pre-skipped per channel (News: Politics, Foreign wars; Feel-good: Faith & religion; Sports: Fantasy & betting; …). Claude Design seeded them on 23 Jul 17:07 to make screen 16's pills visible and no one removed them. Contradicts Decision 42 (\"all offered / OFF\" — filter the form, not the subject) and Wolf's \"all off by default\". Fix: empty DEFAULT_SKIP in the working copy (and in whatever t…",
-      "description_chars": 1449,
-      "status": "s-waiting",
-      "priority": "p-p1",
-      "segment": "Design",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "~15m",
-      "effort_wolf": "~10m (elapsed)",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "waiting",
-      "owner": "Claude+Wolf",
-      "executor": "ATHENA",
-      "executor_list": [
-        "ATHENA"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "joint-owner",
-      "department": "Design",
-      "kind": "tasks",
-      "first_seen": "2026-10-30"
     },
     {
       "id": "CAP-0060",
@@ -26744,6 +26716,34 @@
       "first_seen": "2026-10-15"
     },
     {
+      "id": "SIG-723",
+      "title": "⚠️ DEFECT…",
+      "description": "Created 30 Oct 2026, attended (SIG-628 review). Found by checking the Claude Design chats against the live file. Signal Waitlist Responsive.dc.html line 2607 has const DEFAULT_SKIP — one or two whole topics pre-skipped per channel (News: Politics, Foreign wars; Feel-good: Faith & religion; Sports: Fantasy & betting; …). Claude Design seeded them on 23 Jul 17:07 to make screen 16's pills visible and no one removed them. Contradicts Decision 42 (\"all offered / OFF\" — filter the form, not the subject) and Wolf's \"all off by default\". Fix: empty DEFAULT_SKIP in the working copy (and in whatever t…",
+      "description_chars": 1694,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~15m",
+      "effort_wolf": "~10m (elapsed)",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "ATHENA",
+      "executor_list": [
+        "ATHENA"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "joint-owner",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-10-30"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -29446,6 +29446,34 @@
       "first_seen": "2026-10-16"
     },
     {
+      "id": "SIG-725",
+      "title": "Re-word 7 of the 25 Hard-NOs in the MAXX Signal Design System so they match later rulings (badges, red, glows, the syst…",
+      "description": "Created 30 Oct 2026, attended — Wolf: \"Let me know if there's anything I need to review.\" The July Hard-NOs list (design system README and guidelines/brand-hard-nos.card.html) conflicts with later canon on items 2 (badges, locked SIG-230), 5 and 6 (FOMO/urgency: only offer-FOMO banned, Brand AP-4 v1.5.5), 7 (red: onboarding keep-out chips, website harm side), 9 (glows: three approved onboarding glows), 19 (villain imagery: Brand §1.1.4 makes the system the villain; AP-10 bans villainising companies/people), 20 (exclamation marks: AP-9 in-product only). Proposed wording in the 30 Oct chat; Wol…",
+      "description_chars": 1008,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Design",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "~20m",
+      "effort_wolf": "~10m (elapsed)",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Design",
+      "kind": "tasks",
+      "first_seen": "2026-10-30"
+    },
+    {
       "id": "CF-OPENERS-SPENT-NOT-ARCHIVED-1",
       "title": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE…",
       "description": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE — measured, then repaired. Was Cancelled on 2026-08-07 as merged into CF-CONF-OPENERS-UNCOUNTABLE-1; the merge target's own count was wrong, so the residue was never actually addressed — §5.4.1 item 7, *a merge onto a blocked target is parked with extra steps*, visible here in miniature. Enumerated 2026-08-11: 31 opener-named files at the top level of _MAXX_OS/Working/. 29 moved to Working/openers-archive/ (28 → 57 files), per §5.8 *\"new openers go to Working/; spent ones go to Working/openers-archive/.\"* Two deliberately left: MC-LAUNCHD-LANE…",
@@ -29684,6 +29712,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 30, 2026 · 12:22 AM CET",
-  "published_at_iso": "2026-10-30T00:22:36+0100"
+  "published_at": "October 30, 2026 · 1:23 AM CET",
+  "published_at_iso": "2026-10-30T01:23:10+0100"
 }
