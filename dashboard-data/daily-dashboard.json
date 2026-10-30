@@ -1429,7 +1429,7 @@
       "id": "MOS-T-080",
       "title": "Finish the Zernio go-live after Signal's profiles chat…",
       "description": "Session QRM02E7VMW ran the Zernio security check: passed with conditions (_MAXX_OS/Capabilities/third-party-security-audit/AUDIT_ZERNIO-MCP_2026-10-29.md). Wolf ruled 2026-10-29 20:36 that Zernio connects inside Signal's day-one profiles chat (SIG-626), not in Mission Control; the click path and conditions went to SIGNAL/_Inbox/FROM-MC_zernio-security-check_2026-10-29.md. Trigger: Signal's closeout for the profiles chat exists and reports the permission screen, the tool list and the per-post fields. Done means: audit file updated to GREEN (or REJECT), the fields written into MOS-CONTENT-ENGIN…",
-      "description_chars": 767,
+      "description_chars": 922,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Social",
@@ -7399,6 +7399,40 @@
       "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-09-15"
+    },
+    {
+      "id": "MOS-T-081",
+      "title": "Shared number allocator for Signal's parallel chats…",
+      "description": "Approved by Wolf 2026-10-30 attended (D-MC-2026-10-29-3CD3DW8QPS-06). Why: Signal's parallel chats double-numbered decisions and tasks for nine weeks; per-chat number blocks fixed decisions but task numbers still collided once (weekly synthesis 2026-10-18 W7). Mission Control's computed-token scheme does not fit Signal's sequential numbers. Build: a small script with a lock file and a \"claim the next N\" call for Signal's decision and task numbers, ~30 min; Signal adopts it once it exists. Done when: two simulated parallel claims get disjoint numbers in a test, and Signal's instructions point…",
+      "description_chars": 834,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Substrate",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos",
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "S",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Wolf",
+      "department": "Operations",
+      "prov": null,
+      "review": "r-none",
+      "review_label": null,
+      "kind": "tasks",
+      "first_seen": "2026-10-30"
     },
     {
       "id": "SIG-034",
@@ -26691,7 +26725,7 @@
       "id": "SIG-628",
       "title": "Move Signal's Claude Design work before standalone Claude Design closes on 14 Dec 2026…",
       "description": "Created 18 Oct 2026 ~21:30, from the Mission Control hand-off _Inbox/MC-TO-SIGNAL_HANDOFF_2026-10-18_sig-623-audit-inputs-and-two-one-word-calls.md (weekly synthesis W2), verified the same evening against https://support.claude.com/en/articles/17440474. Standalone Claude Design closes 14 Dec 2026; after that claude.ai/design opens Claude, and new designs, design systems and decks are artifacts. Before then: ① migrate the design system(s) from the Artifacts page (one migration brings all; fix and re-run any that fail); ② export each Signal project (Share → Project HTML → keep Project archive →…",
-      "description_chars": 4448,
+      "description_chars": 4807,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Design",
@@ -29712,6 +29746,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 30, 2026 · 1:38 AM CET",
-  "published_at_iso": "2026-10-30T01:38:29+0100"
+  "published_at": "October 30, 2026 · 1:53 AM CET",
+  "published_at_iso": "2026-10-30T01:53:47+0100"
 }
