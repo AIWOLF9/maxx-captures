@@ -1460,6 +1460,39 @@
       "first_seen": "2026-10-29"
     },
     {
+      "id": "MOS-T-082",
+      "title": "Closeout gate: any Mission Control chat that edits MOS_TASKS.md runs the canonical-views verify before it closes",
+      "description": "Approved by Wolf 2026-10-30 attended (D-MC-2026-10-29-3CD3DW8QPS-10). Why: three MC chats in a row (27, 28, 29 Oct) edited the task list and closed without running render_canonical_state.py --verify; each time the next morning's views render went DRIFT on the paired-row check (Linked cells holding notes or two IDs). Build: one line in the closeout procedure's state audit (_index/cowork-satellites/SATELLITE-CLOSEOUT-PROTOCOL.md §5.2 or §5.5): if _index/MOS_TASKS.md changed this chat, run MAXX_NO_HEARTBEAT=1 python3 _MAXX_OS/Capabilities/dashboard-publisher/render_canonical_state.py --maxx-root…",
+      "description_chars": 786,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Substrate",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "XS",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": null,
+      "review": "r-none",
+      "review_label": null,
+      "kind": "tasks",
+      "first_seen": "2026-10-30"
+    },
+    {
       "id": "SIG-040",
       "title": "Design handoff specs (tokens, states, breakpoints)",
       "description": "Translate locked mockups into Claude-Code-ready handoff: tokens, component props, interaction states, responsive breakpoints, edge cases. [2026-08-31 — P1 → P0, attended (organizational pass, SIG-373/SIG-378). Wolf ruled all five raises together on one rationale: ranked against downstream weight rather than in isolation. 107 open tasks sit behind this row — more than most rows currently carrying P0. Source: the SIG-374 Part-C disagreement set authored 2026-08-12, which named exactly seven disagreements and went unread for 19 days; all seven were verified unchanged before this ruling. ⚠️ A rai…",
@@ -29746,6 +29779,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 30, 2026 · 2:24 AM CET",
-  "published_at_iso": "2026-10-30T02:24:10+0100"
+  "published_at": "October 30, 2026 · 3:09 AM CET",
+  "published_at_iso": "2026-10-30T03:09:42+0100"
 }
