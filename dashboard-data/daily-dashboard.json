@@ -536,7 +536,7 @@
       "id": "SIG-654",
       "title": "Comprehensive outreach database…",
       "description": "Created 29 Oct 2026 ~17:45 Zagreb, attended (go-to-market chat 2, Wolf: \"yes on scoring and building comprehensive database for all\"). Checked before creating: SIG-634 built the 26 Oct 350-row list; SIG-635 is outreach at scale; neither covers a re-scored, multi-source, every-platform database. Method ruled 29 Oct: four scores 0–5, weighted — Voice on the issue 30%, Credibility 25%, Reach and name recognition 25%, Fit with Signal 20%; grade A ≥80, B 65–79, C 50–64, D below; reachability and risks are separate notes that set the route, not the grade. Sources: the 26 Oct list; named authors and…",
-      "description_chars": 2272,
+      "description_chars": 3577,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
@@ -29746,6 +29746,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 30, 2026 · 1:53 AM CET",
-  "published_at_iso": "2026-10-30T01:53:47+0100"
+  "published_at": "October 30, 2026 · 2:24 AM CET",
+  "published_at_iso": "2026-10-30T02:24:10+0100"
 }
