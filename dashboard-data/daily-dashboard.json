@@ -59,8 +59,8 @@
     {
       "id": "SIG-050",
       "title": "Stand up Claude Code build harness (repo, env, workflow, guardrails)",
-      "description": "Set up the engineering execution environment for Claude Code: repo, branch/PR workflow, environments, secrets, test/CI guardrails. (Reframed: build is Claude Code, not a human hire.) ▶ 28 Oct 2026, board clean-up (SIG-644, Wolf approved): Depends on: no longer waits on design hand-off specs (SIG-040); repo set-up does not need finished designs. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Build.",
-      "description_chars": 411,
+      "description": "Set up the engineering execution environment for Claude Code: repo, branch/PR workflow, environments, secrets, test/CI guardrails. (Reframed: build is Claude Code, not a human hire.) ▶ 28 Oct 2026, board clean-up (SIG-644, Wolf approved): Depends on: no longer waits on design hand-off specs (SIG-040); repo set-up does not need finished designs. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Build. ▶ 1 Nov 2026, attended — explained to Wolf in plain words; he asked whether it is later. It is the set-up of the place the app's code lives and is built and tested (code repository, test…",
+      "description_chars": 813,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Build",
@@ -88,7 +88,7 @@
       "id": "SIG-324",
       "title": "Publish compliant maxxsignal.com activation page",
       "description": "BLOCKS SIG-049 — this is the gate on all revenue. Stripe will not activate an account whose site is a placeholder; requires business name, description of goods/services, customer-service contact, refund + dispute policy, cancellation policy, reachable without password. Live site is currently a waitlist capture and fails every requirement but the name. NOT the full SIG-204 marketing site — a compliance surface, reusable as /terms /pricing /refunds later. Draft from locked canon at _Working/SIG-049_maxxsignal-activation-page_DRAFT_2026-08-05.html.  [⚠️ RULING APPLIED 2026-08-20 (Wolf, attended,…",
-      "description_chars": 9861,
+      "description_chars": 10532,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -4883,8 +4883,8 @@
     {
       "id": "SIG-655",
       "title": "Start LinkedIn Sales Navigator for the advisor outreach wave",
-      "description": "Created 29 Oct 2026, attended (Decision 263 ④, Wolf: \"YES ON PLAN\"). LinkedIn's own product, so it is within LinkedIn's rules: lead lists, alerts and messages to people you are not connected with. About $120 a month, usually with a free first month — confirm the price and trial on the sign-up page. Spends money, so Wolf signs up himself. Start when the first advisor notes go out (week of 2 Nov). Claude then drafts 15–20 personal notes a day for Wolf to send.",
-      "description_chars": 462,
+      "description": "Created 29 Oct 2026, attended (Decision 263 ④, Wolf: \"YES ON PLAN\"). LinkedIn's own product, so it is within LinkedIn's rules: lead lists, alerts and messages to people you are not connected with. About $120 a month, usually with a free first month — confirm the price and trial on the sign-up page. Spends money, so Wolf signs up himself. Start when the first advisor notes go out (week of 2 Nov). Claude then drafts 15–20 personal notes a day for Wolf to send. ▶ 1 Nov 2026, attended — held for the go-to-market discussion (Wolf). Wolf wants to understand what Sales Navigator is for before signin…",
+      "description_chars": 677,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "GTM",
@@ -5024,7 +5024,7 @@
       "id": "SIG-724",
       "title": "Onboarding spec v1.7 → v1.8…",
       "description": "Created 30 Oct 2026, attended (SIG-628 review). The list, grouped and sourced: _Working/SIG-628_CD-REVIEW_2026-10-29/SIG-628_CLAUDE-DESIGN-EXPORT-REVIEW_2026-10-30.md §3. Main items: the Building and screen-00 brain-lotus animation rules (incl. the SVG style-stripping workaround), scroll reset, pinned button on phone, tablet/desktop layout patterns and breakpoints, whole-row tap, archetype pre-selected on purpose, the compare pop-up (no Ads row, why), final-screen wording + gold line, 02b bullets, Always-protected strip, consent error text, cyan accents. Also mark Decision 49's share-button d…",
-      "description_chars": 818,
+      "description_chars": 1154,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -29779,6 +29779,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 1, 2026 · 6:59 PM CET",
-  "published_at_iso": "2026-11-01T18:59:18+0100"
+  "published_at": "November 1, 2026 · 7:14 PM CET",
+  "published_at_iso": "2026-11-01T19:14:37+0100"
 }
