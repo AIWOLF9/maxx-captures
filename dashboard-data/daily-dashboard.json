@@ -2196,7 +2196,7 @@
       "id": "SIG-247",
       "title": "\"Connect YouTube\"…",
       "description": "Added 2026-07-11 (SIG-229, Wolf). Elevate the locked Settings→Connected accounts (#23) into a real feature: OAuth-connect YouTube → import subscriptions (→ follow those creators in Signal) + user-created playlists (→ Saved / channel seeds). VERIFIED (Data API v3): subscriptions.list?mine=true ✅ · playlists.list?mine=true user-created ✅ · liked videos = restricted/unreliable ⚠️ · watch history + watch later = deprecated ~2016, NOT available ❌. Kills the #1 switch-back reason (\"don't miss anything\"). Placement: Settings Connected accounts + onboarding import step + optional rail entry under YOU…",
-      "description_chars": 1477,
+      "description_chars": 2057,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -3540,7 +3540,7 @@
       "id": "SIG-419",
       "title": "Receipts pack…",
       "description": "Added 2026-08-27 (attended stand-up). Four claims came out of the founder session, all wanted, none printable yet. (1) The aggregate fines figure — *\"tens and tens of billions\"* across all platforms; $18bn (Meta) is verified, the total is not. (2) A fast-food chain's admission of downgraded ingredients. (3) Chocolate makers substituting ingredients. (4) Doctors appearing in cigarette advertising, 1940s–60s — documented, needs only its citation attached. Plus the standing correction from Decision 82: *\"Meta lost the case\"* and *\"fraud\"* are both unsupportable — Meta settled, and the California…",
-      "description_chars": 2361,
+      "description_chars": 3257,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -29779,6 +29779,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "October 31, 2026 · 9:19 AM CET",
-  "published_at_iso": "2026-10-31T09:19:01+0100"
+  "published_at": "November 1, 2026 · 9:26 AM CET",
+  "published_at_iso": "2026-11-01T09:26:15+0100"
 }
