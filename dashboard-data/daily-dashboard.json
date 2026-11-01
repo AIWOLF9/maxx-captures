@@ -88,7 +88,7 @@
       "id": "SIG-324",
       "title": "Publish compliant maxxsignal.com activation page",
       "description": "BLOCKS SIG-049 — this is the gate on all revenue. Stripe will not activate an account whose site is a placeholder; requires business name, description of goods/services, customer-service contact, refund + dispute policy, cancellation policy, reachable without password. Live site is currently a waitlist capture and fails every requirement but the name. NOT the full SIG-204 marketing site — a compliance surface, reusable as /terms /pricing /refunds later. Draft from locked canon at _Working/SIG-049_maxxsignal-activation-page_DRAFT_2026-08-05.html.  [⚠️ RULING APPLIED 2026-08-20 (Wolf, attended,…",
-      "description_chars": 8391,
+      "description_chars": 9861,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -536,7 +536,7 @@
       "id": "SIG-654",
       "title": "Comprehensive outreach database…",
       "description": "Created 29 Oct 2026 ~17:45 Zagreb, attended (go-to-market chat 2, Wolf: \"yes on scoring and building comprehensive database for all\"). Checked before creating: SIG-634 built the 26 Oct 350-row list; SIG-635 is outreach at scale; neither covers a re-scored, multi-source, every-platform database. Method ruled 29 Oct: four scores 0–5, weighted — Voice on the issue 30%, Credibility 25%, Reach and name recognition 25%, Fit with Signal 20%; grade A ≥80, B 65–79, C 50–64, D below; reachability and risks are separate notes that set the route, not the grade. Sources: the 26 Oct list; named authors and…",
-      "description_chars": 3577,
+      "description_chars": 3987,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
@@ -592,7 +592,7 @@
       "id": "SIG-659",
       "title": "Positioning and messaging chat…",
       "description": "Created 29 Oct 2026 ~18:40, attended. Wolf: \"we'll need a separate chat to discuss proper positioning and messaging for the different audiences and our go-to-market.\" Inputs: the 23 Oct research pack §1–2 (positioning options, avatars), Decision 264 ① (the live homepage already leads 'Your YouTube. Free from the algorithm's poison.'), the movement launch chat (SIG-658). Order per Brand §1.0.2: positioning → messaging → the arc → approval → drafts. Output feeds SIG-651 (message library at every length), SIG-626 (day-one profiles) and SIG-646 (tools). ▶ 29 Oct 2026 (Decision 265 ⑥): the tool st…",
-      "description_chars": 1983,
+      "description_chars": 2145,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "GTM",
@@ -3512,7 +3512,7 @@
       "id": "SIG-409",
       "title": "Founding-member cap removal never propagated…",
       "description": "Added 2026-08-25 (unattended stand-up; anti-slip rule — a draft in _Working/ is not tracking). Pricing §0.4 removed the first-1,000 founding cap, the real-time counter and the \"N spots remaining\" display. The removal never reached the bodies. 54 live locations survive: Pricing v1.4.2 (33), PRD v1.6 (18), Mandate v1.4 (3) — including a Cloud Function endpoint /api/pricing/founding-counter, a Firestore seed capLimit: 1000, a 15-min scheduled hard-cap job, 950/1000 SMS+email alerts, a 410 Gone route, a telemetry field, an admin progress-bar card, a launch-day runbook and a pre-launch checklist r…",
-      "description_chars": 5103,
+      "description_chars": 5412,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -3540,7 +3540,7 @@
       "id": "SIG-419",
       "title": "Receipts pack…",
       "description": "Added 2026-08-27 (attended stand-up). Four claims came out of the founder session, all wanted, none printable yet. (1) The aggregate fines figure — *\"tens and tens of billions\"* across all platforms; $18bn (Meta) is verified, the total is not. (2) A fast-food chain's admission of downgraded ingredients. (3) Chocolate makers substituting ingredients. (4) Doctors appearing in cigarette advertising, 1940s–60s — documented, needs only its citation attached. Plus the standing correction from Decision 82: *\"Meta lost the case\"* and *\"fraud\"* are both unsupportable — Meta settled, and the California…",
-      "description_chars": 3257,
+      "description_chars": 3552,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -11168,7 +11168,7 @@
       "id": "SIG-075",
       "title": "Content automation / SEO engine stand-up",
       "description": "Operationalize the Claude Content Automation Master Plan v1.0 (blog/SEO pipeline). Post-launch-leaning. ▶ 18 Oct 2026 ~21:05, attended (stand-up and audit chat): Wolf asked for an SEO strategy and tools. Scheduled as the Blog and search chat, Thu 22 – Fri 23 Oct, so the Blog's first cornerstone articles are chosen by real search demand (August keyword data on disk; the Ahrefs connector now appears in sessions, plan limits to check). Depends on SIG-067 is stale (website overtaken); recommendation awaiting Wolf: clear it. ▶ 18 Oct 2026 ~21:00, attended (closeout of the stand-up and audit chat;…",
-      "description_chars": 865,
+      "description_chars": 963,
       "status": "s-todo",
       "priority": "p-p3",
       "segment": "Content",
@@ -11182,11 +11182,11 @@
       "created": null,
       "zone": "open",
       "owner": "Claude+Wolf",
-      "executor": "HERMES",
+      "executor": "Wolf",
       "executor_list": [
-        "HERMES"
+        "Wolf"
       ],
-      "autonomy": "Auto",
+      "autonomy": "Wolf",
       "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
@@ -26786,7 +26786,7 @@
       "id": "SIG-723",
       "title": "⚠️ DEFECT…",
       "description": "Created 30 Oct 2026, attended (SIG-628 review). Found by checking the Claude Design chats against the live file. Signal Waitlist Responsive.dc.html line 2607 has const DEFAULT_SKIP — one or two whole topics pre-skipped per channel (News: Politics, Foreign wars; Feel-good: Faith & religion; Sports: Fantasy & betting; …). Claude Design seeded them on 23 Jul 17:07 to make screen 16's pills visible and no one removed them. Contradicts Decision 42 (\"all offered / OFF\" — filter the form, not the subject) and Wolf's \"all off by default\". Fix: empty DEFAULT_SKIP in the working copy (and in whatever t…",
-      "description_chars": 1694,
+      "description_chars": 1792,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Design",
@@ -26804,8 +26804,8 @@
       "executor_list": [
         "ATHENA"
       ],
-      "autonomy": "Batch",
-      "autonomy_reason": "joint-owner",
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
       "department": "Design",
       "kind": "tasks",
       "first_seen": "2026-10-30"
@@ -29779,6 +29779,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 1, 2026 · 9:26 AM CET",
-  "published_at_iso": "2026-11-01T09:26:15+0100"
+  "published_at": "November 1, 2026 · 6:59 PM CET",
+  "published_at_iso": "2026-11-01T18:59:18+0100"
 }
