@@ -3512,7 +3512,7 @@
       "id": "SIG-409",
       "title": "Founding-member cap removal never propagated…",
       "description": "Added 2026-08-25 (unattended stand-up; anti-slip rule — a draft in _Working/ is not tracking). Pricing §0.4 removed the first-1,000 founding cap, the real-time counter and the \"N spots remaining\" display. The removal never reached the bodies. 54 live locations survive: Pricing v1.4.2 (33), PRD v1.6 (18), Mandate v1.4 (3) — including a Cloud Function endpoint /api/pricing/founding-counter, a Firestore seed capLimit: 1000, a 15-min scheduled hard-cap job, 950/1000 SMS+email alerts, a 410 Gone route, a telemetry field, an admin progress-bar card, a launch-day runbook and a pre-launch checklist r…",
-      "description_chars": 5412,
+      "description_chars": 6030,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -29779,6 +29779,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 2, 2026 · 1:32 AM CET",
-  "published_at_iso": "2026-11-02T01:32:02+0100"
+  "published_at": "November 2, 2026 · 9:34 AM CET",
+  "published_at_iso": "2026-11-02T09:34:32+0100"
 }
