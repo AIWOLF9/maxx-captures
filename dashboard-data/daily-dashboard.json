@@ -4912,7 +4912,7 @@
       "id": "SIG-657",
       "title": "Where we post: the comprehensive list…",
       "description": "Created 29 Oct 2026 ~18:20, attended (Wolf: \"We need to do a little research on Reddit, Substack, Facebook groups, all that, and Product Hunt. We'll have a comprehensive list of where to post. Agreed.\"). Builds on the 23 Oct research pack §4 (nine own accounts; communities participate-only; BetaList now; Product Hunt and Hacker News saved for the January beta). Per destination: audience size, topic fit, self-promotion rules, ban risk, who posts (Wolf manual for Reddit and Facebook groups), and the first post idea. Output feeds SIG-442 (waitlist campaign) and SIG-626 (day-one profiles). ▶ 3 No…",
-      "description_chars": 1813,
+      "description_chars": 2522,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "GTM",
@@ -29779,6 +29779,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 4, 2026 · 9:13 AM CET",
-  "published_at_iso": "2026-11-04T09:13:54+0100"
+  "published_at": "November 5, 2026 · 9:20 AM CET",
+  "published_at_iso": "2026-11-05T09:20:59+0100"
 }
