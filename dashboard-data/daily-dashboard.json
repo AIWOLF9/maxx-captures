@@ -423,8 +423,8 @@
     {
       "id": "SIG-651",
       "title": "Message library…",
-      "description": "Created 29 Oct 2026, attended (Decision 261, GTM 30,000-foot chat). The shared machine had no task for the messages themselves. Claude drafts the per-segment ladder from the settled spine; Wolf edits; drafts feed HubSpot templates and sequences. ▶ 29 Oct 2026: Autonomy changed from the invalid value \"Claude\" to Batch; Wolf 29 Oct (attended stand-up): yes, Claude drafts and Wolf approves.",
-      "description_chars": 390,
+      "description": "Created 29 Oct 2026, attended (Decision 261, GTM 30,000-foot chat). The shared machine had no task for the messages themselves. Claude drafts the per-segment ladder from the settled spine; Wolf edits; drafts feed HubSpot templates and sequences. ▶ 29 Oct 2026: Autonomy changed from the invalid value \"Claude\" to Batch; Wolf 29 Oct (attended stand-up): yes, Claude drafts and Wolf approves. ▶ 7 Nov 2026 (Decision 291): the source for the message library now exists — the power-lines library v0.1 (05_Marketing/Working/positioning_2026-10-29/SIGNAL_POWER-LINES-LIBRARY_v0_1_2026-10-30.json, 477 line…",
+      "description_chars": 705,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -592,7 +592,7 @@
       "id": "SIG-659",
       "title": "Positioning and messaging chat…",
       "description": "Created 29 Oct 2026 ~18:40, attended. Wolf: \"we'll need a separate chat to discuss proper positioning and messaging for the different audiences and our go-to-market.\" Inputs: the 23 Oct research pack §1–2 (positioning options, avatars), Decision 264 ① (the live homepage already leads 'Your YouTube. Free from the algorithm's poison.'), the movement launch chat (SIG-658). Order per Brand §1.0.2: positioning → messaging → the arc → approval → drafts. Output feeds SIG-651 (message library at every length), SIG-626 (day-one profiles) and SIG-646 (tools). ▶ 29 Oct 2026 (Decision 265 ⑥): the tool st…",
-      "description_chars": 2145,
+      "description_chars": 2541,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "GTM",
@@ -29779,6 +29779,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 6, 2026 · 9:27 AM CET",
-  "published_at_iso": "2026-11-06T09:27:56+0100"
+  "published_at": "November 7, 2026 · 12:17 AM CET",
+  "published_at_iso": "2026-11-07T00:17:31+0100"
 }
