@@ -589,34 +589,6 @@
       "first_seen": "2026-10-29"
     },
     {
-      "id": "SIG-659",
-      "title": "Positioning and messaging chat…",
-      "description": "Created 29 Oct 2026 ~18:40, attended. Wolf: \"we'll need a separate chat to discuss proper positioning and messaging for the different audiences and our go-to-market.\" Inputs: the 23 Oct research pack §1–2 (positioning options, avatars), Decision 264 ① (the live homepage already leads 'Your YouTube. Free from the algorithm's poison.'), the movement launch chat (SIG-658). Order per Brand §1.0.2: positioning → messaging → the arc → approval → drafts. Output feeds SIG-651 (message library at every length), SIG-626 (day-one profiles) and SIG-646 (tools). ▶ 29 Oct 2026 (Decision 265 ⑥): the tool st…",
-      "description_chars": 2541,
-      "status": "s-doing",
-      "priority": "p-p0",
-      "segment": "GTM",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "1.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "Wolf",
-      "executor_list": [
-        "Wolf"
-      ],
-      "autonomy": "Wolf",
-      "autonomy_reason": "venture-declared",
-      "department": "Marketing",
-      "kind": "tasks",
-      "first_seen": "2026-10-29"
-    },
-    {
       "id": "SIG-722",
       "title": "Wolf's go…",
       "description": "Created 29 Oct 2026 ~21:40, attended (Decision 290 ③). Wolf, 29 Oct: stealth holds until he says go, expected within about a week. Until then nothing is scheduled to any account, and the checklist fails any post from his personal accounts that promotes Signal. Decision 258 ① planned the announcement for Mon 2 Nov; it now happens on this go. One word from Wolf; Claude flips this task and records the date. ▶ 29 Oct 2026 ~21:30, Wolf (attended, Decision 290 addendum): no date. Mon 2 Nov is not a target or a deadline: \"we'll play it by ear based upon what we've got accomplished and what things ne…",
@@ -647,9 +619,9 @@
     {
       "id": "SIG-727",
       "title": "Message arcs for every audience…",
-      "description": "Created 7 Nov 2026 ~01:30, attended (Decision 291 addendum ④). Wolf: \"I would want you to build out all the arcs for all the audiences. Start with three for each… then I can tweak it.\" Where: Messages tab of claude.ai/artifact/NfN24KfR83E15dmo6Pmqyx; Wolf's edits save to the page's store (arcEdits). Done when Wolf has marked every arc keep, rework or cut and the kept arcs are in the message library (SIG-651).",
-      "description_chars": 412,
-      "status": "s-doing",
+      "description": "Created 7 Nov 2026 ~01:30, attended (Decision 291 addendum ④). Wolf: \"I would want you to build out all the arcs for all the audiences. Start with three for each… then I can tweak it.\" Where: Messages tab of claude.ai/artifact/NfN24KfR83E15dmo6Pmqyx; Wolf's edits save to the page's store (arcEdits). Done when Wolf has marked every arc keep, rework or cut and the kept arcs are in the message library (SIG-651). ▶ 7 Nov 2026 21:04 — Wolf marked all 18 arcs keep, with edits (page store arcEdits). Left: fix the grammar slips listed in the closeout and fold the arcs into the message library (SIG-65…",
+      "description_chars": 659,
+      "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
       "venture": "v-signal",
@@ -21219,6 +21191,34 @@
       "first_seen": "2026-10-18"
     },
     {
+      "id": "SIG-659",
+      "title": "Positioning and messaging chat…",
+      "description": "Created 29 Oct 2026 ~18:40, attended. Wolf: \"we'll need a separate chat to discuss proper positioning and messaging for the different audiences and our go-to-market.\" Inputs: the 23 Oct research pack §1–2 (positioning options, avatars), Decision 264 ① (the live homepage already leads 'Your YouTube. Free from the algorithm's poison.'), the movement launch chat (SIG-658). Order per Brand §1.0.2: positioning → messaging → the arc → approval → drafts. Output feeds SIG-651 (message library at every length), SIG-626 (day-one profiles) and SIG-646 (tools). ▶ 29 Oct 2026 (Decision 265 ⑥): the tool st…",
+      "description_chars": 3085,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-10-29"
+    },
+    {
       "id": "CF-SIGNAL-INC-FORMED-1",
       "title": "MAXX Signal Inc…",
       "description": "MAXX Signal Inc. is now officially formed as a Florida C Corporation, and the 15,000,000 authorised-share count was confirmed with the registered agent before the filing was submitted. Wolf confirmed both in the Mission Control stand-up of 2026-09-09. This closes the one item from MC-ENTITY-SETUP-2026-09-04 that carried a closing window — confirming the share count was free before submission and would have cost a fee plus delay afterwards. It had been recorded under 'what Wolf does next' and never reached a register, which is why it went five days without a status; that routing gap is the sam…",
@@ -29835,6 +29835,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 7, 2026 · 9:20 AM CET",
-  "published_at_iso": "2026-11-07T09:20:46+0100"
+  "published_at": "November 7, 2026 · 9:09 PM CET",
+  "published_at_iso": "2026-11-07T21:09:16+0100"
 }
