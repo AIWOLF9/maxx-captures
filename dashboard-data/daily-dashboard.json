@@ -645,6 +645,34 @@
       "first_seen": "2026-10-29"
     },
     {
+      "id": "SIG-727",
+      "title": "Message arcs for every audience…",
+      "description": "Created 7 Nov 2026 ~01:30, attended (Decision 291 addendum ④). Wolf: \"I would want you to build out all the arcs for all the audiences. Start with three for each… then I can tweak it.\" Where: Messages tab of claude.ai/artifact/NfN24KfR83E15dmo6Pmqyx; Wolf's edits save to the page's store (arcEdits). Done when Wolf has marked every arc keep, rework or cut and the kept arcs are in the message library (SIG-651).",
+      "description_chars": 412,
+      "status": "s-doing",
+      "priority": "p-p0",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-11-07"
+    },
+    {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
       "title": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked i…",
       "description": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked is a *defect*, not a bonus — and that rule exists nowhere in the rulebook. Originated MC-ENTITY-SETUP-2026-09-04 (2026-09-04, attended, session VP7M4GYP0Y), filed there as decision candidate D-MC-2026-09-04-VP7M4GYP0Y-01, and never ratified, never routed and never written to any register — homeless for five days until this row. Wolf, attended, verbatim: *\"Please don't get us off the path with minutia details about affiliate commissions or commissions or blended rates. That has nothing t…",
@@ -5075,6 +5103,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-10-30"
+    },
+    {
+      "id": "SIG-728",
+      "title": "Brand increment…",
+      "description": "Created 7 Nov 2026, attended (Decision 291 and its addendum). A ruling lands in three places: the Decisions Log and the board have it; Brand, the document copy is written from, does not yet. Three-step replacement (archive, write, purge).",
+      "description_chars": 238,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Brand",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "45m",
+      "effort_wolf": "0",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "named-owner",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-11-07"
     },
     {
       "id": "CAP-0029",
@@ -29779,6 +29835,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 7, 2026 · 12:17 AM CET",
-  "published_at_iso": "2026-11-07T00:17:31+0100"
+  "published_at": "November 7, 2026 · 1:33 AM CET",
+  "published_at_iso": "2026-11-07T01:33:07+0100"
 }
