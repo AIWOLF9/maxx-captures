@@ -368,7 +368,7 @@
       "id": "SIG-645",
       "title": "Join confirmation email…",
       "description": "Created 28 Oct 2026, attended (go-live tests). The email a person gets after joining (\"One click to lock in your early access\") is still the June template in lib/resend.ts: no logo, \"the feed you control\" as its main line, and \"One email when your Signal is ready\", which is no longer true now that invitations and thank-yous exist. It is not among the 15 approved form emails (Decision 251, 05_Marketing/Working/email_2026-10-19/hubspot/), so it was never redesigned. Claude drafts it in the same style as the approved set; Wolf approves the words; Claude ships it to the repo. Before the public an…",
-      "description_chars": 5521,
+      "description_chars": 5584,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
@@ -508,7 +508,7 @@
       "id": "SIG-653",
       "title": "Email preferences link unsubscribes people instantly…",
       "description": "Created 29 Oct 2026, attended stand-up — Wolf found it. In the invitation reminder sent by the site (from hello@mail.maxxsignal.com via Resend), the footer link Email preferences goes to the same /api/unsubscribe address as Unsubscribe, and opening it unsubscribes at once (\"You're unsubscribed\"). Wolf clicked it only to see his preferences and was unsubscribed (his test address vivoveritas+invitetest@gmail.com; harmless). Two defects: (1) a link labelled preferences that unsubscribes; (2) unsubscribing on a plain page visit, with no button, so a company email link-scanner can unsubscribe peop…",
-      "description_chars": 1950,
+      "description_chars": 2051,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Build",
@@ -592,7 +592,7 @@
       "id": "SIG-722",
       "title": "Wolf's go…",
       "description": "Created 29 Oct 2026 ~21:40, attended (Decision 290 ③). Wolf, 29 Oct: stealth holds until he says go, expected within about a week. Until then nothing is scheduled to any account, and the checklist fails any post from his personal accounts that promotes Signal. Decision 258 ① planned the announcement for Mon 2 Nov; it now happens on this go. One word from Wolf; Claude flips this task and records the date. ▶ 29 Oct 2026 ~21:30, Wolf (attended, Decision 290 addendum): no date. Mon 2 Nov is not a target or a deadline: \"we'll play it by ear based upon what we've got accomplished and what things ne…",
-      "description_chars": 1171,
+      "description_chars": 1448,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
@@ -4021,8 +4021,8 @@
     {
       "id": "SIG-641",
       "title": "Investor and corporate paperwork for the friends-and-family raise…",
-      "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: nothing on the board covered the raise paperwork itself (SIG-310 is the vehicle and CPA question; SIG-453 is the certified Articles). Wolf drops the Caringo investor documents and his corporate documents into _Inbox/; Claude maps what each is for, what must change for MAXX Signal Inc. (a Florida C-corp), and what a lawyer must review before anything is signed or sent. Claude drafts; a lawyer signs off. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Fundraising; Department moved to 07 FINANC…",
-      "description_chars": 634,
+      "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: nothing on the board covered the raise paperwork itself (SIG-310 is the vehicle and CPA question; SIG-453 is the certified Articles). Wolf drops the Care Angel investor documents and his corporate documents into _Inbox/; Claude maps what each is for, what must change for MAXX Signal Inc. (a Florida C-corp), and what a lawyer must review before anything is signed or sent. Claude drafts; a lawyer signs off. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Fundraising; Department moved to 07 FIN…",
+      "description_chars": 637,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Finance",
@@ -5002,7 +5002,7 @@
       "id": "SIG-660",
       "title": "Set up the content tool stack…",
       "description": "Created 29 Oct 2026 ~20:30, attended (Decision 265 ⑤). From Mission Control's stack decision _index/_shared/MOS-CONTENT-ENGINE-STACK-0001.md. Wolf's part: sign in to Zernio and connect each social account himself (Claude never enters passwords); a yes on each spend item — Apify Starter $19/mo now; Zernio accounts 3–10 (~$48/mo) after the trial period; OpusClip ~$29/mo only when founder filming starts. Claude's part: add the Zernio connector (mcp.zernio.com/mcp), check the real analytics fields returned for TikTok, Reels, Shorts and LinkedIn in week one, set the UTM convention on Bitly links,…",
-      "description_chars": 1717,
+      "description_chars": 1860,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "GTM",
@@ -29925,6 +29925,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 10, 2026 · 6:20 PM CET",
-  "published_at_iso": "2026-11-10T18:20:34+0100"
+  "published_at": "November 10, 2026 · 6:35 PM CET",
+  "published_at_iso": "2026-11-10T18:35:54+0100"
 }
