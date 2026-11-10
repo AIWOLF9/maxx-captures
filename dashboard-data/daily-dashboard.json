@@ -1493,6 +1493,40 @@
       "first_seen": "2026-10-30"
     },
     {
+      "id": "MOS-T-083",
+      "title": "Relay each night's Signal research into Signal's own folder automatically, and count what Signal never cited",
+      "description": "Approved by Wolf 2026-11-10 attended (D-MC-2026-11-10-YF36BBKQYG-03; synthesis 2026-11-08 N5 option A). Why: the overnight job files Signal findings (TIER2-FINDING_*SIG-*) only under _MAXX_OS/Research/nightly-batch/, outside Signal's reach; 24 since 19 Oct, none cited on Signal's board, and Signal redid the SIG-657 sizing without the overnight correction. Done by hand today: all 25 copied to SIGNAL/_Inbox/overnight-findings_2026-10-19_to_2026-11-10/ with an index README. Build: extend the Mac-side pull (github-mirror/maxx-mirror-pull-findings.sh, additive-only) or the manifest mirror so each…",
+      "description_chars": 987,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Substrate",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos",
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "S",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "department": "Operations",
+      "prov": null,
+      "review": "r-none",
+      "review_label": null,
+      "kind": "tasks",
+      "first_seen": "2026-11-10"
+    },
+    {
       "id": "SIG-040",
       "title": "Design handoff specs (tokens, states, breakpoints)",
       "description": "Translate locked mockups into Claude-Code-ready handoff: tokens, component props, interaction states, responsive breakpoints, edge cases. [2026-08-31 — P1 → P0, attended (organizational pass, SIG-373/SIG-378). Wolf ruled all five raises together on one rationale: ranked against downstream weight rather than in isolation. 107 open tasks sit behind this row — more than most rows currently carrying P0. Source: the SIG-374 Part-C disagreement set authored 2026-08-12, which named exactly seven disagreements and went unread for 19 days; all seven were verified unchanged before this ruling. ⚠️ A rai…",
@@ -29863,6 +29897,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 10, 2026 · 9:27 AM CET",
-  "published_at_iso": "2026-11-10T09:27:28+0100"
+  "published_at": "November 10, 2026 · 4:34 PM CET",
+  "published_at_iso": "2026-11-10T16:34:12+0100"
 }
