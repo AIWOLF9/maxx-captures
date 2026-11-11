@@ -674,7 +674,7 @@
     },
     {
       "id": "SIG-731",
-      "title": "Interactive financial model tool (now v0.16)…",
+      "title": "Interactive financial model tool (now v0.17)…",
       "description": "Created 11 Nov 2026 (finance chat, attended). Built from v0.11: raise & ownership, team & expenses by department (roster with start/end months, fractional people, org chart), payroll load, income tax + net income, affiliate commission paid as customers pay + early-window rule, mobile-app & app-store fees, monthly P&L/EBITDA/cash table, monthly expenses & headcount by department, auto-save so Claude can read settings. Live: claude.ai/artifact/7SeriQoTDnVQy2uXHL4eMc (working model \"MAXX Signal — main model\"). File copy: 07_Finance/Draft/MAXX_Signal_Model_Tool_v0_12_2026-11-10.html. Done when Wo…",
       "description_chars": 1679,
       "status": "s-doing",
@@ -760,7 +760,7 @@
       "id": "SIG-744",
       "title": "Stress-test the financial model before the Excel…",
       "description": "Created 11 Nov 2026 19:17, attended (finance session 3). Wolf: \"check all the numbers, all of our inputs and assumptions… push back on anything that you think is way off… especially during the first 6 months to a year\", plus TAM/SAM/SOM, the mass-market opportunity, what each avenue can capture, and whether a very profitable lean company can pay distributions to investors (with examples). Starting list of suspected big misses is in the opener _Working/OPENER_FINANCE-STRESS-TEST_2026-11-11.md. Output: one Docs artifact + tool sensitivity runs; Wolf then rules, the tool is tweaked, and only the…",
-      "description_chars": 2092,
+      "description_chars": 2311,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Finance",
@@ -5331,6 +5331,34 @@
       "autonomy": "Auto",
       "autonomy_reason": "venture-declared",
       "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-11"
+    },
+    {
+      "id": "SIG-745",
+      "title": "Ambassador recruiting strategy session…",
+      "description": "Created 11 Nov 2026 20:51, attended (finance chat 4). Wolf: \"we're just going to have an ambassador army that we need to recruit. We'll talk about a strategy session regarding recruiting ambassadors separately.\" Inputs: tool v0.17 \"What this plan requires\" panel (Expected Year 1 = 22,217 affiliate payers; 100 ambassadors ≈ 222 each a year, 18.5 a month), the ambassador program spec (SIG-236), prospect list (SIG-737), affiliate rulings (SIG-733). No published benchmark for referrals per affiliate found 11 Nov — the session should set a working assumption and a recruiting target by month.",
+      "description_chars": 593,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-11-11"
     },
@@ -30317,6 +30345,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 11, 2026 · 8:46 PM CET",
-  "published_at_iso": "2026-11-11T20:46:56+0100"
+  "published_at": "November 11, 2026 · 9:02 PM CET",
+  "published_at_iso": "2026-11-11T21:02:15+0100"
 }
