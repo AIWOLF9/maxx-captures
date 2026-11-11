@@ -648,7 +648,7 @@
       "id": "SIG-730",
       "title": "Cap table…",
       "description": "Created 10 Nov 2026, attended (Wolf listed it among the equity chats). Checked before creating: no task held a cap table (grep cap table, 10 Nov: only SIG-627 mentions stock options). Claude builds the cap table from the company's real share facts (Wolf supplies authorised and issued shares and holders), then models the round: the $1M at $6M from SIG-381, the advisor option pool from SIG-627, and the instrument chosen in SIG-641 (a SAFE converts later, priced stock dilutes now). ⚠️ The deck says $6M PRE-money; Y Combinator's current SAFE uses a POST-money cap, and the two give different dilut…",
-      "description_chars": 755,
+      "description_chars": 1276,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -30205,6 +30205,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 11, 2026 · 9:26 AM CET",
-  "published_at_iso": "2026-11-11T09:26:06+0100"
+  "published_at": "November 11, 2026 · 5:58 PM CET",
+  "published_at_iso": "2026-11-11T17:58:47+0100"
 }
