@@ -695,7 +695,7 @@
         "PLUTUS"
       ],
       "autonomy": "Batch",
-      "autonomy_reason": "joint-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-11-11"
@@ -723,7 +723,7 @@
         "PLUTUS"
       ],
       "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-11-11"
@@ -751,7 +751,7 @@
         "PLUTUS"
       ],
       "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-11-11"
@@ -5273,7 +5273,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-11-11"
@@ -5337,8 +5337,8 @@
     {
       "id": "SIG-736",
       "title": "Write \"How engineering works at MAXX Signal\"…",
-      "description": "One page: AI full-stack engineer on retainer + bursts; Wolf owns every account; protected main branch, reviewed changes, secrets in a vault; Claude Code under our Team plan; contract clauses. Becomes the core of the agency contract.",
-      "description_chars": 232,
+      "description": "One page: AI full-stack engineer on retainer + bursts; Wolf owns every account; protected main branch, reviewed changes, secrets in a vault; Claude Code under our Team plan; contract clauses. Becomes the core of the agency contract. ▶ 11 Nov 2026, unattended stand-up — draft written. 04_Build/Draft/SIG-736_HOW-ENGINEERING-WORKS_DRAFT_2026-11-11.md (one page: who does what, who owns what, how a change is made, keys, environments, what to ask an agency to quote). Flags the architecture §2.1 staging trigger (2+ engineers). Stays To-do until Wolf reads it (his 15 minutes), then Claude flips it Do…",
+      "description_chars": 689,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Build",
@@ -5356,8 +5356,8 @@
       "executor_list": [
         "VULCAN"
       ],
-      "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-11-11"
@@ -5385,7 +5385,7 @@
         "PLUTUS"
       ],
       "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-11-11"
@@ -10912,7 +10912,7 @@
         "HERMES"
       ],
       "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-11-11"
@@ -14945,7 +14945,7 @@
         "PLUTUS"
       ],
       "autonomy": "Auto",
-      "autonomy_reason": "named-owner",
+      "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-11-11"
@@ -30205,6 +30205,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 11, 2026 · 5:09 AM CET",
-  "published_at_iso": "2026-11-11T05:09:35+0100"
+  "published_at": "November 11, 2026 · 9:26 AM CET",
+  "published_at_iso": "2026-11-11T09:26:06+0100"
 }
