@@ -757,34 +757,6 @@
       "first_seen": "2026-11-11"
     },
     {
-      "id": "SIG-742",
-      "title": "Decide the raise timing: when tranche 2 ($300K at $5M) lands, and whether tranche 3 ($500K) gets a fixed valuation now…",
-      "description": "Created 11 Nov 2026, attended. Wolf: rolling close of $1M in three tranches — $200K at $3M for launch (90-day close), $300K at $5M for growth, $500K \"north of $5M, say $9M\" to accelerate; \"raise the money in the first 90 days or so\"; valuation to rise with growth. Claude's recommendation: tranches 1–2 inside the 90 days (tranche 2 ~month 3); tranche 3 priced on growth when it opens, not fixed at $9M now ($3M→$9M inside 90 days is a hard sell). Also open: post-money (tool default, SAFE standard) vs pre-money. The tool has tranche 2 at month 6 and tranche 3 at month 12 as placeholders. Feeds th…",
-      "description_chars": 621,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Finance",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "0.25h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Wolf",
-      "executor": "PLUTUS",
-      "executor_list": [
-        "PLUTUS"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Finance",
-      "kind": "tasks",
-      "first_seen": "2026-11-11"
-    },
-    {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
       "title": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked i…",
       "description": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked is a *defect*, not a bonus — and that rule exists nowhere in the rulebook. Originated MC-ENTITY-SETUP-2026-09-04 (2026-09-04, attended, session VP7M4GYP0Y), filed there as decision candidate D-MC-2026-09-04-VP7M4GYP0Y-01, and never ratified, never routed and never written to any register — homeless for five days until this row. Wolf, attended, verbatim: *\"Please don't get us off the path with minutia details about affiliate commissions or commissions or blended rates. That has nothing t…",
@@ -10948,9 +10920,9 @@
     {
       "id": "SIG-743",
       "title": "Make brand marketing the creator / UGC budget that grows with revenue, and stop the fixed UGC line after Year 1",
-      "description": "Created 11 Nov 2026, attended. Wolf asked whether the brand dollars pay UGC partners whose views bring sign-ups. Today: brand marketing = 2% of revenue (~$37K Y1 → ~$1.5M Y5), a general bucket; UGC & clipping is a separate fixed roster line ($2K/mo months 6–12, $5K/mo from 13); UGC sign-ups land in the organic share — the model does not tie spend to sign-ups. Claude recommends: 2% brand line becomes the creator/UGC budget; fixed UGC line ends at month 12. Awaiting Wolf's yes; then Claude edits his roster in the tool.",
-      "description_chars": 522,
-      "status": "s-todo",
+      "description": "Created 11 Nov 2026, attended. Wolf asked whether the brand dollars pay UGC partners whose views bring sign-ups. Today: brand marketing = 2% of revenue (~$37K Y1 → ~$1.5M Y5), a general bucket; UGC & clipping is a separate fixed roster line ($2K/mo months 6–12, $5K/mo from 13); UGC sign-ups land in the organic share — the model does not tie spend to sign-ups. Claude recommends: 2% brand line becomes the creator/UGC budget; fixed UGC line ends at month 12. Awaiting Wolf's yes; then Claude edits his roster in the tool. 11 Nov session 3: Wolf said YES, with a change — keep a raise-funded UGC bud…",
+      "description_chars": 852,
+      "status": "s-doing",
       "priority": "p-p2",
       "segment": "Finance",
       "venture": "v-signal",
@@ -21617,6 +21589,34 @@
       "first_seen": "2026-10-29"
     },
     {
+      "id": "SIG-742",
+      "title": "Decide the raise timing: when tranche 2 ($300K at $5M) lands, and whether tranche 3 ($500K) gets a fixed valuation now…",
+      "description": "Created 11 Nov 2026, attended. Wolf: rolling close of $1M in three tranches — $200K at $3M for launch (90-day close), $300K at $5M for growth, $500K \"north of $5M, say $9M\" to accelerate; \"raise the money in the first 90 days or so\"; valuation to rise with growth. Claude's recommendation: tranches 1–2 inside the 90 days (tranche 2 ~month 3); tranche 3 priced on growth when it opens, not fixed at $9M now ($3M→$9M inside 90 days is a hard sell). Also open: post-money (tool default, SAFE standard) vs pre-money. The tool has tranche 2 at month 6 and tranche 3 at month 12 as placeholders. Feeds th…",
+      "description_chars": 908,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Wolf",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-11"
+    },
+    {
       "id": "CF-SIGNAL-INC-FORMED-1",
       "title": "MAXX Signal Inc…",
       "description": "MAXX Signal Inc. is now officially formed as a Florida C Corporation, and the 15,000,000 authorised-share count was confirmed with the registered agent before the filing was submitted. Wolf confirmed both in the Mission Control stand-up of 2026-09-09. This closes the one item from MC-ENTITY-SETUP-2026-09-04 that carried a closing window — confirming the share count was free before submission and would have cost a fee plus delay afterwards. It had been recorded under 'what Wolf does next' and never reached a register, which is why it went five days without a status; that routing gap is the sam…",
@@ -30289,6 +30289,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 11, 2026 · 6:14 PM CET",
-  "published_at_iso": "2026-11-11T18:14:05+0100"
+  "published_at": "November 11, 2026 · 6:29 PM CET",
+  "published_at_iso": "2026-11-11T18:29:24+0100"
 }
