@@ -674,9 +674,9 @@
     },
     {
       "id": "SIG-731",
-      "title": "Interactive financial model tool (now v0.13)…",
+      "title": "Interactive financial model tool (now v0.14)…",
       "description": "Created 11 Nov 2026 (finance chat, attended). Built from v0.11: raise & ownership, team & expenses by department (roster with start/end months, fractional people, org chart), payroll load, income tax + net income, affiliate commission paid as customers pay + early-window rule, mobile-app & app-store fees, monthly P&L/EBITDA/cash table, monthly expenses & headcount by department, auto-save so Claude can read settings. Live: claude.ai/artifact/7SeriQoTDnVQy2uXHL4eMc (working model \"MAXX Signal — main model\"). File copy: 07_Finance/Draft/MAXX_Signal_Model_Tool_v0_12_2026-11-10.html. Done when Wo…",
-      "description_chars": 1039,
+      "description_chars": 1406,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Finance",
@@ -10914,34 +10914,6 @@
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Engineering",
-      "kind": "tasks",
-      "first_seen": "2026-11-11"
-    },
-    {
-      "id": "SIG-743",
-      "title": "Make brand marketing the creator / UGC budget that grows with revenue, and stop the fixed UGC line after Year 1",
-      "description": "Created 11 Nov 2026, attended. Wolf asked whether the brand dollars pay UGC partners whose views bring sign-ups. Today: brand marketing = 2% of revenue (~$37K Y1 → ~$1.5M Y5), a general bucket; UGC & clipping is a separate fixed roster line ($2K/mo months 6–12, $5K/mo from 13); UGC sign-ups land in the organic share — the model does not tie spend to sign-ups. Claude recommends: 2% brand line becomes the creator/UGC budget; fixed UGC line ends at month 12. Awaiting Wolf's yes; then Claude edits his roster in the tool. 11 Nov session 3: Wolf said YES, with a change — keep a raise-funded UGC bud…",
-      "description_chars": 852,
-      "status": "s-doing",
-      "priority": "p-p2",
-      "segment": "Finance",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "0.25h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "PLUTUS",
-      "executor_list": [
-        "PLUTUS"
-      ],
-      "autonomy": "Auto",
-      "autonomy_reason": "venture-declared",
-      "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-11-11"
     },
@@ -30051,6 +30023,34 @@
       "first_seen": "2026-10-30"
     },
     {
+      "id": "SIG-743",
+      "title": "Make brand marketing the creator / UGC budget that grows with revenue, and stop the fixed UGC line after Year 1",
+      "description": "Created 11 Nov 2026, attended. Wolf asked whether the brand dollars pay UGC partners whose views bring sign-ups. Today: brand marketing = 2% of revenue (~$37K Y1 → ~$1.5M Y5), a general bucket; UGC & clipping is a separate fixed roster line ($2K/mo months 6–12, $5K/mo from 13); UGC sign-ups land in the organic share — the model does not tie spend to sign-ups. Claude recommends: 2% brand line becomes the creator/UGC budget; fixed UGC line ends at month 12. Awaiting Wolf's yes; then Claude edits his roster in the tool. 11 Nov session 3: Wolf said YES, with a change — keep a raise-funded UGC bud…",
+      "description_chars": 1290,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "0.25h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-11"
+    },
+    {
       "id": "CF-OPENERS-SPENT-NOT-ARCHIVED-1",
       "title": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE…",
       "description": "[2026-08-11 MC-STANDUP-2026-08-11, attended] DONE — measured, then repaired. Was Cancelled on 2026-08-07 as merged into CF-CONF-OPENERS-UNCOUNTABLE-1; the merge target's own count was wrong, so the residue was never actually addressed — §5.4.1 item 7, *a merge onto a blocked target is parked with extra steps*, visible here in miniature. Enumerated 2026-08-11: 31 opener-named files at the top level of _MAXX_OS/Working/. 29 moved to Working/openers-archive/ (28 → 57 files), per §5.8 *\"new openers go to Working/; spent ones go to Working/openers-archive/.\"* Two deliberately left: MC-LAUNCHD-LANE…",
@@ -30289,6 +30289,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 11, 2026 · 6:29 PM CET",
-  "published_at_iso": "2026-11-11T18:29:24+0100"
+  "published_at": "November 11, 2026 · 6:44 PM CET",
+  "published_at_iso": "2026-11-11T18:44:41+0100"
 }
