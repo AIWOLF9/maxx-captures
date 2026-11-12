@@ -5030,7 +5030,7 @@
       "id": "SIG-629",
       "title": "Social accounts follow-ups…",
       "description": "Created 20 Oct 2026 ~07:40 UTC by the unattended daily stand-up (conversion rule: the follow-ups were written only as prose inside the closed social-handles task, SIG-379). Three small account follow-ups after Wolf claimed all 13 handles on 19 Oct: (1) turn on two-factor sign-in for the wolf@maxxsignal.com Google account, which protects every account opened with \"Sign in with Google\"; (2) set the Facebook Page username to maxxsignal so the page reads facebook.com/maxxsignal; (3) confirm the LinkedIn company page address (assumed linkedin.com/company/maxxsignal). Source: 05_Marketing/Final/SIG…",
-      "description_chars": 1159,
+      "description_chars": 1431,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -30457,6 +30457,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 12, 2026 · 3:54 AM CET",
-  "published_at_iso": "2026-11-12T03:54:30+0100"
+  "published_at": "November 12, 2026 · 4:09 AM CET",
+  "published_at_iso": "2026-11-12T04:09:43+0100"
 }
