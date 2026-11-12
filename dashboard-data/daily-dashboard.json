@@ -760,7 +760,7 @@
       "id": "SIG-744",
       "title": "Stress-test the financial model before the Excel…",
       "description": "Created 11 Nov 2026 19:17, attended (finance session 3). Wolf: \"check all the numbers, all of our inputs and assumptions… push back on anything that you think is way off… especially during the first 6 months to a year\", plus TAM/SAM/SOM, the mass-market opportunity, what each avenue can capture, and whether a very profitable lean company can pay distributions to investors (with examples). Starting list of suspected big misses is in the opener _Working/OPENER_FINANCE-STRESS-TEST_2026-11-11.md. Output: one Docs artifact + tool sensitivity runs; Wolf then rules, the tool is tweaked, and only the…",
-      "description_chars": 3249,
+      "description_chars": 3657,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Finance",
@@ -10972,6 +10972,34 @@
       "department": "Engineering",
       "kind": "tasks",
       "first_seen": "2026-11-11"
+    },
+    {
+      "id": "SIG-746",
+      "title": "Model tool: a place for actuals…",
+      "description": "Created 12 Nov 2026 01:24, attended (finance chat 5). Wolf: the tool will be used to plan, execute and manage operations — \"a place to put actuals\" so projections improve as real data arrives. Not now; after launch. Checked before creating: no task held actuals (grep \"plan vs actual\" / \"actuals\" in SIGNAL_TASKS.md, 12 Nov: none).",
+      "description_chars": 331,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": "3-0",
+      "deadline_label": "Phase Future",
+      "deadline_class": "d-future",
+      "effort_mc": "4h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-12"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -30345,6 +30373,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 12, 2026 · 1:22 AM CET",
-  "published_at_iso": "2026-11-12T01:22:41+0100"
+  "published_at": "November 12, 2026 · 1:37 AM CET",
+  "published_at_iso": "2026-11-12T01:37:54+0100"
 }
