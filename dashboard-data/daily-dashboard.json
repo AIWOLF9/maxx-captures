@@ -816,8 +816,8 @@
       "id": "SIG-750",
       "title": "Founder employment (consulting) agreement for Wolf…",
       "description": "Created 12 Nov 2026 21:50, attended (finance chat 7). Checked before creating: no task held an employment or consulting agreement (grep 'employment agreement' / 'consulting agreement', 12 Nov). Wolf: the Shared Earnings SAFE refers to a founder employment agreement that sets his pay; it must be done before fundraising. Model: his executed Wolf Ventures LLC consulting agreement of 17 Jun 2014 (07_Finance/Reference/raise-templates/, scanned PDF — needs reading as images). Terms so far: salary $9,000 a month Year 1, $12,000 a month Year 2, then $150K / $180K / $200K a year (Wolf confirmed 12 Nov…",
-      "description_chars": 807,
-      "status": "s-todo",
+      "description_chars": 1383,
+      "status": "s-doing",
       "priority": "p-p0",
       "segment": "Finance",
       "venture": "v-signal",
@@ -4162,7 +4162,7 @@
       "id": "SIG-641",
       "title": "Investor and corporate paperwork for the friends-and-family raise…",
       "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: nothing on the board covered the raise paperwork itself (SIG-310 is the vehicle and CPA question; SIG-453 is the certified Articles). Wolf drops the Care Angel investor documents and his corporate documents into _Inbox/; Claude maps what each is for, what must change for MAXX Signal Inc. (a Florida C-corp), and what a lawyer must review before anything is signed or sent. Claude drafts; a lawyer signs off. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Fundraising; Department moved to 07 FIN…",
-      "description_chars": 2451,
+      "description_chars": 2898,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Finance",
@@ -30485,6 +30485,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 12, 2026 · 10:05 PM CET",
-  "published_at_iso": "2026-11-12T22:05:14+0100"
+  "published_at": "November 12, 2026 · 10:20 PM CET",
+  "published_at_iso": "2026-11-12T22:20:27+0100"
 }
