@@ -172,7 +172,7 @@
       "id": "SIG-384",
       "title": "Reconcile the three Year-1 revenue figures before the investor deck circulates",
       "description": "Added 2026-08-13 in SIG-381 (surfaced by the SIG-380 verification pass). Three different Year-1 numbers are on file and none is reconciled: $0.3M gross / 9.9K paying / 100K members (Financial Model One-Pager v1.0), $30-50K revenue / 10-50K MAU (MVP Plan §19 SOM), and $50-150K ARR target (MVP Plan §19 revenue projection — a second figure inside the same section). An investor will find this. Related but separate: the market build gives ~$30M Y5 central ARR while the financial model reaches $48.4M — also unreconciled, also now disclosed on the deck rather than hidden. Also stale in the One-Pager…",
-      "description_chars": 1066,
+      "description_chars": 1624,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -30457,6 +30457,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 12, 2026 · 4:09 AM CET",
-  "published_at_iso": "2026-11-12T04:09:43+0100"
+  "published_at": "November 12, 2026 · 9:27 AM CET",
+  "published_at_iso": "2026-11-12T09:27:49+0100"
 }
