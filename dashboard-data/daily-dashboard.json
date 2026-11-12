@@ -648,7 +648,7 @@
       "id": "SIG-730",
       "title": "Cap table…",
       "description": "Created 10 Nov 2026, attended (Wolf listed it among the equity chats). Checked before creating: no task held a cap table (grep cap table, 10 Nov: only SIG-627 mentions stock options). Claude builds the cap table from the company's real share facts (Wolf supplies authorised and issued shares and holders), then models the round: the $1M at $6M from SIG-381, the advisor option pool from SIG-627, and the instrument chosen in SIG-641 (a SAFE converts later, priced stock dilutes now). ⚠️ The deck says $6M PRE-money; Y Combinator's current SAFE uses a POST-money cap, and the two give different dilut…",
-      "description_chars": 1557,
+      "description_chars": 1752,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -760,7 +760,7 @@
       "id": "SIG-744",
       "title": "Stress-test the financial model before the Excel…",
       "description": "Created 11 Nov 2026 19:17, attended (finance session 3). Wolf: \"check all the numbers, all of our inputs and assumptions… push back on anything that you think is way off… especially during the first 6 months to a year\", plus TAM/SAM/SOM, the mass-market opportunity, what each avenue can capture, and whether a very profitable lean company can pay distributions to investors (with examples). Starting list of suspected big misses is in the opener _Working/OPENER_FINANCE-STRESS-TEST_2026-11-11.md. Output: one Docs artifact + tool sensitivity runs; Wolf then rules, the tool is tweaked, and only the…",
-      "description_chars": 4807,
+      "description_chars": 5400,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Finance",
@@ -4134,7 +4134,7 @@
       "id": "SIG-641",
       "title": "Investor and corporate paperwork for the friends-and-family raise…",
       "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: nothing on the board covered the raise paperwork itself (SIG-310 is the vehicle and CPA question; SIG-453 is the certified Articles). Wolf drops the Care Angel investor documents and his corporate documents into _Inbox/; Claude maps what each is for, what must change for MAXX Signal Inc. (a Florida C-corp), and what a lawyer must review before anything is signed or sent. Claude drafts; a lawyer signs off. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Fundraising; Department moved to 07 FIN…",
-      "description_chars": 637,
+      "description_chars": 1060,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Finance",
@@ -30457,6 +30457,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 12, 2026 · 9:27 AM CET",
-  "published_at_iso": "2026-11-12T09:27:49+0100"
+  "published_at": "November 12, 2026 · 8:49 PM CET",
+  "published_at_iso": "2026-11-12T20:49:20+0100"
 }
