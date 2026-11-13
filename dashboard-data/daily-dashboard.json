@@ -32,7 +32,7 @@
       "id": "SIG-049",
       "title": "Lemon Squeezy account + products + checkout/portal + webhooks",
       "description": "Stand up merchant-of-record. RE-SCOPED 2026-08-05 (SIG-049 review): was S/0.5h — that priced the clicking only. Real chain = publishable maxxsignal.com (SIG-324) + published legal pages (SIG-325) + Stripe Connect KYC with a 2-3 business-day external review + hand-built products (API cannot create products/variants). \"4 products\" is STALE — the SIG-322 deposit must be a subscription product; reconcile the count when SIG-322 locks. Full runbook: 09_Operations/Final/checklists/MAXX_Signal_Payments_Activation_Runbook_v1_0.md; procedure restored at Pre-Build Checklist v1.1 §4A. [2026-09-11 — ⛔ DO…",
-      "description_chars": 4227,
+      "description_chars": 4838,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -5310,7 +5310,7 @@
       "id": "SIG-729",
       "title": "Receipts check…",
       "description": "Created 7 Nov 2026, attended stand-up (conversion rule: the positioning closeout named five receipts and no task held them; checked the board first, no task carried them). Before any of these reaches a page or a post, find the primary source or retire the line: ① the verdict wording behind 'Courts and juries found social media platforms addictive and harmful' (a settlement is not a verdict, Decision 82); ② the $270 Meta valuation figure; ③ the Tristan Harris 'Crazy Town' quote; ④ the Tim Kendall quote; ⑤ '3 in 4 teens daily'. Source: _Transcripts/closeouts/CLOSEOUT_2026-11-07_POSITIONING-AND-…",
-      "description_chars": 2850,
+      "description_chars": 3333,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -30485,6 +30485,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 13, 2026 · 2:53 AM CET",
-  "published_at_iso": "2026-11-13T02:53:33+0100"
+  "published_at": "November 13, 2026 · 9:27 AM CET",
+  "published_at_iso": "2026-11-13T09:27:16+0100"
 }
