@@ -172,7 +172,7 @@
       "id": "SIG-384",
       "title": "Reconcile the three Year-1 revenue figures before the investor deck circulates",
       "description": "Added 2026-08-13 in SIG-381 (surfaced by the SIG-380 verification pass). Three different Year-1 numbers are on file and none is reconciled: $0.3M gross / 9.9K paying / 100K members (Financial Model One-Pager v1.0), $30-50K revenue / 10-50K MAU (MVP Plan §19 SOM), and $50-150K ARR target (MVP Plan §19 revenue projection — a second figure inside the same section). An investor will find this. Related but separate: the market build gives ~$30M Y5 central ARR while the financial model reaches $48.4M — also unreconciled, also now disclosed on the deck rather than hidden. Also stale in the One-Pager…",
-      "description_chars": 1624,
+      "description_chars": 2013,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -760,7 +760,7 @@
       "id": "SIG-744",
       "title": "Stress-test the financial model before the Excel…",
       "description": "Created 11 Nov 2026 19:17, attended (finance session 3). Wolf: \"check all the numbers, all of our inputs and assumptions… push back on anything that you think is way off… especially during the first 6 months to a year\", plus TAM/SAM/SOM, the mass-market opportunity, what each avenue can capture, and whether a very profitable lean company can pay distributions to investors (with examples). Starting list of suspected big misses is in the opener _Working/OPENER_FINANCE-STRESS-TEST_2026-11-11.md. Output: one Docs artifact + tool sensitivity runs; Wolf then rules, the tool is tweaked, and only the…",
-      "description_chars": 5897,
+      "description_chars": 7097,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Finance",
@@ -30485,6 +30485,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 13, 2026 · 6:17 PM CET",
-  "published_at_iso": "2026-11-13T18:17:17+0100"
+  "published_at": "November 13, 2026 · 6:32 PM CET",
+  "published_at_iso": "2026-11-13T18:32:31+0100"
 }
