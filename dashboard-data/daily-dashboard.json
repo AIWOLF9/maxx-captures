@@ -648,7 +648,7 @@
       "id": "SIG-730",
       "title": "Cap table…",
       "description": "Created 10 Nov 2026, attended (Wolf listed it among the equity chats). Checked before creating: no task held a cap table (grep cap table, 10 Nov: only SIG-627 mentions stock options). Claude builds the cap table from the company's real share facts (Wolf supplies authorised and issued shares and holders), then models the round: the $1M at $6M from SIG-381, the advisor option pool from SIG-627, and the instrument chosen in SIG-641 (a SAFE converts later, priced stock dilutes now). ⚠️ The deck says $6M PRE-money; Y Combinator's current SAFE uses a POST-money cap, and the two give different dilut…",
-      "description_chars": 2127,
+      "description_chars": 2536,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -5338,7 +5338,7 @@
       "id": "SIG-752",
       "title": "Corporate documents gap review…",
       "description": "Created 13 Nov 2026 22:41, attended (finance chat 12). Wolf: review the corporate documents he has now (template formation documents from the incorporation), compare them with all the Care Angel documents he had before, find what is missing that we may need to create, and update or tweak what he has. Order he set: after the cap table (SIG-730), the advisory agreement (SIG-627) and the investor presentation (SIG-381) — this chat or the next. Checked before creating: SIG-641 covers the raise paperwork (investor documents, now approved v2), SIG-453 the certified Articles; neither holds a formati…",
-      "description_chars": 1407,
+      "description_chars": 2270,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Legal",
@@ -30541,6 +30541,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 13, 2026 · 10:50 PM CET",
-  "published_at_iso": "2026-11-13T22:50:26+0100"
+  "published_at": "November 14, 2026 · 12:36 AM CET",
+  "published_at_iso": "2026-11-14T00:36:32+0100"
 }
