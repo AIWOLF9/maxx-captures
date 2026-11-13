@@ -480,7 +480,7 @@
       "id": "SIG-627",
       "title": "Advisory board…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Wolf 17 Oct: *\"getting some advisors on board and partners… doing some research to invite certain people to get on our advisory board and putting together an advisory agreement. I think I have an example or two that would just provide them with some stock options to be an advisor.\"* ① Claude: a researched shortlist by need (digital wellbeing and youth-media research, creator economy and YouTube, schools and parent groups, consumer subscription growth, fundraising), with why each and a route to reach them; ② Wolf drops his example agr…",
-      "description_chars": 2470,
+      "description_chars": 2821,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -673,34 +673,6 @@
       "first_seen": "2026-11-10"
     },
     {
-      "id": "SIG-731",
-      "title": "Interactive financial model tool (now v0.23)…",
-      "description": "Created 11 Nov 2026 (finance chat, attended). Built from v0.11: raise & ownership, team & expenses by department (roster with start/end months, fractional people, org chart), payroll load, income tax + net income, affiliate commission paid as customers pay + early-window rule, mobile-app & app-store fees, monthly P&L/EBITDA/cash table, monthly expenses & headcount by department, auto-save so Claude can read settings. Live: claude.ai/artifact/7SeriQoTDnVQy2uXHL4eMc (working model \"MAXX Signal — main model\"). File copy: 07_Finance/Draft/MAXX_Signal_Model_Tool_v0_12_2026-11-10.html. Done when Wo…",
-      "description_chars": 5414,
-      "status": "s-doing",
-      "priority": "p-p0",
-      "segment": "Finance",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "6h",
-      "effort_wolf": "3h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "PLUTUS",
-      "executor_list": [
-        "PLUTUS"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Finance",
-      "kind": "tasks",
-      "first_seen": "2026-11-11"
-    },
-    {
       "id": "SIG-732",
       "title": "Update the Excel model to match tool v0.12…",
       "description": "Archive v2.1 first (Three-Step). Assumptions tab drives a 60-month formula engine; add tabs: Team & Expenses by department, Raise & Ownership, monthly P&L/cash; fix the hard-coded OpEx row; tie totals to the tool to the dollar. Then One-Pager + Reader's Guide. 11 Nov session 3: now waits on the stress test (SIG-744) and Wolf's rulings on it; build against tool v0.14 settings as they stand after those rulings. 12 Nov 2026 (finance chat 6): build against tool v0.23 or later — the v0.22 churn-engine fix changes every number (the old engine ran ~12% under Wolf's paying targets) — and the settings…",
@@ -746,34 +718,6 @@
       "created": null,
       "zone": "open",
       "owner": "Claude",
-      "executor": "PLUTUS",
-      "executor_list": [
-        "PLUTUS"
-      ],
-      "autonomy": "Auto",
-      "autonomy_reason": "venture-declared",
-      "department": "Finance",
-      "kind": "tasks",
-      "first_seen": "2026-11-11"
-    },
-    {
-      "id": "SIG-744",
-      "title": "Stress-test the financial model before the Excel…",
-      "description": "Created 11 Nov 2026 19:17, attended (finance session 3). Wolf: \"check all the numbers, all of our inputs and assumptions… push back on anything that you think is way off… especially during the first 6 months to a year\", plus TAM/SAM/SOM, the mass-market opportunity, what each avenue can capture, and whether a very profitable lean company can pay distributions to investors (with examples). Starting list of suspected big misses is in the opener _Working/OPENER_FINANCE-STRESS-TEST_2026-11-11.md. Output: one Docs artifact + tool sensitivity runs; Wolf then rules, the tool is tweaked, and only the…",
-      "description_chars": 8865,
-      "status": "s-doing",
-      "priority": "p-p0",
-      "segment": "Finance",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "3h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
       "executor": "PLUTUS",
       "executor_list": [
         "PLUTUS"
@@ -21757,6 +21701,34 @@
       "first_seen": "2026-10-29"
     },
     {
+      "id": "SIG-731",
+      "title": "Interactive financial model tool (now v0.23)…",
+      "description": "Created 11 Nov 2026 (finance chat, attended). Built from v0.11: raise & ownership, team & expenses by department (roster with start/end months, fractional people, org chart), payroll load, income tax + net income, affiliate commission paid as customers pay + early-window rule, mobile-app & app-store fees, monthly P&L/EBITDA/cash table, monthly expenses & headcount by department, auto-save so Claude can read settings. Live: claude.ai/artifact/7SeriQoTDnVQy2uXHL4eMc (working model \"MAXX Signal — main model\"). File copy: 07_Finance/Draft/MAXX_Signal_Model_Tool_v0_12_2026-11-10.html. Done when Wo…",
+      "description_chars": 5821,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "6h",
+      "effort_wolf": "3h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-11"
+    },
+    {
       "id": "SIG-742",
       "title": "Decide the raise timing: when tranche 2 ($300K at $5M) lands, and whether tranche 3 ($500K) gets a fixed valuation now…",
       "description": "Created 11 Nov 2026, attended. Wolf: rolling close of $1M in three tranches — $200K at $3M for launch (90-day close), $300K at $5M for growth, $500K \"north of $5M, say $9M\" to accelerate; \"raise the money in the first 90 days or so\"; valuation to rise with growth. Claude's recommendation: tranches 1–2 inside the 90 days (tranche 2 ~month 3); tranche 3 priced on growth when it opens, not fixed at $9M now ($3M→$9M inside 90 days is a hard sell). Also open: post-money (tool default, SAFE standard) vs pre-money. The tool has tranche 2 at month 6 and tranche 3 at month 12 as placeholders. Feeds th…",
@@ -21779,6 +21751,34 @@
         "PLUTUS"
       ],
       "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-11"
+    },
+    {
+      "id": "SIG-744",
+      "title": "Stress-test the financial model before the Excel…",
+      "description": "Created 11 Nov 2026 19:17, attended (finance session 3). Wolf: \"check all the numbers, all of our inputs and assumptions… push back on anything that you think is way off… especially during the first 6 months to a year\", plus TAM/SAM/SOM, the mass-market opportunity, what each avenue can capture, and whether a very profitable lean company can pay distributions to investors (with examples). Starting list of suspected big misses is in the opener _Working/OPENER_FINANCE-STRESS-TEST_2026-11-11.md. Output: one Docs artifact + tool sensitivity runs; Wolf then rules, the tool is tweaked, and only the…",
+      "description_chars": 9372,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Auto",
       "autonomy_reason": "venture-declared",
       "department": "Finance",
       "kind": "tasks",
@@ -30485,6 +30485,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 13, 2026 · 7:48 PM CET",
-  "published_at_iso": "2026-11-13T19:48:22+0100"
+  "published_at": "November 13, 2026 · 8:03 PM CET",
+  "published_at_iso": "2026-11-13T20:03:34+0100"
 }
