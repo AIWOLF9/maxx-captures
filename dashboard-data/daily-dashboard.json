@@ -32,8 +32,8 @@
       "id": "SIG-049",
       "title": "Lemon Squeezy account + products + checkout/portal + webhooks",
       "description": "Stand up merchant-of-record. RE-SCOPED 2026-08-05 (SIG-049 review): was S/0.5h — that priced the clicking only. Real chain = publishable maxxsignal.com (SIG-324) + published legal pages (SIG-325) + Stripe Connect KYC with a 2-3 business-day external review + hand-built products (API cannot create products/variants). \"4 products\" is STALE — the SIG-322 deposit must be a subscription product; reconcile the count when SIG-322 locks. Full runbook: 09_Operations/Final/checklists/MAXX_Signal_Payments_Activation_Runbook_v1_0.md; procedure restored at Pre-Build Checklist v1.1 §4A. [2026-09-11 — ⛔ DO…",
-      "description_chars": 4838,
-      "status": "s-todo",
+      "description_chars": 5276,
+      "status": "s-doing",
       "priority": "p-p0",
       "segment": "Ops",
       "venture": "v-signal",
@@ -116,7 +116,7 @@
       "id": "SIG-381",
       "title": "Investor deck…",
       "description": "Added 2026-08-13 (Wolf's instruction, this chat). Movement 1 compressed to a market thesis, then wedge / product / model / comps / unit economics / roadmap / ask. Built from Financial Model One-Pager v1.0, Pricing v1.4, APOLLO TAM-SAM-SOM and the SIG-377 competitor synthesis. Wolf set the ask ($1M friends & family, $6M pre-money); the use-of-funds split is Claude-derived and explicitly marked on-slide as his to overwrite. Slides 20-22 are the honesty block: counter-cases, the model's own \"calibrate before external use\" caveat with 4 known-stale inputs, and the 7 inputs only Wolf can supply. B…",
-      "description_chars": 3085,
+      "description_chars": 3502,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -30485,6 +30485,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 13, 2026 · 9:27 AM CET",
-  "published_at_iso": "2026-11-13T09:27:16+0100"
+  "published_at": "November 13, 2026 · 6:17 PM CET",
+  "published_at_iso": "2026-11-13T18:17:17+0100"
 }
