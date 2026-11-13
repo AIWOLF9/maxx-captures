@@ -760,7 +760,7 @@
       "id": "SIG-751",
       "title": "Raise documents v2…",
       "description": "Created 13 Nov 2026 ~21:45, attended (finance chat 11). Checked before creating: SIG-641 (the SAFE) and SIG-750 (the consulting agreement) hold the documents but not this change (grep \"dividend\", \"Option C\", 13 Nov). Exact wording proposed to Wolf in chat 21:30: SAFE — Founder Bonus definition (add \", until the Payback Cap has been paid to all Round Investors.\"), §6(h) (bonus ends at payback), §6(i) (intends a dividend of 30% of each qualifying quarter's Operating Profit, pro rata to all stockholders, founder only as a stockholder; still intent, no obligation); Subscription Agreement Exhibit…",
-      "description_chars": 996,
+      "description_chars": 2099,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -21704,7 +21704,7 @@
       "id": "SIG-731",
       "title": "Interactive financial model tool (now v0.23)…",
       "description": "Created 11 Nov 2026 (finance chat, attended). Built from v0.11: raise & ownership, team & expenses by department (roster with start/end months, fractional people, org chart), payroll load, income tax + net income, affiliate commission paid as customers pay + early-window rule, mobile-app & app-store fees, monthly P&L/EBITDA/cash table, monthly expenses & headcount by department, auto-save so Claude can read settings. Live: claude.ai/artifact/7SeriQoTDnVQy2uXHL4eMc (working model \"MAXX Signal — main model\"). File copy: 07_Finance/Draft/MAXX_Signal_Model_Tool_v0_12_2026-11-10.html. Done when Wo…",
-      "description_chars": 6371,
+      "description_chars": 6637,
       "status": "s-done",
       "priority": "p-p0",
       "segment": "Finance",
@@ -21732,7 +21732,7 @@
       "id": "SIG-732",
       "title": "Update the Excel model to match the model tool (now v0.26)…",
       "description": "Archive v2.1 first (Three-Step). Assumptions tab drives a 60-month formula engine; add tabs: Team & Expenses by department, Raise & Ownership, monthly P&L/cash; fix the hard-coded OpEx row; tie totals to the tool to the dollar. Then One-Pager + Reader's Guide. 11 Nov session 3: now waits on the stress test (SIG-744) and Wolf's rulings on it; build against tool v0.14 settings as they stand after those rulings. 12 Nov 2026 (finance chat 6): build against tool v0.23 or later — the v0.22 churn-engine fix changes every number (the old engine ran ~12% under Wolf's paying targets) — and the settings…",
-      "description_chars": 2603,
+      "description_chars": 3133,
       "status": "s-done",
       "priority": "p-p0",
       "segment": "Finance",
@@ -30513,6 +30513,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 13, 2026 · 9:34 PM CET",
-  "published_at_iso": "2026-11-13T21:34:33+0100"
+  "published_at": "November 13, 2026 · 10:04 PM CET",
+  "published_at_iso": "2026-11-13T22:04:55+0100"
 }
