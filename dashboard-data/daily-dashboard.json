@@ -4162,7 +4162,7 @@
       "id": "SIG-641",
       "title": "Investor and corporate paperwork for the friends-and-family raise…",
       "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: nothing on the board covered the raise paperwork itself (SIG-310 is the vehicle and CPA question; SIG-453 is the certified Articles). Wolf drops the Care Angel investor documents and his corporate documents into _Inbox/; Claude maps what each is for, what must change for MAXX Signal Inc. (a Florida C-corp), and what a lawyer must review before anything is signed or sent. Claude drafts; a lawyer signs off. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Fundraising; Department moved to 07 FIN…",
-      "description_chars": 7137,
+      "description_chars": 7991,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Finance",
@@ -30485,6 +30485,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 13, 2026 · 1:22 AM CET",
-  "published_at_iso": "2026-11-13T01:22:23+0100"
+  "published_at": "November 13, 2026 · 1:52 AM CET",
+  "published_at_iso": "2026-11-13T01:52:43+0100"
 }
