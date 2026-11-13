@@ -648,7 +648,7 @@
       "id": "SIG-730",
       "title": "Cap table…",
       "description": "Created 10 Nov 2026, attended (Wolf listed it among the equity chats). Checked before creating: no task held a cap table (grep cap table, 10 Nov: only SIG-627 mentions stock options). Claude builds the cap table from the company's real share facts (Wolf supplies authorised and issued shares and holders), then models the round: the $1M at $6M from SIG-381, the advisor option pool from SIG-627, and the instrument chosen in SIG-641 (a SAFE converts later, priced stock dilutes now). ⚠️ The deck says $6M PRE-money; Y Combinator's current SAFE uses a POST-money cap, and the two give different dilut…",
-      "description_chars": 1752,
+      "description_chars": 2127,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -755,34 +755,6 @@
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-11-12"
-    },
-    {
-      "id": "SIG-751",
-      "title": "Raise documents v2…",
-      "description": "Created 13 Nov 2026 ~21:45, attended (finance chat 11). Checked before creating: SIG-641 (the SAFE) and SIG-750 (the consulting agreement) hold the documents but not this change (grep \"dividend\", \"Option C\", 13 Nov). Exact wording proposed to Wolf in chat 21:30: SAFE — Founder Bonus definition (add \", until the Payback Cap has been paid to all Round Investors.\"), §6(h) (bonus ends at payback), §6(i) (intends a dividend of 30% of each qualifying quarter's Operating Profit, pro rata to all stockholders, founder only as a stockholder; still intent, no obligation); Subscription Agreement Exhibit…",
-      "description_chars": 2099,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Finance",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "1h",
-      "effort_wolf": "0.25h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "PLUTUS",
-      "executor_list": [
-        "PLUTUS"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Finance",
-      "kind": "tasks",
-      "first_seen": "2026-11-13"
     },
     {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
@@ -5361,6 +5333,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-11-11"
+    },
+    {
+      "id": "SIG-752",
+      "title": "Corporate documents gap review…",
+      "description": "Created 13 Nov 2026 22:41, attended (finance chat 12). Wolf: review the corporate documents he has now (template formation documents from the incorporation), compare them with all the Care Angel documents he had before, find what is missing that we may need to create, and update or tweak what he has. Order he set: after the cap table (SIG-730), the advisory agreement (SIG-627) and the investor presentation (SIG-381) — this chat or the next. Checked before creating: SIG-641 covers the raise paperwork (investor documents, now approved v2), SIG-453 the certified Articles; neither holds a formati…",
+      "description_chars": 1407,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "THEMIS",
+      "executor_list": [
+        "THEMIS"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-11-13"
     },
     {
       "id": "CAP-0029",
@@ -21813,6 +21813,34 @@
       "first_seen": "2026-11-11"
     },
     {
+      "id": "SIG-751",
+      "title": "Raise documents v2…",
+      "description": "Created 13 Nov 2026 ~21:45, attended (finance chat 11). Checked before creating: SIG-641 (the SAFE) and SIG-750 (the consulting agreement) hold the documents but not this change (grep \"dividend\", \"Option C\", 13 Nov). Exact wording proposed to Wolf in chat 21:30: SAFE — Founder Bonus definition (add \", until the Payback Cap has been paid to all Round Investors.\"), §6(h) (bonus ends at payback), §6(i) (intends a dividend of 30% of each qualifying quarter's Operating Profit, pro rata to all stockholders, founder only as a stockholder; still intent, no obligation); Subscription Agreement Exhibit…",
+      "description_chars": 2733,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": "0.25h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-13"
+    },
+    {
       "id": "CF-SIGNAL-INC-FORMED-1",
       "title": "MAXX Signal Inc…",
       "description": "MAXX Signal Inc. is now officially formed as a Florida C Corporation, and the 15,000,000 authorised-share count was confirmed with the registered agent before the filing was submitted. Wolf confirmed both in the Mission Control stand-up of 2026-09-09. This closes the one item from MC-ENTITY-SETUP-2026-09-04 that carried a closing window — confirming the share count was free before submission and would have cost a fee plus delay afterwards. It had been recorded under 'what Wolf does next' and never reached a register, which is why it went five days without a status; that routing gap is the sam…",
@@ -30513,6 +30541,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 13, 2026 · 10:04 PM CET",
-  "published_at_iso": "2026-11-13T22:04:55+0100"
+  "published_at": "November 13, 2026 · 10:50 PM CET",
+  "published_at_iso": "2026-11-13T22:50:26+0100"
 }
