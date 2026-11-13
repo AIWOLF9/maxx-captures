@@ -673,34 +673,6 @@
       "first_seen": "2026-11-10"
     },
     {
-      "id": "SIG-732",
-      "title": "Update the Excel model to match tool v0.12…",
-      "description": "Archive v2.1 first (Three-Step). Assumptions tab drives a 60-month formula engine; add tabs: Team & Expenses by department, Raise & Ownership, monthly P&L/cash; fix the hard-coded OpEx row; tie totals to the tool to the dollar. Then One-Pager + Reader's Guide. 11 Nov session 3: now waits on the stress test (SIG-744) and Wolf's rulings on it; build against tool v0.14 settings as they stand after those rulings. 12 Nov 2026 (finance chat 6): build against tool v0.23 or later — the v0.22 churn-engine fix changes every number (the old engine ran ~12% under Wolf's paying targets) — and the settings…",
-      "description_chars": 734,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Finance",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "5h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "PLUTUS",
-      "executor_list": [
-        "PLUTUS"
-      ],
-      "autonomy": "Auto",
-      "autonomy_reason": "venture-declared",
-      "department": "Finance",
-      "kind": "tasks",
-      "first_seen": "2026-11-11"
-    },
-    {
       "id": "SIG-738",
       "title": "With-raise vs without-raise comparison…",
       "description": "Current settings never go below zero without the raise, so the case is acceleration: build a slower no-raise case (later hires, less marketing, slower member curve) vs the funded plan.",
@@ -21729,6 +21701,34 @@
       "first_seen": "2026-11-11"
     },
     {
+      "id": "SIG-732",
+      "title": "Update the Excel model to match the model tool (now v0.26)…",
+      "description": "Archive v2.1 first (Three-Step). Assumptions tab drives a 60-month formula engine; add tabs: Team & Expenses by department, Raise & Ownership, monthly P&L/cash; fix the hard-coded OpEx row; tie totals to the tool to the dollar. Then One-Pager + Reader's Guide. 11 Nov session 3: now waits on the stress test (SIG-744) and Wolf's rulings on it; build against tool v0.14 settings as they stand after those rulings. 12 Nov 2026 (finance chat 6): build against tool v0.23 or later — the v0.22 churn-engine fix changes every number (the old engine ran ~12% under Wolf's paying targets) — and the settings…",
+      "description_chars": 2095,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "5h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-11"
+    },
+    {
       "id": "SIG-742",
       "title": "Decide the raise timing: when tranche 2 ($300K at $5M) lands, and whether tranche 3 ($500K) gets a fixed valuation now…",
       "description": "Created 11 Nov 2026, attended. Wolf: rolling close of $1M in three tranches — $200K at $3M for launch (90-day close), $300K at $5M for growth, $500K \"north of $5M, say $9M\" to accelerate; \"raise the money in the first 90 days or so\"; valuation to rise with growth. Claude's recommendation: tranches 1–2 inside the 90 days (tranche 2 ~month 3); tranche 3 priced on growth when it opens, not fixed at $9M now ($3M→$9M inside 90 days is a hard sell). Also open: post-money (tool default, SAFE standard) vs pre-money. The tool has tranche 2 at month 6 and tranche 3 at month 12 as placeholders. Feeds th…",
@@ -30485,6 +30485,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 13, 2026 · 8:03 PM CET",
-  "published_at_iso": "2026-11-13T20:03:34+0100"
+  "published_at": "November 13, 2026 · 8:18 PM CET",
+  "published_at_iso": "2026-11-13T20:18:46+0100"
 }
