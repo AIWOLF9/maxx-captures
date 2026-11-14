@@ -5338,8 +5338,8 @@
       "id": "SIG-752",
       "title": "Corporate documents gap review…",
       "description": "Created 13 Nov 2026 22:41, attended (finance chat 12). Wolf: review the corporate documents he has now (template formation documents from the incorporation), compare them with all the Care Angel documents he had before, find what is missing that we may need to create, and update or tweak what he has. Order he set: after the cap table (SIG-730), the advisory agreement (SIG-627) and the investor presentation (SIG-381) — this chat or the next. Checked before creating: SIG-641 covers the raise paperwork (investor documents, now approved v2), SIG-453 the certified Articles; neither holds a formati…",
-      "description_chars": 2270,
-      "status": "s-todo",
+      "description_chars": 3317,
+      "status": "s-doing",
       "priority": "p-p1",
       "segment": "Legal",
       "venture": "v-signal",
@@ -30541,6 +30541,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 14, 2026 · 12:36 AM CET",
-  "published_at_iso": "2026-11-14T00:36:32+0100"
+  "published_at": "November 14, 2026 · 1:06 AM CET",
+  "published_at_iso": "2026-11-14T01:06:53+0100"
 }
