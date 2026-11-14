@@ -704,7 +704,7 @@
       "id": "SIG-749",
       "title": "Financial model guide…",
       "description": "Created 12 Nov 2026 03:51, attended (finance chat 6). Wolf: once the stress test is finished, discuss and create a manual overview — TL;DR, easy to understand, with an index of all the moving parts — so an investor reviewing the deck and the Excel does not have to decipher it; it summarises the main controls and assumptions and which levers move revenue, costs and conversion most, and documents the decisions made. Inputs: Decision 297 ①–⑩, the stress-test doc (claude.ai/artifact/4rt8ugg787LD3hVcHRiQe6, updated 12 Nov with the rulings table and current numbers), tool v0.23+. Checked before cre…",
-      "description_chars": 821,
+      "description_chars": 1303,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -30541,6 +30541,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 14, 2026 · 2:07 AM CET",
-  "published_at_iso": "2026-11-14T02:07:38+0100"
+  "published_at": "November 14, 2026 · 9:26 AM CET",
+  "published_at_iso": "2026-11-14T09:26:39+0100"
 }
