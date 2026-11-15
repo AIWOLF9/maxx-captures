@@ -481,7 +481,7 @@
       "title": "Advisory board…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Wolf 17 Oct: *\"getting some advisors on board and partners… doing some research to invite certain people to get on our advisory board and putting together an advisory agreement. I think I have an example or two that would just provide them with some stock options to be an advisor.\"* ① Claude: a researched shortlist by need (digital wellbeing and youth-media research, creator economy and YouTube, schools and parent groups, consumer subscription growth, fundraising), with why each and a route to reach them; ② Wolf drops his example agr…",
       "description_chars": 4936,
-      "status": "s-todo",
+      "status": "s-doing",
       "priority": "p-p0",
       "segment": "Ops",
       "venture": "v-signal",
@@ -493,7 +493,7 @@
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
-      "owner": "Claude+Wolf",
+      "owner": "Claude+Wolf 15 Nov 2026 ~23:00 (chat 14): advisory agreement draft v1 written — Care Angel 2017 letter + HAPPYY NDA confidentiality/non-solicit, options point to form 10-2; Google Doc https://docs.google.com/document/d/1R_wA0Zisl_P0rFomqtaYNWGTFQKRRWpid--5x7D_TT0/edit ; .docx in 08_Legal/Draft/Corporate-Records_2026-11/; tracker row 11 = Draft — Wolf to review. Waiting on Wolf: review, 8 hours a month, non-solicit (d)–(e). Research and invites still open. 15 Nov 2026 (chat 13): grant form 10-2 approved — 48 monthly installments, no cliff, NSO only, vesting starts on the date the advisory agreement is signed (Decision 305); the advisory agreement should point to form 10-2, not restate the schedule. Drafting moves to chat 14: _Working/OPENER_ADVISOR-AGREEMENT-CHAT14_2026-11-15.md.",
       "executor": "MC",
       "executor_list": [
         "MC"
@@ -661,7 +661,7 @@
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
-      "owner": "Claude+Wolf",
+      "owner": "Claude+Wolf 15 Nov 2026 (chat 13): founder shares issued 15 Nov; option price from the last funded round, 409A optional (Decision 304); the founder retainer accrues from 1 Nov at about $9,000/month until funding (Decision 306) — show it as money owed. Built in chat 14 after the advisory agreement.",
       "executor": "PLUTUS",
       "executor_list": [
         "PLUTUS"
@@ -5333,34 +5333,6 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-11-11"
-    },
-    {
-      "id": "SIG-752",
-      "title": "Corporate documents gap review…",
-      "description": "Created 13 Nov 2026 22:41, attended (finance chat 12). Wolf: review the corporate documents he has now (template formation documents from the incorporation), compare them with all the Care Angel documents he had before, find what is missing that we may need to create, and update or tweak what he has. Order he set: after the cap table (SIG-730), the advisory agreement (SIG-627) and the investor presentation (SIG-381) — this chat or the next. Checked before creating: SIG-641 covers the raise paperwork (investor documents, now approved v2), SIG-453 the certified Articles; neither holds a formati…",
-      "description_chars": 4201,
-      "status": "s-doing",
-      "priority": "p-p1",
-      "segment": "Legal",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "3h",
-      "effort_wolf": null,
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf",
-      "executor": "THEMIS",
-      "executor_list": [
-        "THEMIS"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Legal",
-      "kind": "tasks",
-      "first_seen": "2026-11-13"
     },
     {
       "id": "CAP-0029",
@@ -27545,6 +27517,34 @@
       "first_seen": "2026-11-11"
     },
     {
+      "id": "SIG-752",
+      "title": "Corporate documents gap review…",
+      "description": "Created 13 Nov 2026 22:41, attended (finance chat 12). Wolf: review the corporate documents he has now (template formation documents from the incorporation), compare them with all the Care Angel documents he had before, find what is missing that we may need to create, and update or tweak what he has. Order he set: after the cap table (SIG-730), the advisory agreement (SIG-627) and the investor presentation (SIG-381) — this chat or the next. Checked before creating: SIG-641 covers the raise paperwork (investor documents, now approved v2), SIG-453 the certified Articles; neither holds a formati…",
+      "description_chars": 4201,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Legal",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "3h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf 15 Nov 2026 — DONE (chat 13, Claude flips on evidence). Signed and filed in 08_Legal/Final/MSIG-CORP-*_SIGNED_2026-11-15.pdf: 01 Organizational Written Consent, 02 Founder Stock Purchase (9,999,999 shares to Wolf Ventures LLC — Stock Ledger entry 1 Issued 15 Nov), 03 Bylaws Amendment No. 1, 04 Initial Round consent, 05 Rule 506(d) questionnaire, 06 Existing Stockholder Joinder, 08 v3 option-plan consent, 12 Interim Agreement Amendment No. 1, R3 Founder Consulting Agreement, R3-A retainer deferral letter v2. Approved (unsigned templates): 09 plan v2, 10-1 employee and 10-2 advisor grant forms. 07 memorandum parked. Decisions 304–306. Remaining corporate items live elsewhere: advisory agreement SIG-627, cap table SIG-730, Form D/state filings at first sale.",
+      "executor": "THEMIS",
+      "executor_list": [
+        "THEMIS"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Legal",
+      "kind": "tasks",
+      "first_seen": "2026-11-13"
+    },
+    {
       "id": "CAP-0062",
       "title": "Mobbin MCP…",
       "description": "Mobbin MCP — the design-reference connector (621,500 shipped product screens, searchable in-chat and inside Claude Design). Official server https://api.mobbin.com/mcp — streamable HTTP, OAuth, no stored key (so no §6.1.1 credentials carve-out), 60 req/60s, paid Mobbin plan (founder-held, pre-existing; $0.00 spend this pass, no SPEND_LOG row owed). Three tools: search_screens · search_flows · search_sections — all three invoked live before this row was written. Delivery class tools → MCP connector per §10.1; nothing retired alongside it — the prior state was manual copy-paste, which is the *ab…",
@@ -30541,6 +30541,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 15, 2026 · 9:24 AM CET",
-  "published_at_iso": "2026-11-15T09:24:40+0100"
+  "published_at": "November 15, 2026 · 10:54 PM CET",
+  "published_at_iso": "2026-11-15T22:54:20+0100"
 }
