@@ -493,7 +493,7 @@
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
-      "owner": "Claude+Wolf 15 Nov 2026 ~23:00 (chat 14): advisory agreement draft v1 written — Care Angel 2017 letter + HAPPYY NDA confidentiality/non-solicit, options point to form 10-2; Google Doc https://docs.google.com/document/d/1R_wA0Zisl_P0rFomqtaYNWGTFQKRRWpid--5x7D_TT0/edit ; .docx in 08_Legal/Draft/Corporate-Records_2026-11/; tracker row 11 = Draft — Wolf to review. 15 Nov ~23:30: v2 per Decision 307 — fixed number of shares granted after signing, no link to the round, dilution sentence; a DocuSign agreement, not an emailed letter (welcome email comes with advisor messaging). Google Doc v2 https://docs.google.com/document/d/1ZkKLxaYQ32hZKAaM0hHmEy_n6kblBR5hOdmS6p8xOM0/edit (v1 renamed SUPERSEDED). 16 Nov ~00:15: Wolf edited v2 in Google (minimum 4 hours a month, i.e. 1 a week; mission line; % sentence after the share count). Claude added doc 13, a one-page board consent approving each grant (https://docs.google.com/document/d/1UixdylG1NpIFgcGegJ8FLGoyOthe_lUdb0vMq90WYMs/edit), so 11 + 10-2 + plan 09 go in one DocuSign envelope. 16 Nov ~00:30 (Decision 308): no consent per grant — 13 rewritten as v2, a one-time delegation letting the CEO grant within limits (https://docs.google.com/document/d/1a4hOl7EgyG0H4wzOjvoWBYMTB-uiNgs9BCLITynPswI/edit). Wolf keeps his \"algorithms\" wording; \"options to purchase\" agreed. Open: non-solicit (d)–(e), then 11 v3. Research and invites still open. 15 Nov 2026 (chat 13): grant form 10-2 approved — 48 monthly installments, no cliff, NSO only, vesting starts on the date the advisory agreement is signed (Decision 305); the advisory agreement should point to form 10-2, not restate the schedule. Drafting moves to chat 14: _Working/OPENER_ADVISOR-AGREEMENT-CHAT14_2026-11-15.md.",
+      "owner": "Claude+Wolf 15 Nov 2026 ~23:00 (chat 14): advisory agreement draft v1 written — Care Angel 2017 letter + HAPPYY NDA confidentiality/non-solicit, options point to form 10-2; Google Doc https://docs.google.com/document/d/1R_wA0Zisl_P0rFomqtaYNWGTFQKRRWpid--5x7D_TT0/edit ; .docx in 08_Legal/Draft/Corporate-Records_2026-11/; tracker row 11 = Draft — Wolf to review. 15 Nov ~23:30: v2 per Decision 307 — fixed number of shares granted after signing, no link to the round, dilution sentence; a DocuSign agreement, not an emailed letter (welcome email comes with advisor messaging). Google Doc v2 https://docs.google.com/document/d/1ZkKLxaYQ32hZKAaM0hHmEy_n6kblBR5hOdmS6p8xOM0/edit (v1 renamed SUPERSEDED). 16 Nov ~00:15: Wolf edited v2 in Google (minimum 4 hours a month, i.e. 1 a week; mission line; % sentence after the share count). Claude added doc 13, a one-page board consent approving each grant (https://docs.google.com/document/d/1UixdylG1NpIFgcGegJ8FLGoyOthe_lUdb0vMq90WYMs/edit), so 11 + 10-2 + plan 09 go in one DocuSign envelope. 16 Nov ~00:30 (Decision 308): no consent per grant — 13 rewritten as v2, a one-time delegation letting the CEO grant within limits (https://docs.google.com/document/d/1a4hOl7EgyG0H4wzOjvoWBYMTB-uiNgs9BCLITynPswI/edit). Wolf keeps his \"algorithms\" wording; \"options to purchase\" agreed. 16 Nov ~00:30: Wolf kept non-solicit (d)–(e); 11 v3 = his edited v2 + \"options to purchase\" — approved template, https://docs.google.com/document/d/1pvS9Dw1z4ZEvwoREQp0Coah7ldAJEu85XaGG25Q5P_o/edit . 13 signed and filed 08_Legal/Final/MSIG-CORP-13_Written-Consent-Delegating-Option-Grant-Authority_SIGNED_2026-11-15.pdf (text diffed against the review copy: only the 150,000 cap and date differ; signature checked). Agreement drafting DONE; still open in this task: research advisors to invite, and the invites (messaging after the cap table and model stress test). 15 Nov 2026 (chat 13): grant form 10-2 approved — 48 monthly installments, no cliff, NSO only, vesting starts on the date the advisory agreement is signed (Decision 305); the advisory agreement should point to form 10-2, not restate the schedule. Drafting moves to chat 14: _Working/OPENER_ADVISOR-AGREEMENT-CHAT14_2026-11-15.md.",
       "executor": "MC",
       "executor_list": [
         "MC"
@@ -645,34 +645,6 @@
       "first_seen": "2026-11-07"
     },
     {
-      "id": "SIG-730",
-      "title": "Cap table…",
-      "description": "Created 10 Nov 2026, attended (Wolf listed it among the equity chats). Checked before creating: no task held a cap table (grep cap table, 10 Nov: only SIG-627 mentions stock options). Claude builds the cap table from the company's real share facts (Wolf supplies authorised and issued shares and holders), then models the round: the $1M at $6M from SIG-381, the advisor option pool from SIG-627, and the instrument chosen in SIG-641 (a SAFE converts later, priced stock dilutes now). ⚠️ The deck says $6M PRE-money; Y Combinator's current SAFE uses a POST-money cap, and the two give different dilut…",
-      "description_chars": 2998,
-      "status": "s-doing",
-      "priority": "p-p0",
-      "segment": "Finance",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "1h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude+Wolf 15 Nov 2026 (chat 13): founder shares issued 15 Nov; option price from the last funded round, 409A optional (Decision 304); the founder retainer accrues from 1 Nov at about $9,000/month until funding (Decision 306) — show it as money owed. Built in chat 14 after the advisory agreement.",
-      "executor": "PLUTUS",
-      "executor_list": [
-        "PLUTUS"
-      ],
-      "autonomy": "Batch",
-      "autonomy_reason": "venture-declared",
-      "department": "Finance",
-      "kind": "tasks",
-      "first_seen": "2026-11-10"
-    },
-    {
       "id": "SIG-738",
       "title": "With-raise vs without-raise comparison…",
       "description": "Current settings never go below zero without the raise, so the case is acceleration: build a slower no-raise case (later hires, less marketing, slower member curve) vs the funded plan.",
@@ -755,6 +727,34 @@
       "department": "Finance",
       "kind": "tasks",
       "first_seen": "2026-11-12"
+    },
+    {
+      "id": "SIG-753",
+      "title": "Financial model final pass before the investor deck…",
+      "description": "Created 16 Nov 2026 00:45, attended (finance chat 14 close). Wolf's order: documents → cap table → finish the financial-model stress test, tweaking the Excel if needed → messaging. Checked before creating: SIG-732 (Excel) and SIG-744 (stress test) are Done; nothing tracks these three gaps. ① Decision 306: the founder retainer accrues from 1 Nov 2026 at $9,000/month and is paid after funding — the model must show it as a liability and its payment (cap table: $36,000 by the 1 Feb 2027 expected funding date). ② The model shows the founder at 83.79% \"before any option pool\"; the approved cap tabl…",
+      "description_chars": 830,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-16"
     },
     {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
@@ -21673,6 +21673,34 @@
       "first_seen": "2026-10-29"
     },
     {
+      "id": "SIG-730",
+      "title": "Cap table…",
+      "description": "Created 10 Nov 2026, attended (Wolf listed it among the equity chats). Checked before creating: no task held a cap table (grep cap table, 10 Nov: only SIG-627 mentions stock options). Claude builds the cap table from the company's real share facts (Wolf supplies authorised and issued shares and holders), then models the round: the $1M at $6M from SIG-381, the advisor option pool from SIG-627, and the instrument chosen in SIG-641 (a SAFE converts later, priced stock dilutes now). ⚠️ The deck says $6M PRE-money; Y Combinator's current SAFE uses a POST-money cap, and the two give different dilut…",
+      "description_chars": 2998,
+      "status": "s-done",
+      "priority": "p-p0",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "1h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude+Wolf 15 Nov 2026 (chat 13): founder shares issued 15 Nov; option price from the last funded round, 409A optional (Decision 304); the founder retainer accrues from 1 Nov at about $9,000/month until funding (Decision 306) — show it as money owed. Built in chat 14 after the advisory agreement. 16 Nov 2026 ~00:45 (chat 14): Cap Table tab built in the Corporate Records tracker (https://claude.ai/artifact/93GKbF5Dv5JBq3rGYT3tmx, tab \"Cap Table\") — inputs tied to Financial Model v3.2 Raise & Ownership; today and after each tranche (SAFEs as converted at their caps, post-money); 10% evergreen pool; grant register with vesting for 10-1/10-2; accrued founder retainer as money owed, not equity. Whole round: founder 74.8% fully diluted (82.3% before the pool), investors 16.1%, pool 9.1%; fully diluted 13,370,462; tranche prices $0.27 / $0.42 / $0.71. DONE 16 Nov 00:38 — Wolf: \"yes\"; expected funding date set to 1 Feb 2027 (retainer owed by then about $36,000). Evidence: Cap Table tab in the Corporate Records tracker (revision 48). Elapsed ~25 min (not effort).",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-10"
+    },
+    {
       "id": "SIG-731",
       "title": "Interactive financial model tool (now v0.23)…",
       "description": "Created 11 Nov 2026 (finance chat, attended). Built from v0.11: raise & ownership, team & expenses by department (roster with start/end months, fractional people, org chart), payroll load, income tax + net income, affiliate commission paid as customers pay + early-window rule, mobile-app & app-store fees, monthly P&L/EBITDA/cash table, monthly expenses & headcount by department, auto-save so Claude can read settings. Live: claude.ai/artifact/7SeriQoTDnVQy2uXHL4eMc (working model \"MAXX Signal — main model\"). File copy: 07_Finance/Draft/MAXX_Signal_Model_Tool_v0_12_2026-11-10.html. Done when Wo…",
@@ -30541,6 +30569,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 16, 2026 · 12:25 AM CET",
-  "published_at_iso": "2026-11-16T00:25:22+0100"
+  "published_at": "November 16, 2026 · 12:40 AM CET",
+  "published_at_iso": "2026-11-16T00:40:33+0100"
 }
