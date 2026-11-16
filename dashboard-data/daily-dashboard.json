@@ -284,7 +284,7 @@
       "id": "SIG-635",
       "title": "Outreach that scales but stays human…",
       "description": "Created 22 Oct 2026 21:52, attended — Wolf's request in the preview-review chat. Wolf: prioritise for most impact; automate the outreach to get on a call, but humanise it. Covers sequences, personalisation, volumes, tools already connected (Apollo, Clay), LinkedIn and email rules, Anthropic's usage policy from 12 Nov (no fake accounts, no fake engagement), and what each role offers (advisor, ambassador, partner). ▶ 28 Oct 2026, board clean-up (SIG-644, Wolf approved): Priority raised to P0 (next two weeks focus). ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Advisors. ▶ 29 Oct 202…",
-      "description_chars": 778,
+      "description_chars": 1210,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -340,7 +340,7 @@
       "id": "SIG-640",
       "title": "Investor list + investor messaging…",
       "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: no task held an investor list or investor messages (the deck is SIG-381; outreach tooling is SIG-635). Wolf: an investor list, investor emails, and messages he can send individually and in the groups he belongs to — framed as asking for help with a big problem, built on the mission (people nourishing their minds, not letting algorithms control how they think, believe and feel). Wolf, 28 Oct (correcting Claude): the group and friends messages offer nothing for sale. They announce that he is launching M…",
-      "description_chars": 1880,
+      "description_chars": 2454,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "GTM",
@@ -424,7 +424,7 @@
       "id": "SIG-651",
       "title": "Message library…",
       "description": "Created 29 Oct 2026, attended (Decision 261, GTM 30,000-foot chat). The shared machine had no task for the messages themselves. Claude drafts the per-segment ladder from the settled spine; Wolf edits; drafts feed HubSpot templates and sequences. ▶ 29 Oct 2026: Autonomy changed from the invalid value \"Claude\" to Batch; Wolf 29 Oct (attended stand-up): yes, Claude drafts and Wolf approves. ▶ 7 Nov 2026 (Decision 291): the source for the message library now exists — the power-lines library v0.1 (05_Marketing/Working/positioning_2026-10-29/SIGNAL_POWER-LINES-LIBRARY_v0_1_2026-10-30.json, 477 line…",
-      "description_chars": 1200,
+      "description_chars": 1796,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -480,7 +480,7 @@
       "id": "SIG-627",
       "title": "Advisory board…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Wolf 17 Oct: *\"getting some advisors on board and partners… doing some research to invite certain people to get on our advisory board and putting together an advisory agreement. I think I have an example or two that would just provide them with some stock options to be an advisor.\"* ① Claude: a researched shortlist by need (digital wellbeing and youth-media research, creator economy and YouTube, schools and parent groups, consumer subscription growth, fundraising), with why each and a route to reach them; ② Wolf drops his example agr…",
-      "description_chars": 5431,
+      "description_chars": 6048,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Ops",
@@ -30569,6 +30569,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 16, 2026 · 1:41 AM CET",
-  "published_at_iso": "2026-11-16T01:41:17+0100"
+  "published_at": "November 16, 2026 · 1:56 AM CET",
+  "published_at_iso": "2026-11-16T01:56:29+0100"
 }
