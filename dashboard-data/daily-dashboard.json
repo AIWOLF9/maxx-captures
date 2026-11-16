@@ -4946,7 +4946,7 @@
       "id": "SIG-629",
       "title": "Social accounts follow-ups…",
       "description": "Created 20 Oct 2026 ~07:40 UTC by the unattended daily stand-up (conversion rule: the follow-ups were written only as prose inside the closed social-handles task, SIG-379). Three small account follow-ups after Wolf claimed all 13 handles on 19 Oct: (1) turn on two-factor sign-in for the wolf@maxxsignal.com Google account, which protects every account opened with \"Sign in with Google\"; (2) set the Facebook Page username to maxxsignal so the page reads facebook.com/maxxsignal; (3) confirm the LinkedIn company page address (assumed linkedin.com/company/maxxsignal). Source: 05_Marketing/Final/SIG…",
-      "description_chars": 1431,
+      "description_chars": 1816,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5310,7 +5310,7 @@
       "id": "SIG-754",
       "title": "Next platforms after YouTube…",
       "description": "Created 16 Nov 2026, attended stand-up (Wolf). A planning, strategy and brainstorming session using first principles and best practices: which platforms MAXX Signal brings on after YouTube and in what order (X, Instagram, TikTok, Facebook, the open web), what we can bring in from each and how it would work, and what the user experience should ideally look like. Output: a recommended platform order with reasons, and a mockup of a dashboard that pulls from multiple sources beyond YouTube. Feeds the investor deck's concept slide (multi-platform topic dashboard, tagged Concept — not built, SIG-38…",
-      "description_chars": 1366,
+      "description_chars": 1971,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -30597,6 +30597,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 16, 2026 · 4:04 PM CET",
-  "published_at_iso": "2026-11-16T16:04:26+0100"
+  "published_at": "November 16, 2026 · 4:49 PM CET",
+  "published_at_iso": "2026-11-16T16:49:55+0100"
 }
