@@ -5310,7 +5310,7 @@
       "id": "SIG-754",
       "title": "Next platforms after YouTube…",
       "description": "Created 16 Nov 2026, attended stand-up (Wolf). A planning, strategy and brainstorming session using first principles and best practices: which platforms MAXX Signal brings on after YouTube and in what order (X, Instagram, TikTok, Facebook, the open web), what we can bring in from each and how it would work, and what the user experience should ideally look like. Output: a recommended platform order with reasons, and a mockup of a dashboard that pulls from multiple sources beyond YouTube. Feeds the investor deck's concept slide (multi-platform topic dashboard, tagged Concept — not built, SIG-38…",
-      "description_chars": 1971,
+      "description_chars": 3206,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -30597,6 +30597,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 16, 2026 · 4:49 PM CET",
-  "published_at_iso": "2026-11-16T16:49:55+0100"
+  "published_at": "November 16, 2026 · 5:05 PM CET",
+  "published_at_iso": "2026-11-16T17:05:07+0100"
 }
