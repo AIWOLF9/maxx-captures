@@ -88,7 +88,7 @@
       "id": "SIG-324",
       "title": "Publish compliant maxxsignal.com activation page",
       "description": "BLOCKS SIG-049 — this is the gate on all revenue. Stripe will not activate an account whose site is a placeholder; requires business name, description of goods/services, customer-service contact, refund + dispute policy, cancellation policy, reachable without password. Live site is currently a waitlist capture and fails every requirement but the name. NOT the full SIG-204 marketing site — a compliance surface, reusable as /terms /pricing /refunds later. Draft from locked canon at _Working/SIG-049_maxxsignal-activation-page_DRAFT_2026-08-05.html.  [⚠️ RULING APPLIED 2026-08-20 (Wolf, attended,…",
-      "description_chars": 10532,
+      "description_chars": 10773,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -424,7 +424,7 @@
       "id": "SIG-651",
       "title": "Message library…",
       "description": "Created 29 Oct 2026, attended (Decision 261, GTM 30,000-foot chat). The shared machine had no task for the messages themselves. Claude drafts the per-segment ladder from the settled spine; Wolf edits; drafts feed HubSpot templates and sequences. ▶ 29 Oct 2026: Autonomy changed from the invalid value \"Claude\" to Batch; Wolf 29 Oct (attended stand-up): yes, Claude drafts and Wolf approves. ▶ 7 Nov 2026 (Decision 291): the source for the message library now exists — the power-lines library v0.1 (05_Marketing/Working/positioning_2026-10-29/SIGNAL_POWER-LINES-LIBRARY_v0_1_2026-10-30.json, 477 line…",
-      "description_chars": 1796,
+      "description_chars": 2201,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -676,7 +676,7 @@
       "id": "SIG-749",
       "title": "Financial model guide…",
       "description": "Created 12 Nov 2026 03:51, attended (finance chat 6). Wolf: once the stress test is finished, discuss and create a manual overview — TL;DR, easy to understand, with an index of all the moving parts — so an investor reviewing the deck and the Excel does not have to decipher it; it summarises the main controls and assumptions and which levers move revenue, costs and conversion most, and documents the decisions made. Inputs: Decision 297 ①–⑩, the stress-test doc (claude.ai/artifact/4rt8ugg787LD3hVcHRiQe6, updated 12 Nov with the rulings table and current numbers), tool v0.23+. Checked before cre…",
-      "description_chars": 2085,
+      "description_chars": 2537,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -4582,7 +4582,7 @@
       "id": "SIG-565",
       "title": "Overview chat: where the service screens stand, and what runs in parallel with the website",
       "description": "Created 2026-10-06 ~19:55, attended (Wolf 19:37: \"We need to have an overview, a separate chat... to get a sense of where we are and what things we can get done in parallel over the coming weeks... Finalizing the service screens, getting that build processed, getting the specs done... getting the build done.\"). One status table for every app screen (mockup · spec · build · launch scope · next action · parallel or not), launch-scope calls on the concept features the website tour shows (AI summary, transcript, tag card, intention doorway), Wolf's question whether Claude Design is needed at all…",
-      "description_chars": 1221,
+      "description_chars": 1668,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -30569,6 +30569,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 16, 2026 · 9:30 AM CET",
-  "published_at_iso": "2026-11-16T09:30:39+0100"
+  "published_at": "November 16, 2026 · 3:18 PM CET",
+  "published_at_iso": "2026-11-16T15:18:53+0100"
 }
