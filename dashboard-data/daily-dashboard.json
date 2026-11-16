@@ -5253,8 +5253,8 @@
     {
       "id": "SIG-739",
       "title": "Verify the model's placeholder inputs before the investor version",
-      "description": "Ad network threshold / RPM / fill; conversion rates vs category references; contractor rates (Magic, OneTree quotes); app-store signup and web-checkout shares; UGC CPM; support ratio. Each with a source and date. Added 11 Nov (Decision 297 ⑦): department-head pay ($7K–12K a month placeholders) against market.",
-      "description_chars": 310,
+      "description": "Ad network threshold / RPM / fill; conversion rates vs category references; contractor rates (Magic, OneTree quotes); app-store signup and web-checkout shares; UGC CPM; support ratio. Each with a source and date. Added 11 Nov (Decision 297 ⑦): department-head pay ($7K–12K a month placeholders) against market. ▶ 16 Nov 2026, unattended stand-up: part 1 of 2 drafted — the inventory of the 22 placeholder inputs this task names, with model values and sheet rows (Assumptions and Team & Expenses of Financial Model v3.3): 07_Finance/Working/SIG-739_PLACEHOLDER-INPUTS_INVENTORY_DRAFT_2026-11-16.md. N…",
+      "description_chars": 888,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Finance",
@@ -30569,6 +30569,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 16, 2026 · 1:56 AM CET",
-  "published_at_iso": "2026-11-16T01:56:29+0100"
+  "published_at": "November 16, 2026 · 9:30 AM CET",
+  "published_at_iso": "2026-11-16T09:30:39+0100"
 }
