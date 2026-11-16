@@ -116,7 +116,7 @@
       "id": "SIG-381",
       "title": "Investor deck…",
       "description": "Added 2026-08-13 (Wolf's instruction, this chat). Movement 1 compressed to a market thesis, then wedge / product / model / comps / unit economics / roadmap / ask. Built from Financial Model One-Pager v1.0, Pricing v1.4, APOLLO TAM-SAM-SOM and the SIG-377 competitor synthesis. Wolf set the ask ($1M friends & family, $6M pre-money); the use-of-funds split is Claude-derived and explicitly marked on-slide as his to overwrite. Slides 20-22 are the honesty block: counter-cases, the model's own \"calibrate before external use\" caveat with 4 known-stale inputs, and the 7 inputs only Wolf can supply. B…",
-      "description_chars": 3502,
+      "description_chars": 4643,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -30569,6 +30569,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 16, 2026 · 1:10 AM CET",
-  "published_at_iso": "2026-11-16T01:10:54+0100"
+  "published_at": "November 16, 2026 · 1:26 AM CET",
+  "published_at_iso": "2026-11-16T01:26:05+0100"
 }
