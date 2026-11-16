@@ -1239,8 +1239,8 @@
     {
       "id": "MOS-T-030",
       "title": "LLM-council / adversarial-review process",
-      "description": "🔍 TRIAGED — MAXX-autonomous next: research + propose a lightweight \"when to invoke a 2nd-LLM adversarial review\" protocol. from cap-mpv8sc4qpam [recovered 2026-08-06 CF-CAPTURE-DESCRIPTION-TRUNCATION-1 — full capture notes: Came across his video Short, and it just began is bringing up to the surface how we’re making decisions as to how we’re researching how we’re planning if it’s the most optimized processes workflows decisions on infrastructure processes, dry tools, etc. The good news is I’ve manually and also directed Claude to do try LLM debrief to the number of subjects. but I feel like i…",
-      "description_chars": 3971,
+      "description": "RULED 2026-11-16 (D-MC-2026-11-16-PCS6V7H5H2-07, attended): stop researching — no further research pass; next action is a scoped build (when to invoke a second-model adversarial review; use the installed maxx-council skill as the mechanism). 🔍 TRIAGED — MAXX-autonomous next: research + propose a lightweight \"when to invoke a 2nd-LLM adversarial review\" protocol. from cap-mpv8sc4qpam [recovered 2026-08-06 CF-CAPTURE-DESCRIPTION-TRUNCATION-1 — full capture notes: Came across his video Short, and it just began is bringing up to the surface how we’re making decisions as to how we’re researching h…",
+      "description_chars": 4213,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -1264,16 +1264,16 @@
       "autonomy": "Auto",
       "department": "Operations",
       "prov": "capture",
-      "review": "r-triaged",
-      "review_label": "Triaged",
+      "review": "r-none",
+      "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
     {
       "id": "MOS-T-042",
       "title": "Broaden the weekly tool/offering scan",
-      "description": "🔍 Triaged — Broaden the existing apollo-hivemind-stage1-tool-scan (currently ATHENA-stack-scoped, runs Sundays) to cover Anthropic/Claude releases + Gemini/ChatGPT offerings + skills/connectors/MCP/plugins portfolio-wide; surface findings via the standup digest, prioritized. (Wolf 2026-06-09.) [2026-06-30 nightly: Anthropic-stack catch-up cluster COMPLETE (Dreaming + Outcomes + Multiagent + Self-Hosted Sandboxes) — key insight: Outcomes grading-loop = DELPHI substrate candidate → file to BS-0003 at next attended session; add a \"Managed Agents changelog\" column to the weekly-scan spec. See nig…",
-      "description_chars": 1098,
+      "description": "RULED 2026-11-16 (D-MC-2026-11-16-PCS6V7H5H2-07, attended): do it — add a 'new this week' finding marker and a stated date window to the weekly scan's spec; queued for the next attended MC build session. 🔍 Triaged — Broaden the existing apollo-hivemind-stage1-tool-scan (currently ATHENA-stack-scoped, runs Sundays) to cover Anthropic/Claude releases + Gemini/ChatGPT offerings + skills/connectors/MCP/plugins portfolio-wide; surface findings via the standup digest, prioritized. (Wolf 2026-06-09.) [2026-06-30 nightly: Anthropic-stack catch-up cluster COMPLETE (Dreaming + Outcomes + Multiagent + S…",
+      "description_chars": 1302,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Governance",
@@ -1297,8 +1297,8 @@
       "autonomy": "Auto",
       "department": "Operations",
       "prov": null,
-      "review": "r-triaged",
-      "review_label": "Triaged",
+      "review": "r-none",
+      "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -1443,73 +1443,6 @@
       "first_seen": "2026-09-15"
     },
     {
-      "id": "MOS-T-078",
-      "title": "Missed-slot check for Cowork scheduled lanes…",
-      "description": "Approved for the board by Wolf 2026-10-27 attended (D-MC-2026-10-27-GZ8EE457TC-02). Why: from 2026-10-25 to 2026-10-27 the Claude desktop app was off (Wolf: closed during the Mac Mini cleanup, not restarted) and every Cowork lane missed its slots — nightly hygiene ~11.9 h late, morning stand-up ~6.9 h late, dispatch pickup 4 slots missed — while the lane-health grader and check_lane_silence.py stayed green (silence check does not watch Cowork lanes). Found only from a late brief. Build: a check that compares each Cowork lane's scheduled slot with its run stamp and pages (via _lane_alerts/) on…",
-      "description_chars": 951,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Substrate",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "S",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Auto",
-      "department": "Operations",
-      "prov": null,
-      "review": "r-none",
-      "review_label": null,
-      "kind": "tasks",
-      "first_seen": "2026-10-27"
-    },
-    {
-      "id": "MOS-T-079",
-      "title": "Warn before any MAXX access token expires…",
-      "description": "Approved by Wolf 2026-10-28 attended (D-MC-2026-10-28-JT8VA4B0P1-05). Why: the local GitHub connector's token expired with no warning and blocked Signal's switch-over to www.maxxsignal.com until Wolf regenerated it (Signal closing update 2026-10-28 §4). Done means: an inventory of every token MAXX lanes and connectors depend on, with its expiry date, and a check that turns red on the stand-up board at least 7 days before any expiry. Never stores the token value itself. Register row: CF-GITHUB-TOKEN-EXPIRY-SILENT-1.",
-      "description_chars": 520,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Substrate",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos",
-        "v-signal"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "S",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Wolf",
-      "department": "Operations",
-      "prov": null,
-      "review": "r-none",
-      "review_label": null,
-      "kind": "tasks",
-      "first_seen": "2026-10-28"
-    },
-    {
       "id": "MOS-T-080",
       "title": "Finish the Zernio go-live after Signal's profiles chat…",
       "description": "Session QRM02E7VMW ran the Zernio security check: passed with conditions (_MAXX_OS/Capabilities/third-party-security-audit/AUDIT_ZERNIO-MCP_2026-10-29.md). Wolf ruled 2026-10-29 20:36 that Zernio connects inside Signal's day-one profiles chat (SIG-626), not in Mission Control; the click path and conditions went to SIGNAL/_Inbox/FROM-MC_zernio-security-check_2026-10-29.md. Trigger: Signal's closeout for the profiles chat exists and reports the permission screen, the tool list and the per-post fields. Done means: audit file updated to GREEN (or REJECT), the fields written into MOS-CONTENT-ENGIN…",
@@ -1542,39 +1475,6 @@
       "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-10-29"
-    },
-    {
-      "id": "MOS-T-082",
-      "title": "Closeout gate: any Mission Control chat that edits MOS_TASKS.md runs the canonical-views verify before it closes",
-      "description": "Approved by Wolf 2026-10-30 attended (D-MC-2026-10-29-3CD3DW8QPS-10). Why: three MC chats in a row (27, 28, 29 Oct) edited the task list and closed without running render_canonical_state.py --verify; each time the next morning's views render went DRIFT on the paired-row check (Linked cells holding notes or two IDs). Build: one line in the closeout procedure's state audit (_index/cowork-satellites/SATELLITE-CLOSEOUT-PROTOCOL.md §5.2 or §5.5): if _index/MOS_TASKS.md changed this chat, run MAXX_NO_HEARTBEAT=1 python3 _MAXX_OS/Capabilities/dashboard-publisher/render_canonical_state.py --maxx-root…",
-      "description_chars": 786,
-      "status": "s-todo",
-      "priority": "p-p1",
-      "segment": "Substrate",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "XS",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Auto",
-      "department": "Operations",
-      "prov": null,
-      "review": "r-none",
-      "review_label": null,
-      "kind": "tasks",
-      "first_seen": "2026-10-30"
     },
     {
       "id": "MOS-T-083",
@@ -7432,8 +7332,8 @@
     {
       "id": "MOS-T-041",
       "title": "Adopt skill origin: field + reference watch-list",
-      "description": "🔬 RESEARCHED 2026-06-22 (MC-STANDUP-QUICKWINS-1) — policy ratified: the origin: provenance field is now a hard requirement (Gate 2 of MOS-AGENT-CREATION-METHODOLOGY-0001). Rollout remaining (now Auto-eligible, no decision needed): (a) backfill origin: into existing MAXX skill front-matter — STILL OPEN; this is the only reason the row is not Done; (b) stand up the \"reference watch-list\" doc (ECC / superpowers / anthropics-skills / wshobson) with last-checked dates — ✅ SHIPPED 2026-07-25 at ~/MAXX/_MAXX_OS/Reference/MOS-REFERENCE-WATCHLIST-0001.md (v0.1 in fact already existed from MC-STANDUP-2…",
-      "description_chars": 858,
+      "description": "RULED 2026-11-16 (D-MC-2026-11-16-PCS6V7H5H2-07, attended): do it — backfill origin: + write the watch-list; queued for the next attended MC build session. 🔬 RESEARCHED 2026-06-22 (MC-STANDUP-QUICKWINS-1) — policy ratified: the origin: provenance field is now a hard requirement (Gate 2 of MOS-AGENT-CREATION-METHODOLOGY-0001). Rollout remaining (now Auto-eligible, no decision needed): (a) backfill origin: into existing MAXX skill front-matter — STILL OPEN; this is the only reason the row is not Done; (b) stand up the \"reference watch-list\" doc (ECC / superpowers / anthropics-skills / wshobson)…",
+      "description_chars": 1014,
       "status": "s-todo",
       "priority": "p-p2",
       "segment": "Governance",
@@ -7457,8 +7357,8 @@
       "autonomy": "Auto",
       "department": "Operations",
       "prov": null,
-      "review": "r-researched",
-      "review_label": "Researched",
+      "review": "r-none",
+      "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-06-09"
     },
@@ -7662,40 +7562,6 @@
       "review_label": null,
       "kind": "tasks",
       "first_seen": "2026-09-15"
-    },
-    {
-      "id": "MOS-T-081",
-      "title": "Shared number allocator for Signal's parallel chats…",
-      "description": "Approved by Wolf 2026-10-30 attended (D-MC-2026-10-29-3CD3DW8QPS-06). Why: Signal's parallel chats double-numbered decisions and tasks for nine weeks; per-chat number blocks fixed decisions but task numbers still collided once (weekly synthesis 2026-10-18 W7). Mission Control's computed-token scheme does not fit Signal's sequential numbers. Build: a small script with a lock file and a \"claim the next N\" call for Signal's decision and task numbers, ~30 min; Signal adopts it once it exists. Done when: two simulated parallel claims get disjoint numbers in a test, and Signal's instructions point…",
-      "description_chars": 834,
-      "status": "s-todo",
-      "priority": "p-p2",
-      "segment": "Substrate",
-      "venture": "v-mos",
-      "ventures": [
-        "v-mos",
-        "v-signal"
-      ],
-      "deadline": null,
-      "deadline_label": null,
-      "deadline_class": "d-future",
-      "effort_mc": "S",
-      "effort_wolf": null,
-      "source": "~/MAXX/_index/MOS_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "MC",
-      "executor_list": [
-        "MC"
-      ],
-      "autonomy": "Wolf",
-      "department": "Operations",
-      "prov": null,
-      "review": "r-none",
-      "review_label": null,
-      "kind": "tasks",
-      "first_seen": "2026-10-30"
     },
     {
       "id": "SIG-034",
@@ -23793,6 +23659,106 @@
       "first_seen": "2026-07-11"
     },
     {
+      "id": "MOS-T-078",
+      "title": "Missed-slot check for Cowork scheduled lanes…",
+      "description": "DONE 2026-11-16 (D-MC-2026-11-16-PCS6V7H5H2-05/-08, attended): installed substrate-hygiene/scripts/check_missed_slots.py (from reviewed draft v0.3, unchanged) and wired into agent-inbox/lane_health_alert.py v1.1 (hourly) — one page per MISSED/RESCUED lane per day, key missed-slot-<lane>. Also covers synthesis 2026-11-15 N5(1), a weekly job left switched off. Red test: graded as of 2026-11-23T02:00Z → MISSED 11, exit 1; live: CLEAR. Backup lane_health_alert.py.bak-pre-missed-slots-2026-11-16. Approved for the board by Wolf 2026-10-27 attended (D-MC-2026-10-27-GZ8EE457TC-02). Why: from 2026-10-…",
+      "description_chars": 1448,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Substrate",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "S",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": null,
+      "review": "r-none",
+      "review_label": null,
+      "kind": "tasks",
+      "first_seen": "2026-10-27"
+    },
+    {
+      "id": "MOS-T-079",
+      "title": "Warn before any MAXX access token expires…",
+      "description": "DONE 2026-11-16 (D-MC-2026-11-16-PCS6V7H5H2-08, attended): inventory _index/TOKEN_EXPIRY_INVENTORY.md (names and dates only) + substrate-hygiene/scripts/check_token_expiry.py, wired into lane_health_alert.py v1.1 — pages once a day per token at ≤7 days or expired. All four expiry dates are unknown until Wolf fills them (GitHub token first). Test: a row dated 4 days out graded SOON, verdict RED. Approved by Wolf 2026-10-28 attended (D-MC-2026-10-28-JT8VA4B0P1-05). Why: the local GitHub connector's token expired with no warning and blocked Signal's switch-over to www.maxxsignal.com until Wolf r…",
+      "description_chars": 918,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Substrate",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos",
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "S",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Wolf",
+      "department": "Operations",
+      "prov": null,
+      "review": "r-none",
+      "review_label": null,
+      "kind": "tasks",
+      "first_seen": "2026-10-28"
+    },
+    {
+      "id": "MOS-T-082",
+      "title": "Closeout gate: any Mission Control chat that edits MOS_TASKS.md runs the canonical-views verify before it closes",
+      "description": "DONE 2026-11-16 (D-MC-2026-11-16-PCS6V7H5H2-08, attended): verify gate added to SATELLITE-CLOSEOUT-PROTOCOL.md §5.2 (pre-edit copy archived _archive/SATELLITE-CLOSEOUT-PROTOCOL_pre-MOS-T-082_2026-11-16.md); verify ran CLEAN the same session. Approved by Wolf 2026-10-30 attended (D-MC-2026-10-29-3CD3DW8QPS-10). Why: three MC chats in a row (27, 28, 29 Oct) edited the task list and closed without running render_canonical_state.py --verify; each time the next morning's views render went DRIFT on the paired-row check (Linked cells holding notes or two IDs). Build: one line in the closeout procedu…",
+      "description_chars": 1028,
+      "status": "s-done",
+      "priority": "p-p1",
+      "segment": "Substrate",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "XS",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Auto",
+      "department": "Operations",
+      "prov": null,
+      "review": "r-none",
+      "review_label": null,
+      "kind": "tasks",
+      "first_seen": "2026-10-30"
+    },
+    {
       "id": "SIG-010",
       "title": "Analytics spec locked (v1.0)",
       "description": "Event taxonomy + measurement plan. v1.1 re-eval pending (SIG-033).",
@@ -29267,6 +29233,40 @@
       "first_seen": "2026-08-19"
     },
     {
+      "id": "MOS-T-081",
+      "title": "Shared number allocator for Signal's parallel chats…",
+      "description": "DONE 2026-11-16 (D-MC-2026-11-16-PCS6V7H5H2-08, attended): substrate-hygiene/scripts/claim_signal_numbers.py — lock-free append-only ledger SIGNAL/_index/NUMBER_CLAIMS.tsv (created on first claim), floor read from the Decisions Log and SIGNAL_TASKS.md (today 313 / 754). --selftest: 4 parallel claims → disjoint blocks, PASS twice. Signal adopts it (its instructions point at the script) — hand-off SIGNAL/_Inbox/FROM-MC_standup-rulings_2026-11-16.md. Approved by Wolf 2026-10-30 attended (D-MC-2026-10-29-3CD3DW8QPS-06). Why: Signal's parallel chats double-numbered decisions and tasks for nine wee…",
+      "description_chars": 1286,
+      "status": "s-done",
+      "priority": "p-p2",
+      "segment": "Substrate",
+      "venture": "v-mos",
+      "ventures": [
+        "v-mos",
+        "v-signal"
+      ],
+      "deadline": null,
+      "deadline_label": null,
+      "deadline_class": "d-future",
+      "effort_mc": "S",
+      "effort_wolf": null,
+      "source": "~/MAXX/_index/MOS_TASKS.md",
+      "created": null,
+      "zone": "done",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Wolf",
+      "department": "Operations",
+      "prov": null,
+      "review": "r-none",
+      "review_label": null,
+      "kind": "tasks",
+      "first_seen": "2026-10-30"
+    },
+    {
       "id": "SIG-021",
       "title": "Product Backlog hygiene to v1.3.4",
       "description": "Cluster-E placeholder-ID renumber; OQ-BACKLOG-06 closed (SIG4) before onboarding research.",
@@ -30597,6 +30597,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 16, 2026 · 5:05 PM CET",
-  "published_at_iso": "2026-11-16T17:05:07+0100"
+  "published_at": "November 16, 2026 · 5:20 PM CET",
+  "published_at_iso": "2026-11-16T17:20:19+0100"
 }
