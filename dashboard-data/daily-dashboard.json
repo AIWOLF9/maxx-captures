@@ -5226,7 +5226,7 @@
       "id": "SIG-733",
       "title": "Land the affiliate rulings of 10 Nov in the Ambassador spec + Pricing + Decisions Log",
       "description": "Wolf ruled 10 Nov: early-bird lifetime window = 6 months (Ambassador spec v1.2.4 says 12 / Day 365 — correct it; Pricing v1.4 already says 6). Three safeguards approved: (1) no commission payable until the 30-day money-back window ends; (2) lifetime commission continues only while the affiliate stays in good standing; (3) graduates (100 active members) get 40% on new referrals for their cohort's duration. Rates unchanged (30% / 40%). Three-Step on each Final doc. ▶ 16 Nov 2026, attended stand-up — RULED (Decision 312 ①②): the early window for standard ambassadors is \"for a limited time\" (no p…",
-      "description_chars": 1009,
+      "description_chars": 1229,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -5254,7 +5254,7 @@
       "id": "SIG-739",
       "title": "Verify the model's placeholder inputs before the investor version",
       "description": "Ad network threshold / RPM / fill; conversion rates vs category references; contractor rates (Magic, OneTree quotes); app-store signup and web-checkout shares; UGC CPM; support ratio. Each with a source and date. Added 11 Nov (Decision 297 ⑦): department-head pay ($7K–12K a month placeholders) against market. ▶ 16 Nov 2026, unattended stand-up: part 1 of 2 drafted — the inventory of the 22 placeholder inputs this task names, with model values and sheet rows (Assumptions and Team & Expenses of Financial Model v3.3): 07_Finance/Working/SIG-739_PLACEHOLDER-INPUTS_INVENTORY_DRAFT_2026-11-16.md. N…",
-      "description_chars": 1387,
+      "description_chars": 1662,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Finance",
@@ -5310,7 +5310,7 @@
       "id": "SIG-754",
       "title": "Next platforms after YouTube…",
       "description": "Created 16 Nov 2026, attended stand-up (Wolf). A planning, strategy and brainstorming session using first principles and best practices: which platforms MAXX Signal brings on after YouTube and in what order (X, Instagram, TikTok, Facebook, the open web), what we can bring in from each and how it would work, and what the user experience should ideally look like. Output: a recommended platform order with reasons, and a mockup of a dashboard that pulls from multiple sources beyond YouTube. Feeds the investor deck's concept slide (multi-platform topic dashboard, tagged Concept — not built, SIG-38…",
-      "description_chars": 846,
+      "description_chars": 1366,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -30597,6 +30597,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 16, 2026 · 3:49 PM CET",
-  "published_at_iso": "2026-11-16T15:49:14+0100"
+  "published_at": "November 16, 2026 · 4:04 PM CET",
+  "published_at_iso": "2026-11-16T16:04:26+0100"
 }
