@@ -758,9 +758,9 @@
     },
     {
       "id": "SIG-771",
-      "title": "HubSpot raise pipeline with a relationship log…",
-      "description": "Created 17 Nov 2026 ~21:20 Zagreb, attended (fundraising-system review chat; Wolf: \"OK, you can add the tasks\"). From the Fundraising System Review v0.1 (https://claude.ai/artifact/UwB7E6x3g15ih3s31rxb28), which reviewed the third-party seed-skill pack (not installed; ideas borrowed). IDs taken from a gap at 770+ because the investor-deck chat is creating tasks in parallel and the number allocator (SIG-755) is not adopted yet. A HubSpot deal pipeline \"Friends & Family Round\" with seven stages (listed and scored, first touch, call booked, after-call pack sent, committed, closed and funded, kee…",
-      "description_chars": 1052,
+      "title": "Check and extend the existing HubSpot Investors pipeline…",
+      "description": "⚠️ CORRECTED 17 Nov 2026 ~22:30 (Wolf caught it): an Investors deal pipeline ALREADY EXISTS — built 29 Oct with Advisors and Ambassadors & partners pipelines and Wolf's stage edits (_Transcripts/closeouts/CLOSEOUT_2026-10-29_GTM-30000FT.md). This task checks it and adds what is missing; it does not build a new one. Created 17 Nov 2026 ~21:20 Zagreb, attended (fundraising-system review chat; Wolf: \"OK, you can add the tasks\"). From the Fundraising System Review v0.1 (https://claude.ai/artifact/UwB7E6x3g15ih3s31rxb28), which reviewed the third-party seed-skill pack (not installed; ideas borrowe…",
+      "description_chars": 1369,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -865,6 +865,34 @@
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-17"
+    },
+    {
+      "id": "SIG-779",
+      "title": "Fundraising and go-to-market A-to-Z review chat…",
+      "description": "Created 17 Nov 2026 ~22:30 Zagreb, attended (Wolf's instruction at the close of the fundraising-system review chat). Wolf: go over the plan, agree on all the moving parts, make sure everything is set up appropriately, then start the process as soon as possible (could be next week). Covers: finalising the investor list and the messaging (Wolf has not finalised either), verifying HubSpot (the 29 Oct pipelines), the tracked deck link (Papermark or DocSend), the investor room, the lawyer question, tranche rules, the closing checklist, the update template, and the go-to-market side (advisors, amba…",
+      "description_chars": 739,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "GTM",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "2h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-11-17"
     },
@@ -30905,6 +30933,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 17, 2026 · 9:21 PM CET",
-  "published_at_iso": "2026-11-17T21:21:44+0100"
+  "published_at": "November 17, 2026 · 10:22 PM CET",
+  "published_at_iso": "2026-11-17T22:22:23+0100"
 }
