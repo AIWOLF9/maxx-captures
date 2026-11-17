@@ -115,8 +115,8 @@
     {
       "id": "SIG-381",
       "title": "Investor deck…",
-      "description": "Current state, 17 Nov 2026 (chat 16): the raise is $1M in three tranches ($200K at a $3M cap, $300K at $5M, $500K at $9M), not $6M pre. The deck follows Investor Presentation Spec v0.1 (claude.ai/artifact/CkuQREVKoR6DF3afbxN3qR), now Investor Presentation Spec v0.2 (claude.ai/artifact/5bqz5qihtdGNDuCxygyTkv, 25 main slides plus appendix A1–A7, written 17 Nov after the research pass; v0.1 kept unchanged with Wolf's notes). Next: Wolf approves the 25 headlines, then the build. Wolf's 17 Nov rulings: build the PRESENTER deck first (click-by-click builds, a product tour like the website) and deci…",
-      "description_chars": 5757,
+      "description": "17 Nov 2026 ~22:40 Zagreb (chat 18): Spec v0.3 written (26 slides, approved ribbon titles, all of Wolf's inline notes, Care Angel devices, Excel v3.3 numbers incl. gross margin 84%→82% and cost to serve vs revenue per member): https://claude.ai/artifact/VL5WNm6B8zeSCyTtd46FfQ. Four-slide look-and-feel sample (cover, problem, tour, numbers) built in Slides for Wolf's approval: https://claude.ai/artifact/FpTYTgPebDL4T18g23RGrq. Waiting on Wolf: sample approval; Care Angel exit wording. Current state, 17 Nov 2026 (chat 16): the raise is $1M in three tranches ($200K at a $3M cap, $300K at $5M, $5…",
+      "description_chars": 6246,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -5401,6 +5401,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-11-16"
+    },
+    {
+      "id": "SIG-757",
+      "title": "Signal Central concept…",
+      "description": "Created 17 Nov 2026, chat 16 (Wolf's instruction). Signal Central = the one place where every source on a topic lives (YouTube, X, TikTok, news, the web), calm and curated, with \"Why am I seeing this?\" on every card; second half of 2027 onward, not in the model. Wolf wants a creative chat to settle how it works (e.g. a tab per platform) and make a mockup for the deck's Signal Central concept slide (tagged Concept — not built). Signal Studio stays the name of the future creation tier.",
+      "description_chars": 488,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Product",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "1h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "VULCAN",
+      "executor_list": [
+        "VULCAN"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "joint-owner",
+      "department": "Products",
+      "kind": "tasks",
+      "first_seen": "2026-11-17"
     },
     {
       "id": "SIG-775",
@@ -30933,6 +30961,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 17, 2026 · 10:22 PM CET",
-  "published_at_iso": "2026-11-17T22:22:23+0100"
+  "published_at": "November 17, 2026 · 10:37 PM CET",
+  "published_at_iso": "2026-11-17T22:37:35+0100"
 }
