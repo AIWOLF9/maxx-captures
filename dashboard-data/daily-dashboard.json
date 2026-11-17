@@ -115,9 +115,9 @@
     {
       "id": "SIG-381",
       "title": "Investor deck…",
-      "description": "Added 2026-08-13 (Wolf's instruction, this chat). Movement 1 compressed to a market thesis, then wedge / product / model / comps / unit economics / roadmap / ask. Built from Financial Model One-Pager v1.0, Pricing v1.4, APOLLO TAM-SAM-SOM and the SIG-377 competitor synthesis. Wolf set the ask ($1M friends & family, $6M pre-money); the use-of-funds split is Claude-derived and explicitly marked on-slide as his to overwrite. Slides 20-22 are the honesty block: counter-cases, the model's own \"calibrate before external use\" caveat with 4 known-stale inputs, and the 7 inputs only Wolf can supply. B…",
-      "description_chars": 4901,
-      "status": "s-todo",
+      "description": "Current state, 17 Nov 2026 (chat 16): the raise is $1M in three tranches ($200K at a $3M cap, $300K at $5M, $500K at $9M), not $6M pre. The deck follows Investor Presentation Spec v0.1 (claude.ai/artifact/CkuQREVKoR6DF3afbxN3qR), being revised to v0.2 (~24 main slides plus appendix) after a best-practice research pass. Wolf's 17 Nov rulings: build the PRESENTER deck first (click-by-click builds, a product tour like the website) and decide on a separate send version afterwards; projections stay as in Excel v3.3; the ownership slide moves to the appendix; the advisor slide shows the types of ad…",
+      "description_chars": 5598,
+      "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
       "venture": "v-signal",
@@ -10892,6 +10892,34 @@
       "autonomy": "Batch",
       "autonomy_reason": "venture-declared",
       "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-11-17"
+    },
+    {
+      "id": "SIG-756",
+      "title": "Narrated video version of the Signal story…",
+      "description": "Created 17 Nov 2026, chat 16 (Wolf's instruction). Wolf wants a self-playing version of the story (problem, solution, join the movement) with visuals, narration and a voiceover, for anybody rather than investors only, usable on Kickstarter and the website. First step: research the best way to make it (Claude Code, NotebookLM video overviews, or other tools). Start from the TED-style keynote draft (SIG-380, 05_Marketing/Working/SIG-380_presentations/) and the website story, not the investor deck. Not started until the investor deck is done.",
+      "description_chars": 545,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "HERMES",
+      "executor_list": [
+        "HERMES"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "joint-owner",
+      "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-11-17"
     },
@@ -30625,6 +30653,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 17, 2026 · 9:29 AM CET",
-  "published_at_iso": "2026-11-17T09:29:32+0100"
+  "published_at": "November 17, 2026 · 7:05 PM CET",
+  "published_at_iso": "2026-11-17T19:05:22+0100"
 }
