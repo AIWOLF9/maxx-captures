@@ -116,7 +116,7 @@
       "id": "SIG-381",
       "title": "Investor deck…",
       "description": "17 Nov 2026 ~22:40 Zagreb (chat 18): Spec v0.3 written (26 slides, approved ribbon titles, all of Wolf's inline notes, Care Angel devices, Excel v3.3 numbers incl. gross margin 84%→82% and cost to serve vs revenue per member): https://claude.ai/artifact/VL5WNm6B8zeSCyTtd46FfQ. Four-slide look-and-feel sample (cover, problem, tour, numbers) built in Slides for Wolf's approval: https://claude.ai/artifact/FpTYTgPebDL4T18g23RGrq. 23:20: Wolf reviewed the sample — footer centred, simple text now flows in on its own (sample updated); Care Angel exit wording approved; spec v0.3 updated with the Stor…",
-      "description_chars": 6657,
+      "description_chars": 6933,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -30961,6 +30961,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 17, 2026 · 11:07 PM CET",
-  "published_at_iso": "2026-11-17T23:07:56+0100"
+  "published_at": "November 18, 2026 · 12:54 AM CET",
+  "published_at_iso": "2026-11-18T00:54:01+0100"
 }
