@@ -10880,7 +10880,7 @@
       "deadline_label": "Phase —",
       "deadline_class": "d-future",
       "effort_mc": "0.5h",
-      "effort_wolf": "5m",
+      "effort_wolf": null,
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
@@ -30625,6 +30625,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 17, 2026 · 9:14 AM CET",
-  "published_at_iso": "2026-11-17T09:14:19+0100"
+  "published_at": "November 17, 2026 · 9:29 AM CET",
+  "published_at_iso": "2026-11-17T09:29:32+0100"
 }
