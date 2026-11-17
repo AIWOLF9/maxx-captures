@@ -32,7 +32,7 @@
       "id": "SIG-049",
       "title": "Lemon Squeezy account + products + checkout/portal + webhooks",
       "description": "Stand up merchant-of-record. RE-SCOPED 2026-08-05 (SIG-049 review): was S/0.5h — that priced the clicking only. Real chain = publishable maxxsignal.com (SIG-324) + published legal pages (SIG-325) + Stripe Connect KYC with a 2-3 business-day external review + hand-built products (API cannot create products/variants). \"4 products\" is STALE — the SIG-322 deposit must be a subscription product; reconcile the count when SIG-322 locks. Full runbook: 09_Operations/Final/checklists/MAXX_Signal_Payments_Activation_Runbook_v1_0.md; procedure restored at Pre-Build Checklist v1.1 §4A. [2026-09-11 — ⛔ DO…",
-      "description_chars": 5276,
+      "description_chars": 5799,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Ops",
@@ -116,7 +116,7 @@
       "id": "SIG-381",
       "title": "Investor deck…",
       "description": "Added 2026-08-13 (Wolf's instruction, this chat). Movement 1 compressed to a market thesis, then wedge / product / model / comps / unit economics / roadmap / ask. Built from Financial Model One-Pager v1.0, Pricing v1.4, APOLLO TAM-SAM-SOM and the SIG-377 competitor synthesis. Wolf set the ask ($1M friends & family, $6M pre-money); the use-of-funds split is Claude-derived and explicitly marked on-slide as his to overwrite. Slides 20-22 are the honesty block: counter-cases, the model's own \"calibrate before external use\" caveat with 4 known-stale inputs, and the 7 inputs only Wolf can supply. B…",
-      "description_chars": 4643,
+      "description_chars": 4901,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -508,7 +508,7 @@
       "id": "SIG-653",
       "title": "Email preferences link unsubscribes people instantly…",
       "description": "Created 29 Oct 2026, attended stand-up — Wolf found it. In the invitation reminder sent by the site (from hello@mail.maxxsignal.com via Resend), the footer link Email preferences goes to the same /api/unsubscribe address as Unsubscribe, and opening it unsubscribes at once (\"You're unsubscribed\"). Wolf clicked it only to see his preferences and was unsubscribed (his test address vivoveritas+invitetest@gmail.com; harmless). Two defects: (1) a link labelled preferences that unsubscribes; (2) unsubscribing on a plain page visit, with no button, so a company email link-scanner can unsubscribe peop…",
-      "description_chars": 2051,
+      "description_chars": 2306,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Build",
@@ -647,8 +647,8 @@
     {
       "id": "SIG-738",
       "title": "With-raise vs without-raise comparison…",
-      "description": "Current settings never go below zero without the raise, so the case is acceleration: build a slower no-raise case (later hires, less marketing, slower member curve) vs the funded plan.",
-      "description_chars": 184,
+      "description": "Current settings never go below zero without the raise, so the case is acceleration: build a slower no-raise case (later hires, less marketing, slower member curve) vs the funded plan. ▶ 17 Nov 2026, unattended stand-up — draft 1 done (Claude), status left To-do until Wolf sets the slowdown sizes: three cases run headless on model tool v0.29 with settings v284 (baseline reproduces the 16 Nov run exactly). Finding: as built, the model holds growth fixed, so no raise gives the same revenue; the raise is the safety margin (no-raise low point $13,162 in month 7 vs $248,991 funded, Conservative) a…",
+      "description_chars": 868,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -3950,7 +3950,7 @@
       "id": "SIG-641",
       "title": "Investor and corporate paperwork for the friends-and-family raise…",
       "description": "Created 28 Oct 2026, attended stand-up (Wolf's organising message). Checked before creating: nothing on the board covered the raise paperwork itself (SIG-310 is the vehicle and CPA question; SIG-453 is the certified Articles). Wolf drops the Care Angel investor documents and his corporate documents into _Inbox/; Claude maps what each is for, what must change for MAXX Signal Inc. (a Florida C-corp), and what a lawyer must review before anything is signed or sent. Claude drafts; a lawyer signs off. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Fundraising; Department moved to 07 FIN…",
-      "description_chars": 11098,
+      "description_chars": 11892,
       "status": "s-doing",
       "priority": "p-p1",
       "segment": "Finance",
@@ -10866,6 +10866,34 @@
       "department": "Products",
       "kind": "tasks",
       "first_seen": "2026-11-12"
+    },
+    {
+      "id": "SIG-755",
+      "title": "Adopt Mission Control's number allocator for parallel chats (decision and task numbers)",
+      "description": "Created 17 Nov 2026, unattended stand-up, from Mission Control's 16 Nov hand-off (_Inbox/FROM-MC_standup-rulings_2026-11-16.md item 4). Checked first: nothing on the board mentions the allocator. MC built claim_signal_numbers.py (MOS-T-081) to reserve a block of Decision or task numbers for a parallel chat; ledger SIGNAL/_index/NUMBER_CLAIMS.tsv is created on first claim. To adopt, Signal's own instructions must point at it (an attended edit). Why it matters: parallel chats have collided on the next free number before.",
+      "description_chars": 524,
+      "status": "s-todo",
+      "priority": "p-p2",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase —",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": "5m",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-11-17"
     },
     {
       "id": "CF-CLOUD-PROBE-PARKED-2027-1",
@@ -30597,6 +30625,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 16, 2026 · 5:20 PM CET",
-  "published_at_iso": "2026-11-16T17:20:19+0100"
+  "published_at": "November 17, 2026 · 9:14 AM CET",
+  "published_at_iso": "2026-11-17T09:14:19+0100"
 }
