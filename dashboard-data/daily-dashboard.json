@@ -115,8 +115,8 @@
     {
       "id": "SIG-381",
       "title": "Investor deck…",
-      "description": "Current state, 17 Nov 2026 (chat 16): the raise is $1M in three tranches ($200K at a $3M cap, $300K at $5M, $500K at $9M), not $6M pre. The deck follows Investor Presentation Spec v0.1 (claude.ai/artifact/CkuQREVKoR6DF3afbxN3qR), being revised to v0.2 (~24 main slides plus appendix) after a best-practice research pass. Wolf's 17 Nov rulings: build the PRESENTER deck first (click-by-click builds, a product tour like the website) and decide on a separate send version afterwards; projections stay as in Excel v3.3; the ownership slide moves to the appendix; the advisor slide shows the types of ad…",
-      "description_chars": 5598,
+      "description": "Current state, 17 Nov 2026 (chat 16): the raise is $1M in three tranches ($200K at a $3M cap, $300K at $5M, $500K at $9M), not $6M pre. The deck follows Investor Presentation Spec v0.1 (claude.ai/artifact/CkuQREVKoR6DF3afbxN3qR), now Investor Presentation Spec v0.2 (claude.ai/artifact/5bqz5qihtdGNDuCxygyTkv, 25 main slides plus appendix A1–A7, written 17 Nov after the research pass; v0.1 kept unchanged with Wolf's notes). Next: Wolf approves the 25 headlines, then the build. Wolf's 17 Nov rulings: build the PRESENTER deck first (click-by-click builds, a product tour like the website) and deci…",
+      "description_chars": 5757,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -30653,6 +30653,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 17, 2026 · 7:05 PM CET",
-  "published_at_iso": "2026-11-17T19:05:22+0100"
+  "published_at": "November 17, 2026 · 7:35 PM CET",
+  "published_at_iso": "2026-11-17T19:35:42+0100"
 }
