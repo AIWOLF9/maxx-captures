@@ -897,6 +897,34 @@
       "first_seen": "2026-11-18"
     },
     {
+      "id": "SIG-781",
+      "title": "Market size for the investor deck…",
+      "description": "Created 18 Nov 2026 ~02:20 Zagreb, chat 19 (Wolf: \"please do the research … it's important to have that slide of the market size\"). Checked before creating: the June 2026 market analysis (Research/market-analysis/MSIG-MKT-MARKET-ANALYSIS-0001_v0_1) has a TAM of ~84M \"attention-hygiene\" adults and a ~$30M Year 5 central case — narrower than the deck's story and below the model's $75.84M Year 5; SIG-384 reconciles revenue figures, not market size. Do: current YouTube and social-media user counts (sourced, dated), a top-down TAM → SAM → SOM, each audience on the market slide sized, and how the S…",
+      "description_chars": 932,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-18"
+    },
+    {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
       "title": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked i…",
       "description": "A finding that is true, well-sourced and well-researched but is not relevant to the question actually asked is a *defect*, not a bonus — and that rule exists nowhere in the rulebook. Originated MC-ENTITY-SETUP-2026-09-04 (2026-09-04, attended, session VP7M4GYP0Y), filed there as decision candidate D-MC-2026-09-04-VP7M4GYP0Y-01, and never ratified, never routed and never written to any register — homeless for five days until this row. Wolf, attended, verbatim: *\"Please don't get us off the path with minutia details about affiliate commissions or commissions or blended rates. That has nothing t…",
@@ -5405,8 +5433,8 @@
     {
       "id": "SIG-757",
       "title": "Signal Central concept…",
-      "description": "Created 17 Nov 2026, chat 16 (Wolf's instruction). Signal Central = the one place where every source on a topic lives (YouTube, X, TikTok, news, the web), calm and curated, with \"Why am I seeing this?\" on every card; second half of 2027 onward, not in the model. Wolf wants a creative chat to settle how it works (e.g. a tab per platform) and make a mockup for the deck's Signal Central concept slide (tagged Concept — not built). Signal Studio stays the name of the future creation tier.",
-      "description_chars": 488,
+      "description": "Created 17 Nov 2026, chat 16 (Wolf's instruction). Signal Central = the one place where every source on a topic lives (YouTube, X, TikTok, news, the web), calm and curated, with \"Why am I seeing this?\" on every card; second half of 2027 onward, not in the model. Wolf wants a creative chat to settle how it works (e.g. a tab per platform) and make a mockup for the deck's Signal Central concept slide (tagged Concept — not built). Signal Studio stays the name of the future creation tier. 18 Nov 2026 (chat 19): Wolf wants this as its own working session with brainstorming before mockups; opener _W…",
+      "description_chars": 649,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Product",
@@ -30989,6 +31017,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 18, 2026 · 1:54 AM CET",
-  "published_at_iso": "2026-11-18T01:54:47+0100"
+  "published_at": "November 18, 2026 · 2:25 AM CET",
+  "published_at_iso": "2026-11-18T02:25:08+0100"
 }
