@@ -480,7 +480,7 @@
       "id": "SIG-627",
       "title": "Advisory board…",
       "description": "Created 18 Oct 2026, attended stand-up and audit (SIG-623). Wolf 17 Oct: *\"getting some advisors on board and partners… doing some research to invite certain people to get on our advisory board and putting together an advisory agreement. I think I have an example or two that would just provide them with some stock options to be an advisor.\"* ① Claude: a researched shortlist by need (digital wellbeing and youth-media research, creator economy and YouTube, schools and parent groups, consumer subscription growth, fundraising), with why each and a route to reach them; ② Wolf drops his example agr…",
-      "description_chars": 6048,
+      "description_chars": 8404,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Ops",
@@ -493,7 +493,7 @@
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "open",
-      "owner": "Claude+Wolf 15 Nov 2026 ~23:00 (chat 14): advisory agreement draft v1 written — Care Angel 2017 letter + HAPPYY NDA confidentiality/non-solicit, options point to form 10-2; Google Doc https://docs.google.com/document/d/1R_wA0Zisl_P0rFomqtaYNWGTFQKRRWpid--5x7D_TT0/edit ; .docx in 08_Legal/Draft/Corporate-Records_2026-11/; tracker row 11 = Draft — Wolf to review. 15 Nov ~23:30: v2 per Decision 307 — fixed number of shares granted after signing, no link to the round, dilution sentence; a DocuSign agreement, not an emailed letter (welcome email comes with advisor messaging). Google Doc v2 https://docs.google.com/document/d/1ZkKLxaYQ32hZKAaM0hHmEy_n6kblBR5hOdmS6p8xOM0/edit (v1 renamed SUPERSEDED). 16 Nov ~00:15: Wolf edited v2 in Google (minimum 4 hours a month, i.e. 1 a week; mission line; % sentence after the share count). Claude added doc 13, a one-page board consent approving each grant (https://docs.google.com/document/d/1UixdylG1NpIFgcGegJ8FLGoyOthe_lUdb0vMq90WYMs/edit), so 11 + 10-2 + plan 09 go in one DocuSign envelope. 16 Nov ~00:30 (Decision 308): no consent per grant — 13 rewritten as v2, a one-time delegation letting the CEO grant within limits (https://docs.google.com/document/d/1a4hOl7EgyG0H4wzOjvoWBYMTB-uiNgs9BCLITynPswI/edit). Wolf keeps his \"algorithms\" wording; \"options to purchase\" agreed. 16 Nov ~00:30: Wolf kept non-solicit (d)–(e); 11 v3 = his edited v2 + \"options to purchase\" — approved template, https://docs.google.com/document/d/1pvS9Dw1z4ZEvwoREQp0Coah7ldAJEu85XaGG25Q5P_o/edit . 13 signed and filed 08_Legal/Final/MSIG-CORP-13_Written-Consent-Delegating-Option-Grant-Authority_SIGNED_2026-11-15.pdf (text diffed against the review copy: only the 150,000 cap and date differ; signature checked). Agreement drafting DONE; still open in this task: research advisors to invite, and the invites (messaging after the cap table and model stress test). 15 Nov 2026 (chat 13): grant form 10-2 approved — 48 monthly installments, no cliff, NSO only, vesting starts on the date the advisory agreement is signed (Decision 305); the advisory agreement should point to form 10-2, not restate the schedule. Drafting moves to chat 14: _Working/OPENER_ADVISOR-AGREEMENT-CHAT14_2026-11-15.md.",
+      "owner": "Claude+Wolf",
       "executor": "MC",
       "executor_list": [
         "MC"
@@ -900,7 +900,7 @@
       "id": "SIG-781",
       "title": "Market size for the investor deck…",
       "description": "Created 18 Nov 2026 ~02:20 Zagreb, chat 19 (Wolf: \"please do the research … it's important to have that slide of the market size\"). Checked before creating: the June 2026 market analysis (Research/market-analysis/MSIG-MKT-MARKET-ANALYSIS-0001_v0_1) has a TAM of ~84M \"attention-hygiene\" adults and a ~$30M Year 5 central case — narrower than the deck's story and below the model's $75.84M Year 5; SIG-384 reconciles revenue figures, not market size. Do: current YouTube and social-media user counts (sourced, dated), a top-down TAM → SAM → SOM, each audience on the market slide sized, and how the S…",
-      "description_chars": 932,
+      "description_chars": 1451,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -21962,7 +21962,7 @@
       "id": "SIG-730",
       "title": "Cap table…",
       "description": "Created 10 Nov 2026, attended (Wolf listed it among the equity chats). Checked before creating: no task held a cap table (grep cap table, 10 Nov: only SIG-627 mentions stock options). Claude builds the cap table from the company's real share facts (Wolf supplies authorised and issued shares and holders), then models the round: the $1M at $6M from SIG-381, the advisor option pool from SIG-627, and the instrument chosen in SIG-641 (a SAFE converts later, priced stock dilutes now). ⚠️ The deck says $6M PRE-money; Y Combinator's current SAFE uses a POST-money cap, and the two give different dilut…",
-      "description_chars": 2998,
+      "description_chars": 4205,
       "status": "s-done",
       "priority": "p-p0",
       "segment": "Finance",
@@ -21975,7 +21975,7 @@
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "done",
-      "owner": "Claude+Wolf 15 Nov 2026 (chat 13): founder shares issued 15 Nov; option price from the last funded round, 409A optional (Decision 304); the founder retainer accrues from 1 Nov at about $9,000/month until funding (Decision 306) — show it as money owed. Built in chat 14 after the advisory agreement. 16 Nov 2026 ~00:45 (chat 14): Cap Table tab built in the Corporate Records tracker (https://claude.ai/artifact/93GKbF5Dv5JBq3rGYT3tmx, tab \"Cap Table\") — inputs tied to Financial Model v3.2 Raise & Ownership; today and after each tranche (SAFEs as converted at their caps, post-money); 10% evergreen pool; grant register with vesting for 10-1/10-2; accrued founder retainer as money owed, not equity. Whole round: founder 74.8% fully diluted (82.3% before the pool), investors 16.1%, pool 9.1%; fully diluted 13,370,462; tranche prices $0.27 / $0.42 / $0.71. DONE 16 Nov 00:38 — Wolf: \"yes\"; expected funding date set to 1 Feb 2027 (retainer owed by then about $36,000). Evidence: Cap Table tab in the Corporate Records tracker (revision 48). Elapsed ~25 min (not effort).",
+      "owner": "Claude+Wolf",
       "executor": "PLUTUS",
       "executor_list": [
         "PLUTUS"
@@ -27962,7 +27962,7 @@
       "id": "SIG-752",
       "title": "Corporate documents gap review…",
       "description": "Created 13 Nov 2026 22:41, attended (finance chat 12). Wolf: review the corporate documents he has now (template formation documents from the incorporation), compare them with all the Care Angel documents he had before, find what is missing that we may need to create, and update or tweak what he has. Order he set: after the cap table (SIG-730), the advisory agreement (SIG-627) and the investor presentation (SIG-381) — this chat or the next. Checked before creating: SIG-641 covers the raise paperwork (investor documents, now approved v2), SIG-453 the certified Articles; neither holds a formati…",
-      "description_chars": 4201,
+      "description_chars": 5114,
       "status": "s-done",
       "priority": "p-p1",
       "segment": "Legal",
@@ -27975,7 +27975,7 @@
       "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
       "created": null,
       "zone": "done",
-      "owner": "Claude+Wolf 15 Nov 2026 — DONE (chat 13, Claude flips on evidence). Signed and filed in 08_Legal/Final/MSIG-CORP-*_SIGNED_2026-11-15.pdf: 01 Organizational Written Consent, 02 Founder Stock Purchase (9,999,999 shares to Wolf Ventures LLC — Stock Ledger entry 1 Issued 15 Nov), 03 Bylaws Amendment No. 1, 04 Initial Round consent, 05 Rule 506(d) questionnaire, 06 Existing Stockholder Joinder, 08 v3 option-plan consent, 12 Interim Agreement Amendment No. 1, R3 Founder Consulting Agreement, R3-A retainer deferral letter v2. Approved (unsigned templates): 09 plan v2, 10-1 employee and 10-2 advisor grant forms. 07 memorandum parked. Decisions 304–306. Remaining corporate items live elsewhere: advisory agreement SIG-627, cap table SIG-730, Form D/state filings at first sale.",
+      "owner": "Claude+Wolf",
       "executor": "THEMIS",
       "executor_list": [
         "THEMIS"
@@ -31017,6 +31017,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 18, 2026 · 2:25 AM CET",
-  "published_at_iso": "2026-11-18T02:25:08+0100"
+  "published_at": "November 18, 2026 · 9:29 AM CET",
+  "published_at_iso": "2026-11-18T09:29:04+0100"
 }
