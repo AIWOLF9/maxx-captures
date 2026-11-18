@@ -645,34 +645,6 @@
       "first_seen": "2026-11-07"
     },
     {
-      "id": "SIG-738",
-      "title": "With-raise vs without-raise comparison…",
-      "description": "Current settings never go below zero without the raise, so the case is acceleration: build a slower no-raise case (later hires, less marketing, slower member curve) vs the funded plan. ▶ 17 Nov 2026, unattended stand-up — draft 1 done (Claude), status left To-do until Wolf sets the slowdown sizes: three cases run headless on model tool v0.29 with settings v284 (baseline reproduces the 16 Nov run exactly). Finding: as built, the model holds growth fixed, so no raise gives the same revenue; the raise is the safety margin (no-raise low point $13,162 in month 7 vs $248,991 funded, Conservative) a…",
-      "description_chars": 868,
-      "status": "s-todo",
-      "priority": "p-p0",
-      "segment": "Finance",
-      "venture": "v-signal",
-      "deadline": null,
-      "deadline_label": "Phase Pre-Launch",
-      "deadline_class": "d-future",
-      "effort_mc": "2h",
-      "effort_wolf": "0.5h",
-      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
-      "created": null,
-      "zone": "open",
-      "owner": "Claude",
-      "executor": "PLUTUS",
-      "executor_list": [
-        "PLUTUS"
-      ],
-      "autonomy": "Auto",
-      "autonomy_reason": "venture-declared",
-      "department": "Finance",
-      "kind": "tasks",
-      "first_seen": "2026-11-11"
-    },
-    {
       "id": "SIG-749",
       "title": "Financial model guide…",
       "description": "Created 12 Nov 2026 03:51, attended (finance chat 6). Wolf: once the stress test is finished, discuss and create a manual overview — TL;DR, easy to understand, with an index of all the moving parts — so an investor reviewing the deck and the Excel does not have to decipher it; it summarises the main controls and assumptions and which levers move revenue, costs and conversion most, and documents the decisions made. Inputs: Decision 297 ①–⑩, the stress-test doc (claude.ai/artifact/4rt8ugg787LD3hVcHRiQe6, updated 12 Nov with the rulings table and current numbers), tool v0.23+. Checked before cre…",
@@ -900,7 +872,7 @@
       "id": "SIG-780",
       "title": "Replace Lemon Squeezy…",
       "description": "Created 18 Nov 2026, attended stand-up (Wolf). Lemon Squeezy wrote on 16 Nov that it is winding down and not accepting new stores. Wolf: replace it with the solution found; his separate research and Lemon Squeezy point to Stripe Managed Payments, and Dub for the ambassador program. Checked before creating: SIG-049 is the Lemon Squeezy set-up itself; no task covered a replacement. Review v0.1 (Claude, done): 09_Operations/Working/SIGNAL_PAYMENTS-REPLACEMENT-REVIEW_v0_1_2026-11-18.html — recommends Stripe Managed Payments + Dub with three checks: (1) a NEW direct Stripe account in the name of W…",
-      "description_chars": 1467,
+      "description_chars": 2931,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Ops",
@@ -16976,6 +16948,34 @@
       "first_seen": "2026-08-22"
     },
     {
+      "id": "SIG-738",
+      "title": "With-raise vs without-raise comparison…",
+      "description": "Current settings never go below zero without the raise, so the case is acceleration: build a slower no-raise case (later hires, less marketing, slower member curve) vs the funded plan. ▶ 17 Nov 2026, unattended stand-up — draft 1 done (Claude), status left To-do until Wolf sets the slowdown sizes: three cases run headless on model tool v0.29 with settings v284 (baseline reproduces the 16 Nov run exactly). Finding: as built, the model holds growth fixed, so no raise gives the same revenue; the raise is the safety margin (no-raise low point $13,162 in month 7 vs $248,991 funded, Conservative) a…",
+      "description_chars": 1441,
+      "status": "s-blocked",
+      "priority": "p-p0",
+      "segment": "Finance",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "2h",
+      "effort_wolf": "0.5h",
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "info",
+      "owner": "Claude",
+      "executor": "PLUTUS",
+      "executor_list": [
+        "PLUTUS"
+      ],
+      "autonomy": "Auto",
+      "autonomy_reason": "venture-declared",
+      "department": "Finance",
+      "kind": "tasks",
+      "first_seen": "2026-11-11"
+    },
+    {
       "id": "CF-ALERT-TWICE-NO-OWNER-1",
       "title": "An alert that fires twice acquires no owner, so a correct detector produces zero response indefinitely…",
       "description": "An alert that fires twice acquires no owner, so a correct detector produces zero response indefinitely. Measured 2026-08-30: maxx-canonical-views-render wrote a canonical-views-drift alert on 2026-08-28, 08-29 and 08-30 — all three correct, all three drained by the launchd job exactly as designed, all three unanswered, because detection has an owner and response does not. This substrate now has more detectors than responders (five synthesis claims retracted, one headline retracted 08-30b, three items corrected 08-30c) and adding another detector is the lower-value move. Proposed rule, NOT rul…",
@@ -30989,6 +30989,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 18, 2026 · 1:24 AM CET",
-  "published_at_iso": "2026-11-18T01:24:22+0100"
+  "published_at": "November 18, 2026 · 1:39 AM CET",
+  "published_at_iso": "2026-11-18T01:39:35+0100"
 }
