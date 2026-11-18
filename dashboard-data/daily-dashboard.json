@@ -32,7 +32,7 @@
       "id": "SIG-049",
       "title": "Lemon Squeezy account + products + checkout/portal + webhooks",
       "description": "Stand up merchant-of-record. RE-SCOPED 2026-08-05 (SIG-049 review): was S/0.5h — that priced the clicking only. Real chain = publishable maxxsignal.com (SIG-324) + published legal pages (SIG-325) + Stripe Connect KYC with a 2-3 business-day external review + hand-built products (API cannot create products/variants). \"4 products\" is STALE — the SIG-322 deposit must be a subscription product; reconcile the count when SIG-322 locks. Full runbook: 09_Operations/Final/checklists/MAXX_Signal_Payments_Activation_Runbook_v1_0.md; procedure restored at Pre-Build Checklist v1.1 §4A. [2026-09-11 — ⛔ DO…",
-      "description_chars": 5799,
+      "description_chars": 6277,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Ops",
@@ -115,8 +115,8 @@
     {
       "id": "SIG-381",
       "title": "Investor deck…",
-      "description": "17 Nov 2026 ~22:40 Zagreb (chat 18): Spec v0.3 written (26 slides, approved ribbon titles, all of Wolf's inline notes, Care Angel devices, Excel v3.3 numbers incl. gross margin 84%→82% and cost to serve vs revenue per member): https://claude.ai/artifact/VL5WNm6B8zeSCyTtd46FfQ. Four-slide look-and-feel sample (cover, problem, tour, numbers) built in Slides for Wolf's approval: https://claude.ai/artifact/FpTYTgPebDL4T18g23RGrq. 23:20: Wolf reviewed the sample — footer centred, simple text now flows in on its own (sample updated); Care Angel exit wording approved; spec v0.3 updated with the Stor…",
-      "description_chars": 6933,
+      "description": "18 Nov 2026 ~01:25 Zagreb (chat 19): Wolf said go on the v0.4 spec changes; the suggestion card was accepted. Full deck v1 built in the same Slides artifact, now titled \"MAXX Signal — Investor Deck v1 (draft)\": https://claude.ai/artifact/FpTYTgPebDL4T18g23RGrq — 40 main slides (acts: The Problem · The Solution · Why It Wins · The Opportunity, with dividers) + 9 appendix slides (A1–A8). 19 website clips and the website tour's own phone and desktop screens reused (desktop tour needed no new screens); Care Angel/Teladoc/Consult A Doctor logos and Wolf's LinkedIn photo on the founder slide. Every…",
+      "description_chars": 7967,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -895,6 +895,34 @@
       "department": "Marketing",
       "kind": "tasks",
       "first_seen": "2026-11-17"
+    },
+    {
+      "id": "SIG-780",
+      "title": "Replace Lemon Squeezy…",
+      "description": "Created 18 Nov 2026, attended stand-up (Wolf). Lemon Squeezy wrote on 16 Nov that it is winding down and not accepting new stores. Wolf: replace it with the solution found; his separate research and Lemon Squeezy point to Stripe Managed Payments, and Dub for the ambassador program. Checked before creating: SIG-049 is the Lemon Squeezy set-up itself; no task covered a replacement. Review v0.1 (Claude, done): 09_Operations/Working/SIGNAL_PAYMENTS-REPLACEMENT-REVIEW_v0_1_2026-11-18.html — recommends Stripe Managed Payments + Dub with three checks: (1) a NEW direct Stripe account in the name of W…",
+      "description_chars": 1467,
+      "status": "s-todo",
+      "priority": "p-p0",
+      "segment": "Ops",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase —",
+      "deadline_class": "d-future",
+      "effort_mc": "6h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Wolf + Claude",
+      "executor": "MC",
+      "executor_list": [
+        "MC"
+      ],
+      "autonomy": "Batch",
+      "autonomy_reason": "venture-declared",
+      "department": "Operations",
+      "kind": "tasks",
+      "first_seen": "2026-11-18"
     },
     {
       "id": "CF-RELEVANCE-IS-CORRECTNESS-1",
@@ -2129,8 +2157,8 @@
     {
       "id": "SIG-072",
       "title": "Affiliate program live in Lemon Squeezy + founding-partner onboarding",
-      "description": "Configure 30%/40% rates, application + manual-approval mode; hand-curate ~10–25 founding partners. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Ambassadors.",
-      "description_chars": 169,
+      "description": "Configure 30%/40% rates, application + manual-approval mode; hand-curate ~10–25 founding partners. ▶ 28 Oct 2026, SIG-644 (Wolf approved): Workstream set to Ambassadors. ▶ 18 Nov 2026, attended stand-up: Lemon Squeezy declined new stores (16 Nov); the affiliate program moves with the payments replacement, proposed on Dub (SIG-780). Review: 09_Operations/Working/SIGNAL_PAYMENTS-REPLACEMENT-REVIEW_v0_1_2026-11-18.html.",
+      "description_chars": 420,
       "status": "s-todo",
       "priority": "p-p1",
       "segment": "Marketing",
@@ -30961,6 +30989,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 18, 2026 · 12:54 AM CET",
-  "published_at_iso": "2026-11-18T00:54:01+0100"
+  "published_at": "November 18, 2026 · 1:24 AM CET",
+  "published_at_iso": "2026-11-18T01:24:22+0100"
 }
