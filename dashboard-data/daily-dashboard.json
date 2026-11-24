@@ -788,7 +788,7 @@
       "id": "SIG-773",
       "title": "Investor question-and-answer bank…",
       "description": "Created 17 Nov 2026 ~21:20 Zagreb, attended (fundraising-system review chat; Wolf: \"OK, you can add the tasks\"). From the Fundraising System Review v0.1 (https://claude.ai/artifact/UwB7E6x3g15ih3s31rxb28), which reviewed the third-party seed-skill pack (not installed; ideas borrowed). IDs taken from a gap at 770+ because the investor-deck chat is creating tasks in parallel and the number allocator (SIG-755) is not adopted yet. 25 to 30 questions friends-and-family investors ask (YouTube dependency, why people pay, when the 2x payback arrives, what if the round does not fill, can I sell, the d…",
-      "description_chars": 876,
+      "description_chars": 1617,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -31017,6 +31017,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 23, 2026 · 9:24 AM CET",
-  "published_at_iso": "2026-11-23T09:24:34+0100"
+  "published_at": "November 24, 2026 · 9:24 AM CET",
+  "published_at_iso": "2026-11-24T09:24:05+0100"
 }
