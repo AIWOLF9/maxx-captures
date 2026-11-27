@@ -900,7 +900,7 @@
       "id": "SIG-781",
       "title": "Market size for the investor deck…",
       "description": "Created 18 Nov 2026 ~02:20 Zagreb, chat 19 (Wolf: \"please do the research … it's important to have that slide of the market size\"). Checked before creating: the June 2026 market analysis (Research/market-analysis/MSIG-MKT-MARKET-ANALYSIS-0001_v0_1) has a TAM of ~84M \"attention-hygiene\" adults and a ~$30M Year 5 central case — narrower than the deck's story and below the model's $75.84M Year 5; SIG-384 reconciles revenue figures, not market size. Do: current YouTube and social-media user counts (sourced, dated), a top-down TAM → SAM → SOM, each audience on the market slide sized, and how the S…",
-      "description_chars": 2943,
+      "description_chars": 3597,
       "status": "s-todo",
       "priority": "p-p0",
       "segment": "Finance",
@@ -31017,6 +31017,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 26, 2026 · 9:21 AM CET",
-  "published_at_iso": "2026-11-26T09:21:28+0100"
+  "published_at": "November 27, 2026 · 9:19 AM CET",
+  "published_at_iso": "2026-11-27T09:19:43+0100"
 }
