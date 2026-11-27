@@ -115,8 +115,8 @@
     {
       "id": "SIG-381",
       "title": "Investor deck…",
-      "description": "18 Nov 2026 ~01:25 Zagreb (chat 19): Wolf said go on the v0.4 spec changes; the suggestion card was accepted. Full deck v1 built in the same Slides artifact, now titled \"MAXX Signal — Investor Deck v1 (draft)\": https://claude.ai/artifact/FpTYTgPebDL4T18g23RGrq — 40 main slides (acts: The Problem · The Solution · Why It Wins · The Opportunity, with dividers) + 9 appendix slides (A1–A8). 19 website clips and the website tour's own phone and desktop screens reused (desktop tour needed no new screens); Care Angel/Teladoc/Consult A Doctor logos and Wolf's LinkedIn photo on the founder slide. Every…",
-      "description_chars": 7967,
+      "description": "27 Nov 2026 ~21:15 Zagreb (chat 20): Wolf's review of deck v1 (96-slide annotated PPTX + Word notes) turned into spec v0.7, the per-slide outline + talk track, after three independent reviews (investor, story editor, fact checker: 9 claims corrected) and Wolf's slide-by-slide feedback on the review page https://claude.ai/artifact/2xNc6zmWen487K5nZGPoZf (feedback stored there). Spec on disk: _Working/deck-build/INVESTOR-DECK_SPEC_v0_7_DRAFT_2026-11-27.md. 35 core slides + 2 optional; 'questions you should ask us' slide cut to appendix A4. Next: build deck v2 in the Slides artifact from v0.7 —…",
+      "description_chars": 8638,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -31017,6 +31017,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 27, 2026 · 9:19 AM CET",
-  "published_at_iso": "2026-11-27T09:19:43+0100"
+  "published_at": "November 27, 2026 · 9:11 PM CET",
+  "published_at_iso": "2026-11-27T21:11:34+0100"
 }
