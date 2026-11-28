@@ -115,8 +115,8 @@
     {
       "id": "SIG-381",
       "title": "Investor deck…",
-      "description": "28 Nov 2026 ~01:25 Zagreb (chat 21, close): Status Doing → Doing (unchanged). Tranche milestones ruled off the deck (Wolf). Run-sheet published as artifact https://claude.ai/artifact/WyGeXTHjR8XgyoMX1gPerZ. Slide 8 image crop fixed. Wolf reviewed v2: content from his reference slides was lost and on-slide vs spoken unclear — ruled to build a Deck Review Board (storyline view; his material / spec / build side by side; Kept-Changed-Dropped list; round tracking) and rebuild through it; send-ahead on hold until the presented deck is locked. Next: chat 22, opener _Working/OPENER_INVESTOR-DECK-CHAT…",
-      "description_chars": 10713,
+      "description": "28 Nov 2026 ~01:45 Zagreb (chat 22): Status Doing → Doing. Deck Review Board built and published: https://claude.ai/artifact/8meSWUZKYagR2D5FBvF8rC — storyline view (37 slides) + per-slide three columns (Wolf's 96 annotated pages mapped by position, his Word notes and v0.7 review notes · spec v0.8 split On the slide / Spoken only · deck v2 rendered with real images) + automatic Kept / Changed / Dropped (142 lines dropped from v1 slides, each with a restore/drop choice) + feedback fields saved in the board's database + round tracking. Image check: 8 slides crop their image 11–46% (S04, S05, S0…",
+      "description_chars": 11461,
       "status": "s-doing",
       "priority": "p-p0",
       "segment": "Marketing",
@@ -31017,6 +31017,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 28, 2026 · 1:29 AM CET",
-  "published_at_iso": "2026-11-28T01:29:09+0100"
+  "published_at": "November 28, 2026 · 1:44 AM CET",
+  "published_at_iso": "2026-11-28T01:44:21+0100"
 }
