@@ -5543,6 +5543,34 @@
       "first_seen": "2026-11-17"
     },
     {
+      "id": "SIG-782",
+      "title": "Fix the ambassador pay wording on the website and in the outreach messages so it matches the financial model",
+      "description": "Created 28 Nov 2026, unattended stand-up (conversion rule; carried from investor-deck chats 20 and 21, whose closeouts both say \"create a board task at the next stand-up\"). Checked before creating: SIG-071 (ambassador page) and SIG-072 (affiliate set-up) are Done/To-do and don't cover this. The ambassador page and two outreach messages promise \"up to 40% … on every renewal, for as long as they stay\"; the model pays 30% for one year per member to a standard ambassador who joins after the early-bird window, and lifetime only to Founding Partners and early joiners. The FAQ line (\"up to 40%\") is…",
+      "description_chars": 991,
+      "status": "s-todo",
+      "priority": "p-p1",
+      "segment": "Marketing",
+      "venture": "v-signal",
+      "deadline": null,
+      "deadline_label": "Phase Pre-Launch",
+      "deadline_class": "d-future",
+      "effort_mc": "0.5h",
+      "effort_wolf": null,
+      "source": "~/MAXX/SIGNAL/_index/SIGNAL_TASKS.md",
+      "created": null,
+      "zone": "open",
+      "owner": "Claude+Wolf",
+      "executor": "Wolf",
+      "executor_list": [
+        "Wolf"
+      ],
+      "autonomy": "Wolf",
+      "autonomy_reason": "venture-declared",
+      "department": "Marketing",
+      "kind": "tasks",
+      "first_seen": "2026-11-28"
+    },
+    {
       "id": "CAP-0029",
       "title": "ATLAS…",
       "description": "ATLAS — Operations / Chief of Staff (Wave 3, v0.1 spec authored 2026-06-19 — NOT Built/Live). Daily ops coordination, status hygiene, work routing between agents. Full spec: §2.1. Phase 3 · MC L (7-9h) · Wolf ~45m · depends on CAP-0014 v0.2 + 4+ agents live. See §3.",
@@ -31017,6 +31045,6 @@
     }
   ],
   "portfolio_anchor": "Maintenance note (unchanged): This section renders the priority-ordered roadmap from CARRY_FORWARD_INBOX.md per D-PM4d-3 and D-PM4d-4. CFI is canonical; this is the rendered view. Updates flow CFI → portfolio status, never the reverse.",
-  "published_at": "November 28, 2026 · 1:44 AM CET",
-  "published_at_iso": "2026-11-28T01:44:21+0100"
+  "published_at": "November 28, 2026 · 9:18 AM CET",
+  "published_at_iso": "2026-11-28T09:18:34+0100"
 }
